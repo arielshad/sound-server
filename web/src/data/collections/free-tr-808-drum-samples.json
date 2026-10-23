@@ -1,0 +1,611 @@
+{
+  "slug": "free-tr-808-drum-samples",
+  "search": {
+    "q": "808",
+    "categories": [
+      "drums"
+    ]
+  },
+  "updatedAt": "2026-10-23T09:45:18.161Z",
+  "samples": [
+    {
+      "id": "openverse:ef08af5b-a061-483e-8df8-f5f5aca0d463",
+      "provider": "openverse",
+      "title": "808 Kick (wav format)",
+      "category": "drums.kick",
+      "url": "https://freesound.org/people/Elektronikz/sounds/190942",
+      "previewUrl": "https://cdn.freesound.org/previews/190/190942_2661752-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Elektronikz",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.981
+    },
+    {
+      "id": "wikimediacommons:ZappBeats_808.wav",
+      "provider": "wikimediacommons",
+      "title": "ZappBeats 808",
+      "category": "drums",
+      "url": "https://commons.wikimedia.org/wiki/File:ZappBeats_808.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/56/ZappBeats_808.wav/ZappBeats_808.wav.mp3",
+      "downloadable": true,
+      "author": "UnKnownrNone",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 7.662
+    },
+    {
+      "id": "strudel:tidal-drum-machines/RolandTR808_bd/0",
+      "provider": "strudel",
+      "title": "Roland TR-808 · bd · 0",
+      "category": "drums.kick",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/RolandTR808/rolandtr808-bd/BD0000.WAV",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/RolandTR808/rolandtr808-bd/BD0000.WAV",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "openverse:aa7539e9-6b0e-4975-9936-95701fc9b2a0",
+      "provider": "openverse",
+      "title": "808 Deep kick",
+      "category": "drums.kick",
+      "url": "https://freesound.org/people/EKVelika/sounds/208447",
+      "previewUrl": "https://cdn.freesound.org/previews/208/208447_1137749-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "EKVelika",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.315
+    },
+    {
+      "id": "wikimediacommons:A_little_808_beat_(Antti_Luode).mp3",
+      "provider": "wikimediacommons",
+      "title": "A little 808 beat (Antti Luode)",
+      "category": "drums",
+      "url": "https://commons.wikimedia.org/wiki/File:A_little_808_beat_(Antti_Luode).mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/A_little_808_beat_%28Antti_Luode%29.mp3",
+      "downloadable": true,
+      "author": "Antti Luode",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 160.078
+    },
+    {
+      "id": "strudel:tidal-drum-machines/RolandTR808_bd/1",
+      "provider": "strudel",
+      "title": "Roland TR-808 · bd · 1",
+      "category": "drums.kick",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/RolandTR808/rolandtr808-bd/BD0010.WAV",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/RolandTR808/rolandtr808-bd/BD0010.WAV",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:808,_cowbell.OGG",
+      "provider": "wikimediacommons",
+      "title": "808, cowbell",
+      "category": "drums.perc",
+      "url": "https://commons.wikimedia.org/wiki/File:808,_cowbell.OGG",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c5/808%2C_cowbell.OGG/808%2C_cowbell.OGG.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "I speak so quietly",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 1.5
+    },
+    {
+      "id": "openverse:f0d47d06-777f-4ed1-9d78-f018cc88502b",
+      "provider": "openverse",
+      "title": "Rock 808 beat.aiff",
+      "category": "drums",
+      "url": "https://freesound.org/people/T_roy_920/sounds/324406",
+      "previewUrl": "https://cdn.freesound.org/previews/324/324406_4929134-hq.mp3",
+      "downloadable": true,
+      "author": "T_roy_920",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "aiff"
+      ],
+      "durationSec": 8.962
+    },
+    {
+      "id": "strudel:tidal-drum-machines/RolandTR808_bd/2",
+      "provider": "strudel",
+      "title": "Roland TR-808 · bd · 2",
+      "category": "drums.kick",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/RolandTR808/rolandtr808-bd/BD0025.WAV",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/RolandTR808/rolandtr808-bd/BD0025.WAV",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "openverse:8c050d15-a510-48d9-82e4-b9b6df189b1c",
+      "provider": "openverse",
+      "title": "Subby 808 Kicks, Beeps, Noise.wav",
+      "category": "drums.kick",
+      "url": "https://freesound.org/people/RutgerMuller/sounds/50694",
+      "previewUrl": "https://cdn.freesound.org/previews/50/50694_179538-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "RutgerMuller",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 4
+    },
+    {
+      "id": "strudel:tidal-drum-machines/RolandTR808_bd/3",
+      "provider": "strudel",
+      "title": "Roland TR-808 · bd · 3",
+      "category": "drums.kick",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/RolandTR808/rolandtr808-bd/BD0050.WAV",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/RolandTR808/rolandtr808-bd/BD0050.WAV",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "openverse:e87f6005-898e-4ce3-a4b9-a4198a9b6653",
+      "provider": "openverse",
+      "title": "A43-808-cowbell.aif",
+      "category": "drums.perc",
+      "url": "https://freesound.org/people/A43/sounds/9780",
+      "previewUrl": "https://cdn.freesound.org/previews/9/9780_23262-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "A43",
+      "license": {
+        "id": "LicenseRef-Sampling-Plus-1.0",
+        "name": "CC Sampling+ 1.0",
+        "url": "https://creativecommons.org/licenses/sampling+/1.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "aiff"
+      ],
+      "durationSec": 0.491
+    },
+    {
+      "id": "strudel:tidal-drum-machines/RolandTR808_bd/4",
+      "provider": "strudel",
+      "title": "Roland TR-808 · bd · 4",
+      "category": "drums.kick",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/RolandTR808/rolandtr808-bd/BD0075.WAV",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/RolandTR808/rolandtr808-bd/BD0075.WAV",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "openverse:1972a98c-e27a-40e3-bae3-5ea60b29d5da",
+      "provider": "openverse",
+      "title": "FX 808 Beat 120 BPM.wav",
+      "category": "drums",
+      "url": "https://freesound.org/people/day_tripper13/sounds/117646",
+      "previewUrl": "https://cdn.freesound.org/previews/117/117646_2045208-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "day_tripper13",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "bpm": 120,
+      "durationSec": 16
+    },
+    {
+      "id": "strudel:tidal-drum-machines/RolandTR808_bd/5",
+      "provider": "strudel",
+      "title": "Roland TR-808 · bd · 5",
+      "category": "drums.kick",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/RolandTR808/rolandtr808-bd/BD1000.WAV",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/RolandTR808/rolandtr808-bd/BD1000.WAV",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:808acctrig_01.ogg",
+      "provider": "wikimediacommons",
+      "title": "808acctrig 01",
+      "category": "drums",
+      "url": "https://commons.wikimedia.org/wiki/File:808acctrig_01.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/ba/808acctrig_01.ogg/808acctrig_01.ogg.mp3",
+      "downloadable": true,
+      "author": "Theofanis Siassios",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 20.769
+    },
+    {
+      "id": "openverse:6bebac0e-6bd3-4a81-896a-93df9eb4a2e8",
+      "provider": "openverse",
+      "title": "120bpm 808 Break Beat.wav",
+      "category": "drums.break",
+      "url": "https://freesound.org/people/mkoenig/sounds/43531",
+      "previewUrl": "https://cdn.freesound.org/previews/43/43531_384035-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "mkoenig",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "bpm": 120,
+      "durationSec": 16
+    },
+    {
+      "id": "strudel:tidal-drum-machines/RolandTR808_bd/6",
+      "provider": "strudel",
+      "title": "Roland TR-808 · bd · 6",
+      "category": "drums.kick",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/RolandTR808/rolandtr808-bd/BD1010.WAV",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/RolandTR808/rolandtr808-bd/BD1010.WAV",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:808patterns_01.ogg",
+      "provider": "wikimediacommons",
+      "title": "808patterns 01",
+      "category": "drums",
+      "url": "https://commons.wikimedia.org/wiki/File:808patterns_01.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a7/808patterns_01.ogg/808patterns_01.ogg.mp3",
+      "downloadable": true,
+      "author": "Theofanis Siassios",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 53.538
+    },
+    {
+      "id": "strudel:tidal-drum-machines/RolandTR808_bd/7",
+      "provider": "strudel",
+      "title": "Roland TR-808 · bd · 7",
+      "category": "drums.kick",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/RolandTR808/rolandtr808-bd/BD1025.WAV",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/RolandTR808/rolandtr808-bd/BD1025.WAV",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:808cbtrig_01.ogg",
+      "provider": "wikimediacommons",
+      "title": "808cbtrig 01",
+      "category": "drums",
+      "url": "https://commons.wikimedia.org/wiki/File:808cbtrig_01.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c7/808cbtrig_01.ogg/808cbtrig_01.ogg.mp3",
+      "downloadable": true,
+      "author": "Theofanis Siassios",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 18.923
+    },
+    {
+      "id": "strudel:tidal-drum-machines/RolandTR808_bd/8",
+      "provider": "strudel",
+      "title": "Roland TR-808 · bd · 8",
+      "category": "drums.kick",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/RolandTR808/rolandtr808-bd/BD1050.WAV",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/RolandTR808/rolandtr808-bd/BD1050.WAV",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:tidal-drum-machines/RolandTR808_bd/9",
+      "provider": "strudel",
+      "title": "Roland TR-808 · bd · 9",
+      "category": "drums.kick",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/RolandTR808/rolandtr808-bd/BD1075.WAV",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/RolandTR808/rolandtr808-bd/BD1075.WAV",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "openverse:35e252d7-91f0-4569-a3c9-d048e7dfae82",
+      "provider": "openverse",
+      "title": "A43-808-oHH.aif",
+      "category": "drums.hat",
+      "url": "https://freesound.org/people/A43/sounds/9878",
+      "previewUrl": "https://cdn.freesound.org/previews/9/9878_23262-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "A43",
+      "license": {
+        "id": "LicenseRef-Sampling-Plus-1.0",
+        "name": "CC Sampling+ 1.0",
+        "url": "https://creativecommons.org/licenses/sampling+/1.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "aiff"
+      ],
+      "durationSec": 0.266
+    },
+    {
+      "id": "strudel:tidal-drum-machines/RolandTR808_bd/10",
+      "provider": "strudel",
+      "title": "Roland TR-808 · bd · 10",
+      "category": "drums.kick",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/RolandTR808/rolandtr808-bd/BD2500.WAV",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/RolandTR808/rolandtr808-bd/BD2500.WAV",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:tidal-drum-machines/RolandTR808_bd/11",
+      "provider": "strudel",
+      "title": "Roland TR-808 · bd · 11",
+      "category": "drums.kick",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/RolandTR808/rolandtr808-bd/BD2510.WAV",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/RolandTR808/rolandtr808-bd/BD2510.WAV",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:tidal-drum-machines/RolandTR808_bd/12",
+      "provider": "strudel",
+      "title": "Roland TR-808 · bd · 12",
+      "category": "drums.kick",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/RolandTR808/rolandtr808-bd/BD2525.WAV",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/RolandTR808/rolandtr808-bd/BD2525.WAV",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:tidal-drum-machines/RolandTR808_bd/13",
+      "provider": "strudel",
+      "title": "Roland TR-808 · bd · 13",
+      "category": "drums.kick",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/RolandTR808/rolandtr808-bd/BD2550.WAV",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/RolandTR808/rolandtr808-bd/BD2550.WAV",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    }
+  ]
+}

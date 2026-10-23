@@ -1,0 +1,693 @@
+{
+  "slug": "free-tom-samples",
+  "search": {
+    "q": "tom",
+    "categories": [
+      "drums.tom"
+    ]
+  },
+  "updatedAt": "2026-10-23T09:45:15.005Z",
+  "samples": [
+    {
+      "id": "wikimediacommons:Tom_Kenny_The_SpongeBob_Musical_interview.ogg",
+      "provider": "wikimediacommons",
+      "title": "Tom Kenny The SpongeBob Musical interview",
+      "category": "drums.tom",
+      "url": "https://commons.wikimedia.org/wiki/File:Tom_Kenny_The_SpongeBob_Musical_interview.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3f/Tom_Kenny_The_SpongeBob_Musical_interview.ogg/Tom_Kenny_The_SpongeBob_Musical_interview.ogg.mp3",
+      "downloadable": true,
+      "author": "Crazy Amanda Reacts!",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 83.066
+    },
+    {
+      "id": "opengameart:wgs-music-40-vs-tom-2-loops",
+      "provider": "opengameart",
+      "title": "WGS Music #40 - vs Tom #2 [Loops]",
+      "category": "drums.tom",
+      "url": "https://opengameart.org/content/wgs-music-40-vs-tom-2-loops",
+      "previewUrl": "https://opengameart.org/sites/default/files/tom_me_2_128.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/tom_me_2_128.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "wikimediacommons:Tom_Scott_-_TEDx_Liverpool.ogg",
+      "provider": "wikimediacommons",
+      "title": "Tom Scott - TEDx Liverpool",
+      "category": "drums.tom",
+      "url": "https://commons.wikimedia.org/wiki/File:Tom_Scott_-_TEDx_Liverpool.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fe/Tom_Scott_-_TEDx_Liverpool.ogg/Tom_Scott_-_TEDx_Liverpool.ogg.mp3",
+      "downloadable": true,
+      "author": "TEDxLiverpool",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 12.647
+    },
+    {
+      "id": "strudel:tidal-drum-machines/SequentialCircuitsTom_ht/0",
+      "provider": "strudel",
+      "title": "Sequential Circuits Tom · ht · 0",
+      "category": "drums.tom",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/SequentialCircuitsTom/sequentialcircuitstom-ht/Tom-01.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/SequentialCircuitsTom/sequentialcircuitstom-ht/Tom-01.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "opengameart:wgs-music-41-vs-tom-3-loops",
+      "provider": "opengameart",
+      "title": "WGS Music #41 - vs Tom #3 [Loops]",
+      "category": "drums.tom",
+      "url": "https://opengameart.org/content/wgs-music-41-vs-tom-3-loops",
+      "previewUrl": "https://opengameart.org/sites/default/files/tom_me_3_128.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/tom_me_3_128.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "wikimediacommons:Tom_Suozzi_speaks_on_recognizing_victims_of_the_Iran_Hostage_Crisis.ogg",
+      "provider": "wikimediacommons",
+      "title": "Tom Suozzi speaks on recognizing victims of the Iran Hostage Crisis",
+      "category": "drums.tom",
+      "url": "https://commons.wikimedia.org/wiki/File:Tom_Suozzi_speaks_on_recognizing_victims_of_the_Iran_Hostage_Crisis.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/63/Tom_Suozzi_speaks_on_recognizing_victims_of_the_Iran_Hostage_Crisis.ogg/Tom_Suozzi_speaks_on_recognizing_victims_of_the_Iran_Hostage_Crisis.ogg.mp3",
+      "downloadable": true,
+      "author": "U.S. House of Representatives",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 104.406
+    },
+    {
+      "id": "opengameart:wgs-music-43-vs-tom-4-loops",
+      "provider": "opengameart",
+      "title": "WGS Music #43 - vs Tom #4 [Loops]",
+      "category": "drums.tom",
+      "url": "https://opengameart.org/content/wgs-music-43-vs-tom-4-loops",
+      "previewUrl": "https://opengameart.org/sites/default/files/vstom4.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/vstom4.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "wikimediacommons:Tom,_Tom,_the_Piper's_Son.ogg",
+      "provider": "wikimediacommons",
+      "title": "Tom, Tom, the Piper's Son",
+      "category": "drums.tom",
+      "url": "https://commons.wikimedia.org/wiki/File:Tom,_Tom,_the_Piper%27s_Son.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/64/Tom%2C_Tom%2C_the_Piper%27s_Son.ogg/Tom%2C_Tom%2C_the_Piper%27s_Son.ogg.mp3",
+      "downloadable": true,
+      "author": "CambridgeBayWeather",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 7.967
+    },
+    {
+      "id": "strudel:tidal-drum-machines/SequentialCircuitsTom_ht/1",
+      "provider": "strudel",
+      "title": "Sequential Circuits Tom · ht · 1",
+      "category": "drums.tom",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/SequentialCircuitsTom/sequentialcircuitstom-ht/Tom-02.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/SequentialCircuitsTom/sequentialcircuitstom-ht/Tom-02.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Tom_Tugendhat_on_the_War_in_Afghanistan.ogg",
+      "provider": "wikimediacommons",
+      "title": "Tom Tugendhat on the War in Afghanistan",
+      "category": "drums.tom",
+      "url": "https://commons.wikimedia.org/wiki/File:Tom_Tugendhat_on_the_War_in_Afghanistan.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a4/Tom_Tugendhat_on_the_War_in_Afghanistan.ogg/Tom_Tugendhat_on_the_War_in_Afghanistan.ogg.mp3",
+      "downloadable": true,
+      "author": "Northampton High School technology department",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 70.891
+    },
+    {
+      "id": "wikimediacommons:Tom_Turpin_-_Bowery_Buck_(1899).ogg",
+      "provider": "wikimediacommons",
+      "title": "Tom Turpin - Bowery Buck (1899)",
+      "category": "drums.tom",
+      "url": "https://commons.wikimedia.org/wiki/File:Tom_Turpin_-_Bowery_Buck_(1899).ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d8/Tom_Turpin_-_Bowery_Buck_%281899%29.ogg/Tom_Turpin_-_Bowery_Buck_%281899%29.ogg.mp3",
+      "downloadable": true,
+      "author": "Gnissah",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 141.181
+    },
+    {
+      "id": "wikimediacommons:Tom_Medio.ogg",
+      "provider": "wikimediacommons",
+      "title": "Tom Medio",
+      "category": "drums.tom",
+      "url": "https://commons.wikimedia.org/wiki/File:Tom_Medio.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a4/Tom_Medio.ogg/Tom_Medio.ogg.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "ZappaMidiPF",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 0.824
+    },
+    {
+      "id": "wikimediacommons:Tom_Turpin_-_The_Buffalo_Rag_(1904).ogg",
+      "provider": "wikimediacommons",
+      "title": "Tom Turpin - The Buffalo Rag (1904)",
+      "category": "drums.tom",
+      "url": "https://commons.wikimedia.org/wiki/File:Tom_Turpin_-_The_Buffalo_Rag_(1904).ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/32/Tom_Turpin_-_The_Buffalo_Rag_%281904%29.ogg/Tom_Turpin_-_The_Buffalo_Rag_%281904%29.ogg.mp3",
+      "downloadable": true,
+      "author": "Gnissah",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 137.505
+    },
+    {
+      "id": "wikimediacommons:Tom_Vilsack_speaks_on_free_school_meals_for_students_and_declining_hunger_rates.ogg",
+      "provider": "wikimediacommons",
+      "title": "Tom Vilsack speaks on free school meals for students and declining hunger rates",
+      "category": "drums.tom",
+      "url": "https://commons.wikimedia.org/wiki/File:Tom_Vilsack_speaks_on_free_school_meals_for_students_and_declining_hunger_rates.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cd/Tom_Vilsack_speaks_on_free_school_meals_for_students_and_declining_hunger_rates.ogg/Tom_Vilsack_speaks_on_free_school_meals_for_students_and_declining_hunger_rates.ogg.mp3",
+      "downloadable": true,
+      "author": "The White House Governmental Youtube Channel",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 229.146
+    },
+    {
+      "id": "wikimediacommons:Tom_Agudo.ogg",
+      "provider": "wikimediacommons",
+      "title": "Tom Agudo",
+      "category": "drums.tom",
+      "url": "https://commons.wikimedia.org/wiki/File:Tom_Agudo.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3c/Tom_Agudo.ogg/Tom_Agudo.ogg.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "ZappaMidiPF",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 0.867
+    },
+    {
+      "id": "strudel:vcsl/tom_stick/0",
+      "provider": "strudel",
+      "title": "VCSL · tom_stick · 0",
+      "category": "drums.tom",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Membranophones/Struck%20Membranophones/Tom%201/Stick/TomH_HitS_v2_rr1_Mid.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Membranophones/Struck%20Membranophones/Tom%201/Stick/TomH_HitS_v2_rr1_Mid.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Tom_Cotton_on_his_bill_to_mandate_compony_disclosure_of_foreign_subsidies_prior_to_merger.ogg",
+      "provider": "wikimediacommons",
+      "title": "Tom Cotton on his bill to mandate compony disclosure of foreign subsidies prior to merger",
+      "category": "drums.tom",
+      "url": "https://commons.wikimedia.org/wiki/File:Tom_Cotton_on_his_bill_to_mandate_compony_disclosure_of_foreign_subsidies_prior_to_merger.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fb/Tom_Cotton_on_his_bill_to_mandate_compony_disclosure_of_foreign_subsidies_prior_to_merger.ogg/Tom_Cotton_on_his_bill_to_mandate_compony_disclosure_of_foreign_subsidies_prior_to_merger.ogg.mp3",
+      "downloadable": true,
+      "author": "C-Span",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 57.91
+    },
+    {
+      "id": "strudel:vcsl/tom_stick/1",
+      "provider": "strudel",
+      "title": "VCSL · tom_stick · 1",
+      "category": "drums.tom",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Membranophones/Struck%20Membranophones/Tom%201/Stick/TomH_HitS_v2_rr2_Mid.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Membranophones/Struck%20Membranophones/Tom%201/Stick/TomH_HitS_v2_rr2_Mid.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Senate_Minority_Leader_Tom_Daschle_on_Confirming_Tom_Ridge_and_Challenges_Facing_the_Department_of_Homeland_Security.ogg",
+      "provider": "wikimediacommons",
+      "title": "Senate Minority Leader Tom Daschle on Confirming Tom Ridge and Challenges Facing the Department of Homeland Security",
+      "category": "drums.tom",
+      "url": "https://commons.wikimedia.org/wiki/File:Senate_Minority_Leader_Tom_Daschle_on_Confirming_Tom_Ridge_and_Challenges_Facing_the_Department_of_Homeland_Security.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/85/Senate_Minority_Leader_Tom_Daschle_on_Confirming_Tom_Ridge_and_Challenges_Facing_the_Department_of_Homeland_Security.ogg/Senate_Minority_Leader_Tom_Daschle_on_Confirming_Tom_Ridge_and_Challenges_Facing_the_Department_of_Homeland_Security.ogg.mp3",
+      "downloadable": true,
+      "author": "United States Senate",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 467.051
+    },
+    {
+      "id": "strudel:vcsl/tom_stick/2",
+      "provider": "strudel",
+      "title": "VCSL · tom_stick · 2",
+      "category": "drums.tom",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Membranophones/Struck%20Membranophones/Tom%201/Stick/TomH_HitS_v3_rr1_Mid.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Membranophones/Struck%20Membranophones/Tom%201/Stick/TomH_HitS_v3_rr1_Mid.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Tom_Grave.ogg",
+      "provider": "wikimediacommons",
+      "title": "Tom Grave",
+      "category": "drums.tom",
+      "url": "https://commons.wikimedia.org/wiki/File:Tom_Grave.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8d/Tom_Grave.ogg/Tom_Grave.ogg.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "ZappaMidiPF",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 0.888
+    },
+    {
+      "id": "strudel:vcsl/tom_stick/3",
+      "provider": "strudel",
+      "title": "VCSL · tom_stick · 3",
+      "category": "drums.tom",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Membranophones/Struck%20Membranophones/Tom%201/Stick/TomH_HitS_v3_rr2_Mid.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Membranophones/Struck%20Membranophones/Tom%201/Stick/TomH_HitS_v3_rr2_Mid.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Rep._Tom_Lantos_on_the_Detention_of_Aung_San_Suu_Kyi_and_Human_Rights_in_Myanmar.ogg",
+      "provider": "wikimediacommons",
+      "title": "Rep. Tom Lantos on the Detention of Aung San Suu Kyi and Human Rights in Myanmar",
+      "category": "drums.tom",
+      "url": "https://commons.wikimedia.org/wiki/File:Rep._Tom_Lantos_on_the_Detention_of_Aung_San_Suu_Kyi_and_Human_Rights_in_Myanmar.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ef/Rep._Tom_Lantos_on_the_Detention_of_Aung_San_Suu_Kyi_and_Human_Rights_in_Myanmar.ogg/Rep._Tom_Lantos_on_the_Detention_of_Aung_San_Suu_Kyi_and_Human_Rights_in_Myanmar.ogg.mp3",
+      "downloadable": true,
+      "author": "United States House of Representatives",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 434.701
+    },
+    {
+      "id": "strudel:vcsl/tom_stick/4",
+      "provider": "strudel",
+      "title": "VCSL · tom_stick · 4",
+      "category": "drums.tom",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Membranophones/Struck%20Membranophones/Tom%201/Stick/TomH_HitS_v4_rr1_Mid.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Membranophones/Struck%20Membranophones/Tom%201/Stick/TomH_HitS_v4_rr1_Mid.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:vcsl/tom_stick/5",
+      "provider": "strudel",
+      "title": "VCSL · tom_stick · 5",
+      "category": "drums.tom",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Membranophones/Struck%20Membranophones/Tom%201/Stick/TomH_HitS_v4_rr2_Mid.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Membranophones/Struck%20Membranophones/Tom%201/Stick/TomH_HitS_v4_rr2_Mid.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:vcsl/tom_stick/6",
+      "provider": "strudel",
+      "title": "VCSL · tom_stick · 6",
+      "category": "drums.tom",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Membranophones/Struck%20Membranophones/Tom%201/Stick/TomH_RollS_v1_rr1_Mid.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Membranophones/Struck%20Membranophones/Tom%201/Stick/TomH_RollS_v1_rr1_Mid.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:vcsl/tom_stick/7",
+      "provider": "strudel",
+      "title": "VCSL · tom_stick · 7",
+      "category": "drums.tom",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Membranophones/Struck%20Membranophones/Tom%201/Stick/TomH_RollS_v2_rr1_Mid.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Membranophones/Struck%20Membranophones/Tom%201/Stick/TomH_RollS_v2_rr1_Mid.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:vcsl/tom_rim/0",
+      "provider": "strudel",
+      "title": "VCSL · tom_rim · 0",
+      "category": "drums.tom",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Membranophones/Struck%20Membranophones/Tom%201/TomH_rimFLS_rr2_Mid.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Membranophones/Struck%20Membranophones/Tom%201/TomH_rimFLS_rr2_Mid.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:vcsl/tom_rim/1",
+      "provider": "strudel",
+      "title": "VCSL · tom_rim · 1",
+      "category": "drums.tom",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Membranophones/Struck%20Membranophones/Tom%201/TomH_rimFLS_rr4_Mid.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Membranophones/Struck%20Membranophones/Tom%201/TomH_rimFLS_rr4_Mid.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:vcsl/tom_rim/2",
+      "provider": "strudel",
+      "title": "VCSL · tom_rim · 2",
+      "category": "drums.tom",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Membranophones/Struck%20Membranophones/Tom%201/TomH_rimS_v2_rr1_Mid.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Membranophones/Struck%20Membranophones/Tom%201/TomH_rimS_v2_rr1_Mid.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:vcsl/tom_rim/3",
+      "provider": "strudel",
+      "title": "VCSL · tom_rim · 3",
+      "category": "drums.tom",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Membranophones/Struck%20Membranophones/Tom%201/TomH_rimS_v2_rr2_Mid.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Membranophones/Struck%20Membranophones/Tom%201/TomH_rimS_v2_rr2_Mid.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    }
+  ]
+}
