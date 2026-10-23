@@ -1,72 +1,94 @@
 /**
- * Audio for the search and kit pages: fetching previews, one-at-a-time
- * playback and a registry of players that keyboard shortcuts can drive.
+ * Audio for the search and kit pages: preview URLs, waveform peaks,
+ * one-at-a-time playback and a registry of players that keyboard shortcuts
+ * can drive.
  *
- * Previews are fetched once into a Blob (cached), then handed to wavesurfer,
- * which draws the waveform and plays from a blob: URL. The first try is the
- * source's own preview URL (most sample CDNs send CORS headers); when that is
- * blocked, or the preview needs a Referer, the server's same-origin proxy
- * (/v1/samples/:id/preview?proxy=1) fetches it instead.
+ * Playback uses a plain <audio> element pointed at the source's preview (or
+ * the server's /preview endpoint, which redirects or proxies), so it needs no
+ * CORS from the sample sites. The waveform comes from the server's
+ * /v1/samples/:id/peaks (a few KB of JSON, cached), so the browser never has
+ * to download and decode audio just to draw it.
  */
 import { useSyncExternalStore } from "react";
-import { apiHeaders, safeUrl, sampleBase, type Sample } from "./api";
+import { apiHeaders, getKey, safeUrl, sampleBase, type Sample } from "./api";
 
 type PreviewSource = Pick<Sample, "id" | "previewUrl" | "previewNeedsReferer">;
 
-const MAX_PREVIEW_BYTES = 30 * 1024 * 1024;
-const CACHE_SIZE = 48;
-const cache = new Map<string, Promise<Blob>>();
-
-async function fetchAudio(url: string, init: RequestInit): Promise<Blob> {
-  const res = await fetch(url, init);
-  if (!res.ok) throw new Error(`HTTP ${res.status}`);
-  const length = Number(res.headers.get("content-length") ?? 0);
-  if (length > MAX_PREVIEW_BYTES) throw new Error("preview too large");
-  const blob = await res.blob();
-  if (blob.size > MAX_PREVIEW_BYTES || blob.size === 0) throw new Error("bad preview");
-  if (/^(text|application\/json)/.test(blob.type)) throw new Error("not audio");
-  return blob;
-}
-
-/** The URL an <audio> element can play without CORS (fallback when the waveform can't be drawn). */
-export function directPreview(s: PreviewSource): string | undefined {
+/** The source's own preview URL, when the browser may load it directly. */
+function sourcePreview(s: PreviewSource): string | undefined {
   return s.previewNeedsReferer ? undefined : safeUrl(s.previewUrl);
 }
 
-export const proxiedPreview = (id: string) => `${sampleBase(id)}/preview?proxy=1`;
+/**
+ * A URL an <audio> element can play: the source's preview, or the server's
+ * preview endpoint (search results don't always carry a preview URL, and
+ * some previews need a Referer, which the server adds). Undefined when the
+ * server needs an API key: then the preview is fetched with the key in a
+ * header (previewBlob).
+ */
+export function playableUrl(s: PreviewSource): string | undefined {
+  if (getKey()) return undefined;
+  return sourcePreview(s) ?? `${sampleBase(s.id)}/preview`;
+}
 
-/** The preview as a Blob, from the source or through the server. Cached per sample. */
-export function previewBlob(s: PreviewSource): Promise<Blob> {
-  let p = cache.get(s.id);
-  if (p) {
-    // Refresh its place in the LRU order.
-    cache.delete(s.id);
-    cache.set(s.id, p);
-    return p;
+const MAX_PREVIEW_BYTES = 30 * 1024 * 1024;
+
+/** The preview as a Blob through the server (for servers that need an API key). */
+export async function previewBlob(s: PreviewSource): Promise<Blob> {
+  const res = await fetch(`${sampleBase(s.id)}/preview?proxy=1`, { headers: apiHeaders() });
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  const blob = await res.blob();
+  if (blob.size === 0 || blob.size > MAX_PREVIEW_BYTES) throw new Error("bad preview");
+  return blob;
+}
+
+/** /v1/samples/:id/peaks: interleaved min/max pairs, −1..1. */
+export interface Peaks {
+  peaks: number[];
+  points: number;
+  durationSec: number;
+}
+
+const PEAKS_CACHE = 200;
+const peaksCache = new Map<string, Promise<Peaks>>();
+
+/** Waveform peaks for a sample (cached, failures included, so a broken preview is asked for once). */
+export function fetchPeaks(id: string, points: number): Promise<Peaks> {
+  const k = `${id}|${points}`;
+  let p = peaksCache.get(k);
+  if (!p) {
+    p = fetch(`${sampleBase(id)}/peaks?points=${points}`, { headers: apiHeaders({ accept: "application/json" }) }).then(async (r) => {
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      const body = (await r.json()) as Peaks;
+      if (!Array.isArray(body.peaks) || !body.peaks.length || !(body.durationSec > 0)) throw new Error("no peaks");
+      return body;
+    });
+    p.catch(() => undefined);
+    peaksCache.set(k, p);
+    while (peaksCache.size > PEAKS_CACHE) peaksCache.delete(peaksCache.keys().next().value!);
   }
-  p = (async () => {
-    const direct = directPreview(s);
-    if (direct) {
-      try {
-        return await fetchAudio(direct, { mode: "cors", credentials: "omit", referrerPolicy: "no-referrer" });
-      } catch {
-        /* blocked by CORS or gone: try the proxy */
-      }
-    }
-    return fetchAudio(proxiedPreview(s.id), { headers: apiHeaders() });
-  })();
-  p.catch(() => cache.delete(s.id));
-  cache.set(s.id, p);
-  while (cache.size > CACHE_SIZE) cache.delete(cache.keys().next().value!);
   return p;
 }
 
-/** Run at most `n` preview loads at once (rows load as they scroll into view). */
+/** wavesurfer draws the top half from the first channel and the bottom from the second. */
+export function peakChannels(p: Peaks): [number[], number[]] {
+  const max: number[] = [];
+  const min: number[] = [];
+  for (let i = 0; i + 1 < p.peaks.length; i += 2) {
+    min.push(p.peaks[i]!);
+    max.push(p.peaks[i + 1]!);
+  }
+  return [max, min];
+}
+
+/** Run at most a few waveform loads at once (rows load as they scroll into view). */
 const MAX_PARALLEL = 3;
 let running = 0;
 const waiting: (() => void)[] = [];
 export async function queued<T>(fn: () => Promise<T>, urgent = false): Promise<T> {
-  if (!urgent && running >= MAX_PARALLEL) await new Promise<void>((r) => waiting.push(r));
+  if (!urgent) {
+    while (running >= MAX_PARALLEL) await new Promise<void>((r) => waiting.push(r));
+  }
   running++;
   try {
     return await fn();

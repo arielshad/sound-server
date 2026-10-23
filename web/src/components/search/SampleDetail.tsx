@@ -16,20 +16,20 @@ const fmtTime = (t: number) => `${Math.floor(t / 60)}:${String(Math.floor(t % 60
 
 /** Big waveform with a play button and time. */
 export function BigPlayer({ sample, playerKey }: { sample: Sample; playerKey: string }) {
-  const p = useSamplePlayer(playerKey, sample, { height: 88, barWidth: 3 });
+  const p = useSamplePlayer(playerKey, sample, { height: 88, barWidth: 3, points: 500 });
   const busy = p.playing && p.state === "loading";
   return (
     <div className="rounded-xl border bg-card/60 p-3">
       <div className="relative h-[88px]">
         {p.state !== "ready" && (
           <div className={cn("absolute inset-0", p.state === "loading" && "animate-pulse")} aria-hidden="true">
-            {p.hasPreview && p.state !== "error" && p.state !== "nowave" ? <Placeholder seed={sample.id} bars={80} /> : <div className="flex h-full items-center"><div className="h-px w-full bg-border" /></div>}
+            {p.state !== "nowave" ? <Placeholder seed={sample.id} bars={80} /> : <div className="flex h-full items-center"><div className="h-px w-full bg-border" /></div>}
           </div>
         )}
         <div ref={p.container} className={cn("h-[88px] w-full", p.state !== "ready" && "invisible")} />
       </div>
       <div className="mt-2 flex items-center gap-3">
-        <Button size="sm" onClick={() => void p.toggle()} disabled={!p.hasPreview} aria-label={p.playing ? "Pause preview" : "Play preview"}>
+        <Button size="sm" onClick={() => void p.toggle()} aria-label={p.playing ? "Pause preview" : "Play preview"}>
           {busy ? <Loader2 className="size-4 animate-spin" /> : p.playing ? <Pause className="size-4" /> : <Play className="size-4" />}
           {p.playing ? "Pause" : "Play preview"}
         </Button>
@@ -37,9 +37,11 @@ export function BigPlayer({ sample, playerKey }: { sample: Sample; playerKey: st
           {fmtTime(p.time)}
           {p.duration ? ` / ${fmtTime(p.duration)}` : ""}
         </span>
-        {!p.hasPreview && <span className="text-xs text-muted-foreground">No preview from this source.</span>}
-        {p.state === "nowave" && <span className="text-xs text-muted-foreground">Waveform unavailable; audio plays directly.</span>}
-        {p.state === "error" && <span className="text-xs text-destructive">The preview could not be loaded.</span>}
+        {p.failed ? (
+          <span className="text-xs text-destructive">The preview could not be played here. Listen on the source page.</span>
+        ) : (
+          p.state === "nowave" && <span className="text-xs text-muted-foreground">No waveform for this one, but it plays.</span>
+        )}
       </div>
     </div>
   );

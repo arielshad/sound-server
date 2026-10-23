@@ -101,15 +101,15 @@ function strudelLink(code: string): string {
 }
 
 function MiniPlayer({ sample, playerKey }: { sample: Sample; playerKey: string }) {
-  const p = useSamplePlayer(playerKey, sample, { height: 32 });
+  const p = useSamplePlayer(playerKey, sample, { height: 32, points: 120 });
   const busy = p.playing && p.state === "loading";
   return (
     <div className="flex min-w-0 flex-1 items-center gap-2">
       <button
         type="button"
         onClick={() => void p.toggle()}
-        disabled={!p.hasPreview}
         aria-label={p.playing ? `Pause ${sample.title}` : `Play ${sample.title}`}
+        title={p.failed ? "The preview could not be played here" : undefined}
         className={cn(
           "flex size-8 shrink-0 items-center justify-center rounded-full border transition disabled:opacity-40",
           p.playing ? "border-primary bg-primary text-primary-foreground" : "bg-card hover:border-primary/50 hover:text-primary",
@@ -120,7 +120,7 @@ function MiniPlayer({ sample, playerKey }: { sample: Sample; playerKey: string }
       <div className="relative h-8 min-w-0 flex-1">
         {p.state !== "ready" && (
           <div className="absolute inset-0" aria-hidden="true">
-            {p.state === "error" || p.state === "nowave" ? <div className="flex h-full items-center"><div className="h-px w-full bg-border" /></div> : <Placeholder seed={sample.id} bars={40} />}
+            {p.state === "nowave" ? <div className="flex h-full items-center"><div className="h-px w-full bg-border" /></div> : <Placeholder seed={sample.id} bars={40} />}
           </div>
         )}
         <div ref={p.container} className={cn("h-8 w-full", p.state !== "ready" && "invisible")} />

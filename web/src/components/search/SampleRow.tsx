@@ -1,5 +1,5 @@
 import { memo } from "react";
-import { Download, Loader2, Lock, Pause, Play } from "lucide-react";
+import { CircleAlert, Download, Loader2, Lock, Pause, Play } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { categoryLabel, durationText, formLabel, keyText } from "@/lib/vocab";
 import { download, sampleBase, slugName, type Sample } from "./api";
@@ -58,7 +58,7 @@ interface RowProps {
 
 export const SampleRow = memo(function SampleRow({ sample: s, providerName, selected, onSelect, onOpen }: RowProps) {
   const key = rowKey(s.id);
-  const p = useSamplePlayer(key, s, { autoLoad: s.durationSec === undefined || s.durationSec <= 30 });
+  const p = useSamplePlayer(key, s);
   const busy = p.playing && p.state === "loading";
   const paid = s.price && !s.price.free;
   return (
@@ -80,15 +80,14 @@ export const SampleRow = memo(function SampleRow({ sample: s, providerName, sele
           onSelect(s.id);
           void p.toggle();
         }}
-        disabled={!p.hasPreview}
         aria-label={p.playing ? `Pause ${s.title}` : `Play ${s.title}`}
+        title={p.failed ? "The preview could not be played here; open the source page" : undefined}
         className={cn(
           "row-span-2 flex size-9 items-center justify-center rounded-full border transition md:row-span-1",
           p.playing ? "border-primary bg-primary text-primary-foreground" : "border-border bg-card hover:border-primary/50 hover:text-primary",
-          "disabled:cursor-not-allowed disabled:opacity-40",
         )}
       >
-        {busy ? <Loader2 className="size-4 animate-spin" /> : p.playing ? <Pause className="size-4" /> : <Play className="ml-0.5 size-4" />}
+        {busy ? <Loader2 className="size-4 animate-spin" /> : p.playing ? <Pause className="size-4" /> : p.failed ? <CircleAlert className="size-4 text-warning" /> : <Play className="ml-0.5 size-4" />}
       </button>
 
       {/* Waveform: second line on phones, its own column on wider screens. */}
@@ -105,7 +104,7 @@ export const SampleRow = memo(function SampleRow({ sample: s, providerName, sele
             }}
             className={cn("absolute inset-0 cursor-pointer", p.state === "loading" && "animate-pulse")}
           >
-            {p.state === "nowave" || p.state === "error" || !p.hasPreview ? (
+            {p.state === "nowave" ? (
               <span className="flex h-full items-center">
                 <span className="h-px w-full bg-border" />
               </span>
