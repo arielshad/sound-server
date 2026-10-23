@@ -20,7 +20,7 @@
  * `mapInstrument`, `toSfz`, `toDecentSampler` and `parseSampleName` are pure;
  * `buildInstrument` adds a small fs walker and header/pitch reads. No network.
  */
-import { open, readdir, readFile, stat, writeFile, mkdir } from "node:fs/promises";
+import { mkdir, open, readdir, writeFile } from "node:fs/promises";
 import { basename, dirname, extname, isAbsolute, join, relative, resolve, sep } from "node:path";
 import { analyzeAudio } from "./analyze.js";
 import { hzToMidi, noteName, parseNoteName } from "./notes.js";
@@ -213,11 +213,11 @@ const NZ = "(?![A-Za-z0-9])";
 const DYNAMICS: Record<string, [string, number]> = {
   ppp: ["ppp", 1], pianississimo: ["ppp", 1],
   pp: ["pp", 2], pianissimo: ["pp", 2], quiet: ["pp", 2],
-  p: ["p", 3], piano: ["p", 3], soft: ["soft", 3], low: ["soft", 3],
+  p: ["p", 3], piano: ["p", 3], soft: ["soft", 3],
   mp: ["mp", 4], mezzopiano: ["mp", 4],
-  mf: ["mf", 5], mezzoforte: ["mf", 5], medium: ["medium", 5], med: ["medium", 5],
+  mf: ["mf", 5], mezzoforte: ["mf", 5], medium: ["medium", 5],
   f: ["f", 6], forte: ["f", 6],
-  ff: ["ff", 7], fortissimo: ["ff", 7], loud: ["loud", 7], hard: ["hard", 7], high: ["loud", 7],
+  ff: ["ff", 7], fortissimo: ["ff", 7], loud: ["loud", 7], hard: ["hard", 7],
   fff: ["fff", 8], fortississimo: ["fff", 8],
 };
 const LMH: Record<string, number> = { l: 3, m: 5, h: 7 };
@@ -279,7 +279,7 @@ export function parseSampleName(relPath: string, opts: { octaveOffset?: number }
     }
     const dyn = DYNAMICS[lt];
     // "Piano.ff.C4": the first word is the instrument, not the dynamic.
-    if (dyn && !(i === 0 && /^(piano|low|high|hard|soft)$/.test(lt) && toks.length > 1)) {
+    if (dyn && !(i === 0 && /^(piano|hard|soft)$/.test(lt) && toks.length > 1)) {
       out.layer = dyn[0];
       out.layerRank = dyn[1];
       return;
@@ -655,7 +655,6 @@ export function instrumentSummary(map: InstrumentMap, extra: { found?: number; s
 
 const AUDIO_EXT = new Set([".wav", ".aif", ".aiff", ".flac", ".ogg", ".opus", ".mp3", ".m4a"]);
 const HEADER_EXT = new Set([".wav", ".aif", ".aiff"]);
-const MAX_HEADER_READ = 64 * 1024 * 1024;
 
 /** Audio files under `root` (recursive, no symlinks, skips dot-folders and __MACOSX), sorted. Absolute paths. */
 export async function listAudioFiles(root: string, opts: { maxFiles?: number; maxDepth?: number } = {}): Promise<string[]> {
@@ -684,22 +683,42 @@ interface HeaderFacts {
   aiff?: number;
 }
 
+/**
+ * The header chunks of a WAV/AIFF without its audio: walks the chunk list
+ * (smpl often sits after `data`) and returns a RIFF/FORM buffer of every
+ * chunk except the sample data, for parseWavChunks.
+ */
+async function headerBytes(path: string): Promise<Uint8Array> {
+  const fh = await open(path, "r");
+  try {
+    const size = (await fh.stat()).size;
+    const read = async (at: number, n: number) => {
+      const b = Buffer.alloc(Math.max(0, Math.min(n, size - at)));
+      if (b.length) await fh.read(b, 0, b.length, at);
+      return b;
+    };
+    const head = await read(0, 12);
+    const id = head.toString("latin1", 0, 4);
+    const le = id === "RIFF";
+    if (!le && id !== "FORM") return head;
+    const parts: Buffer[] = [head];
+    let pos = 12;
+    for (let n = 0; n < 128 && pos + 8 <= size; n++) {
+      const h = await read(pos, 8);
+      const cid = h.toString("latin1", 0, 4);
+      const csize = le ? h.readUInt32LE(4) : h.readUInt32BE(4);
+      if (cid !== "data" && cid !== "SSND" && csize <= 1024 * 1024) parts.push(h, await read(pos + 8, csize + (csize & 1)));
+      pos += 8 + csize + (csize & 1);
+    }
+    return Buffer.concat(parts);
+  } finally {
+    await fh.close();
+  }
+}
+
 async function readHeader(path: string): Promise<HeaderFacts> {
   if (!HEADER_EXT.has(extname(path).toLowerCase())) return {};
-  let buf: Uint8Array;
-  const st = await stat(path);
-  if (st.size <= MAX_HEADER_READ) buf = await readFile(path);
-  else {
-    const fh = await open(path, "r");
-    try {
-      const b = Buffer.alloc(1024 * 1024);
-      const { bytesRead } = await fh.read(b, 0, b.length, 0);
-      buf = b.subarray(0, bytesRead);
-    } finally {
-      await fh.close();
-    }
-  }
-  const c = parseWavChunks(buf);
+  const c = parseWavChunks(await headerBytes(path));
   if (!c) return {};
   const out: HeaderFacts = {};
   if (c.smpl && c.smpl.midiUnityNote <= 127) {

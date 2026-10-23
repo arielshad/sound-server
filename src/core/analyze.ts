@@ -302,6 +302,39 @@ function defaultHttp(): HttpClient {
 const cache = new LRUCache<string, AudioAnalysis>({ max: Number(process.env.SOUND_SERVER_ANALYSIS_CACHE ?? 1000) });
 const inflight = new Map<string, Promise<AudioAnalysis>>();
 
+/** A second-level cache behind the LRU (the SQLite store, src/core/store.ts). Only URL results go there. */
+export interface AnalysisCacheBackend {
+  getAnalysis(key: string): AudioAnalysis | undefined;
+  setAnalysis(key: string, analysis: AudioAnalysis): void;
+}
+let persistent: AnalysisCacheBackend | undefined;
+
+/** Read and write analyses of URLs through `backend` as well (undefined turns it off). */
+export function setAnalysisCacheBackend(backend: AnalysisCacheBackend | undefined): void {
+  persistent = backend;
+}
+
+function persistentGet(k: string): AudioAnalysis | undefined {
+  if (!persistent || !k.startsWith("url:")) return undefined;
+  try {
+    const hit = persistent.getAnalysis(k);
+    if (hit) cache.set(k, hit);
+    return hit;
+  } catch {
+    return undefined;
+  }
+}
+
+function persistentSet(k: string, a: AudioAnalysis): void {
+  // Transient failures (a missing ffmpeg, a timeout) stay in memory only.
+  if (!persistent || !k.startsWith("url:") || a.warnings.some((w) => /failed|not found|timed out/i.test(w))) return;
+  try {
+    persistent.setAnalysis(k, a);
+  } catch {
+    // A full disk or locked database must never fail an analysis.
+  }
+}
+
 export function clearAnalysisCache(): void {
   cache.clear();
   peaksCache.clear();
@@ -330,7 +363,7 @@ export async function analyzeAudio(input: AudioInput, opts: AnalyzeOptions = {})
   const deep = !!opts.deep;
   if (key) {
     for (const k of deep ? [`${key}|deep`] : [`${key}|deep`, `${key}|head`]) {
-      const hit = cache.get(k);
+      const hit = cache.get(k) ?? persistentGet(k);
       if (hit) return { ...hit, cached: true };
     }
     const fullKey = `${key}|${deep ? "deep" : "head"}`;
@@ -338,6 +371,7 @@ export async function analyzeAudio(input: AudioInput, opts: AnalyzeOptions = {})
     if (pending) return pending;
     const p = analyzeUncached(input, opts).then((a) => {
       cache.set(fullKey, a);
+      persistentSet(fullKey, a);
       return a;
     });
     inflight.set(fullKey, p);
@@ -557,6 +591,30 @@ async function decode(file: string, opts: { timeoutMs: number; signal?: AbortSig
   const usable = r.stdout.byteLength & ~3;
   const pcm = new Float32Array(r.stdout.buffer.slice(r.stdout.byteOffset, r.stdout.byteOffset + usable));
   return { pcm, stderr: r.stderr };
+}
+
+/**
+ * Decode the first `maxSeconds` of a file, URL or buffer to mono float PCM at
+ * `sampleRate` (used by src/core/embeddings.ts, which needs 48 kHz). Shares
+ * the ffmpeg process limit and byte cap with analysis.
+ */
+export async function decodeAudio(
+  input: AudioInput,
+  opts: Pick<AnalyzeOptions, "http" | "maxBytes" | "signal" | "timeoutMs"> & { sampleRate: number; maxSeconds: number },
+): Promise<Float32Array> {
+  const acq = await acquire(input, opts, "full");
+  try {
+    const { pcm } = await decode(await acq.file(), {
+      timeoutMs: opts.timeoutMs ?? 30_000,
+      signal: opts.signal,
+      maxSeconds: opts.maxSeconds,
+      sampleRate: opts.sampleRate,
+      loudness: false,
+    });
+    return pcm;
+  } finally {
+    await acq.cleanup();
+  }
 }
 
 /** Parse the ebur128 filter's summary from ffmpeg's stderr. */
