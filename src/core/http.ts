@@ -73,8 +73,10 @@ export function createHttpClient(opts: CreateHttpClientOptions = {}): HttpClient
     if (!res.ok && !(init.redirect === "manual" && res.status >= 300 && res.status < 400)) {
       // Drain the body so the socket can be reused.
       await res.body?.cancel().catch(() => undefined);
-      const ra = Number(res.headers.get("retry-after"));
-      throw new HttpError(res.status, url, undefined, Number.isFinite(ra) && ra >= 0 ? ra : undefined);
+      // Retry-After in seconds; a missing or date-form header means "unknown" (Number(null) would be 0).
+      const header = res.headers.get("retry-after");
+      const ra = header !== null && /^\s*\d+(\.\d+)?\s*$/.test(header) ? Number(header) : undefined;
+      throw new HttpError(res.status, url, undefined, ra);
     }
     if (idle && res.body) return withIdleTimeout(res, idle, init.idleTimeoutMs!);
     return res;
