@@ -1,5 +1,20 @@
 # sound-server: plan to production
 
+> **Status (2026-10-23):** M0–M5 built, with M6 deploy files ready.
+> - 31 sources: 16 searchable, 15 link-only.
+> - REST API, MCP tools, CLI, audio analysis, kit building and website done.
+> - 513 offline tests pass; the production image runs end to end with ffmpeg.
+>
+> Left for M6, outside this repo:
+> 1. Merge to `main`, so CI builds and pins the image.
+> 2. Register the ArgoCD app in shep-ai/shep-infra (`deploy/argocd/`).
+> 3. Add the `sound-server-env` Secret with `FREESOUND_API_KEY`.
+> 4. Optionally, register sound.shep.bot in Umami.
+>
+> Changes from the plan:
+> - Mixkit, Cymatics and Prime Loops are link-only, because their terms forbid automated access.
+> - Telemetry is opt-in.
+
 **Goal:** search many sample sites at once and download what you pick, for music production and AI
 music generation. That covers kicks, snares, hats, claps, 808s, loops, vocals, FX (zaps, risers,
 impacts), foley and instrument one-shots. It should work the same way
