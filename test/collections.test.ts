@@ -79,11 +79,13 @@ describe("selectSamples", () => {
   });
 
   it("counts the category as a word, and ignores near misses that only start like the query", () => {
-    const picked = selectSamples(
-      [sample("freesound", 1, { title: "Long Sub F", category: "bass.808" }), sample("freesound", 2, { title: "808s Kit", category: "drums" }), sample("freesound", 3, { title: "Clean 808" })],
-      { search: { q: "808" }, pricing },
-    );
-    expect(picked.map((a) => a.title)).toEqual(["Long Sub F", "Clean 808"]);
+    const subs = selectSamples([sample("freesound", 1, { title: "Long Sub F", category: "bass.808" }), sample("freesound", 2, { title: "Clean 808s" }), sample("freesound", 3, { title: "Deep Sub", category: "bass.sub" })], {
+      search: { q: "808" },
+      pricing,
+    });
+    expect(subs.map((a) => a.title)).toEqual(["Long Sub F", "Clean 808s"]);
+    const hats = selectSamples([sample("freesound", 1, { title: "Hatch Door Slam", category: "foley" }), sample("freesound", 2, { title: "Closed Hat 03", category: "drums.hat.closed" })], { search: { q: "hat" }, pricing });
+    expect(hats.map((a) => a.title)).toEqual(["Closed Hat 03"]);
   });
 
   it("keeps only commercial-safe licences when the search asks for them", () => {

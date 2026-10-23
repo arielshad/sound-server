@@ -17,9 +17,10 @@ import { parse } from "yaml";
 
 /** A server module: dist/<name>.js (the compiled server), or src/<name>.ts under vitest. */
 export async function serverModule(name) {
-  if (process.env.VITEST) return import(`../../src/${name}.ts`);
+  const root = new URL("../../", import.meta.url);
+  if (process.env.VITEST) return import(/* @vite-ignore */ new URL(`src/${name}.ts`, root).href);
   try {
-    return await import(`../../dist/${name}.js`);
+    return await import(/* @vite-ignore */ new URL(`dist/${name}.js`, root).href);
   } catch (e) {
     throw new Error(`scripts need the compiled server: run \`npm run build:server\` first (${e instanceof Error ? e.message : e})`);
   }
