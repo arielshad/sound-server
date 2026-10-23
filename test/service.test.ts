@@ -496,7 +496,7 @@ describe("HTTP API", () => {
     });
     const body = (await list.json()) as { result: { tools: { name: string }[] } };
     // download_sample writes to disk, so it is off for the HTTP transport by default.
-    expect(body.result.tools.map((t) => t.name).sort()).toEqual(["build_kit", "find_similar", "get_sample", "list_sources", "search_samples"]);
+    expect(body.result.tools.map((t) => t.name).sort()).toEqual(["build_kit", "extract_midi", "find_similar", "get_sample", "list_sources", "search_samples"]);
   });
 
   it("can turn off HTTP MCP and keep the website and search API", async () => {
