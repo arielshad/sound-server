@@ -3,7 +3,7 @@
  * /samples.md, /sources/<id>.md), for agents and LLM crawlers. Same facts as
  * the HTML, plus the sample ids an agent can pass to GET /v1/samples/{id}.
  */
-import { apiHref, collectionPath, countLabel, hubPath, latest, providerName, searchHref, sourcePath, type Collection, type Hub, type SourcePage } from "./collections";
+import { apiHref, collectionPath, countLabel, hubPath, latest, providerName, searchHref, sourcePath, sourceSearchHref, type Collection, type Hub, type SourcePage } from "./collections";
 import { categoryName, fmt } from "./catalog";
 import { SITE } from "./site";
 import { VERDICT_LABELS, categoryLabel, durationText, formLabel, type Verdict } from "./vocab";
@@ -52,7 +52,7 @@ export function collectionMarkdown(c: Collection, related: Collection[]): string
   ].join("\n");
 }
 
-export function hubMarkdown(hub: Hub, cs: Collection[], hubs: Hub[]): string {
+export function hubMarkdown(hub: Hub, cs: Collection[], hubs: Hub[], guides: { title: string; path: string; description: string }[] = []): string {
   const updated = latest(cs);
   return [
     `# ${hub.title}`,
@@ -66,6 +66,9 @@ export function hubMarkdown(hub: Hub, cs: Collection[], hubs: Hub[]): string {
     "",
     ...(cs.length ? cs.map((c) => `- [${c.topic.data.title}](${abs(c.path)}.md): ${countLabel(c.samples)} from ${c.sources.length} sources. ${c.topic.data.description}`) : ["No collections yet."]),
     "",
+    ...(hub.sections ?? []).flatMap((sec) => [`## ${sec.heading}`, "", sec.body, ""]),
+    ...(hub.faq?.length ? ["## Questions", "", ...hub.faq.flatMap((f) => [`**${f.q}**`, "", f.a, ""])] : []),
+    ...(guides.length ? ["## Guides", "", ...guides.map((g) => `- [${g.title}](${abs(g.path)}.md): ${g.description}`), ""] : []),
     "## Other kinds",
     "",
     ...hubs.filter((h) => h.id !== hub.id).map((h) => `- [${h.title}](${abs(hubPath(h))}.md)`),
@@ -109,6 +112,7 @@ export function sourceMarkdown(s: SourcePage): string {
         ]
       : []),
   ];
+  const n = s.notes;
   return [
     `# ${p.name}`,
     "",
@@ -116,6 +120,31 @@ export function sourceMarkdown(s: SourcePage): string {
     "",
     ...facts,
     "",
+    ...(n
+      ? [
+          "## What it is",
+          "",
+          n.about,
+          "",
+          "## Best for",
+          "",
+          n.bestFor,
+          "",
+          "## Licence",
+          "",
+          n.licence,
+          "",
+          "## How Sound Server searches it",
+          "",
+          n.searching,
+          "",
+          "## Example searches",
+          "",
+          ...n.examples.map((e) => `- [${e.label}](${abs(sourceSearchHref(p.id, e))})`),
+          "",
+          ...(n.guides?.length ? ["Guides: " + n.guides.map((g) => abs(`/guides/${g}.md`)).join(", "), ""] : []),
+        ]
+      : []),
     ...(s.collections.length
       ? ["## In these collections", "", ...s.collections.map(({ collection: c, count }) => `- [${c.topic.data.title}](${abs(c.path)}.md): ${count} of ${c.samples.length}`), ""]
       : []),

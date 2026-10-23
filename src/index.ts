@@ -10,3 +10,7 @@ export { selectFiles, downloadSample, zipStream, extractZip, type FileSelection 
 export { createApp, type AppOptions } from "./api/app.js";
 export { createMcpServer, type McpOptions } from "./mcp/server.js";
 export { allProviders } from "./providers/index.js";
+export { buildInstrument, writeInstrument, toSfz, toDecentSampler, parseSampleName } from "./core/instrument.js";
+export { extractMidi, writeMidi, parseMidi } from "./core/midi.js";
+export { planKit, strudelSampleMap, gmDrumMap } from "./core/kit.js";
+export { analyzeAudio, waveformPeaks } from "./core/analyze.js";

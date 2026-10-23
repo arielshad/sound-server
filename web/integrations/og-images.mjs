@@ -23,9 +23,11 @@ const KICKERS = [
   ["/docs/self-hosting", "Self-hosting"],
   ["/docs/sources", "Sources & licences"],
   ["/docs/licences", "Licences"],
+  ["/docs/faq", "FAQ"],
   ["/docs", "Docs"],
   ["/stats", "Live stats"],
   ["/kit", "Kit builder"],
+  ["/glossary", "Glossary"],
   ["/samples", "Sample collections"],
   ["/sources", "Source"],
   ["/search", "Search"],
@@ -36,6 +38,9 @@ const KICKERS = [
 ];
 
 const CHIPS = {
+  "/glossary": ["One-shot", "BPM", "CC0", "CC BY", "SFZ"],
+  "/docs/faq": ["Licences", "Downloads", "API", "Agents"],
+  "/guides": ["Licences", "Credits", "808s", "BPM & key"],
   "/docs/mcp": ["MCP", "Claude Code", "Cursor", "Copilot"],
   "/docs/api": ["REST", "OpenAPI 3.1", "JSON"],
   "/docs/api/reference": ["OpenAPI 3.1", "Schemas", "curl"],
@@ -72,7 +77,14 @@ export default function ogImages() {
         const catalogFile = join(root, "src/data/catalog.json");
         const totals = existsSync(catalogFile) ? JSON.parse(readFileSync(catalogFile, "utf8")).totals : undefined;
         const hubs = JSON.parse(readFileSync(join(root, "src/data/collection-hubs.json"), "utf8"));
-        const kickers = [...hubs.map((h) => [`/samples/${h.id}`, h.name]), ...KICKERS];
+        // Guides: "Guide · Licensing" from each guide's frontmatter.
+        const guidesDir = join(root, "src/content/guides");
+        const guideKickers = existsSync(guidesDir)
+          ? readdirSync(guidesDir)
+              .filter((f) => f.endsWith(".md"))
+              .map((f) => [`/guides/${f.slice(0, -3)}`, `Guide · ${readFileSync(join(guidesDir, f), "utf8").match(/^section:\s*"?([^"\n]+)"?\s*$/m)?.[1] ?? "Guide"}`])
+          : [];
+        const kickers = [...guideKickers, ["/guides", "Guides"], ...hubs.map((h) => [`/samples/${h.id}`, h.name]), ...KICKERS];
         const big = (c) => (c.count >= 1e6 ? `${Math.floor(c.count / 1e5) / 10}M` : c.count >= 1e4 ? `${Math.floor(c.count / 1e3)}K` : c.count.toLocaleString("en")) + (c.atLeast || c.count >= 1e4 ? "+" : "");
         const out = fileURLToPath(dir);
         const started = Date.now();
@@ -109,7 +121,9 @@ export default function ogImages() {
                         ? ["Free", "Play every sound", "Licence verdicts", "Updated daily"]
                         : route.startsWith("/sources/")
                           ? ["Search", "Licences", "Previews"]
-                          : ["Drums", "808s", "Vocals", "FX"]),
+                          : route.startsWith("/guides/")
+                            ? ["Short answer", "Licences", "Live searches"]
+                            : ["Drums", "808s", "Vocals", "FX"]),
                   site: host,
                 });
           const png = await renderPng(card);

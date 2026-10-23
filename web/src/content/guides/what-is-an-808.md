@@ -12,7 +12,7 @@ faq:
   - q: "What is an 808 glide?"
     a: "A slide in pitch from one 808 note to the next, made with a sampler's portamento or glide setting in mono mode. Overlapping two notes slightly triggers the slide."
   - q: "Are 808 samples free to use?"
-    a: "The machine's name is Roland's trademark, but recordings of it belong to whoever made them. Free 808s are fine to release when their licence allows it, which Sound Server's verdict shows on each one."
+    a: "Only when whoever made the recording licensed it openly. Many free 808 sets are; others are copied from old collections with no licence stated. Sound Server shows a verdict on every 808 so you can tell them apart."
 searches:
   - { label: "808 bass in F minor", href: "/search?q=808&category=bass.808&key=F+minor" }
   - { label: "Commercial-safe 808s", href: "/search?q=808&category=bass.808&commercial=true" }

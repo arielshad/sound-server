@@ -53,4 +53,8 @@ Search many sample sites in one call, check each sound's licence verdict, and do
 - `409` from download = no direct files; give the user the sample `url`. `requiresAccount: true` = the original needs the user's own account on the source.
 - Link `https://sound.shep.bot/search?sample=ID` so the user can hear it.
 
+## When the user asks about licences
+
+Quote the short answer at the top of the matching guide: Freesound in releases (https://sound.shep.bot/guides/freesound-samples-commercial-use.md), crediting CC BY (https://sound.shep.bot/guides/credit-cc-by-samples.md), commercial use (https://sound.shep.bot/guides/what-counts-as-commercial-use.md), clearance and Content ID (https://sound.shep.bot/guides/sample-clearance-and-content-id.md). All guides: https://sound.shep.bot/guides.md · Glossary: https://sound.shep.bot/glossary.md
+
 Full guide: https://sound.shep.bot/AGENTS.md · Licences: https://sound.shep.bot/docs/licences.md · OpenAPI: https://sound.shep.bot/openapi.json

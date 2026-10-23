@@ -13,7 +13,7 @@ faq:
   - q: "Is an 808 drum sample the same as an 808 bass?"
     a: "They come from the same place. The '808' bass in trap is the machine's bass drum with a long decay, tuned to play notes. This collection covers the whole kit; the 808 bass collection focuses on long, tuned bass hits."
   - q: "Can I use TR-808 samples in a release?"
-    a: "Yes, when the person who recorded them licensed them for it. The TR-808 name is Roland's trademark, but a recording of the machine belongs to whoever made it, so the licence that counts is the recordist's. Follow each sample's verdict."
+    a: "It depends on who made the recording and how they licensed it. Some free 808 sets are recorded and openly licensed by the people who share them; others are copied from old sample CDs or collections with no licence stated, which Sound Server marks as unclear. Follow each sample's verdict."
 addedAt: 2026-10-23
 addedBy: agent
 ---

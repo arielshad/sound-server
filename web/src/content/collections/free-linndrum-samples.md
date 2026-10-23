@@ -24,4 +24,4 @@ Roger Linn's LM-1 Drum Computer was one of the first drum machines to play digit
 
 These kits are clean and punchy and sit well in synth-pop, funk, new wave and modern retro productions. Their claps and congas are as recognisable as the kick and snare. The machines let users tune each drum, so different sample sets can sound quite different. Pitch a snare down for weight, or up for snap.
 
-Most of these samples come from community drum machine banks, where licences are not always stated. Use the verdict on each card: green ones are cleared for a release, amber ones need a closer look first.
+Most of these samples come from community drum machine banks, where licences are often not stated. Because the LinnDrum's sounds were stored on its memory chips, a bank copied from them carries the maker's recordings rather than the uploader's own. Use the verdict on each card: green ones are cleared for a release, amber ones need a closer look first.

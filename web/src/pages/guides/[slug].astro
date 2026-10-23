@@ -137,7 +137,7 @@ const trail = [{ name: "Home", path: "/" }, { name: "Guides", path: "/guides" },
       <section class="mt-16" aria-labelledby="collections">
         <div class="flex flex-wrap items-baseline justify-between gap-2">
           <h2 id="collections" class="text-2xl font-semibold tracking-tight">Free samples to start with</h2>
-          <a href="/samples" class="text-sm text-primary hover:underline">All collections →</a>
+          <a href="/samples" class="text-sm text-primary underline underline-offset-2 hover:decoration-2">All collections →</a>
         </div>
         <ul class="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {collections.slice(0, 6).map((c) => <CollectionCard collection={c} />)}

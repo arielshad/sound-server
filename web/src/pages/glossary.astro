@@ -1,0 +1,68 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import Breadcrumbs from "@/components/collections/Breadcrumbs.astro";
+import { GLOSSARY, GLOSSARY_DESCRIPTION, GLOSSARY_GROUPS, GLOSSARY_PATH, GLOSSARY_TITLE } from "@/lib/glossary";
+import { aboutPage, breadcrumbs, definedTermSet } from "@/lib/schema";
+
+const trail = [{ name: "Home", path: "/" }, { name: "Guides", path: "/guides" }, { name: "Glossary", path: GLOSSARY_PATH }];
+const anchor = (s: string) => `group-${s.toLowerCase().replace(/[^a-z]+/g, "-")}`;
+---
+
+<BaseLayout
+  title={GLOSSARY_TITLE}
+  description={GLOSSARY_DESCRIPTION}
+  markdown={`${GLOSSARY_PATH}.md`}
+  schema={[
+    aboutPage({ title: GLOSSARY_TITLE, description: GLOSSARY_DESCRIPTION, path: GLOSSARY_PATH, type: "WebPage" }),
+    definedTermSet({ title: GLOSSARY_TITLE, description: GLOSSARY_DESCRIPTION, path: GLOSSARY_PATH, terms: GLOSSARY.map((t) => ({ id: t.id, term: t.term, definition: t.definition, aliases: t.aliases, url: t.ref })) }),
+    breadcrumbs(trail),
+  ]}
+>
+  <div class="mx-auto max-w-6xl px-4 py-10 sm:px-6">
+    <Breadcrumbs trail={trail} />
+    <header class="mt-6 max-w-3xl">
+      <p class="text-sm font-medium text-primary">Guides</p>
+      <h1 class="mt-2 text-balance text-3xl font-semibold tracking-tight sm:text-4xl">{GLOSSARY_TITLE}</h1>
+      <p class="mt-4 text-pretty text-muted-foreground">
+        The words you meet when you look for samples, read a licence or set up a kit, defined in a sentence or two. Each term links to a guide or a collection where it matters, and has its own address (for example <a href="#cc-by" class="text-primary underline underline-offset-2">/glossary#cc-by</a>) you can link to.
+      </p>
+    </header>
+
+    <nav class="mt-8 flex flex-wrap gap-2 text-sm" aria-label="Glossary sections">
+      {GLOSSARY_GROUPS.map((g) => <a href={`#${anchor(g)}`} class="inline-flex rounded-full border px-3 py-1 text-muted-foreground transition hover:border-primary/40 hover:text-foreground">{g}</a>)}
+    </nav>
+
+    <div class="mt-6">
+      <div class="min-w-0 max-w-3xl">
+        {GLOSSARY_GROUPS.map((group) => (
+          <section class="mt-10 first:mt-4" aria-labelledby={anchor(group)}>
+            <h2 id={anchor(group)} class="text-2xl font-semibold tracking-tight">{group}</h2>
+            <dl class="mt-4 divide-y rounded-xl border">
+              {GLOSSARY.filter((t) => t.group === group).map((t) => (
+                <div id={t.id} class="scroll-mt-24 p-5">
+                  <dt class="font-medium">
+                    <a href={`#${t.id}`} class="hover:text-primary">{t.term}</a>
+                    {t.aliases?.length ? <span class="ml-2 text-xs font-normal text-muted-foreground">also {t.aliases.join(", ")}</span> : null}
+                  </dt>
+                  <dd class="mt-2 text-sm text-muted-foreground">
+                    {t.definition}
+                    {(t.see?.length || t.ref) && (
+                      <span class="mt-2 flex flex-wrap gap-x-4 gap-y-1">
+                        {t.see?.map((s) => <a href={s.href} class="text-primary underline underline-offset-2">{s.label}</a>)}
+                        {t.ref && <a href={t.ref} rel="noopener" class="text-primary underline underline-offset-2">Reference</a>}
+                      </span>
+                    )}
+                  </dd>
+                </div>
+              ))}
+            </dl>
+          </section>
+        ))}
+      </div>
+    </div>
+
+    <p class="mt-16 text-sm text-muted-foreground">
+      More depth in the <a href="/guides" class="text-primary underline underline-offset-2">guides</a> and in <a href="/docs/licences" class="text-primary underline underline-offset-2">sample licences explained</a>.
+    </p>
+  </div>
+</BaseLayout>

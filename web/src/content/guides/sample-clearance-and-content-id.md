@@ -1,7 +1,7 @@
 ---
 title: "Sample clearance and Content ID: a producer's guide"
 seoTitle: "Sample clearance and Content ID explained"
-description: "When a sample needs clearing (master and publishing), why there's no safe number of seconds, and how to handle Content ID claims on sounds you're licensed to use."
+description: "When a sample needs clearing (master and publishing), why no number of seconds is safe, and how to handle Content ID claims on sounds you may use."
 answer: "A sample taken from someone else's record needs permission from two owners before release: the owner of the recording (the master, usually a label) and the owner of the composition (the publisher). There is no safe length that avoids this. Licensed samples (CC0, CC BY, royalty-free) don't need clearing, but they can still trigger automated systems such as YouTube's Content ID, which you dispute by showing the licence and the source."
 section: Licensing
 faq:

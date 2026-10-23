@@ -6,7 +6,7 @@
       "woodwind"
     ]
   },
-  "updatedAt": "2026-10-23T09:38:58.555Z",
+  "updatedAt": "2026-10-23T09:47:26.381Z",
   "samples": [
     {
       "id": "wikimediacommons:Man_drunk_and_playing_flute_near_Santa_Justa_Lift,_Lisbon,_Portugal.wav",
@@ -336,6 +336,287 @@
         "ogg"
       ],
       "durationSec": 55.751
+    },
+    {
+      "id": "openverse:5d27fc25-6150-4e6e-aa0b-5eabf4a473bb",
+      "provider": "openverse",
+      "title": "flute trill",
+      "category": "woodwind",
+      "url": "https://freesound.org/people/womb_affliction/sounds/376532",
+      "previewUrl": "https://cdn.freesound.org/previews/376/376532_5781159-hq.mp3",
+      "downloadable": true,
+      "author": "womb_affliction",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 5.951
+    },
+    {
+      "id": "openverse:aa8fc608-e5e7-4f2b-a68d-4f55d6616bc0",
+      "provider": "openverse",
+      "title": "Native American Style flute in A",
+      "category": "woodwind",
+      "url": "https://freesound.org/people/Wood_Flutes/sounds/333996",
+      "previewUrl": "https://cdn.freesound.org/previews/333/333996_4972358-hq.mp3",
+      "downloadable": true,
+      "author": "Wood_Flutes",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 81.664
+    },
+    {
+      "id": "openverse:546c86c1-694b-44cd-98b9-13bb8efcc6cb",
+      "provider": "openverse",
+      "title": "Dizi Flute 03.wav",
+      "category": "woodwind",
+      "url": "https://freesound.org/people/CarlosCarty/sounds/427849",
+      "previewUrl": "https://cdn.freesound.org/previews/427/427849_197130-hq.mp3",
+      "downloadable": true,
+      "author": "CarlosCarty",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 40
+    },
+    {
+      "id": "openverse:c35ef20e-06f5-48ed-b47b-c12c7d5c11b0",
+      "provider": "openverse",
+      "title": "Echo Flute 9.3.wav",
+      "category": "woodwind",
+      "url": "https://freesound.org/people/davidou/sounds/88492",
+      "previewUrl": "https://cdn.freesound.org/previews/88/88492_1254234-hq.mp3",
+      "downloadable": true,
+      "author": "davidou",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 12.341
+    },
+    {
+      "id": "openverse:9fff08fe-a070-4576-aaf3-b9f31c6d40bc",
+      "provider": "openverse",
+      "title": "NATIVE FLUTE FIGURE 05.wav",
+      "category": "woodwind",
+      "url": "https://freesound.org/people/sandyrb/sounds/85794",
+      "previewUrl": "https://cdn.freesound.org/previews/85/85794_14771-hq.mp3",
+      "downloadable": true,
+      "author": "sandyrb",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 3.474
+    },
+    {
+      "id": "openverse:b90ab78d-c18e-4c98-847b-01bc8b32a04f",
+      "provider": "openverse",
+      "title": "Native American Flute Echo Loop Am 131 bpm",
+      "category": "woodwind",
+      "url": "https://freesound.org/people/CarlosCarty/sounds/463037",
+      "previewUrl": "https://cdn.freesound.org/previews/463/463037_197130-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "CarlosCarty",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "bpm": 131,
+      "key": "A minor",
+      "durationSec": 21.984
+    },
+    {
+      "id": "openverse:77ead0e3-a0d0-44ae-98a5-9f8a1b75f2dd",
+      "provider": "openverse",
+      "title": "flute-recorder.wav",
+      "category": "woodwind",
+      "url": "https://freesound.org/people/polarkin/sounds/348351",
+      "previewUrl": "https://cdn.freesound.org/previews/348/348351_6365165-hq.mp3",
+      "downloadable": true,
+      "author": "polarkin",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 337.65
+    },
+    {
+      "id": "openverse:39119074-f4b4-464e-bfe3-64453b6afbb6",
+      "provider": "openverse",
+      "title": "Medieval Flute Loop 124 bpm.wav",
+      "category": "woodwind",
+      "url": "https://freesound.org/people/CarlosCarty/sounds/416512",
+      "previewUrl": "https://cdn.freesound.org/previews/416/416512_197130-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "CarlosCarty",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "bpm": 124,
+      "durationSec": 17.419
+    },
+    {
+      "id": "openverse:8431b0b8-f211-456d-b311-90e53ee4eba3",
+      "provider": "openverse",
+      "title": "01720 kenacho flute indian.wav",
+      "category": "woodwind",
+      "url": "https://freesound.org/people/Robinhood76/sounds/97666",
+      "previewUrl": "https://cdn.freesound.org/previews/97/97666_321967-hq.mp3",
+      "downloadable": true,
+      "author": "Robinhood76",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 4.305
+    },
+    {
+      "id": "openverse:cf285d7a-616c-497e-bfec-31facef5e694",
+      "provider": "openverse",
+      "title": "flute loop.wav",
+      "category": "woodwind",
+      "url": "https://freesound.org/people/pryght%20one/sounds/27129",
+      "previewUrl": "https://cdn.freesound.org/previews/27/27129_136442-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "pryght one",
+      "license": {
+        "id": "LicenseRef-Sampling-Plus-1.0",
+        "name": "CC Sampling+ 1.0",
+        "url": "https://creativecommons.org/licenses/sampling+/1.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 16
+    },
+    {
+      "id": "openverse:2071eb8b-54ce-4b76-b3bc-3f65b5dd9434",
+      "provider": "openverse",
+      "title": "Handel - Sonata for flute in E minor HWV 359b - 3. Adagio",
+      "category": "woodwind",
+      "url": "https://commons.wikimedia.org/w/index.php?curid=1076398",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Handel_-_Sonata_for_flute_in_E_minor_HWV_359b_-_3._Adagio.oga",
+      "downloadable": true,
+      "author": "Al Goldstein, flute and Martha Goldstein, harpsichord",
+      "license": {
+        "id": "CC-BY-SA-2.0",
+        "name": "CC BY-SA 2.0",
+        "url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg"
+      ],
+      "key": "E minor",
+      "durationSec": 43.028
+    },
+    {
+      "id": "openverse:3fb2e0bf-68a8-4a8e-9045-f51e668aa127",
+      "provider": "openverse",
+      "title": "Handel - Sonata for flute in E minor HWV 359b - 4. Allegro",
+      "category": "woodwind",
+      "url": "https://commons.wikimedia.org/w/index.php?curid=1076401",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Handel_-_Sonata_for_flute_in_E_minor_HWV_359b_-_4._Allegro.oga",
+      "downloadable": true,
+      "author": "Al Goldstein, flute and Martha Goldstein, harpsichord",
+      "license": {
+        "id": "CC-BY-SA-2.0",
+        "name": "CC BY-SA 2.0",
+        "url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg"
+      ],
+      "key": "E minor",
+      "durationSec": 134.968
     }
   ]
 }

@@ -6,7 +6,7 @@
       "bass.808"
     ]
   },
-  "updatedAt": "2026-10-23T09:37:03.239Z",
+  "updatedAt": "2026-10-23T09:47:22.358Z",
   "samples": [
     {
       "id": "openverse:2ab36d14-6be7-4777-b47c-03f398f3fcf8",
@@ -31,54 +31,6 @@
         "wav"
       ],
       "durationSec": 2.063
-    },
-    {
-      "id": "openverse:f0d47d06-777f-4ed1-9d78-f018cc88502b",
-      "provider": "openverse",
-      "title": "Rock 808 beat.aiff",
-      "category": "bass.808",
-      "url": "https://freesound.org/people/T_roy_920/sounds/324406",
-      "previewUrl": "https://cdn.freesound.org/previews/324/324406_4929134-hq.mp3",
-      "downloadable": true,
-      "author": "T_roy_920",
-      "license": {
-        "id": "CC0-1.0",
-        "name": "CC0 1.0",
-        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "verdict": "yes",
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "mp3",
-        "aiff"
-      ],
-      "durationSec": 8.962
-    },
-    {
-      "id": "openverse:1972a98c-e27a-40e3-bae3-5ea60b29d5da",
-      "provider": "openverse",
-      "title": "FX 808 Beat 120 BPM.wav",
-      "category": "bass.808",
-      "url": "https://freesound.org/people/day_tripper13/sounds/117646",
-      "previewUrl": "https://cdn.freesound.org/previews/117/117646_2045208-hq.mp3",
-      "downloadable": true,
-      "form": "loop",
-      "author": "day_tripper13",
-      "license": {
-        "id": "CC-BY-3.0",
-        "name": "CC BY 3.0",
-        "url": "https://creativecommons.org/licenses/by/3.0/",
-        "verdict": "yes-with-credit",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "mp3",
-        "wav"
-      ],
-      "bpm": 120,
-      "durationSec": 16
     },
     {
       "id": "openverse:c905b3ea-1f81-46d4-857d-b9b30b5bdb51",
@@ -302,6 +254,29 @@
         "verdict": "check-terms"
       },
       "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "ghosthack:producer-essentials-808s",
+      "provider": "ghosthack",
+      "title": "Producer Essentials - 808s",
+      "category": "bass.808",
+      "url": "https://www.ghosthack.de/producer-essentials-808s",
+      "previewUrl": "https://www.ghosthack.de/media/78/91/55/1704465292/producer-essentials-808s-full-demo.mp3",
+      "downloadable": false,
+      "form": "pack",
+      "thumbnailUrl": "https://www.ghosthack.de/media/52/b8/5a/1703083626/producer-essentials-808s.webp",
+      "author": "Ghosthack",
+      "license": {
+        "id": "LicenseRef-Ghosthack-licence",
+        "name": "Ghosthack licence",
+        "url": "https://www.ghosthack.de/Information/General-Terms-Conditions/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": false,
       "formats": [
         "wav"
       ]

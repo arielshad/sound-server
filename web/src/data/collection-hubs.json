@@ -5,8 +5,48 @@
     "title": "Free drum samples: kicks, snares, hats and breaks",
     "description": "Free drum samples by sound: kicks, snares, claps, hi-hats, percussion and breakbeats as WAV one-shots and loops, each with a clear licence verdict.",
     "intro": "Drums are where most tracks start, and where a weak sample shows first. These collections group free drum sounds by what they are: punchy kicks, crisp snares and claps, closed and open hi-hats, shakers and congas, and chopped breakbeats. Results come from Freesound, Wikimedia Commons, Kenney, Free Wave Samples, the Strudel drum-machine banks and more, and every card says whether you can release a track that uses it.",
-    "categories": ["drums"],
-    "aliases": ["drum kit", "drum sounds", "drum one shots", "percussion samples"]
+    "categories": [
+      "drums"
+    ],
+    "aliases": [
+      "drum kit",
+      "drum sounds",
+      "drum one shots",
+      "percussion samples"
+    ],
+    "sections": [
+      {
+        "heading": "Building a beat from one-shots",
+        "body": "Most modern drums are programmed from one-shots: a kick on the pulse, a snare or clap on the backbeat, hats on the subdivisions, and percussion to add swing. Pick the kick first, because it sets the low end everything else has to fit around, then choose a snare that answers it. Audition sounds in a loop with the rest of the kit rather than solo, and keep a choke group between closed and open hats so they behave like a real hi-hat."
+      },
+      {
+        "heading": "Acoustic, machine or both",
+        "body": "Recorded acoustic drums bring natural dynamics and room sound; drum machine samples such as the TR-808, TR-909 and LinnDrum bring the punch and character of the records that made them famous. Many producers layer the two: an acoustic snare for body with a machine clap on top, or a sampled kick with an 808 underneath. Free drum machine banks vary in licence, so check each verdict."
+      },
+      {
+        "heading": "Licences for drum samples",
+        "body": "Drum one-shots are among the most openly licensed sounds online. Kenney's packs are CC0, many Freesound and Wikimedia Commons drums are CC0 or CC BY, and the vintage-machine samples on Free Wave Samples come with a royalty-free licence. Breaks lifted from old records are the exception: they belong to whoever owns the recording, so use breaks that their drummers licensed openly."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What drum sounds do I need for a basic kit?",
+        "a": "A kick, a snare or clap, a closed hi-hat and an open hi-hat cover most beats. Add percussion, toms and a crash or ride as the style needs, and an 808 for trap, drill or hip hop."
+      },
+      {
+        "q": "Are drum machine samples legal to use?",
+        "a": "A recording of a drum machine belongs to whoever recorded it, so it is legal to use when that person licensed it for your use. Each sample here shows the licence and whether it is cleared for a release."
+      },
+      {
+        "q": "What is the best format for drum samples?",
+        "a": "A lossless WAV or AIFF at 44.1 or 48 kHz. Drum transients suffer first in lossy formats such as MP3, so use previews only for auditioning."
+      }
+    ],
+    "guides": [
+      "build-a-drum-kit-from-free-samples",
+      "what-is-an-808",
+      "one-shots-vs-loops"
+    ]
   },
   {
     "id": "bass-808s",
@@ -14,8 +54,49 @@
     "title": "Free 808 and bass samples",
     "description": "Free 808s, sub basses and bass one-shots and loops for trap, hip hop, drill and house, with key, length and a licence verdict on every sample.",
     "intro": "An 808 is a tuned, long-decaying kick that doubles as the bassline in trap, drill and modern hip hop; a sub bass or a bass loop does the same job in house and drum and bass. These collections group free bass sounds by style and show the root key where the source or our analysis knows it, so you can drop a sample in tune without guessing.",
-    "categories": ["bass"],
-    "aliases": ["808", "808s", "808 samples", "bass samples", "sub bass"]
+    "categories": [
+      "bass"
+    ],
+    "aliases": [
+      "808",
+      "808s",
+      "808 samples",
+      "bass samples",
+      "sub bass"
+    ],
+    "sections": [
+      {
+        "heading": "808, sub or bass synth",
+        "body": "An 808 is a decaying, tuned bass drum that plays the bassline in trap, drill and modern hip hop. A sub bass is a steadier, purer low tone, close to a sine wave, that sits under dubstep, grime and house. A synth bass, from acid squelches to Reese growls, has more harmonics and character in the midrange. Many tracks combine two: a characterful bass for the ear and a clean sub for the body."
+      },
+      {
+        "heading": "Tuning is everything",
+        "body": "Bass is where an out-of-tune sample shows most. Find the root note of each sample, which the cards show when the source or an analysis knows it, and map it in a sampler so the keyboard plays in tune. Keep the bass in the key of your track, check it on headphones, and keep everything below about 120 Hz in mono."
+      },
+      {
+        "heading": "Making room for the kick",
+        "body": "Kick and bass share the same frequencies. Choose a kick and an 808 tuned to the same note or a fifth apart, shorten the kick's tail, and sidechain the bass so it ducks slightly when the kick hits. On small speakers, a little saturation on the bass adds harmonics that are audible where the fundamental isn't."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I use the same 808 for a whole track?",
+        "a": "Yes. One well-tuned 808 played across different notes is the norm in trap. Change the decay or add glide between notes for variation."
+      },
+      {
+        "q": "Why do bass samples list a key or root note?",
+        "a": "Because a bass sample only fits a track when it is played in tune. The root note tells your sampler which key on the keyboard plays the sample unchanged."
+      },
+      {
+        "q": "Are free 808 packs safe to release with?",
+        "a": "Many are, if the person who made them licensed them for commercial use. The verdict on each sample shows whether it is cleared, and whether a credit is required."
+      }
+    ],
+    "guides": [
+      "what-is-an-808",
+      "find-samples-by-bpm-and-key",
+      "build-a-drum-kit-from-free-samples"
+    ]
   },
   {
     "id": "loops",
@@ -23,8 +104,47 @@
     "title": "Free loops by genre and tempo",
     "description": "Free loops for music production: drum loops, melody loops, guitar and piano loops by genre, with BPM and key where known and a licence verdict on each.",
     "intro": "A loop repeats seamlessly at a tempo, so it can carry a whole section of a track or seed a new idea. These collections group free loops by instrument and genre, from lo-fi drum grooves to piano chords, and show the BPM and key so you can match them to your project. Many loops on free sites are licensed for non-commercial use only: each card says which.",
-    "forms": ["loop"],
-    "aliases": ["loops", "loop samples", "music loops"]
+    "forms": [
+      "loop"
+    ],
+    "aliases": [
+      "loops",
+      "loop samples",
+      "music loops"
+    ],
+    "sections": [
+      {
+        "heading": "Matching tempo and key",
+        "body": "A loop is recorded at one tempo, so set your project to its BPM or time-stretch it, and check that it ends exactly on a bar line. If it ends halfway, the real tempo is half or double the label. Pitched loops also have a key: play them over your bassline, and stay within two or three semitones when you transpose them."
+      },
+      {
+        "heading": "Making a loop your own",
+        "body": "Slice a loop at its transients and replay the slices in a new order, filter or re-pitch it, or layer it under your own drums. The more you transform it, the less it sounds like a stock sample, which also makes it less likely to collide with someone else's track in fingerprinting systems."
+      },
+      {
+        "heading": "Licences on loop sites",
+        "body": "Free loop communities often let uploaders choose a licence without checking that they own the material, and many loops are for non-commercial use only. Sound Server reads the licence for each loop and never rates an unverified uploader's claim better than check the terms. Use the Commercial-safe switch if the track may be released."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the difference between a loop and a one-shot?",
+        "a": "A loop is a repeating pattern recorded at a fixed tempo; a one-shot is a single hit or note you arrange yourself. Loops give you feel, one-shots give you control."
+      },
+      {
+        "q": "How do I find loops at my tempo?",
+        "a": "Add the BPM to your search (for example drum loop 90 bpm) or use the BPM filter, which also matches half and double tempo."
+      },
+      {
+        "q": "Can I sell beats made with free loops?",
+        "a": "Only with loops whose licence allows commercial use. Many free loops are non-commercial, so check the verdict on each one before you lease or sell a beat."
+      }
+    ],
+    "guides": [
+      "one-shots-vs-loops",
+      "find-samples-by-bpm-and-key",
+      "what-counts-as-commercial-use"
+    ]
   },
   {
     "id": "vocals",
@@ -32,8 +152,49 @@
     "title": "Free vocal samples: chops, a cappellas and shouts",
     "description": "Free vocal samples: vocal chops, a cappellas, shouts and ad-libs, choirs and spoken word, with key and tempo where known and a licence verdict on each.",
     "intro": "Vocal samples give a track a human hook: a chopped syllable played as a melody, a full a cappella to remix, a crowd shout on the drop or a spoken line in a breakdown. These collections group free vocals by type. Vocals are the samples most often licensed for non-commercial use only, so check the verdict on each card before you release anything.",
-    "categories": ["vocals"],
-    "aliases": ["vocals", "vocal", "vox", "acapella", "voice samples"]
+    "categories": [
+      "vocals"
+    ],
+    "aliases": [
+      "vocals",
+      "vocal",
+      "vox",
+      "acapella",
+      "voice samples"
+    ],
+    "sections": [
+      {
+        "heading": "Kinds of vocal sample",
+        "body": "A cappellas are full vocal performances without music, made for remixing. Vocal chops are short slices replayed as rhythms or melodies. Shouts and ad-libs are one-word accents for drops and gaps. Spoken word adds narration or atmosphere, and choirs add size. Each kind is a collection of its own here."
+      },
+      {
+        "heading": "Two rights in every voice",
+        "body": "A vocal sample involves the recording and the person whose voice it is, and a sung line also involves the song it comes from. That is why vocals lifted from records, films or interviews are the riskiest samples to release. Vocals recorded by singers for others to use, typically on Creative Commons remix communities, are the safe route."
+      },
+      {
+        "heading": "Credit and licences",
+        "body": "Many free vocals are CC BY, which allows a commercial release with a credit to the singer, and a large share are non-commercial. Sound Server shows the verdict and writes the credit line for each, and the bundle download keeps every credit in ATTRIBUTION.md."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Where do free a cappellas come from?",
+        "a": "Mostly from remix communities such as ccMixter, where singers upload their parts under Creative Commons, and from public-domain archives. A cappellas of commercial songs found elsewhere are rarely licensed for reuse."
+      },
+      {
+        "q": "Can I chop a vocal from a song on YouTube?",
+        "a": "Not without permission from the owners of the recording and the song. Use vocals whose licence covers your use, which this hub filters by verdict."
+      },
+      {
+        "q": "Do I have to credit the singer?",
+        "a": "For CC BY vocals, yes: the credit is the condition of the licence. CC0 vocals need no credit, though singers appreciate one."
+      }
+    ],
+    "guides": [
+      "credit-cc-by-samples",
+      "cc-sampling-plus",
+      "sample-clearance-and-content-id"
+    ]
   },
   {
     "id": "fx",
@@ -41,8 +202,48 @@
     "title": "Free sound effects for music: risers, impacts, sweeps",
     "description": "Free sound effects for music production and video: risers, downlifters, impacts, whooshes, zaps, glitches and noise, with licence verdicts and previews.",
     "intro": "Transitions are what make a drop land: a riser that builds tension, a downlifter that releases it, an impact on the first beat and a whoosh between sections. These collections group free effects by what they do in an arrangement, from cinematic hits to vinyl crackle and laser zaps, with a preview and a licence verdict on every one.",
-    "categories": ["fx"],
-    "aliases": ["sound effects", "sfx", "fx", "transitions"]
+    "categories": [
+      "fx"
+    ],
+    "aliases": [
+      "sound effects",
+      "sfx",
+      "fx",
+      "transitions"
+    ],
+    "sections": [
+      {
+        "heading": "Effects by their job in a track",
+        "body": "Risers build tension into a drop, downlifters release it, impacts mark the downbeat, and whooshes and transitions bridge two sections. Noise, vinyl crackle and glitches add texture, and zaps and lasers bring a sci-fi edge. Layering several, each in its own frequency range, is how most big transitions are made."
+      },
+      {
+        "heading": "Timing is the trick",
+        "body": "An effect lands when its loudest point hits the beat or the cut, not when it starts. Line up the peak of a whoosh with the downbeat, end a riser exactly where the drop begins, and start a downlifter together with an impact. Tempo-synced delays and reverbs help effects feel part of the music."
+      },
+      {
+        "heading": "Also for video and games",
+        "body": "The same effects serve video editors, podcasters and game developers. Many free libraries, such as Kenney's CC0 packs and the open sound communities, were made with games in mind. The licence verdict is the same question for any project: may this go into something you publish or sell?"
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the difference between a riser and a sweep?",
+        "a": "A riser climbs in pitch, volume or brightness over several bars to build tension. A sweep or whoosh is shorter and passes by, filling a moment rather than building towards one."
+      },
+      {
+        "q": "Can I use these sound effects in YouTube videos?",
+        "a": "Yes, when the verdict says commercial use is OK; a monetised video counts as commercial. Non-commercial effects, such as the BBC archive's, are for personal or educational videos only."
+      },
+      {
+        "q": "How do I make my own transition effects?",
+        "a": "Reverse a crash or a vocal, sweep a filter on noise, or resample a long reverb tail. Your own transitions fit your track better than stock ones."
+      }
+    ],
+    "guides": [
+      "what-counts-as-commercial-use",
+      "bbc-sound-effects-for-music",
+      "cc0-vs-cc-by-vs-royalty-free"
+    ]
   },
   {
     "id": "foley-ambience",
@@ -50,8 +251,50 @@
     "title": "Free foley sounds and ambience recordings",
     "description": "Free foley sounds and ambience recordings: footsteps, doors, water, rain, forests, city streets and room tone, for music, film and games, with licences.",
     "intro": "Foley is the sound of things being handled: footsteps, doors, paper, glass, water. Ambience is the sound of a place: rain on a roof, a forest at dawn, a busy street, the hum of an empty room. Producers layer both under beats for texture and space. These collections group free field recordings by subject, many of them CC0 from Freesound, Wikimedia Commons and the BBC Sound Effects archive.",
-    "categories": ["foley", "ambience"],
-    "aliases": ["foley", "ambience", "field recordings", "atmospheres", "soundscapes"]
+    "categories": [
+      "foley",
+      "ambience"
+    ],
+    "aliases": [
+      "foley",
+      "ambience",
+      "field recordings",
+      "atmospheres",
+      "soundscapes"
+    ],
+    "sections": [
+      {
+        "heading": "Foley versus ambience",
+        "body": "Foley is a sound made by a specific action: a footstep, a door, paper, glass, water. Ambience is the sound of a place over time: rain, a forest, a city street, an empty room. Film and game sound uses both together; producers layer them under beats for texture and a sense of space."
+      },
+      {
+        "heading": "What makes a good recording",
+        "body": "For foley, look for close, dry recordings of a single action, so you can place them with your own reverb. For ambience, look for long continuous takes without voices, music or passing traffic, which make loops obvious and can hide rights you didn't expect. Stereo and binaural recordings give the strongest sense of place."
+      },
+      {
+        "heading": "Where the free recordings come from",
+        "body": "Field recordists share a great deal of their work under CC0 and CC BY on Freesound and Wikimedia Commons, and game audio packs add clean foley. The BBC Sound Effects archive holds decades of professional recordings under personal, educational and research terms, so its results carry a non-commercial verdict."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I use BBC Sound Effects recordings in a release?",
+        "a": "Not under the free RemArc licence, which covers personal, educational and research use. A commercial release needs a separate licence, or a CC0 or CC BY recording instead."
+      },
+      {
+        "q": "How do I loop an ambience without it sounding repetitive?",
+        "a": "Use a long section, crossfade over at least half a second at a point without distinctive events, or layer two recordings of different lengths so they rarely line up."
+      },
+      {
+        "q": "Are there legal issues with recording in public?",
+        "a": "Background sound in public places is usually fine to publish, but avoid recordings where an identifiable person speaks clearly, or where music plays in the background, as both bring rights of their own."
+      }
+    ],
+    "guides": [
+      "bbc-sound-effects-for-music",
+      "freesound-samples-commercial-use",
+      "credit-cc-by-samples"
+    ]
   },
   {
     "id": "instruments",
@@ -59,7 +302,53 @@
     "title": "Free instrument samples: piano, guitar, synth, strings",
     "description": "Free instrument samples and multisampled instruments: piano, Rhodes, guitar, synth pads and leads, strings, brass, flutes and mallets, with licence verdicts.",
     "intro": "Instrument samples range from a single piano note to a full multisampled instrument you can play from a keyboard. These collections group free instruments by family, keys, guitars, synths, orchestral strings, brass and woodwind, and mallets, and show the root note where it is known so you can map one-shots across a sampler.",
-    "categories": ["keys", "guitar", "synth", "strings", "brass", "woodwind", "mallets"],
-    "aliases": ["instruments", "instrument samples", "multisamples", "sampled instruments"]
+    "categories": [
+      "keys",
+      "guitar",
+      "synth",
+      "strings",
+      "brass",
+      "woodwind",
+      "mallets"
+    ],
+    "aliases": [
+      "instruments",
+      "instrument samples",
+      "multisamples",
+      "sampled instruments"
+    ],
+    "sections": [
+      {
+        "heading": "One-shots and multisamples",
+        "body": "A single note is enough for a stab or a quick melody. A multisampled instrument, with every few notes and several velocities recorded, plays like the real thing from a keyboard. Free orchestral projects such as the CC0 Versilian Community Sample Library and VSCO 2 Community Edition, university instrument archives, and piano sets such as Salamander provide multisamples for many instruments."
+      },
+      {
+        "heading": "Playing samples convincingly",
+        "body": "Write within each instrument's range and give players room to breathe. Vary velocity and timing slightly, use expression or volume automation for strings, winds and brass, and add one shared reverb so the instruments sound like they are in the same room. Root notes on the cards help you map one-shots correctly."
+      },
+      {
+        "heading": "Licences for instruments",
+        "body": "Instrument sample projects are among the most permissively licensed sounds available, often CC0 or free for any use, which makes them a safe base for a release. Recordings of public-domain pieces are different: the performance has its own copyright, so check the verdict on any recorded passage."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is a multisample?",
+        "a": "A set of recordings of one instrument at many pitches, and often several velocities, mapped across a keyboard so it can be played like the instrument itself."
+      },
+      {
+        "q": "How do I load free instrument samples into my DAW?",
+        "a": "Drop single notes into your DAW's sampler and set the root note. Multisampled instruments often come as SFZ files, which free samplers such as sfizz load directly."
+      },
+      {
+        "q": "Are free orchestral samples good enough for film music?",
+        "a": "For sketches and many finished projects, yes, especially with careful programming and a good reverb. Large commercial libraries add more articulations and microphone positions."
+      }
+    ],
+    "guides": [
+      "sample-formats-wav-mp3-flac",
+      "find-samples-by-bpm-and-key",
+      "cc0-vs-cc-by-vs-royalty-free"
+    ]
   }
 ]

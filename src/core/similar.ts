@@ -398,7 +398,9 @@ export class EmbeddingIndex {
   private pump(): void {
     if (this.perMinute <= 0 || !this.queue.size) return;
     this.refill();
-    while (this.working < 1 && this.tokens >= 1 && this.queue.size) {
+    // While the model can't load, keep the queue but don't fetch anything.
+    const down = this.embedder.unavailable?.("audio") !== undefined;
+    while (!down && this.working < 1 && this.tokens >= 1 && this.queue.size) {
       const next = [...this.queue.values()].find((it) => !this.hostBusy.has(hostOf(it.file.url)));
       if (!next) break;
       this.queue.delete(next.sample.id);
@@ -412,7 +414,7 @@ export class EmbeddingIndex {
         });
     }
     if (this.queue.size && !this.timer) {
-      const wait = this.tokens >= 1 ? 1000 : Math.ceil(((1 - this.tokens) * 60_000) / this.perMinute);
+      const wait = down ? 60_000 : this.tokens >= 1 ? 1000 : Math.ceil(((1 - this.tokens) * 60_000) / this.perMinute);
       this.timer = setTimeout(() => {
         this.timer = undefined;
         this.pump();
@@ -476,6 +478,8 @@ export class EmbeddingIndex {
     if (pending) return pending;
     const reason = opts.file ? undefined : this.skipReason(s);
     if (reason) throw new Error(`can't embed ${s.id}: ${reason}`);
+    const down = this.embedder.unavailable?.("audio");
+    if (down) throw new Error(down);
     const file = opts.file ?? this.previewFile(s)!;
     const p = (async () => {
       try {
@@ -733,6 +737,8 @@ export async function findSimilar(
       if (results.length) return { id, method: "clap", results: results.map((r) => ({ ...r.sample, score: r.score })), indexed: index.size };
     }
     if (!index.size) notes.push("The sound index is empty so far.");
+    const down = index.embedder.unavailable?.("audio");
+    if (down) notes.push(down);
   }
 
   if (provider === "freesound") {

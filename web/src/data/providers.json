@@ -274,6 +274,37 @@
     ]
   },
   {
+    "id": "zenodo",
+    "name": "Zenodo datasets",
+    "homepage": "https://zenodo.org",
+    "description": "Hand-checked research datasets on Zenodo that work as sample sources: orchestral and instrument notes (TinySOL, Good-sounds), singing, choir and guitar recordings, percussion one-shots and large CC BY drum-loop sets (WaivOps).",
+    "categories": [
+      "strings",
+      "vocals",
+      "guitar",
+      "drums",
+      "woodwind"
+    ],
+    "forms": [
+      "pack",
+      "multisample"
+    ],
+    "access": "static",
+    "pricing": "free",
+    "license": null,
+    "licenseId": null,
+    "licenseUrl": null,
+    "licenseVerdict": null,
+    "supportsDownload": true,
+    "apiKeyEnv": null,
+    "nativeFilters": [
+      "categories",
+      "forms",
+      "commercialOnly",
+      "freeOnly"
+    ]
+  },
+  {
     "id": "kenney",
     "name": "Kenney",
     "homepage": "https://kenney.nl/assets/category:Audio",
@@ -427,6 +458,36 @@
     ]
   },
   {
+    "id": "bigsoundbank",
+    "name": "BigSoundBank",
+    "homepage": "https://bigsoundbank.com",
+    "description": "About 3,600 CC0 sound effects, ambiences and foley recorded by Joseph Sardin, each with a UCS category; search and page links only (the audio folder is closed to robots).",
+    "categories": [
+      "foley",
+      "ambience",
+      "fx",
+      "vocals",
+      "drums",
+      "mallets",
+      "keys",
+      "other"
+    ],
+    "forms": [
+      "one-shot",
+      "loop",
+      "phrase"
+    ],
+    "access": "scrape",
+    "pricing": "free",
+    "license": "CC0 1.0",
+    "licenseId": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseVerdict": "yes",
+    "supportsDownload": false,
+    "apiKeyEnv": null,
+    "nativeFilters": []
+  },
+  {
     "id": "openverse",
     "name": "Openverse",
     "homepage": "https://openverse.org",
@@ -462,6 +523,108 @@
     "apiKeyEnv": null,
     "nativeFilters": [
       "commercialOnly",
+      "freeOnly"
+    ]
+  },
+  {
+    "id": "freepacks",
+    "name": "Free pack news",
+    "homepage": "https://99sounds.org/sounds/",
+    "description": "Newly announced free sample and preset packs from 99Sounds, Bedroom Producers Blog and Reverb Machine, linking to the article or product page (downloads need an email or a $0 checkout there).",
+    "categories": [
+      "drums",
+      "bass",
+      "vocals",
+      "fx",
+      "foley",
+      "ambience",
+      "keys",
+      "guitar",
+      "synth",
+      "strings",
+      "brass",
+      "woodwind",
+      "mallets",
+      "other"
+    ],
+    "forms": [
+      "pack",
+      "preset"
+    ],
+    "access": "scrape",
+    "pricing": "free",
+    "license": null,
+    "licenseId": null,
+    "licenseUrl": null,
+    "licenseVerdict": null,
+    "supportsDownload": false,
+    "apiKeyEnv": null,
+    "nativeFilters": []
+  },
+  {
+    "id": "ghosthack",
+    "name": "Ghosthack",
+    "homepage": "https://www.ghosthack.de",
+    "description": "German label's store of royalty-free sample packs: big vocal and acapella packs, cinematic FX, EDM, techno and trap kits, song kits, MIDI and Serum/Vital presets; demo mp3 per pack.",
+    "categories": [
+      "vocals",
+      "fx",
+      "drums",
+      "bass",
+      "synth",
+      "keys",
+      "guitar",
+      "strings",
+      "foley",
+      "ambience"
+    ],
+    "forms": [
+      "pack",
+      "preset",
+      "midi"
+    ],
+    "access": "scrape",
+    "pricing": "paid",
+    "license": "Ghosthack licence",
+    "licenseId": "LicenseRef-Ghosthack-licence",
+    "licenseUrl": "https://www.ghosthack.de/Information/General-Terms-Conditions/",
+    "licenseVerdict": "yes",
+    "supportsDownload": false,
+    "apiKeyEnv": null,
+    "nativeFilters": []
+  },
+  {
+    "id": "blackoctopus",
+    "name": "Black Octopus Sound",
+    "homepage": "https://blackoctopus-sound.com",
+    "description": "Label store of royalty-free sample packs and synth presets (vocals, drum hits, bass music, techno, cinematic), its own and partner labels'; a few free giveaways.",
+    "categories": [
+      "drums",
+      "bass",
+      "vocals",
+      "fx",
+      "synth",
+      "keys",
+      "guitar",
+      "strings",
+      "brass",
+      "woodwind",
+      "ambience"
+    ],
+    "forms": [
+      "pack",
+      "preset",
+      "midi"
+    ],
+    "access": "scrape",
+    "pricing": "freemium",
+    "license": "Black Octopus Sound licence",
+    "licenseId": "LicenseRef-Black-Octopus-Sound-licence",
+    "licenseUrl": "https://blackoctopus-sound.com/terms-of-service/",
+    "licenseVerdict": "yes",
+    "supportsDownload": false,
+    "apiKeyEnv": null,
+    "nativeFilters": [
       "freeOnly"
     ]
   },
@@ -521,6 +684,37 @@
     "license": "Cymatics licence",
     "licenseId": "LicenseRef-Cymatics-licence",
     "licenseUrl": "https://cymatics.fm/pages/terms-of-service",
+    "licenseVerdict": "yes",
+    "supportsDownload": false,
+    "apiKeyEnv": null,
+    "nativeFilters": []
+  },
+  {
+    "id": "functionloops",
+    "name": "Function Loops",
+    "homepage": "https://www.functionloops.com",
+    "description": "Label store of royalty-free sample packs: vocal packs and acapellas, psytrance, techno, house, pop and hip hop kits, MIDI and presets (search on the site).",
+    "categories": [
+      "vocals",
+      "drums",
+      "bass",
+      "synth",
+      "fx",
+      "guitar",
+      "keys"
+    ],
+    "forms": [
+      "pack",
+      "loop",
+      "one-shot",
+      "midi",
+      "preset"
+    ],
+    "access": "link",
+    "pricing": "paid",
+    "license": "Function Loops licence",
+    "licenseId": "LicenseRef-Function-Loops-licence",
+    "licenseUrl": "https://www.functionloops.com/license.html",
     "licenseVerdict": "yes",
     "supportsDownload": false,
     "apiKeyEnv": null,

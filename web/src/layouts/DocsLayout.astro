@@ -26,7 +26,7 @@ const flat = DOCS_NAV.flatMap((g) => g.items).filter((i) => i.href.startsWith("/
 const idx = flat.findIndex((i) => i.href === path);
 const prev = idx > 0 ? flat[idx - 1] : undefined;
 const next = idx >= 0 && idx < flat.length - 1 ? flat[idx + 1] : undefined;
-const markdown = path === "/docs/api/reference" ? "/openapi.json" : `${path}.md`;
+const markdown = `${path}.md`;
 ---
 
 <BaseLayout title={title} description={description} ogType="article" section="Docs" markdown={markdown} schema={[techArticle({ title, description, path }), breadcrumbs(trail), ...(p.schema ?? [])]}>

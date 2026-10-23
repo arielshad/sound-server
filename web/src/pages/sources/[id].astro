@@ -5,9 +5,10 @@
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import SampleCard from "@/components/collections/SampleCard.astro";
 import Breadcrumbs from "@/components/collections/Breadcrumbs.astro";
-import { countLabel, sourcePages, sourcePath, type SourcePage } from "@/lib/collections";
+import { countLabel, sourcePages, sourcePath, sourceSearchHref, type SourcePage } from "@/lib/collections";
+import { allGuides, guidePath } from "@/lib/guides";
 import { COUNTED_ON, categoryName, fmt } from "@/lib/catalog";
-import { breadcrumbs, collectionPage } from "@/lib/schema";
+import { breadcrumbs, collectionPage, sourceEntity } from "@/lib/schema";
 import { SOURCE_COUNT } from "@/lib/site";
 import { VERDICT_LABELS, categoryLabel, type Verdict } from "@/lib/vocab";
 
@@ -31,6 +32,8 @@ const trail = [{ name: "Home", path: "/" }, { name: "Sources", path: "/docs/sour
 const byCategory = t ? Object.entries(t.byCategory).sort((a, b) => b[1] - a[1]) : [];
 const categories = t?.categories ? Object.keys(t.categories).slice(0, 10) : [];
 const searchLink = `/search?providers=${p.id}${p.categories[0] ? `&category=${p.categories[0]}` : ""}`;
+const n = s.notes;
+const guides = n?.guides?.length ? (await allGuides()).filter((g) => n.guides!.includes(g.id)) : [];
 ---
 
 <BaseLayout
@@ -40,6 +43,7 @@ const searchLink = `/search?providers=${p.id}${p.categories[0] ? `&category=${p.
   noindex={!s.indexable}
   schema={[
     collectionPage({ title, description, path, about: [p.name], samples: s.samples }),
+    sourceEntity({ id: p.id, name: p.name, homepage: p.homepage, description: p.description, license: p.license, free: p.pricing === "free" }),
     breadcrumbs(trail),
   ]}
 >
@@ -75,6 +79,48 @@ const searchLink = `/search?providers=${p.id}${p.categories[0] ? `&category=${p.
       <p class="mt-4 text-sm text-muted-foreground">Biggest categories: {categories.join(", ")}.</p>
     )}
 
+    {n && (
+      <div class="mt-14 grid gap-12 lg:grid-cols-[1fr_18rem]">
+        <article class="min-w-0 max-w-3xl space-y-8">
+          <section aria-labelledby="about-source">
+            <h2 id="about-source" class="text-xl font-semibold tracking-tight">What {p.name} is</h2>
+            <p class="mt-3 text-pretty leading-relaxed text-muted-foreground">{n.about}</p>
+          </section>
+          <section aria-labelledby="best-for">
+            <h2 id="best-for" class="text-xl font-semibold tracking-tight">Best for</h2>
+            <p class="mt-3 text-pretty leading-relaxed text-muted-foreground">{n.bestFor}</p>
+          </section>
+          <section aria-labelledby="licence">
+            <h2 id="licence" class="text-xl font-semibold tracking-tight">Licence and what it means for a release</h2>
+            <p class="mt-3 text-pretty leading-relaxed text-muted-foreground">{n.licence}</p>
+          </section>
+          <section aria-labelledby="how">
+            <h2 id="how" class="text-xl font-semibold tracking-tight">How Sound Server searches it</h2>
+            <p class="mt-3 text-pretty leading-relaxed text-muted-foreground">{n.searching}</p>
+          </section>
+        </article>
+        <aside class="min-w-0 space-y-8 text-sm">
+          {n.examples.length > 0 && (
+            <section aria-labelledby="try">
+              <h2 id="try" class="font-medium">Example searches</h2>
+              <ul class="mt-3 flex flex-wrap gap-2">
+                {n.examples.map((e) => <li><a href={sourceSearchHref(p.id, e)} class="inline-flex rounded-full border px-3 py-1 text-muted-foreground transition hover:border-primary/40 hover:text-foreground">{e.label}</a></li>)}
+              </ul>
+              <p class="mt-3 text-muted-foreground">Over the API: <code class="text-xs">/v1/search?q=…&amp;providers={p.id}</code></p>
+            </section>
+          )}
+          {guides.length > 0 && (
+            <section aria-labelledby="guides">
+              <h2 id="guides" class="font-medium">Guides</h2>
+              <ul class="mt-3 divide-y rounded-xl border">
+                {guides.map((g) => <li class="px-3 py-2"><a href={guidePath(g.id)} class="hover:text-primary underline underline-offset-2 hover:decoration-2">{g.data.title}</a></li>)}
+              </ul>
+            </section>
+          )}
+        </aside>
+      </div>
+    )}
+
     {s.samples.length > 0 && (
       <section class="mt-14" aria-labelledby="examples">
         <h2 id="examples" class="text-2xl font-semibold tracking-tight">{p.name} in the collections</h2>
@@ -91,7 +137,7 @@ const searchLink = `/search?providers=${p.id}${p.categories[0] ? `&category=${p.
         <ul class="mt-4 divide-y rounded-xl border text-sm">
           {s.collections.map(({ collection: c, count }) => (
             <li class="flex items-center justify-between gap-3 px-4 py-3">
-              <a href={c.path} class="font-medium hover:text-primary hover:underline">{c.topic.data.title}</a>
+              <a href={c.path} class="font-medium hover:text-primary underline underline-offset-2 hover:decoration-2">{c.topic.data.title}</a>
               <span class="text-muted-foreground">{count} of {countLabel(c.samples)}</span>
             </li>
           ))}
@@ -103,13 +149,13 @@ const searchLink = `/search?providers=${p.id}${p.categories[0] ? `&category=${p.
       <section class="mt-14 max-w-3xl" aria-labelledby="popular">
         <h2 id="popular" class="text-xl font-semibold tracking-tight">Most downloaded on {p.name}</h2>
         <ul class="mt-4 list-disc space-y-1 pl-5 text-sm text-muted-foreground">
-          {t.highlights.map((h) => <li>{h.label}: <a href={h.url} rel="noopener" class="text-primary hover:underline">{h.title}</a>{h.value !== undefined && ` (${fmt(h.value)} downloads)`}</li>)}
+          {t.highlights.map((h) => <li>{h.label}: <a href={h.url} rel="noopener" class="text-primary underline underline-offset-2 hover:decoration-2">{h.title}</a>{h.value !== undefined && ` (${fmt(h.value)} downloads)`}</li>)}
         </ul>
       </section>
     ) : null}
 
     <p class="mt-16 text-sm text-muted-foreground">
-      See <a href={`/docs/sources#${p.id}`} class="text-primary hover:underline">all {SOURCE_COUNT} sources and their licences</a>, the <a href="/stats" class="text-primary hover:underline">daily catalog census</a>, or <a href="/samples" class="text-primary hover:underline">browse the collections</a>.
+      See <a href={`/docs/sources#${p.id}`} class="text-primary underline underline-offset-2 hover:decoration-2">all {SOURCE_COUNT} sources and their licences</a>, the <a href="/stats" class="text-primary underline underline-offset-2 hover:decoration-2">daily catalog census</a>, or <a href="/samples" class="text-primary underline underline-offset-2 hover:decoration-2">browse the collections</a>.
     </p>
   </div>
 </BaseLayout>

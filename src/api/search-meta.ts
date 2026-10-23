@@ -38,6 +38,9 @@ const lowerFirst = (s: string) => s.charAt(0).toLowerCase() + s.slice(1);
 const clip = (s: string, n: number) => (s.length > n ? `${s.slice(0, n - 1).trimEnd()}…` : s);
 const providerName = (id: string) => allProviders.find((p) => p.id === id)?.name ?? id;
 const FEATURED = ["Freesound", "Wikimedia Commons", "Openverse"];
+/** Search engines show about this much of a title and a description. */
+export const MAX_TITLE = 70;
+export const MAX_DESCRIPTION = 160;
 
 export interface HeadMeta {
   title: string;
@@ -123,8 +126,8 @@ export function searchMeta(params: URLSearchParams): HeadMeta | undefined {
     ? `Search results for “${clip(q, 60)}” across ${SITES}: ${kind} with previews, licences and direct downloads from Freesound, Wikimedia Commons and more.`
     : `Browse ${kind} from ${SITES} at once, with previews, BPM and key, licence verdicts and one-click downloads.`;
   return {
-    title,
-    description,
+    title: clipTitle(title),
+    description: clip(description, MAX_DESCRIPTION),
     robots: "noindex, follow",
     image: `/og/query.png?${share.key}`,
     imageAlt: `${share.title}: ${share.subtitle}`,
@@ -150,18 +153,31 @@ export function sampleFacts(a: Pick<SampleDetails, "category" | "form" | "durati
   ].filter((x): x is string => !!x);
 }
 
+/** Keep a page title within MAX_TITLE, shortening the quoted part first. */
+function clipTitle(t: string): string {
+  if (t.length <= MAX_TITLE) return t;
+  const m = t.match(/^“(.*)”(.*)$/);
+  if (m) return `“${clip(m[1]!, Math.max(12, MAX_TITLE - m[2]!.length - 2))}”${m[2]}`;
+  return clip(t, MAX_TITLE);
+}
+
 export function sampleMeta(a: SampleDetails): HeadMeta {
   const source = providerName(a.provider);
   const noun = categoryNoun(a.category, false);
+  // "<title>: kick sample on Freesound · Sound Server", dropping the source and then
+  // shortening the sample title when it would run past MAX_TITLE.
+  const tail = [`: ${noun} on ${source} · Sound Server`, `: ${noun} · Sound Server`].find((x) => a.title.length + x.length <= MAX_TITLE) ?? `: ${noun} · Sound Server`;
+  const name = clip(a.title, Math.max(20, MAX_TITLE - tail.length));
   const facts = [
     ...sampleFacts(a).slice(1),
     a.license ? `${a.license.name}: ${lowerFirst(VERDICT_LABELS[a.license.verdict])}` : undefined,
     a.price ? (a.price.free ? "free" : "paid") : undefined,
   ].filter(Boolean);
   const lead = `${noun[0]!.toUpperCase()}${noun.slice(1)} “${clip(a.title, 60)}” on ${source}${a.author ? ` by ${clip(a.author, 40)}` : ""}`;
+  const core = `${lead}${facts.length ? ` (${facts.join(", ")})` : ""}.`;
   return {
-    title: `${clip(a.title, 60)}: ${noun} on ${source} · Sound Server`,
-    description: clip(`${lead}${facts.length ? ` (${facts.join(", ")})` : ""}. Preview, licence and downloads via Sound Server.`, 200),
+    title: `${name}${tail}`,
+    description: [`${core} Preview, licence and downloads via Sound Server.`].find((d) => d.length <= MAX_DESCRIPTION) ?? clip(core, MAX_DESCRIPTION),
     robots: "noindex, follow",
     image: `/og/sample.png?id=${encodeURIComponent(a.id)}`,
     imageAlt: `${a.title}: ${noun} on ${source}`,

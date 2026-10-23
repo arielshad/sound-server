@@ -1,4 +1,5 @@
-import { readFileSync } from "node:fs";
+import { existsSync, mkdtempSync, readFileSync, rmSync } from "node:fs";
+import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { createApp } from "../src/api/app.js";
@@ -6,7 +7,7 @@ import { analyzeAudio, clearAnalysisCache, setAnalysisCacheBackend, type AudioAn
 import { cosine, l2normalize, type Embedder, type EmbedderStatus } from "../src/core/embeddings.js";
 import { SampleService, rankResults } from "../src/core/service.js";
 import { EmbeddingIndex, SimilarUnavailableError, VectorIndex, categoryPrompts, findSimilar, indexCatalogue, zeroShotRank } from "../src/core/similar.js";
-import { SampleStore } from "../src/core/store.js";
+import { SampleStore, modelDirFromEnv, resetStoreFromEnv, storeFromEnv } from "../src/core/store.js";
 import type { HttpClient, Provider, Sample } from "../src/core/types.js";
 import { makeSample } from "../src/core/util.js";
 import { freesound } from "../src/providers/freesound.js";
@@ -53,6 +54,7 @@ class FakeEmbedder implements Embedder {
   audioCalls = 0;
   textCalls = 0;
   warmed: string[] = [];
+  unavailable?: (kind: "audio" | "text") => string | undefined;
   constructor(private text = true) {}
   async embedAudio(pcm: Float32Array) {
     this.audioCalls++;
@@ -141,6 +143,27 @@ describe("SampleStore (node:sqlite)", () => {
     expect(store.getSample("fake:b")).toBeUndefined();
     expect(store.getSample("fake:d")).toBeDefined();
     store.close();
+  });
+});
+
+describe("storeFromEnv", () => {
+  afterEach(() => resetStoreFromEnv());
+
+  it("is off without SOUND_SERVER_DATA_DIR and opens <dir>/sound-server.db with it", () => {
+    expect(storeFromEnv({})).toBeUndefined();
+    resetStoreFromEnv();
+    const dir = mkdtempSync(join(tmpdir(), "sound-store-"));
+    try {
+      const store = storeFromEnv({ SOUND_SERVER_DATA_DIR: join(dir, "data") })!;
+      store.putSample(sample("a"));
+      expect(existsSync(join(dir, "data", "sound-server.db"))).toBe(true);
+      expect(storeFromEnv({ SOUND_SERVER_DATA_DIR: "/elsewhere" })).toBe(store); // one per process
+      expect(modelDirFromEnv({ SOUND_SERVER_DATA_DIR: "/data" })).toBe("/data/models");
+      expect(modelDirFromEnv({ SOUND_SERVER_DATA_DIR: "/data", SOUND_SERVER_MODEL_DIR: "/models" })).toBe("/models");
+      store.close();
+    } finally {
+      rmSync(dir, { recursive: true, force: true });
+    }
   });
 });
 
@@ -272,6 +295,20 @@ describe("EmbeddingIndex", () => {
     expect(overlap).toBe(false);
     index.close();
     active = new Map();
+  });
+
+  it("fetches nothing while the model can't load", async () => {
+    const embedder = new FakeEmbedder();
+    embedder.unavailable = () => "CLAP audio model unavailable: @huggingface/transformers is not installed";
+    let fetched = 0;
+    const index = new EmbeddingIndex({ embedder, store, loadPcm: async (f) => (fetched++, loadPcm(f)), perMinute: 60 });
+    index.observe([sample("kick-a"), sample("hat")]);
+    await new Promise((r) => setTimeout(r, 20));
+    await expect(index.index(sample("kick-b"))).rejects.toThrow(/not installed/);
+    expect(fetched).toBe(0);
+    expect(index.status().queued).toBe(2);
+    expect(store.failedAt("fake:kick-b", "fake-clap")).toBeUndefined();
+    index.close();
   });
 
   it("finds similar stored samples, excluding the sample itself and its mirrors", async () => {

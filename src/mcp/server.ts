@@ -14,6 +14,7 @@ import type { Sample, SampleDetails, SampleFile } from "../core/types.js";
 import { compact } from "../core/util.js";
 import { CATEGORIES, SAMPLE_FORMS, type Category } from "../core/vocab.js";
 import { versionLabel } from "./attribution.js";
+import { instrumentForSample, midiSummary, midiForSample, writeMidiForSample } from "./exports.js";
 import { kitExports } from "./kit-export.js";
 
 export interface McpOptions {
@@ -427,6 +428,81 @@ export function createMcpServer(service: SampleService, opts: McpOptions): McpSe
       }
     }),
   );
+
+  server.registerTool(
+    "extract_midi",
+    {
+      title: "Extract MIDI from a melodic loop",
+      description:
+        "Transcribe a melodic sample (bass line, lead, arpeggio, vocal line) to MIDI, one note at a time; chords and drums are not " +
+        "transcribed. Notes snap to 16ths when the tempo is known (the sample's BPM or the `bpm` you pass). " +
+        (opts.allowLocalDownload
+          ? "The .mid file is written to <dest_dir>/midi/ and the notes are returned."
+          : "Returns the notes; the .mid file is at `midiUrl`."),
+      inputSchema: {
+        id: z.string().describe("Sample id from search_samples, e.g. 'freesound:2086'."),
+        bpm: z.number().min(40).max(300).optional().describe("Tempo of the loop when you know it."),
+        quantize: z.union([z.literal(4), z.literal(8), z.literal(false)]).optional().describe("Steps per beat (4 = 16ths, default) or false."),
+        ...(opts.allowLocalDownload ? { dest_dir: z.string().optional().describe("Project samples folder (default ./samples).") } : {}),
+      },
+      annotations: { readOnlyHint: !opts.allowLocalDownload, openWorldHint: true },
+    },
+    timed("extract_midi", async (args: { id: string; bpm?: number; quantize?: 4 | 8 | false; dest_dir?: string }) => {
+      try {
+        const sample = await service.getSample(args.id);
+        if (!sample) return fail(`Sample not found: ${args.id}`);
+        if (opts.allowLocalDownload) {
+          return json(await writeMidiForSample(service, sample, args.dest_dir ?? opts.downloadDir ?? "samples", { bpm: args.bpm, quantize: args.quantize }));
+        }
+        const r = await midiForSample(service, sample, { bpm: args.bpm, quantize: args.quantize, signal: AbortSignal.timeout(60_000) });
+        const q = new URLSearchParams();
+        if (args.bpm) q.set("bpm", String(args.bpm));
+        if (args.quantize !== undefined) q.set("quantize", String(args.quantize));
+        return json({
+          ...midiSummary(r),
+          midiUrl: base ? `${base}/v1/samples/${encodeURIComponent(sample.id)}/midi${q.size ? `?${q}` : ""}` : undefined,
+        });
+      } catch (e) {
+        return fail(e);
+      }
+    }),
+  );
+
+  if (opts.allowLocalDownload) {
+    server.registerTool(
+      "export_instrument",
+      {
+        title: "Turn a multisample pack into a playable instrument",
+        description:
+          "Download a multisample pack (orchestral notes, piano, guitar, synth notes: results with form 'multisample' or unit " +
+          "'instrument'/'pack') and build an SFZ instrument and a Decent Sampler preset from it, with key ranges, velocity layers and " +
+          "round robins worked out from the file names, embedded root notes or pitch detection. Files go to " +
+          "<dest_dir>/instruments/<name>/ with the credits. Warns about missing notes.",
+        inputSchema: {
+          id: z.string().describe("Sample id of the pack, e.g. 'curated:iowa-mis-cymbals'."),
+          variant: z.string().optional().describe("Which articulation/instrument to use when the pack holds several (see the summary)."),
+          octave_offset: z.number().int().min(-2).max(2).optional().describe("Shift note names by octaves for packs where C3 = MIDI 60."),
+          dest_dir: z.string().optional().describe("Project samples folder (default ./samples)."),
+        },
+        annotations: { readOnlyHint: false, destructiveHint: false, openWorldHint: true },
+      },
+      timed("export_instrument", async (args) => {
+        try {
+          const sample = await service.getSample(args.id);
+          if (!sample) return fail(`Sample not found: ${args.id}`);
+          return json(
+            await instrumentForSample(service, sample, args.dest_dir ?? opts.downloadDir ?? "samples", {
+              variant: args.variant,
+              octaveOffset: args.octave_offset,
+              sourceNames,
+            }),
+          );
+        } catch (e) {
+          return fail(e);
+        }
+      }),
+    );
+  }
 
   server.registerTool(
     "list_sources",

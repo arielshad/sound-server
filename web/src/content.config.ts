@@ -59,7 +59,7 @@ const guides = defineCollection({
     searches: z.array(z.object({ label: z.string(), href: z.string().startsWith("/") })).default([]),
     collections: z.array(z.string()).default([]),
     related: z.array(z.string()).default([]),
-    cites: z.array(z.object({ name: z.string(), url: z.string().url() })).default([]),
+    cites: z.array(z.object({ name: z.string(), url: z.url() })).default([]),
     published: z.coerce.date(),
     updated: z.coerce.date(),
     order: z.number(),

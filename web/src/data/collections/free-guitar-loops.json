@@ -9,7 +9,7 @@
       "loop"
     ]
   },
-  "updatedAt": "2026-10-23T09:40:16.725Z",
+  "updatedAt": "2026-10-23T09:47:29.710Z",
   "samples": [
     {
       "id": "wikimediacommons:Audio_influence_of_phaser_placement_in_the_signal_chain_(before_guitar_amp,_in_effects_loop,_after_cab).ogg",
@@ -59,6 +59,342 @@
         "ogg"
       ],
       "durationSec": 38.857
+    },
+    {
+      "id": "openverse:f33c2984-cf1b-47ba-9d1f-0de612d7f49e",
+      "provider": "openverse",
+      "title": "Nylon Guitar Loop B-1.wav",
+      "category": "guitar",
+      "url": "https://freesound.org/people/digifishmusic/sounds/48254",
+      "previewUrl": "https://cdn.freesound.org/previews/48/48254_29541-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "digifishmusic",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 4.767
+    },
+    {
+      "id": "openverse:a89ada68-01b4-43f5-8973-600fe90bcbdd",
+      "provider": "openverse",
+      "title": "simple relaxing guitar loop",
+      "category": "guitar",
+      "url": "https://freesound.org/people/Kodack/sounds/395037",
+      "previewUrl": "https://cdn.freesound.org/previews/395/395037_2276808-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Kodack",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 48.484
+    },
+    {
+      "id": "openverse:86736aca-93be-4bff-8f24-4388fcef4794",
+      "provider": "openverse",
+      "title": "Calming Background Music Guitar Loop",
+      "category": "guitar",
+      "url": "https://freesound.org/people/Migfus20/sounds/560450",
+      "previewUrl": "https://cdn.freesound.org/previews/560/560450_12295155-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Migfus20",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 44.343
+    },
+    {
+      "id": "openverse:795da5a7-b63b-43e9-8f50-61b9e2b1a5f0",
+      "provider": "openverse",
+      "title": "Lofi Guitar Loop EM 119 BPM(3).wav",
+      "category": "guitar",
+      "url": "https://freesound.org/people/holizna/sounds/629150",
+      "previewUrl": "https://cdn.freesound.org/previews/629/629150_12574855-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "holizna",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "bpm": 119,
+      "key": "E major",
+      "durationSec": 38.319
+    },
+    {
+      "id": "openverse:b8b7118f-9b8f-433a-841b-334b83fb571b",
+      "provider": "openverse",
+      "title": "Jazz/R&B Guitar Loop",
+      "category": "guitar",
+      "url": "https://freesound.org/people/YellowTree/sounds/508610",
+      "previewUrl": "https://cdn.freesound.org/previews/508/508610_1954411-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "YellowTree",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 19.805
+    },
+    {
+      "id": "openverse:43d4dc41-97fd-421c-9427-7df433992876",
+      "provider": "openverse",
+      "title": "Basic Guitar Loop",
+      "category": "guitar",
+      "url": "https://freesound.org/people/uEffects/sounds/322078",
+      "previewUrl": "https://cdn.freesound.org/previews/322/322078_2901073-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "uEffects",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 210.345
+    },
+    {
+      "id": "openverse:283104d4-b448-43af-95e1-b4c1af37af43",
+      "provider": "openverse",
+      "title": "'Medieval' guitar loop",
+      "category": "guitar",
+      "url": "https://freesound.org/people/User391915396/sounds/399034",
+      "previewUrl": "https://cdn.freesound.org/previews/399/399034_6384533-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "User391915396",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 47.547
+    },
+    {
+      "id": "openverse:f75d52f4-6238-4eac-9fd3-997c2781ee46",
+      "provider": "openverse",
+      "title": "Picked Guitar Loop",
+      "category": "guitar",
+      "url": "https://freesound.org/people/uEffects/sounds/344924",
+      "previewUrl": "https://cdn.freesound.org/previews/344/344924_2901073-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "uEffects",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 336.325
+    },
+    {
+      "id": "openverse:c9c671d8-788b-4427-8375-6d48d843a884",
+      "provider": "openverse",
+      "title": "Guitar loop 1I43",
+      "category": "guitar",
+      "url": "https://freesound.org/people/Setuniman/sounds/249302",
+      "previewUrl": "https://cdn.freesound.org/previews/249/249302_2244250-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Setuniman",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 16.27
+    },
+    {
+      "id": "openverse:2b7ae33b-3923-4645-90cb-662dca4cbeed",
+      "provider": "openverse",
+      "title": "dub guitar loops 3.wav",
+      "category": "guitar",
+      "url": "https://freesound.org/people/nengisuls/sounds/157441",
+      "previewUrl": "https://cdn.freesound.org/previews/157/157441_2481178-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "nengisuls",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 2.711
+    },
+    {
+      "id": "openverse:865ea8aa-8eab-4edc-b957-93edf829a084",
+      "provider": "openverse",
+      "title": "House Guitar Loop 3.aif",
+      "category": "guitar",
+      "url": "https://freesound.org/people/leach237/sounds/347988",
+      "previewUrl": "https://cdn.freesound.org/previews/347/347988_5871381-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "leach237",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "aiff"
+      ],
+      "durationSec": 14.993
+    },
+    {
+      "id": "openverse:04ea82fe-7539-4668-92be-9d90d8b66a14",
+      "provider": "openverse",
+      "title": "House Guitar Loop 2.aif",
+      "category": "guitar",
+      "url": "https://freesound.org/people/leach237/sounds/347989",
+      "previewUrl": "https://cdn.freesound.org/previews/347/347989_5871381-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "leach237",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "aiff"
+      ],
+      "durationSec": 73.094
+    },
+    {
+      "id": "openverse:d4043059-6f81-4d7e-83bb-d0fcf36644aa",
+      "provider": "openverse",
+      "title": "Slide Guitar Loop",
+      "category": "guitar",
+      "url": "https://freesound.org/people/evancarlsen/sounds/149353",
+      "previewUrl": "https://cdn.freesound.org/previews/149/149353_2692425-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "evancarlsen",
+      "license": {
+        "id": "CC-BY-NC-3.0",
+        "name": "CC BY-NC 3.0",
+        "url": "https://creativecommons.org/licenses/by-nc/3.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 10
+    },
+    {
+      "id": "openverse:26385a3d-cd7b-4ad7-b989-58f846a02c97",
+      "provider": "openverse",
+      "title": "Lo-fi Music Guitar (Loop)",
+      "category": "guitar",
+      "url": "https://freesound.org/people/Migfus20/sounds/569791",
+      "previewUrl": "https://cdn.freesound.org/previews/569/569791_12295155-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Migfus20",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 77.859
     }
   ]
 }

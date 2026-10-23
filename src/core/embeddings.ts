@@ -48,6 +48,8 @@ export interface Embedder {
   audioReady(): boolean;
   /** Start loading a half in the background (no-op when loaded, loading or recently failed). */
   warm(kind: "audio" | "text"): void;
+  /** Why a half can't be used right now (it failed to load recently), else undefined. */
+  unavailable?(kind: "audio" | "text"): string | undefined;
   status(): EmbedderStatus;
 }
 
@@ -237,10 +239,13 @@ export class ClapEmbedder implements Embedder {
     return this.state.text === "ready";
   }
 
-  warm(kind: "audio" | "text"): void {
-    if (this.state[kind] === "ready" || this.state[kind] === "loading") return;
+  unavailable(kind: "audio" | "text"): string | undefined {
     const failed = this.failedAt[kind];
-    if (failed && Date.now() - failed < RETRY_AFTER_FAILURE_MS) return;
+    return failed && Date.now() - failed < RETRY_AFTER_FAILURE_MS ? `CLAP ${kind} model unavailable: ${this.error ?? "load failed"}` : undefined;
+  }
+
+  warm(kind: "audio" | "text"): void {
+    if (this.state[kind] === "ready" || this.state[kind] === "loading" || this.unavailable(kind)) return;
     (kind === "audio" ? this.loadAudio() : this.loadText()).catch(() => undefined);
   }
 
@@ -311,8 +316,8 @@ export class ClapEmbedder implements Embedder {
   }
 
   async embedAudio(pcm: Float32Array): Promise<Float32Array> {
-    const failed = this.failedAt.audio;
-    if (failed && Date.now() - failed < RETRY_AFTER_FAILURE_MS) throw new Error(`CLAP audio model unavailable: ${this.error ?? "load failed"}`);
+    const down = this.unavailable("audio");
+    if (down) throw new Error(down);
     const m = await this.loadAudio();
     return this.limiter.run(() =>
       withTimeout(
@@ -330,8 +335,8 @@ export class ClapEmbedder implements Embedder {
 
   async embedText(texts: string[]): Promise<Float32Array[]> {
     if (!texts.length) return [];
-    const failed = this.failedAt.text;
-    if (failed && Date.now() - failed < RETRY_AFTER_FAILURE_MS) throw new Error(`CLAP text model unavailable: ${this.error ?? "load failed"}`);
+    const down = this.unavailable("text");
+    if (down) throw new Error(down);
     const m = await this.loadText();
     return this.limiter.run(() =>
       withTimeout(

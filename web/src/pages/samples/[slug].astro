@@ -22,6 +22,7 @@ import {
 } from "@/lib/collections";
 import { breadcrumbs, collectionPage, faqPage } from "@/lib/schema";
 import { MCP_URL, SOURCE_COUNT } from "@/lib/site";
+import { allGuides, guidePath } from "@/lib/guides";
 import { TOP_CATEGORIES, categoryLabel, formLabel, subCategories } from "@/lib/vocab";
 
 export async function getStaticPaths() {
@@ -45,7 +46,9 @@ let hubCollections: Collection[] = [];
 let related: Collection[] = [];
 let Content: Awaited<ReturnType<typeof render>>["Content"] | undefined;
 if (hub) hubCollections = await collectionsInHub(hub);
+let collectionGuides: Awaited<ReturnType<typeof allGuides>> = [];
 if (c) {
+  collectionGuides = (await allGuides()).filter((g) => c.hub.guides?.includes(g.id) || g.data.collections.includes(c.slug)).slice(0, 4);
   related = await relatedTo(c);
   Content = (await render(c.topic)).Content;
 }
@@ -62,6 +65,8 @@ const hubSearches = hub
     })()
   : [];
 const hubUpdated = hub ? latest(hubCollections) : undefined;
+const hubGuides = hub ? (await allGuides()).filter((g) => hub.guides?.includes(g.id)) : [];
+const indexableInHub = hubCollections.filter((x) => x.indexable).length;
 ---
 
 {hub && (
@@ -72,6 +77,7 @@ const hubUpdated = hub ? latest(hubCollections) : undefined;
     schema={[
       collectionPage({ title: hub.title, description: hub.description, path: hubPath(hub), dateModified: hubUpdated, links: hubCollections.map((x) => ({ name: x.topic.data.title, path: x.path })) }),
       breadcrumbs([home, index, { name: hub.name, path: hubPath(hub) }]),
+      ...(hub.faq?.length ? [faqPage(hub.faq)] : []),
     ]}
   >
     <div class="mx-auto max-w-6xl px-4 py-10 sm:px-6">
@@ -83,11 +89,48 @@ const hubUpdated = hub ? latest(hubCollections) : undefined;
         {hubUpdated && <p class="mt-3 text-sm text-muted-foreground">Updated <time datetime={hubUpdated.toISOString()}>{dateFmt.format(hubUpdated)}</time>, from a live search of {SOURCE_COUNT} sites.</p>}
       </header>
       {hubCollections.length ? (
-        <ul class="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {hubCollections.map((x) => <CollectionCard collection={x} />)}
-        </ul>
+        <section class="mt-10" aria-labelledby="hub-collections">
+          <h2 id="hub-collections" class="text-xl font-semibold tracking-tight">{hubCollections.length} {hub.name.toLowerCase()} collections</h2>
+          <ul class="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {hubCollections.map((x) => <CollectionCard collection={x} />)}
+          </ul>
+        </section>
       ) : (
-        <p class="mt-10 rounded-xl border p-6 text-sm text-muted-foreground">No collections here yet. <a href="/search" class="text-primary hover:underline">Search every source</a> in the meantime.</p>
+        <p class="mt-10 rounded-xl border p-6 text-sm text-muted-foreground">No collections here yet. <a href="/search" class="text-primary underline underline-offset-2 hover:decoration-2">Search every source</a> in the meantime.</p>
+      )}
+      {(hub.sections?.length ?? 0) > 0 && (
+        <div class="mt-16 grid gap-12 lg:grid-cols-[1fr_18rem]">
+          <article class="min-w-0 max-w-3xl space-y-8" aria-label={`About ${hub.name.toLowerCase()}`}>
+            {hub.sections!.map((sec) => (
+              <section>
+                <h2 class="text-xl font-semibold tracking-tight">{sec.heading}</h2>
+                <p class="mt-3 text-pretty leading-relaxed text-muted-foreground">{sec.body}</p>
+              </section>
+            ))}
+          </article>
+          {hubGuides.length > 0 && (
+            <aside class="min-w-0 text-sm" aria-labelledby="hub-guides">
+              <h2 id="hub-guides" class="font-medium">Guides</h2>
+              <ul class="mt-3 divide-y rounded-xl border">
+                {hubGuides.map((g) => <li class="px-3 py-2"><a href={guidePath(g.id)} class="hover:text-primary underline underline-offset-2 hover:decoration-2">{g.data.title}</a></li>)}
+              </ul>
+              <p class="mt-3 text-xs text-muted-foreground">{indexableInHub} of {hubCollections.length} collections here have enough results to be listed in search engines; the rest are refreshed daily until they do.</p>
+            </aside>
+          )}
+        </div>
+      )}
+      {(hub.faq?.length ?? 0) > 0 && (
+        <section class="mt-16 max-w-3xl" aria-labelledby="hub-faq">
+          <h2 id="hub-faq" class="text-2xl font-semibold tracking-tight">Questions</h2>
+          <dl class="mt-6 divide-y rounded-xl border">
+            {hub.faq!.map((f) => (
+              <div class="p-5">
+                <dt class="font-medium">{f.q}</dt>
+                <dd class="mt-2 text-sm text-muted-foreground">{f.a}</dd>
+              </div>
+            ))}
+          </dl>
+        </section>
       )}
       {hubSearches.length > 0 && (
         <section class="mt-16" aria-labelledby="live">
@@ -151,7 +194,7 @@ const hubUpdated = hub ? latest(hubCollections) : undefined;
             {c.samples.map((a) => <SampleCard sample={a} />)}
           </ul>
         ) : (
-          <p class="rounded-xl border p-6 text-sm text-muted-foreground">This collection is being refreshed. <a href={searchHref(c.topic.data.search)} class="text-primary hover:underline">Run the search live</a> in the meantime.</p>
+          <p class="rounded-xl border p-6 text-sm text-muted-foreground">This collection is being refreshed. <a href={searchHref(c.topic.data.search)} class="text-primary underline underline-offset-2 hover:decoration-2">Run the search live</a> in the meantime.</p>
         )}
         <p class="mt-4 text-sm text-muted-foreground">
           Picked automatically from a live search of {SOURCE_COUNT} sites and refreshed daily. Each sound belongs to its creator: check its licence on the source page before you release it.
@@ -168,7 +211,7 @@ const hubUpdated = hub ? latest(hubCollections) : undefined;
             <ul class="mt-3 divide-y rounded-xl border">
               {c.sources.map((s) => (
                 <li class="flex items-center justify-between gap-2 px-3 py-2">
-                  <a href={sourcePath(s.id)} class="hover:text-primary hover:underline">{s.name}</a>
+                  <a href={sourcePath(s.id)} class="hover:text-primary underline underline-offset-2 hover:decoration-2">{s.name}</a>
                   <span class="text-muted-foreground">{s.count}</span>
                 </li>
               ))}
@@ -180,7 +223,15 @@ const hubUpdated = hub ? latest(hubCollections) : undefined;
               <ul class="mt-3 space-y-1 text-muted-foreground">
                 {c.facts.licences.map((l) => <li>{l.name}: {l.count}</li>)}
               </ul>
-              <p class="mt-2 text-xs text-muted-foreground">CC0 means public domain: commercial use, no credit needed. CC BY needs a credit line; NC means non-commercial only. <a href="/docs/licences" class="text-primary hover:underline">Sample licences explained</a></p>
+              <p class="mt-2 text-xs text-muted-foreground">CC0 means public domain: commercial use, no credit needed. CC BY needs a credit line; NC means non-commercial only. <a href="/docs/licences" class="text-primary underline underline-offset-2 hover:decoration-2">Sample licences explained</a></p>
+            </section>
+          )}
+          {collectionGuides.length > 0 && (
+            <section aria-labelledby="guides">
+              <h2 id="guides" class="font-medium">Guides</h2>
+              <ul class="mt-3 divide-y rounded-xl border">
+                {collectionGuides.map((g) => <li class="px-3 py-2"><a href={guidePath(g.id)} class="hover:text-primary underline underline-offset-2 hover:decoration-2">{g.data.title}</a></li>)}
+              </ul>
             </section>
           )}
           <section id="from-code" aria-labelledby="code" class="scroll-mt-24">
@@ -188,7 +239,7 @@ const hubUpdated = hub ? latest(hubCollections) : undefined;
             <p class="mt-2 text-muted-foreground">The same search over the REST API:</p>
             <pre class="mt-2 overflow-x-auto rounded-lg border bg-muted/50 p-3 text-xs"><code>curl "{apiHref(c.topic.data.search)}"</code></pre>
             <p class="mt-3 text-muted-foreground">
-              Or give your AI agent the MCP server <code class="text-xs">{MCP_URL}</code> and ask for “{c.topic.data.search.q}”{c.topic.data.search.commercial ? " cleared for commercial use" : ""}. <a href="/docs/mcp" class="text-primary hover:underline">Setup</a>
+              Or give your AI agent the MCP server <code class="text-xs">{MCP_URL}</code> and ask for “{c.topic.data.search.q}”{c.topic.data.search.commercial ? " cleared for commercial use" : ""}. <a href="/docs/mcp" class="text-primary underline underline-offset-2 hover:decoration-2">Setup</a>
             </p>
           </section>
         </aside>
@@ -210,7 +261,7 @@ const hubUpdated = hub ? latest(hubCollections) : undefined;
         <section class="mt-16" aria-labelledby="related">
           <div class="flex flex-wrap items-baseline justify-between gap-2">
             <h2 id="related" class="text-2xl font-semibold tracking-tight">Related collections</h2>
-            <a href="/samples" class="text-sm text-primary hover:underline">All collections →</a>
+            <a href="/samples" class="text-sm text-primary underline underline-offset-2 hover:decoration-2">All collections →</a>
           </div>
           <ul class="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {related.map((x) => <CollectionCard collection={x} />)}

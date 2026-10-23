@@ -6,7 +6,7 @@
       "drums.snare"
     ]
   },
-  "updatedAt": "2026-10-23T09:43:01.293Z",
+  "updatedAt": "2026-10-23T09:47:36.229Z",
   "samples": [
     {
       "id": "wikimediacommons:Rimshot_loop_208bpm.ogg",
@@ -350,6 +350,219 @@
       ],
       "bpm": 76,
       "durationSec": 12.443
+    },
+    {
+      "id": "openverse:4b2d416c-0874-44c3-b30a-bc3709eed3e6",
+      "provider": "openverse",
+      "title": "Rimshot (sweet)",
+      "category": "drums.snare",
+      "url": "https://freesound.org/people/Sajmund/sounds/132418",
+      "previewUrl": "https://cdn.freesound.org/previews/132/132418_2412414-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Sajmund",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "aiff"
+      ],
+      "durationSec": 1.072
+    },
+    {
+      "id": "openverse:2badd7f7-3cfc-4554-b2ca-996c60d840e8",
+      "provider": "openverse",
+      "title": "Sting, rimshot, drum roll (smooth)",
+      "category": "drums.snare",
+      "url": "https://freesound.org/people/tlwmdbt/sounds/440829",
+      "previewUrl": "https://cdn.freesound.org/previews/440/440829_1575452-hq.mp3",
+      "downloadable": true,
+      "author": "tlwmdbt",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 5.333
+    },
+    {
+      "id": "openverse:24537281-3e07-4640-9191-b917528d639d",
+      "provider": "openverse",
+      "title": "Ludwig Black Beauty Snare Drum Open Rimshot Unprocessed.wav",
+      "category": "drums.snare",
+      "url": "https://freesound.org/people/pjcohen/sounds/46565",
+      "previewUrl": "https://cdn.freesound.org/previews/46/46565_394391-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "pjcohen",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.093
+    },
+    {
+      "id": "openverse:96162497-06f9-4988-88fa-4d713c84ce0f",
+      "provider": "openverse",
+      "title": "Ludwig Black Beauty Snare Drum Closed Rimshot Unprocessed.wav",
+      "category": "drums.snare",
+      "url": "https://freesound.org/people/pjcohen/sounds/46564",
+      "previewUrl": "https://cdn.freesound.org/previews/46/46564_394391-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "pjcohen",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.105
+    },
+    {
+      "id": "openverse:e0d6f999-2ac4-47eb-8f10-a08695733abe",
+      "provider": "openverse",
+      "title": "Ba dum tss [Joke Rimshot] - Detroit Garage",
+      "category": "drums.snare",
+      "url": "https://freesound.org/people/FREE_SOUND_ENTERTAINMENT/sounds/561859",
+      "previewUrl": "https://cdn.freesound.org/previews/561/561859_12614915-hq.mp3",
+      "downloadable": true,
+      "author": "FREE_SOUND_ENTERTAINMENT",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 8
+    },
+    {
+      "id": "openverse:dfd0df2d-ac10-47a9-9adb-12b10a45971b",
+      "provider": "openverse",
+      "title": "Timbales High Rimshot (Macho)",
+      "category": "drums.snare",
+      "url": "https://freesound.org/people/Sassaby/sounds/533089",
+      "previewUrl": "https://cdn.freesound.org/previews/533/533089_2771755-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Sassaby",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.676
+    },
+    {
+      "id": "openverse:cb39acb7-519d-4511-9ec0-49e5e3b9c3a6",
+      "provider": "openverse",
+      "title": "Rimshot",
+      "category": "drums.snare",
+      "url": "https://freesound.org/people/altemark/sounds/207937",
+      "previewUrl": "https://cdn.freesound.org/previews/207/207937_19852-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "altemark",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.32
+    },
+    {
+      "id": "openverse:42ffd856-f673-48bc-9994-6f54b04183fe",
+      "provider": "openverse",
+      "title": "Ba dum tss [Joke Rimshot] - Brooklyn",
+      "category": "drums.snare",
+      "url": "https://freesound.org/people/FREE_SOUND_ENTERTAINMENT/sounds/561860",
+      "previewUrl": "https://cdn.freesound.org/previews/561/561860_12614915-hq.mp3",
+      "downloadable": true,
+      "author": "FREE_SOUND_ENTERTAINMENT",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 11.803
+    },
+    {
+      "id": "openverse:ff2f341f-8390-492f-8467-8d950ab4d927",
+      "provider": "openverse",
+      "title": "Snare-RimShot-Medium3.wav",
+      "category": "drums.snare",
+      "url": "https://freesound.org/people/Surfjira/sounds/56457",
+      "previewUrl": "https://cdn.freesound.org/previews/56/56457_438946-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Surfjira",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.987
     }
   ]
 }
