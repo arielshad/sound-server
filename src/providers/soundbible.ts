@@ -183,6 +183,24 @@ export const soundbible: Provider = {
     return { samples: paginate(samples, q), total: samples.length, searchUrl: url };
   },
 
+  /**
+   * Listings repeat forever past the last page and show no total, so the count comes from the
+   * sitemap's sound pages (`/<id>-<Slug>.html`). The sitemap is old, so this is a lower bound.
+   */
+  async census(ctx) {
+    const xml = await ctx.fetch.text(`${SITE}/sitemap.xml`, { signal: ctx.signal, cacheTtlMs: 0 });
+    const ids = new Set([...xml.matchAll(/<loc>https?:\/\/soundbible\.com\/(\d+)-[^<]+\.html<\/loc>/g)].map((m) => m[1]));
+    if (!ids.size) throw new Error("no sound pages in the SoundBible sitemap");
+    return {
+      total: ids.size,
+      atLeast: true,
+      free: ids.size,
+      byCategory: {},
+      unit: "samples",
+      method: "Sound pages in soundbible.com/sitemap.xml (not kept current, so a lower bound)",
+    };
+  },
+
   async getSample(nativeId: string, ctx: ProviderContext): Promise<SampleDetails | null> {
     if (!/^\d+-[A-Za-z0-9-]+$/.test(nativeId)) return null;
     let html: string;

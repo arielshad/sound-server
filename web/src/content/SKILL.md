@@ -1,42 +1,56 @@
 ---
 name: sounds
-description: Find and download free 3D models, PBR textures/materials, HDRIs and game asset packs (glTF, FBX, Blend, EXR) from 25 sites like Poly Haven, ambientCG, Kenney and BlenderKit via https://sound.shep.bot, with licences. Use when the user needs 3D assets, textures, environment maps or game art for a project.
+description: Find, audition and download music samples (kicks, snares, hats, claps, 808s, loops, vocal chops, a cappellas, risers, impacts, zaps, foley, ambience, instrument one-shots) from many sample sites via https://sound.shep.bot, with a licence verdict on commercial use and credit lines. Use when the user needs sounds or sound effects for a track, beat, game, app or video, or wants a drum kit for a style, tempo and key.
 ---
 
-# 3D assets via sound.shep.bot
+# Music samples via sound.shep.bot
 
-Search 25 asset sites in one call and download files into the project. No API key needed.
+Search many sample sites in one call, check each sound's licence verdict, and download files into the project. No API key needed.
 
 ## Workflow
 
-1. Search (pick a `type`; prefer free and directly downloadable):
+1. Search (commercial-safe by default; add a category and form to cut noise):
 
    ```bash
-   curl -s "https://sound.shep.bot/v1/search?q=QUERY&type=model&free=true&downloadable=true&limit=8"
+   curl -s "https://sound.shep.bot/v1/search?q=QUERY&category=drums.kick&form=one-shot&commercial=true&downloadable=true&limit=8"
    ```
 
-   Types: model, material, texture, hdri, sprite, ui, audio, font, pack.
-   Each result has `id`, `title`, `provider`, `url`, `thumbnailUrl`, `license`, `formats`, `resolutions`, `downloadable`.
+   Query words like "808 in F minor" or "vocal chop 140 bpm" become key/BPM filters. Categories are dot paths (`drums.kick`, `drums.snare`, `drums.clap`, `drums.hat.closed`, `drums.hat.open`, `bass.808`, `vocals.chop`, `vocals.acapella`, `fx.riser`, `fx.impact`, `fx.zap`, `foley`, `ambience`, `keys`, `synth.pad`…); a parent like `drums` matches its children. Forms: `one-shot`, `loop`, `phrase`, `pack`.
+   Each result has `id`, `title`, `provider`, `url`, `category`, `form`, `bpm`, `key`, `durationSec`, `previewUrl`, `license.verdict`, `attribution`, `requiresAccount`, `downloadable`.
 
-2. Check the files and size for the format you need:
+2. Check the files (and the credit line):
 
    ```bash
-   curl -s "https://sound.shep.bot/v1/assets/ID/files?format=glb&resolution=2k"
+   curl -s "https://sound.shep.bot/v1/samples/ID/files?format=wav"
    ```
 
-3. Download into the project (zip for multi-file assets, otherwise the file itself):
+3. Download into the project, with the credits in the zip:
 
    ```bash
-   curl -L -o assets/NAME.zip "https://sound.shep.bot/v1/assets/ID/download?format=gltf&resolution=2k"
-   unzip -o assets/NAME.zip -d assets/
+   mkdir -p samples
+   curl -L -o samples/NAME.zip "https://sound.shep.bot/v1/samples/ID/download?bundle=true"
+   unzip -o samples/NAME.zip -d samples/
    ```
 
-## Rules
+4. A whole drum kit in one call:
 
-- URL-encode the id (`polyhaven:ArmChair_01` → `polyhaven%3AArmChair_01`).
-- Format by target: three.js/web `glb`/`gltf`, Blender `blend`, Unity/Unreal `fbx`, lighting `hdr`/`exr`, textures 2k `jpg`/`png` maps.
-- Prefer CC0 sources for commercial projects. Always report the licence; if `attributionRequired`, write the credit line (title, author, source URL, licence) into the project's credits or README.
-- `409` from download = no direct files; give the user the asset `url` instead.
-- Check `/files` `totalBytes` before pulling 8k textures or 16k HDRIs.
+   ```bash
+   curl -s -X POST "https://sound.shep.bot/v1/kits" -H "content-type: application/json" \
+     -d '{"style":"dark trap","bpm":140,"key":"F minor"}'
+   ```
 
-Full guide: https://sound.shep.bot/AGENTS.md · OpenAPI: https://sound.shep.bot/openapi.json
+## Licence rules
+
+- Keep `commercial=true` unless the user says the project is non-commercial. Free to download is not free to release.
+- Always report each sample's verdict: `yes` (commercial OK), `yes-with-credit` (OK with the `attribution` line), `restricted` / `clearance-required` / `check-terms` (read the terms first), `no` (non-commercial only).
+- Never present a `no` or `check-terms` sample as cleared. `license.assertedBy: "uploader"` means the licence is unverified.
+- When `attribution` is present, give it to the user verbatim and add it to the project's credits (`CREDITS.md` or the release notes).
+- Don't commit samples to public repos or repackage them unless they are CC0/public domain.
+
+## Notes
+
+- URL-encode the id (`freesound:2086` → `freesound%3A2086`).
+- `409` from download = no direct files; give the user the sample `url`. `requiresAccount: true` = the original needs the user's own account on the source.
+- Link `https://sound.shep.bot/search?sample=ID` so the user can hear it.
+
+Full guide: https://sound.shep.bot/AGENTS.md · Licences: https://sound.shep.bot/docs/licences.md · OpenAPI: https://sound.shep.bot/openapi.json

@@ -18,6 +18,9 @@ describe("classify", () => {
     ["White Noise Riser", "fx.riser"],
     ["rain on window", "ambience"],
     ["Kickstarter promo", "other"],
+    ["soccer kick 02.wav", "other"],
+    ["Car crash", "other"],
+    ["Glass break", "foley"],
   ])("%s -> %s", (title, category) => expect(classify({ title }).category).toBe(category));
 
   it("uses the source's categories and tags", () => {

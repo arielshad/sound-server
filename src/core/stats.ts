@@ -10,7 +10,7 @@
  * Only aggregate counts leave the server: no queries, IPs or user agents.
  */
 
-import type { Analytics, SearchEvent, Surface } from "./analytics.js";
+import { categoryLabel, type Analytics, type SearchEvent, type Surface } from "./analytics.js";
 
 export interface UsageWindow {
   key: string;
@@ -107,8 +107,8 @@ export class LocalStats implements Analytics, StatsSource {
     if (e.response.results.length > 0) this.searchesWithResults++;
     this.bySurface[e.surface]++;
     bump(this.clients, e.client);
-    if (!e.categories?.length) bump(this.types, "any");
-    else for (const t of e.categories) bump(this.types, t);
+    // Same label as the Prometheus metric: a top-level category, "any" or "multi".
+    bump(this.types, categoryLabel(e.categories));
     for (const p of e.response.providers) {
       if (p.status !== "ok" && p.status !== "error" && p.status !== "timeout") continue;
       let h = this.health.get(p.provider);
@@ -286,7 +286,7 @@ export class PrometheusStats implements StatsSource {
       Promise.all(WINDOWS.map((w) => this.window(w.key, w.label))),
       this.byLabel(`sum by (client) (increase(sound_server_searches_total[${BREAKDOWN}]))`, "client"),
       this.byLabel(`sum by (tool) (increase(sound_server_mcp_tool_calls_total[${BREAKDOWN}]))`, "tool"),
-      this.byLabel(`sum by (type) (increase(sound_server_searches_total[${BREAKDOWN}]))`, "type"),
+      this.byLabel(`sum by (category) (increase(sound_server_searches_total[${BREAKDOWN}]))`, "category"),
       this.vector(`sum by (provider, status) (increase(sound_server_provider_requests_total{status=~"ok|error|timeout"}[${HEALTH}]))`),
       this.valuesByLabel(latency(0.5), "provider"),
       this.valuesByLabel(latency(0.95), "provider"),

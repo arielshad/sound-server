@@ -33,6 +33,8 @@ export function categoryNoun(id: string | undefined, plural = true): string {
   return `${label} ${plural ? "samples" : "sample"}`;
 }
 
+/** "Commercial use OK" → "commercial use OK" (keeps acronyms). */
+const lowerFirst = (s: string) => s.charAt(0).toLowerCase() + s.slice(1);
 const clip = (s: string, n: number) => (s.length > n ? `${s.slice(0, n - 1).trimEnd()}…` : s);
 const providerName = (id: string) => allProviders.find((p) => p.id === id)?.name ?? id;
 const FEATURED = ["Freesound", "Wikimedia Commons", "Openverse"];
@@ -153,7 +155,7 @@ export function sampleMeta(a: SampleDetails): HeadMeta {
   const noun = categoryNoun(a.category, false);
   const facts = [
     ...sampleFacts(a).slice(1),
-    a.license ? `${a.license.name}: ${VERDICT_LABELS[a.license.verdict].toLowerCase()}` : undefined,
+    a.license ? `${a.license.name}: ${lowerFirst(VERDICT_LABELS[a.license.verdict])}` : undefined,
     a.price ? (a.price.free ? "free" : "paid") : undefined,
   ].filter(Boolean);
   const lead = `${noun[0]!.toUpperCase()}${noun.slice(1)} “${clip(a.title, 60)}” on ${source}${a.author ? ` by ${clip(a.author, 40)}` : ""}`;

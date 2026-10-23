@@ -92,7 +92,7 @@ describe("share metadata", () => {
   it("describes a sample for its share link, with its musical facts and licence verdict", () => {
     const m = sampleMeta(KICK);
     expect(m.title).toBe("Deep Kick 01: kick sample on fake · Sound Server");
-    expect(m.description).toContain("Kick sample “Deep Kick 01” on fake (one-shot, 0.4 s, CC0 1.0: commercial use ok, free)");
+    expect(m.description).toContain("Kick sample “Deep Kick 01” on fake (one-shot, 0.4 s, CC0 1.0: commercial use OK, free)");
     expect(m.image).toBe("/og/sample.png?id=fake%3Akick");
     expect(sampleFacts(VOCAL)).toEqual(["Vocal chop", "loop", "6.9 s", "F minor", "140 BPM"]);
     expect(sampleMeta(VOCAL).description).toContain("CC BY-NC 4.0: non-commercial only");

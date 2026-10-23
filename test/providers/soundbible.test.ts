@@ -96,3 +96,12 @@ describe("soundbible", () => {
     expect(soundbible.buildSearchUrl({ query: "glass break", limit: 1 })).toBe(`${SITE}/search.php?q=glass+break`);
   });
 });
+
+describe("soundbible census", () => {
+  it("counts sound pages in the sitemap as a lower bound", async () => {
+    const { fixtureCtx } = await import("../helpers.js");
+    const { soundbible } = await import("../../src/providers/soundbible.js");
+    const ctx = fixtureCtx([["soundbible.com/sitemap.xml", "soundbible/sitemap.xml"]]);
+    expect(await soundbible.census!(ctx)).toMatchObject({ total: 2, atLeast: true, unit: "samples" });
+  });
+});

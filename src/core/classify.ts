@@ -26,6 +26,19 @@ export interface Classification {
   form?: SampleForm;
 }
 
+/**
+ * Context words that cancel an alias in the same field: a "soccer kick" is a
+ * football sound, a "door slam" is foley, a "ride" on a "bike" is no cymbal.
+ */
+const NOT_IN_CONTEXT: Record<string, string[]> = {
+  "drums.kick": ["soccer", "football", "ball", "door", "karate", "martial", "kickstarter", "horse"],
+  "drums.cymbal.ride": ["bike", "car", "horse", "train", "bus", "elevator"],
+  "drums.cymbal.crash": ["car", "glass", "plane", "computer"],
+  "drums.clap": ["thunder", "applause", "audience", "crowd"],
+  "fx.impact": ["door"],
+  "drums.break": ["glass", "bone", "wood", "branch", "ice"],
+};
+
 const FIELD_WEIGHTS = { source: 1.3, filename: 1.0, title: 1.0, tags: 0.7, description: 0.25 } as const;
 type Field = keyof typeof FIELD_WEIGHTS;
 
@@ -104,7 +117,9 @@ function scoreCategories(fields: Partial<Record<Field, string[]>>): Map<string, 
     const fieldHits = new Map<string, number>();
     for (const v of values) {
       const tokens = soundTokens(v);
+      const present = new Set(tokens);
       for (const [h, pos] of matchAliasPositions(tokens)) {
+        if (NOT_IN_CONTEXT[h]?.some((w) => present.has(w))) continue;
         // A tiny bonus for words nearer the end breaks ties towards the head noun.
         fieldHits.set(h, Math.max(fieldHits.get(h) ?? 0, 0.01 * ((pos + 1) / tokens.length)));
       }
