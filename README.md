@@ -163,7 +163,9 @@ sound-server mcp
 With `SOUND_SERVER_DATA_DIR` set, analysis results are kept in SQLite (`node:sqlite`) across restarts.
 With `SOUND_SERVER_EMBEDDINGS=1` as well, the server embeds previews with CLAP (transformers.js), so
 `find_similar` works for every source, text queries re-rank indexed results by how they sound, and
-uncertain categories get a model-based second opinion. It needs the `ml` image
+uncertain categories get a model-based second opinion. The same recording found on two sources (say a
+Freesound sound re-uploaded to Wikimedia Commons) collapses into one result, and the `/map` page lays out
+every indexed sound in 2-D so that sounds that sound alike sit together. It needs the `ml` image
 (`ghcr.io/arielshad/sound-server:sha-<commit>-ml`, built by CI) and about 1.5 GiB of memory;
 `sound-server index --providers strudel` pre-indexes a catalogue.
 
@@ -197,6 +199,7 @@ uncertain categories get a model-based second opinion. It needs the `ml` image
 | `METRICS_PORT`, `PROMETHEUS_URL` | off | Prometheus metrics and `/stats` |
 | `SOUND_SERVER_DATA_DIR` | none | Persistent analysis cache and embedding index (SQLite) |
 | `SOUND_SERVER_EMBEDDINGS` | off | `1` turns on CLAP audio embeddings (needs the `ml` image) |
+| `SOUND_SERVER_DUPLICATE_COSINE` | `0.985` | How alike two sources' audio must be (with matching durations) to count as the same recording |
 | `SOUND_SERVER_TELEMETRY` | off | Opt-in anonymous install telemetry (needs `SOUND_SERVER_TELEMETRY_WEBSITE_ID`) |
 
 `node dist/cli.js help` lists everything.

@@ -872,7 +872,7 @@ export function openApiSpec(baseUrl?: string) {
           description:
             "Nearest sounds by audio embedding (CLAP) among the samples this server has indexed, when embeddings are turned on; " +
             "otherwise Freesound's own similarity for `freesound:` ids. `method` says which was used.",
-          parameters: [idParam, { name: "limit", in: "query", description: "Max results (default 12, max 30).", schema: { type: "integer", minimum: 1, maximum: 30 } }],
+          parameters: [idParam, { name: "limit", in: "query", description: "Max results (default 12, max 50).", schema: { type: "integer", minimum: 1, maximum: 50 } }],
           responses: {
             200: {
               description: "Similar samples.",
@@ -884,6 +884,7 @@ export function openApiSpec(baseUrl?: string) {
                   method: { type: "string", enum: ["clap", "freesound"] },
                   results: { type: "array", items: ref("Sample") },
                   indexed: { type: "integer", description: "Samples in the embedding index." },
+                  sameSound: { type: "array", items: { type: "string" }, description: "Ids of this same recording on other sources (near-identical audio and duration), left out of `results`." },
                   note: { type: "string" },
                 },
               }),
@@ -939,6 +940,56 @@ export function openApiSpec(baseUrl?: string) {
           summary: "Embedding index status",
           description: "Whether audio embeddings are on, the model, how many samples are indexed and the indexing queue.",
           responses: { 200: { description: "Status.", content: json({ type: "object", additionalProperties: true }) } },
+        },
+      },
+      "/v1/map": {
+        get: {
+          operationId: "soundMap",
+          tags: ["Samples"],
+          summary: "Sound map",
+          description:
+            "The samples this server has embedded, laid out in 2-D so that sounds that sound alike sit close together " +
+            "(CLAP audio embeddings, then a UMAP-style layout). `x` and `y` run 0..1. One point per sound, at most `limit` points " +
+            "spread evenly over the index. Returns `{ enabled: false }` when embeddings are off on this server.",
+          parameters: [
+            { name: "category", in: "query", description: "Only this category and its children, e.g. `drums` or `fx.riser`.", schema: { type: "string" } },
+            { name: "provider", in: "query", description: "Only samples from this source.", schema: { type: "string" } },
+            { name: "limit", in: "query", description: "Max points (default 1500, max 2500).", schema: { type: "integer", minimum: 1, maximum: 2500 } },
+          ],
+          responses: {
+            200: {
+              description: "The map, or `{ enabled: false }`.",
+              content: json({
+                type: "object",
+                required: ["enabled"],
+                properties: {
+                  enabled: { type: "boolean" },
+                  model: { type: "string" },
+                  indexed: { type: "integer" },
+                  matching: { type: "integer" },
+                  generatedAt: { type: "string", format: "date-time" },
+                  points: {
+                    type: "array",
+                    items: {
+                      type: "object",
+                      required: ["id", "x", "y", "provider"],
+                      properties: {
+                        id: { type: "string" },
+                        x: { type: "number" },
+                        y: { type: "number" },
+                        provider: { type: "string" },
+                        title: { type: "string" },
+                        category: { type: "string" },
+                        durationSec: { type: "number" },
+                        verdict: { type: "string", enum: ["yes", "yes-with-credit", "restricted", "clearance-required", "check-terms", "no"] },
+                      },
+                    },
+                  },
+                },
+              }),
+            },
+            400: errorResponse("Unknown category or source."),
+          },
         },
       },
       "/v1/kits": {
