@@ -1,0 +1,17 @@
+---
+interface Props { class?: string; id?: string }
+// Each instance needs its own gradient id: the header and footer both render a logo.
+const { class: className = "size-6", id = "logo" } = Astro.props;
+const gradient = `${id}-gradient`;
+// A waveform mark: six rounded bars, loudest in the middle (same as public/favicon.svg).
+const bars = [[3.35, 13, 6], [7.85, 9, 14], [12.35, 5, 22], [16.85, 10, 12], [21.35, 7.5, 17], [25.85, 12, 8]];
+---
+<svg class={className} viewBox="0 0 32 32" fill="none" aria-hidden="true">
+  <defs>
+    <linearGradient id={gradient} x1="3" y1="4" x2="29" y2="28" gradientUnits="userSpaceOnUse">
+      <stop stop-color="var(--color-primary)" />
+      <stop offset="1" stop-color="var(--color-brand-2)" />
+    </linearGradient>
+  </defs>
+  {bars.map(([x, y, h]) => <rect x={x} y={y} width="2.8" height={h} rx="1.4" fill={`url(#${gradient})`} />)}
+</svg>

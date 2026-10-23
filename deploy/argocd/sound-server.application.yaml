@@ -1,0 +1,36 @@
+# ArgoCD Application for sound.shep.bot. This file is NOT applied from this
+# repo: copy it to shep-ai/shep-infra next to the 3d-asset-server app
+# (bootstrap/apps/92-3d-asset-server.yaml) as bootstrap/apps/93-sound-server.yaml,
+# and match that file's project, destination and sync options exactly; the
+# values below mirror the usual layout.
+#
+# What it does: syncs deploy/ (kustomize) from this repo's main branch into the
+# `sound-server` namespace. CI pins the image tag in deploy/kustomization.yaml
+# on every push to main, so that commit is the rollout.
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: sound-server
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: sound-server
+  namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/arielshad/sound-server.git
+    targetRevision: main
+    path: deploy
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: sound-server
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true

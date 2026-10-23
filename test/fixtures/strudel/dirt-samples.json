@@ -1,0 +1,31 @@
+{
+ "_base": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/",
+ "bd": [
+  "bd/BT0A0A7.wav",
+  "bd/BT0A0D0.wav"
+ ],
+ "sn": [
+  "sn/ST0T0S0.wav",
+  "sn/ST0T0S3.wav"
+ ],
+ "amencutup": [
+  "amencutup/000_AMENCUT_001.wav",
+  "amencutup/001_AMENCUT_002.wav"
+ ],
+ "breaks125": [
+  "breaks125/015_sdstckbr.wav"
+ ],
+ "rave": [
+  "rave/AREUREADY.wav"
+ ],
+ "jvbass": [
+  "jvbass/000_01.wav",
+  "jvbass/001_02.wav"
+ ],
+ "808oh": [
+  "808oh/OH00.WAV"
+ ],
+ "tabla": [
+  "tabla/000_bass_flick1.wav"
+ ]
+}

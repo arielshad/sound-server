@@ -1,0 +1,72 @@
+# Publish the CLI to npm (`npx sound-server`) when a version tag is pushed:
+#   npm version patch && git push --follow-tags
+#
+# Auth, in order of preference:
+#  1. npm trusted publishing (OIDC): no secret. Configure it once on
+#     npmjs.com → the package → Settings → Trusted Publisher → GitHub Actions,
+#     with owner arielshad, repository sound-server, workflow release.yml.
+#     npm only allows that after the package exists, so the first release
+#     uses (2).
+#  2. The NPM_TOKEN repository secret (a granular npm token with read and
+#     write on all packages). Delete it once trusted publishing works.
+# Either way npm attaches provenance (publishConfig.provenance).
+name: release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write # GitHub Release
+  id-token: write # npm trusted publishing + provenance
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+jobs:
+  npm:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # Node 24 ships npm >= 11.5.1, the minimum for trusted publishing. No
+      # dependency cache: a release is built from a clean install.
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          registry-url: https://registry.npmjs.org
+      - name: ffmpeg
+        run: command -v ffprobe || (sudo apt-get update && sudo apt-get install -y --no-install-recommends ffmpeg)
+      - run: npm ci
+      - run: npm --prefix web ci
+      - run: npm run build
+      - run: npm test
+      - name: Tag matches package.json version
+        run: test "v$(node -p 'require("./package.json").version')" = "$GITHUB_REF_NAME"
+      # Publish the tested dependency tree: package-lock.json becomes
+      # npm-shrinkwrap.json, which npm honours on install (a lockfile alone is
+      # not published, so a dependency's broken patch release would reach users).
+      - run: npm shrinkwrap
+      - name: Smoke-test the packed CLI
+        run: |
+          npm pack
+          mkdir -p "$RUNNER_TEMP/smoke" && cd "$RUNNER_TEMP/smoke"
+          npm init -y >/dev/null
+          npm install "$GITHUB_WORKSPACE"/sound-server-*.tgz
+          export DO_NOT_TRACK=1
+          npx --no-install sound-server help | grep -q "sound-server serve"
+          PORT=8799 npx --no-install sound-server serve & server=$!
+          for i in $(seq 30); do curl -sf http://127.0.0.1:8799/health && break; sleep 1; done
+          curl -sf -H 'accept: text/html' http://127.0.0.1:8799/ | grep -q "Sound Server"
+          kill $server
+          rm "$GITHUB_WORKSPACE"/sound-server-*.tgz
+      - run: npm publish
+        env:
+          # Empty once NPM_TOKEN is deleted; npm then uses trusted publishing.
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" --verify-tag --generate-notes \
+            --notes "Install: \`npx sound-server serve\` (web UI + API + MCP on :8787) or \`npx -y sound-server mcp\` (MCP over stdio). npm: https://www.npmjs.com/package/sound-server/v/${GITHUB_REF_NAME#v}"

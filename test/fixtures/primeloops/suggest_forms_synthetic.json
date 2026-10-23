@@ -1,0 +1,89 @@
+{
+ "_comment": "SYNTHETIC fixture (not a live response): Shopify suggest.json shape with preset, MIDI, free and unavailable products, to test the shopifyStore mapping rules.",
+ "resources": {
+  "results": {
+   "products": [
+    {
+     "available": true,
+     "body": "<p>128 Serum presets for melodic dubstep.</p><style>.x{}</style>",
+     "handle": "future-bass-serum-presets",
+     "id": 1001,
+     "image": "https://cdn.shopify.com/s/files/1/0000/0001/files/serum.jpg?v=1",
+     "price": "24.95",
+     "price_max": "24.95",
+     "price_min": "24.95",
+     "tags": ["100% Royalty-Free", "Products Compatible with FL Studio", "Dubstep"],
+     "title": "Melodic Dubstep Serum Presets",
+     "type": "Serum Presets",
+     "url": "/products/future-bass-serum-presets?_pos=1&_psq=presets&_ss=e",
+     "vendor": "Test Label",
+     "featured_image": null
+    },
+    {
+     "available": true,
+     "body": "",
+     "handle": "rnb-chords-midi-pack",
+     "id": 1002,
+     "image": null,
+     "price": "9.95",
+     "price_max": "9.95",
+     "price_min": "9.95",
+     "tags": ["MIDI Melodies", "RNB"],
+     "title": "RnB Chords MIDI Pack",
+     "type": "Products",
+     "url": "/products/rnb-chords-midi-pack?_pos=2&_psq=presets&_ss=e",
+     "vendor": "Test Label",
+     "featured_image": {"url": "https://cdn.shopify.com/s/files/1/0000/0001/files/midi.jpg?v=2", "alt": "RnB Chords MIDI Pack"}
+    },
+    {
+     "available": true,
+     "body": "<p>Free vocal one-shots.</p>",
+     "handle": "free-vocal-shots",
+     "id": 1003,
+     "image": "https://cdn.shopify.com/s/files/1/0000/0001/files/vox.jpg?v=3",
+     "price": "0.00",
+     "price_max": "0.00",
+     "price_min": "0.00",
+     "tags": ["Freebies  Taster Packs", "Vocals"],
+     "title": "Free Vocal Shots [Free Taster Pack]",
+     "type": "Latest Releases",
+     "url": "/products/free-vocal-shots?_pos=3&_psq=presets&_ss=e",
+     "vendor": "Test Label",
+     "featured_image": null
+    },
+    {
+     "available": false,
+     "body": "",
+     "handle": "retired-pack",
+     "id": 1004,
+     "image": null,
+     "price": "5.00",
+     "price_max": "5.00",
+     "price_min": "5.00",
+     "tags": [],
+     "title": "Retired Pack",
+     "type": "",
+     "url": "/products/retired-pack",
+     "vendor": "Test Label",
+     "featured_image": null
+    },
+    {
+     "available": true,
+     "body": "",
+     "handle": "lofi-piano-loops",
+     "id": 1005,
+     "image": null,
+     "price": "12.00",
+     "price_max": "15.00",
+     "price_min": "12.00",
+     "tags": ["Lofi"],
+     "title": "Lofi Piano Loops",
+     "type": "",
+     "url": "/products/lofi-piano-loops",
+     "vendor": "Test Label",
+     "featured_image": null
+    }
+   ]
+  }
+ }
+}

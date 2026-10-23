@@ -1,0 +1,1238 @@
+{
+ "created": 1792728945,
+ "dir": "/1/items/kick-blizzard",
+ "files_count": 165,
+ "item_last_updated": 1768965288,
+ "item_size": 17883931,
+ "metadata": {
+  "identifier": "kick-blizzard",
+  "mediatype": "audio",
+  "collection": "opensource_audio",
+  "creator": "Ian/Iana Spencer",
+  "description": "A bit on the harder side. Might be good for bass music or harder EDM. Made with various sound design techniques including layering, OTT, volume automation, saturation etc",
+  "licenseurl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "scanner": "Internet Archive HTML5 Uploader 1.7.0",
+  "subject": "samples",
+  "title": "Kick and Snare samples",
+  "uploader": "ianianaspencer@gmail.com",
+  "publicdate": "2026-01-21 02:27:41",
+  "addeddate": "2026-01-21 02:27:41",
+  "curation": "[curator]validator@archive.org[/curator][date]20260121023106[/date][comment]checked for malware[/comment]"
+ },
+ "server": "ia600509.us.archive.org",
+ "files": [
+  {
+   "name": "Snare rancid.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "Snare rancid.wav",
+   "size": "101747",
+   "length": "1"
+  },
+  {
+   "name": "Snare rancid.mp3",
+   "source": "derivative",
+   "length": "00:01",
+   "format": "VBR MP3",
+   "original": "Snare rancid.wav",
+   "size": "20586"
+  },
+  {
+   "name": "Snare rancid.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "Snare rancid.wav",
+   "size": "20866"
+  },
+  {
+   "name": "Snare rancid.wav",
+   "source": "original",
+   "size": "176444",
+   "format": "WAVE",
+   "length": "1"
+  },
+  {
+   "name": "Snare rancid_spectrogram.png",
+   "source": "derivative",
+   "format": "Spectrogram",
+   "original": "Snare rancid.wav",
+   "size": "354329"
+  },
+  {
+   "name": "__ia_thumb.jpg",
+   "source": "original",
+   "size": "1686",
+   "format": "Item Tile"
+  },
+  {
+   "name": "kick awesome.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "kick awesome.wav",
+   "size": "63026",
+   "length": "0.85"
+  },
+  {
+   "name": "kick awesome.mp3",
+   "source": "derivative",
+   "length": "00:00",
+   "format": "VBR MP3",
+   "original": "kick awesome.wav",
+   "size": "17739"
+  },
+  {
+   "name": "kick awesome.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "kick awesome.wav",
+   "size": "25850"
+  },
+  {
+   "name": "kick awesome.wav",
+   "source": "original",
+   "size": "150172",
+   "format": "WAVE",
+   "length": "0.85"
+  },
+  {
+   "name": "kick awesome_spectrogram.png",
+   "source": "derivative",
+   "format": "Spectrogram",
+   "original": "kick awesome.wav",
+   "size": "319859"
+  },
+  {
+   "name": "kick blizzard.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "kick blizzard.wav",
+   "size": "85665",
+   "length": "2"
+  },
+  {
+   "name": "kick blizzard.mp3",
+   "source": "derivative",
+   "length": "00:02",
+   "format": "VBR MP3",
+   "original": "kick blizzard.wav",
+   "size": "30241"
+  },
+  {
+   "name": "kick blizzard.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "kick blizzard.wav",
+   "size": "12521"
+  },
+  {
+   "name": "kick blizzard.wav",
+   "source": "original",
+   "size": "352844",
+   "format": "WAVE",
+   "length": "2"
+  },
+  {
+   "name": "kick blizzard_spectrogram.png",
+   "source": "derivative",
+   "format": "Spectrogram",
+   "original": "kick blizzard.wav",
+   "size": "312419"
+  },
+  {
+   "name": "kick bump.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "kick bump.wav",
+   "size": "32181",
+   "length": "0.43"
+  },
+  {
+   "name": "kick bump.mp3",
+   "source": "derivative",
+   "length": "00:00",
+   "format": "VBR MP3",
+   "original": "kick bump.wav",
+   "size": "9720"
+  },
+  {
+   "name": "kick bump.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "kick bump.wav",
+   "size": "35950"
+  },
+  {
+   "name": "kick bump.wav",
+   "source": "original",
+   "size": "75644",
+   "format": "WAVE",
+   "length": "0.43"
+  },
+  {
+   "name": "kick bump_spectrogram.png",
+   "source": "derivative",
+   "format": "Spectrogram",
+   "original": "kick bump.wav",
+   "size": "271913"
+  },
+  {
+   "name": "kick heavy.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "kick heavy.wav",
+   "size": "45271",
+   "length": "0.43"
+  },
+  {
+   "name": "kick heavy.mp3",
+   "source": "derivative",
+   "length": "00:00",
+   "format": "VBR MP3",
+   "original": "kick heavy.wav",
+   "size": "13226"
+  },
+  {
+   "name": "kick heavy.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "kick heavy.wav",
+   "size": "35275"
+  },
+  {
+   "name": "kick heavy.wav",
+   "source": "original",
+   "size": "75644",
+   "format": "WAVE",
+   "length": "0.43"
+  },
+  {
+   "name": "kick heavy_spectrogram.png",
+   "source": "derivative",
+   "format": "Spectrogram",
+   "original": "kick heavy.wav",
+   "size": "264150"
+  },
+  {
+   "name": "kick hit.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "kick hit.wav",
+   "size": "44646",
+   "length": "0.4"
+  },
+  {
+   "name": "kick hit.mp3",
+   "source": "derivative",
+   "length": "00:00",
+   "format": "VBR MP3",
+   "original": "kick hit.wav",
+   "size": "12806"
+  },
+  {
+   "name": "kick hit.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "kick hit.wav",
+   "size": "31975"
+  },
+  {
+   "name": "kick hit.wav",
+   "source": "original",
+   "size": "70412",
+   "format": "WAVE",
+   "length": "0.4"
+  },
+  {
+   "name": "kick hit_spectrogram.png",
+   "source": "derivative",
+   "format": "Spectrogram",
+   "original": "kick hit.wav",
+   "size": "247133"
+  },
+  {
+   "name": "kick killer.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "kick killer.wav",
+   "size": "61390",
+   "length": "0.85"
+  },
+  {
+   "name": "kick killer.mp3",
+   "source": "derivative",
+   "length": "00:00",
+   "format": "VBR MP3",
+   "original": "kick killer.wav",
+   "size": "21531"
+  },
+  {
+   "name": "kick killer.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "kick killer.wav",
+   "size": "22926"
+  },
+  {
+   "name": "kick killer.wav",
+   "source": "original",
+   "size": "150172",
+   "format": "WAVE",
+   "length": "0.85"
+  },
+  {
+   "name": "kick killer_spectrogram.png",
+   "source": "derivative",
+   "format": "Spectrogram",
+   "original": "kick killer.wav",
+   "size": "321994"
+  },
+  {
+   "name": "kick magick.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "kick magick.wav",
+   "size": "62779",
+   "length": "0.85"
+  },
+  {
+   "name": "kick magick.mp3",
+   "source": "derivative",
+   "length": "00:00",
+   "format": "VBR MP3",
+   "original": "kick magick.wav",
+   "size": "17896"
+  },
+  {
+   "name": "kick magick.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "kick magick.wav",
+   "size": "25272"
+  },
+  {
+   "name": "kick magick.wav",
+   "source": "original",
+   "size": "150172",
+   "format": "WAVE",
+   "length": "0.85"
+  },
+  {
+   "name": "kick magick_spectrogram.png",
+   "source": "derivative",
+   "format": "Spectrogram",
+   "original": "kick magick.wav",
+   "size": "320553"
+  },
+  {
+   "name": "kick noice.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "kick noice.wav",
+   "size": "72818",
+   "length": "0.85"
+  },
+  {
+   "name": "kick noice.mp3",
+   "source": "derivative",
+   "length": "00:00",
+   "format": "VBR MP3",
+   "original": "kick noice.wav",
+   "size": "18236"
+  },
+  {
+   "name": "kick noice.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "kick noice.wav",
+   "size": "26752"
+  },
+  {
+   "name": "kick noice.wav",
+   "source": "original",
+   "size": "150172",
+   "format": "WAVE",
+   "length": "0.85"
+  },
+  {
+   "name": "kick noice_spectrogram.png",
+   "source": "derivative",
+   "format": "Spectrogram",
+   "original": "kick noice.wav",
+   "size": "322741"
+  },
+  {
+   "name": "kick powerful.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "kick powerful.wav",
+   "size": "41448",
+   "length": "0.38"
+  },
+  {
+   "name": "kick powerful.mp3",
+   "source": "derivative",
+   "length": "00:00",
+   "format": "VBR MP3",
+   "original": "kick powerful.wav",
+   "size": "11763"
+  },
+  {
+   "name": "kick powerful.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "kick powerful.wav",
+   "size": "38558"
+  },
+  {
+   "name": "kick powerful.wav",
+   "source": "original",
+   "size": "66748",
+   "format": "WAVE",
+   "length": "0.38"
+  },
+  {
+   "name": "kick powerful_spectrogram.png",
+   "source": "derivative",
+   "format": "Spectrogram",
+   "original": "kick powerful.wav",
+   "size": "247996"
+  },
+  {
+   "name": "kick pretty cool ngl.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "kick pretty cool ngl.wav",
+   "size": "60685",
+   "length": "0.85"
+  },
+  {
+   "name": "kick pretty cool ngl.mp3",
+   "source": "derivative",
+   "length": "00:00",
+   "format": "VBR MP3",
+   "original": "kick pretty cool ngl.wav",
+   "size": "20591"
+  },
+  {
+   "name": "kick pretty cool ngl.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "kick pretty cool ngl.wav",
+   "size": "23991"
+  },
+  {
+   "name": "kick pretty cool ngl.wav",
+   "source": "original",
+   "size": "150172",
+   "format": "WAVE",
+   "length": "0.85"
+  },
+  {
+   "name": "kick pretty cool ngl_spectrogram.png",
+   "source": "derivative",
+   "format": "Spectrogram",
+   "original": "kick pretty cool ngl.wav",
+   "size": "320291"
+  },
+  {
+   "name": "kick psycho.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "kick psycho.wav",
+   "size": "72016",
+   "length": "0.85"
+  },
+  {
+   "name": "kick psycho.mp3",
+   "source": "derivative",
+   "length": "00:00",
+   "format": "VBR MP3",
+   "original": "kick psycho.wav",
+   "size": "22315"
+  },
+  {
+   "name": "kick psycho.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "kick psycho.wav",
+   "size": "22738"
+  },
+  {
+   "name": "kick psycho.wav",
+   "source": "original",
+   "size": "150172",
+   "format": "WAVE",
+   "length": "0.85"
+  },
+  {
+   "name": "kick psycho_spectrogram.png",
+   "source": "derivative",
+   "format": "Spectrogram",
+   "original": "kick psycho.wav",
+   "size": "325478"
+  },
+  {
+   "name": "kick punchy.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "kick punchy.wav",
+   "size": "36826",
+   "length": "0.3"
+  },
+  {
+   "name": "kick punchy.mp3",
+   "source": "derivative",
+   "length": "00:00",
+   "format": "VBR MP3",
+   "original": "kick punchy.wav",
+   "size": "11554"
+  },
+  {
+   "name": "kick punchy.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "kick punchy.wav",
+   "size": "38208"
+  },
+  {
+   "name": "kick punchy.wav",
+   "source": "original",
+   "size": "52988",
+   "format": "WAVE",
+   "length": "0.3"
+  },
+  {
+   "name": "kick punchy_spectrogram.png",
+   "source": "derivative",
+   "format": "Spectrogram",
+   "original": "kick punchy.wav",
+   "size": "232161"
+  },
+  {
+   "name": "kick shadows.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "kick shadows.wav",
+   "size": "113201",
+   "length": "2"
+  },
+  {
+   "name": "kick shadows.mp3",
+   "source": "derivative",
+   "length": "00:02",
+   "format": "VBR MP3",
+   "original": "kick shadows.wav",
+   "size": "36882"
+  },
+  {
+   "name": "kick shadows.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "kick shadows.wav",
+   "size": "12271"
+  },
+  {
+   "name": "kick shadows.wav",
+   "source": "original",
+   "size": "352844",
+   "format": "WAVE",
+   "length": "2"
+  },
+  {
+   "name": "kick shadows_spectrogram.png",
+   "source": "derivative",
+   "format": "Spectrogram",
+   "original": "kick shadows.wav",
+   "size": "329830"
+  },
+  {
+   "name": "kick sicko.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "kick sicko.wav",
+   "size": "48294",
+   "length": "0.34"
+  },
+  {
+   "name": "kick sicko.mp3",
+   "source": "derivative",
+   "length": "00:00",
+   "format": "VBR MP3",
+   "original": "kick sicko.wav",
+   "size": "10823"
+  },
+  {
+   "name": "kick sicko.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "kick sicko.wav",
+   "size": "43492"
+  },
+  {
+   "name": "kick sicko.wav",
+   "source": "original",
+   "size": "59472",
+   "format": "WAVE",
+   "length": "0.34"
+  },
+  {
+   "name": "kick sicko_spectrogram.png",
+   "source": "derivative",
+   "format": "Spectrogram",
+   "original": "kick sicko.wav",
+   "size": "237877"
+  },
+  {
+   "name": "kick slam.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "kick slam.wav",
+   "size": "45475",
+   "length": "0.43"
+  },
+  {
+   "name": "kick slam.mp3",
+   "source": "derivative",
+   "length": "00:00",
+   "format": "VBR MP3",
+   "original": "kick slam.wav",
+   "size": "14168"
+  },
+  {
+   "name": "kick slam.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "kick slam.wav",
+   "size": "36114"
+  },
+  {
+   "name": "kick slam.wav",
+   "source": "original",
+   "size": "75644",
+   "format": "WAVE",
+   "length": "0.43"
+  },
+  {
+   "name": "kick slam_spectrogram.png",
+   "source": "derivative",
+   "format": "Spectrogram",
+   "original": "kick slam.wav",
+   "size": "262401"
+  },
+  {
+   "name": "kick slap.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "kick slap.wav",
+   "size": "35314",
+   "length": "0.3"
+  },
+  {
+   "name": "kick slap.mp3",
+   "source": "derivative",
+   "length": "00:00",
+   "format": "VBR MP3",
+   "original": "kick slap.wav",
+   "size": "9776"
+  },
+  {
+   "name": "kick slap.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "kick slap.wav",
+   "size": "38406"
+  },
+  {
+   "name": "kick slap.wav",
+   "source": "original",
+   "size": "52988",
+   "format": "WAVE",
+   "length": "0.3"
+  },
+  {
+   "name": "kick slap_spectrogram.png",
+   "source": "derivative",
+   "format": "Spectrogram",
+   "original": "kick slap.wav",
+   "size": "228035"
+  },
+  {
+   "name": "kick thump.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "kick thump.wav",
+   "size": "33200",
+   "length": "0.45"
+  },
+  {
+   "name": "kick thump.mp3",
+   "source": "derivative",
+   "length": "00:00",
+   "format": "VBR MP3",
+   "original": "kick thump.wav",
+   "size": "9513"
+  },
+  {
+   "name": "kick thump.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "kick thump.wav",
+   "size": "33460"
+  },
+  {
+   "name": "kick thump.wav",
+   "source": "original",
+   "size": "79032",
+   "format": "WAVE",
+   "length": "0.45"
+  },
+  {
+   "name": "kick thump_spectrogram.png",
+   "source": "derivative",
+   "format": "Spectrogram",
+   "original": "kick thump.wav",
+   "size": "254979"
+  },
+  {
+   "name": "kick unce.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "kick unce.wav",
+   "size": "39679",
+   "length": "0.34"
+  },
+  {
+   "name": "kick unce.mp3",
+   "source": "derivative",
+   "length": "00:00",
+   "format": "VBR MP3",
+   "original": "kick unce.wav",
+   "size": "11867"
+  },
+  {
+   "name": "kick unce.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "kick unce.wav",
+   "size": "39699"
+  },
+  {
+   "name": "kick unce.wav",
+   "source": "original",
+   "size": "59472",
+   "format": "WAVE",
+   "length": "0.34"
+  },
+  {
+   "name": "kick unce_spectrogram.png",
+   "source": "derivative",
+   "format": "Spectrogram",
+   "original": "kick unce.wav",
+   "size": "241648"
+  },
+  {
+   "name": "kick-blizzard_archive.torrent",
+   "source": "metadata",
+   "size": "29925",
+   "format": "Archive BitTorrent"
+  },
+  {
+   "name": "kick-blizzard_files.xml",
+   "source": "original",
+   "format": "Metadata"
+  },
+  {
+   "name": "kick-blizzard_meta.sqlite",
+   "source": "original",
+   "size": "86016",
+   "format": "Metadata"
+  },
+  {
+   "name": "kick-blizzard_meta.xml",
+   "source": "original",
+   "size": "891",
+   "format": "Metadata"
+  },
+  {
+   "name": "snare angery.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "snare angery.wav",
+   "size": "90862",
+   "length": "1"
+  },
+  {
+   "name": "snare angery.mp3",
+   "source": "derivative",
+   "length": "00:01",
+   "format": "VBR MP3",
+   "original": "snare angery.wav",
+   "size": "18388"
+  },
+  {
+   "name": "snare angery.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "snare angery.wav",
+   "size": "24188"
+  },
+  {
+   "name": "snare angery.wav",
+   "source": "original",
+   "size": "176444",
+   "format": "WAVE",
+   "length": "1"
+  },
+  {
+   "name": "snare angery_spectrogram.png",
+   "source": "derivative",
+   "format": "Spectrogram",
+   "original": "snare angery.wav",
+   "size": "311336"
+  },
+  {
+   "name": "snare clank.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "snare clank.wav",
+   "size": "101710",
+   "length": "1"
+  },
+  {
+   "name": "snare clank.mp3",
+   "source": "derivative",
+   "length": "00:01",
+   "format": "VBR MP3",
+   "original": "snare clank.wav",
+   "size": "19120"
+  },
+  {
+   "name": "snare clank.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "snare clank.wav",
+   "size": "24109"
+  },
+  {
+   "name": "snare clank.wav",
+   "source": "original",
+   "size": "176444",
+   "format": "WAVE",
+   "length": "1"
+  },
+  {
+   "name": "snare clank_spectrogram.png",
+   "source": "derivative",
+   "format": "Spectrogram",
+   "original": "snare clank.wav",
+   "size": "320073"
+  },
+  {
+   "name": "snare crackle.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "snare crackle.wav",
+   "size": "60268",
+   "length": "1"
+  },
+  {
+   "name": "snare crackle.mp3",
+   "source": "derivative",
+   "length": "00:01",
+   "format": "VBR MP3",
+   "original": "snare crackle.wav",
+   "size": "15724"
+  },
+  {
+   "name": "snare crackle.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "snare crackle.wav",
+   "size": "13166"
+  },
+  {
+   "name": "snare crackle.wav",
+   "source": "original",
+   "size": "176444",
+   "format": "WAVE",
+   "length": "1"
+  },
+  {
+   "name": "snare crackle_spectrogram.png",
+   "source": "derivative",
+   "format": "Spectrogram",
+   "original": "snare crackle.wav",
+   "size": "273251"
+  },
+  {
+   "name": "snare haunted.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "snare haunted.wav",
+   "size": "103646",
+   "length": "1"
+  },
+  {
+   "name": "snare haunted.mp3",
+   "source": "derivative",
+   "length": "00:01",
+   "format": "VBR MP3",
+   "original": "snare haunted.wav",
+   "size": "22360"
+  },
+  {
+   "name": "snare haunted.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "snare haunted.wav",
+   "size": "17984"
+  },
+  {
+   "name": "snare haunted.wav",
+   "source": "original",
+   "size": "176444",
+   "format": "WAVE",
+   "length": "1"
+  },
+  {
+   "name": "snare haunted_spectrogram.png",
+   "source": "derivative",
+   "format": "Spectrogram",
+   "original": "snare haunted.wav",
+   "size": "353308"
+  },
+  {
+   "name": "snare lilguy.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "snare lilguy.wav",
+   "size": "66741",
+   "length": "1"
+  },
+  {
+   "name": "snare lilguy.mp3",
+   "source": "derivative",
+   "length": "00:01",
+   "format": "VBR MP3",
+   "original": "snare lilguy.wav",
+   "size": "17917"
+  },
+  {
+   "name": "snare lilguy.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "snare lilguy.wav",
+   "size": "12623"
+  },
+  {
+   "name": "snare lilguy.wav",
+   "source": "original",
+   "size": "176444",
+   "format": "WAVE",
+   "length": "1"
+  },
+  {
+   "name": "snare lilguy2.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "snare lilguy2.wav",
+   "size": "76354",
+   "length": "1"
+  },
+  {
+   "name": "snare lilguy2.mp3",
+   "source": "derivative",
+   "length": "00:01",
+   "format": "VBR MP3",
+   "original": "snare lilguy2.wav",
+   "size": "19539"
+  },
+  {
+   "name": "snare lilguy2.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "snare lilguy2.wav",
+   "size": "11328"
+  },
+  {
+   "name": "snare lilguy2.wav",
+   "source": "original",
+   "size": "176444",
+   "format": "WAVE",
+   "length": "1"
+  },
+  {
+   "name": "snare lilguy2_spectrogram.png",
+   "source": "derivative",
+   "format": "Spectrogram",
+   "original": "snare lilguy2.wav",
+   "size": "313014"
+  },
+  {
+   "name": "snare lilguy_spectrogram.png",
+   "source": "derivative",
+   "format": "Spectrogram",
+   "original": "snare lilguy.wav",
+   "size": "310830"
+  },
+  {
+   "name": "snare moody.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "snare moody.wav",
+   "size": "82219",
+   "length": "1"
+  },
+  {
+   "name": "snare moody.mp3",
+   "source": "derivative",
+   "length": "00:01",
+   "format": "VBR MP3",
+   "original": "snare moody.wav",
+   "size": "19903"
+  },
+  {
+   "name": "snare moody.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "snare moody.wav",
+   "size": "17025"
+  },
+  {
+   "name": "snare moody.wav",
+   "source": "original",
+   "size": "176444",
+   "format": "WAVE",
+   "length": "1"
+  },
+  {
+   "name": "snare moody_spectrogram.png",
+   "source": "derivative",
+   "format": "Spectrogram",
+   "original": "snare moody.wav",
+   "size": "305498"
+  },
+  {
+   "name": "snare noisy.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "snare noisy.wav",
+   "size": "88492",
+   "length": "1"
+  },
+  {
+   "name": "snare noisy.mp3",
+   "source": "derivative",
+   "length": "00:01",
+   "format": "VBR MP3",
+   "original": "snare noisy.wav",
+   "size": "18908"
+  },
+  {
+   "name": "snare noisy.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "snare noisy.wav",
+   "size": "16726"
+  },
+  {
+   "name": "snare noisy.wav",
+   "source": "original",
+   "size": "176444",
+   "format": "WAVE",
+   "length": "1"
+  },
+  {
+   "name": "snare noisy_spectrogram.png",
+   "source": "derivative",
+   "format": "Spectrogram",
+   "original": "snare noisy.wav",
+   "size": "310531"
+  },
+  {
+   "name": "snare other.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "snare other.wav",
+   "size": "88601",
+   "length": "1"
+  },
+  {
+   "name": "snare other.mp3",
+   "source": "derivative",
+   "length": "00:01",
+   "format": "VBR MP3",
+   "original": "snare other.wav",
+   "size": "19539"
+  },
+  {
+   "name": "snare other.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "snare other.wav",
+   "size": "17516"
+  },
+  {
+   "name": "snare other.wav",
+   "source": "original",
+   "size": "176444",
+   "format": "WAVE",
+   "length": "1"
+  },
+  {
+   "name": "snare other_spectrogram.png",
+   "source": "derivative",
+   "format": "Spectrogram",
+   "original": "snare other.wav",
+   "size": "309871"
+  },
+  {
+   "name": "snare pop.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "snare pop.wav",
+   "size": "79327",
+   "length": "1"
+  },
+  {
+   "name": "snare pop.mp3",
+   "source": "derivative",
+   "length": "00:01",
+   "format": "VBR MP3",
+   "original": "snare pop.wav",
+   "size": "19227"
+  },
+  {
+   "name": "snare pop.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "snare pop.wav",
+   "size": "13046"
+  },
+  {
+   "name": "snare pop.wav",
+   "source": "original",
+   "size": "176444",
+   "format": "WAVE",
+   "length": "1"
+  },
+  {
+   "name": "snare pop_spectrogram.png",
+   "source": "derivative",
+   "format": "Spectrogram",
+   "original": "snare pop.wav",
+   "size": "328510"
+  },
+  {
+   "name": "snare pterodactylal.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "snare pterodactylal.wav",
+   "size": "85778",
+   "length": "1"
+  },
+  {
+   "name": "snare pterodactylal.mp3",
+   "source": "derivative",
+   "length": "00:01",
+   "format": "VBR MP3",
+   "original": "snare pterodactylal.wav",
+   "size": "19013"
+  },
+  {
+   "name": "snare pterodactylal.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "snare pterodactylal.wav",
+   "size": "18010"
+  },
+  {
+   "name": "snare pterodactylal.wav",
+   "source": "original",
+   "size": "176444",
+   "format": "WAVE",
+   "length": "1"
+  },
+  {
+   "name": "snare pterodactylal_spectrogram.png",
+   "source": "derivative",
+   "format": "Spectrogram",
+   "original": "snare pterodactylal.wav",
+   "size": "303087"
+  },
+  {
+   "name": "snare sneer.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "snare sneer.wav",
+   "size": "67335",
+   "length": "1"
+  },
+  {
+   "name": "snare sneer.mp3",
+   "source": "derivative",
+   "length": "00:01",
+   "format": "VBR MP3",
+   "original": "snare sneer.wav",
+   "size": "17813"
+  },
+  {
+   "name": "snare sneer.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "snare sneer.wav",
+   "size": "14540"
+  },
+  {
+   "name": "snare sneer.wav",
+   "source": "original",
+   "size": "176444",
+   "format": "WAVE",
+   "length": "1"
+  },
+  {
+   "name": "snare sneer_spectrogram.png",
+   "source": "derivative",
+   "format": "Spectrogram",
+   "original": "snare sneer.wav",
+   "size": "310198"
+  },
+  {
+   "name": "snare wheeze.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "snare wheeze.wav",
+   "size": "85694",
+   "length": "1"
+  },
+  {
+   "name": "snare wheeze.mp3",
+   "source": "derivative",
+   "length": "00:01",
+   "format": "VBR MP3",
+   "original": "snare wheeze.wav",
+   "size": "20739"
+  },
+  {
+   "name": "snare wheeze.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "snare wheeze.wav",
+   "size": "13266"
+  },
+  {
+   "name": "snare wheeze.wav",
+   "source": "original",
+   "size": "176444",
+   "format": "WAVE",
+   "length": "1"
+  },
+  {
+   "name": "snare wheeze_spectrogram.png",
+   "source": "derivative",
+   "format": "Spectrogram",
+   "original": "snare wheeze.wav",
+   "size": "335177"
+  }
+ ]
+}

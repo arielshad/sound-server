@@ -1,0 +1,7 @@
+{
+ "_base": "https://raw.githubusercontent.com/yaxu/mrid/main/",
+ "gumki": [
+  "norm_sounds/gumki/gumki2-3.wav",
+  "norm_sounds/gumki/gumki2-7.wav"
+ ]
+}

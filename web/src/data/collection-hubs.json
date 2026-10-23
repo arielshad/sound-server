@@ -1,0 +1,65 @@
+[
+  {
+    "id": "drums",
+    "name": "Drum samples",
+    "title": "Free drum samples: kicks, snares, hats and breaks",
+    "description": "Free drum samples by sound: kicks, snares, claps, hi-hats, percussion and breakbeats as WAV one-shots and loops, each with a clear licence verdict.",
+    "intro": "Drums are where most tracks start, and where a weak sample shows first. These collections group free drum sounds by what they are: punchy kicks, crisp snares and claps, closed and open hi-hats, shakers and congas, and chopped breakbeats. Results come from Freesound, Wikimedia Commons, Kenney, Free Wave Samples, the Strudel drum-machine banks and more, and every card says whether you can release a track that uses it.",
+    "categories": ["drums"],
+    "aliases": ["drum kit", "drum sounds", "drum one shots", "percussion samples"]
+  },
+  {
+    "id": "bass-808s",
+    "name": "808s and bass",
+    "title": "Free 808 and bass samples",
+    "description": "Free 808s, sub basses and bass one-shots and loops for trap, hip hop, drill and house, with key, length and a licence verdict on every sample.",
+    "intro": "An 808 is a tuned, long-decaying kick that doubles as the bassline in trap, drill and modern hip hop; a sub bass or a bass loop does the same job in house and drum and bass. These collections group free bass sounds by style and show the root key where the source or our analysis knows it, so you can drop a sample in tune without guessing.",
+    "categories": ["bass"],
+    "aliases": ["808", "808s", "808 samples", "bass samples", "sub bass"]
+  },
+  {
+    "id": "loops",
+    "name": "Loops",
+    "title": "Free loops by genre and tempo",
+    "description": "Free loops for music production: drum loops, melody loops, guitar and piano loops by genre, with BPM and key where known and a licence verdict on each.",
+    "intro": "A loop repeats seamlessly at a tempo, so it can carry a whole section of a track or seed a new idea. These collections group free loops by instrument and genre, from lo-fi drum grooves to piano chords, and show the BPM and key so you can match them to your project. Many loops on free sites are licensed for non-commercial use only: each card says which.",
+    "forms": ["loop"],
+    "aliases": ["loops", "loop samples", "music loops"]
+  },
+  {
+    "id": "vocals",
+    "name": "Vocal samples",
+    "title": "Free vocal samples: chops, a cappellas and shouts",
+    "description": "Free vocal samples: vocal chops, a cappellas, shouts and ad-libs, choirs and spoken word, with key and tempo where known and a licence verdict on each.",
+    "intro": "Vocal samples give a track a human hook: a chopped syllable played as a melody, a full a cappella to remix, a crowd shout on the drop or a spoken line in a breakdown. These collections group free vocals by type. Vocals are the samples most often licensed for non-commercial use only, so check the verdict on each card before you release anything.",
+    "categories": ["vocals"],
+    "aliases": ["vocals", "vocal", "vox", "acapella", "voice samples"]
+  },
+  {
+    "id": "fx",
+    "name": "Sound effects",
+    "title": "Free sound effects for music: risers, impacts, sweeps",
+    "description": "Free sound effects for music production and video: risers, downlifters, impacts, whooshes, zaps, glitches and noise, with licence verdicts and previews.",
+    "intro": "Transitions are what make a drop land: a riser that builds tension, a downlifter that releases it, an impact on the first beat and a whoosh between sections. These collections group free effects by what they do in an arrangement, from cinematic hits to vinyl crackle and laser zaps, with a preview and a licence verdict on every one.",
+    "categories": ["fx"],
+    "aliases": ["sound effects", "sfx", "fx", "transitions"]
+  },
+  {
+    "id": "foley-ambience",
+    "name": "Foley and ambience",
+    "title": "Free foley sounds and ambience recordings",
+    "description": "Free foley sounds and ambience recordings: footsteps, doors, water, rain, forests, city streets and room tone, for music, film and games, with licences.",
+    "intro": "Foley is the sound of things being handled: footsteps, doors, paper, glass, water. Ambience is the sound of a place: rain on a roof, a forest at dawn, a busy street, the hum of an empty room. Producers layer both under beats for texture and space. These collections group free field recordings by subject, many of them CC0 from Freesound, Wikimedia Commons and the BBC Sound Effects archive.",
+    "categories": ["foley", "ambience"],
+    "aliases": ["foley", "ambience", "field recordings", "atmospheres", "soundscapes"]
+  },
+  {
+    "id": "instruments",
+    "name": "Instrument samples",
+    "title": "Free instrument samples: piano, guitar, synth, strings",
+    "description": "Free instrument samples and multisampled instruments: piano, Rhodes, guitar, synth pads and leads, strings, brass, flutes and mallets, with licence verdicts.",
+    "intro": "Instrument samples range from a single piano note to a full multisampled instrument you can play from a keyboard. These collections group free instruments by family, keys, guitars, synths, orchestral strings, brass and woodwind, and mallets, and show the root note where it is known so you can map one-shots across a sampler.",
+    "categories": ["keys", "guitar", "synth", "strings", "brass", "woodwind", "mallets"],
+    "aliases": ["instruments", "instrument samples", "multisamples", "sampled instruments"]
+  }
+]

@@ -1,0 +1,11 @@
+{
+ "_base": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Samples/main/",
+ "kick": [
+  "kick/kickkk8.wav",
+  "kick/kick 3-1.wav",
+  "kick/kick3-1.wav"
+ ],
+ "loop": [
+  "loop/LOOP2.wav"
+ ]
+}

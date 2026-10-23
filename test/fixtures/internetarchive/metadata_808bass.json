@@ -1,0 +1,453 @@
+{
+ "created": 1792728943,
+ "dir": "/28/items/sin-aesthetics-free-808-bass-pack-75-.wav-files",
+ "files_count": 381,
+ "item_last_updated": 1762246183,
+ "item_size": 60845621,
+ "metadata": {
+  "identifier": "sin-aesthetics-free-808-bass-pack-75-.wav-files",
+  "mediatype": "audio",
+  "collection": "opensource_audio",
+  "creator": "Sin Aesthetic",
+  "description": "Free Sample pack by Sin Aesthetic!!!",
+  "licenseurl": "https://creativecommons.org/licenses/by/4.0/",
+  "scanner": "Internet Archive HTML5 Uploader 1.7.0",
+  "subject": [
+   "808",
+   "sample pack",
+   "bass sounds",
+   "bass sample",
+   "ableton live",
+   "ableton",
+   "fl",
+   "fl studio",
+   "fruity loops"
+  ],
+  "title": "Sin Aesthetic's Free 808 Bass Pack! 75 .wav Files",
+  "uploader": "sin.aesthetic.music@gmail.com",
+  "publicdate": "2025-11-04 07:29:46",
+  "addeddate": "2025-11-04 07:29:46",
+  "curation": "[curator]validator@archive.org[/curator][date]20251104073649[/date][comment]checked for malware[/comment]"
+ },
+ "server": "ia801601.us.archive.org",
+ "files": [
+  {
+   "name": "Sin Aesthetic's Free 808 Bass Pack! 75 .wav files.zip",
+   "source": "original",
+   "mtime": "1762241369",
+   "size": "11697632",
+   "md5": "60948fb991b10fe20b66256d9be83321",
+   "format": "ZIP"
+  },
+  {
+   "name": "__ia_thumb.jpg",
+   "source": "original",
+   "mtime": "1762246180",
+   "size": "1796",
+   "md5": "726a0bfab55636b0f6d675a7957dfc49",
+   "format": "Item Tile"
+  },
+  {
+   "name": "sin-aesthetics-free-808-bass-pack-75-.wav-files_files.xml",
+   "source": "original",
+   "format": "Metadata",
+   "md5": "06cac68a13f71d7bd8e1ad8eaa1bf365"
+  },
+  {
+   "name": "sin-aesthetics-free-808-bass-pack-75-.wav-files_meta.sqlite",
+   "source": "original",
+   "mtime": "1762241797",
+   "size": "126976",
+   "md5": "df9de8f7e3b4293e27525cd33fe2d743",
+   "format": "Metadata"
+  },
+  {
+   "name": "sin-aesthetics-free-808-bass-pack-75-.wav-files_meta.xml",
+   "source": "original",
+   "mtime": "1762246095",
+   "size": "1061",
+   "md5": "ecab11bf7a65da19ca5edec0248b3f98",
+   "format": "Metadata"
+  },
+  {
+   "name": "Dirty  20.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "Dirty  20.wav",
+   "mtime": "1762243362",
+   "size": "68292",
+   "md5": "98b8672c6b1c1cdc5413afc94df568e9",
+   "length": "1.71"
+  },
+  {
+   "name": "Dirty  20.mp3",
+   "source": "derivative",
+   "length": "00:01",
+   "format": "VBR MP3",
+   "original": "Dirty  20.wav",
+   "mtime": "1762242366",
+   "size": "29169",
+   "md5": "735099c5067fb7758d67904aaacfe7d0"
+  },
+  {
+   "name": "Dirty  20.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "Dirty  20.wav",
+   "mtime": "1762245136",
+   "size": "21130",
+   "md5": "b39a576b2f3a377bc27c050e4af28e5c"
+  },
+  {
+   "name": "Dirty  20.wav",
+   "source": "original",
+   "mtime": "1762241560",
+   "size": "302444",
+   "md5": "fe656910ca015d4379d24ca7ce2c7368",
+   "format": "WAVE",
+   "length": "1.71"
+  },
+  {
+   "name": "Dirty  21.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "Dirty  21.wav",
+   "mtime": "1762243318",
+   "size": "69445",
+   "md5": "fab647e8ffafa4b6a8290e547a6fcb51",
+   "length": "1.71"
+  },
+  {
+   "name": "Dirty  21.mp3",
+   "source": "derivative",
+   "length": "00:01",
+   "format": "VBR MP3",
+   "original": "Dirty  21.wav",
+   "mtime": "1762241921",
+   "size": "31364",
+   "md5": "42a6c5b468dd750023edc0f957e32ff2"
+  },
+  {
+   "name": "Dirty  21.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "Dirty  21.wav",
+   "mtime": "1762245152",
+   "size": "22516",
+   "md5": "87bfc61374d61781ffa0c0bc712b429b"
+  },
+  {
+   "name": "Dirty  21.wav",
+   "source": "original",
+   "mtime": "1762241562",
+   "size": "302444",
+   "md5": "29b2a51d982c65eac25791be3923397a",
+   "format": "WAVE",
+   "length": "1.71"
+  },
+  {
+   "name": "Dirty  29.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "Dirty  29.wav",
+   "mtime": "1762243349",
+   "size": "44206",
+   "md5": "11ead8e6935429b8398f1245a3c184cf",
+   "length": "0.82"
+  },
+  {
+   "name": "Dirty  29.mp3",
+   "source": "derivative",
+   "length": "00:00",
+   "format": "VBR MP3",
+   "original": "Dirty  29.wav",
+   "mtime": "1762242585",
+   "size": "15000",
+   "md5": "1e87b80f10fecfebc32f4f497f6ac706"
+  },
+  {
+   "name": "Dirty  29.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "Dirty  29.wav",
+   "mtime": "1762244132",
+   "size": "29622",
+   "md5": "f0e2e5da29957f988066a14f50195aa7"
+  },
+  {
+   "name": "Dirty  29.wav",
+   "source": "original",
+   "mtime": "1762241565",
+   "size": "145024",
+   "md5": "d88fc6a498d96d26aa4cb784dca02a04",
+   "format": "WAVE",
+   "length": "0.82"
+  },
+  {
+   "name": "Dirty 1.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "Dirty 1.wav",
+   "mtime": "1762243489",
+   "size": "40921",
+   "md5": "922bf30316c710640de95fdd875b2e08",
+   "length": "0.72"
+  },
+  {
+   "name": "Dirty 1.mp3",
+   "source": "derivative",
+   "length": "00:00",
+   "format": "VBR MP3",
+   "original": "Dirty 1.wav",
+   "mtime": "1762242481",
+   "size": "18716",
+   "md5": "25e4a5aea51f6557267d27cab9bc7578"
+  },
+  {
+   "name": "Dirty 1.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "Dirty 1.wav",
+   "mtime": "1762244580",
+   "size": "41914",
+   "md5": "fa410e17b12468910309267686344779"
+  },
+  {
+   "name": "Dirty 1.wav",
+   "source": "original",
+   "mtime": "1762241567",
+   "size": "127620",
+   "md5": "fe40aff73e174ceefa4c0f1b1c230fa5",
+   "format": "WAVE",
+   "length": "0.72"
+  },
+  {
+   "name": "Dirty 10.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "Dirty 10.wav",
+   "mtime": "1762243031",
+   "size": "30950",
+   "md5": "cec1db857c89a762b4276f72f0136b76",
+   "length": "0.54"
+  },
+  {
+   "name": "Dirty 10.mp3",
+   "source": "derivative",
+   "length": "00:00",
+   "format": "VBR MP3",
+   "original": "Dirty 10.wav",
+   "mtime": "1762241842",
+   "size": "12000",
+   "md5": "56794d44730d524a48f90ff1c6ad8f7d"
+  },
+  {
+   "name": "Dirty 10.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "Dirty 10.wav",
+   "mtime": "1762243927",
+   "size": "42050",
+   "md5": "04fc31ee2a0322b069cc6943214a5c32"
+  },
+  {
+   "name": "Dirty 10.wav",
+   "source": "original",
+   "mtime": "1762241590",
+   "size": "95616",
+   "md5": "9b98b982511a4315650aab2ac5b2429c",
+   "format": "WAVE",
+   "length": "0.54"
+  },
+  {
+   "name": "Dirty 11.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "Dirty 11.wav",
+   "mtime": "1762243397",
+   "size": "30041",
+   "md5": "2d6d9a268463d1f10e44f76630941f68",
+   "length": "0.54"
+  },
+  {
+   "name": "Dirty 11.mp3",
+   "source": "derivative",
+   "length": "00:00",
+   "format": "VBR MP3",
+   "original": "Dirty 11.wav",
+   "mtime": "1762242244",
+   "size": "10484",
+   "md5": "06a025a4d1357dcf962139386a380bbe"
+  },
+  {
+   "name": "Dirty 11.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "Dirty 11.wav",
+   "mtime": "1762243995",
+   "size": "42191",
+   "md5": "ffa47e99fc4ae26ab2efdf46887e9c21"
+  },
+  {
+   "name": "Dirty 11.wav",
+   "source": "original",
+   "mtime": "1762241593",
+   "size": "95616",
+   "md5": "a0bd4cc1f53afdadbfad47b3693f6b96",
+   "format": "WAVE",
+   "length": "0.54"
+  },
+  {
+   "name": "Dirty 12.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "Dirty 12.wav",
+   "mtime": "1762243419",
+   "size": "32056",
+   "md5": "265fcb7e632c7ed3334de461225f2cb1",
+   "length": "0.54"
+  },
+  {
+   "name": "Dirty 12.mp3",
+   "source": "derivative",
+   "length": "00:00",
+   "format": "VBR MP3",
+   "original": "Dirty 12.wav",
+   "mtime": "1762242381",
+   "size": "11684",
+   "md5": "0d7d29cad2837f356343256f724724bc"
+  },
+  {
+   "name": "Dirty 12.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "Dirty 12.wav",
+   "mtime": "1762244113",
+   "size": "44525",
+   "md5": "e53f35ec5d94c32dae22692670398e77"
+  },
+  {
+   "name": "Dirty 12.wav",
+   "source": "original",
+   "mtime": "1762241595",
+   "size": "95616",
+   "md5": "98883dd369aa4e0be2d3e3684f5ae14f",
+   "format": "WAVE",
+   "length": "0.54"
+  },
+  {
+   "name": "Dirty 13.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "Dirty 13.wav",
+   "mtime": "1762243456",
+   "size": "30349",
+   "md5": "222f1e656df129c4ec07aa21647239c7",
+   "length": "0.54"
+  },
+  {
+   "name": "Dirty 13.mp3",
+   "source": "derivative",
+   "length": "00:00",
+   "format": "VBR MP3",
+   "original": "Dirty 13.wav",
+   "mtime": "1762242165",
+   "size": "10276",
+   "md5": "7bfaf736f608138d1a5c8dd0f4e0c1af"
+  },
+  {
+   "name": "Dirty 13.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "Dirty 13.wav",
+   "mtime": "1762244333",
+   "size": "43922",
+   "md5": "7b3b7b7a1216ca7cc2e8eb6ba4fd01a7"
+  },
+  {
+   "name": "Dirty 13.wav",
+   "source": "original",
+   "mtime": "1762241598",
+   "size": "95616",
+   "md5": "01d53fcec8be93c3d3a349bf7d7e0f82",
+   "format": "WAVE",
+   "length": "0.54"
+  },
+  {
+   "name": "Dirty 14.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "Dirty 14.wav",
+   "mtime": "1762243467",
+   "size": "30245",
+   "md5": "238b9dfff3334d1bc2ca5713e541fdab",
+   "length": "0.54"
+  },
+  {
+   "name": "Dirty 14.mp3",
+   "source": "derivative",
+   "length": "00:00",
+   "format": "VBR MP3",
+   "original": "Dirty 14.wav",
+   "mtime": "1762242150",
+   "size": "10432",
+   "md5": "21f09497ae4dc6227413ca6df256f209"
+  },
+  {
+   "name": "Dirty 14.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "Dirty 14.wav",
+   "mtime": "1762243890",
+   "size": "44866",
+   "md5": "5486d69c0ef70a7f7821d225b68e64bb"
+  },
+  {
+   "name": "Dirty 14.wav",
+   "source": "original",
+   "mtime": "1762241600",
+   "size": "95616",
+   "md5": "165ba9fc3aa9a9efc74b6103737e3313",
+   "format": "WAVE",
+   "length": "0.54"
+  },
+  {
+   "name": "Dirty 15.flac",
+   "source": "derivative",
+   "format": "Flac",
+   "original": "Dirty 15.wav",
+   "mtime": "1762243478",
+   "size": "30609",
+   "md5": "b9a678a4c4a7f05afa08896d5cbd20f9",
+   "length": "0.54"
+  },
+  {
+   "name": "Dirty 15.mp3",
+   "source": "derivative",
+   "length": "00:00",
+   "format": "VBR MP3",
+   "original": "Dirty 15.wav",
+   "mtime": "1762241905",
+   "size": "10641",
+   "md5": "f1390099991da65bc92905df06b31b90"
+  },
+  {
+   "name": "Dirty 15.png",
+   "source": "derivative",
+   "format": "PNG",
+   "original": "Dirty 15.wav",
+   "mtime": "1762244474",
+   "size": "45895",
+   "md5": "5fe1b808e87fb9140d64e9a411a714ae"
+  },
+  {
+   "name": "Dirty 15.wav",
+   "source": "original",
+   "mtime": "1762241602",
+   "size": "95616",
+   "md5": "bf21b2bdee455fa7c92e66fb27293f04",
+   "format": "WAVE",
+   "length": "0.54"
+  }
+ ]
+}

@@ -1,0 +1,139 @@
+# sound-server (sound.shep.bot) — unified search + download gateway for music
+# samples (drums, 808s, loops, vocals, FX, foley, instruments): web UI at /,
+# REST API at /v1/*, MCP (Streamable HTTP) at /mcp.
+#
+# Image tag is set by kustomization.yaml (pinned by CI on every push to main).
+#
+# Stateless (in-memory HTTP cache only), so no PVC. Server-side downloads over
+# MCP stay disabled (SOUND_SERVER_HTTP_DOWNLOADS unset): the HTTP download
+# endpoint streams zips straight to the client and never touches disk.
+#
+# Optional `sound-server-env` Secret; the pod starts fine without it:
+#   FREESOUND_API_KEY            enables Freesound (free key from
+#                                https://freesound.org/apiv2/apply; without it
+#                                Freesound shows as "disabled" and Openverse
+#                                still covers part of its catalogue)
+#   OPENVERSE_CLIENT_ID, OPENVERSE_CLIENT_SECRET
+#                                optional, raises Openverse's anonymous limit
+#                                (200 requests/day)
+#   SOUND_SERVER_API_KEY         locks /v1/* and /mcp behind a key
+# Never put FREESOUND_OAUTH_TOKEN here: it is a personal token for local use,
+# and on a public server it would download originals with that person's account.
+# For the MCP client attribution metrics it can also hold:
+#   SOUND_SERVER_SESSION_SECRET  signs MCP session IDs (else random per pod,
+#                                and sessions lose their label on restart)
+#   MAXMIND_ACCOUNT_ID, MAXMIND_LICENSE_KEY
+#                                free GeoLite2-ASN download for the `network`
+#                                label (cached in /tmp, refreshed weekly);
+#                                without them ISP and cloud callers show as
+#                                `unknown`
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sound-server
+  namespace: sound-server
+spec:
+  replicas: 1
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 0
+      maxSurge: 1
+  selector:
+    matchLabels:
+      app: sound-server
+  template:
+    metadata:
+      labels:
+        app: sound-server
+    spec:
+      # Only needed if the GHCR package is private; a missing pull secret is
+      # ignored and the public image is pulled anonymously.
+      imagePullSecrets:
+        - name: ghcr-pull
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 1000
+        runAsGroup: 1000
+        seccompProfile:
+          type: RuntimeDefault
+      containers:
+        - name: sound-server
+          image: ghcr.io/arielshad/sound-server
+          imagePullPolicy: IfNotPresent
+          env:
+            - name: PORT
+              value: "8787"
+            # TLS terminates at the edge Caddy, so the request origin seen by
+            # the pod is http://; links handed to MCP clients must be https.
+            - name: SOUND_SERVER_PUBLIC_URL
+              value: https://sound.shep.bot
+            # Wikimedia and others ask for a descriptive User-Agent with contact details.
+            - name: SOUND_SERVER_USER_AGENT
+              value: "sound-server/0.1 (+https://sound.shep.bot; https://github.com/arielshad/sound-server)"
+            # Prometheus metrics on a separate port (Service-internal only, not
+            # routed by the Ingress) + JSON event log lines for Loki.
+            - name: METRICS_PORT
+              value: "9464"
+            # The /stats page reads 24h / 7d totals back from the cluster
+            # Prometheus (shep-infra: kube-prometheus-stack, 10-day retention),
+            # which scrapes the port above via servicemonitor.yaml.
+            - name: PROMETHEUS_URL
+              value: http://kube-prometheus-stack-prometheus.monitoring.svc:9090
+            # Cookieless visit counts in the cluster's self-hosted Umami: register
+            # sound.shep.bot there (shep-infra, like website-3d-shep-bot-job.yaml)
+            # and uncomment with its website id.
+            # - name: UMAMI_WEBSITE_ID
+            #   value: <sound.shep.bot website id>
+            # - name: UMAMI_HOST
+            #   value: https://stats.shep.bot
+            # Install telemetry is opt-in and off here; this instance is
+            # measured by the metrics above.
+            - name: SOUND_SERVER_TELEMETRY
+              value: "0"
+            # Audio analysis (get_sample analyze=true) decodes previews with ffmpeg
+            # into /tmp; keep downloads for analysis small.
+            - name: SOUND_SERVER_ANALYSIS_MAX_BYTES
+              value: "26214400"
+          envFrom:
+            - secretRef:
+                name: sound-server-env
+                optional: true
+          ports:
+            - name: http
+              containerPort: 8787
+            - name: metrics
+              containerPort: 9464
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: http
+            initialDelaySeconds: 3
+            periodSeconds: 10
+            timeoutSeconds: 2
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: http
+            initialDelaySeconds: 15
+            periodSeconds: 30
+            timeoutSeconds: 3
+          securityContext:
+            allowPrivilegeEscalation: false
+            readOnlyRootFilesystem: true
+            capabilities:
+              drop: ["ALL"]
+          volumeMounts:
+            - name: tmp
+              mountPath: /tmp
+          resources:
+            requests:
+              cpu: 50m
+              memory: 160Mi
+            limits:
+              cpu: "1"
+              memory: 768Mi
+      volumes:
+        - name: tmp
+          emptyDir:
+            sizeLimit: 1Gi

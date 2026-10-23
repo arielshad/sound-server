@@ -1,0 +1,10 @@
+{
+ "_base": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Fox/main/",
+ "fdarkkick": [
+  "fdarkkick/0_kick_drum.wav"
+ ],
+ "fclap": [
+  "fclap/2_clap.wav"
+ ],
+ "fconga": []
+}

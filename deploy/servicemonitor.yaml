@@ -1,0 +1,16 @@
+# Prometheus (kube-prometheus-stack, which selects ServiceMonitors in every
+# namespace) scrapes product + runtime metrics. Dashboard: "Sound Server" in
+# Grafana (shep-infra: infra/kube-prometheus-stack/manifests).
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: sound-server
+  namespace: sound-server
+spec:
+  selector:
+    matchLabels:
+      app: sound-server
+  endpoints:
+    - port: metrics
+      path: /metrics
+      interval: 30s

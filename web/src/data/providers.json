@@ -1,0 +1,457 @@
+[
+  {
+    "id": "freesound",
+    "name": "Freesound",
+    "homepage": "https://freesound.org",
+    "description": "The largest library of Creative Commons sounds: drums, foley, ambience, field recordings and vocals.",
+    "categories": [
+      "drums",
+      "bass",
+      "vocals",
+      "fx",
+      "foley",
+      "ambience",
+      "keys",
+      "guitar",
+      "synth",
+      "strings",
+      "brass",
+      "woodwind",
+      "mallets"
+    ],
+    "access": "api",
+    "pricing": "free",
+    "license": null,
+    "licenseVerdict": null,
+    "supportsDownload": false
+  },
+  {
+    "id": "wikimediacommons",
+    "name": "Wikimedia Commons",
+    "homepage": "https://commons.wikimedia.org",
+    "description": "Freely licensed recordings: instruments, spoken word, nature and historic audio.",
+    "categories": [
+      "vocals",
+      "ambience",
+      "foley",
+      "keys",
+      "strings",
+      "brass",
+      "woodwind",
+      "mallets"
+    ],
+    "access": "api",
+    "pricing": "free",
+    "license": null,
+    "licenseVerdict": null,
+    "supportsDownload": true
+  },
+  {
+    "id": "openverse",
+    "name": "Openverse",
+    "homepage": "https://openverse.org",
+    "description": "Openly licensed audio indexed from Jamendo, Wikimedia, ccMixter and Freesound.",
+    "categories": [
+      "vocals",
+      "fx",
+      "ambience",
+      "foley",
+      "keys",
+      "guitar",
+      "synth"
+    ],
+    "access": "api",
+    "pricing": "free",
+    "license": null,
+    "licenseVerdict": null,
+    "supportsDownload": true
+  },
+  {
+    "id": "internetarchive",
+    "name": "Internet Archive",
+    "homepage": "https://archive.org",
+    "description": "Sample packs, breaks and field recordings uploaded by the community (licences are uploader-asserted).",
+    "categories": [
+      "drums",
+      "vocals",
+      "fx",
+      "ambience",
+      "foley"
+    ],
+    "access": "api",
+    "pricing": "free",
+    "license": null,
+    "licenseVerdict": null,
+    "supportsDownload": true
+  },
+  {
+    "id": "ccmixter",
+    "name": "ccMixter",
+    "homepage": "https://ccmixter.org",
+    "description": "A cappellas, stems and loops released under Creative Commons for remixing.",
+    "categories": [
+      "vocals",
+      "drums",
+      "bass",
+      "guitar",
+      "keys",
+      "synth"
+    ],
+    "access": "api",
+    "pricing": "free",
+    "license": null,
+    "licenseVerdict": null,
+    "supportsDownload": true
+  },
+  {
+    "id": "bbc",
+    "name": "BBC Sound Effects",
+    "homepage": "https://sound-effects.bbcrewind.co.uk",
+    "description": "33,000 BBC archive sound effects: foley, ambience, vehicles, nature (personal and educational use only).",
+    "categories": [
+      "fx",
+      "foley",
+      "ambience"
+    ],
+    "access": "api",
+    "pricing": "free",
+    "license": "BBC RemArc licence",
+    "licenseVerdict": "no",
+    "supportsDownload": true
+  },
+  {
+    "id": "strudel",
+    "name": "Strudel drum machines",
+    "homepage": "https://strudel.cc",
+    "description": "Classic drum machine one-shots (808, 909, LinnDrum\u2026) from the Strudel sample manifests.",
+    "categories": [
+      "drums",
+      "bass"
+    ],
+    "access": "static",
+    "pricing": "free",
+    "license": null,
+    "licenseVerdict": null,
+    "supportsDownload": true
+  },
+  {
+    "id": "sampleradar",
+    "name": "MusicRadar SampleRadar",
+    "homepage": "https://www.musicradar.com/news/tech/free-music-samples-royalty-free-loops-hits-and-multis-to-download-sampleradar",
+    "description": "Thousands of royalty-free loops and one-shots from MusicRadar's SampleRadar packs.",
+    "categories": [
+      "drums",
+      "bass",
+      "vocals",
+      "fx",
+      "keys",
+      "guitar",
+      "synth"
+    ],
+    "access": "static",
+    "pricing": "free",
+    "license": "Royalty free (MusicRadar)",
+    "licenseVerdict": "yes",
+    "supportsDownload": true
+  },
+  {
+    "id": "philharmonia",
+    "name": "Philharmonia Orchestra samples",
+    "homepage": "https://philharmonia.co.uk/resources/sound-samples/",
+    "description": "Single notes of every orchestral instrument, recorded by the Philharmonia Orchestra.",
+    "categories": [
+      "strings",
+      "brass",
+      "woodwind",
+      "mallets",
+      "drums"
+    ],
+    "access": "static",
+    "pricing": "free",
+    "license": "CC BY-SA 3.0",
+    "licenseVerdict": "restricted",
+    "supportsDownload": true
+  },
+  {
+    "id": "iowamis",
+    "name": "Iowa Musical Instrument Samples",
+    "homepage": "https://theremin.music.uiowa.edu/MIS.html",
+    "description": "Chromatic single-note recordings of orchestral instruments and piano from the University of Iowa.",
+    "categories": [
+      "keys",
+      "strings",
+      "brass",
+      "woodwind",
+      "mallets"
+    ],
+    "access": "static",
+    "pricing": "free",
+    "license": null,
+    "licenseVerdict": null,
+    "supportsDownload": true
+  },
+  {
+    "id": "vsco2",
+    "name": "VSCO 2 Community Edition",
+    "homepage": "https://vis.versilstudios.com/vsco-community.html",
+    "description": "A CC0 orchestral sample library: strings, winds, brass, percussion and keys.",
+    "categories": [
+      "strings",
+      "brass",
+      "woodwind",
+      "mallets",
+      "keys",
+      "drums"
+    ],
+    "access": "static",
+    "pricing": "free",
+    "license": "CC0 1.0",
+    "licenseVerdict": "yes",
+    "supportsDownload": true
+  },
+  {
+    "id": "kenney",
+    "name": "Kenney audio",
+    "homepage": "https://kenney.nl/assets/category:Audio",
+    "description": "Public-domain game sound packs: UI clicks, impacts, sci-fi zaps and music jingles.",
+    "categories": [
+      "fx",
+      "foley"
+    ],
+    "access": "static",
+    "pricing": "free",
+    "license": "CC0 1.0",
+    "licenseVerdict": "yes",
+    "supportsDownload": true
+  },
+  {
+    "id": "freewavesamples",
+    "name": "Free Wave Samples",
+    "homepage": "https://freewavesamples.com",
+    "description": "Royalty-free one-shots of synths, drum machines and keyboards, sorted by instrument.",
+    "categories": [
+      "drums",
+      "keys",
+      "synth",
+      "bass",
+      "guitar"
+    ],
+    "access": "scrape",
+    "pricing": "free",
+    "license": "Royalty free (Free Wave Samples)",
+    "licenseVerdict": "yes",
+    "supportsDownload": true
+  },
+  {
+    "id": "mixkit",
+    "name": "Mixkit",
+    "homepage": "https://mixkit.co/free-sound-effects/",
+    "description": "Royalty-free sound effects and short music clips from Envato's free library.",
+    "categories": [
+      "fx",
+      "foley",
+      "ambience",
+      "drums"
+    ],
+    "access": "scrape",
+    "pricing": "free",
+    "license": "Royalty free (Mixkit licence)",
+    "licenseVerdict": "yes",
+    "supportsDownload": true
+  },
+  {
+    "id": "opengameart",
+    "name": "OpenGameArt",
+    "homepage": "https://opengameart.org",
+    "description": "Game sound effects and loops under CC0, CC BY and other open licences.",
+    "categories": [
+      "fx",
+      "foley",
+      "ambience",
+      "synth"
+    ],
+    "access": "scrape",
+    "pricing": "free",
+    "license": null,
+    "licenseVerdict": null,
+    "supportsDownload": true
+  },
+  {
+    "id": "soundbible",
+    "name": "SoundBible",
+    "homepage": "https://soundbible.com",
+    "description": "Sound effects and clips, many public domain or CC BY.",
+    "categories": [
+      "fx",
+      "foley",
+      "ambience"
+    ],
+    "access": "scrape",
+    "pricing": "free",
+    "license": null,
+    "licenseVerdict": null,
+    "supportsDownload": true
+  },
+  {
+    "id": "orangefreesounds",
+    "name": "Orange Free Sounds",
+    "homepage": "https://orangefreesounds.com",
+    "description": "Free sound effects, loops and ambiences, mostly CC BY-NC.",
+    "categories": [
+      "fx",
+      "foley",
+      "ambience",
+      "drums"
+    ],
+    "access": "scrape",
+    "pricing": "free",
+    "license": null,
+    "licenseVerdict": null,
+    "supportsDownload": true
+  },
+  {
+    "id": "cymatics",
+    "name": "Cymatics",
+    "homepage": "https://cymatics.fm",
+    "description": "Producer sample packs (free and paid): drums, 808s, vocals, FX and loops.",
+    "categories": [
+      "drums",
+      "bass",
+      "vocals",
+      "fx",
+      "synth"
+    ],
+    "access": "scrape",
+    "pricing": "freemium",
+    "license": "Royalty free (Cymatics)",
+    "licenseVerdict": "yes",
+    "supportsDownload": false
+  },
+  {
+    "id": "primeloops",
+    "name": "Prime Loops",
+    "homepage": "https://primeloops.com",
+    "description": "Royalty-free sample packs for hip hop, trap, house and more (paid, with free packs).",
+    "categories": [
+      "drums",
+      "bass",
+      "vocals",
+      "fx",
+      "keys",
+      "guitar",
+      "synth"
+    ],
+    "access": "scrape",
+    "pricing": "freemium",
+    "license": "Royalty free (Prime Loops)",
+    "licenseVerdict": "yes",
+    "supportsDownload": false
+  },
+  {
+    "id": "splice",
+    "name": "Splice",
+    "homepage": "https://splice.com/sounds",
+    "description": "Subscription sample library (opens the same search on Splice).",
+    "categories": [
+      "drums",
+      "bass",
+      "vocals",
+      "fx",
+      "keys",
+      "guitar",
+      "synth"
+    ],
+    "access": "link",
+    "pricing": "paid",
+    "license": "Royalty free (Splice subscription)",
+    "licenseVerdict": "check-terms",
+    "supportsDownload": false
+  },
+  {
+    "id": "looperman",
+    "name": "Looperman",
+    "homepage": "https://www.looperman.com",
+    "description": "User-uploaded loops and a cappellas (opens the same search on Looperman).",
+    "categories": [
+      "drums",
+      "vocals",
+      "bass",
+      "guitar",
+      "keys",
+      "synth"
+    ],
+    "access": "link",
+    "pricing": "free",
+    "license": null,
+    "licenseVerdict": null,
+    "supportsDownload": false
+  },
+  {
+    "id": "loopcloud",
+    "name": "Loopcloud",
+    "homepage": "https://www.loopcloud.com",
+    "description": "Loopmasters' subscription sample library (opens the same search on Loopcloud).",
+    "categories": [
+      "drums",
+      "bass",
+      "vocals",
+      "fx",
+      "synth"
+    ],
+    "access": "link",
+    "pricing": "paid",
+    "license": null,
+    "licenseVerdict": null,
+    "supportsDownload": false
+  },
+  {
+    "id": "zapsplat",
+    "name": "Zapsplat",
+    "homepage": "https://www.zapsplat.com",
+    "description": "Sound effects library with a free tier (opens the same search on Zapsplat).",
+    "categories": [
+      "fx",
+      "foley",
+      "ambience"
+    ],
+    "access": "link",
+    "pricing": "freemium",
+    "license": null,
+    "licenseVerdict": null,
+    "supportsDownload": false
+  },
+  {
+    "id": "pixabay",
+    "name": "Pixabay sound effects",
+    "homepage": "https://pixabay.com/sound-effects/",
+    "description": "Royalty-free sound effects (opens the same search on Pixabay).",
+    "categories": [
+      "fx",
+      "foley",
+      "ambience"
+    ],
+    "access": "link",
+    "pricing": "free",
+    "license": null,
+    "licenseVerdict": null,
+    "supportsDownload": false
+  },
+  {
+    "id": "tracklib",
+    "name": "Tracklib",
+    "homepage": "https://www.tracklib.com",
+    "description": "Original recordings you can sample and clear for release (opens the same search on Tracklib).",
+    "categories": [
+      "drums",
+      "vocals",
+      "keys",
+      "guitar",
+      "bass"
+    ],
+    "access": "link",
+    "pricing": "paid",
+    "license": "Tracklib clearance",
+    "licenseVerdict": "clearance-required",
+    "supportsDownload": false
+  }
+]

@@ -1,0 +1,243 @@
+{
+  "categories": [
+    {
+      "id": "drums",
+      "label": "Drums"
+    },
+    {
+      "id": "drums.kick",
+      "label": "Kick"
+    },
+    {
+      "id": "drums.snare",
+      "label": "Snare"
+    },
+    {
+      "id": "drums.clap",
+      "label": "Clap"
+    },
+    {
+      "id": "drums.hat",
+      "label": "Hi-hat"
+    },
+    {
+      "id": "drums.hat.closed",
+      "label": "Closed hat"
+    },
+    {
+      "id": "drums.hat.open",
+      "label": "Open hat"
+    },
+    {
+      "id": "drums.cymbal",
+      "label": "Cymbal"
+    },
+    {
+      "id": "drums.cymbal.crash",
+      "label": "Crash"
+    },
+    {
+      "id": "drums.cymbal.ride",
+      "label": "Ride"
+    },
+    {
+      "id": "drums.tom",
+      "label": "Tom"
+    },
+    {
+      "id": "drums.perc",
+      "label": "Percussion"
+    },
+    {
+      "id": "drums.fill",
+      "label": "Drum fill"
+    },
+    {
+      "id": "drums.break",
+      "label": "Breakbeat"
+    },
+    {
+      "id": "bass",
+      "label": "Bass"
+    },
+    {
+      "id": "bass.808",
+      "label": "808"
+    },
+    {
+      "id": "bass.sub",
+      "label": "Sub bass"
+    },
+    {
+      "id": "vocals",
+      "label": "Vocals"
+    },
+    {
+      "id": "vocals.acapella",
+      "label": "A cappella"
+    },
+    {
+      "id": "vocals.chop",
+      "label": "Vocal chop"
+    },
+    {
+      "id": "vocals.shout",
+      "label": "Vocal shot"
+    },
+    {
+      "id": "vocals.spoken",
+      "label": "Spoken word"
+    },
+    {
+      "id": "vocals.choir",
+      "label": "Choir"
+    },
+    {
+      "id": "fx",
+      "label": "FX"
+    },
+    {
+      "id": "fx.riser",
+      "label": "Riser"
+    },
+    {
+      "id": "fx.downlifter",
+      "label": "Downlifter"
+    },
+    {
+      "id": "fx.impact",
+      "label": "Impact"
+    },
+    {
+      "id": "fx.sweep",
+      "label": "Sweep"
+    },
+    {
+      "id": "fx.zap",
+      "label": "Zap"
+    },
+    {
+      "id": "fx.noise",
+      "label": "Noise"
+    },
+    {
+      "id": "fx.glitch",
+      "label": "Glitch"
+    },
+    {
+      "id": "fx.transition",
+      "label": "Transition"
+    },
+    {
+      "id": "foley",
+      "label": "Foley"
+    },
+    {
+      "id": "ambience",
+      "label": "Ambience"
+    },
+    {
+      "id": "keys",
+      "label": "Keys"
+    },
+    {
+      "id": "guitar",
+      "label": "Guitar"
+    },
+    {
+      "id": "synth",
+      "label": "Synth"
+    },
+    {
+      "id": "synth.pad",
+      "label": "Pad"
+    },
+    {
+      "id": "synth.lead",
+      "label": "Lead"
+    },
+    {
+      "id": "synth.pluck",
+      "label": "Pluck"
+    },
+    {
+      "id": "synth.stab",
+      "label": "Stab"
+    },
+    {
+      "id": "strings",
+      "label": "Strings"
+    },
+    {
+      "id": "brass",
+      "label": "Brass"
+    },
+    {
+      "id": "woodwind",
+      "label": "Woodwind"
+    },
+    {
+      "id": "mallets",
+      "label": "Mallets"
+    },
+    {
+      "id": "other",
+      "label": "Other"
+    }
+  ],
+  "topCategories": [
+    "drums",
+    "bass",
+    "vocals",
+    "fx",
+    "foley",
+    "ambience",
+    "keys",
+    "guitar",
+    "synth",
+    "strings",
+    "brass",
+    "woodwind",
+    "mallets",
+    "other"
+  ],
+  "forms": [
+    "one-shot",
+    "loop",
+    "phrase",
+    "multisample",
+    "pack",
+    "midi",
+    "preset"
+  ],
+  "pitchClasses": [
+    "C",
+    "C#",
+    "D",
+    "D#",
+    "E",
+    "F",
+    "F#",
+    "G",
+    "G#",
+    "A",
+    "A#",
+    "B"
+  ],
+  "verdicts": [
+    "yes",
+    "yes-with-credit",
+    "restricted",
+    "clearance-required",
+    "check-terms",
+    "no"
+  ],
+  "verdictLabels": {
+    "yes": "Commercial use OK",
+    "yes-with-credit": "Commercial use OK with credit",
+    "restricted": "Restricted: read the conditions",
+    "clearance-required": "Needs paid clearance per release",
+    "check-terms": "Unclear: check the terms",
+    "no": "Non-commercial only"
+  }
+}

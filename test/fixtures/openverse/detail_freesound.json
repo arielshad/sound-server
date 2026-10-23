@@ -1,0 +1,89 @@
+{
+ "id": "03fa3080-bcb3-423f-a781-47dc20bedd59",
+ "title": "Snare 4.wav",
+ "indexed_on": "2024-05-21T15:00:07.873258Z",
+ "foreign_landing_url": "https://freesound.org/people/VEXST/sounds/26903",
+ "url": "https://cdn.freesound.org/previews/26/26903_113878-hq.mp3",
+ "creator": "VEXST",
+ "creator_url": "https://freesound.org/people/VEXST",
+ "license": "by",
+ "license_version": "3.0",
+ "license_url": "https://creativecommons.org/licenses/by/3.0/",
+ "provider": "freesound",
+ "source": "freesound",
+ "category": null,
+ "genres": null,
+ "filesize": 10384,
+ "filetype": "mp3",
+ "tags": [
+  {
+   "name": "amen",
+   "accuracy": null,
+   "unstable__provider": "freesound"
+  },
+  {
+   "name": "beat",
+   "accuracy": null,
+   "unstable__provider": "freesound"
+  },
+  {
+   "name": "break",
+   "accuracy": null,
+   "unstable__provider": "freesound"
+  },
+  {
+   "name": "drum",
+   "accuracy": null,
+   "unstable__provider": "freesound"
+  },
+  {
+   "name": "hat",
+   "accuracy": null,
+   "unstable__provider": "freesound"
+  },
+  {
+   "name": "hi",
+   "accuracy": null,
+   "unstable__provider": "freesound"
+  },
+  {
+   "name": "hit",
+   "accuracy": null,
+   "unstable__provider": "freesound"
+  },
+  {
+   "name": "jungle",
+   "accuracy": null,
+   "unstable__provider": "freesound"
+  }
+ ],
+ "alt_files": [
+  {
+   "url": "https://freesound.org/apiv2/sounds/26903/download/",
+   "bit_rate": 0,
+   "filesize": 70620,
+   "filetype": "wav",
+   "sample_rate": 44100
+  }
+ ],
+ "attribution": "\"Snare 4.wav\" by VEXST is licensed under CC BY 3.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/3.0/.",
+ "fields_matched": [],
+ "mature": false,
+ "audio_set": {
+  "title": "Amen Drum kit",
+  "foreign_landing_url": "https://freesound.org/apiv2/packs/1655/",
+  "creator": "VEXST",
+  "creator_url": "https://freesound.org/people/VEXST/",
+  "url": null,
+  "filesize": null,
+  "filetype": null
+ },
+ "duration": 377,
+ "bit_rate": 128000,
+ "sample_rate": null,
+ "thumbnail": null,
+ "detail_url": "https://api.openverse.org/v1/audio/03fa3080-bcb3-423f-a781-47dc20bedd59/",
+ "related_url": "https://api.openverse.org/v1/audio/03fa3080-bcb3-423f-a781-47dc20bedd59/related/",
+ "waveform": "https://api.openverse.org/v1/audio/03fa3080-bcb3-423f-a781-47dc20bedd59/waveform/",
+ "unstable__sensitivity": []
+}
