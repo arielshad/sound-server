@@ -50,8 +50,8 @@ describe("opengameart", () => {
     const ctx = fixtureCtx(routes);
     const fx = await opengameart.search({ query: "explosion", categories: ["foley"], limit: 2 }, ctx);
     expect(ctx.fetch.requests.at(-1)).toBe(`${BASE}explosion&field_art_type_tid%5B%5D=13`);
-    // An unclassified Sound Effect falls back to fx.
-    expect(fx.samples[0]).toMatchObject({ category: "fx", categoryEvidence: { by: "source" } });
+    // "Explosion" classifies as an impact; a Sound Effect the words can't place falls back to fx.
+    expect(fx.samples[0]).toMatchObject({ category: "fx.impact", categoryEvidence: { by: "rules" } });
 
     await opengameart.search({ query: "battle", categories: ["other"], limit: 2 }, ctx);
     expect(ctx.fetch.requests.at(-1)).toBe(`${BASE}battle&field_art_type_tid%5B%5D=12`);

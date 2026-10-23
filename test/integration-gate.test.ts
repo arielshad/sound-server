@@ -10,7 +10,7 @@ const check = checkChanges as (i: { files: { status: string; path: string; size?
   rejected: number;
 };
 
-const poly: Entry = { id: "polyhaven", name: "Poly Haven", homepage: "https://polyhaven.com", access: "api", addedAt: "2026-10-04", addedBy: "launch" };
+const poly: Entry = { id: "freesound", name: "Freesound", homepage: "https://freesound.org", access: "api", addedAt: "2026-10-23", addedBy: "launch" };
 const neu: Entry = { id: "newsite", name: "New Site", homepage: "https://new.example", access: "api", addedAt: "2026-10-06", addedBy: "agent" };
 const before: Registry = { integrated: [poly], rejected: [] };
 const withNew: Registry = { integrated: [poly, neu], rejected: [] };
@@ -20,6 +20,7 @@ const newSourceFiles = [
   { status: "A", path: "test/providers/newsite.test.ts" },
   { status: "A", path: "test/live/newsite.live.test.ts" },
   { status: "A", path: "test/fixtures/newsite/search.json", size: 4000 },
+  { status: "A", path: "test/fixtures/newsite/preview.mp3", size: 9000 },
   { status: "M", path: "integrations/registry.json" },
   { status: "M", path: "README.md" },
   { status: "M", path: "web/src/content/AGENTS.md" },
@@ -45,7 +46,7 @@ describe("integration gate", () => {
         { status: "M", path: "package.json" },
         { status: "M", path: "src/api/app.ts" },
         { status: "D", path: "test/providers/kenney.test.ts" },
-        { status: "M", path: "test/providers/polyhaven.test.ts" },
+        { status: "M", path: "test/providers/freesound.test.ts" },
         { status: "A", path: "test/fixtures/site/index.html" },
         { status: "A", path: "test/fixtures/newsite/huge.json", size: 500_000 },
       ],
@@ -56,7 +57,7 @@ describe("integration gate", () => {
     expect(errors.join("\n")).toMatch(/package\.json: outside/);
     expect(errors.join("\n")).toMatch(/src\/api\/app\.ts: outside/);
     expect(errors.join("\n")).toMatch(/kenney\.test\.ts: deleted/);
-    expect(errors.join("\n")).toMatch(/polyhaven\.test\.ts: existing tests/);
+    expect(errors.join("\n")).toMatch(/freesound\.test\.ts: existing tests/);
     expect(errors.join("\n")).toMatch(/fixtures\/site\/index\.html: outside/);
     expect(errors.join("\n")).toMatch(/huge\.json: fixture over/);
   });
@@ -77,8 +78,8 @@ describe("integration gate", () => {
     const two = { ...withNew, integrated: [poly, neu, { ...neu, id: "other", homepage: "https://other.example" }] };
     expect(check({ files: newSourceFiles, before, after: two }).errors).toContainEqual(expect.stringContaining("2 sources added"));
     const changed = { ...withNew, integrated: [{ ...poly, addedAt: "2020-01-01" }, neu] };
-    expect(check({ files: newSourceFiles, before, after: changed }).errors).toContainEqual(expect.stringContaining('"polyhaven" was changed'));
-    expect(check({ files: newSourceFiles, before, after: { ...withNew, integrated: [neu] } }).errors).toContainEqual(expect.stringContaining('"polyhaven" was removed'));
+    expect(check({ files: newSourceFiles, before, after: changed }).errors).toContainEqual(expect.stringContaining('"freesound" was changed'));
+    expect(check({ files: newSourceFiles, before, after: { ...withNew, integrated: [neu] } }).errors).toContainEqual(expect.stringContaining('"freesound" was removed'));
   });
 
   it("refuses provider code changes that add no source", () => {

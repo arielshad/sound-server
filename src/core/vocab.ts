@@ -42,7 +42,7 @@ export const CATEGORY_DEFS = [
   { id: "fx", label: "FX", aliases: ["fx", "sfx", "effect", "effects", "sound effect", "sound effects"] },
   { id: "fx.riser", label: "Riser", aliases: ["riser", "risers", "uplifter", "build up", "buildup", "rise"] },
   { id: "fx.downlifter", label: "Downlifter", aliases: ["downlifter", "downlifters", "downer", "fall"] },
-  { id: "fx.impact", label: "Impact", aliases: ["impact", "impacts", "orchestral hit", "cinematic hit", "boom", "slam", "thud", "braam", "sub drop"] },
+  { id: "fx.impact", label: "Impact", aliases: ["impact", "impacts", "orchestral hit", "cinematic hit", "boom", "slam", "thud", "braam", "sub drop", "explosion", "explosions", "explode", "blast", "gunshot", "gun shot", "punch"] },
   { id: "fx.sweep", label: "Sweep", aliases: ["sweep", "sweeps", "whoosh", "whooshes", "swoosh", "swish", "woosh"] },
   { id: "fx.zap", label: "Zap", aliases: ["zap", "zaps", "laser", "lasers", "pew", "blaster", "zapper"] },
   { id: "fx.noise", label: "Noise", aliases: ["noise", "white noise", "static", "hiss", "vinyl", "crackle", "vinyl crackle"] },

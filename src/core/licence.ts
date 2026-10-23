@@ -61,6 +61,24 @@ export const LICENSES = {
     verdict: "no",
     note: "Personal, educational or research use only. Commercial licences are sold through Pro Sound Effects.",
   },
+  "LicenseRef-OGA-BY-3.0": {
+    id: "LicenseRef-OGA-BY-3.0",
+    name: "OGA-BY 3.0",
+    url: "https://opengameart.org/content/oga-by-30-faq",
+    commercialUse: true,
+    attributionRequired: true,
+    redistribution: true,
+    verdict: "yes-with-credit",
+    note: "OpenGameArt's CC BY variant without the DRM clause: credit the author.",
+  },
+  "LicenseRef-Personal-Use-Only": {
+    id: "LicenseRef-Personal-Use-Only",
+    name: "Personal use only",
+    commercialUse: false,
+    redistribution: false,
+    verdict: "no",
+    note: "Personal, non-commercial use only.",
+  },
   "LicenseRef-Unknown": {
     id: "LicenseRef-Unknown",
     name: "No licence stated",
@@ -178,8 +196,10 @@ export function parseLicense(input: string | undefined | null, assertedBy: Licen
   const s = input.trim().toLowerCase();
   if (!s) return undefined;
 
-  if (/nc-?sampling\+?|noncommercial sampling/.test(s)) return license("LicenseRef-NC-Sampling-Plus-1.0", assertedBy);
-  if (/sampling\s*\+|sampling-?plus|sampling\+/.test(s)) return license("LicenseRef-Sampling-Plus-1.0", assertedBy);
+  if (/nc-?sampling\s*(\+|plus)|non-?commercial sampling/.test(s)) return license("LicenseRef-NC-Sampling-Plus-1.0", assertedBy);
+  if (/sampling\s*\+|sampling[\s-]*plus/.test(s)) return license("LicenseRef-Sampling-Plus-1.0", assertedBy);
+  if (/\boga-?by\b/.test(s)) return license("LicenseRef-OGA-BY-3.0", assertedBy);
+  if (/personal (use )?only|private use only|for personal use/.test(s)) return license("LicenseRef-Personal-Use-Only", assertedBy);
   if (/publicdomain\/zero|\bcc0\b|cc-?zero|creative commons 0/.test(s)) return license("CC0-1.0", assertedBy);
   if (/publicdomain\/mark|public ?domain|\bpdm\b|^pd\b|\bpd-/.test(s)) return license("CC-PDM-1.0", assertedBy);
 

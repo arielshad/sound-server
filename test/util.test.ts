@@ -76,6 +76,9 @@ describe("licences", () => {
     ["https://creativecommons.org/licenses/by-nd/4.0/", "CC-BY-ND-4.0", "no"],
     ["http://creativecommons.org/licenses/sampling+/1.0/", "LicenseRef-Sampling-Plus-1.0", "restricted"],
     ["Public domain", "CC-PDM-1.0", "yes"],
+    ["Sampling Plus 1.0", "LicenseRef-Sampling-Plus-1.0", "restricted"],
+    ["OGA-BY 3.0", "LicenseRef-OGA-BY-3.0", "yes-with-credit"],
+    ["Personal Use Only", "LicenseRef-Personal-Use-Only", "no"],
   ])("%s -> %s (%s)", (input, id, verdict) => {
     const l = parseLicense(input)!;
     expect(l.id).toBe(id);

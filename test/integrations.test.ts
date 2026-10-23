@@ -3,7 +3,7 @@
  * (.github/workflows/discover-integrations.yml): every live source, when it
  * was added, and every site already evaluated and rejected. These checks keep
  * it in step with the provider registry so an automated integration can't
- * ship half-registered.
+ * ship half-registered. (They hold for any number of sources, including none.)
  */
 import { existsSync, readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
@@ -19,7 +19,7 @@ const Registry = z
           id: z.string().regex(/^[a-z0-9-]+$/),
           name: z.string().min(1),
           homepage: z.string().url(),
-          access: z.enum(["api", "scrape", "link"]),
+          access: z.enum(["api", "static", "scrape", "link"]),
           addedAt: day,
           addedBy: z.enum(["launch", "human", "agent"]),
           notes: z.string().optional(),
@@ -51,9 +51,14 @@ describe("integrations registry", () => {
 
   it("matches each provider's name, homepage and access method", () => {
     for (const p of allProviders) {
-      const i = registry.integrated.find((x) => x.id === p.id)!;
-      expect({ id: i.id, name: i.name, homepage: host(i.homepage), access: i.access }).toEqual({ id: p.id, name: p.name, homepage: host(p.homepage), access: p.access });
+      const i = registry.integrated.find((x) => x.id === p.id);
+      expect(i, `integrations/registry.json has no entry for "${p.id}"`).toBeDefined();
+      expect({ id: i!.id, name: i!.name, homepage: host(i!.homepage), access: i!.access }).toEqual({ id: p.id, name: p.name, homepage: host(p.homepage), access: p.access });
     }
+  });
+
+  it("gives every rejection a reason that can be acted on", () => {
+    for (const r of registry.rejected) if (r.recheckAfter) expect(r.recheckAfter > r.checkedAt, r.name).toBe(true);
   });
 
   it("never lists a site as both integrated and rejected, or twice", () => {
