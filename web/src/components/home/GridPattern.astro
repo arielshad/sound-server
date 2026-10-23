@@ -1,0 +1,46 @@
+---
+// The hero's background grid with softly blinking squares, in SVG and CSS
+// only (no JavaScript): a seeded set of squares fades in and out on a few
+// staggered CSS animations. Replaces the motion/React version, whose
+// re-renders cost seconds of main-thread time on mobile.
+interface Props {
+  class?: string;
+  numSquares?: number;
+  size?: number;
+}
+const { class: className, numSquares = 36, size = 40 } = Astro.props;
+let seed = 7;
+const rand = () => ((seed = (seed * 16807) % 2147483647) - 1) / 2147483646;
+// Squares fall in the area most screens show (about 1600×800 px of cells).
+const squares = Array.from({ length: numSquares }, () => ({ x: Math.floor(rand() * 40) * size + 1, y: Math.floor(rand() * 20) * size + 1 }));
+---
+<svg aria-hidden="true" class:list={["pointer-events-none", className]}>
+  <defs>
+    <pattern id="hero-grid" width={size} height={size} patternUnits="userSpaceOnUse" x="-1" y="-1">
+      <path d={`M.5 ${size}V.5H${size}`} fill="none" />
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#hero-grid)" stroke-width="0" />
+  <g class="grid-squares">
+    {squares.map((s) => <rect class="grid-sq" x={s.x} y={s.y} width={size - 1} height={size - 1} fill="currentColor" stroke-width="0" />)}
+  </g>
+</svg>
+
+<style>
+  .grid-sq {
+    opacity: 0;
+    animation: grid-blink 8s ease-in-out infinite;
+  }
+  .grid-sq:nth-child(5n + 1) { animation-delay: -1s; animation-duration: 7s; }
+  .grid-sq:nth-child(5n + 2) { animation-delay: -2.6s; animation-duration: 9s; }
+  .grid-sq:nth-child(5n + 3) { animation-delay: -4.1s; animation-duration: 8s; }
+  .grid-sq:nth-child(5n + 4) { animation-delay: -5.3s; animation-duration: 10s; }
+  .grid-sq:nth-child(5n) { animation-delay: -6.7s; animation-duration: 7.5s; }
+  @keyframes grid-blink {
+    0%, 100% { opacity: 0; }
+    40%, 55% { opacity: 0.12; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .grid-sq { animation: none; opacity: 0.06; }
+  }
+</style>

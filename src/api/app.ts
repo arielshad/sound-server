@@ -10,6 +10,7 @@ import { creditsJson, creditsMarkdown } from "../core/credits.js";
 import { planKit } from "../core/kit.js";
 import { analyzeSample, pickAnalysisFile, waveformPeaks } from "../core/analyze.js";
 import { kitExports } from "../mcp/kit-export.js";
+import { midiForSample, midiSummary } from "../mcp/exports.js";
 import { assertPublicUrl, fetchFile, sampleFolderName, samplePath, selectFiles, totalBytes, zipStream } from "../core/download.js";
 import { HttpError } from "../core/http.js";
 import { keyFromText } from "../core/query.js";
@@ -20,6 +21,7 @@ import {
   UnsupportedError,
   errorMessage,
 } from "../core/service.js";
+import { SampleNotFoundError, SimilarUnavailableError, findSimilar } from "../core/similar.js";
 import { LocalStats, PrometheusStats, cachedStats, teeAnalytics, type StatsSource } from "../core/stats.js";
 import type { BpmRange, SampleDetails, SampleFile } from "../core/types.js";
 import { CATEGORIES, SAMPLE_FORMS, type Category, type SampleForm } from "../core/vocab.js";
@@ -87,7 +89,7 @@ function routeLabel(path: string): string {
     return path;
   }
   if (path.startsWith("/v1/samples/")) {
-    for (const tail of ["download", "files", "preview", "peaks"]) if (path.endsWith(`/${tail}`)) return `/v1/samples/:id/${tail}`;
+    for (const tail of ["download", "files", "preview", "peaks", "similar", "midi"]) if (path.endsWith(`/${tail}`)) return `/v1/samples/:id/${tail}`;
     return "/v1/samples/:id";
   }
   if (path === "/v1/kits") return path;
@@ -316,7 +318,8 @@ export function createApp(service: SampleService, opts: AppOptions = {}): Hono {
     if (err instanceof UnknownProviderError || err instanceof InvalidSampleIdError || err instanceof z.ZodError) {
       return c.json({ error: err instanceof z.ZodError ? z.prettifyError(err) : err.message }, 400);
     }
-    if (err instanceof UnsupportedError) return c.json({ error: err.message }, 501);
+    if (err instanceof UnsupportedError || err instanceof SimilarUnavailableError) return c.json({ error: err.message }, 501);
+    if (err instanceof SampleNotFoundError) return c.json({ error: "not found" }, 404);
     if (err instanceof HttpError) return c.json({ error: `Upstream error: ${err.message}` }, err.status === 404 ? 404 : 502);
     console.error(err);
     return c.json({ error: errorMessage(err) }, 500);
@@ -528,6 +531,43 @@ export function createApp(service: SampleService, opts: AppOptions = {}): Hono {
     const peaks = await waveformPeaks(file, { points, http: service.http, signal: AbortSignal.timeout(30_000) });
     c.header("cache-control", "public, max-age=86400");
     return c.json(peaks);
+  });
+
+  /**
+   * Sounds like this one: nearest CLAP audio embeddings among the samples this
+   * server has indexed (when embeddings are on), or Freesound's similarity for
+   * freesound ids. `method` says which answered.
+   */
+  app.get("/v1/samples/:id/similar", async (c) => {
+    const limit = Math.min(Math.max(Number(c.req.query("limit") ?? 12) || 12, 1), 50);
+    const res = await findSimilar(service, c.req.param("id"), { limit, credentials: callerCredentials(c) });
+    return c.json(res);
+  });
+
+  /** Status of the optional embedding index and persistent store (for operators). */
+  app.get("/v1/embeddings", (c) => c.json(service.embeddings ? service.embeddings.status() : { enabled: false }));
+
+  /**
+   * MIDI from a melodic sample (one note at a time): the .mid file, or the
+   * notes as JSON with ?format=json. Audio is fetched from the source (≤25 MB).
+   */
+  app.get("/v1/samples/:id/midi", async (c) => {
+    const sample = await lookup(c);
+    if (!sample) return c.json({ error: "not found" }, 404);
+    const bpm = Number(c.req.query("bpm") ?? "") || undefined;
+    if (bpm !== undefined && (bpm < 40 || bpm > 300)) return c.json({ error: "bpm must be between 40 and 300" }, 400);
+    const qRaw = c.req.query("quantize");
+    const quantize = qRaw === undefined ? undefined : qRaw === "false" ? false : Number(qRaw);
+    if (quantize !== undefined && quantize !== false && ![1, 2, 4, 8].includes(quantize)) return c.json({ error: "quantize must be 1, 2, 4, 8 or false" }, 400);
+    const r = await midiForSample(service, sample, { bpm, quantize, signal: AbortSignal.timeout(60_000) });
+    if (c.req.query("format") === "json") return c.json({ id: sample.id, ...midiSummary(r) });
+    return new Response(new Uint8Array(r.extraction.midi), {
+      headers: {
+        "content-type": "audio/midi",
+        "content-disposition": `attachment; filename="${r.filename.replace(/"/g, "")}"`,
+        "cache-control": "public, max-age=86400",
+      },
+    });
   });
 
   /** Plan a drum kit: one pick per slot with alternatives, plus Strudel and General MIDI/SFZ maps. */

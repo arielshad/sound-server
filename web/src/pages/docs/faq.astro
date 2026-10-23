@@ -1,0 +1,27 @@
+---
+import DocsLayout from "@/layouts/DocsLayout.astro";
+import { FAQ_ALL, FAQ_GROUPS } from "@/lib/faq";
+import { faqPage } from "@/lib/schema";
+
+const title = "Frequently asked questions";
+const description = "Answers about Sound Server: what it searches, licence verdicts, credits, downloads, rate limits, AI agents, self-hosting and why some results are links.";
+const headings = FAQ_GROUPS.map((g) => ({ depth: 2, slug: g.id, text: g.title }));
+---
+
+<DocsLayout title={title} crumb="FAQ" description={description} headings={headings} schema={[faqPage(FAQ_ALL)]}>
+  <h1>{title}</h1>
+  <p>
+    Short answers about Sound Server. For licences in depth, see <a href="/docs/licences">sample licences explained</a> and the <a href="/guides">guides</a>; for terms, the <a href="/glossary">glossary</a>.
+  </p>
+  {FAQ_GROUPS.map((g) => (
+    <section aria-labelledby={g.id}>
+      <h2 id={g.id}>{g.title}</h2>
+      {g.items.map((f) => (
+        <>
+          <h3>{f.q}</h3>
+          <p>{f.a}</p>
+        </>
+      ))}
+    </section>
+  ))}
+</DocsLayout>

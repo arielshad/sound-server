@@ -171,6 +171,147 @@ describe.skipIf(!built)("built website", () => {
     expect(md).toContain("/v1/catalog");
   });
 
+  describe("pages for people and answer engines", () => {
+    type Page = { route: string; file: string; html: string };
+    const pages: Page[] = (() => {
+      if (!built) return [];
+      const out: Page[] = [];
+      const walk = (dir: URL) => {
+        for (const e of readdirSync(dir, { withFileTypes: true })) {
+          if (e.isDirectory()) walk(new URL(`${e.name}/`, dir));
+          else if (e.name === "index.html") {
+            const file = new URL(e.name, dir).pathname.slice(root.pathname.length);
+            out.push({ route: "/" + file.replace(/(^|\/)index\.html$/, ""), file, html: read(file) });
+          }
+        }
+      };
+      walk(root);
+      return out.map((p) => ({ ...p, route: p.route === "/" ? "/" : p.route.replace(/\/$/, "") }));
+    })();
+    const indexable = () => pages.filter((p) => !p.html.includes('content="noindex'));
+    const attr = (html: string, re: RegExp) => html.match(re)?.[1]?.replace(/&amp;/g, "&").replace(/&#39;/g, "'").replace(/&quot;/g, '"');
+    const guideSlugs = (() => {
+      const dir = new URL("../web/src/content/guides/", import.meta.url);
+      return existsSync(dir) ? readdirSync(dir).filter((f) => f.endsWith(".md")).map((f) => f.slice(0, -3)) : [];
+    })();
+    const types = (html: string) => jsonLd(html)["@graph"].flatMap((n) => [n["@type"]].flat()) as string[];
+
+    it("gives every page one H1, a canonical URL, parseable JSON-LD and a Markdown twin", () => {
+      expect(pages.length).toBeGreaterThan(100);
+      for (const p of pages) {
+        expect((p.html.match(/<h1\b/g) ?? []).length, p.route).toBe(1);
+        expect(attr(p.html, /<link rel="canonical" href="([^"]+)"/), p.route).toBe(`https://sound.shep.bot${p.route === "/" ? "/" : p.route}`.replace(/\/$/, p.route === "/" ? "/" : ""));
+        expect(() => jsonLd(p.html), p.route).not.toThrow();
+        const twin = p.route === "/" ? "AGENTS.md" : `${p.route.slice(1)}.md`;
+        expect(existsSync(new URL(twin, root)), `${p.route} -> ${twin}`).toBe(true);
+        const alt = attr(p.html, /<link rel="alternate" type="text\/markdown" href="([^"]+)"/);
+        expect(alt, p.route).toBe(p.route === "/" ? "/AGENTS.md" : `${p.route}.md`);
+      }
+    });
+
+    it("gives indexable pages unique titles and descriptions of a useful length", () => {
+      const titles = new Map<string, string>();
+      const descriptions = new Map<string, string>();
+      for (const p of indexable()) {
+        const title = attr(p.html, /<title>([^<]*)<\/title>/)!;
+        const description = attr(p.html, /<meta name="description" content="([^"]*)"/)!;
+        expect(title.length, `${p.route}: ${title}`).toBeLessThanOrEqual(70);
+        expect(description.length, `${p.route}: ${description}`).toBeGreaterThanOrEqual(70);
+        expect(description.length, `${p.route}: ${description}`).toBeLessThanOrEqual(160);
+        expect(titles.get(title), `${p.route} repeats the title of ${titles.get(title)}`).toBeUndefined();
+        expect(descriptions.get(description), `${p.route} repeats the description of ${descriptions.get(description)}`).toBeUndefined();
+        titles.set(title, p.route);
+        descriptions.set(description, p.route);
+      }
+    });
+
+    it("lists exactly the indexable pages in the sitemap", () => {
+      const sitemap = read("sitemap-0.xml");
+      const urls = new Set([...sitemap.matchAll(/<loc>https:\/\/sound\.shep\.bot([^<]*)<\/loc>/g)].map((m) => m[1] || "/"));
+      for (const p of indexable()) expect(urls.has(p.route), `${p.route} missing from the sitemap`).toBe(true);
+      for (const p of pages.filter((x) => x.html.includes('content="noindex'))) expect(urls.has(p.route), `${p.route} is noindex but in the sitemap`).toBe(false);
+    });
+
+    it("has no broken internal links", () => {
+      const exists = (path: string) => {
+        const clean = decodeURIComponent(path.split(/[?#]/)[0]!.replace(/\/$/, "")) || "/";
+        if (/^\/(v1|mcp|og)\b/.test(clean) || clean === "/openapi.json") return true; // served by the API
+        if (clean === "/") return true;
+        return existsSync(new URL(`.${clean}/index.html`, root)) || existsSync(new URL(`.${clean}`, root));
+      };
+      const broken: string[] = [];
+      for (const p of pages) {
+        for (const m of p.html.matchAll(/<a\b[^>]*\shref="(\/[^"]*)"/g)) if (!m[1]!.startsWith("//") && !exists(m[1]!.replace(/&amp;/g, "&"))) broken.push(`${p.route} -> ${m[1]}`);
+      }
+      expect(broken).toEqual([]);
+    });
+
+    it.skipIf(!guideSlugs.length)("publishes every guide answer-first, with schema, a twin, a sitemap date and an llms.txt entry", () => {
+      expect(guideSlugs.length).toBeGreaterThanOrEqual(10);
+      const llms = read("llms.txt");
+      const full = read("llms-full.txt");
+      const sitemap = read("sitemap-0.xml");
+      for (const slug of guideSlugs) {
+        const html = read(`guides/${slug}/index.html`);
+        expect(html, slug).toContain("Short answer");
+        const t = types(html);
+        expect(t, slug).toEqual(expect.arrayContaining(["Article", "BreadcrumbList"]));
+        const articleNode = jsonLd(html)["@graph"].find((n) => n["@type"] === "Article") as { abstract: string; datePublished: string; author: unknown };
+        expect(articleNode.abstract.length, slug).toBeGreaterThan(80);
+        expect(articleNode.datePublished, slug).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+        if (html.includes('id="steps"')) expect(t, slug).toContain("HowTo");
+        if (html.includes('id="faq"')) expect(t, slug).toContain("FAQPage");
+        expect(html, slug).toMatch(/href="\/search\?[^"]+"/); // links into live searches
+        const md = read(`guides/${slug}.md`);
+        expect(md, slug).toMatch(/^# .+\n\n> .{80,}/);
+        expect(llms, slug).toContain(`https://sound.shep.bot/guides/${slug}.md`);
+        expect(full, slug).toContain(md.split("\n")[0]!);
+        expect(sitemap, slug).toMatch(new RegExp(`/guides/${slug}</loc><lastmod>\\d{4}-`));
+      }
+      expect(read("guides/index.html")).toContain(`href="/guides/${guideSlugs[0]}"`);
+      expect(read("guides.md")).toContain(`/guides/${guideSlugs[0]}.md`);
+      expect(read("AGENTS.md")).toContain("/guides/");
+      expect(read("skill/SKILL.md")).toContain("/guides/");
+    });
+
+    it("publishes a glossary as a DefinedTermSet with linkable terms", () => {
+      const html = read("glossary/index.html");
+      const set = jsonLd(html)["@graph"].find((n) => n["@type"] === "DefinedTermSet") as { hasDefinedTerm: { "@id": string; name: string }[] };
+      expect(set.hasDefinedTerm.length).toBeGreaterThanOrEqual(30);
+      for (const term of set.hasDefinedTerm) expect(html, term.name).toContain(`id="${term["@id"].split("#")[1]}"`);
+      for (const name of ["One-shot", "BPM", "CC0", "CC BY", "Sampling+", "SFZ", "General MIDI", "Strudel"]) expect(set.hasDefinedTerm.map((t) => t.name)).toContain(name);
+      expect(read("glossary.md")).toContain("### Sample rate");
+      expect(read("llms.txt")).toContain("https://sound.shep.bot/glossary.md");
+      expect(read("sitemap-0.xml")).toContain("https://sound.shep.bot/glossary<");
+    });
+
+    it("publishes a FAQ whose FAQPage markup matches the questions on the page", () => {
+      const html = read("docs/faq/index.html");
+      const faq = jsonLd(html)["@graph"].find((n) => n["@type"] === "FAQPage") as { mainEntity: { name: string }[] };
+      expect(faq.mainEntity.length).toBeGreaterThanOrEqual(15);
+      const shown = text(html).replace(/&#39;/g, "'").replace(/&quot;/g, '"').replace(/&amp;/g, "&");
+      for (const q of faq.mainEntity) expect(shown).toContain(q.name);
+      expect(read("docs/faq.md").match(/^### /gm)!.length).toBe(faq.mainEntity.length);
+      expect(read("llms.txt")).toContain("https://sound.shep.bot/docs/faq.md");
+    });
+
+    it("gives hubs and searched sources substantial copy and structured data", () => {
+      for (const hub of data<{ id: string; faq?: unknown[] }[]>("collection-hubs.json", [])) {
+        const html = read(`samples/${hub.id}/index.html`);
+        expect(text(html).split(" ").length, hub.id).toBeGreaterThan(400);
+        if (hub.faq?.length) expect(types(html), hub.id).toContain("FAQPage");
+      }
+      const notes = data<Record<string, unknown>>("source-notes.json", {});
+      for (const id of Object.keys(notes)) {
+        const html = read(`sources/${id}/index.html`);
+        expect(html, id).toContain('content="index, follow');
+        expect(html, id).toContain("How Sound Server searches it");
+        expect(types(html), id).toContain("WebSite");
+        expect(read(`sources/${id}.md`), id).toContain("## Licence");
+      }
+    });
+  });
+
   describe("collections", () => {
     // Collections live at /samples/<slug>, hubs at /samples/<hub>; the first
     // indexable snapshot stands in for all of them (the set changes weekly).

@@ -1,0 +1,812 @@
+{
+  "slug": "free-glass-sound-effects",
+  "search": {
+    "q": "glass",
+    "categories": [
+      "foley"
+    ]
+  },
+  "updatedAt": "2026-10-23T09:39:45.742Z",
+  "samples": [
+    {
+      "id": "soundbible:1761-Glass-Breaking",
+      "provider": "soundbible",
+      "title": "Glass Breaking",
+      "category": "foley",
+      "url": "https://soundbible.com/1761-Glass-Breaking.html",
+      "previewUrl": "https://soundbible.com/mp3/Glass%20Breaking-SoundBible.com-1765179538.mp3",
+      "downloadable": true,
+      "author": "Mike Koenig",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "wikimediacommons:GLASS_BELL_TAPPING_SOUND.wav",
+      "provider": "wikimediacommons",
+      "title": "GLASS BELL TAPPING SOUND",
+      "category": "foley",
+      "url": "https://commons.wikimedia.org/wiki/File:GLASS_BELL_TAPPING_SOUND.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fa/GLASS_BELL_TAPPING_SOUND.wav/GLASS_BELL_TAPPING_SOUND.wav.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Muldoonsamuel55",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 0.635
+    },
+    {
+      "id": "orangefreesounds:58310",
+      "provider": "orangefreesounds",
+      "title": "Glass Crack Sound Effect",
+      "category": "foley",
+      "url": "https://orangefreesounds.com/glass-crack-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/09/Glass-crack-sound-effect.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 2
+    },
+    {
+      "id": "opengameart:glass-break",
+      "provider": "opengameart",
+      "title": "Glass Break",
+      "category": "foley",
+      "url": "https://opengameart.org/content/glass-break",
+      "previewUrl": "https://opengameart.org/sites/default/files/glass_breaking_preview.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/glass_breaking_preview.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "wikimediacommons:Binging_glass.ogg",
+      "provider": "wikimediacommons",
+      "title": "Binging glass",
+      "category": "foley",
+      "url": "https://commons.wikimedia.org/wiki/File:Binging_glass.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2b/Binging_glass.ogg/Binging_glass.ogg.mp3",
+      "downloadable": true,
+      "author": "hugh",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 65.62
+    },
+    {
+      "id": "soundbible:2084-Glass-Ping",
+      "provider": "soundbible",
+      "title": "Glass Ping",
+      "category": "foley",
+      "url": "https://soundbible.com/2084-Glass-Ping.html",
+      "previewUrl": "https://soundbible.com/mp3/glass_ping-Go445-1207030150.mp3",
+      "downloadable": true,
+      "author": "Go445",
+      "license": {
+        "id": "CC-BY-NC-3.0",
+        "name": "CC BY-NC 3.0",
+        "url": "https://creativecommons.org/licenses/by-nc/3.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "orangefreesounds:55215",
+      "provider": "orangefreesounds",
+      "title": "Pouring Fizzy Soda Into Glass Sound Effect",
+      "category": "foley",
+      "url": "https://orangefreesounds.com/pouring-fizzy-soda-into-glass-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/01/Pouring-fizzy-soda-into-glass-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 8
+    },
+    {
+      "id": "opengameart:glass-bottle-open-close",
+      "provider": "opengameart",
+      "title": "glass bottle (open & close)",
+      "category": "foley",
+      "url": "https://opengameart.org/content/glass-bottle-open-close",
+      "previewUrl": "https://opengameart.org/sites/default/files/glass_bottle_open.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/glass_bottle_open.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "wikimediacommons:Zero-project_-_Through_the_looking_glass_(ringtone).ogg",
+      "provider": "wikimediacommons",
+      "title": "Zero-project - Through the looking glass (ringtone)",
+      "category": "foley",
+      "url": "https://commons.wikimedia.org/wiki/File:Zero-project_-_Through_the_looking_glass_(ringtone).ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/57/Zero-project_-_Through_the_looking_glass_%28ringtone%29.ogg/Zero-project_-_Through_the_looking_glass_%28ringtone%29.ogg.mp3",
+      "downloadable": true,
+      "author": "zero-project",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 40.696
+    },
+    {
+      "id": "soundbible:1765-Glass-Break",
+      "provider": "soundbible",
+      "title": "Glass Break",
+      "category": "foley",
+      "url": "https://soundbible.com/1765-Glass-Break.html",
+      "previewUrl": "https://soundbible.com/mp3/Glass_Break-stephan_schutze-958181291.mp3",
+      "downloadable": true,
+      "author": "stephan schutze",
+      "license": {
+        "id": "CC-BY-NC-3.0",
+        "name": "CC BY-NC 3.0",
+        "url": "https://creativecommons.org/licenses/by-nc/3.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "orangefreesounds:54854",
+      "provider": "orangefreesounds",
+      "title": "Pouring Fizzy Soda Drink Into Glass Sound Effect",
+      "category": "foley",
+      "url": "https://orangefreesounds.com/pouring-fizzy-soda-drink-into-glass-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2025/12/Pouring-fizzy-soda-drink-into-glass-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 10
+    },
+    {
+      "id": "opengameart:pub-glass-washing-rinsing",
+      "provider": "opengameart",
+      "title": "Pub - glass washing - rinsing.",
+      "category": "foley",
+      "url": "https://opengameart.org/content/pub-glass-washing-rinsing",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/386508-pub_glass_wash_rinse.wav.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/386508-pub_glass_wash_rinse.wav.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "wikimediacommons:Little_Glass_Men_-_Spray_paint_it_Gold.mp3",
+      "provider": "wikimediacommons",
+      "title": "Little Glass Men - Spray paint it Gold",
+      "category": "foley",
+      "url": "https://commons.wikimedia.org/wiki/File:Little_Glass_Men_-_Spray_paint_it_Gold.mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/Little_Glass_Men_-_Spray_paint_it_Gold.mp3",
+      "downloadable": true,
+      "author": "Little Glass Men",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 151.458
+    },
+    {
+      "id": "soundbible:2182-Ice-Cubes-Glass",
+      "provider": "soundbible",
+      "title": "Ice Cubes Glass",
+      "category": "foley",
+      "url": "https://soundbible.com/2182-Ice-Cubes-Glass.html",
+      "previewUrl": "https://soundbible.com/mp3/ice-cubes-glass-daniel_simon.mp3",
+      "downloadable": true,
+      "author": "Daniel Simion",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "orangefreesounds:52950",
+      "provider": "orangefreesounds",
+      "title": "Car Glass Scraping Sound Effect",
+      "category": "foley",
+      "url": "https://orangefreesounds.com/car-glass-scraping-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2025/09/Car-glass-scraping-sound-effect.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 1
+    },
+    {
+      "id": "wikimediacommons:Glass_Huayra.ogg",
+      "provider": "wikimediacommons",
+      "title": "Glass Huayra",
+      "category": "foley",
+      "url": "https://commons.wikimedia.org/wiki/File:Glass_Huayra.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ac/Glass_Huayra.ogg/Glass_Huayra.ogg.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "redpanal.org",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 0.752
+    },
+    {
+      "id": "soundbible:125-Crystal-Glass",
+      "provider": "soundbible",
+      "title": "Crystal Glass",
+      "category": "foley",
+      "url": "https://soundbible.com/125-Crystal-Glass.html",
+      "previewUrl": "https://soundbible.com/mp3/Crystal%20Glass-SoundBible.com-1933015283.mp3",
+      "downloadable": true,
+      "author": "Mike Koenig",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "orangefreesounds:49641",
+      "provider": "orangefreesounds",
+      "title": "Glass Shattering Sound Effect",
+      "category": "foley",
+      "url": "https://orangefreesounds.com/glass-shattering-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2025/01/Glass-shattering-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 3
+    },
+    {
+      "id": "wikimediacommons:Zero-project_-_02_-_Through_the_looking_glass_(trance_version).ogg",
+      "provider": "wikimediacommons",
+      "title": "Zero-project - 02 - Through the looking glass (trance version)",
+      "category": "foley",
+      "url": "https://commons.wikimedia.org/wiki/File:Zero-project_-_02_-_Through_the_looking_glass_(trance_version).ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c3/Zero-project_-_02_-_Through_the_looking_glass_%28trance_version%29.ogg/Zero-project_-_02_-_Through_the_looking_glass_%28trance_version%29.ogg.mp3",
+      "downloadable": true,
+      "author": "zero-project",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 186.667
+    },
+    {
+      "id": "soundbible:314-Glass-Cookie-Jar",
+      "provider": "soundbible",
+      "title": "Glass Cookie Jar",
+      "category": "foley",
+      "url": "https://soundbible.com/314-Glass-Cookie-Jar.html",
+      "previewUrl": "https://soundbible.com/mp3/Glass%20Cookie%20Jar-SoundBible.com-2105585386.mp3",
+      "downloadable": true,
+      "author": "Mike Koenig",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "orangefreesounds:47290",
+      "provider": "orangefreesounds",
+      "title": "Knocking On Glass Sound Effect",
+      "category": "foley",
+      "url": "https://orangefreesounds.com/knocking-on-glass-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2024/06/Knocking-on-glass-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 5
+    },
+    {
+      "id": "wikimediacommons:Zero-project_-_Through_the_looking_glass_-_Trance_version_(ringtone).ogg",
+      "provider": "wikimediacommons",
+      "title": "Zero-project - Through the looking glass - Trance version (ringtone)",
+      "category": "foley",
+      "url": "https://commons.wikimedia.org/wiki/File:Zero-project_-_Through_the_looking_glass_-_Trance_version_(ringtone).ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c3/Zero-project_-_Through_the_looking_glass_-_Trance_version_%28ringtone%29.ogg/Zero-project_-_Through_the_looking_glass_-_Trance_version_%28ringtone%29.ogg.mp3",
+      "downloadable": true,
+      "author": "zero-project",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 40
+    },
+    {
+      "id": "soundbible:218-Pouring-A-Glass-Full",
+      "provider": "soundbible",
+      "title": "Pouring A Glass Full",
+      "category": "foley",
+      "url": "https://soundbible.com/218-Pouring-A-Glass-Full.html",
+      "previewUrl": "https://soundbible.com/mp3/Pouring%20A%20Glass%20Full-SoundBible.com-1282160653.mp3",
+      "downloadable": true,
+      "author": "Mike Koenig",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "orangefreesounds:15698",
+      "provider": "orangefreesounds",
+      "title": "Glass Breaking Sound",
+      "category": "foley",
+      "url": "https://orangefreesounds.com/glass-breaking-sound/",
+      "previewUrl": "https://www.orangefreesounds.com/wp-content/uploads/2016/12/Glass-breaking-sound.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 2
+    },
+    {
+      "id": "wikimediacommons:The_Dave_Feldman_Show_-_Todd_Glass_&_Sam_Seder.opus",
+      "provider": "wikimediacommons",
+      "title": "The Dave Feldman Show - Todd Glass & Sam Seder",
+      "category": "foley",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Dave_Feldman_Show_-_Todd_Glass_%26_Sam_Seder.opus",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/The_Dave_Feldman_Show_-_Todd_Glass_%26_Sam_Seder.opus",
+      "downloadable": true,
+      "author": "David Feldman",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "opus"
+      ],
+      "durationSec": 15046.181
+    },
+    {
+      "id": "orangefreesounds:15542",
+      "provider": "orangefreesounds",
+      "title": "Broken Glass Sound Effect",
+      "category": "foley",
+      "url": "https://orangefreesounds.com/broken-glass-sound-effect/",
+      "previewUrl": "https://www.orangefreesounds.com/wp-content/uploads/2016/12/Broken-glass-sound-effect.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "SampleRadar",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 1
+    },
+    {
+      "id": "wikimediacommons:Philip_Glass_Lou_Reed_Laurie_Anderson_Occupy_Lincoln_Center_General_Assembly_Dec_1_2011_-_NewYorkRawVideos.ogg",
+      "provider": "wikimediacommons",
+      "title": "Philip Glass Lou Reed Laurie Anderson Occupy Lincoln Center General Assembly Dec 1 2011 - NewYorkRawVideos",
+      "category": "foley",
+      "url": "https://commons.wikimedia.org/wiki/File:Philip_Glass_Lou_Reed_Laurie_Anderson_Occupy_Lincoln_Center_General_Assembly_Dec_1_2011_-_NewYorkRawVideos.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/21/Philip_Glass_Lou_Reed_Laurie_Anderson_Occupy_Lincoln_Center_General_Assembly_Dec_1_2011_-_NewYorkRawVideos.ogg/Philip_Glass_Lou_Reed_Laurie_Anderson_Occupy_Lincoln_Center_General_Assembly_Dec_1_2011_-_NewYorkRawVideos.ogg.mp3",
+      "downloadable": true,
+      "author": "NewYorkRawVideos",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 1734.264
+    },
+    {
+      "id": "orangefreesounds:44376",
+      "provider": "orangefreesounds",
+      "title": "Ice Cubes In Glass Sound Effect",
+      "category": "foley",
+      "url": "https://orangefreesounds.com/ice-cubes-in-glass-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2023/09/Ice-cubes-in-glass-sound-effect.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 2
+    },
+    {
+      "id": "wikimediacommons:WWS_Glass-blowingIformingthebody.ogg",
+      "provider": "wikimediacommons",
+      "title": "WWS Glass-blowingIformingthebody",
+      "category": "foley",
+      "url": "https://commons.wikimedia.org/wiki/File:WWS_Glass-blowingIformingthebody.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1f/WWS_Glass-blowingIformingthebody.ogg/WWS_Glass-blowingIformingthebody.ogg.mp3",
+      "downloadable": true,
+      "author": "Work With Sounds / Konrad Gutkowski",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 120.163
+    },
+    {
+      "id": "orangefreesounds:8060",
+      "provider": "orangefreesounds",
+      "title": "Breaking Glass Sound Effect",
+      "category": "foley",
+      "url": "https://orangefreesounds.com/breaking-glass-sound-effect/",
+      "previewUrl": "https://www.orangefreesounds.com/wp-content/uploads/2015/07/Breaking-glass-sound-effect.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 1
+    },
+    {
+      "id": "wikimediacommons:WWS_Glass-blowingIIIformingthedrinkopening.ogg",
+      "provider": "wikimediacommons",
+      "title": "WWS Glass-blowingIIIformingthedrinkopening",
+      "category": "foley",
+      "url": "https://commons.wikimedia.org/wiki/File:WWS_Glass-blowingIIIformingthedrinkopening.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a4/WWS_Glass-blowingIIIformingthedrinkopening.ogg/WWS_Glass-blowingIIIformingthedrinkopening.ogg.mp3",
+      "downloadable": true,
+      "author": "Work With Sounds / Konrad Gutkowski",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 203.542
+    },
+    {
+      "id": "orangefreesounds:42001",
+      "provider": "orangefreesounds",
+      "title": "Glass Knocking Sound Effect",
+      "category": "foley",
+      "url": "https://orangefreesounds.com/glass-knocking-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2023/03/Glass-knocking-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 5
+    },
+    {
+      "id": "wikimediacommons:Sound_effect_of_cleaning_broken_and_shattered_glass.wav",
+      "provider": "wikimediacommons",
+      "title": "Sound effect of cleaning broken and shattered glass",
+      "category": "foley",
+      "url": "https://commons.wikimedia.org/wiki/File:Sound_effect_of_cleaning_broken_and_shattered_glass.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3a/Sound_effect_of_cleaning_broken_and_shattered_glass.wav/Sound_effect_of_cleaning_broken_and_shattered_glass.wav.mp3",
+      "downloadable": true,
+      "author": "Subhashish Panigrahi",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 30.577
+    },
+    {
+      "id": "orangefreesounds:41774",
+      "provider": "orangefreesounds",
+      "title": "Wedding Glass Clinking Sound Effect",
+      "category": "foley",
+      "url": "https://orangefreesounds.com/wedding-glass-clinking-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2023/02/Wedding-glass-clinking-sound-effect.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 2
+    },
+    {
+      "id": "wikimediacommons:Drinking_a_glass_of_wat.ogg",
+      "provider": "wikimediacommons",
+      "title": "Drinking a glass of wat",
+      "category": "foley",
+      "url": "https://commons.wikimedia.org/wiki/File:Drinking_a_glass_of_wat.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/44/Drinking_a_glass_of_wat.ogg/Drinking_a_glass_of_wat.ogg.mp3",
+      "downloadable": true,
+      "author": "ezwa",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 26.906
+    },
+    {
+      "id": "orangefreesounds:40054",
+      "provider": "orangefreesounds",
+      "title": "Christmas Glass Balls Rattle",
+      "category": "foley",
+      "url": "https://orangefreesounds.com/christmas-glass-balls-rattle/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2022/10/Christmas-glass-balls-rattle.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 14
+    }
+  ]
+}

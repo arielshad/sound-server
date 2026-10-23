@@ -1,7 +1,7 @@
 ---
 layout: ../layouts/PageLayout.astro
 title: Privacy
-description: What Sound Server records (search text in server logs, anonymous counters, which AI tools call the MCP server), what stays in your browser, and which third parties you contact.
+description: What Sound Server records (search text in server logs, anonymous counters, which AI tools call MCP), what stays in your browser, and who else you contact.
 schemaType: WebPage
 ---
 

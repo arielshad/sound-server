@@ -12,7 +12,7 @@ import { PrometheusAnalytics, noopAnalytics, type ConnectEvent, type ToolCallEve
 import { NetworkClassifier } from "../src/core/network.js";
 import { prefersMarkdown } from "../src/api/negotiate.js";
 import { openApiSpec } from "../src/api/openapi.js";
-import { searchMeta } from "../src/api/search-meta.js";
+import { MAX_DESCRIPTION, MAX_TITLE, sampleMeta, searchMeta } from "../src/api/search-meta.js";
 import { buildCsp, rewriteHead, umamiHead } from "../src/api/site.js";
 import { createHash } from "node:crypto";
 import { brotliDecompressSync } from "node:zlib";
@@ -496,7 +496,7 @@ describe("HTTP API", () => {
     });
     const body = (await list.json()) as { result: { tools: { name: string }[] } };
     // download_sample writes to disk, so it is off for the HTTP transport by default.
-    expect(body.result.tools.map((t) => t.name).sort()).toEqual(["build_kit", "find_similar", "get_sample", "list_sources", "search_samples"]);
+    expect(body.result.tools.map((t) => t.name).sort()).toEqual(["build_kit", "extract_midi", "find_similar", "get_sample", "list_sources", "search_samples"]);
   });
 
   it("can turn off HTTP MCP and keep the website and search API", async () => {
@@ -805,6 +805,13 @@ describe("site security, compression and SEO variants", () => {
   it("builds search metadata and escapes it into the head", () => {
     expect(searchMeta(new URLSearchParams(""))).toBeUndefined();
     expect(searchMeta(new URLSearchParams("category=vocals&free=true"))!.title).toBe(`Free vocal samples: search ${allProviders.length} sites · Sound Server`);
+    const long = searchMeta(new URLSearchParams(`q=${"very long query words ".repeat(6)}&category=drums.kick,bass.808&free=true`))!;
+    expect(long.title.length).toBeLessThanOrEqual(MAX_TITLE);
+    expect(long.description.length).toBeLessThanOrEqual(MAX_DESCRIPTION);
+    const sample = sampleMeta({ id: "fake:1", provider: "fake", title: "Cinematic Tension Build-Up And Final Impact Sound Effect Long Name", category: "fx.impact", author: "someone with a long name", url: "https://example.com", license: { id: "CC-BY-4.0", name: "CC BY 4.0", verdict: "yes-with-credit" } } as never);
+    expect(sample.title.length).toBeLessThanOrEqual(MAX_TITLE);
+    expect(sample.title).toMatch(/: impact sample( on .+)? · Sound Server$/);
+    expect(sample.description.length).toBeLessThanOrEqual(MAX_DESCRIPTION);
     const out = rewriteHead('<title>x</title><meta name="description" content="y">', { title: '<b>"t"</b>', description: "d & e" });
     expect(out).toBe('<title>&lt;b&gt;&quot;t&quot;&lt;/b&gt;</title><meta name="description" content="d &amp; e">');
   });

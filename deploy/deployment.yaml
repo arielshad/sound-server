@@ -4,9 +4,20 @@
 #
 # Image tag is set by kustomization.yaml (pinned by CI on every push to main).
 #
-# Stateless (in-memory HTTP cache only), so no PVC. Server-side downloads over
-# MCP stay disabled (SOUND_SERVER_HTTP_DOWNLOADS unset): the HTTP download
-# endpoint streams zips straight to the client and never touches disk.
+# Caches only: HTTP responses in memory, and audio analyses (plus, when CLAP
+# embeddings are on, vectors and the model) in SQLite on the sound-server-data
+# PVC (pvc.yaml) at /data. Server-side downloads over MCP stay disabled
+# (SOUND_SERVER_HTTP_DOWNLOADS unset): the HTTP download endpoint streams zips
+# straight to the client and never touches disk.
+#
+# Turning on CLAP embeddings (find-similar for every source, text→audio
+# re-ranking, zero-shot category fallback) needs three changes here:
+#   1. the glibc image variant: `docker build --target ml` (onnxruntime-node
+#      does not run on the default Alpine image) — tag it e.g. sha-<commit>-ml
+#      and set that tag in kustomization.yaml;
+#   2. memory: limits.memory 1536Mi, requests.memory 768Mi (both CLAP halves
+#      loaded measured ~490 MiB on top of the ~150 MiB server);
+#   3. env SOUND_SERVER_EMBEDDINGS=1 (see the commented block below).
 #
 # Optional `sound-server-env` Secret, synced from Infisical by
 # externalsecret.yaml; the pod starts fine without it. It is read both as env
@@ -37,11 +48,12 @@ metadata:
   namespace: sound-server
 spec:
   replicas: 1
+  # Recreate, not RollingUpdate: the SQLite store on the RWO local-path volume
+  # has a single writer. A surge pod would open the same database (and keep
+  # its own in-memory vector index) while the old one still writes. Costs a
+  # few seconds of downtime per rollout (the pod is ready in ~3 s).
   strategy:
-    type: RollingUpdate
-    rollingUpdate:
-      maxUnavailable: 0
-      maxSurge: 1
+    type: Recreate
   selector:
     matchLabels:
       app: sound-server
@@ -58,6 +70,9 @@ spec:
         runAsNonRoot: true
         runAsUser: 1000
         runAsGroup: 1000
+        # Makes the data volume group-writable for the app where the volume
+        # plugin supports it (local-path creates its directories world-writable).
+        fsGroup: 1000
         seccompProfile:
           type: RuntimeDefault
       containers:
@@ -100,6 +115,16 @@ spec:
             # into /tmp; keep downloads for analysis small.
             - name: SOUND_SERVER_ANALYSIS_MAX_BYTES
               value: "26214400"
+            # Persistent store (SQLite, node:sqlite): analyses are reused for
+            # 30 days across restarts instead of re-downloading and decoding.
+            - name: SOUND_SERVER_DATA_DIR
+              value: /data
+            # CLAP embeddings stay OFF here (SOUND_SERVER_EMBEDDINGS unset): they
+            # need the `ml` image and ≥1.5Gi memory (see the header). To turn on:
+            # - name: SOUND_SERVER_EMBEDDINGS
+            #   value: "1"
+            # - name: SOUND_SERVER_INDEX_PER_MINUTE   # background previews embedded per minute
+            #   value: "20"
           envFrom:
             - secretRef:
                 name: sound-server-env
@@ -131,6 +156,8 @@ spec:
           volumeMounts:
             - name: tmp
               mountPath: /tmp
+            - name: data
+              mountPath: /data
             - name: secrets
               mountPath: /var/run/secrets/sound-server
               readOnly: true
@@ -145,6 +172,9 @@ spec:
         - name: tmp
           emptyDir:
             sizeLimit: 1Gi
+        - name: data
+          persistentVolumeClaim:
+            claimName: sound-server-data
         - name: secrets
           secret:
             secretName: sound-server-env

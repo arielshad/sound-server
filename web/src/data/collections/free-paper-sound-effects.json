@@ -1,0 +1,838 @@
+{
+  "slug": "free-paper-sound-effects",
+  "search": {
+    "q": "paper",
+    "categories": [
+      "foley"
+    ]
+  },
+  "updatedAt": "2026-10-23T09:41:37.081Z",
+  "samples": [
+    {
+      "id": "openverse:13c3b941-feb0-4e77-b7c7-3b3fb965b538",
+      "provider": "openverse",
+      "title": "Paper Crumpled 001",
+      "category": "foley",
+      "url": "https://freesound.org/people/razrox/sounds/197179",
+      "previewUrl": "https://cdn.freesound.org/previews/197/197179_127497-hq.mp3",
+      "downloadable": true,
+      "author": "razrox",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 3.142
+    },
+    {
+      "id": "wikimediacommons:Book_paper_pages_assorted.ogg",
+      "provider": "wikimediacommons",
+      "title": "Book paper pages assorted",
+      "category": "foley",
+      "url": "https://commons.wikimedia.org/wiki/File:Book_paper_pages_assorted.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/79/Book_paper_pages_assorted.ogg/Book_paper_pages_assorted.ogg.mp3",
+      "downloadable": true,
+      "author": "stephan",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 77.949
+    },
+    {
+      "id": "soundbible:1930-Clean-Paper-Rip",
+      "provider": "soundbible",
+      "title": "Clean Paper Rip",
+      "category": "foley",
+      "url": "https://soundbible.com/1930-Clean-Paper-Rip.html",
+      "previewUrl": "https://soundbible.com/mp3/Clean_Paper_Rip-Mike_Koenig-259504794.mp3",
+      "downloadable": true,
+      "author": "Mike Koenig",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "orangefreesounds:40114",
+      "provider": "orangefreesounds",
+      "title": "Pencil On Paper Writing Short Sound",
+      "category": "foley",
+      "url": "https://orangefreesounds.com/pencil-on-paper-writing-short-sound/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2022/11/Pencil-on-paper-writing-short-sound.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 1
+    },
+    {
+      "id": "opengameart:paper-pages-sounds",
+      "provider": "opengameart",
+      "title": "Paper Pages Sounds",
+      "category": "foley",
+      "url": "https://opengameart.org/content/paper-pages-sounds",
+      "previewUrl": "https://opengameart.org/sites/default/files/paper_pages.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/paper_pages.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "openverse:bbca2d79-dd67-476e-9df2-45190cff3876",
+      "provider": "openverse",
+      "title": "paper flip 3.wav",
+      "category": "foley",
+      "url": "https://freesound.org/people/gynation/sounds/82379",
+      "previewUrl": "https://cdn.freesound.org/previews/82/82379_605154-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "gynation",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.5
+    },
+    {
+      "id": "wikimediacommons:Paper_Radio_-_Introduction.opus",
+      "provider": "wikimediacommons",
+      "title": "Paper Radio - Introduction",
+      "category": "foley",
+      "url": "https://commons.wikimedia.org/wiki/File:Paper_Radio_-_Introduction.opus",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/41/Paper_Radio_-_Introduction.opus/Paper_Radio_-_Introduction.opus.mp3",
+      "downloadable": true,
+      "author": "Paper Radio",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "opus",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 58.122
+    },
+    {
+      "id": "soundbible:1925-Slow-Paper-Rip",
+      "provider": "soundbible",
+      "title": "Slow Paper Rip",
+      "category": "foley",
+      "url": "https://soundbible.com/1925-Slow-Paper-Rip.html",
+      "previewUrl": "https://soundbible.com/mp3/slow_paper_rip-Mike_Koenig-2069892876.mp3",
+      "downloadable": true,
+      "author": "Mike Koenig",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "orangefreesounds:29396",
+      "provider": "orangefreesounds",
+      "title": "Paper Falling Sound Effect",
+      "category": "foley",
+      "url": "https://orangefreesounds.com/paper-falling-sound-effect/",
+      "previewUrl": "https://www.orangefreesounds.com/wp-content/uploads/2020/04/Paper-falling-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 3
+    },
+    {
+      "id": "opengameart:paper-crush-sounds",
+      "provider": "opengameart",
+      "title": "Paper Crush Sounds",
+      "category": "foley",
+      "url": "https://opengameart.org/content/paper-crush-sounds",
+      "previewUrl": "https://opengameart.org/sites/default/files/paper_crush.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/paper_crush.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "openverse:9f6c8594-c8a1-4366-9ee4-7cf1ea801467",
+      "provider": "openverse",
+      "title": "paper flip 1.wav",
+      "category": "foley",
+      "url": "https://freesound.org/people/gynation/sounds/82377",
+      "previewUrl": "https://cdn.freesound.org/previews/82/82377_605154-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "gynation",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.437
+    },
+    {
+      "id": "wikimediacommons:Paper_Radio_-_Typewriters.opus",
+      "provider": "wikimediacommons",
+      "title": "Paper Radio - Typewriters",
+      "category": "foley",
+      "url": "https://commons.wikimedia.org/wiki/File:Paper_Radio_-_Typewriters.opus",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8c/Paper_Radio_-_Typewriters.opus/Paper_Radio_-_Typewriters.opus.mp3",
+      "downloadable": true,
+      "author": "Paper Radio",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "opus",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 60.051
+    },
+    {
+      "id": "soundbible:214-Tearing-Paper",
+      "provider": "soundbible",
+      "title": "Tearing Paper",
+      "category": "foley",
+      "url": "https://soundbible.com/214-Tearing-Paper.html",
+      "previewUrl": "https://soundbible.com/mp3/Tearing%20Paper-SoundBible.com-1900078194.mp3",
+      "downloadable": true,
+      "author": "Mike Koenig",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "orangefreesounds:29389",
+      "provider": "orangefreesounds",
+      "title": "Paper Crumpling Sound Effect",
+      "category": "foley",
+      "url": "https://orangefreesounds.com/paper-crumpling-sound-effect/",
+      "previewUrl": "https://www.orangefreesounds.com/wp-content/uploads/2020/04/Paper-crumpling-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 4
+    },
+    {
+      "id": "openverse:43e2d82b-6473-4769-9dab-577bcf934d7b",
+      "provider": "openverse",
+      "title": "paper flip 2.wav",
+      "category": "foley",
+      "url": "https://freesound.org/people/gynation/sounds/82378",
+      "previewUrl": "https://cdn.freesound.org/previews/82/82378_605154-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "gynation",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.5
+    },
+    {
+      "id": "wikimediacommons:Paper_Radio_-_HOOT!.opus",
+      "provider": "wikimediacommons",
+      "title": "Paper Radio - HOOT!",
+      "category": "foley",
+      "url": "https://commons.wikimedia.org/wiki/File:Paper_Radio_-_HOOT!.opus",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/27/Paper_Radio_-_HOOT%21.opus/Paper_Radio_-_HOOT%21.opus.mp3",
+      "downloadable": true,
+      "author": "Paper Radio",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "opus",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 59.789
+    },
+    {
+      "id": "soundbible:1537-Stapling-Paper",
+      "provider": "soundbible",
+      "title": "Stapling Paper",
+      "category": "foley",
+      "url": "https://soundbible.com/1537-Stapling-Paper.html",
+      "previewUrl": "https://soundbible.com/mp3/Stapling%20Paper-SoundBible.com-238116558.mp3",
+      "downloadable": true,
+      "author": "earthcalling",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "orangefreesounds:16747",
+      "provider": "orangefreesounds",
+      "title": "Scissors Cutting Paper Sound Effect",
+      "category": "foley",
+      "url": "https://orangefreesounds.com/scissors-cutting-paper-sound-effect/",
+      "previewUrl": "https://www.orangefreesounds.com/wp-content/uploads/2017/04/Scissors-cutting-paper.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 1
+    },
+    {
+      "id": "openverse:511c217f-d4e0-4f25-8ecf-d01cd75f0949",
+      "provider": "openverse",
+      "title": "Pencil Drawing on Paper",
+      "category": "foley",
+      "url": "https://freesound.org/people/rylandbrooks/sounds/387926",
+      "previewUrl": "https://cdn.freesound.org/previews/387/387926_1939831-hq.mp3",
+      "downloadable": true,
+      "author": "rylandbrooks",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 15.06
+    },
+    {
+      "id": "wikimediacommons:Paper_Radio_-_Opuntia.opus",
+      "provider": "wikimediacommons",
+      "title": "Paper Radio - Opuntia",
+      "category": "foley",
+      "url": "https://commons.wikimedia.org/wiki/File:Paper_Radio_-_Opuntia.opus",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/59/Paper_Radio_-_Opuntia.opus/Paper_Radio_-_Opuntia.opus.mp3",
+      "downloadable": true,
+      "author": "Paper Radio",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "opus",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 60.421
+    },
+    {
+      "id": "openverse:9f96d0d6-36b1-4f00-a931-a21c8ef39093",
+      "provider": "openverse",
+      "title": "Ripping Paper",
+      "category": "foley",
+      "url": "https://freesound.org/people/aldenroth2/sounds/272028",
+      "previewUrl": "https://cdn.freesound.org/previews/272/272028_5165013-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "aldenroth2",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.96
+    },
+    {
+      "id": "orangefreesounds:3610",
+      "provider": "orangefreesounds",
+      "title": "Ripping Paper Sound effect",
+      "category": "foley",
+      "url": "https://orangefreesounds.com/ripping-paper-sound-effect/",
+      "previewUrl": "https://www.orangefreesounds.com/wp-content/uploads/2014/10/Ripping-paper-sound-effect.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 1
+    },
+    {
+      "id": "wikimediacommons:Hy-Դատարկ_թուղթ_(Blank_piece_of_paper).ogg",
+      "provider": "wikimediacommons",
+      "title": "Hy-Դատարկ թուղթ (Blank piece of paper)",
+      "category": "foley",
+      "url": "https://commons.wikimedia.org/wiki/File:Hy-%D4%B4%D5%A1%D5%BF%D5%A1%D6%80%D5%AF_%D5%A9%D5%B8%D6%82%D5%B2%D5%A9_(Blank_piece_of_paper).ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d0/Hy-%D4%B4%D5%A1%D5%BF%D5%A1%D6%80%D5%AF_%D5%A9%D5%B8%D6%82%D5%B2%D5%A9_%28Blank_piece_of_paper%29.ogg/Hy-%D4%B4%D5%A1%D5%BF%D5%A1%D6%80%D5%AF_%D5%A9%D5%B8%D6%82%D5%B2%D5%A9_%28Blank_piece_of_paper%29.ogg.mp3",
+      "downloadable": true,
+      "author": "Speaker: Lusine Hakobyan Authors of the article",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 312.701
+    },
+    {
+      "id": "wikimediacommons:Paper_Radio_-_NASWA.opus",
+      "provider": "wikimediacommons",
+      "title": "Paper Radio - NASWA",
+      "category": "foley",
+      "url": "https://commons.wikimedia.org/wiki/File:Paper_Radio_-_NASWA.opus",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/db/Paper_Radio_-_NASWA.opus/Paper_Radio_-_NASWA.opus.mp3",
+      "downloadable": true,
+      "author": "Paper Radio",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "opus",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 78.707
+    },
+    {
+      "id": "openverse:a3579360-d26d-4e99-9161-b76160eaacda",
+      "provider": "openverse",
+      "title": "Paper rip 1",
+      "category": "foley",
+      "url": "https://freesound.org/people/zachfbstudios/sounds/136496",
+      "previewUrl": "https://cdn.freesound.org/previews/136/136496_2037808-hq.mp3",
+      "downloadable": true,
+      "author": "zachfbstudios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 26.61
+    },
+    {
+      "id": "wikimediacommons:Paper_Radio_-_Organizational_Newsletters.opus",
+      "provider": "wikimediacommons",
+      "title": "Paper Radio - Organizational Newsletters",
+      "category": "foley",
+      "url": "https://commons.wikimedia.org/wiki/File:Paper_Radio_-_Organizational_Newsletters.opus",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e0/Paper_Radio_-_Organizational_Newsletters.opus/Paper_Radio_-_Organizational_Newsletters.opus.mp3",
+      "downloadable": true,
+      "author": "Paper Radio",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "opus",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 59.507
+    },
+    {
+      "id": "openverse:1671ffcd-5419-46f4-8455-0f1f422e22fc",
+      "provider": "openverse",
+      "title": "Tearing paper",
+      "category": "foley",
+      "url": "https://freesound.org/people/sphion/sounds/158526",
+      "previewUrl": "https://cdn.freesound.org/previews/158/158526_2783336-hq.mp3",
+      "downloadable": true,
+      "author": "sphion",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 9.645
+    },
+    {
+      "id": "wikimediacommons:Paper_Radio_-_Half_Gifts.opus",
+      "provider": "wikimediacommons",
+      "title": "Paper Radio - Half Gifts",
+      "category": "foley",
+      "url": "https://commons.wikimedia.org/wiki/File:Paper_Radio_-_Half_Gifts.opus",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/44/Paper_Radio_-_Half_Gifts.opus/Paper_Radio_-_Half_Gifts.opus.mp3",
+      "downloadable": true,
+      "author": "Paper Radio",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "opus",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 63.373
+    },
+    {
+      "id": "openverse:182abb8c-4c45-4572-b569-2321068b6528",
+      "provider": "openverse",
+      "title": "En-uk-paper",
+      "category": "foley",
+      "url": "https://commons.wikimedia.org/w/index.php?curid=9023294",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/En-uk-paper.ogg",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Association Shtooka, Judith Franck",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg"
+      ],
+      "durationSec": 1.25
+    },
+    {
+      "id": "wikimediacommons:Paper_Radio_-_Community_Zines.opus",
+      "provider": "wikimediacommons",
+      "title": "Paper Radio - Community Zines",
+      "category": "foley",
+      "url": "https://commons.wikimedia.org/wiki/File:Paper_Radio_-_Community_Zines.opus",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c9/Paper_Radio_-_Community_Zines.opus/Paper_Radio_-_Community_Zines.opus.mp3",
+      "downloadable": true,
+      "author": "Paper Radio",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "opus",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 65.773
+    },
+    {
+      "id": "openverse:7092906e-188e-4593-88b8-882b7e1fd4a1",
+      "provider": "openverse",
+      "title": "Paper slide",
+      "category": "foley",
+      "url": "https://freesound.org/people/Kingofgamers_cz/sounds/352914",
+      "previewUrl": "https://cdn.freesound.org/previews/352/352914_1766783-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Kingofgamers_cz",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.181
+    },
+    {
+      "id": "wikimediacommons:Paper_Radio_-_Node_Pajomo.opus",
+      "provider": "wikimediacommons",
+      "title": "Paper Radio - Node Pajomo",
+      "category": "foley",
+      "url": "https://commons.wikimedia.org/wiki/File:Paper_Radio_-_Node_Pajomo.opus",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/74/Paper_Radio_-_Node_Pajomo.opus/Paper_Radio_-_Node_Pajomo.opus.mp3",
+      "downloadable": true,
+      "author": "Paper Radio",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "opus",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 59.974
+    },
+    {
+      "id": "openverse:05745fd2-cbfe-4677-a67c-348712d7adc7",
+      "provider": "openverse",
+      "title": "paper slide.wav",
+      "category": "foley",
+      "url": "https://freesound.org/people/semccab/sounds/154403",
+      "previewUrl": "https://cdn.freesound.org/previews/154/154403_2592496-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "semccab",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.389
+    },
+    {
+      "id": "wikimediacommons:Paper_Radio_-_Snowy_Egret.opus",
+      "provider": "wikimediacommons",
+      "title": "Paper Radio - Snowy Egret",
+      "category": "foley",
+      "url": "https://commons.wikimedia.org/wiki/File:Paper_Radio_-_Snowy_Egret.opus",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/65/Paper_Radio_-_Snowy_Egret.opus/Paper_Radio_-_Snowy_Egret.opus.mp3",
+      "downloadable": true,
+      "author": "Paper Radio",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "opus",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 64.052
+    },
+    {
+      "id": "openverse:e6d40e6b-6b0b-4af9-93f5-47db1bdf8b5f",
+      "provider": "openverse",
+      "title": "drawing on paper with pencil, paper moving, dropping pencil.wav",
+      "category": "foley",
+      "url": "https://freesound.org/people/Yuval/sounds/185601",
+      "previewUrl": "https://cdn.freesound.org/previews/185/185601_770707-hq.mp3",
+      "downloadable": true,
+      "author": "Yuval",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 87.964
+    },
+    {
+      "id": "wikimediacommons:Paper_Radio_-_The_Reluctant_Famulus.opus",
+      "provider": "wikimediacommons",
+      "title": "Paper Radio - The Reluctant Famulus",
+      "category": "foley",
+      "url": "https://commons.wikimedia.org/wiki/File:Paper_Radio_-_The_Reluctant_Famulus.opus",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/25/Paper_Radio_-_The_Reluctant_Famulus.opus/Paper_Radio_-_The_Reluctant_Famulus.opus.mp3",
+      "downloadable": true,
+      "author": "Paper Radio",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "opus",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 61.989
+    }
+  ]
+}

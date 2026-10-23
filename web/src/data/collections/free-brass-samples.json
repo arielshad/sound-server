@@ -1,0 +1,607 @@
+{
+  "slug": "free-brass-samples",
+  "search": {
+    "q": "brass",
+    "categories": [
+      "brass"
+    ]
+  },
+  "updatedAt": "2026-10-23T09:37:22.542Z",
+  "samples": [
+    {
+      "id": "wikimediacommons:America_the_Beautiful_-_Brass_Quintet_-_United_States_Navy_Band.opus",
+      "provider": "wikimediacommons",
+      "title": "America the Beautiful - Brass Quintet - United States Navy Band",
+      "category": "brass",
+      "url": "https://commons.wikimedia.org/wiki/File:America_the_Beautiful_-_Brass_Quintet_-_United_States_Navy_Band.opus",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/67/America_the_Beautiful_-_Brass_Quintet_-_United_States_Navy_Band.opus/America_the_Beautiful_-_Brass_Quintet_-_United_States_Navy_Band.opus.mp3",
+      "downloadable": true,
+      "author": "Composition: Samuel A. Ward Lyrics: Katharine Lee Bates Arrangement: Senior Chief Musician Scott Silbert Performance: Un",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "opus",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 153.045
+    },
+    {
+      "id": "wikimediacommons:Félix_Blume_-_Death_in_Haiti_-_Bonus_Disc_-_08_Maestro_Nadera's_Brass_Band_-_PARDON.ogg",
+      "provider": "wikimediacommons",
+      "title": "Félix Blume - Death in Haiti - Bonus Disc - 08 Maestro Nadera's Brass Band - PARDON",
+      "category": "brass",
+      "url": "https://commons.wikimedia.org/wiki/File:F%C3%A9lix_Blume_-_Death_in_Haiti_-_Bonus_Disc_-_08_Maestro_Nadera%27s_Brass_Band_-_PARDON.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/62/F%C3%A9lix_Blume_-_Death_in_Haiti_-_Bonus_Disc_-_08_Maestro_Nadera%27s_Brass_Band_-_PARDON.ogg/F%C3%A9lix_Blume_-_Death_in_Haiti_-_Bonus_Disc_-_08_Maestro_Nadera%27s_Brass_Band_-_PARDON.ogg.mp3",
+      "downloadable": true,
+      "author": "Félix Blume",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 259.632
+    },
+    {
+      "id": "wikimediacommons:A_Welsh_Posy_-_Nfd_Brass_Band.ogg",
+      "provider": "wikimediacommons",
+      "title": "A Welsh Posy - Nfd Brass Band",
+      "category": "brass",
+      "url": "https://commons.wikimedia.org/wiki/File:A_Welsh_Posy_-_Nfd_Brass_Band.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/19/A_Welsh_Posy_-_Nfd_Brass_Band.ogg/A_Welsh_Posy_-_Nfd_Brass_Band.ogg.mp3",
+      "downloadable": true,
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 30
+    },
+    {
+      "id": "strudel:dirt-samples/sax/0",
+      "provider": "strudel",
+      "title": "Dirt-Samples · sax · 0",
+      "category": "brass",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/sax/000_notes121a.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/sax/000_notes121a.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Félix_Blume_-_Death_in_Haiti_-_Bonus_Disc_-_10_Maestro_Walter's_Brass_Band_-_MISÉRICORDE_INSONDABLE.ogg",
+      "provider": "wikimediacommons",
+      "title": "Félix Blume - Death in Haiti - Bonus Disc - 10 Maestro Walter's Brass Band - MISÉRICORDE INSONDABLE",
+      "category": "brass",
+      "url": "https://commons.wikimedia.org/wiki/File:F%C3%A9lix_Blume_-_Death_in_Haiti_-_Bonus_Disc_-_10_Maestro_Walter%27s_Brass_Band_-_MIS%C3%89RICORDE_INSONDABLE.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c7/F%C3%A9lix_Blume_-_Death_in_Haiti_-_Bonus_Disc_-_10_Maestro_Walter%27s_Brass_Band_-_MIS%C3%89RICORDE_INSONDABLE.ogg/F%C3%A9lix_Blume_-_Death_in_Haiti_-_Bonus_Disc_-_10_Maestro_Walter%27s_Brass_Band_-_MIS%C3%89RICORDE_INSONDABLE.ogg.mp3",
+      "downloadable": true,
+      "author": "Félix Blume",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 112.897
+    },
+    {
+      "id": "strudel:dirt-samples/sax/1",
+      "provider": "strudel",
+      "title": "Dirt-Samples · sax · 1",
+      "category": "brass",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/sax/001_notes121a2.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/sax/001_notes121a2.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Illinois_Brass_Band_-_05_-_Douglas_Mephistopheles.ogg",
+      "provider": "wikimediacommons",
+      "title": "Illinois Brass Band - 05 - Douglas Mephistopheles",
+      "category": "brass",
+      "url": "https://commons.wikimedia.org/wiki/File:Illinois_Brass_Band_-_05_-_Douglas_Mephistopheles.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fc/Illinois_Brass_Band_-_05_-_Douglas_Mephistopheles.ogg/Illinois_Brass_Band_-_05_-_Douglas_Mephistopheles.ogg.mp3",
+      "downloadable": true,
+      "author": "Illinois Brass Band",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 195.976
+    },
+    {
+      "id": "strudel:dirt-samples/sax/2",
+      "provider": "strudel",
+      "title": "Dirt-Samples · sax · 2",
+      "category": "brass",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/sax/002_notes121b.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/sax/002_notes121b.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Félix_Blume_-_Death_in_Haiti_-_Bonus_Disc_-_03_Maestro_Walter's_Brass_Band_-_TRAVÈSE_DEZÈ_A.ogg",
+      "provider": "wikimediacommons",
+      "title": "Félix Blume - Death in Haiti - Bonus Disc - 03 Maestro Walter's Brass Band - TRAVÈSE DEZÈ A",
+      "category": "brass",
+      "url": "https://commons.wikimedia.org/wiki/File:F%C3%A9lix_Blume_-_Death_in_Haiti_-_Bonus_Disc_-_03_Maestro_Walter%27s_Brass_Band_-_TRAV%C3%88SE_DEZ%C3%88_A.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5f/F%C3%A9lix_Blume_-_Death_in_Haiti_-_Bonus_Disc_-_03_Maestro_Walter%27s_Brass_Band_-_TRAV%C3%88SE_DEZ%C3%88_A.ogg/F%C3%A9lix_Blume_-_Death_in_Haiti_-_Bonus_Disc_-_03_Maestro_Walter%27s_Brass_Band_-_TRAV%C3%88SE_DEZ%C3%88_A.ogg.mp3",
+      "downloadable": true,
+      "author": "Félix Blume",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 330.255
+    },
+    {
+      "id": "strudel:dirt-samples/sax/3",
+      "provider": "strudel",
+      "title": "Dirt-Samples · sax · 3",
+      "category": "brass",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/sax/003_notes121bflat.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/sax/003_notes121bflat.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Es_ist_ein_Ros_entsprungen_brass_ensemble.ogg",
+      "provider": "wikimediacommons",
+      "title": "Es ist ein Ros entsprungen brass ensemble",
+      "category": "brass",
+      "url": "https://commons.wikimedia.org/wiki/File:Es_ist_ein_Ros_entsprungen_brass_ensemble.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/eb/Es_ist_ein_Ros_entsprungen_brass_ensemble.ogg/Es_ist_ein_Ros_entsprungen_brass_ensemble.ogg.mp3",
+      "downloadable": true,
+      "author": "Michel Rondeau",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 131.776
+    },
+    {
+      "id": "strudel:dirt-samples/sax/4",
+      "provider": "strudel",
+      "title": "Dirt-Samples · sax · 4",
+      "category": "brass",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/sax/004_notes121bflat2.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/sax/004_notes121bflat2.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Gwyr_Harlech_-_Nfd_Brass_Band.ogg",
+      "provider": "wikimediacommons",
+      "title": "Gwyr Harlech - Nfd Brass Band",
+      "category": "brass",
+      "url": "https://commons.wikimedia.org/wiki/File:Gwyr_Harlech_-_Nfd_Brass_Band.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/42/Gwyr_Harlech_-_Nfd_Brass_Band.ogg/Gwyr_Harlech_-_Nfd_Brass_Band.ogg.mp3",
+      "downloadable": true,
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 30
+    },
+    {
+      "id": "strudel:dirt-samples/sax/5",
+      "provider": "strudel",
+      "title": "Dirt-Samples · sax · 5",
+      "category": "brass",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/sax/005_notes121c.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/sax/005_notes121c.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Félix_Blume_-_Death_in_Haiti_-_Bonus_Disc_-_14_Maestro_Midouin's_Brass_Band_-_LA_SEMENCE_D'ICI_BAS.ogg",
+      "provider": "wikimediacommons",
+      "title": "Félix Blume - Death in Haiti - Bonus Disc - 14 Maestro Midouin's Brass Band - LA SEMENCE D'ICI BAS",
+      "category": "brass",
+      "url": "https://commons.wikimedia.org/wiki/File:F%C3%A9lix_Blume_-_Death_in_Haiti_-_Bonus_Disc_-_14_Maestro_Midouin%27s_Brass_Band_-_LA_SEMENCE_D%27ICI_BAS.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9b/F%C3%A9lix_Blume_-_Death_in_Haiti_-_Bonus_Disc_-_14_Maestro_Midouin%27s_Brass_Band_-_LA_SEMENCE_D%27ICI_BAS.ogg/F%C3%A9lix_Blume_-_Death_in_Haiti_-_Bonus_Disc_-_14_Maestro_Midouin%27s_Brass_Band_-_LA_SEMENCE_D%27ICI_BAS.ogg.mp3",
+      "downloadable": true,
+      "author": "Félix Blume",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 258.935
+    },
+    {
+      "id": "strudel:dirt-samples/sax/6",
+      "provider": "strudel",
+      "title": "Dirt-Samples · sax · 6",
+      "category": "brass",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/sax/006_notes121c2.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/sax/006_notes121c2.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Félix_Blume_-_Death_in_Haiti_-_Bonus_Disc_-_17_Maestro_Walter's_Brass_Band,_Final_March_-_JEZI_OU_KONNEN.ogg",
+      "provider": "wikimediacommons",
+      "title": "Félix Blume - Death in Haiti - Bonus Disc - 17 Maestro Walter's Brass Band, Final March - JEZI OU KONNEN",
+      "category": "brass",
+      "url": "https://commons.wikimedia.org/wiki/File:F%C3%A9lix_Blume_-_Death_in_Haiti_-_Bonus_Disc_-_17_Maestro_Walter%27s_Brass_Band,_Final_March_-_JEZI_OU_KONNEN.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6e/F%C3%A9lix_Blume_-_Death_in_Haiti_-_Bonus_Disc_-_17_Maestro_Walter%27s_Brass_Band%2C_Final_March_-_JEZI_OU_KONNEN.ogg/F%C3%A9lix_Blume_-_Death_in_Haiti_-_Bonus_Disc_-_17_Maestro_Walter%27s_Brass_Band%2C_Final_March_-_JEZI_OU_KONNEN.ogg.mp3",
+      "downloadable": true,
+      "author": "Félix Blume",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 93.482
+    },
+    {
+      "id": "strudel:vcsl/saxello/0",
+      "provider": "strudel",
+      "title": "VCSL · saxello A#2 · 0",
+      "category": "brass",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Aerophones/Reed%20Aerophones/Saxello/Non-Vibrato/BrettSaxello_SusNV_MainSpirit_A%232_vl3_rr1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Aerophones/Reed%20Aerophones/Saxello/Non-Vibrato/BrettSaxello_SusNV_MainSpirit_A%232_vl3_rr1.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Suo-Gan_-_Nfd_Brass_Band.ogg",
+      "provider": "wikimediacommons",
+      "title": "Suo-Gan - Nfd Brass Band",
+      "category": "brass",
+      "url": "https://commons.wikimedia.org/wiki/File:Suo-Gan_-_Nfd_Brass_Band.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/27/Suo-Gan_-_Nfd_Brass_Band.ogg/Suo-Gan_-_Nfd_Brass_Band.ogg.mp3",
+      "downloadable": true,
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 30
+    },
+    {
+      "id": "strudel:vcsl/saxello/1",
+      "provider": "strudel",
+      "title": "VCSL · saxello A#3 · 1",
+      "category": "brass",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Aerophones/Reed%20Aerophones/Saxello/Non-Vibrato/BrettSaxello_SusNV_MainSpirit_A%233_vl3_rr1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Aerophones/Reed%20Aerophones/Saxello/Non-Vibrato/BrettSaxello_SusNV_MainSpirit_A%233_vl3_rr1.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:America_-_Ceremonial_Brass_-_United_States_Air_Force_Band.mp3",
+      "provider": "wikimediacommons",
+      "title": "America - Ceremonial Brass - United States Air Force Band",
+      "category": "brass",
+      "url": "https://commons.wikimedia.org/wiki/File:America_-_Ceremonial_Brass_-_United_States_Air_Force_Band.mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/America_-_Ceremonial_Brass_-_United_States_Air_Force_Band.mp3",
+      "downloadable": true,
+      "author": "Composition: Jari Villanueva, traditional; Performance: United States Air Force Band, Ceremonial Brass and Concert Band;",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 141.33
+    },
+    {
+      "id": "strudel:dirt-samples/sax/7",
+      "provider": "strudel",
+      "title": "Dirt-Samples · sax · 7",
+      "category": "brass",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/sax/007_notes121csharp.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/sax/007_notes121csharp.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Hunting_of_the_Hare_-_Nfd_Brass_Band.ogg",
+      "provider": "wikimediacommons",
+      "title": "Hunting of the Hare - Nfd Brass Band",
+      "category": "brass",
+      "url": "https://commons.wikimedia.org/wiki/File:Hunting_of_the_Hare_-_Nfd_Brass_Band.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bb/Hunting_of_the_Hare_-_Nfd_Brass_Band.ogg/Hunting_of_the_Hare_-_Nfd_Brass_Band.ogg.mp3",
+      "downloadable": true,
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 30
+    },
+    {
+      "id": "strudel:vcsl/saxello/2",
+      "provider": "strudel",
+      "title": "VCSL · saxello A#4 · 2",
+      "category": "brass",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Aerophones/Reed%20Aerophones/Saxello/Non-Vibrato/BrettSaxello_SusNV_MainSpirit_A%234_vl3_rr1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Aerophones/Reed%20Aerophones/Saxello/Non-Vibrato/BrettSaxello_SusNV_MainSpirit_A%234_vl3_rr1.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:El_Capitan_-_Ceremonial_Brass_-_United_States_Air_Force_Band.mp3",
+      "provider": "wikimediacommons",
+      "title": "El Capitan - Ceremonial Brass - United States Air Force Band",
+      "category": "brass",
+      "url": "https://commons.wikimedia.org/wiki/File:El_Capitan_-_Ceremonial_Brass_-_United_States_Air_Force_Band.mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/El_Capitan_-_Ceremonial_Brass_-_United_States_Air_Force_Band.mp3",
+      "downloadable": true,
+      "author": "Composition: John Philip Sousa; Performance: United States Air Force Band, Ceremonial Brass and Concert Band; Recording:",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 145.875
+    },
+    {
+      "id": "strudel:vcsl/saxello/3",
+      "provider": "strudel",
+      "title": "VCSL · saxello D3 · 3",
+      "category": "brass",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Aerophones/Reed%20Aerophones/Saxello/Non-Vibrato/BrettSaxello_SusNV_MainSpirit_D3_vl3_rr1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Aerophones/Reed%20Aerophones/Saxello/Non-Vibrato/BrettSaxello_SusNV_MainSpirit_D3_vl3_rr1.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:vcsl/saxello/4",
+      "provider": "strudel",
+      "title": "VCSL · saxello D4 · 4",
+      "category": "brass",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Aerophones/Reed%20Aerophones/Saxello/Non-Vibrato/BrettSaxello_SusNV_MainSpirit_D4_vl3_rr1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Aerophones/Reed%20Aerophones/Saxello/Non-Vibrato/BrettSaxello_SusNV_MainSpirit_D4_vl3_rr1.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:vcsl/saxello/5",
+      "provider": "strudel",
+      "title": "VCSL · saxello E5 · 5",
+      "category": "brass",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Aerophones/Reed%20Aerophones/Saxello/Non-Vibrato/BrettSaxello_SusNV_MainSpirit_E5_vl3_rr1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Aerophones/Reed%20Aerophones/Saxello/Non-Vibrato/BrettSaxello_SusNV_MainSpirit_E5_vl3_rr1.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    }
+  ]
+}

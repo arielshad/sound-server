@@ -106,5 +106,21 @@ Then tell the user: "Punchy Kick 01 by someone on Freesound, CC BY 4.0: commerci
 - REST guide: https://sound.shep.bot/docs/api
 - Licences explained: https://sound.shep.bot/docs/licences
 - Sources and licences: https://sound.shep.bot/docs/sources
+- FAQ: https://sound.shep.bot/docs/faq.md
+
+## Guides to quote when users ask
+
+Answer-first guides (each `.md` starts with a short answer you can relay, then sources):
+
+- Can I use Freesound samples in a commercial release? https://sound.shep.bot/guides/freesound-samples-commercial-use.md
+- CC0 vs CC BY vs royalty-free: https://sound.shep.bot/guides/cc0-vs-cc-by-vs-royalty-free.md
+- How to credit CC BY samples: https://sound.shep.bot/guides/credit-cc-by-samples.md
+- What is CC Sampling+? https://sound.shep.bot/guides/cc-sampling-plus.md
+- Is BBC Sound Effects free for music? https://sound.shep.bot/guides/bbc-sound-effects-for-music.md
+- What counts as commercial use? https://sound.shep.bot/guides/what-counts-as-commercial-use.md
+- Sample clearance and Content ID: https://sound.shep.bot/guides/sample-clearance-and-content-id.md
+- Build a drum kit from free samples (Strudel, SFZ, General MIDI): https://sound.shep.bot/guides/build-a-drum-kit-from-free-samples.md
+- Finding samples by BPM and key: https://sound.shep.bot/guides/find-samples-by-bpm-and-key.md
+- All guides: https://sound.shep.bot/guides.md · Glossary of terms: https://sound.shep.bot/glossary.md
 - How many samples each source holds (counted daily): https://sound.shep.bot/stats.md, JSON at https://sound.shep.bot/v1/catalog
 - Everything as one text file: https://sound.shep.bot/llms-full.txt

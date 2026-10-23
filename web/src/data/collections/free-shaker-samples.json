@@ -1,0 +1,343 @@
+{
+  "slug": "free-shaker-samples",
+  "search": {
+    "q": "shaker",
+    "categories": [
+      "drums.perc"
+    ]
+  },
+  "updatedAt": "2026-10-23T09:43:33.960Z",
+  "samples": [
+    {
+      "id": "strudel:vcsl/shaker_large/0",
+      "provider": "strudel",
+      "title": "VCSL · shaker_large · 0",
+      "category": "drums.perc",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Idiophones/Struck%20Idiophones/Shaker%2C%20Large/LShaker_Hit_rr1_Mid.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Shaker%2C%20Large/LShaker_Hit_rr1_Mid.wav",
+      "downloadable": true,
+      "form": "midi",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:vcsl/shaker_large/1",
+      "provider": "strudel",
+      "title": "VCSL · shaker_large · 1",
+      "category": "drums.perc",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Idiophones/Struck%20Idiophones/Shaker%2C%20Large/LShaker_Hit_rr2_Mid.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Shaker%2C%20Large/LShaker_Hit_rr2_Mid.wav",
+      "downloadable": true,
+      "form": "midi",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:vcsl/shaker_large/2",
+      "provider": "strudel",
+      "title": "VCSL · shaker_large · 2",
+      "category": "drums.perc",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Idiophones/Struck%20Idiophones/Shaker%2C%20Large/LShaker_Shake1D_rr2_Mid.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Shaker%2C%20Large/LShaker_Shake1D_rr2_Mid.wav",
+      "downloadable": true,
+      "form": "midi",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Eggshaker_Solo.ogg",
+      "provider": "wikimediacommons",
+      "title": "Eggshaker Solo",
+      "category": "drums.perc",
+      "url": "https://commons.wikimedia.org/wiki/File:Eggshaker_Solo.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/82/Eggshaker_Solo.ogg/Eggshaker_Solo.ogg.mp3",
+      "downloadable": true,
+      "author": "Paddy",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 59.214
+    },
+    {
+      "id": "strudel:vcsl/shaker_large/3",
+      "provider": "strudel",
+      "title": "VCSL · shaker_large · 3",
+      "category": "drums.perc",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Idiophones/Struck%20Idiophones/Shaker%2C%20Large/LShaker_Shake1D_rr3_Mid.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Shaker%2C%20Large/LShaker_Shake1D_rr3_Mid.wav",
+      "downloadable": true,
+      "form": "midi",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:vcsl/shaker_large/4",
+      "provider": "strudel",
+      "title": "VCSL · shaker_large · 4",
+      "category": "drums.perc",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Idiophones/Struck%20Idiophones/Shaker%2C%20Large/LShaker_Shake1U_rr1_Mid.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Shaker%2C%20Large/LShaker_Shake1U_rr1_Mid.wav",
+      "downloadable": true,
+      "form": "midi",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:vcsl/shaker_large/5",
+      "provider": "strudel",
+      "title": "VCSL · shaker_large · 5",
+      "category": "drums.perc",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Idiophones/Struck%20Idiophones/Shaker%2C%20Large/LShaker_Shake1U_rr4_Mid.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Shaker%2C%20Large/LShaker_Shake1U_rr4_Mid.wav",
+      "downloadable": true,
+      "form": "midi",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:vcsl/shaker_small/0",
+      "provider": "strudel",
+      "title": "VCSL · shaker_small · 0",
+      "category": "drums.perc",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Idiophones/Struck%20Idiophones/Shaker%2C%20Small/Mid_ShakerDouble_Down_rr1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Shaker%2C%20Small/Mid_ShakerDouble_Down_rr1.wav",
+      "downloadable": true,
+      "form": "midi",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:vcsl/shaker_small/1",
+      "provider": "strudel",
+      "title": "VCSL · shaker_small · 1",
+      "category": "drums.perc",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Idiophones/Struck%20Idiophones/Shaker%2C%20Small/Mid_ShakerDouble_Down_rr2.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Shaker%2C%20Small/Mid_ShakerDouble_Down_rr2.wav",
+      "downloadable": true,
+      "form": "midi",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:vcsl/shaker_small/2",
+      "provider": "strudel",
+      "title": "VCSL · shaker_small · 2",
+      "category": "drums.perc",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Idiophones/Struck%20Idiophones/Shaker%2C%20Small/Mid_ShakerDouble_Up_rr1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Shaker%2C%20Small/Mid_ShakerDouble_Up_rr1.wav",
+      "downloadable": true,
+      "form": "midi",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:vcsl/shaker_small/3",
+      "provider": "strudel",
+      "title": "VCSL · shaker_small · 3",
+      "category": "drums.perc",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Idiophones/Struck%20Idiophones/Shaker%2C%20Small/Mid_ShakerDouble_Up_rr2.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Shaker%2C%20Small/Mid_ShakerDouble_Up_rr2.wav",
+      "downloadable": true,
+      "form": "midi",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:vcsl/shaker_small/4",
+      "provider": "strudel",
+      "title": "VCSL · shaker_small · 4",
+      "category": "drums.perc",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Idiophones/Struck%20Idiophones/Shaker%2C%20Small/Mid_ShakerHighFaster_Down_rr1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Shaker%2C%20Small/Mid_ShakerHighFaster_Down_rr1.wav",
+      "downloadable": true,
+      "form": "midi",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:vcsl/shaker_small/5",
+      "provider": "strudel",
+      "title": "VCSL · shaker_small · 5",
+      "category": "drums.perc",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Idiophones/Struck%20Idiophones/Shaker%2C%20Small/Mid_ShakerHighFaster_Down_rr2.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Shaker%2C%20Small/Mid_ShakerHighFaster_Down_rr2.wav",
+      "downloadable": true,
+      "form": "midi",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:vcsl/shaker_small/6",
+      "provider": "strudel",
+      "title": "VCSL · shaker_small · 6",
+      "category": "drums.perc",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Idiophones/Struck%20Idiophones/Shaker%2C%20Small/Mid_ShakerHighFaster_Up_rr1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Shaker%2C%20Small/Mid_ShakerHighFaster_Up_rr1.wav",
+      "downloadable": true,
+      "form": "midi",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:vcsl/shaker_small/7",
+      "provider": "strudel",
+      "title": "VCSL · shaker_small · 7",
+      "category": "drums.perc",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Idiophones/Struck%20Idiophones/Shaker%2C%20Small/Mid_ShakerHighFaster_Up_rr2.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Shaker%2C%20Small/Mid_ShakerHighFaster_Up_rr2.wav",
+      "downloadable": true,
+      "form": "midi",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    }
+  ]
+}

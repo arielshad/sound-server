@@ -1,0 +1,156 @@
+[
+ {
+  "id": 15324,
+  "name": "Wicked Drum Hits 2",
+  "slug": "wicked-drum-hits-2",
+  "type": "simple",
+  "permalink": "https://blackoctopus-sound.com/product/wicked-drum-hits-2/",
+  "sku": "",
+  "short_description": "",
+  "description": "<p>One of the top selling drum packs from Black Octopus has returned!\u00a0 Wicked Drum Hits 2 is back with more of the thick, meaty snares, sharp kicks, tuned kicks, crisp hats, impacts, loops &amp; more!\u00a0 These hard hitting drums will feel right at home in modern dubstep, trap, riddim, glitch hop, drum &amp; bass, electro, or any other genre that needs drums that are sculpted from the ground up to cut through the heaviest of mixes.\u00a0 Snare tails have also been included so users can take the transiet of one snare, and add in a new tail to sculpt the perfect sound for their track.\u00a0 Some users prefer to work with tuned kicks, and others like to work with unlabeled kicks so we have added both into t",
+  "on_sale": true,
+  "prices": {
+   "price": "1247",
+   "regular_price": "2495",
+   "sale_price": "1247",
+   "currency_code": "USD",
+   "currency_symbol": "$",
+   "currency_minor_unit": 2,
+   "currency_prefix": "$",
+   "currency_suffix": ""
+  },
+  "average_rating": "4.84",
+  "review_count": 56,
+  "images": [
+   {
+    "id": 15325,
+    "src": "https://blackoctopus-sound.com/wp-content/uploads/2018/01/Wicked-Drum-Hits-2-500-x-500.jpg",
+    "thumbnail": "https://blackoctopus-sound.com/wp-content/uploads/2018/01/Wicked-Drum-Hits-2-500-x-500-200x200.jpg",
+    "name": "Wicked Drum Hits 2 500 x 500",
+    "alt": "Wicked Drum hits"
+   }
+  ],
+  "categories": [
+   {
+    "id": 51,
+    "name": "Black Octopus Sound",
+    "slug": "black-octopus-sound"
+   },
+   {
+    "id": 30,
+    "name": "Drum Samples",
+    "slug": "drum-hits"
+   },
+   {
+    "id": 41,
+    "name": "Dubstep",
+    "slug": "dubstep"
+   },
+   {
+    "id": 42,
+    "name": "Electro",
+    "slug": "electro"
+   },
+   {
+    "id": 72,
+    "name": "Future Bass",
+    "slug": "future-bass"
+   },
+   {
+    "id": 43,
+    "name": "Glitch Hop",
+    "slug": "glitch-hop"
+   },
+   {
+    "id": 2621,
+    "name": "Samples",
+    "slug": "samples"
+   },
+   {
+    "id": 3395,
+    "name": "Top Seller",
+    "slug": "top-seller"
+   },
+   {
+    "id": 58,
+    "name": "Trap",
+    "slug": "trap"
+   }
+  ],
+  "tags": [
+   {
+    "id": 3767,
+    "name": "Bestseller Sale",
+    "slug": "bestseller-sale"
+   },
+   {
+    "id": 354,
+    "name": "crash",
+    "slug": "crash"
+   },
+   {
+    "id": 316,
+    "name": "cymbals",
+    "slug": "cymbals"
+   },
+   {
+    "id": 289,
+    "name": "drums",
+    "slug": "drums"
+   },
+   {
+    "id": 142,
+    "name": "fx",
+    "slug": "fx-2"
+   },
+   {
+    "id": 1086,
+    "name": "Hats",
+    "slug": "hats"
+   },
+   {
+    "id": 153,
+    "name": "kicks",
+    "slug": "kicks"
+   },
+   {
+    "id": 94,
+    "name": "one shots",
+    "slug": "one-shots"
+   },
+   {
+    "id": 353,
+    "name": "ride",
+    "slug": "ride"
+   },
+   {
+    "id": 2016,
+    "name": "Sci-fi",
+    "slug": "sci-fi"
+   },
+   {
+    "id": 273,
+    "name": "snare",
+    "slug": "snare"
+   },
+   {
+    "id": 1019,
+    "name": "tom",
+    "slug": "tom"
+   },
+   {
+    "id": 318,
+    "name": "toms",
+    "slug": "toms"
+   },
+   {
+    "id": 1018,
+    "name": "tuned",
+    "slug": "tuned"
+   }
+  ],
+  "brands": [],
+  "is_purchasable": true,
+  "is_in_stock": true
+ }
+]

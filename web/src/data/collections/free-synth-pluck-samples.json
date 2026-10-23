@@ -1,0 +1,539 @@
+{
+  "slug": "free-synth-pluck-samples",
+  "search": {
+    "q": "pluck",
+    "categories": [
+      "synth.pluck"
+    ]
+  },
+  "updatedAt": "2026-10-23T09:44:51.548Z",
+  "samples": [
+    {
+      "id": "strudel:dirt-samples/pluck/0",
+      "provider": "strudel",
+      "title": "Dirt-Samples · pluck · 0",
+      "category": "synth.pluck",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/pluck/BS%20A1%20PI.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/pluck/BS%20A1%20PI.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "opengameart:pluck-machine-day-29",
+      "provider": "opengameart",
+      "title": "Pluck Machine - Day 29",
+      "category": "synth.pluck",
+      "url": "https://opengameart.org/content/pluck-machine-day-29",
+      "previewUrl": "https://opengameart.org/sites/default/files/pluck_machine.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/pluck_machine.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "openverse:d29acb3b-05d4-477f-b346-349cbc50783b",
+      "provider": "openverse",
+      "title": "Pretty Pluck Sound",
+      "category": "synth.pluck",
+      "url": "https://freesound.org/people/memz/sounds/325141",
+      "previewUrl": "https://cdn.freesound.org/previews/325/325141_819355-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "memz",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 18.038
+    },
+    {
+      "id": "strudel:dirt-samples/pluck/1",
+      "provider": "strudel",
+      "title": "Dirt-Samples · pluck · 1",
+      "category": "synth.pluck",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/pluck/BS%20A%232%20PI.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/pluck/BS%20A%232%20PI.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "openverse:398e9a2c-a7c4-49c4-a209-b5f290f38c15",
+      "provider": "openverse",
+      "title": "Stratus Plucks",
+      "category": "synth.pluck",
+      "url": "https://freesound.org/people/Stereo%20Surgeon/sounds/273974",
+      "previewUrl": "https://cdn.freesound.org/previews/273/273974_2297168-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Stereo Surgeon",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 19.615
+    },
+    {
+      "id": "strudel:dirt-samples/pluck/2",
+      "provider": "strudel",
+      "title": "Dirt-Samples · pluck · 2",
+      "category": "synth.pluck",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/pluck/BS%20A3%20PI.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/pluck/BS%20A3%20PI.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Anonimo_-_Cielito_lindo.ogg",
+      "provider": "wikimediacommons",
+      "title": "Anonimo - Cielito lindo",
+      "category": "synth.pluck",
+      "url": "https://commons.wikimedia.org/wiki/File:Anonimo_-_Cielito_lindo.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d4/Anonimo_-_Cielito_lindo.ogg/Anonimo_-_Cielito_lindo.ogg.mp3",
+      "downloadable": true,
+      "author": "Pracchia-78",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 182.37
+    },
+    {
+      "id": "strudel:dirt-samples/pluck/3",
+      "provider": "strudel",
+      "title": "Dirt-Samples · pluck · 3",
+      "category": "synth.pluck",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/pluck/BS%20B1%20PI.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/pluck/BS%20B1%20PI.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Karplus-strong-A2.ogg",
+      "provider": "wikimediacommons",
+      "title": "Karplus-strong-A2",
+      "category": "synth.pluck",
+      "url": "https://commons.wikimedia.org/wiki/File:Karplus-strong-A2.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/28/Karplus-strong-A2.ogg/Karplus-strong-A2.ogg.mp3",
+      "downloadable": true,
+      "author": "Tlotoxl at en.wikipedia",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 11.338
+    },
+    {
+      "id": "openverse:be4b2414-d809-440c-8915-5c3d904c2768",
+      "provider": "openverse",
+      "title": "Synthetic Guitar Pluck (180 BPM)",
+      "category": "synth.pluck",
+      "url": "https://freesound.org/people/staticpony1/sounds/343384",
+      "previewUrl": "https://cdn.freesound.org/previews/343/343384_4508519-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "staticpony1",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "bpm": 180,
+      "durationSec": 42.666
+    },
+    {
+      "id": "strudel:dirt-samples/pluck/4",
+      "provider": "strudel",
+      "title": "Dirt-Samples · pluck · 4",
+      "category": "synth.pluck",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/pluck/BS%20B3%20PI.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/pluck/BS%20B3%20PI.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Anonimo_-_The_Huron_Carol.ogg",
+      "provider": "wikimediacommons",
+      "title": "Anonimo - The Huron Carol",
+      "category": "synth.pluck",
+      "url": "https://commons.wikimedia.org/wiki/File:Anonimo_-_The_Huron_Carol.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/55/Anonimo_-_The_Huron_Carol.ogg/Anonimo_-_The_Huron_Carol.ogg.mp3",
+      "downloadable": true,
+      "author": "Pracchia-78",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 204.967
+    },
+    {
+      "id": "strudel:dirt-samples/pluck/5",
+      "provider": "strudel",
+      "title": "Dirt-Samples · pluck · 5",
+      "category": "synth.pluck",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/pluck/BS%20C3%20PI.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/pluck/BS%20C3%20PI.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Inleiding_Pavel_Haas_Quartet_(audio).mp3",
+      "provider": "wikimediacommons",
+      "title": "Inleiding Pavel Haas Quartet (audio)",
+      "category": "synth.pluck",
+      "url": "https://commons.wikimedia.org/wiki/File:Inleiding_Pavel_Haas_Quartet_(audio).mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Inleiding_Pavel_Haas_Quartet_%28audio%29.mp3",
+      "downloadable": true,
+      "author": "deSingel",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 1840.461
+    },
+    {
+      "id": "openverse:abe75b01-71f6-43e7-98e2-46cb8e25f9ad",
+      "provider": "openverse",
+      "title": "foam pluck 01.wav",
+      "category": "synth.pluck",
+      "url": "https://freesound.org/people/tim.kahn/sounds/148078",
+      "previewUrl": "https://cdn.freesound.org/previews/148/148078_7037-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "tim.kahn",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 2.1
+    },
+    {
+      "id": "strudel:dirt-samples/pluck/6",
+      "provider": "strudel",
+      "title": "Dirt-Samples · pluck · 6",
+      "category": "synth.pluck",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/pluck/BS%20D2%20PI.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/pluck/BS%20D2%20PI.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "openverse:91a67e8e-919a-43ba-bef4-395d129772c3",
+      "provider": "openverse",
+      "title": "En-us-pluck",
+      "category": "synth.pluck",
+      "url": "https://commons.wikimedia.org/w/index.php?curid=823079",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/En-us-pluck.ogg",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Dvortygirl",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg"
+      ],
+      "durationSec": 0.638
+    },
+    {
+      "id": "strudel:dirt-samples/pluck/7",
+      "provider": "strudel",
+      "title": "Dirt-Samples · pluck · 7",
+      "category": "synth.pluck",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/pluck/BS%20D%233%20PI.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/pluck/BS%20D%233%20PI.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "openverse:71d6a280-2d94-4b55-b0f6-c5c3805530da",
+      "provider": "openverse",
+      "title": "Popsicle Stick Pluck",
+      "category": "synth.pluck",
+      "url": "https://freesound.org/people/BluetoothBoy/sounds/269335",
+      "previewUrl": "https://cdn.freesound.org/previews/269/269335_3630736-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "BluetoothBoy",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.383
+    },
+    {
+      "id": "strudel:dirt-samples/pluck/8",
+      "provider": "strudel",
+      "title": "Dirt-Samples · pluck · 8",
+      "category": "synth.pluck",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/pluck/BS%20D4%20PI.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/pluck/BS%20D4%20PI.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:dirt-samples/pluck/9",
+      "provider": "strudel",
+      "title": "Dirt-Samples · pluck · 9",
+      "category": "synth.pluck",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/pluck/BS%20E1%20PI.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/pluck/BS%20E1%20PI.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:dirt-samples/pluck/10",
+      "provider": "strudel",
+      "title": "Dirt-Samples · pluck · 10",
+      "category": "synth.pluck",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/pluck/BS%20E2%20PI.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/pluck/BS%20E2%20PI.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "openverse:6198d26f-362f-442c-9728-658889041fc6",
+      "provider": "openverse",
+      "title": "Plucking an Elastic Band",
+      "category": "synth.pluck",
+      "url": "https://freesound.org/people/dsebeste/sounds/355041",
+      "previewUrl": "https://cdn.freesound.org/previews/355/355041_3907739-hq.mp3",
+      "downloadable": true,
+      "author": "dsebeste",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 28.604
+    },
+    {
+      "id": "strudel:dirt-samples/pluck/11",
+      "provider": "strudel",
+      "title": "Dirt-Samples · pluck · 11",
+      "category": "synth.pluck",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/pluck/BS%20F1%20PI.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/pluck/BS%20F1%20PI.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:dirt-samples/pluck/12",
+      "provider": "strudel",
+      "title": "Dirt-Samples · pluck · 12",
+      "category": "synth.pluck",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/pluck/BS%20F3%20PI.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/pluck/BS%20F3%20PI.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:dirt-samples/pluck/13",
+      "provider": "strudel",
+      "title": "Dirt-Samples · pluck · 13",
+      "category": "synth.pluck",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/pluck/BS%20G1%20PI.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/pluck/BS%20G1%20PI.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    }
+  ]
+}

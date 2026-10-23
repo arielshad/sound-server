@@ -5,9 +5,13 @@ import { createApp } from "./api/app.js";
 import type { UmamiOptions } from "./api/site.js";
 import { Gauge } from "prom-client";
 import { PrometheusAnalytics, noopAnalytics, type Analytics } from "./core/analytics.js";
+import { setAnalysisCacheBackend } from "./core/analyze.js";
+import { createHttpClient } from "./core/http.js";
 import { NetworkClassifier, startNetworkData } from "./core/network.js";
 import { formatKey } from "./core/query.js";
 import { SampleService } from "./core/service.js";
+import { EmbeddingIndex, embeddingIndexFromEnv, indexCatalogue } from "./core/similar.js";
+import { storeFromEnv } from "./core/store.js";
 import { teeAnalytics } from "./core/stats.js";
 import { TELEMETRY_HOST, TELEMETRY_NOTICE, TELEMETRY_WEBSITE_ID, UmamiTelemetry, telemetryDisabled } from "./core/telemetry.js";
 import { VERSION, createMcpServer } from "./mcp/server.js";
@@ -20,6 +24,10 @@ Usage:
   sound-server mcp     Run the MCP server over stdio (for Claude Desktop/Code, Cursor, ...)
   sound-server search <query> [--category drums.kick] [--form one-shot] [--bpm 140] [--key "F minor"]
                        [--commercial] [--free] [--providers freesound,wikimediacommons] [--limit N]
+
+  sound-server index   [--providers strudel,curated,kenney] [--limit N] [--query q]
+                       Embed previews of static catalogues into the CLAP index (needs
+                       SOUND_SERVER_DATA_DIR; downloads the model on first use)
 
   Queries understand BPM and key words: sound-server search "dark 808 in F minor"
 
@@ -53,19 +61,47 @@ Environment:
                                SOUND_SERVER_TELEMETRY_WEBSITE_ID; event counts only, see /privacy)
   DO_NOT_TRACK                 "1" always turns telemetry off
   UMAMI_WEBSITE_ID, UMAMI_HOST Send web page views to your own Umami instead
+
+Optional search quality (v2):
+  SOUND_SERVER_DATA_DIR        Persistent store (SQLite): analysis cache, embeddings, indexed
+                               samples, downloaded models. Off (all in memory) when unset
+  SOUND_SERVER_ANALYSIS_TTL_DAYS  How long stored analyses are reused (default 30)
+  SOUND_SERVER_EMBEDDINGS      "1" turns on CLAP audio embeddings: find-similar for any sample,
+                               text-to-audio re-ranking, zero-shot category fallback. Needs
+                               @huggingface/transformers installed and ~400 MB more memory
+  SOUND_SERVER_CLAP_MODEL      Default Xenova/clap-htsat-unfused (or Xenova/larger_clap_music_and_speech)
+  SOUND_SERVER_MODEL_DIR       Model cache (default <SOUND_SERVER_DATA_DIR>/models, else a temp dir)
+  SOUND_SERVER_INDEX_PER_MINUTE  Background embeddings per minute (default 20, 0 = off)
+  SOUND_SERVER_EMBEDDINGS_THREADS, SOUND_SERVER_EMBEDDINGS_CONCURRENCY
+                               ONNX threads per job (default 2) and jobs at once (default 1)
 `;
 
-function buildService(): SampleService {
+/**
+ * The service, plus the optional persistent store (SOUND_SERVER_DATA_DIR) and
+ * CLAP embeddings (SOUND_SERVER_EMBEDDINGS=1). `background: false` turns off
+ * the background indexer (one-shot commands).
+ */
+async function buildService(opts: { background?: boolean; forceEmbeddings?: boolean } = {}): Promise<SampleService> {
   const only = process.env.SOUND_SERVER_PROVIDERS?.split(",").map((s) => s.trim()).filter(Boolean);
   const providers = only?.length ? allProviders.filter((p) => only.includes(p.id)) : allProviders;
-  return new SampleService({ providers });
+  const http = createHttpClient();
+  const store = storeFromEnv();
+  if (store) setAnalysisCacheBackend(store);
+  const env = opts.forceEmbeddings ? { ...process.env, SOUND_SERVER_EMBEDDINGS: "1" } : process.env;
+  let embeddings: EmbeddingIndex | undefined;
+  try {
+    embeddings = await embeddingIndexFromEnv({ http, store, env, perMinute: opts.background === false ? 0 : undefined });
+  } catch (e) {
+    console.error(`sound-server: embeddings disabled (${e instanceof Error ? e.message : String(e)})`);
+  }
+  return new SampleService({ providers, http, embeddings });
 }
 
 async function main(argv: string[]): Promise<void> {
   const [cmd, ...rest] = argv;
   switch (cmd) {
     case "serve": {
-      const service = buildService();
+      const service = await buildService();
       const port = Number(process.env.PORT ?? 8787);
       const hostname = process.env.HOST ?? "0.0.0.0";
       const telemetry = startTelemetry("http");
@@ -94,7 +130,7 @@ async function main(argv: string[]): Promise<void> {
       return;
     }
     case "mcp": {
-      const service = buildService();
+      const service = await buildService();
       const telemetry = startTelemetry("stdio");
       const server = createMcpServer(service, {
         analytics: telemetry,
@@ -108,7 +144,7 @@ async function main(argv: string[]): Promise<void> {
       return;
     }
     case "search": {
-      const service = buildService();
+      const service = await buildService({ background: false });
       const flags = parseFlags(rest);
       const bpm = flags.bpm ? flags.bpm.split("-").map(Number) : undefined;
       const query = [flags.positional.join(" "), flags.key ? `in ${flags.key}` : ""].join(" ").trim();
@@ -132,6 +168,40 @@ async function main(argv: string[]): Promise<void> {
       for (const p of res.providers) {
         console.log(`  ${p.provider.padEnd(18)} ${p.status.padEnd(8)} ${p.count} ${p.error ?? ""} ${p.status === "link" ? p.searchUrl : ""}`);
       }
+      return;
+    }
+    case "index": {
+      if (!process.env.SOUND_SERVER_DATA_DIR) {
+        console.error("Set SOUND_SERVER_DATA_DIR so the index is kept (e.g. SOUND_SERVER_DATA_DIR=./data).");
+        process.exitCode = 1;
+        return;
+      }
+      const flags = parseFlags(rest);
+      const service = await buildService({ background: false, forceEmbeddings: true });
+      const index = service.embeddings;
+      if (!index) throw new Error("could not start the embedding index");
+      const providers = (flags.providers ?? "strudel,curated,kenney").split(",").map((s) => s.trim()).filter(Boolean);
+      const limit = Number(flags.limit ?? 500) || 500;
+      const started = Date.now();
+      let last = 0;
+      const reports = await indexCatalogue(service, index, {
+        providers,
+        limit,
+        query: flags.query,
+        concurrency: flags.concurrency ? Number(flags.concurrency) : undefined,
+        onProgress: (r) => {
+          if (Date.now() - last < 2000) return;
+          last = Date.now();
+          console.error(`  ${r.provider}: ${r.indexed} indexed, ${r.already} already, ${r.failed} failed of ${r.seen}`);
+        },
+      });
+      for (const r of reports) {
+        const skipped = Object.entries(r.skipped).map(([why, n]) => `${n} ${why}`).join(", ");
+        console.log(`${r.provider.padEnd(14)} seen ${r.seen}, indexed ${r.indexed}, already ${r.already}, failed ${r.failed}${skipped ? `, skipped: ${skipped}` : ""}`);
+        for (const e of r.errors.slice(0, 5)) console.log(`    ${e}`);
+      }
+      const st = index.status();
+      console.log(`\nIndex: ${st.vectors} vectors (${st.model}) in ${((Date.now() - started) / 1000).toFixed(1)}s`);
       return;
     }
     default:

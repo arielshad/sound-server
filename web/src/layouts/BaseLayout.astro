@@ -28,6 +28,8 @@ const fullTitle = title === SITE.name ? SITE.homeTitle : `${title} · ${SITE.nam
 const ogImage = new URL(ogImagePath(route), SITE.url).toString();
 const ogImageAlt = title === SITE.name ? `${SITE.name}: ${SITE.tagline}` : `${title}: ${description}`;
 const modified = new Date().toISOString();
+// Every page has a Markdown twin at <route>.md (the home page's is the agent guide).
+const twin = markdown ?? (route === "/" || route === "/404" ? "/AGENTS.md" : `${route}.md`);
 ---
 
 <!doctype html>
@@ -53,7 +55,7 @@ const modified = new Date().toISOString();
     <link rel="sitemap" href="/sitemap-index.xml" />
 
     <!-- For AI agents and LLM crawlers: plain-text guides. -->
-    <link rel="alternate" type="text/markdown" href={markdown ?? "/AGENTS.md"} title="Markdown version for AI agents" />
+    <link rel="alternate" type="text/markdown" href={twin} title="Markdown version for AI agents" />
     <link rel="alternate" type="text/plain" href="/llms.txt" title="llms.txt" />
     <link rel="alternate" type="application/vnd.oai.openapi+json" href="/openapi.json" title="OpenAPI 3.1" />
 

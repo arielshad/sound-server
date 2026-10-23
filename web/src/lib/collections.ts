@@ -7,6 +7,7 @@
  */
 import { getCollection, type CollectionEntry } from "astro:content";
 import hubsJson from "@/data/collection-hubs.json";
+import sourceNotes from "@/data/source-notes.json";
 import { CATALOG, type CatalogSource } from "./catalog";
 import { PROVIDERS, SITE, type Provider } from "./site";
 import { categoryLabel, verdictTone } from "./vocab";
@@ -52,6 +53,12 @@ export interface Hub {
   categories?: string[];
   forms?: string[];
   aliases?: string[];
+  /** Editorial sections shown under the collections (plain text). */
+  sections?: { heading: string; body: string }[];
+  /** Questions answered on the hub (FAQPage JSON-LD). */
+  faq?: { q: string; a: string }[];
+  /** Guides (src/content/guides slugs) linked from the hub. */
+  guides?: string[];
 }
 
 export type Topic = CollectionEntry<"collections">;
@@ -185,8 +192,30 @@ export function countLabel(samples: SnapshotSample[]): string {
 
 export const dateFmt = new Intl.DateTimeFormat("en", { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" });
 
+/** Editorial notes for a source page (src/data/source-notes.json). */
+export interface SourceNotes {
+  about: string;
+  bestFor: string;
+  licence: string;
+  searching: string;
+  examples: { label: string; q: string; category?: string; commercial?: boolean }[];
+  guides?: string[];
+}
+
+export const SOURCE_NOTES = sourceNotes as Record<string, SourceNotes>;
+
+/** A live search on one source, for the source page's example links. */
+export function sourceSearchHref(id: string, e: { q: string; category?: string; commercial?: boolean }): string {
+  const p = new URLSearchParams({ q: e.q });
+  if (e.category) p.set("category", e.category);
+  if (e.commercial) p.set("commercial", "true");
+  p.set("providers", id);
+  return `/search?${p}`;
+}
+
 export interface SourcePage {
   provider: Provider;
+  notes?: SourceNotes;
   census?: CatalogSource;
   /** Collections with at least one sample from this source, and how many. */
   collections: { collection: Collection; count: number }[];
@@ -215,7 +244,9 @@ export async function sourcePages(): Promise<SourcePage[]> {
         }
       }
     }
-    // A link-only site (no census, nothing in any collection) has too little of its own to index.
-    return { provider, census, collections: featured, samples, indexable: Boolean(census) || samples.length >= 4 };
+    // A link-only site (no census, nothing in any collection) has too little of its own to index;
+    // a searched source with its own editorial notes has enough (same rule in integrations/sitemap-meta.mjs).
+    const notes = SOURCE_NOTES[provider.id];
+    return { provider, notes, census, collections: featured, samples, indexable: Boolean(census) || samples.length >= 4 || (provider.access !== "link" && Boolean(notes)) };
   });
 }

@@ -11,7 +11,7 @@ export const SITE = {
   url: (import.meta.env.SITE as string | undefined)?.replace(/\/$/, "") ?? "https://sound.shep.bot",
   tagline: "One search for free music samples, with the licence on every sound",
   homeTitle: "Sound Server: Search Free Music Samples, Drums, Vocals & FX",
-  description: `Search ${providers.length} sample sites at once for free kicks, snares, 808s, loops, vocals and FX, and see whether each sound is cleared for a commercial release. Web, API and MCP.`,
+  description: `Search ${providers.length} sample sites at once for free kicks, snares, 808s, loops, vocals and FX, and see if each sound is cleared for a commercial release. Web, API and MCP.`,
   repo: "https://github.com/arielshad/sound-server",
   image: "/og.png",
   locale: "en_US",
@@ -76,11 +76,11 @@ export const NAV = [
   { href: "/search", label: "Search" },
   { href: "/kit", label: "Kit builder" },
   { href: "/samples", label: "Collections" },
+  { href: "/guides", label: "Guides" },
   { href: "/docs", label: "Docs" },
   { href: "/docs/mcp", label: "AI agents" },
   { href: "/docs/api", label: "API" },
   { href: "/docs/licences", label: "Licences" },
-  { href: "/stats", label: "Stats" },
 ];
 
 export const DOCS_NAV = [
@@ -100,6 +100,9 @@ export const DOCS_NAV = [
     items: [
       { href: "/docs/licences", label: "Sample licences explained" },
       { href: "/docs/sources", label: "Sources & licences" },
+      { href: "/docs/faq", label: "FAQ" },
+      { href: "/guides", label: "Guides" },
+      { href: "/glossary", label: "Glossary" },
       { href: "/docs/api/versioning", label: "Versioning & rate limits" },
       { href: "/docs/self-hosting", label: "Self-hosting" },
       { href: "/AGENTS.md", label: "AGENTS.md (for agents)" },

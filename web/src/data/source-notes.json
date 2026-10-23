@@ -1,0 +1,114 @@
+{
+  "freesound": {
+    "about": "Freesound is a collaborative database of Creative Commons sounds, run since 2005 by the Music Technology Group of Universitat Pompeu Fabra in Barcelona. Hundreds of thousands of recordists have uploaded drum hits, synth notes, field recordings, foley and loops, and every upload is analysed for tempo, key and loudness.",
+    "bestFor": "Almost anything: drum one-shots, foley, field recordings, synth and instrument notes, vocal snippets and effects. Its tempo and key analysis makes it a good source for loops and tuned sounds.",
+    "licence": "Each sound has its own licence chosen by the uploader: CC0, CC BY or CC BY-NC (in 3.0 or 4.0 versions), plus Sampling+ on some older uploads. CC0 and CC BY sounds can go into a commercial release (CC BY with a credit); CC BY-NC sounds can't.",
+    "searching": "Through Freesound's official API. Previews (MP3 and Ogg) stream to anyone; original WAV, AIFF or FLAC files need a free Freesound account, so results link to the sound's page. When the server has no Freesound key, Openverse still returns Freesound sounds.",
+    "examples": [{ "label": "Punchy kicks", "q": "punchy kick", "category": "drums.kick" }, { "label": "Rain recordings", "q": "rain", "category": "ambience" }, { "label": "Vocal chops", "q": "vocal chop", "category": "vocals.chop" }, { "label": "Risers", "q": "riser", "category": "fx.riser" }],
+    "guides": ["freesound-samples-commercial-use", "credit-cc-by-samples"]
+  },
+  "wikimediacommons": {
+    "about": "Wikimedia Commons is the media repository behind Wikipedia, run by the Wikimedia Foundation. Alongside images it holds a large audio collection: instrument demonstrations, field recordings, bird song, historic speeches and public-domain music.",
+    "bestFor": "Instrument notes and demonstrations, nature and field recordings, spoken word and public-domain recordings.",
+    "licence": "Commons only accepts freely licensed or public-domain files, so non-commercial and no-derivatives licences don't appear. Files are CC0, public domain, CC BY or CC BY-SA. CC BY needs a credit; CC BY-SA would require your track to be released under the same licence, so Sound Server marks it restricted.",
+    "searching": "Through the MediaWiki API, restricted to audio files. Each result carries the licence and author from the file's page.",
+    "examples": [{ "label": "Piano notes", "q": "piano", "category": "keys" }, { "label": "Bird song", "q": "bird", "category": "ambience" }, { "label": "Speeches", "q": "speech", "category": "vocals.spoken" }],
+    "guides": ["cc0-vs-cc-by-vs-royalty-free", "credit-cc-by-samples"]
+  },
+  "openverse": {
+    "about": "Openverse is a search engine for openly licensed media run by the WordPress community. Its audio index gathers Creative Commons and public-domain sounds from Freesound, Wikimedia Commons and other collections.",
+    "bestFor": "Reaching Freesound and Wikimedia Commons audio without API keys, with the licence and credit line for each sound.",
+    "licence": "Only Creative Commons and public-domain works are indexed. The licence of each sound is the one recorded by the original site; Sound Server reads it per sound and gives the same verdict as for the original source.",
+    "searching": "Through the public Openverse API, without a key. Openverse limits anonymous requests, so some searches return fewer results from it at busy times.",
+    "examples": [{ "label": "Snares", "q": "snare", "category": "drums.snare" }, { "label": "Footsteps", "q": "footsteps", "category": "foley" }, { "label": "Glitches", "q": "glitch", "category": "fx.glitch" }],
+    "guides": ["cc0-vs-cc-by-vs-royalty-free"]
+  },
+  "ccmixter": {
+    "about": "ccMixter is a long-running community remix site, started by Creative Commons, where singers and musicians publish a cappellas, stems and remixes under Creative Commons so others can build on them.",
+    "bestFor": "A cappellas and vocal stems for remixes, plus instrument stems and loops.",
+    "licence": "Licence per upload: CC BY, CC BY-NC, CC0 and the retired Sampling+ family are common. Many a cappellas are non-commercial, so check the verdict before a release; CC BY vocals need a credit to the singer.",
+    "searching": "Through ccMixter's public query API, with each upload's licence, tempo where given and download links.",
+    "examples": [{ "label": "A cappellas", "q": "acapella", "category": "vocals.acapella" }, { "label": "Commercial-safe vocals", "q": "vocal", "category": "vocals", "commercial": true }],
+    "guides": ["cc-sampling-plus", "credit-cc-by-samples"]
+  },
+  "internetarchive": {
+    "about": "The Internet Archive is a non-profit digital library where anyone can upload collections, including sample packs, drum-machine recordings and sound-effect libraries.",
+    "bestFor": "Whole packs and collections: drum machine sets, vintage sound-effect libraries and community sample packs.",
+    "licence": "Licences are typed in by uploaders and not verified, and some uploads are commercial libraries shared without permission. Sound Server lists only items whose uploader states CC0, public domain or CC BY(-SA), filters out known commercial sample CDs, and never rates these licences better than check the terms.",
+    "searching": "Through the Archive's search API; each listing is one item (usually a pack), with its files.",
+    "examples": [{ "label": "Drum machine packs", "q": "drum machine", "category": "drums" }, { "label": "Sound effect collections", "q": "sound effects", "category": "fx" }],
+    "guides": ["sample-clearance-and-content-id", "what-counts-as-commercial-use"]
+  },
+  "bbc": {
+    "about": "The BBC Sound Effects archive publishes recordings from the BBC's libraries, including the Natural History Unit: nature, weather, transport, machines, crowds, interiors and decades of radio and television foley.",
+    "bestFor": "Professional nature, ambience and foley recordings for personal projects, study and research.",
+    "licence": "The RemArc licence allows personal, educational and research use only. Commercial use, including music releases and monetised videos, needs a separate licence, so every BBC result carries a non-commercial verdict.",
+    "searching": "Through the archive's search API, with WAV and MP3 downloads.",
+    "examples": [{ "label": "Forest ambience", "q": "forest", "category": "ambience" }, { "label": "Trains", "q": "train", "category": "ambience" }],
+    "guides": ["bbc-sound-effects-for-music", "what-counts-as-commercial-use"]
+  },
+  "strudel": {
+    "about": "Strudel is a browser live-coding environment for music, a JavaScript port of TidalCycles. It loads sample banks from GitHub: classic drum machines, the Dirt-Samples set, the CC0 VCSL orchestral library, the Salamander grand piano and several others.",
+    "bestFor": "Drum machine hits (TR-808, TR-909, LinnDrum and dozens more) and sounds you want to play in Strudel straight away.",
+    "licence": "It varies by bank. VCSL is CC0 and the Salamander piano is CC BY. The drum machine and Dirt-Samples banks state no licence, and many drum machine sounds are copies of the machines' own memory chips, so Sound Server marks them unclear.",
+    "searching": "From the banks' published sample maps, fetched once and cached; every file is one listing, named after the bank and its index in Strudel.",
+    "examples": [{ "label": "TR-909 sounds", "q": "909", "category": "drums" }, { "label": "Salamander piano", "q": "salamander", "category": "keys" }],
+    "guides": ["build-a-drum-kit-from-free-samples", "what-is-an-808"]
+  },
+  "sampleradar": {
+    "about": "SampleRadar is MusicRadar's archive of free sample packs, produced with Computer Music magazine: hundreds of genre packs of loops, one-shots and multisamples.",
+    "bestFor": "Complete genre packs: house, techno, hip hop, drum and bass, cinematic and more, as direct zip downloads.",
+    "licence": "Royalty-free: you may use the samples in your music, commercially too, but not redistribute them, according to MusicRadar's terms on the SampleRadar pages.",
+    "searching": "From the SampleRadar index pages, fetched and cached; each listing is a pack with its download.",
+    "examples": [{ "label": "House packs", "q": "house", "category": "drums" }, { "label": "Lo-fi packs", "q": "lofi" }],
+    "guides": ["cc0-vs-cc-by-vs-royalty-free", "one-shots-vs-loops"]
+  },
+  "curated": {
+    "about": "A hand-checked list of well-known free sample libraries and instruments, such as the Philharmonia orchestra samples, the University of Iowa instrument recordings, VSCO 2 Community Edition, VCSL, FreePats, DrumGizmo kits and the Sonniss GDC bundles.",
+    "bestFor": "Orchestral and acoustic instruments, multisampled kits and large free sound-effect bundles.",
+    "licence": "Recorded per library from its own terms: several are CC0, others royalty-free with conditions such as no redistribution. Each listing links to the library's licence.",
+    "searching": "A static catalogue maintained with the server, with direct downloads where the library offers them.",
+    "examples": [{ "label": "Strings", "q": "strings", "category": "strings" }, { "label": "Acoustic drum kits", "q": "drum kit", "category": "drums" }],
+    "guides": ["sample-formats-wav-mp3-flac", "cc0-vs-cc-by-vs-royalty-free"]
+  },
+  "kenney": {
+    "about": "Kenney is a game asset studio that publishes its packs as CC0, including audio packs of interface clicks, impacts, sci-fi sounds, RPG foley, casino sounds, voice-overs and jingles.",
+    "bestFor": "Clean, short game and UI sounds: clicks, impacts, lasers, coins, footsteps and voice lines.",
+    "licence": "CC0: commercial use without credit, in music, games or anything else.",
+    "searching": "From Kenney's audio pages, read and cached; each pack downloads as a zip.",
+    "examples": [{ "label": "Impacts", "q": "impact", "category": "fx.impact" }, { "label": "UI clicks", "q": "click", "category": "fx" }],
+    "guides": ["cc0-vs-cc-by-vs-royalty-free"]
+  },
+  "freewavesamples": {
+    "about": "Free Wave Samples offers 16-bit WAV one-shots recorded from vintage synths, drum machines and instruments: drums and cymbals, basses, pianos and single instrument notes by pitch.",
+    "bestFor": "Vintage synth and drum machine one-shots and instrument notes labelled with their pitch.",
+    "licence": "Its own royalty-free terms: free to use in music, film and other creative work, with a credit appreciated but not required, and no re-hosting of the samples for download.",
+    "searching": "From the site's public pages, read politely and cached, with direct WAV downloads.",
+    "examples": [{ "label": "Synth basses", "q": "bass", "category": "bass" }, { "label": "Drum machine hits", "q": "drum", "category": "drums" }],
+    "guides": ["build-a-drum-kit-from-free-samples", "find-samples-by-bpm-and-key"]
+  },
+  "opengameart": {
+    "about": "OpenGameArt is a community library of free game assets, including sound effects, ambiences, chiptune and game music.",
+    "bestFor": "Game sound effects and retro or chiptune sounds.",
+    "licence": "Each entry has its own licence: CC0, CC BY, CC BY-SA, GPL or OGA-BY (an attribution licence close to CC BY). CC0, CC BY and OGA-BY allow commercial use (with credit for the BY ones); SA and GPL bring share-alike conditions.",
+    "searching": "From OpenGameArt's search pages, read and cached; each listing links to the entry with its files.",
+    "examples": [{ "label": "Explosions", "q": "explosion", "category": "fx" }, { "label": "Chiptune effects", "q": "8-bit" }],
+    "guides": ["cc0-vs-cc-by-vs-royalty-free"]
+  },
+  "soundbible": {
+    "about": "SoundBible is a long-standing free sound-effects site covering animals, doors, weapons, weather and household sounds, as WAV and MP3.",
+    "bestFor": "Everyday sound effects and foley for videos and games.",
+    "licence": "Per sound, from public domain and CC BY to personal use only. Personal-use sounds can't go into a commercial release, and Sound Server marks them that way.",
+    "searching": "From SoundBible's public pages, read and cached.",
+    "examples": [{ "label": "Thunder", "q": "thunder" }, { "label": "Doors", "q": "door", "category": "foley" }],
+    "guides": ["what-counts-as-commercial-use"]
+  },
+  "orangefreesounds": {
+    "about": "Orange Free Sounds publishes free sound effects, drum and synth loops and background music, each as a blog post with its licence.",
+    "bestFor": "Sound effects, short loops and background textures.",
+    "licence": "Per post: many loops are CC BY 4.0 (commercial use with credit), while many effects are for personal use only. Read the verdict on each.",
+    "searching": "From the site's public pages, read and cached.",
+    "examples": [{ "label": "Drum loops", "q": "drum loop", "category": "drums" }, { "label": "Impacts", "q": "impact", "category": "fx.impact" }],
+    "guides": ["credit-cc-by-samples", "what-counts-as-commercial-use"]
+  }
+}

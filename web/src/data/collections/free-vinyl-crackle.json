@@ -6,6 +6,334 @@
       "fx.noise"
     ]
   },
-  "updatedAt": "2026-10-23T04:45:45.683Z",
-  "samples": []
+  "updatedAt": "2026-10-23T09:45:51.257Z",
+  "samples": [
+    {
+      "id": "openverse:0bb52327-5c3e-4b87-9b2c-71dd02e2d675",
+      "provider": "openverse",
+      "title": "Vinyl Crackle 33RPM",
+      "category": "fx.noise",
+      "url": "https://freesound.org/people/yfjesse/sounds/471007",
+      "previewUrl": "https://cdn.freesound.org/previews/471/471007_2391840-hq.mp3",
+      "downloadable": true,
+      "author": "yfjesse",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 304.469
+    },
+    {
+      "id": "openverse:95a7ca2a-ea7f-43c4-af73-76f95f0b688c",
+      "provider": "openverse",
+      "title": "vinyl crackles loop",
+      "category": "fx.noise",
+      "url": "https://freesound.org/people/Jay_You/sounds/383762",
+      "previewUrl": "https://cdn.freesound.org/previews/383/383762_6300624-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Jay_You",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 30
+    },
+    {
+      "id": "openverse:e3df5839-5ef6-44b9-849b-4a2d87f2eba9",
+      "provider": "openverse",
+      "title": "Vinyl Crackles",
+      "category": "fx.noise",
+      "url": "https://freesound.org/people/SkyernAklea/sounds/563798",
+      "previewUrl": "https://cdn.freesound.org/previews/563/563798_6998976-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "SkyernAklea",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 8.928
+    },
+    {
+      "id": "openverse:eaca9952-333f-4f8a-8088-6119fbe497f9",
+      "provider": "openverse",
+      "title": "Vinyl Crackle (Real).mp3",
+      "category": "fx.noise",
+      "url": "https://freesound.org/people/beautifuldaymonster1968/sounds/434822",
+      "previewUrl": "https://cdn.freesound.org/previews/434/434822_340588-hq.mp3",
+      "downloadable": true,
+      "author": "beautifuldaymonster1968",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 29.162
+    },
+    {
+      "id": "openverse:c160311d-fe04-4041-b615-0042db1829c8",
+      "provider": "openverse",
+      "title": "Vinyl Crackle",
+      "category": "fx.noise",
+      "url": "https://freesound.org/people/LuKaiX/sounds/696069",
+      "previewUrl": "https://cdn.freesound.org/previews/696/696069_11636259-hq.mp3",
+      "downloadable": true,
+      "author": "LuKaiX",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 22.016
+    },
+    {
+      "id": "openverse:50214f09-5b3c-4553-90ba-65f49e4b5eb3",
+      "provider": "openverse",
+      "title": "plastic - bubble wrap - vinyl crackle type sound after letting go of a wad of bubble wrap.wav",
+      "category": "fx.noise",
+      "url": "https://freesound.org/people/Anthousai/sounds/399333",
+      "previewUrl": "https://cdn.freesound.org/previews/399/399333_5923045-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Anthousai",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.129
+    },
+    {
+      "id": "openverse:5d653798-36ee-40e6-83b9-50266f985a82",
+      "provider": "openverse",
+      "title": "Vinyl Crackle Analogue 1.wav",
+      "category": "fx.noise",
+      "url": "https://freesound.org/people/HenKonen/sounds/682193",
+      "previewUrl": "https://cdn.freesound.org/previews/682/682193_10938187-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "HenKonen",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 6.421
+    },
+    {
+      "id": "openverse:6a9e2edd-0dbf-4b10-a058-f28897e1ac58",
+      "provider": "openverse",
+      "title": "Vinyl Crackle Analogue 2.wav",
+      "category": "fx.noise",
+      "url": "https://freesound.org/people/HenKonen/sounds/682194",
+      "previewUrl": "https://cdn.freesound.org/previews/682/682194_10938187-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "HenKonen",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 5.999
+    },
+    {
+      "id": "openverse:54c576a5-1a71-43ce-a464-6bd9bc712b95",
+      "provider": "openverse",
+      "title": "Vinyl Crackling",
+      "category": "fx.noise",
+      "url": "https://freesound.org/people/iainmccurdy/sounds/564795",
+      "previewUrl": "https://cdn.freesound.org/previews/564/564795_3655844-hq.mp3",
+      "downloadable": true,
+      "author": "iainmccurdy",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 239.494
+    },
+    {
+      "id": "openverse:8c6b1f66-d112-4c73-9404-29345c67ada9",
+      "provider": "openverse",
+      "title": "Vinyl snap, crackle and pop redux",
+      "category": "fx.noise",
+      "url": "https://freesound.org/people/deleted_user_2906614/sounds/266786",
+      "previewUrl": "https://cdn.freesound.org/previews/266/266786_2906614-hq.mp3",
+      "downloadable": true,
+      "author": "deleted_user_2906614",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "flac"
+      ],
+      "durationSec": 62.005
+    },
+    {
+      "id": "openverse:a6c8f032-e57b-4d93-af34-fb400f0c8237",
+      "provider": "openverse",
+      "title": "noisy_vinyl_crackle_2.wav",
+      "category": "fx.noise",
+      "url": "https://freesound.org/people/oneloginacc/sounds/66391",
+      "previewUrl": "https://cdn.freesound.org/previews/66/66391_800997-hq.mp3",
+      "downloadable": true,
+      "author": "oneloginacc",
+      "license": {
+        "id": "LicenseRef-Sampling-Plus-1.0",
+        "name": "CC Sampling+ 1.0",
+        "url": "https://creativecommons.org/licenses/sampling+/1.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 14.9
+    },
+    {
+      "id": "openverse:452197a4-ce1a-427a-9b68-d3f22c8d454b",
+      "provider": "openverse",
+      "title": "unpressed_vinyl.wav",
+      "category": "fx.noise",
+      "url": "https://freesound.org/people/veezay/sounds/130393",
+      "previewUrl": "https://cdn.freesound.org/previews/130/130393_1220006-hq.mp3",
+      "downloadable": true,
+      "author": "veezay",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 41.667
+    },
+    {
+      "id": "openverse:a8dbe8fe-cd12-4e16-a11e-64356ff55d07",
+      "provider": "openverse",
+      "title": "gramophone_crackle.wav",
+      "category": "fx.noise",
+      "url": "https://freesound.org/people/3bagbrew/sounds/57746",
+      "previewUrl": "https://cdn.freesound.org/previews/57/57746_571436-hq.mp3",
+      "downloadable": true,
+      "author": "3bagbrew",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 20.428
+    },
+    {
+      "id": "openverse:c4dfa9a5-1a7d-478b-8eae-8265edc64e89",
+      "provider": "openverse",
+      "title": "Vinyl Dust 50.wav",
+      "category": "fx.noise",
+      "url": "https://freesound.org/people/mitchanary/sounds/614342",
+      "previewUrl": "https://cdn.freesound.org/previews/614/614342_1282624-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "mitchanary",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 10.894
+    }
+  ]
 }

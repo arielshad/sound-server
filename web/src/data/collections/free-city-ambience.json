@@ -1,0 +1,744 @@
+{
+  "slug": "free-city-ambience",
+  "search": {
+    "q": "city",
+    "categories": [
+      "ambience"
+    ]
+  },
+  "updatedAt": "2026-10-23T09:37:48.067Z",
+  "samples": [
+    {
+      "id": "soundbible:1266-City-Ambiance",
+      "provider": "soundbible",
+      "title": "City Ambiance",
+      "category": "ambience",
+      "url": "https://soundbible.com/1266-City-Ambiance.html",
+      "previewUrl": "https://soundbible.com/mp3/City%20Ambiance-SoundBible.com-1513196434.mp3",
+      "downloadable": true,
+      "author": "lezer",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Video_of_the_attack_in_crocus_city_hall_in_Moscow.ogg",
+      "provider": "wikimediacommons",
+      "title": "Video of the attack in crocus city hall in Moscow",
+      "category": "ambience",
+      "url": "https://commons.wikimedia.org/wiki/File:Video_of_the_attack_in_crocus_city_hall_in_Moscow.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c7/Video_of_the_attack_in_crocus_city_hall_in_Moscow.ogg/Video_of_the_attack_in_crocus_city_hall_in_Moscow.ogg.mp3",
+      "downloadable": true,
+      "author": "ModernMediia",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 17.488
+    },
+    {
+      "id": "opengameart:scifi-city-ambient-loop",
+      "provider": "opengameart",
+      "title": "Scifi City - Ambient Loop",
+      "category": "ambience",
+      "url": "https://opengameart.org/content/scifi-city-ambient-loop",
+      "previewUrl": "https://opengameart.org/sites/default/files/busy_cyberworld.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/busy_cyberworld.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:58444",
+      "provider": "orangefreesounds",
+      "title": "Cars Honking On A Busy City Street Sound Effect",
+      "category": "ambience",
+      "url": "https://orangefreesounds.com/cars-honking-on-a-busy-city-street-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/09/Cars-honking-on-a-busy-city-street-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 9
+    },
+    {
+      "id": "wikimediacommons:Cebu_City_at_night.ogg",
+      "provider": "wikimediacommons",
+      "title": "Cebu City at night",
+      "category": "ambience",
+      "url": "https://commons.wikimedia.org/wiki/File:Cebu_City_at_night.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9d/Cebu_City_at_night.ogg/Cebu_City_at_night.ogg.mp3",
+      "downloadable": true,
+      "author": "Lady01v",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 149.44
+    },
+    {
+      "id": "soundbible:2000-City-Centre",
+      "provider": "soundbible",
+      "title": "City Centre",
+      "category": "ambience",
+      "url": "https://soundbible.com/2000-City-Centre.html",
+      "previewUrl": "https://soundbible.com/mp3/City_Centre-Hopeinawe-377331566.mp3",
+      "downloadable": true,
+      "author": "Hopeinawe",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "opengameart:lax-airport-landing-sound-la-city-sounds",
+      "provider": "opengameart",
+      "title": "LAX AIRPORT! LANDING SOUND LA CITY SOUNDS",
+      "category": "ambience",
+      "url": "https://opengameart.org/content/lax-airport-landing-sound-la-city-sounds",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/LAX%20Aiport%20Landing%20Sound%20Two.ogg.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/LAX%20Aiport%20Landing%20Sound%20Two.ogg.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:58859",
+      "provider": "orangefreesounds",
+      "title": "Bus Horn Honking On A Busy City Street",
+      "category": "ambience",
+      "url": "https://orangefreesounds.com/bus-horn-honking-on-a-busy-city-street/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/10/Bus-horn-honking-on-a-busy-city-street.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 1
+    },
+    {
+      "id": "wikimediacommons:2_video_of_the_attack_in_crocus_city_hall_in_Moscow.ogg",
+      "provider": "wikimediacommons",
+      "title": "2 video of the attack in crocus city hall in Moscow",
+      "category": "ambience",
+      "url": "https://commons.wikimedia.org/wiki/File:2_video_of_the_attack_in_crocus_city_hall_in_Moscow.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6d/2_video_of_the_attack_in_crocus_city_hall_in_Moscow.ogg/2_video_of_the_attack_in_crocus_city_hall_in_Moscow.ogg.mp3",
+      "downloadable": true,
+      "author": "ModernMediia",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 21.312
+    },
+    {
+      "id": "opengameart:city-rail-bridge-natural-ambience-of-an-iron-rail-bridge",
+      "provider": "opengameart",
+      "title": "City rail bridge -- natural ambience of an iron rail bridge.",
+      "category": "ambience",
+      "url": "https://opengameart.org/content/city-rail-bridge-natural-ambience-of-an-iron-rail-bridge",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/190920-city_rail_bridge_iron_spot_2-01.wav.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/190920-city_rail_bridge_iron_spot_2-01.wav.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:57921",
+      "provider": "orangefreesounds",
+      "title": "Thunderstorm In The City Sound Effect",
+      "category": "ambience",
+      "url": "https://orangefreesounds.com/thunderstorm-in-the-city-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/08/Thunderstorm-in-the-city-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 129
+    },
+    {
+      "id": "wikimediacommons:Tate_Reeves_on_the_response_to_the_2023_Rolling_Fork–Silver_City_tornado.ogg",
+      "provider": "wikimediacommons",
+      "title": "Tate Reeves on the response to the 2023 Rolling Fork–Silver City tornado",
+      "category": "ambience",
+      "url": "https://commons.wikimedia.org/wiki/File:Tate_Reeves_on_the_response_to_the_2023_Rolling_Fork%E2%80%93Silver_City_tornado.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6a/Tate_Reeves_on_the_response_to_the_2023_Rolling_Fork%E2%80%93Silver_City_tornado.ogg/Tate_Reeves_on_the_response_to_the_2023_Rolling_Fork%E2%80%93Silver_City_tornado.ogg.mp3",
+      "downloadable": true,
+      "author": "The White House",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 200.384
+    },
+    {
+      "id": "orangefreesounds:57833",
+      "provider": "orangefreesounds",
+      "title": "Stormy Rain In City Sound Effect",
+      "category": "ambience",
+      "url": "https://orangefreesounds.com/stormy-rain-in-city-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/07/Rain-noise-loop-realistic-rainfall-sound-effect.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 93
+    },
+    {
+      "id": "wikimediacommons:Stephanie_Bice_speaks_on_the_28th_anniversary_of_the_Oklahoma_City_Bombing.ogg",
+      "provider": "wikimediacommons",
+      "title": "Stephanie Bice speaks on the 28th anniversary of the Oklahoma City Bombing",
+      "category": "ambience",
+      "url": "https://commons.wikimedia.org/wiki/File:Stephanie_Bice_speaks_on_the_28th_anniversary_of_the_Oklahoma_City_Bombing.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d0/Stephanie_Bice_speaks_on_the_28th_anniversary_of_the_Oklahoma_City_Bombing.ogg/Stephanie_Bice_speaks_on_the_28th_anniversary_of_the_Oklahoma_City_Bombing.ogg.mp3",
+      "downloadable": true,
+      "author": "U.S. House of Representatives",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 74.67
+    },
+    {
+      "id": "orangefreesounds:57583",
+      "provider": "orangefreesounds",
+      "title": "Busy City Crowd And Traffic Ambience Sound Effect",
+      "category": "ambience",
+      "url": "https://orangefreesounds.com/busy-city-crowd-and-traffic-ambience-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/07/Busy-city-crowd-and-traffic-ambience-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 51
+    },
+    {
+      "id": "wikimediacommons:Hakodate_City_car_530_Walk_through_tone.wav",
+      "provider": "wikimediacommons",
+      "title": "Hakodate City car 530 Walk through tone",
+      "category": "ambience",
+      "url": "https://commons.wikimedia.org/wiki/File:Hakodate_City_car_530_Walk_through_tone.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/91/Hakodate_City_car_530_Walk_through_tone.wav/Hakodate_City_car_530_Walk_through_tone.wav.mp3",
+      "downloadable": true,
+      "author": "Kuroc622",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 30
+    },
+    {
+      "id": "orangefreesounds:57181",
+      "provider": "orangefreesounds",
+      "title": "Rainy Stormy Windy City Weather Sound Effect",
+      "category": "ambience",
+      "url": "https://orangefreesounds.com/rainy-stormy-windy-city-weather-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/06/Rainy-stormy-windy-city-weather-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 88
+    },
+    {
+      "id": "wikimediacommons:West_Midlands_Railway_323202_DMSO_B,_between_Sutton_Coldfield_and_Lichfield_City,_Jan_2022.ogg",
+      "provider": "wikimediacommons",
+      "title": "West Midlands Railway 323202 DMSO B, between Sutton Coldfield and Lichfield City, Jan 2022",
+      "category": "ambience",
+      "url": "https://commons.wikimedia.org/wiki/File:West_Midlands_Railway_323202_DMSO_B,_between_Sutton_Coldfield_and_Lichfield_City,_Jan_2022.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7f/West_Midlands_Railway_323202_DMSO_B%2C_between_Sutton_Coldfield_and_Lichfield_City%2C_Jan_2022.ogg/West_Midlands_Railway_323202_DMSO_B%2C_between_Sutton_Coldfield_and_Lichfield_City%2C_Jan_2022.ogg.mp3",
+      "downloadable": true,
+      "author": "TheFrog001",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 897.387
+    },
+    {
+      "id": "wikimediacommons:Manchester_City_FC.ogg",
+      "provider": "wikimediacommons",
+      "title": "Manchester City FC",
+      "category": "ambience",
+      "url": "https://commons.wikimedia.org/wiki/File:Manchester_City_FC.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d4/Manchester_City_FC.ogg/Manchester_City_FC.ogg.mp3",
+      "downloadable": true,
+      "author": "Speaker: Hassocks5489 Authors of the article",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 1700.992
+    },
+    {
+      "id": "orangefreesounds:55407",
+      "provider": "orangefreesounds",
+      "title": "Deep Thunder Strike & City Rain Ambience",
+      "category": "ambience",
+      "url": "https://orangefreesounds.com/deep-thunder-strike-city-rain-ambience/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/02/Deep-thunder-strike-city-rain-ambience.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 15
+    },
+    {
+      "id": "wikimediacommons:Audio_Recording_of_President_Clinton's_Remarks_at_the_National_League_of_Cities_Congressional_City_Conference_-_DPLA_-_044acca9d58b9a3e7c087b47d5d07059.mp3",
+      "provider": "wikimediacommons",
+      "title": "Audio Recording of President Clinton's Remarks at the National League of Cities Congressional City Conference - DPLA - 044acca9d58b9a3e7c087b47d5d07059",
+      "category": "ambience",
+      "url": "https://commons.wikimedia.org/wiki/File:Audio_Recording_of_President_Clinton%27s_Remarks_at_the_National_League_of_Cities_Congressional_City_Conference_-_DPLA_-_044acca9d58b9a3e7c087b47d5d07059.mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Audio_Recording_of_President_Clinton%27s_Remarks_at_the_National_League_of_Cities_Congressional_City_Conference_-_DPLA_-_044acca9d58b9a3e7c087b47d5d07059.mp3",
+      "downloadable": true,
+      "author": "Department of Defense. Defense Information Systems Agency. White House Communications Agency. (06/25/1991)",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 2188.736
+    },
+    {
+      "id": "orangefreesounds:56100",
+      "provider": "orangefreesounds",
+      "title": "Rain Falling Under An Umbrella In The City Sound Effect",
+      "category": "ambience",
+      "url": "https://orangefreesounds.com/rain-falling-under-an-umbrella-in-the-city-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/04/Rain-falling-under-an-umbrella-in-the-city-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 67
+    },
+    {
+      "id": "wikimediacommons:Sunday_in_the_center_of_Mexico_City_(close_to_Alameda_Park),_Schoeps_MS_Setup.flac",
+      "provider": "wikimediacommons",
+      "title": "Sunday in the center of Mexico City (close to Alameda Park), Schoeps MS Setup",
+      "category": "ambience",
+      "url": "https://commons.wikimedia.org/wiki/File:Sunday_in_the_center_of_Mexico_City_(close_to_Alameda_Park),_Schoeps_MS_Setup.flac",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4a/Sunday_in_the_center_of_Mexico_City_%28close_to_Alameda_Park%29%2C_Schoeps_MS_Setup.flac/Sunday_in_the_center_of_Mexico_City_%28close_to_Alameda_Park%29%2C_Schoeps_MS_Setup.flac.mp3",
+      "downloadable": true,
+      "author": "Felix Blume",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "flac",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 300.032
+    },
+    {
+      "id": "orangefreesounds:54983",
+      "provider": "orangefreesounds",
+      "title": "Rainy City Traffic Sound – Cars Driving On Wet Pavement",
+      "category": "ambience",
+      "url": "https://orangefreesounds.com/rainy-city-traffic-sound-cars-driving-on-wet-pavement/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/01/Rainy-city-traffic-sound-cars-driving-on-wet-pavement.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 199
+    },
+    {
+      "id": "wikimediacommons:Emergency_broadcast_in_Tsu_city_180815.opus",
+      "provider": "wikimediacommons",
+      "title": "Emergency broadcast in Tsu city 180815",
+      "category": "ambience",
+      "url": "https://commons.wikimedia.org/wiki/File:Emergency_broadcast_in_Tsu_city_180815.opus",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3c/Emergency_broadcast_in_Tsu_city_180815.opus/Emergency_broadcast_in_Tsu_city_180815.opus.mp3",
+      "downloadable": true,
+      "author": "三重県津市 健康福祉部福祉政策課",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "opus",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 63.472
+    },
+    {
+      "id": "orangefreesounds:56052",
+      "provider": "orangefreesounds",
+      "title": "Walking Through A Rainy City Street With Umbrella Sound Effect",
+      "category": "ambience",
+      "url": "https://orangefreesounds.com/walking-through-a-rainy-city-street-with-umbrella-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/03/Walking-through-a-rainy-city-street-with-umbrella-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 132
+    },
+    {
+      "id": "wikimediacommons:Emergency_broadcast_in_Uenohara_city_180902.opus",
+      "provider": "wikimediacommons",
+      "title": "Emergency broadcast in Uenohara city 180902",
+      "category": "ambience",
+      "url": "https://commons.wikimedia.org/wiki/File:Emergency_broadcast_in_Uenohara_city_180902.opus",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/72/Emergency_broadcast_in_Uenohara_city_180902.opus/Emergency_broadcast_in_Uenohara_city_180902.opus.mp3",
+      "downloadable": true,
+      "author": "山梨県上野原市",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "opus",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 64.733
+    },
+    {
+      "id": "orangefreesounds:56252",
+      "provider": "orangefreesounds",
+      "title": "City Tram Passing By Doppler Effect Sound",
+      "category": "ambience",
+      "url": "https://orangefreesounds.com/city-tram-passing-by-doppler-effect-sound/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/04/City-tram-passing-by-doppler-effect-sound.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 9
+    },
+    {
+      "id": "wikimediacommons:Hy-Վատիկան_(Vatican_City).ogg",
+      "provider": "wikimediacommons",
+      "title": "Hy-Վատիկան (Vatican City)",
+      "category": "ambience",
+      "url": "https://commons.wikimedia.org/wiki/File:Hy-%D5%8E%D5%A1%D5%BF%D5%AB%D5%AF%D5%A1%D5%B6_(Vatican_City).ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/15/Hy-%D5%8E%D5%A1%D5%BF%D5%AB%D5%AF%D5%A1%D5%B6_%28Vatican_City%29.ogg/Hy-%D5%8E%D5%A1%D5%BF%D5%AB%D5%AF%D5%A1%D5%B6_%28Vatican_City%29.ogg.mp3",
+      "downloadable": true,
+      "author": "Speaker: Arusik Grigoryan / Արուսիկ Գրիգորյան Authors of the article",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 154.51
+    },
+    {
+      "id": "orangefreesounds:55774",
+      "provider": "orangefreesounds",
+      "title": "Fast Biplane Flying Low Over The City Sound Effect",
+      "category": "ambience",
+      "url": "https://orangefreesounds.com/fast-biplane-flying-low-over-the-city-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/03/Fast-biplane-flying-low-over-the-city-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 6
+    },
+    {
+      "id": "wikimediacommons:Awit_ng_Lungsod_Quezon_-_Hymn_of_Quezon_City.mp3",
+      "provider": "wikimediacommons",
+      "title": "Awit ng Lungsod Quezon - Hymn of Quezon City",
+      "category": "ambience",
+      "url": "https://commons.wikimedia.org/wiki/File:Awit_ng_Lungsod_Quezon_-_Hymn_of_Quezon_City.mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Awit_ng_Lungsod_Quezon_-_Hymn_of_Quezon_City.mp3",
+      "downloadable": true,
+      "author": "Composed by Dr. Eliseo Pajaro and Lyrics by Ligaya Perez",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 99.336
+    },
+    {
+      "id": "orangefreesounds:55689",
+      "provider": "orangefreesounds",
+      "title": "Realistic Large Motorbike Passing Busy City Street Sound Effect",
+      "category": "ambience",
+      "url": "https://orangefreesounds.com/realistic-large-motorbike-passing-busy-city-street-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/02/Realistic-large-motorbike-passing-busy-city-street-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 7
+    },
+    {
+      "id": "orangefreesounds:55411",
+      "provider": "orangefreesounds",
+      "title": "Rain Falling In City – Urban Ambience Sound Effect",
+      "category": "ambience",
+      "url": "https://orangefreesounds.com/rain-falling-in-city-urban-ambience-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/02/Rain-falling-in-city-urban-ambience-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 119
+    }
+  ]
+}

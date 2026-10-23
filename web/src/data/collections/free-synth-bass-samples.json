@@ -1,0 +1,319 @@
+{
+  "slug": "free-synth-bass-samples",
+  "search": {
+    "q": "synth bass",
+    "categories": [
+      "bass"
+    ]
+  },
+  "updatedAt": "2026-10-23T09:44:25.490Z",
+  "samples": [
+    {
+      "id": "openverse:8c63e267-7389-440e-91a1-434a385306a3",
+      "provider": "openverse",
+      "title": "Synth/bass Short or Intro",
+      "category": "bass",
+      "url": "https://freesound.org/people/griffon_designs/sounds/321045",
+      "previewUrl": "https://cdn.freesound.org/previews/321/321045_5447459-hq.mp3",
+      "downloadable": true,
+      "author": "griffon_designs",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "aiff"
+      ],
+      "durationSec": 72.814
+    },
+    {
+      "id": "openverse:507e7398-1a1e-4f6d-ac18-5b78dbbed98c",
+      "provider": "openverse",
+      "title": "SYNTH BASS 0207.wav",
+      "category": "bass",
+      "url": "https://freesound.org/people/zgump/sounds/73553",
+      "previewUrl": "https://cdn.freesound.org/previews/73/73553_377011-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "zgump",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.8
+    },
+    {
+      "id": "openverse:58333d06-da9e-4288-8ab3-5b9a5d4c196b",
+      "provider": "openverse",
+      "title": "SYNTH BASS 0104.wav",
+      "category": "bass",
+      "url": "https://freesound.org/people/zgump/sounds/73002",
+      "previewUrl": "https://cdn.freesound.org/previews/73/73002_377011-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "zgump",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.8
+    },
+    {
+      "id": "openverse:77273d8c-25c3-498d-af25-b74982cca702",
+      "provider": "openverse",
+      "title": "SYNTH BASS 0106.wav",
+      "category": "bass",
+      "url": "https://freesound.org/people/zgump/sounds/73004",
+      "previewUrl": "https://cdn.freesound.org/previews/73/73004_377011-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "zgump",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.8
+    },
+    {
+      "id": "openverse:7cb3fe3e-c631-4314-abea-02afdda320aa",
+      "provider": "openverse",
+      "title": "SYNTH BASS 0206.wav",
+      "category": "bass",
+      "url": "https://freesound.org/people/zgump/sounds/73552",
+      "previewUrl": "https://cdn.freesound.org/previews/73/73552_377011-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "zgump",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.8
+    },
+    {
+      "id": "openverse:315028b7-0f07-44f4-abfd-9254e507f879",
+      "provider": "openverse",
+      "title": "SYNTH BASS 0101.wav",
+      "category": "bass",
+      "url": "https://freesound.org/people/zgump/sounds/72999",
+      "previewUrl": "https://cdn.freesound.org/previews/72/72999_377011-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "zgump",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.8
+    },
+    {
+      "id": "openverse:d5b7a9af-5066-45b0-b8ed-d64e67eb5045",
+      "provider": "openverse",
+      "title": "Thick Muted Synth Bass",
+      "category": "bass",
+      "url": "https://freesound.org/people/ani_music/sounds/165314",
+      "previewUrl": "https://cdn.freesound.org/previews/165/165314_3008343-hq.mp3",
+      "downloadable": true,
+      "author": "ani_music",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 3.968
+    },
+    {
+      "id": "openverse:df9163c9-28fd-47c8-ac41-f8fa5e3be4c0",
+      "provider": "openverse",
+      "title": "SYNTH BASS 0202.wav",
+      "category": "bass",
+      "url": "https://freesound.org/people/zgump/sounds/73548",
+      "previewUrl": "https://cdn.freesound.org/previews/73/73548_377011-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "zgump",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.8
+    },
+    {
+      "id": "openverse:cd098a16-c0ed-4230-9793-5a04e2692929",
+      "provider": "openverse",
+      "title": "Synth Bass 120.wav",
+      "category": "bass",
+      "url": "https://freesound.org/people/oriolgos/sounds/130938",
+      "previewUrl": "https://cdn.freesound.org/previews/130/130938_53194-hq.mp3",
+      "downloadable": true,
+      "author": "oriolgos",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 8
+    },
+    {
+      "id": "openverse:979bf18c-8fe6-4619-9849-1bc9c966883f",
+      "provider": "openverse",
+      "title": "D - Swelling Distorted Synth Bass",
+      "category": "bass",
+      "url": "https://freesound.org/people/newagesoup/sounds/400634",
+      "previewUrl": "https://cdn.freesound.org/previews/400/400634_4067257-hq.mp3",
+      "downloadable": true,
+      "author": "newagesoup",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 12.8
+    },
+    {
+      "id": "openverse:619c0696-900a-47f3-858a-66119fcd2316",
+      "provider": "openverse",
+      "title": "SYNTH BASS 0105.wav",
+      "category": "bass",
+      "url": "https://freesound.org/people/zgump/sounds/73003",
+      "previewUrl": "https://cdn.freesound.org/previews/73/73003_377011-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "zgump",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.8
+    },
+    {
+      "id": "openverse:185b0196-a490-49cc-95e8-9979cd6e29fb",
+      "provider": "openverse",
+      "title": "SYNTH BASS 2",
+      "category": "bass",
+      "url": "https://freesound.org/people/XHALE303/sounds/535540",
+      "previewUrl": "https://cdn.freesound.org/previews/535/535540_9015615-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "XHALE303",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 12.048
+    },
+    {
+      "id": "openverse:54314b80-d474-4cff-9e14-a1a21e1097b3",
+      "provider": "openverse",
+      "title": "SYNTH BASS 0201.wav",
+      "category": "bass",
+      "url": "https://freesound.org/people/zgump/sounds/73547",
+      "previewUrl": "https://cdn.freesound.org/previews/73/73547_377011-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "zgump",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.8
+    }
+  ]
+}

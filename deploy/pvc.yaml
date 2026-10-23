@@ -1,0 +1,25 @@
+# Persistent data for sound-server, mounted at /data (SOUND_SERVER_DATA_DIR):
+# the SQLite store (sound-server.db: analysis cache, CLAP embeddings and the
+# samples they belong to) and, when embeddings are on, the downloaded CLAP
+# model under /data/models (~160 MB for clap-htsat-unfused, ~200 MB for
+# larger_clap_music_and_speech). 100k embedded samples take ~0.5 GB.
+#
+# Single writer, so one RWO volume. No storageClassName: the cluster default
+# (k3s local-path) is used, like the other single-replica SQLite apps in
+# shep-infra. local-path pins the volume to one node, which is fine for one
+# replica; the Deployment uses `strategy: Recreate` so the old pod releases the
+# database before the new one opens it.
+#
+# Everything here is a cache: deleting the PVC loses no user data, it only
+# means re-analysing and re-indexing.
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: sound-server-data
+  namespace: sound-server
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 2Gi

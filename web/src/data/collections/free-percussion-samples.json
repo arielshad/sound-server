@@ -1,0 +1,465 @@
+{
+  "slug": "free-percussion-samples",
+  "search": {
+    "q": "percussion",
+    "categories": [
+      "drums.perc"
+    ]
+  },
+  "updatedAt": "2026-10-23T09:41:52.382Z",
+  "samples": [
+    {
+      "id": "wikimediacommons:LatinTriangle.ogg",
+      "provider": "wikimediacommons",
+      "title": "LatinTriangle",
+      "category": "drums.perc",
+      "url": "https://commons.wikimedia.org/wiki/File:LatinTriangle.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2e/LatinTriangle.ogg/LatinTriangle.ogg.mp3",
+      "downloadable": true,
+      "author": "http://en.wikipedia.org/wiki/User:Freddythehat",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 16.128
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AJKPercusyn_cb/0",
+      "provider": "strudel",
+      "title": "AJK Percusyn · cb · 0",
+      "category": "drums.perc",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AJKPercusyn/ajkpercusyn-cb/Cowbell.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AJKPercusyn/ajkpercusyn-cb/Cowbell.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Guiro.ogg",
+      "provider": "wikimediacommons",
+      "title": "Guiro",
+      "category": "drums.perc",
+      "url": "https://commons.wikimedia.org/wiki/File:Guiro.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/01/Guiro.ogg/Guiro.ogg.mp3",
+      "downloadable": true,
+      "author": "Freddythehat at English Wikipedia",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 8.034
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AJKPercusyn_cb/1",
+      "provider": "strudel",
+      "title": "AJK Percusyn · cb · 1",
+      "category": "drums.perc",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AJKPercusyn/ajkpercusyn-cb/Snarepop.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AJKPercusyn/ajkpercusyn-cb/Snarepop.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Tambourine.ogg",
+      "provider": "wikimediacommons",
+      "title": "Tambourine",
+      "category": "drums.perc",
+      "url": "https://commons.wikimedia.org/wiki/File:Tambourine.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/74/Tambourine.ogg/Tambourine.ogg.mp3",
+      "downloadable": true,
+      "author": "Freddythehat at English Wikipedia",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 16.068
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AkaiLinn_cb/0",
+      "provider": "strudel",
+      "title": "Akai Linn · cb · 0",
+      "category": "drums.perc",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AkaiLinn/akailinn-cb/Cowbell.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AkaiLinn/akailinn-cb/Cowbell.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "orangefreesounds:11846",
+      "provider": "orangefreesounds",
+      "title": "Conga And Drum Loop At 116 bpm",
+      "category": "drums.perc",
+      "url": "https://orangefreesounds.com/conga-and-drum-loop-at-116-bpm/",
+      "previewUrl": "https://www.orangefreesounds.com/wp-content/uploads/2015/11/Conga-and-drum-loop-at-116-bpm.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "zip",
+        "mp3"
+      ],
+      "bpm": 116,
+      "durationSec": 8
+    },
+    {
+      "id": "wikimediacommons:Africanagogosound.ogg",
+      "provider": "wikimediacommons",
+      "title": "Africanagogosound",
+      "category": "drums.perc",
+      "url": "https://commons.wikimedia.org/wiki/File:Africanagogosound.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3d/Africanagogosound.ogg/Africanagogosound.ogg.mp3",
+      "downloadable": true,
+      "author": "Freddythehat ( talk ) ( Uploads )",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 12.133
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AkaiLinn_sh/0",
+      "provider": "strudel",
+      "title": "Akai Linn · sh · 0",
+      "category": "drums.perc",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AkaiLinn/akailinn-sh/Shuffle.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AkaiLinn/akailinn-sh/Shuffle.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Clave_pattern.ogg",
+      "provider": "wikimediacommons",
+      "title": "Clave pattern",
+      "category": "drums.perc",
+      "url": "https://commons.wikimedia.org/wiki/File:Clave_pattern.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/76/Clave_pattern.ogg/Clave_pattern.ogg.mp3",
+      "downloadable": true,
+      "author": "Freddythehat at English Wikipedia",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 10.124
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AkaiLinn_tb/0",
+      "provider": "strudel",
+      "title": "Akai Linn · tb · 0",
+      "category": "drums.perc",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AkaiLinn/akailinn-tb/Tambourin.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AkaiLinn/akailinn-tb/Tambourin.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Cowbell.ogg",
+      "provider": "wikimediacommons",
+      "title": "Cowbell",
+      "category": "drums.perc",
+      "url": "https://commons.wikimedia.org/wiki/File:Cowbell.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ab/Cowbell.ogg/Cowbell.ogg.mp3",
+      "downloadable": true,
+      "author": "Freddythehat at English Wikipedia",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 10.124
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AkaiMPC60_perc/0",
+      "provider": "strudel",
+      "title": "Akai MPC60 · perc · 0",
+      "category": "drums.perc",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AkaiMPC60/akaimpc60-perc/Bongo.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AkaiMPC60/akaimpc60-perc/Bongo.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Agogo.ogg",
+      "provider": "wikimediacommons",
+      "title": "Agogo",
+      "category": "drums.perc",
+      "url": "https://commons.wikimedia.org/wiki/File:Agogo.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e7/Agogo.ogg/Agogo.ogg.mp3",
+      "downloadable": true,
+      "author": "Freddythehat at English Wikipedia",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 8.136
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AkaiMPC60_perc/1",
+      "provider": "strudel",
+      "title": "Akai MPC60 · perc · 1",
+      "category": "drums.perc",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AkaiMPC60/akaimpc60-perc/Click.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AkaiMPC60/akaimpc60-perc/Click.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AkaiMPC60_perc/2",
+      "provider": "strudel",
+      "title": "Akai MPC60 · perc · 2",
+      "category": "drums.perc",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AkaiMPC60/akaimpc60-perc/Conga%20H.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AkaiMPC60/akaimpc60-perc/Conga%20H.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AkaiMPC60_perc/3",
+      "provider": "strudel",
+      "title": "Akai MPC60 · perc · 3",
+      "category": "drums.perc",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AkaiMPC60/akaimpc60-perc/Conga%20L.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AkaiMPC60/akaimpc60-perc/Conga%20L.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AkaiMPC60_perc/4",
+      "provider": "strudel",
+      "title": "Akai MPC60 · perc · 4",
+      "category": "drums.perc",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AkaiMPC60/akaimpc60-perc/Timbale.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AkaiMPC60/akaimpc60-perc/Timbale.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AkaiMPC60_rim/0",
+      "provider": "strudel",
+      "title": "Akai MPC60 · rim · 0",
+      "category": "drums.perc",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AkaiMPC60/akaimpc60-rim/Rim%20Gated.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AkaiMPC60/akaimpc60-rim/Rim%20Gated.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AkaiXR10_cb/0",
+      "provider": "strudel",
+      "title": "Akai XR10 · cb · 0",
+      "category": "drums.perc",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AkaiXR10/akaixr10-cb/Cowbell.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AkaiXR10/akaixr10-cb/Cowbell.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AkaiXR10_perc/0",
+      "provider": "strudel",
+      "title": "Akai XR10 · perc · 0",
+      "category": "drums.perc",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AkaiXR10/akaixr10-perc/Agogo.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AkaiXR10/akaixr10-perc/Agogo.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AkaiXR10_perc/1",
+      "provider": "strudel",
+      "title": "Akai XR10 · perc · 1",
+      "category": "drums.perc",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AkaiXR10/akaixr10-perc/Claves.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AkaiXR10/akaixr10-perc/Claves.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    }
+  ]
+}

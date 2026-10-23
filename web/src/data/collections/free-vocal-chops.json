@@ -6,6 +6,342 @@
       "vocals.chop"
     ]
   },
-  "updatedAt": "2026-10-23T04:46:00.691Z",
-  "samples": []
+  "updatedAt": "2026-10-23T09:45:54.656Z",
+  "samples": [
+    {
+      "id": "openverse:a790a105-1174-4b06-95a9-84a46448eb3e",
+      "provider": "openverse",
+      "title": "Dubstep Vocal Chop",
+      "category": "vocals.chop",
+      "url": "https://freesound.org/people/zShwagg/sounds/185524",
+      "previewUrl": "https://cdn.freesound.org/previews/185/185524_2078301-hq.mp3",
+      "downloadable": true,
+      "author": "zShwagg",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 12.8
+    },
+    {
+      "id": "openverse:744c1c95-9018-4195-88d2-7cc70c0de710",
+      "provider": "openverse",
+      "title": "Vocal Chops, Female, with Harmony",
+      "category": "vocals.chop",
+      "url": "https://freesound.org/people/f-r-a-g-i-l-e/sounds/476663",
+      "previewUrl": "https://cdn.freesound.org/previews/476/476663_8466114-hq.mp3",
+      "downloadable": true,
+      "author": "f-r-a-g-i-l-e",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "m4a"
+      ],
+      "durationSec": 35.642
+    },
+    {
+      "id": "openverse:67a31cb8-2ff9-497f-bdf6-a2e9b9917d22",
+      "provider": "openverse",
+      "title": "Arabic Vocal Chop Melody Full Loop - 160bpm - Cmin.wav",
+      "category": "vocals.chop",
+      "url": "https://freesound.org/people/nnaudio/sounds/479386",
+      "previewUrl": "https://cdn.freesound.org/previews/479/479386_6043685-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "nnaudio",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "bpm": 160,
+      "key": "C minor",
+      "durationSec": 12
+    },
+    {
+      "id": "openverse:f2665423-d90e-4177-a9a2-a94b79e87598",
+      "provider": "openverse",
+      "title": "Vocal Chop Fx.wav",
+      "category": "vocals.chop",
+      "url": "https://freesound.org/people/mkoenig/sounds/43538",
+      "previewUrl": "https://cdn.freesound.org/previews/43/43538_384035-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "mkoenig",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 2.001
+    },
+    {
+      "id": "openverse:e3a1dbf1-682c-4e95-b9fc-756ca2ababc8",
+      "provider": "openverse",
+      "title": "vocal chop loop 1 [C#Minor] [128bpm]",
+      "category": "vocals.chop",
+      "url": "https://freesound.org/people/deadrobotmusic/sounds/555917",
+      "previewUrl": "https://cdn.freesound.org/previews/555/555917_11532701-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "deadrobotmusic",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "bpm": 128,
+      "durationSec": 15
+    },
+    {
+      "id": "openverse:063074c0-b001-4279-8822-28f20f05e435",
+      "provider": "openverse",
+      "title": "Vocal Chops, Female Dry",
+      "category": "vocals.chop",
+      "url": "https://freesound.org/people/f-r-a-g-i-l-e/sounds/571242",
+      "previewUrl": "https://cdn.freesound.org/previews/571/571242_8466114-hq.mp3",
+      "downloadable": true,
+      "author": "f-r-a-g-i-l-e",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "aiff"
+      ],
+      "durationSec": 16.664
+    },
+    {
+      "id": "openverse:2a553c71-068e-4332-9819-7269f373e8ca",
+      "provider": "openverse",
+      "title": "Vocal Chops, Reverb, Female",
+      "category": "vocals.chop",
+      "url": "https://freesound.org/people/f-r-a-g-i-l-e/sounds/478624",
+      "previewUrl": "https://cdn.freesound.org/previews/478/478624_8466114-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "f-r-a-g-i-l-e",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "m4a"
+      ],
+      "durationSec": 19.202
+    },
+    {
+      "id": "openverse:e426d3e2-e575-4929-afec-a43cf9e8faa3",
+      "provider": "openverse",
+      "title": "Vocal Chops, Female, Reverb",
+      "category": "vocals.chop",
+      "url": "https://freesound.org/people/f-r-a-g-i-l-e/sounds/474095",
+      "previewUrl": "https://cdn.freesound.org/previews/474/474095_8466114-hq.mp3",
+      "downloadable": true,
+      "author": "f-r-a-g-i-l-e",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "m4a"
+      ],
+      "durationSec": 26.772
+    },
+    {
+      "id": "openverse:cc286b49-3137-45c7-9d07-1a65f836944d",
+      "provider": "openverse",
+      "title": "Vintage Vocal Chops",
+      "category": "vocals.chop",
+      "url": "https://freesound.org/people/f-r-a-g-i-l-e/sounds/478627",
+      "previewUrl": "https://cdn.freesound.org/previews/478/478627_8466114-hq.mp3",
+      "downloadable": true,
+      "author": "f-r-a-g-i-l-e",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "m4a"
+      ],
+      "durationSec": 16.3
+    },
+    {
+      "id": "openverse:6944e2ee-2168-4baf-9009-32306e1de301",
+      "provider": "openverse",
+      "title": "Child Vocal Chops",
+      "category": "vocals.chop",
+      "url": "https://freesound.org/people/f-r-a-g-i-l-e/sounds/496747",
+      "previewUrl": "https://cdn.freesound.org/previews/496/496747_8466114-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "f-r-a-g-i-l-e",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "m4a"
+      ],
+      "durationSec": 22.291
+    },
+    {
+      "id": "openverse:31d3d313-3b6c-4bc9-aab7-8de0e782db06",
+      "provider": "openverse",
+      "title": "vocal chop loop 1 [reverse reverbs only] [C Sharp Minor] [128bpm]",
+      "category": "vocals.chop",
+      "url": "https://freesound.org/people/deadrobotmusic/sounds/555916",
+      "previewUrl": "https://cdn.freesound.org/previews/555/555916_11532701-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "deadrobotmusic",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "bpm": 128,
+      "durationSec": 15
+    },
+    {
+      "id": "openverse:84aeaf9b-80f3-43e8-a545-2fc7fa8d07a8",
+      "provider": "openverse",
+      "title": "Peggy Vocals Chops, 1950's",
+      "category": "vocals.chop",
+      "url": "https://freesound.org/people/f-r-a-g-i-l-e/sounds/496746",
+      "previewUrl": "https://cdn.freesound.org/previews/496/496746_8466114-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "f-r-a-g-i-l-e",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "m4a"
+      ],
+      "durationSec": 24.032
+    },
+    {
+      "id": "openverse:6f7452db-4eaf-40b2-ba2b-13009907a92f",
+      "provider": "openverse",
+      "title": "Child Vocal Chops, Dry",
+      "category": "vocals.chop",
+      "url": "https://freesound.org/people/f-r-a-g-i-l-e/sounds/496748",
+      "previewUrl": "https://cdn.freesound.org/previews/496/496748_8466114-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "f-r-a-g-i-l-e",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "m4a"
+      ],
+      "durationSec": 19.319
+    },
+    {
+      "id": "openverse:4a019b96-74a8-478e-b60e-2dd6a71389ab",
+      "provider": "openverse",
+      "title": "Delilah Vocal Chop",
+      "category": "vocals.chop",
+      "url": "https://freesound.org/people/beatsbygastronaut/sounds/664148",
+      "previewUrl": "https://cdn.freesound.org/previews/664/664148_14557099-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "beatsbygastronaut",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 3.157
+    }
+  ]
 }

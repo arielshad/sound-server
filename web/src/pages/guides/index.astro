@@ -1,0 +1,65 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import Breadcrumbs from "@/components/collections/Breadcrumbs.astro";
+import { GUIDE_SECTIONS, allGuides, guidePath } from "@/lib/guides";
+import { breadcrumbs, collectionPage } from "@/lib/schema";
+import { SOURCE_COUNT } from "@/lib/site";
+
+const guides = await allGuides();
+const title = "Guides to free samples and licences";
+const description = "Answer-first guides for producers and AI assistants: using Freesound and CC samples commercially, crediting, clearance, 808s, BPM and key, drum kits.";
+const trail = [{ name: "Home", path: "/" }, { name: "Guides", path: "/guides" }];
+const updated = new Date(Math.max(...guides.map((g) => g.data.updated.getTime())));
+const anchor = (s: string) => s.toLowerCase().replace(/\s+/g, "-");
+const intros: Record<string, string> = {
+  Licensing: "Whether you may release a track with a sample, what each licence asks of you, and what to do when a platform flags a sound.",
+  Production: "Finding the right sounds by type, tempo and key, and turning them into kits and parts.",
+  "AI agents": "How assistants and coding agents can search, vet and fetch samples for you.",
+};
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  markdown="/guides.md"
+  schema={[collectionPage({ title, description, path: "/guides", dateModified: updated, links: guides.map((g) => ({ name: g.data.title, path: guidePath(g.id) })) }), breadcrumbs(trail)]}
+>
+  <div class="mx-auto max-w-6xl px-4 py-10 sm:px-6">
+    <Breadcrumbs trail={trail} />
+    <header class="mt-6 max-w-3xl">
+      <p class="text-sm font-medium text-primary">Guides</p>
+      <h1 class="mt-2 text-balance text-3xl font-semibold tracking-tight sm:text-4xl">{title}</h1>
+      <p class="mt-4 text-pretty text-muted-foreground">
+        Every guide starts with a short answer, then explains the details: what a licence lets you do with a sample, how to credit it, how to find sounds that fit your track, and how to let an AI agent do the digging. They link straight into live searches of {SOURCE_COUNT} sample sites and into the curated collections, so you can go from question to sound in one click.
+      </p>
+      <p class="mt-3 text-sm text-muted-foreground">
+        Looking for one word? See the <a href="/glossary" class="text-primary underline underline-offset-2">glossary</a>. For questions about Sound Server itself, see the <a href="/docs/faq" class="text-primary underline underline-offset-2">FAQ</a>.
+      </p>
+    </header>
+
+    {GUIDE_SECTIONS.map((section) => {
+      const gs = guides.filter((g) => g.data.section === section);
+      return gs.length ? (
+        <section class="mt-14" aria-labelledby={anchor(section)}>
+          <h2 id={anchor(section)} class="text-2xl font-semibold tracking-tight">{section}</h2>
+          <p class="mt-2 max-w-3xl text-sm text-muted-foreground">{intros[section]}</p>
+          <ul class="mt-6 grid gap-5 md:grid-cols-2">
+            {gs.map((g) => (
+              <li class="group relative flex flex-col rounded-xl border bg-card/50 p-5 transition hover:border-primary/40">
+                <h3 class="font-medium leading-snug group-hover:text-primary">
+                  <a href={guidePath(g.id)} class="after:absolute after:inset-0">{g.data.title}</a>
+                </h3>
+                <p class="mt-2 line-clamp-3 text-sm text-muted-foreground">{g.data.answer}</p>
+                <p class="mt-auto pt-3 text-xs text-muted-foreground">{g.data.kind === "howto" ? "How-to" : "Explainer"}{g.data.faq.length ? ` · ${g.data.faq.length} questions answered` : ""}</p>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ) : null;
+    })}
+
+    <p class="mt-16 text-sm text-muted-foreground">
+      Ready to listen? <a href="/search" class="text-primary underline underline-offset-2">Search all {SOURCE_COUNT} sites</a>, browse the <a href="/samples" class="text-primary underline underline-offset-2">sample collections</a>, or read <a href="/docs/licences" class="text-primary underline underline-offset-2">how verdicts are decided</a>.
+    </p>
+  </div>
+</BaseLayout>

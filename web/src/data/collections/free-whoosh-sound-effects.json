@@ -1,0 +1,560 @@
+{
+  "slug": "free-whoosh-sound-effects",
+  "search": {
+    "q": "whoosh",
+    "categories": [
+      "fx.sweep"
+    ]
+  },
+  "updatedAt": "2026-10-23T09:46:57.654Z",
+  "samples": [
+    {
+      "id": "orangefreesounds:58841",
+      "provider": "orangefreesounds",
+      "title": "Santa Claus Fast Flyby Whoosh Sound Effect",
+      "category": "fx.sweep",
+      "url": "https://orangefreesounds.com/santa-claus-fast-flyby-whoosh-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/10/Santa-claus-fast-flyby-whoosh-sound-effect.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 4
+    },
+    {
+      "id": "opengameart:whoosh-1",
+      "provider": "opengameart",
+      "title": "Whoosh 1",
+      "category": "fx.sweep",
+      "url": "https://opengameart.org/content/whoosh-1",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/whoosh1.wav.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/whoosh1.wav.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:57588",
+      "provider": "orangefreesounds",
+      "title": "Powerful Whoosh Sound Effect",
+      "category": "fx.sweep",
+      "url": "https://orangefreesounds.com/powerful-whoosh-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/07/Powerful-whoosh-sound-effect.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 1
+    },
+    {
+      "id": "opengameart:whoosh-2",
+      "provider": "opengameart",
+      "title": "Whoosh 2",
+      "category": "fx.sweep",
+      "url": "https://opengameart.org/content/whoosh-2",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/whoosh2.wav.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/whoosh2.wav.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "strudel:dough-fox/fwoosh/0",
+      "provider": "strudel",
+      "title": "Dough-Fox (FoxDot samples) · fwoosh · 0",
+      "category": "fx.sweep",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Fox/blob/main/fwoosh/3_misc.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Fox/main/fwoosh/3_misc.wav",
+      "downloadable": true,
+      "author": "FoxDot (Ryan Kirkbride)",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "orangefreesounds:57045",
+      "provider": "orangefreesounds",
+      "title": "Zoom Whoosh Sound Effect",
+      "category": "fx.sweep",
+      "url": "https://orangefreesounds.com/zoom-whoosh-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/06/Zoom-whoosh-sound-effect.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 2
+    },
+    {
+      "id": "opengameart:air-whoosh",
+      "provider": "opengameart",
+      "title": "Air whoosh",
+      "category": "fx.sweep",
+      "url": "https://opengameart.org/content/air-whoosh",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/whoosh2_0.wav.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/whoosh2_0.wav.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "strudel:dough-fox/fwoosh/1",
+      "provider": "strudel",
+      "title": "Dough-Fox (FoxDot samples) · fwoosh · 1",
+      "category": "fx.sweep",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Fox/blob/main/fwoosh/2_misc.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Fox/main/fwoosh/2_misc.wav",
+      "downloadable": true,
+      "author": "FoxDot (Ryan Kirkbride)",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "orangefreesounds:56935",
+      "provider": "orangefreesounds",
+      "title": "Futuristic Rising Whoosh Sound Effect",
+      "category": "fx.sweep",
+      "url": "https://orangefreesounds.com/futuristic-rising-whoosh-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/06/Futuristic-rising-whoosh-sound-effect.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 4
+    },
+    {
+      "id": "opengameart:jet-airplane-take-off-with-strong-ground-whoosh",
+      "provider": "opengameart",
+      "title": "Jet airplane take off with strong ground whoosh",
+      "category": "fx.sweep",
+      "url": "https://opengameart.org/content/jet-airplane-take-off-with-strong-ground-whoosh",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/295080-07-airplane_take_off-ground_woosh.wav.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/295080-07-airplane_take_off-ground_woosh.wav.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "strudel:dough-fox/fwoosh/2",
+      "provider": "strudel",
+      "title": "Dough-Fox (FoxDot samples) · fwoosh · 2",
+      "category": "fx.sweep",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Fox/blob/main/fwoosh/4_misc.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Fox/main/fwoosh/4_misc.wav",
+      "downloadable": true,
+      "author": "FoxDot (Ryan Kirkbride)",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "orangefreesounds:56647",
+      "provider": "orangefreesounds",
+      "title": "Airy Cinematic Whoosh Sound Effect",
+      "category": "fx.sweep",
+      "url": "https://orangefreesounds.com/airy-cinematic-whoosh-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/05/Airy-cinematic-whoosh-sound-effect.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 2
+    },
+    {
+      "id": "opengameart:wind-whoosh-loop",
+      "provider": "opengameart",
+      "title": "wind whoosh loop",
+      "category": "fx.sweep",
+      "url": "https://opengameart.org/content/wind-whoosh-loop",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/wind%20woosh%20loop_0.ogg.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/wind%20woosh%20loop_0.ogg.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "strudel:dough-fox/fwoosh/3",
+      "provider": "strudel",
+      "title": "Dough-Fox (FoxDot samples) · fwoosh · 3",
+      "category": "fx.sweep",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Fox/blob/main/fwoosh/0_misc.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Fox/main/fwoosh/0_misc.wav",
+      "downloadable": true,
+      "author": "FoxDot (Ryan Kirkbride)",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "opengameart:freight-train-passing-by-with-fast-whooshes",
+      "provider": "opengameart",
+      "title": "Freight train -- passing by with fast whooshes.",
+      "category": "fx.sweep",
+      "url": "https://opengameart.org/content/freight-train-passing-by-with-fast-whooshes",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/190047-freight-train-02-fast-whooshes.wav.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/190047-freight-train-02-fast-whooshes.wav.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:56141",
+      "provider": "orangefreesounds",
+      "title": "Cyberpunk Digital Blade Whoosh Sound Effect",
+      "category": "fx.sweep",
+      "url": "https://orangefreesounds.com/cyberpunk-digital-blade-whoosh-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/04/Cyberpunk-digital-blade-whoosh-sound-effect.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 5
+    },
+    {
+      "id": "strudel:dough-fox/fwoosh/4",
+      "provider": "strudel",
+      "title": "Dough-Fox (FoxDot samples) · fwoosh · 4",
+      "category": "fx.sweep",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Fox/blob/main/fwoosh/1_misc.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Fox/main/fwoosh/1_misc.wav",
+      "downloadable": true,
+      "author": "FoxDot (Ryan Kirkbride)",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "opengameart:wierd-whooshes",
+      "provider": "opengameart",
+      "title": "Wierd Whooshes",
+      "category": "fx.sweep",
+      "url": "https://opengameart.org/content/wierd-whooshes",
+      "previewUrl": "https://opengameart.org/sites/default/files/weird_whoosh_sounds_-_whoosh_12.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/weird_whoosh_sounds_-_whoosh_12.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:55674",
+      "provider": "orangefreesounds",
+      "title": "Whoosh Zoom Sound Effect",
+      "category": "fx.sweep",
+      "url": "https://orangefreesounds.com/whoosh-zoom-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/02/Whoosh-zoom-sound-effect.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 4
+    },
+    {
+      "id": "orangefreesounds:56628",
+      "provider": "orangefreesounds",
+      "title": "Bamboo Rainstick Whoosh Sound Effect – Natural Transition Sweep",
+      "category": "fx.sweep",
+      "url": "https://orangefreesounds.com/bamboo-rainstick-whoosh-sound-effect-natural-transition-sweep/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/05/Bamboo-rainstick-whoosh-sound-effect-natural-transition-sweep.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 2
+    },
+    {
+      "id": "orangefreesounds:53204",
+      "provider": "orangefreesounds",
+      "title": "Fireball Whoosh Sound Effect",
+      "category": "fx.sweep",
+      "url": "https://orangefreesounds.com/fireball-whoosh-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2025/10/Fireball-whoosh-sound-effect.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 2
+    },
+    {
+      "id": "orangefreesounds:53177",
+      "provider": "orangefreesounds",
+      "title": "Whoosh Breath Sound Effect",
+      "category": "fx.sweep",
+      "url": "https://orangefreesounds.com/whoosh-breath-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2025/10/Whoosh-breath-sound-effect.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 4
+    },
+    {
+      "id": "orangefreesounds:55733",
+      "provider": "orangefreesounds",
+      "title": "Deep Cinematic Whoosh Transition Sound Effect – Powerful Low Frequency Sweep",
+      "category": "fx.sweep",
+      "url": "https://orangefreesounds.com/deep-cinematic-whoosh-transition-sound-effect-powerful-low-frequency-sweep/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/03/Deep-cinematic-whoosh-transition-sound-effect-powerful-low-frequency-sweep.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 3
+    },
+    {
+      "id": "orangefreesounds:52560",
+      "provider": "orangefreesounds",
+      "title": "Ghost Whoosh Sound Effect",
+      "category": "fx.sweep",
+      "url": "https://orangefreesounds.com/ghost-whoosh-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2025/09/Ghost-whoosh-sound-effect.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 4
+    },
+    {
+      "id": "orangefreesounds:55592",
+      "provider": "orangefreesounds",
+      "title": "Cartoon Slide Whistle Zip Whoosh Sound Effect",
+      "category": "fx.sweep",
+      "url": "https://orangefreesounds.com/cartoon-slide-whistle-zip-whoosh-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/02/Cartoon-slide-whistle-zip-whoosh-sound-effect.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 1
+    },
+    {
+      "id": "orangefreesounds:55322",
+      "provider": "orangefreesounds",
+      "title": "Cinematic Fast Rise Whoosh & Hit Sound Effect",
+      "category": "fx.sweep",
+      "url": "https://orangefreesounds.com/cinematic-fast-rise-whoosh-hit-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/01/Cinematic-fast-rise-whoosh-hit-sound-effect.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 4
+    }
+  ]
+}

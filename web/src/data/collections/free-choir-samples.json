@@ -1,0 +1,744 @@
+{
+  "slug": "free-choir-samples",
+  "search": {
+    "q": "choir",
+    "categories": [
+      "vocals.choir"
+    ]
+  },
+  "updatedAt": "2026-10-23T09:37:32.090Z",
+  "samples": [
+    {
+      "id": "openverse:f985da86-d8bb-4a4f-8ddc-248abd7a1dfd",
+      "provider": "openverse",
+      "title": "Choir of Voices - Single Chord",
+      "category": "vocals.choir",
+      "url": "https://freesound.org/people/bone666138/sounds/274121",
+      "previewUrl": "https://cdn.freesound.org/previews/274/274121_285997-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "bone666138",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 6.302
+    },
+    {
+      "id": "wikimediacommons:Difficult_Decision_Choir_01.ogg",
+      "provider": "wikimediacommons",
+      "title": "Difficult Decision Choir 01",
+      "category": "vocals.choir",
+      "url": "https://commons.wikimedia.org/wiki/File:Difficult_Decision_Choir_01.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/eb/Difficult_Decision_Choir_01.ogg/Difficult_Decision_Choir_01.ogg.mp3",
+      "downloadable": true,
+      "author": "Miguel Ángel Zaragozá de León",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 19.4
+    },
+    {
+      "id": "openverse:661f9894-50a3-4632-925f-e2209e5098e9",
+      "provider": "openverse",
+      "title": "choir HALLELUJAH.wav",
+      "category": "vocals.choir",
+      "url": "https://freesound.org/people/klankbeeld/sounds/189961",
+      "previewUrl": "https://cdn.freesound.org/previews/189/189961_1648170-hq.mp3",
+      "downloadable": true,
+      "author": "klankbeeld",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 10.336
+    },
+    {
+      "id": "orangefreesounds:54465",
+      "provider": "orangefreesounds",
+      "title": "Dark Magical Choir Sound Effect",
+      "category": "vocals.choir",
+      "url": "https://orangefreesounds.com/dark-magical-choir-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2025/12/Dark-magical-choir-sound-effect.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 30
+    },
+    {
+      "id": "wikimediacommons:Choir_Test.wav",
+      "provider": "wikimediacommons",
+      "title": "Choir Test",
+      "category": "vocals.choir",
+      "url": "https://commons.wikimedia.org/wiki/File:Choir_Test.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/20/Choir_Test.wav/Choir_Test.wav.mp3",
+      "downloadable": true,
+      "author": "Jitoli",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 64.505
+    },
+    {
+      "id": "orangefreesounds:55940",
+      "provider": "orangefreesounds",
+      "title": "Dramatic Impact: Suspenseful Piano & Dark Choir Swell Sound Effect",
+      "category": "vocals.choir",
+      "url": "https://orangefreesounds.com/dramatic-impact-suspenseful-piano-dark-choir-swell-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/03/Dramatic-impact-suspenseful-piano-dark-choir-swell-sound-effect.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 8
+    },
+    {
+      "id": "openverse:94b09deb-eaa4-4cb1-9766-c5f67ad7cc34",
+      "provider": "openverse",
+      "title": "choir a.wav",
+      "category": "vocals.choir",
+      "url": "https://freesound.org/people/ERH/sounds/29593",
+      "previewUrl": "https://cdn.freesound.org/previews/29/29593_215874-hq.mp3",
+      "downloadable": true,
+      "author": "ERH",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 10.736
+    },
+    {
+      "id": "wikimediacommons:Radio_Choir_of_RA-_Miss_my_homeland.wav",
+      "provider": "wikimediacommons",
+      "title": "Radio Choir of RA- Miss my homeland",
+      "category": "vocals.choir",
+      "url": "https://commons.wikimedia.org/wiki/File:Radio_Choir_of_RA-_Miss_my_homeland.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/86/Radio_Choir_of_RA-_Miss_my_homeland.wav/Radio_Choir_of_RA-_Miss_my_homeland.wav.mp3",
+      "downloadable": true,
+      "author": "Alschoir92",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 176
+    },
+    {
+      "id": "orangefreesounds:42915",
+      "provider": "orangefreesounds",
+      "title": "Dramatic Mystical Choir Music With Old Clock Ticking Sound Effect",
+      "category": "vocals.choir",
+      "url": "https://orangefreesounds.com/dramatic-mystical-choir-music-with-old-clock-ticking-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2023/05/Dramatic-mystical-choir-music-with-old-clock-ticking-sound-effect.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 43
+    },
+    {
+      "id": "openverse:80c422a5-424b-4079-badf-d9e4ac35ddb8",
+      "provider": "openverse",
+      "title": "Choir glissando crescendo reverb.wav",
+      "category": "vocals.choir",
+      "url": "https://freesound.org/people/Timbre/sounds/76327",
+      "previewUrl": "https://cdn.freesound.org/previews/76/76327_1015240-hq.mp3",
+      "downloadable": true,
+      "author": "Timbre",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 31.091
+    },
+    {
+      "id": "wikimediacommons:Soldier's_Chorus_-_Choir.ogg",
+      "provider": "wikimediacommons",
+      "title": "Soldier's Chorus - Choir",
+      "category": "vocals.choir",
+      "url": "https://commons.wikimedia.org/wiki/File:Soldier%27s_Chorus_-_Choir.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/49/Soldier%27s_Chorus_-_Choir.ogg/Soldier%27s_Chorus_-_Choir.ogg.mp3",
+      "downloadable": true,
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 30
+    },
+    {
+      "id": "orangefreesounds:53732",
+      "provider": "orangefreesounds",
+      "title": "Ethereal Mysterious Choir Ambience Sound Effect",
+      "category": "vocals.choir",
+      "url": "https://orangefreesounds.com/ethereal-mysterious-choir-ambience-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2025/10/Ethereal-mysterious-choir-ambience-sound-effect.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 81
+    },
+    {
+      "id": "openverse:0c754cb4-bcb6-4f40-9449-77adc7b1765a",
+      "provider": "openverse",
+      "title": "Spooky Singing Choir",
+      "category": "vocals.choir",
+      "url": "https://freesound.org/people/xSylviaMoonx/sounds/147881",
+      "previewUrl": "https://cdn.freesound.org/previews/147/147881_713831-hq.mp3",
+      "downloadable": true,
+      "author": "xSylviaMoonx",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 4.655
+    },
+    {
+      "id": "wikimediacommons:Soldier's_Chorus_-_Rhos_Orpheus_Male_Voice_Choir.ogg",
+      "provider": "wikimediacommons",
+      "title": "Soldier's Chorus - Rhos Orpheus Male Voice Choir",
+      "category": "vocals.choir",
+      "url": "https://commons.wikimedia.org/wiki/File:Soldier%27s_Chorus_-_Rhos_Orpheus_Male_Voice_Choir.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7d/Soldier%27s_Chorus_-_Rhos_Orpheus_Male_Voice_Choir.ogg/Soldier%27s_Chorus_-_Rhos_Orpheus_Male_Voice_Choir.ogg.mp3",
+      "downloadable": true,
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 30
+    },
+    {
+      "id": "orangefreesounds:30860",
+      "provider": "orangefreesounds",
+      "title": "Mystical Choir",
+      "category": "vocals.choir",
+      "url": "https://orangefreesounds.com/mystical-choir/",
+      "previewUrl": "https://www.orangefreesounds.com/wp-content/uploads/2020/09/Mystical-choir.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 63
+    },
+    {
+      "id": "openverse:a59aa1e2-78f2-4d0e-9ac2-8ecd81e4e28a",
+      "provider": "openverse",
+      "title": "Dark Choir Singing",
+      "category": "vocals.choir",
+      "url": "https://freesound.org/people/BrainClaim/sounds/273804",
+      "previewUrl": "https://cdn.freesound.org/previews/273/273804_4875045-hq.mp3",
+      "downloadable": true,
+      "author": "BrainClaim",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 156.502
+    },
+    {
+      "id": "wikimediacommons:Gwahoddiad_-_The_Phoenix_(Male_Choir).ogg",
+      "provider": "wikimediacommons",
+      "title": "Gwahoddiad - The Phoenix (Male Choir)",
+      "category": "vocals.choir",
+      "url": "https://commons.wikimedia.org/wiki/File:Gwahoddiad_-_The_Phoenix_(Male_Choir).ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f8/Gwahoddiad_-_The_Phoenix_%28Male_Choir%29.ogg/Gwahoddiad_-_The_Phoenix_%28Male_Choir%29.ogg.mp3",
+      "downloadable": true,
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 30
+    },
+    {
+      "id": "orangefreesounds:50605",
+      "provider": "orangefreesounds",
+      "title": "Suspenseful Impact Dramatic Piano Choir Sound Effect",
+      "category": "vocals.choir",
+      "url": "https://orangefreesounds.com/suspenseful-impact-dramatic-piano-choir-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2025/04/Suspenseful-impact-dramatic-piano-choir-sound-effect.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 12
+    },
+    {
+      "id": "openverse:b11a1763-8fc4-47ff-bf32-4807b9395432",
+      "provider": "openverse",
+      "title": "Dark Choir 01.wav",
+      "category": "vocals.choir",
+      "url": "https://freesound.org/people/Exsomniel/sounds/207809",
+      "previewUrl": "https://cdn.freesound.org/previews/207/207809_3863330-hq.mp3",
+      "downloadable": true,
+      "author": "Exsomniel",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 4.196
+    },
+    {
+      "id": "wikimediacommons:The_Soldiers_Chorus_-_London_Welsh_Male_Voice_Choir.ogg",
+      "provider": "wikimediacommons",
+      "title": "The Soldiers Chorus - London Welsh Male Voice Choir",
+      "category": "vocals.choir",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Soldiers_Chorus_-_London_Welsh_Male_Voice_Choir.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e0/The_Soldiers_Chorus_-_London_Welsh_Male_Voice_Choir.ogg/The_Soldiers_Chorus_-_London_Welsh_Male_Voice_Choir.ogg.mp3",
+      "downloadable": true,
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 30
+    },
+    {
+      "id": "openverse:2ac4de97-ff1a-4916-a1c0-324af330d0d4",
+      "provider": "openverse",
+      "title": "Choir One-Shot",
+      "category": "vocals.choir",
+      "url": "https://freesound.org/people/majoranman/sounds/240745",
+      "previewUrl": "https://cdn.freesound.org/previews/240/240745_3215867-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "majoranman",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.718
+    },
+    {
+      "id": "wikimediacommons:Cwm_Rhondda_-_The_Phoenix_(Male_Choir).ogg",
+      "provider": "wikimediacommons",
+      "title": "Cwm Rhondda - The Phoenix (Male Choir)",
+      "category": "vocals.choir",
+      "url": "https://commons.wikimedia.org/wiki/File:Cwm_Rhondda_-_The_Phoenix_(Male_Choir).ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bd/Cwm_Rhondda_-_The_Phoenix_%28Male_Choir%29.ogg/Cwm_Rhondda_-_The_Phoenix_%28Male_Choir%29.ogg.mp3",
+      "downloadable": true,
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 30
+    },
+    {
+      "id": "openverse:da4042ae-6e2e-4758-81fb-28fac6083e22",
+      "provider": "openverse",
+      "title": "20110409.choir.01.wav",
+      "category": "vocals.choir",
+      "url": "https://freesound.org/people/dobroide/sounds/117891",
+      "previewUrl": "https://cdn.freesound.org/previews/117/117891_8043-hq.mp3",
+      "downloadable": true,
+      "author": "dobroide",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 21.682
+    },
+    {
+      "id": "wikimediacommons:Gwahoddiad_-_Pendyrus_Choir-cory_Band.ogg",
+      "provider": "wikimediacommons",
+      "title": "Gwahoddiad - Pendyrus Choir/cory Band",
+      "category": "vocals.choir",
+      "url": "https://commons.wikimedia.org/wiki/File:Gwahoddiad_-_Pendyrus_Choir-cory_Band.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/86/Gwahoddiad_-_Pendyrus_Choir-cory_Band.ogg/Gwahoddiad_-_Pendyrus_Choir-cory_Band.ogg.mp3",
+      "downloadable": true,
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 30
+    },
+    {
+      "id": "openverse:1cd54885-18d4-407a-8906-36f176872197",
+      "provider": "openverse",
+      "title": "Choir",
+      "category": "vocals.choir",
+      "url": "https://freesound.org/people/giuseppeaceto/sounds/498712",
+      "previewUrl": "https://cdn.freesound.org/previews/498/498712_6455031-hq.mp3",
+      "downloadable": true,
+      "author": "giuseppeaceto",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 205.743
+    },
+    {
+      "id": "wikimediacommons:Radio_Choir_of_RA-Shorora.ogg",
+      "provider": "wikimediacommons",
+      "title": "Radio Choir of RA-Shorora",
+      "category": "vocals.choir",
+      "url": "https://commons.wikimedia.org/wiki/File:Radio_Choir_of_RA-Shorora.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/56/Radio_Choir_of_RA-Shorora.ogg/Radio_Choir_of_RA-Shorora.ogg.mp3",
+      "downloadable": true,
+      "author": "Alschoir92",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 86.347
+    },
+    {
+      "id": "openverse:947d153f-7d6e-417d-bd8f-25af2d5ef0ea",
+      "provider": "openverse",
+      "title": "choir SALVE REGINA.wav",
+      "category": "vocals.choir",
+      "url": "https://freesound.org/people/klankbeeld/sounds/191285",
+      "previewUrl": "https://cdn.freesound.org/previews/191/191285_1648170-hq.mp3",
+      "downloadable": true,
+      "author": "klankbeeld",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 9.897
+    },
+    {
+      "id": "wikimediacommons:Simple_Gifts_-_Pendyrus_Choir-cory_Band.ogg",
+      "provider": "wikimediacommons",
+      "title": "Simple Gifts - Pendyrus Choir/cory Band",
+      "category": "vocals.choir",
+      "url": "https://commons.wikimedia.org/wiki/File:Simple_Gifts_-_Pendyrus_Choir-cory_Band.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/16/Simple_Gifts_-_Pendyrus_Choir-cory_Band.ogg/Simple_Gifts_-_Pendyrus_Choir-cory_Band.ogg.mp3",
+      "downloadable": true,
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 30
+    },
+    {
+      "id": "openverse:cebfc930-fd33-4e53-8c8e-b81171852fdf",
+      "provider": "openverse",
+      "title": "Church choir",
+      "category": "vocals.choir",
+      "url": "https://freesound.org/people/kirmm/sounds/503504",
+      "previewUrl": "https://cdn.freesound.org/previews/503/503504_4478330-hq.mp3",
+      "downloadable": true,
+      "author": "kirmm",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 43.374
+    },
+    {
+      "id": "wikimediacommons:Choral_Compline_29_May_2016.ogg",
+      "provider": "wikimediacommons",
+      "title": "Choral Compline 29 May 2016",
+      "category": "vocals.choir",
+      "url": "https://commons.wikimedia.org/wiki/File:Choral_Compline_29_May_2016.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/34/Choral_Compline_29_May_2016.ogg/Choral_Compline_29_May_2016.ogg.mp3",
+      "downloadable": true,
+      "author": "Trinity Church Boston",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 1098.261
+    },
+    {
+      "id": "openverse:8fdbfde6-13f0-469b-876d-fc0d85644087",
+      "provider": "openverse",
+      "title": "Choir singing Christe adoramus te 140928_0418.wav",
+      "category": "vocals.choir",
+      "url": "https://freesound.org/people/klankbeeld/sounds/251252",
+      "previewUrl": "https://cdn.freesound.org/previews/251/251252_1648170-hq.mp3",
+      "downloadable": true,
+      "author": "klankbeeld",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 160.508
+    },
+    {
+      "id": "openverse:01c5def8-2cbd-402d-9b75-07bec4dcbfff",
+      "provider": "openverse",
+      "title": "Supernova Choir 1.wav",
+      "category": "vocals.choir",
+      "url": "https://freesound.org/people/InSintesi/sounds/348352",
+      "previewUrl": "https://cdn.freesound.org/previews/348/348352_6244580-hq.mp3",
+      "downloadable": true,
+      "author": "InSintesi",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 31.584
+    }
+  ]
+}

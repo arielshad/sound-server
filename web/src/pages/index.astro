@@ -1,7 +1,7 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import AgentSetup from "@/components/home/AgentSetup";
-import { AnimatedGridPattern } from "@/components/ui/animated-grid-pattern";
+import GridPattern from "@/components/home/GridPattern.astro";
 import { AnimatedShinyText } from "@/components/ui/animated-shiny-text";
 import { Marquee } from "@/components/ui/marquee";
 import { EXAMPLE_PROMPTS } from "@/lib/agents";
@@ -10,6 +10,7 @@ import { faqPage, softwareApplication, webApi } from "@/lib/schema";
 import { CATALOG, HAS_CATALOG, fmt, fmtShort } from "@/lib/catalog";
 import { LINKED, MCP_NAME, MCP_URL, PROVIDERS, SEARCHED, SITE, SOURCE_COUNT } from "@/lib/site";
 import { allCollections, allHubs, hubPath } from "@/lib/collections";
+import { allGuides, guidePath } from "@/lib/guides";
 import { VERDICTS_BY_TONE, VERDICT_LABELS, VERDICT_MEANING, categoryLabel } from "@/lib/vocab";
 
 const suggestions = ["punchy kick", "808 in F minor", "vocal chop 140 bpm", "riser", "open hat", "vinyl crackle"];
@@ -58,18 +59,13 @@ const tones = [
 const collections = (await allCollections()).filter((c) => c.indexable);
 const hubs = await allHubs();
 const featured = SEARCHED.slice(0, 12);
+const guides = (await allGuides()).slice(0, 8);
 ---
 
 <BaseLayout title={SITE.name} description={SITE.description} schema={[softwareApplication(), webApi(), faqPage(FAQ)]}>
   <!-- Hero -->
   <section class="relative isolate overflow-hidden border-b border-border/60">
-    <AnimatedGridPattern
-      client:only="react"
-      numSquares={36}
-      maxOpacity={0.12}
-      duration={3}
-      className="absolute inset-0 -z-10 h-full w-full [mask-image:radial-gradient(640px_circle_at_50%_30%,white,transparent)] skew-y-6 fill-primary/20 stroke-primary/15"
-    />
+    <GridPattern class="absolute inset-0 -z-10 h-full w-full [mask-image:radial-gradient(640px_circle_at_50%_30%,white,transparent)] skew-y-6 fill-primary/20 stroke-primary/15" />
     <div class="pointer-events-none absolute left-1/2 top-[-12rem] -z-10 h-[32rem] w-[64rem] -translate-x-1/2 rounded-full bg-[radial-gradient(closest-side,color-mix(in_oklch,var(--color-primary)_28%,transparent),transparent)] blur-2xl"></div>
     <div class="mx-auto max-w-5xl px-4 pb-20 pt-20 text-center sm:px-6 sm:pt-28">
       <a href="/kit" class="group mx-auto inline-flex items-center rounded-full border border-border bg-card/60 px-1 py-1 pr-3 text-sm backdrop-blur transition hover:border-primary/40">
@@ -179,7 +175,7 @@ const featured = SEARCHED.slice(0, 12);
         </div>
       ))}
     </div>
-    <p class="mt-6 text-center text-sm"><a href="/docs/licences" class="text-primary hover:underline">Sample licences explained: CC0, CC BY, share-alike, Sampling+, royalty free, Content ID →</a></p>
+    <p class="mt-6 text-center text-sm"><a href="/docs/licences" class="text-primary underline underline-offset-2 hover:decoration-2">Sample licences explained: CC0, CC BY, share-alike, Sampling+, royalty free, Content ID →</a></p>
   </section>
 
   <!-- What it searches -->
@@ -208,7 +204,7 @@ const featured = SEARCHED.slice(0, 12);
     <p class="mt-6 text-center text-sm text-muted-foreground">
       {SEARCHED.length > featured.length && <>And {SEARCHED.length - featured.length} more searched directly. </>}
       {LINKED.length > 0 && <>Linked searches: {LINKED.map((p) => p.name).join(", ")}. </>}
-      <a href="/docs/sources" class="text-primary hover:underline">All sources and their licences →</a>
+      <a href="/docs/sources" class="text-primary underline underline-offset-2 hover:decoration-2">All sources and their licences →</a>
     </p>
   </section>
 
@@ -284,7 +280,29 @@ const featured = SEARCHED.slice(0, 12);
           </ul>
         </div>
       )}
-      <p class="mt-6 text-center text-sm"><a href="/samples" class="text-primary hover:underline">All sample collections →</a></p>
+      <p class="mt-6 text-center text-sm"><a href="/samples" class="text-primary underline underline-offset-2 hover:decoration-2">All sample collections →</a></p>
+    </section>
+  )}
+
+  <!-- Guides -->
+  {guides.length > 0 && (
+    <section class="border-t border-border/60" aria-labelledby="guides">
+      <div class="mx-auto max-w-7xl px-4 py-24 sm:px-6">
+        <div class="mx-auto max-w-2xl text-center">
+          <p class="text-sm font-medium text-primary">Learn</p>
+          <h2 id="guides" class="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">Guides to samples and licences</h2>
+          <p class="mt-4 text-muted-foreground">Short answers first, details after: what you may release, how to credit, and how to find sounds that fit.</p>
+        </div>
+        <ul class="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          {guides.map((g) => (
+            <li class="group relative rounded-2xl border p-5 transition hover:border-primary/40 hover:bg-card">
+              <h3 class="font-medium leading-snug group-hover:text-primary"><a href={guidePath(g.id)} class="after:absolute after:inset-0">{g.data.title}</a></h3>
+              <p class="mt-2 line-clamp-3 text-sm text-muted-foreground">{g.data.description}</p>
+            </li>
+          ))}
+        </ul>
+        <p class="mt-6 text-center text-sm"><a href="/guides" class="text-primary underline underline-offset-2 hover:decoration-2">All guides</a> · <a href="/glossary" class="text-primary underline underline-offset-2 hover:decoration-2">Glossary</a> · <a href="/docs/faq" class="text-primary underline underline-offset-2 hover:decoration-2">FAQ</a></p>
+      </div>
     </section>
   )}
 

@@ -1,0 +1,788 @@
+{
+  "slug": "free-synth-pad-samples",
+  "search": {
+    "q": "pad",
+    "categories": [
+      "synth.pad"
+    ]
+  },
+  "updatedAt": "2026-10-23T09:44:41.556Z",
+  "samples": [
+    {
+      "id": "wikimediacommons:Patro_nia_(PAD).ogg",
+      "provider": "wikimediacommons",
+      "title": "Patro nia (PAD)",
+      "category": "synth.pad",
+      "url": "https://commons.wikimedia.org/wiki/File:Patro_nia_(PAD).ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/74/Patro_nia_%28PAD%29.ogg/Patro_nia_%28PAD%29.ogg.mp3",
+      "downloadable": true,
+      "author": "Petr Adam Dohnálek",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 32.824
+    },
+    {
+      "id": "orangefreesounds:56930",
+      "provider": "orangefreesounds",
+      "title": "Dreamy Atmospheric Synth Pad Loop 135 bpm",
+      "category": "synth.pad",
+      "url": "https://orangefreesounds.com/dreamy-atmospheric-synth-pad-loop-135-bpm/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/06/Dreamy-atmospheric-synth-pad-loop-135-bpm.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Alexander Blu",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "zip",
+        "mp3"
+      ],
+      "bpm": 135,
+      "durationSec": 7
+    },
+    {
+      "id": "strudel:dirt-samples/pad/0",
+      "provider": "strudel",
+      "title": "Dirt-Samples · pad · 0",
+      "category": "synth.pad",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/pad/alien-monolith-pad.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/pad/alien-monolith-pad.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "opengameart:dark-moody-scifi-pad",
+      "provider": "opengameart",
+      "title": "Dark, Moody Scifi Pad",
+      "category": "synth.pad",
+      "url": "https://opengameart.org/content/dark-moody-scifi-pad",
+      "previewUrl": "https://opengameart.org/sites/default/files/Bogart%20VGM%20-%20Scifi%20Pad.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/Bogart%20VGM%20-%20Scifi%20Pad.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "wikimediacommons:Papercut_PAD_100_bpm.wav",
+      "provider": "wikimediacommons",
+      "title": "Papercut PAD 100 bpm",
+      "category": "synth.pad",
+      "url": "https://commons.wikimedia.org/wiki/File:Papercut_PAD_100_bpm.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/31/Papercut_PAD_100_bpm.wav/Papercut_PAD_100_bpm.wav.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "The Rubicon Delta",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "bpm": 100,
+      "durationSec": 76.8
+    },
+    {
+      "id": "orangefreesounds:46131",
+      "provider": "orangefreesounds",
+      "title": "Synth Pad Arp Groove",
+      "category": "synth.pad",
+      "url": "https://orangefreesounds.com/synth-pad-arp-groove/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2024/03/Synth-pad-arp-groove.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Alexander Blu",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "zip",
+        "mp3"
+      ],
+      "bpm": 120,
+      "durationSec": 18
+    },
+    {
+      "id": "strudel:dirt-samples/pad/1",
+      "provider": "strudel",
+      "title": "Dirt-Samples · pad · 1",
+      "category": "synth.pad",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/pad/angelpads.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/pad/angelpads.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "opengameart:underwater-ambient-pad",
+      "provider": "opengameart",
+      "title": "Underwater Ambient Pad",
+      "category": "synth.pad",
+      "url": "https://opengameart.org/content/underwater-ambient-pad",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/Underwater-Ambient-Pad-isaiah658.ogg.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/Underwater-Ambient-Pad-isaiah658.ogg.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "wikimediacommons:Dark_Pad_(ISRC_USUAN1100269).mp3",
+      "provider": "wikimediacommons",
+      "title": "Dark Pad (ISRC USUAN1100269)",
+      "category": "synth.pad",
+      "url": "https://commons.wikimedia.org/wiki/File:Dark_Pad_(ISRC_USUAN1100269).mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Dark_Pad_%28ISRC_USUAN1100269%29.mp3",
+      "downloadable": true,
+      "author": "Kevin MacLeod",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 64.653
+    },
+    {
+      "id": "orangefreesounds:41081",
+      "provider": "orangefreesounds",
+      "title": "5th Pad Synth loop 120 bpm",
+      "category": "synth.pad",
+      "url": "https://orangefreesounds.com/5th-pad-synth-loop-120-bpm/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2023/01/5th-pad-synth-loop-120-bpm.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Alexander Blu",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "zip",
+        "mp3"
+      ],
+      "bpm": 120,
+      "durationSec": 16
+    },
+    {
+      "id": "strudel:dirt-samples/pad/2",
+      "provider": "strudel",
+      "title": "Dirt-Samples · pad · 2",
+      "category": "synth.pad",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/pad/bellpad-harmonics.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/pad/bellpad-harmonics.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "opengameart:aliens-life-synth-pad",
+      "provider": "opengameart",
+      "title": "Alien's Life - Synth Pad",
+      "category": "synth.pad",
+      "url": "https://opengameart.org/content/aliens-life-synth-pad",
+      "previewUrl": "https://opengameart.org/sites/default/files/sadfdsf2_0.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/sadfdsf2_0.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "wikimediacommons:Paddy_Pad_(Antti_Luode).mp3",
+      "provider": "wikimediacommons",
+      "title": "Paddy Pad (Antti Luode)",
+      "category": "synth.pad",
+      "url": "https://commons.wikimedia.org/wiki/File:Paddy_Pad_(Antti_Luode).mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Paddy_Pad_%28Antti_Luode%29.mp3",
+      "downloadable": true,
+      "author": "Antti Luode",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 242.651
+    },
+    {
+      "id": "orangefreesounds:28436",
+      "provider": "orangefreesounds",
+      "title": "Saw String Synth Pad Loop 104 bpm",
+      "category": "synth.pad",
+      "url": "https://orangefreesounds.com/saw-string-synth-pad-loop-104-bpm/",
+      "previewUrl": "https://www.orangefreesounds.com/wp-content/uploads/2020/02/Saw-string-synth-pad-loop-104-bpm.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Alexander Blu",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "zip",
+        "mp3"
+      ],
+      "bpm": 126,
+      "durationSec": 19
+    },
+    {
+      "id": "strudel:dough-samples/pad/0",
+      "provider": "strudel",
+      "title": "Dough Samples · pad · 0",
+      "category": "synth.pad",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Samples/blob/main/pad/PAD5.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Samples/main/pad/PAD5.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-GPL-3-0-repository-licence",
+        "name": "GPL-3.0 (repository licence)",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "opengameart:cutoff-acid-wpads",
+      "provider": "opengameart",
+      "title": "Cutoff Acid w/Pads",
+      "category": "synth.pad",
+      "url": "https://opengameart.org/content/cutoff-acid-wpads",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/cutoff%20acid.ogg.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/cutoff%20acid.ogg.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "wikimediacommons:Gated_pad_(Antti_Luode).mp3",
+      "provider": "wikimediacommons",
+      "title": "Gated pad (Antti Luode)",
+      "category": "synth.pad",
+      "url": "https://commons.wikimedia.org/wiki/File:Gated_pad_(Antti_Luode).mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Gated_pad_%28Antti_Luode%29.mp3",
+      "downloadable": true,
+      "author": "Antti Luode",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 190.224
+    },
+    {
+      "id": "orangefreesounds:2630",
+      "provider": "orangefreesounds",
+      "title": "Air Pad Synth Loop",
+      "category": "synth.pad",
+      "url": "https://orangefreesounds.com/air-pad-synth-loop/",
+      "previewUrl": "https://www.orangefreesounds.com/wp-content/uploads/2014/08/Air-pad-synth-loop.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "zip",
+        "mp3"
+      ],
+      "bpm": 104,
+      "durationSec": 18
+    },
+    {
+      "id": "strudel:dough-samples/pad/1",
+      "provider": "strudel",
+      "title": "Dough Samples · pad · 1",
+      "category": "synth.pad",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Samples/blob/main/pad/pad4.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Samples/main/pad/pad4.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-GPL-3-0-repository-licence",
+        "name": "GPL-3.0 (repository licence)",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Pad_-_searching_(Gravity_Sound).wav",
+      "provider": "wikimediacommons",
+      "title": "Pad - searching (Gravity Sound)",
+      "category": "synth.pad",
+      "url": "https://commons.wikimedia.org/wiki/File:Pad_-_searching_(Gravity_Sound).wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9c/Pad_-_searching_%28Gravity_Sound%29.wav/Pad_-_searching_%28Gravity_Sound%29.wav.mp3",
+      "downloadable": true,
+      "author": "Gravity Sound",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 14.328
+    },
+    {
+      "id": "strudel:dough-samples/pad/2",
+      "provider": "strudel",
+      "title": "Dough Samples · pad · 2",
+      "category": "synth.pad",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Samples/blob/main/pad/PAD3.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Samples/main/pad/PAD3.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-GPL-3-0-repository-licence",
+        "name": "GPL-3.0 (repository licence)",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Cinematic_Pad_(Antti_Luode).mp3",
+      "provider": "wikimediacommons",
+      "title": "Cinematic Pad (Antti Luode)",
+      "category": "synth.pad",
+      "url": "https://commons.wikimedia.org/wiki/File:Cinematic_Pad_(Antti_Luode).mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Cinematic_Pad_%28Antti_Luode%29.mp3",
+      "downloadable": true,
+      "author": "Antti Luode",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 277.159
+    },
+    {
+      "id": "strudel:dough-samples/pad/3",
+      "provider": "strudel",
+      "title": "Dough Samples · pad · 3",
+      "category": "synth.pad",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Samples/blob/main/pad/PAD2.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Samples/main/pad/PAD2.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-GPL-3-0-repository-licence",
+        "name": "GPL-3.0 (repository licence)",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Chorus_on_synth_pad_(Surge_vst_+_amplitube_digital_chorus_stereo).ogg",
+      "provider": "wikimediacommons",
+      "title": "Chorus on synth pad (Surge vst + amplitube digital chorus stereo)",
+      "category": "synth.pad",
+      "url": "https://commons.wikimedia.org/wiki/File:Chorus_on_synth_pad_(Surge_vst_%2B_amplitube_digital_chorus_stereo).ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/61/Chorus_on_synth_pad_%28Surge_vst_%2B_amplitube_digital_chorus_stereo%29.ogg/Chorus_on_synth_pad_%28Surge_vst_%2B_amplitube_digital_chorus_stereo%29.ogg.mp3",
+      "downloadable": true,
+      "author": "Skimel",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 14.5
+    },
+    {
+      "id": "strudel:dough-samples/pad/4",
+      "provider": "strudel",
+      "title": "Dough Samples · pad · 4",
+      "category": "synth.pad",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Samples/blob/main/pad/AMBIANCE.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Samples/main/pad/AMBIANCE.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-GPL-3-0-repository-licence",
+        "name": "GPL-3.0 (repository licence)",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Pad_-_stranded_in_space_(Gravity_Sound).wav",
+      "provider": "wikimediacommons",
+      "title": "Pad - stranded in space (Gravity Sound)",
+      "category": "synth.pad",
+      "url": "https://commons.wikimedia.org/wiki/File:Pad_-_stranded_in_space_(Gravity_Sound).wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/19/Pad_-_stranded_in_space_%28Gravity_Sound%29.wav/Pad_-_stranded_in_space_%28Gravity_Sound%29.wav.mp3",
+      "downloadable": true,
+      "author": "Gravity Sound",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 14.328
+    },
+    {
+      "id": "orangefreesounds:13645",
+      "provider": "orangefreesounds",
+      "title": "Space Lift Music Loop",
+      "category": "synth.pad",
+      "url": "https://orangefreesounds.com/space-music-loop/",
+      "previewUrl": "https://www.orangefreesounds.com/wp-content/uploads/2016/06/Space-lift-music-loop-117-bpm.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "zip",
+        "mp3"
+      ],
+      "bpm": 117,
+      "durationSec": 16
+    },
+    {
+      "id": "strudel:dough-samples/pad/5",
+      "provider": "strudel",
+      "title": "Dough Samples · pad · 5",
+      "category": "synth.pad",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Samples/blob/main/pad/PAD1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Samples/main/pad/PAD1.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-GPL-3-0-repository-licence",
+        "name": "GPL-3.0 (repository licence)",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Artemis_II_Live_Launch_Coverage_-_Pad_CS6_(KSC-20260401-AU-LMM01-0001-Artemis_II_Live_Launch_Coverage_Pad_CS6).wav",
+      "provider": "wikimediacommons",
+      "title": "Artemis II Live Launch Coverage - Pad CS6 (KSC-20260401-AU-LMM01-0001-Artemis II Live Launch Coverage Pad CS6)",
+      "category": "synth.pad",
+      "url": "https://commons.wikimedia.org/wiki/File:Artemis_II_Live_Launch_Coverage_-_Pad_CS6_(KSC-20260401-AU-LMM01-0001-Artemis_II_Live_Launch_Coverage_Pad_CS6).wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1b/Artemis_II_Live_Launch_Coverage_-_Pad_CS6_%28KSC-20260401-AU-LMM01-0001-Artemis_II_Live_Launch_Coverage_Pad_CS6%29.wav/Artemis_II_Live_Launch_Coverage_-_Pad_CS6_%28KSC-20260401-AU-LMM01-0001-Artemis_II_Live_Launch_Coverage_Pad_CS6%29.wav.mp3",
+      "downloadable": true,
+      "author": "NASA Kennedy Space Center",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 884.088
+    },
+    {
+      "id": "strudel:dough-samples/pad/6",
+      "provider": "strudel",
+      "title": "Dough Samples · pad · 6",
+      "category": "synth.pad",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Samples/blob/main/pad/PAD%201.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Samples/main/pad/PAD%201.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-GPL-3-0-repository-licence",
+        "name": "GPL-3.0 (repository licence)",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Artemis_II_Live_Launch_Coverage_-_Pad_Camera_Site_2_(KSC-20260401-AU-LMM01-0001-Artemis_II_Live_Launch_Coverage_Pad_CS2).wav",
+      "provider": "wikimediacommons",
+      "title": "Artemis II Live Launch Coverage - Pad Camera Site 2 (KSC-20260401-AU-LMM01-0001-Artemis II Live Launch Coverage Pad CS2)",
+      "category": "synth.pad",
+      "url": "https://commons.wikimedia.org/wiki/File:Artemis_II_Live_Launch_Coverage_-_Pad_Camera_Site_2_(KSC-20260401-AU-LMM01-0001-Artemis_II_Live_Launch_Coverage_Pad_CS2).wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fe/Artemis_II_Live_Launch_Coverage_-_Pad_Camera_Site_2_%28KSC-20260401-AU-LMM01-0001-Artemis_II_Live_Launch_Coverage_Pad_CS2%29.wav/Artemis_II_Live_Launch_Coverage_-_Pad_Camera_Site_2_%28KSC-20260401-AU-LMM01-0001-Artemis_II_Live_Launch_Coverage_Pad_CS2%29.wav.mp3",
+      "downloadable": true,
+      "author": "NASA Kennedy Space Center",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 896.856
+    },
+    {
+      "id": "strudel:dough-samples/pad/7",
+      "provider": "strudel",
+      "title": "Dough Samples · pad · 7",
+      "category": "synth.pad",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Samples/blob/main/pad/PAD%203.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Samples/main/pad/PAD%203.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-GPL-3-0-repository-licence",
+        "name": "GPL-3.0 (repository licence)",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Artemis_II_Live_Launch_Coverage_-_Pad_Camera_Site_1_(KSC-20260401-AU-LMM01-0001-Artemis_II_Live_Launch_Coverage_Pad_CS1).wav",
+      "provider": "wikimediacommons",
+      "title": "Artemis II Live Launch Coverage - Pad Camera Site 1 (KSC-20260401-AU-LMM01-0001-Artemis II Live Launch Coverage Pad CS1)",
+      "category": "synth.pad",
+      "url": "https://commons.wikimedia.org/wiki/File:Artemis_II_Live_Launch_Coverage_-_Pad_Camera_Site_1_(KSC-20260401-AU-LMM01-0001-Artemis_II_Live_Launch_Coverage_Pad_CS1).wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ef/Artemis_II_Live_Launch_Coverage_-_Pad_Camera_Site_1_%28KSC-20260401-AU-LMM01-0001-Artemis_II_Live_Launch_Coverage_Pad_CS1%29.wav/Artemis_II_Live_Launch_Coverage_-_Pad_Camera_Site_1_%28KSC-20260401-AU-LMM01-0001-Artemis_II_Live_Launch_Coverage_Pad_CS1%29.wav.mp3",
+      "downloadable": true,
+      "author": "NASA Kennedy Space Center",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 896.856
+    },
+    {
+      "id": "strudel:dough-samples/pad/8",
+      "provider": "strudel",
+      "title": "Dough Samples · pad · 8",
+      "category": "synth.pad",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Samples/blob/main/pad/PAD%202.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Samples/main/pad/PAD%202.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-GPL-3-0-repository-licence",
+        "name": "GPL-3.0 (repository licence)",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:SpaceX_CLPS_IM-2_Live_Launch_Coverage_-_Pad_Mic_1_(1),_Pad_Mic_2_(2)_(KSC-20250226-AU-ILW01-0002-SpaceX_CLPS_IM-2_Live_Launch_Coverage_PadMic-1_PadMic-2).wav",
+      "provider": "wikimediacommons",
+      "title": "SpaceX CLPS IM-2 Live Launch Coverage - Pad Mic 1 (1), Pad Mic 2 (2) (KSC-20250226-AU-ILW01-0002-SpaceX CLPS IM-2 Live Launch Coverage PadMic-1 PadMic-2)",
+      "category": "synth.pad",
+      "url": "https://commons.wikimedia.org/wiki/File:SpaceX_CLPS_IM-2_Live_Launch_Coverage_-_Pad_Mic_1_(1),_Pad_Mic_2_(2)_(KSC-20250226-AU-ILW01-0002-SpaceX_CLPS_IM-2_Live_Launch_Coverage_PadMic-1_PadMic-2).wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c1/SpaceX_CLPS_IM-2_Live_Launch_Coverage_-_Pad_Mic_1_%281%29%2C_Pad_Mic_2_%282%29_%28KSC-20250226-AU-ILW01-0002-SpaceX_CLPS_IM-2_Live_Launch_Coverage_PadMic-1_PadMic-2%29.wav/SpaceX_CLPS_IM-2_Live_Launch_Coverage_-_Pad_Mic_1_%281%29%2C_Pad_Mic_2_%282%29_%28KSC-20250226-AU-ILW01-0002-SpaceX_CLPS_IM-2_Live_Launch_Coverage_PadMic-1_PadMic-2%29.wav.mp3",
+      "downloadable": true,
+      "author": "NASA Kennedy Space Center",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 260.629
+    },
+    {
+      "id": "strudel:dough-samples/pad/9",
+      "provider": "strudel",
+      "title": "Dough Samples · pad · 9",
+      "category": "synth.pad",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Samples/blob/main/pad/PAD%205.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Samples/main/pad/PAD%205.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-GPL-3-0-repository-licence",
+        "name": "GPL-3.0 (repository licence)",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    }
+  ]
+}

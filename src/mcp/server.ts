@@ -9,10 +9,12 @@ import { planKit, type KitPlan } from "../core/kit.js";
 import { VERDICT_LABELS } from "../core/licence.js";
 import { formatKey, keyFromText } from "../core/query.js";
 import { SampleService, errorMessage } from "../core/service.js";
+import { findSimilar } from "../core/similar.js";
 import type { Sample, SampleDetails, SampleFile } from "../core/types.js";
 import { compact } from "../core/util.js";
 import { CATEGORIES, SAMPLE_FORMS, type Category } from "../core/vocab.js";
 import { versionLabel } from "./attribution.js";
+import { instrumentForSample, midiSummary, midiForSample, writeMidiForSample } from "./exports.js";
 import { kitExports } from "./kit-export.js";
 
 export interface McpOptions {
@@ -395,27 +397,112 @@ export function createMcpServer(service: SampleService, opts: McpOptions): McpSe
     "find_similar",
     {
       title: "Find similar sounds",
-      description: "Sounds that sound like a given sample (Freesound's audio similarity). Works for freesound:* ids.",
+      description:
+        "Sounds that sound like a given sample, from any source (e.g. 'strudel:…', 'freesound:2086'). " +
+        (service.embeddings
+          ? "Compares CLAP audio embeddings of previews against every sound this server has indexed so far (the index grows as samples are searched and opened); " +
+            "Freesound ids fall back to Freesound's own similarity when the index has nothing. "
+          : "Uses Freesound's audio similarity, so it works for freesound:* ids (audio embeddings for other sources are off on this server). ") +
+        "Results carry the same fields as search_samples, with score = similarity (0..1). " +
+        LICENCE_RULES,
       inputSchema: {
-        id: z.string().describe("A Freesound sample id, e.g. 'freesound:2086'."),
+        id: z.string().describe("A sample id from search_samples, e.g. 'freesound:2086'."),
         limit: z.number().int().min(1).max(30).optional(),
       },
       annotations: { readOnlyHint: true, openWorldHint: true },
     },
     timed("find_similar", async (args) => {
       try {
-        const [provider, nativeId] = [args.id.slice(0, args.id.indexOf(":")), args.id.slice(args.id.indexOf(":") + 1)];
-        const p = service.getProvider(provider);
-        if (provider !== "freesound" || !p) return fail("find_similar works for Freesound samples (ids starting with 'freesound:').");
-        if (p.isEnabled && !p.isEnabled()) return fail("Freesound is not configured on this server (FREESOUND_API_KEY).");
-        const { freesoundSimilar } = await import("../providers/freesound.js");
-        const similar = await freesoundSimilar(nativeId, { fetch: service.http, signal: AbortSignal.timeout(20_000) }, args.limit ?? 12);
-        return json({ id: args.id, results: similar.map((s) => summarize(s, links(s)?.preview)) });
+        const res = await findSimilar(service, args.id, { limit: args.limit ?? 12 });
+        return json(
+          compact({
+            id: res.id,
+            method: res.method,
+            results: res.results.map((s) => summarize(s, links(s)?.preview)),
+            indexed: res.indexed,
+            note: res.note,
+          }),
+        );
       } catch (e) {
         return fail(e);
       }
     }),
   );
+
+  server.registerTool(
+    "extract_midi",
+    {
+      title: "Extract MIDI from a melodic loop",
+      description:
+        "Transcribe a melodic sample (bass line, lead, arpeggio, vocal line) to MIDI, one note at a time; chords and drums are not " +
+        "transcribed. Notes snap to 16ths when the tempo is known (the sample's BPM or the `bpm` you pass). " +
+        (opts.allowLocalDownload
+          ? "The .mid file is written to <dest_dir>/midi/ and the notes are returned."
+          : "Returns the notes; the .mid file is at `midiUrl`."),
+      inputSchema: {
+        id: z.string().describe("Sample id from search_samples, e.g. 'freesound:2086'."),
+        bpm: z.number().min(40).max(300).optional().describe("Tempo of the loop when you know it."),
+        quantize: z.union([z.literal(4), z.literal(8), z.literal(false)]).optional().describe("Steps per beat (4 = 16ths, default) or false."),
+        ...(opts.allowLocalDownload ? { dest_dir: z.string().optional().describe("Project samples folder (default ./samples).") } : {}),
+      },
+      annotations: { readOnlyHint: !opts.allowLocalDownload, openWorldHint: true },
+    },
+    timed("extract_midi", async (args: { id: string; bpm?: number; quantize?: 4 | 8 | false; dest_dir?: string }) => {
+      try {
+        const sample = await service.getSample(args.id);
+        if (!sample) return fail(`Sample not found: ${args.id}`);
+        if (opts.allowLocalDownload) {
+          return json(await writeMidiForSample(service, sample, args.dest_dir ?? opts.downloadDir ?? "samples", { bpm: args.bpm, quantize: args.quantize }));
+        }
+        const r = await midiForSample(service, sample, { bpm: args.bpm, quantize: args.quantize, signal: AbortSignal.timeout(60_000) });
+        const q = new URLSearchParams();
+        if (args.bpm) q.set("bpm", String(args.bpm));
+        if (args.quantize !== undefined) q.set("quantize", String(args.quantize));
+        return json({
+          ...midiSummary(r),
+          midiUrl: base ? `${base}/v1/samples/${encodeURIComponent(sample.id)}/midi${q.size ? `?${q}` : ""}` : undefined,
+        });
+      } catch (e) {
+        return fail(e);
+      }
+    }),
+  );
+
+  if (opts.allowLocalDownload) {
+    server.registerTool(
+      "export_instrument",
+      {
+        title: "Turn a multisample pack into a playable instrument",
+        description:
+          "Download a multisample pack (orchestral notes, piano, guitar, synth notes: results with form 'multisample' or unit " +
+          "'instrument'/'pack') and build an SFZ instrument and a Decent Sampler preset from it, with key ranges, velocity layers and " +
+          "round robins worked out from the file names, embedded root notes or pitch detection. Files go to " +
+          "<dest_dir>/instruments/<name>/ with the credits. Warns about missing notes.",
+        inputSchema: {
+          id: z.string().describe("Sample id of the pack, e.g. 'curated:iowa-mis-cymbals'."),
+          variant: z.string().optional().describe("Which articulation/instrument to use when the pack holds several (see the summary)."),
+          octave_offset: z.number().int().min(-2).max(2).optional().describe("Shift note names by octaves for packs where C3 = MIDI 60."),
+          dest_dir: z.string().optional().describe("Project samples folder (default ./samples)."),
+        },
+        annotations: { readOnlyHint: false, destructiveHint: false, openWorldHint: true },
+      },
+      timed("export_instrument", async (args) => {
+        try {
+          const sample = await service.getSample(args.id);
+          if (!sample) return fail(`Sample not found: ${args.id}`);
+          return json(
+            await instrumentForSample(service, sample, args.dest_dir ?? opts.downloadDir ?? "samples", {
+              variant: args.variant,
+              octaveOffset: args.octave_offset,
+              sourceNames,
+            }),
+          );
+        } catch (e) {
+          return fail(e);
+        }
+      }),
+    );
+  }
 
   server.registerTool(
     "list_sources",

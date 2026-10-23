@@ -1,0 +1,785 @@
+{
+  "slug": "free-door-sound-effects",
+  "search": {
+    "q": "door",
+    "categories": [
+      "foley"
+    ]
+  },
+  "updatedAt": "2026-10-23T09:38:12.272Z",
+  "samples": [
+    {
+      "id": "wikimediacommons:Metal_cabinet_door_jarring.ogg",
+      "provider": "wikimediacommons",
+      "title": "Metal cabinet door jarring",
+      "category": "foley",
+      "url": "https://commons.wikimedia.org/wiki/File:Metal_cabinet_door_jarring.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/23/Metal_cabinet_door_jarring.ogg/Metal_cabinet_door_jarring.ogg.mp3",
+      "downloadable": true,
+      "author": "stephan",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 12.8
+    },
+    {
+      "id": "openverse:43427866-ed2f-4318-bdcd-ada3662177d5",
+      "provider": "openverse",
+      "title": "011 Door opens and shuts.wav",
+      "category": "foley",
+      "url": "https://freesound.org/people/FreqMan/sounds/23168",
+      "previewUrl": "https://cdn.freesound.org/previews/23/23168_92661-hq.mp3",
+      "downloadable": true,
+      "author": "FreqMan",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 6.385
+    },
+    {
+      "id": "soundbible:1717-Creaking-Door-Spooky",
+      "provider": "soundbible",
+      "title": "Creaking Door Spooky",
+      "category": "foley",
+      "url": "https://soundbible.com/1717-Creaking-Door-Spooky.html",
+      "previewUrl": "https://soundbible.com/mp3/Creaking%20Door%20Spooky-SoundBible.com-1909842345.mp3",
+      "downloadable": true,
+      "author": "stephan",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "opengameart:door-open-door-close-set",
+      "provider": "opengameart",
+      "title": "Door Open, Door Close Set",
+      "category": "foley",
+      "url": "https://opengameart.org/content/door-open-door-close-set",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/montage-sfx-20121116%40113925.ogg.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/montage-sfx-20121116%40113925.ogg.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "wikimediacommons:Squeaky_door.ogg",
+      "provider": "wikimediacommons",
+      "title": "Squeaky door",
+      "category": "foley",
+      "url": "https://commons.wikimedia.org/wiki/File:Squeaky_door.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/15/Squeaky_door.ogg/Squeaky_door.ogg.mp3",
+      "downloadable": true,
+      "author": "leonmire",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 8.49
+    },
+    {
+      "id": "openverse:e792994f-4bbb-4aa0-9b34-c3f21ab608d1",
+      "provider": "openverse",
+      "title": "Door Squeak, Normal, E.wav",
+      "category": "foley",
+      "url": "https://freesound.org/people/InspectorJ/sounds/346211",
+      "previewUrl": "https://cdn.freesound.org/previews/346/346211_5121236-hq.mp3",
+      "downloadable": true,
+      "author": "InspectorJ",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 2.71
+    },
+    {
+      "id": "orangefreesounds:58566",
+      "provider": "orangefreesounds",
+      "title": "Automatic Door Closing With Warning Beeps Sound Effect",
+      "category": "foley",
+      "url": "https://orangefreesounds.com/automatic-door-closing-with-warning-beeps-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/09/Automatic-door-closing-with-warning-beeps-sound-effect.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 2
+    },
+    {
+      "id": "soundbible:1870-Sqeaking-Door",
+      "provider": "soundbible",
+      "title": "Sqeaking Door",
+      "category": "foley",
+      "url": "https://soundbible.com/1870-Sqeaking-Door.html",
+      "previewUrl": "https://soundbible.com/mp3/Sqeaking_door-Sarasprella-1653672487.mp3",
+      "downloadable": true,
+      "author": "Sarasprella",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "opengameart:door-open-door-close",
+      "provider": "opengameart",
+      "title": "Door open, door close",
+      "category": "foley",
+      "url": "https://opengameart.org/content/door-open-door-close",
+      "previewUrl": "https://opengameart.org/sites/default/files/montageAudio-20120408%40130003.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/montageAudio-20120408%40130003.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "wikimediacommons:Springlocked_cellar_door.ogg",
+      "provider": "wikimediacommons",
+      "title": "Springlocked cellar door",
+      "category": "foley",
+      "url": "https://commons.wikimedia.org/wiki/File:Springlocked_cellar_door.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9b/Springlocked_cellar_door.ogg/Springlocked_cellar_door.ogg.mp3",
+      "downloadable": true,
+      "author": "stephan",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 18.181
+    },
+    {
+      "id": "openverse:deed86e3-446b-410a-9fcd-85e90ac4bd09",
+      "provider": "openverse",
+      "title": "Door, Wooden, Close, A (H1).wav",
+      "category": "foley",
+      "url": "https://freesound.org/people/InspectorJ/sounds/411791",
+      "previewUrl": "https://cdn.freesound.org/previews/411/411791_5121236-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "InspectorJ",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.253
+    },
+    {
+      "id": "orangefreesounds:58433",
+      "provider": "orangefreesounds",
+      "title": "Automatic Door Opening Mechanism Sound Effect",
+      "category": "foley",
+      "url": "https://orangefreesounds.com/automatic-door-opening-mechanism-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/09/Automatic-door-opening-mechanism-sound-effect.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 2
+    },
+    {
+      "id": "soundbible:1871-Sqeaking-Door-2",
+      "provider": "soundbible",
+      "title": "Sqeaking Door 2",
+      "category": "foley",
+      "url": "https://soundbible.com/1871-Sqeaking-Door-2.html",
+      "previewUrl": "https://soundbible.com/mp3/Sqeaking_door-Sarasprella-1754011079.mp3",
+      "downloadable": true,
+      "author": "Sarasprella",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "opengameart:platformer-sounds-terminal-interaction-door-shots-bang-and-footsteps",
+      "provider": "opengameart",
+      "title": "Platformer Sounds: Terminal, Interaction, Door, Shots, Bang and Footsteps",
+      "category": "foley",
+      "url": "https://opengameart.org/content/platformer-sounds-terminal-interaction-door-shots-bang-and-footsteps",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/montage-sfx-20121205%40005411.ogg.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/montage-sfx-20121205%40005411.ogg.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "openverse:846d6a69-b4ec-4943-a220-2c114520da6f",
+      "provider": "openverse",
+      "title": "Door knocking (Angry).wav",
+      "category": "foley",
+      "url": "https://freesound.org/people/Macif/sounds/194365",
+      "previewUrl": "https://cdn.freesound.org/previews/194/194365_3035766-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Macif",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 2.116
+    },
+    {
+      "id": "wikimediacommons:Door_knocker_audio.ogg",
+      "provider": "wikimediacommons",
+      "title": "Door knocker audio",
+      "category": "foley",
+      "url": "https://commons.wikimedia.org/wiki/File:Door_knocker_audio.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7c/Door_knocker_audio.ogg/Door_knocker_audio.ogg.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Mx. Granger",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 1.474
+    },
+    {
+      "id": "soundbible:1196-Knocking-On-Door",
+      "provider": "soundbible",
+      "title": "Knocking On Door",
+      "category": "foley",
+      "url": "https://soundbible.com/1196-Knocking-On-Door.html",
+      "previewUrl": "https://soundbible.com/mp3/Knocking%20On%20Door-SoundBible.com-84643603.mp3",
+      "downloadable": true,
+      "author": "ERH",
+      "license": {
+        "id": "LicenseRef-Sampling-Plus-1.0",
+        "name": "CC Sampling+ 1.0",
+        "url": "https://creativecommons.org/licenses/sampling+/1.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "orangefreesounds:57402",
+      "provider": "orangefreesounds",
+      "title": "Subway Train Door Closing Warning Beep Sound Effect",
+      "category": "foley",
+      "url": "https://orangefreesounds.com/subway-train-door-closing-warning-beep-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/07/Subway-train-door-closing-warning-beep-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 4
+    },
+    {
+      "id": "opengameart:items-door-fire-weapon-hits",
+      "provider": "opengameart",
+      "title": "Items, door, fire, weapon hits",
+      "category": "foley",
+      "url": "https://opengameart.org/content/items-door-fire-weapon-hits",
+      "previewUrl": "https://opengameart.org/sites/default/files/prev_0.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/prev_0.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "wikimediacommons:Squeaky_door_hinge.ogg",
+      "provider": "wikimediacommons",
+      "title": "Squeaky door hinge",
+      "category": "foley",
+      "url": "https://commons.wikimedia.org/wiki/File:Squeaky_door_hinge.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6a/Squeaky_door_hinge.ogg/Squeaky_door_hinge.ogg.mp3",
+      "downloadable": true,
+      "author": "MKFI",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 7.648
+    },
+    {
+      "id": "openverse:ba24597e-d505-4062-aa4b-64765c87f756",
+      "provider": "openverse",
+      "title": "Car door close, engine start",
+      "category": "foley",
+      "url": "https://freesound.org/people/Frederik_Sunne/sounds/324138",
+      "previewUrl": "https://cdn.freesound.org/previews/324/324138_2845145-hq.mp3",
+      "downloadable": true,
+      "author": "Frederik_Sunne",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 9.567
+    },
+    {
+      "id": "soundbible:900-Door-Close",
+      "provider": "soundbible",
+      "title": "Door Close",
+      "category": "foley",
+      "url": "https://soundbible.com/900-Door-Close.html",
+      "previewUrl": "https://soundbible.com/mp3/Door%20Close-SoundBible.com-1305692306.mp3",
+      "downloadable": true,
+      "author": "Caroline Ford",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "orangefreesounds:57286",
+      "provider": "orangefreesounds",
+      "title": "Door Creak Open Sound Effect",
+      "category": "foley",
+      "url": "https://orangefreesounds.com/door-creak-open-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/06/Door-creak-open-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 4
+    },
+    {
+      "id": "opengameart:closing-door",
+      "provider": "opengameart",
+      "title": "closing door",
+      "category": "foley",
+      "url": "https://opengameart.org/content/closing-door",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/closing%20door.ogg.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/closing%20door.ogg.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "wikimediacommons:Garage_door_closing.ogg",
+      "provider": "wikimediacommons",
+      "title": "Garage door closing",
+      "category": "foley",
+      "url": "https://commons.wikimedia.org/wiki/File:Garage_door_closing.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c2/Garage_door_closing.ogg/Garage_door_closing.ogg.mp3",
+      "downloadable": true,
+      "author": "ezwa",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 9.43
+    },
+    {
+      "id": "openverse:e7a0eda3-5392-4701-90b2-2c88e1f763ff",
+      "provider": "openverse",
+      "title": "door - open 01.wav",
+      "category": "foley",
+      "url": "https://freesound.org/people/Anthousai/sounds/398750",
+      "previewUrl": "https://cdn.freesound.org/previews/398/398750_5923045-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Anthousai",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.242
+    },
+    {
+      "id": "orangefreesounds:57229",
+      "provider": "orangefreesounds",
+      "title": "Elevator Door Opening With Ding Sound Effect",
+      "category": "foley",
+      "url": "https://orangefreesounds.com/elevator-door-opening-with-ding-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/06/Elevator-door-opening-with-ding-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 5
+    },
+    {
+      "id": "soundbible:264-Close-Vault-Or-Jail-Door",
+      "provider": "soundbible",
+      "title": "Close Vault Or Jail Door",
+      "category": "foley",
+      "url": "https://soundbible.com/264-Close-Vault-Or-Jail-Door.html",
+      "previewUrl": "https://soundbible.com/mp3/Close%20Vault%20Or%20Jail%20Door-SoundBible.com-1221913084.mp3",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Personal-Use-Only",
+        "name": "Personal Use Only",
+        "verdict": "no"
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Garage_door_opening.ogg",
+      "provider": "wikimediacommons",
+      "title": "Garage door opening",
+      "category": "foley",
+      "url": "https://commons.wikimedia.org/wiki/File:Garage_door_opening.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4e/Garage_door_opening.ogg/Garage_door_opening.ogg.mp3",
+      "downloadable": true,
+      "author": "ezwa",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 8.411
+    },
+    {
+      "id": "openverse:aec0904a-4703-4303-88bb-879ec6031fa5",
+      "provider": "openverse",
+      "title": "Door closing, door closed",
+      "category": "foley",
+      "url": "https://freesound.org/people/steinhyrningur/sounds/466864",
+      "previewUrl": "https://cdn.freesound.org/previews/466/466864_9135300-hq.mp3",
+      "downloadable": true,
+      "author": "steinhyrningur",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "m4a"
+      ],
+      "durationSec": 4.437
+    },
+    {
+      "id": "opengameart:door-lock-sounds",
+      "provider": "opengameart",
+      "title": "Door Lock Sounds",
+      "category": "foley",
+      "url": "https://opengameart.org/content/door-lock-sounds",
+      "previewUrl": "https://opengameart.org/sites/default/files/PreviewDoorLock.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/PreviewDoorLock.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:56863",
+      "provider": "orangefreesounds",
+      "title": "Heavy Door Knock Sound Effect",
+      "category": "foley",
+      "url": "https://orangefreesounds.com/heavy-door-knock-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/05/Heavy-door-knock-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 3
+    },
+    {
+      "id": "soundbible:297-Cellar-Door-Slam-Shut",
+      "provider": "soundbible",
+      "title": "Cellar Door Slam Shut",
+      "category": "foley",
+      "url": "https://soundbible.com/297-Cellar-Door-Slam-Shut.html",
+      "previewUrl": "https://soundbible.com/mp3/Cellar%20Door%20Slam%20Shut-SoundBible.com-437808730.mp3",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Personal-Use-Only",
+        "name": "Personal Use Only",
+        "verdict": "no"
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Door_handle_creaking.ogg",
+      "provider": "wikimediacommons",
+      "title": "Door handle creaking",
+      "category": "foley",
+      "url": "https://commons.wikimedia.org/wiki/File:Door_handle_creaking.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/74/Door_handle_creaking.ogg/Door_handle_creaking.ogg.mp3",
+      "downloadable": true,
+      "author": "stephan",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 5.094
+    },
+    {
+      "id": "opengameart:creaky-light-wooden-door",
+      "provider": "opengameart",
+      "title": "Creaky light wooden door",
+      "category": "foley",
+      "url": "https://opengameart.org/content/creaky-light-wooden-door",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/creakylightwoodendoor.wav.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/creakylightwoodendoor.wav.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "openverse:7b0a3d83-3b9e-4232-8df4-c39e25e9db0b",
+      "provider": "openverse",
+      "title": "01019 car door 3.wav",
+      "category": "foley",
+      "url": "https://freesound.org/people/Robinhood76/sounds/71695",
+      "previewUrl": "https://cdn.freesound.org/previews/71/71695_321967-hq.mp3",
+      "downloadable": true,
+      "author": "Robinhood76",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 3.448
+    }
+  ]
+}

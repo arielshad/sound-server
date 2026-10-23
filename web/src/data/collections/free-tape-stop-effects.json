@@ -1,0 +1,128 @@
+{
+  "slug": "free-tape-stop-effects",
+  "search": {
+    "q": "tape stop",
+    "categories": [
+      "fx"
+    ]
+  },
+  "updatedAt": "2026-10-23T09:44:58.998Z",
+  "samples": [
+    {
+      "id": "openverse:300ad502-04fa-4a9c-af56-7eb754bef820",
+      "provider": "openverse",
+      "title": "Train passby (tape stop)",
+      "category": "fx.transition",
+      "url": "https://freesound.org/people/Metzik/sounds/387878",
+      "previewUrl": "https://cdn.freesound.org/previews/387/387878_2758720-hq.mp3",
+      "downloadable": true,
+      "author": "Metzik",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 14.53
+    },
+    {
+      "id": "orangefreesounds:9338",
+      "provider": "orangefreesounds",
+      "title": "Deep Sound, Tape Stop",
+      "category": "fx.transition",
+      "url": "https://orangefreesounds.com/deep-sound-tape-stop/",
+      "previewUrl": "https://www.orangefreesounds.com/wp-content/uploads/2015/10/Deep-sound-tape-stop.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 4
+    },
+    {
+      "id": "openverse:4eecc821-21f5-473d-8291-3d784eb2d1b5",
+      "provider": "openverse",
+      "title": "Tape stop effect",
+      "category": "fx.transition",
+      "url": "https://freesound.org/people/not_yr/sounds/680836",
+      "previewUrl": "https://cdn.freesound.org/previews/680/680836_8154780-hq.mp3",
+      "downloadable": true,
+      "author": "not_yr",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 18.994
+    },
+    {
+      "id": "openverse:2de384cb-4097-4fd2-86b4-b35d493337b6",
+      "provider": "openverse",
+      "title": "Keyfall + Tape stop effect",
+      "category": "fx",
+      "url": "https://freesound.org/people/trader_one/sounds/685354",
+      "previewUrl": "https://cdn.freesound.org/previews/685/685354_14228776-hq.mp3",
+      "downloadable": true,
+      "author": "trader_one",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 4.591
+    },
+    {
+      "id": "openverse:5bae3d1f-cf70-4096-a730-098b1532f680",
+      "provider": "openverse",
+      "title": "Audio Cassette Tape Open Close Play Stop",
+      "category": "fx.zap",
+      "url": "https://freesound.org/people/Bertrof/sounds/351567",
+      "previewUrl": "https://cdn.freesound.org/previews/351/351567_2398403-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Bertrof",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 8.124
+    }
+  ]
+}

@@ -24,6 +24,7 @@ export function sitemapMeta() {
   const noindex = new Set();
   const catalog = existsSync(join(root, "src/data/catalog.json")) ? read("src/data/catalog.json") : { sources: [] };
   const providers = read("src/data/providers.json");
+  const notes = existsSync(join(root, "src/data/source-notes.json")) ? read("src/data/source-notes.json") : {};
   const topicsDir = join(root, "src/content/collections");
   const snapDir = join(root, "src/data/collections");
 
@@ -51,11 +52,24 @@ export function sitemapMeta() {
   if (all) lastmod.set("/samples", all);
 
   if (catalog.countedAt) lastmod.set("/stats", catalog.countedAt);
+
+  // Guides: their own `updated` date; the index: the newest guide.
+  const guidesDir = join(root, "src/content/guides");
+  if (existsSync(guidesDir)) {
+    let newestGuide;
+    for (const f of readdirSync(guidesDir).filter((f) => f.endsWith(".md"))) {
+      const updated = readFileSync(join(guidesDir, f), "utf8").match(/^updated:\s*"?(\d{4}-\d{2}-\d{2})"?\s*$/m)?.[1];
+      if (!updated) continue;
+      lastmod.set(`/guides/${f.slice(0, -3)}`, `${updated}T00:00:00.000Z`);
+      newestGuide = newest(newestGuide, `${updated}T00:00:00.000Z`);
+    }
+    if (newestGuide) lastmod.set("/guides", newestGuide);
+  }
   for (const p of providers) {
     const census = catalog.sources.find((s) => s.id === p.id);
     if (census) lastmod.set(`/sources/${p.id}`, census.countedAt);
-    // Same rule as sourcePages(): a census, or at least 4 samples in collections.
-    if (!census && (perSource.get(p.id) ?? 0) < 4) noindex.add(`/sources/${p.id}`);
+    // Same rule as sourcePages(): a census, at least 4 samples in collections, or editorial notes on a searched source.
+    if (!census && (perSource.get(p.id) ?? 0) < 4 && !(p.access !== "link" && notes[p.id])) noindex.add(`/sources/${p.id}`);
   }
   return { lastmod, noindex };
 }

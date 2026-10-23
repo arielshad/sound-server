@@ -186,7 +186,7 @@ const path = points.map((p, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(p.valu
   )}
 
   <p class="mt-6 text-xs text-muted-foreground">
-    How it's counted: each source reports its own size once a day (its API's total, its catalogue or manifest, its WordPress counters or its sitemap; hover a row for the method). {dated.length} of {CATALOG.sources.length} sources publish release dates, so "New" covers those. Data: <a class="text-primary hover:underline" href="/catalog.json">/catalog.json</a> ·{" "}
-    <a class="text-primary hover:underline" href="/catalog-history.json">history</a> · <a class="text-primary hover:underline" href="/docs/api/reference#op-getCatalog">API</a>
+    How it's counted: each source reports its own size once a day (its API's total, its catalogue or manifest, its WordPress counters or its sitemap; hover a row for the method). {dated.length} of {CATALOG.sources.length} sources publish release dates, so "New" covers those. Data: <a class="text-primary underline underline-offset-2 hover:decoration-2" href="/catalog.json">/catalog.json</a> ·{" "}
+    <a class="text-primary underline underline-offset-2 hover:decoration-2" href="/catalog-history.json">history</a> · <a class="text-primary underline underline-offset-2 hover:decoration-2" href="/docs/api/reference#op-getCatalog">API</a>
   </p>
 </section>

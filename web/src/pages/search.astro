@@ -10,9 +10,9 @@ const collections = (await allCollections()).filter((c) => c.indexable);
 
 <BaseLayout
   title="Search free samples: drums, 808s, vocals & FX"
-  description={`Search ${SOURCE_COUNT} sample sites at once for free kicks, snares, hats, 808s, loops, vocal chops and FX. Preview every sound and see if it is cleared for a commercial release.`}
+  description={`Search ${SOURCE_COUNT} sample sites at once for kicks, snares, hats, 808s, loops, vocal chops and FX. Preview every sound and see if it's cleared for a commercial release.`}
   schema={[breadcrumbs([{ name: "Home", path: "/" }, { name: "Search", path: "/search" }])]}
-  markdown="/AGENTS.md"
+  markdown="/search.md"
 >
   <h1 class="sr-only">Search music samples across {SOURCE_COUNT} sources</h1>
   <SearchApp client:load />
@@ -23,7 +23,7 @@ const collections = (await allCollections()).filter((c) => c.indexable);
       {PROVIDERS.map((p) => p.name).join(", ")}.
       {collections.length > 0 && <p class="mt-4">Or browse the curated collections, which work without JavaScript:</p>}
       <ul class="mt-2 list-disc pl-5">
-        {collections.map((c) => <li><a href={c.path} class="text-primary hover:underline">{c.topic.data.title}</a></li>)}
+        {collections.map((c) => <li><a href={c.path} class="text-primary underline underline-offset-2 hover:decoration-2">{c.topic.data.title}</a></li>)}
       </ul>
     </div>
   </noscript>

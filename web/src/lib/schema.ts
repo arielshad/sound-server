@@ -165,8 +165,91 @@ export const catalogDataset = (): JsonLd => ({
   ],
 });
 
+/**
+ * A guide: Article with the short answer as its abstract, dated, credited to
+ * the organisation, citing the licences and documents it relies on.
+ */
+export const article = (a: {
+  title: string;
+  description: string;
+  path: string;
+  answer: string;
+  section: string;
+  published: Date;
+  updated: Date;
+  cites?: { name: string; url: string }[];
+  about?: string[];
+  words?: number;
+}): JsonLd => ({
+  "@type": "Article",
+  "@id": `${abs(a.path)}#article`,
+  headline: a.title,
+  description: a.description,
+  abstract: a.answer,
+  url: abs(a.path),
+  mainEntityOfPage: abs(a.path),
+  inLanguage: "en",
+  articleSection: a.section,
+  isPartOf: { "@id": SITE_ID },
+  author: { "@id": ORG_ID },
+  publisher: { "@id": ORG_ID },
+  datePublished: a.published.toISOString().slice(0, 10),
+  dateModified: a.updated.toISOString().slice(0, 10),
+  isAccessibleForFree: true,
+  ...(a.words ? { wordCount: a.words } : {}),
+  ...(a.about?.length ? { about: a.about.map((name) => ({ "@type": "Thing", name })) } : {}),
+  ...(a.cites?.length ? { citation: a.cites.map((c) => ({ "@type": "CreativeWork", name: c.name, url: c.url })) } : {}),
+});
+
+/** Step-by-step instructions (guides with `steps`). */
+export const howTo = (h: { title: string; description: string; path: string; steps: { name: string; text: string }[] }): JsonLd => ({
+  "@type": "HowTo",
+  "@id": `${abs(h.path)}#howto`,
+  name: h.title,
+  description: h.description,
+  url: abs(h.path),
+  inLanguage: "en",
+  step: h.steps.map((s, i) => ({ "@type": "HowToStep", position: i + 1, name: s.name, text: s.text, url: `${abs(h.path)}#step-${i + 1}` })),
+});
+
+/** The glossary: a DefinedTermSet whose terms have stable fragment ids (/glossary#bpm). */
+export const definedTermSet = (g: { title: string; description: string; path: string; terms: { id: string; term: string; definition: string; aliases?: string[]; url?: string }[] }): JsonLd => ({
+  "@type": "DefinedTermSet",
+  "@id": `${abs(g.path)}#terms`,
+  name: g.title,
+  description: g.description,
+  url: abs(g.path),
+  inLanguage: "en",
+  publisher: { "@id": ORG_ID },
+  hasDefinedTerm: g.terms.map((t) => ({
+    "@type": "DefinedTerm",
+    "@id": `${abs(g.path)}#${t.id}`,
+    name: t.term,
+    description: t.definition,
+    termCode: t.id,
+    url: `${abs(g.path)}#${t.id}`,
+    inDefinedTermSet: { "@id": `${abs(g.path)}#terms` },
+    ...(t.aliases?.length ? { alternateName: t.aliases } : {}),
+    ...(t.url ? { sameAs: t.url } : {}),
+  })),
+});
+
+/** A sample source on its own page: the site as a WebSite run by its organisation. */
+export const sourceEntity = (p: { id: string; name: string; homepage: string; description: string; license?: string | null; free: boolean }): JsonLd => ({
+  "@type": "WebSite",
+  "@id": `${abs(`/sources/${p.id}`)}#source`,
+  name: p.name,
+  url: p.homepage,
+  description: p.description,
+  isAccessibleForFree: p.free,
+  ...(p.license ? { license: p.license } : {}),
+  publisher: { "@type": "Organization", name: p.name, url: p.homepage },
+});
+
 /** Node types that describe the page itself (they get the share image). */
-const PAGE_TYPES = new Set(["WebPage", "AboutPage", "ContactPage", "TechArticle", "CollectionPage", "SearchResultsPage", "FAQPage"]);
+const PAGE_TYPES = new Set(["WebPage", "AboutPage", "ContactPage", "TechArticle", "Article", "CollectionPage", "SearchResultsPage", "FAQPage"]);
+/** Article types take `image` but not `primaryImageOfPage` (a WebPage property). */
+const ARTICLE_TYPES = new Set(["TechArticle", "Article"]);
 
 export interface PageMeta {
   url: string;
@@ -189,7 +272,7 @@ export const graph = (nodes: JsonLd[], page?: PageMeta): string => {
     const image = { "@type": "ImageObject", "@id": `${page.url}#primaryimage`, url: page.image, contentUrl: page.image, width: 1200, height: 630, caption: page.imageAlt };
     const i = nodes.findIndex((n) => PAGE_TYPES.has(String(n["@type"])) && n["@type"] !== "FAQPage");
     if (i >= 0) {
-      out = nodes.map((n, j) => (j === i ? { ...n, image: { "@id": image["@id"] }, ...(n["@type"] === "TechArticle" ? {} : { primaryImageOfPage: { "@id": image["@id"] } }) } : n));
+      out = nodes.map((n, j) => (j === i ? { ...n, image: { "@id": image["@id"] }, ...(ARTICLE_TYPES.has(String(n["@type"])) ? {} : { primaryImageOfPage: { "@id": image["@id"] } }) } : n));
     } else {
       out = [
         { "@type": "WebPage", "@id": `${page.url}#webpage`, url: page.url, name: page.name, description: page.description, inLanguage: "en", isPartOf: { "@id": SITE_ID }, primaryImageOfPage: { "@id": image["@id"] }, image: { "@id": image["@id"] } },

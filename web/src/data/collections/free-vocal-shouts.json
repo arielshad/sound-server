@@ -1,0 +1,400 @@
+{
+  "slug": "free-vocal-shouts",
+  "search": {
+    "q": "shout",
+    "categories": [
+      "vocals.shout"
+    ]
+  },
+  "updatedAt": "2026-10-23T09:46:10.123Z",
+  "samples": [
+    {
+      "id": "wikimediacommons:\"A_Down_Home_Shout\"_(1907),_by_Herman_Carle.mp3",
+      "provider": "wikimediacommons",
+      "title": "\"A Down Home Shout\"",
+      "category": "vocals.shout",
+      "url": "https://commons.wikimedia.org/wiki/File:%22A_Down_Home_Shout%22_(1907),_by_Herman_Carle.mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/%22A_Down_Home_Shout%22_%281907%29%2C_by_Herman_Carle.mp3",
+      "downloadable": true,
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 266.397
+    },
+    {
+      "id": "orangefreesounds:58218",
+      "provider": "orangefreesounds",
+      "title": "Hooray Group Shout Sound Effect – Excited Crowd Cheer",
+      "category": "vocals.shout",
+      "url": "https://orangefreesounds.com/hooray-group-shout-sound-effect-excited-crowd-cheer/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/09/Hooray-group-shout-sound-effect-excited-crowd-cheer.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 3
+    },
+    {
+      "id": "wikimediacommons:Carolina_Shout.ogg",
+      "provider": "wikimediacommons",
+      "title": "Carolina Shout",
+      "category": "vocals.shout",
+      "url": "https://commons.wikimedia.org/wiki/File:Carolina_Shout.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/22/Carolina_Shout.ogg/Carolina_Shout.ogg.mp3",
+      "downloadable": true,
+      "author": "James P Johnson",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 24.816
+    },
+    {
+      "id": "soundbible:1102-Child-Scream",
+      "provider": "soundbible",
+      "title": "Child Scream",
+      "category": "vocals.shout",
+      "url": "https://soundbible.com/1102-Child-Scream.html",
+      "previewUrl": "https://soundbible.com/mp3/Child%20Scream-SoundBible.com-1951741114.mp3",
+      "downloadable": true,
+      "author": "Mike Koenig",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Goal_Shout.ogg",
+      "provider": "wikimediacommons",
+      "title": "Goal Shout",
+      "category": "vocals.shout",
+      "url": "https://commons.wikimedia.org/wiki/File:Goal_Shout.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/28/Goal_Shout.ogg/Goal_Shout.ogg.mp3",
+      "downloadable": true,
+      "author": "Frogfriend99",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 14.446
+    },
+    {
+      "id": "opengameart:female-scream-1",
+      "provider": "opengameart",
+      "title": "Female Scream 1",
+      "category": "vocals.shout",
+      "url": "https://opengameart.org/content/female-scream-1",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/female_scream_1_0.ogg.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/female_scream_1_0.ogg.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "soundbible:1459-Psycho-Scream",
+      "provider": "soundbible",
+      "title": "Psycho Scream",
+      "category": "vocals.shout",
+      "url": "https://soundbible.com/1459-Psycho-Scream.html",
+      "previewUrl": "https://soundbible.com/mp3/Psycho%20Scream-SoundBible.com-1441943673.mp3",
+      "downloadable": true,
+      "author": "FreqMan",
+      "license": {
+        "id": "LicenseRef-Sampling-Plus-1.0",
+        "name": "CC Sampling+ 1.0",
+        "url": "https://creativecommons.org/licenses/sampling+/1.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "orangefreesounds:51581",
+      "provider": "orangefreesounds",
+      "title": "Yeah Crowd Sound Effect",
+      "category": "vocals.shout",
+      "url": "https://orangefreesounds.com/yeah-crowd-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2025/07/Yeah-crowd-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 4
+    },
+    {
+      "id": "wikimediacommons:Scream-c.wav",
+      "provider": "wikimediacommons",
+      "title": "Scream-c",
+      "category": "vocals.shout",
+      "url": "https://commons.wikimedia.org/wiki/File:Scream-c.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/dc/Scream-c.wav/Scream-c.wav.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Raspberry Pi Foundation, Andy Oakley",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 0.71
+    },
+    {
+      "id": "wikimediacommons:VOXScrm_Man_eaten_by_alligator;_screams_(Wilhelm_CS_USC).wav",
+      "provider": "wikimediacommons",
+      "title": "VOXScrm Man eaten by alligator; screams (Wilhelm CS USC)",
+      "category": "vocals.shout",
+      "url": "https://commons.wikimedia.org/wiki/File:VOXScrm_Man_eaten_by_alligator;_screams_(Wilhelm_CS_USC).wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/57/VOXScrm_Man_eaten_by_alligator%3B_screams_%28Wilhelm_CS_USC%29.wav/VOXScrm_Man_eaten_by_alligator%3B_screams_%28Wilhelm_CS_USC%29.wav.mp3",
+      "downloadable": true,
+      "author": "Sheb Wooley",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 39.275
+    },
+    {
+      "id": "wikimediacommons:Wilhelm_Scream.ogg",
+      "provider": "wikimediacommons",
+      "title": "Wilhelm Scream",
+      "category": "vocals.shout",
+      "url": "https://commons.wikimedia.org/wiki/File:Wilhelm_Scream.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d9/Wilhelm_Scream.ogg/Wilhelm_Scream.ogg.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "likely Sheb Wooley",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 1.624
+    },
+    {
+      "id": "wikimediacommons:Scream-d.wav",
+      "provider": "wikimediacommons",
+      "title": "Scream-d",
+      "category": "vocals.shout",
+      "url": "https://commons.wikimedia.org/wiki/File:Scream-d.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/73/Scream-d.wav/Scream-d.wav.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Raspberry Pi Foundation, Andy Oakley",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 0.63
+    },
+    {
+      "id": "wikimediacommons:Holasky_Bartolomejske_hody_2024_juchani.ogg",
+      "provider": "wikimediacommons",
+      "title": "Holasky Bartolomejske hody 2024 juchani",
+      "category": "vocals.shout",
+      "url": "https://commons.wikimedia.org/wiki/File:Holasky_Bartolomejske_hody_2024_juchani.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8d/Holasky_Bartolomejske_hody_2024_juchani.ogg/Holasky_Bartolomejske_hody_2024_juchani.ogg.mp3",
+      "downloadable": true,
+      "author": "Nostrifikator",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 8.383
+    },
+    {
+      "id": "wikimediacommons:Scream-e.wav",
+      "provider": "wikimediacommons",
+      "title": "Scream-e",
+      "category": "vocals.shout",
+      "url": "https://commons.wikimedia.org/wiki/File:Scream-e.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/92/Scream-e.wav/Scream-e.wav.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Raspberry Pi Foundation, Andy Oakley",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 0.518
+    },
+    {
+      "id": "wikimediacommons:Pangram1.ogg",
+      "provider": "wikimediacommons",
+      "title": "Pangram1",
+      "category": "vocals.shout",
+      "url": "https://commons.wikimedia.org/wiki/File:Pangram1.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d7/Pangram1.ogg/Pangram1.ogg.mp3",
+      "downloadable": true,
+      "author": "Aren Elliott",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 10.044
+    },
+    {
+      "id": "wikimediacommons:KRV-IndianOilHindiSign.ogg",
+      "provider": "wikimediacommons",
+      "title": "KRV-IndianOilHindiSign",
+      "category": "vocals.shout",
+      "url": "https://commons.wikimedia.org/wiki/File:KRV-IndianOilHindiSign.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/73/KRV-IndianOilHindiSign.ogg/KRV-IndianOilHindiSign.ogg.mp3",
+      "downloadable": true,
+      "author": "SavetheSouthofIndia",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 55.542
+    },
+    {
+      "id": "wikimediacommons:TCLP_2013-04-16_News_(IA_Tclp2013-04-16News).mp3",
+      "provider": "wikimediacommons",
+      "title": "TCLP 2013-04-16 News (IA Tclp2013-04-16News)",
+      "category": "vocals.shout",
+      "url": "https://commons.wikimedia.org/wiki/File:TCLP_2013-04-16_News_(IA_Tclp2013-04-16News).mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/TCLP_2013-04-16_News_%28IA_Tclp2013-04-16News%29.mp3",
+      "downloadable": true,
+      "author": "Thomas Gideon",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 2033.737
+    }
+  ]
+}

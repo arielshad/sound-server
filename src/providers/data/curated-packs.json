@@ -1507,6 +1507,65 @@
       "verified": "2026-10-23"
     },
     {
+      "id": "nsynth",
+      "title": "NSynth: 305,979 single notes from 1,006 instruments",
+      "author": "Google Magenta (Jesse Engel et al.)",
+      "url": "https://magenta.tensorflow.org/datasets/nsynth",
+      "category": "keys",
+      "form": "multisample",
+      "unit": "pack",
+      "packSize": 305979,
+      "formats": [
+        "tar.gz",
+        "wav",
+        "json"
+      ],
+      "tags": [
+        "nsynth",
+        "magenta",
+        "single notes",
+        "bass",
+        "brass",
+        "flute",
+        "guitar",
+        "keyboard",
+        "mallet",
+        "organ",
+        "reed",
+        "string",
+        "synth lead",
+        "vocal",
+        "dataset"
+      ],
+      "description": "Four-second 16 kHz notes over the MIDI range at five velocities, from 1,006 acoustic, electronic and synth instruments in 11 families, with JSON labels for pitch, velocity and timbre. Split into test, valid and train archives.",
+      "license": "cc-by-4.0",
+      "files": [
+        {
+          "url": "https://storage.googleapis.com/download.magenta.tensorflow.org/datasets/nsynth/nsynth-test.jsonwav.tar.gz",
+          "filename": "nsynth-test.jsonwav.tar.gz",
+          "format": "tar.gz",
+          "role": "pack",
+          "sizeBytes": 349501546
+        },
+        {
+          "url": "https://storage.googleapis.com/download.magenta.tensorflow.org/datasets/nsynth/nsynth-valid.jsonwav.tar.gz",
+          "filename": "nsynth-valid.jsonwav.tar.gz",
+          "format": "tar.gz",
+          "role": "pack",
+          "sizeBytes": 1068767009
+        },
+        {
+          "url": "https://storage.googleapis.com/download.magenta.tensorflow.org/datasets/nsynth/nsynth-train.jsonwav.tar.gz",
+          "filename": "nsynth-train.jsonwav.tar.gz",
+          "format": "tar.gz",
+          "role": "pack",
+          "sizeBytes": 23815298079
+        }
+      ],
+      "downloadable": true,
+      "verified": "2026-10-23"
+    },
+    {
       "id": "reverb-machine-synth-sounds-collection",
       "title": "Reverb Machine: Synth Sounds Collection",
       "author": "Reverb Machine",

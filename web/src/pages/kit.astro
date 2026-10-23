@@ -25,6 +25,30 @@ const description = "Build a matching drum kit in one click: kick, snare, clap, 
         The kit builder needs JavaScript. Without it, call the API: <code>curl -X POST {SITE.url}/v1/kits -H "content-type: application/json" -d '&#123;"style":"dark trap","bpm":140,"key":"F minor"&#125;'</code>
       </p>
     </noscript>
+    <section class="mt-16 max-w-3xl" aria-labelledby="how">
+      <h2 id="how" class="text-xl font-semibold tracking-tight">How it picks the sounds</h2>
+      <p class="mt-2 text-sm text-muted-foreground">
+        Each slot is one search of every source, shaped by your style words, tempo and key. Pitched slots such as the 808 rank higher when their key or root note matches yours, drum slots favour short one-shots, and sounds cleared for commercial use rank above the rest. Results are commercial-safe unless you turn that off, and every pick shows its licence verdict, the alternatives considered and the reasons it won.
+      </p>
+      <div class="mt-4 overflow-x-auto">
+        <table class="w-full text-left text-sm">
+          <caption class="sr-only">Kit slots and their General MIDI notes</caption>
+          <thead class="text-muted-foreground"><tr><th scope="col" class="py-2 pr-4 font-medium">Slot</th><th scope="col" class="py-2 pr-4 font-medium">Job in the beat</th><th scope="col" class="py-2 font-medium">General MIDI note</th></tr></thead>
+          <tbody class="divide-y">
+            <tr><td class="py-2 pr-4">Kick</td><td class="py-2 pr-4">The pulse and the low punch</td><td class="py-2">36</td></tr>
+            <tr><td class="py-2 pr-4">Snare</td><td class="py-2 pr-4">The backbeat on 2 and 4</td><td class="py-2">38</td></tr>
+            <tr><td class="py-2 pr-4">Clap</td><td class="py-2 pr-4">Layered with or replacing the snare</td><td class="py-2">39</td></tr>
+            <tr><td class="py-2 pr-4">Closed hat</td><td class="py-2 pr-4">Eighths or sixteenths</td><td class="py-2">42</td></tr>
+            <tr><td class="py-2 pr-4">Open hat</td><td class="py-2 pr-4">Offbeats, choked by the closed hat</td><td class="py-2">46</td></tr>
+            <tr><td class="py-2 pr-4">808</td><td class="py-2 pr-4">Tuned bass for trap, drill and hip hop</td><td class="py-2">played as notes</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="mt-4 text-sm text-muted-foreground">
+        The result plays straight away in <a href="https://strudel.cc" rel="noopener" class="text-primary underline underline-offset-2">Strudel</a> through the snippet it writes, and maps to any sampler through its General MIDI / SFZ drum map. Step-by-step: <a href="/guides/build-a-drum-kit-from-free-samples" class="text-primary underline underline-offset-2">how to build a drum kit from free samples</a>. Browse the slots yourself in the <a href="/samples/drums" class="text-primary underline underline-offset-2">drum collections</a> and <a href="/samples/free-808-samples" class="text-primary underline underline-offset-2">808s</a>.
+      </p>
+    </section>
+
     <section class="mt-16 max-w-3xl" aria-labelledby="api">
       <h2 id="api" class="text-xl font-semibold tracking-tight">From code or an agent</h2>
       <p class="mt-2 text-sm text-muted-foreground">The same kit over the REST API:</p>
@@ -32,7 +56,7 @@ const description = "Build a matching drum kit in one click: kick, snare, clap, 
   -H "content-type: application/json" \\
   -d '{"style":"dark trap","bpm":140,"key":"F minor","slots":["kick","snare","clap","hat.closed","hat.open","808"]}'`}</code></pre>
       <p class="mt-3 text-sm text-muted-foreground">
-        Or connect <code class="text-xs">{MCP_URL}</code> to your coding agent and ask: “build me a dark trap kit at 140 BPM in F minor, commercial-safe”. Run locally, the <code class="text-xs">build_kit</code> tool also downloads the picks with a Strudel map, an SFZ file and the credits. <a href="/docs/mcp" class="text-primary hover:underline">Agent setup</a>
+        Or connect <code class="text-xs">{MCP_URL}</code> to your coding agent and ask: “build me a dark trap kit at 140 BPM in F minor, commercial-safe”. Run locally, the <code class="text-xs">build_kit</code> tool also downloads the picks with a Strudel map, an SFZ file and the credits. <a href="/docs/mcp" class="text-primary underline underline-offset-2 hover:decoration-2">Agent setup</a>
       </p>
     </section>
   </div>

@@ -9,7 +9,7 @@
       "one-shot"
     ]
   },
-  "updatedAt": "2026-10-23T04:44:24.127Z",
+  "updatedAt": "2026-10-23T09:40:23.701Z",
   "samples": [
     {
       "id": "openverse:5480d684-a8b3-49f7-80b7-c497af7bf83a",
@@ -34,29 +34,6 @@
         "wav"
       ],
       "durationSec": 0.296
-    },
-    {
-      "id": "openverse:8d861b6c-3fa5-4ea9-91c7-71398ada20be",
-      "provider": "openverse",
-      "title": "Hi hat closed",
-      "category": "drums.hat",
-      "url": "https://commons.wikimedia.org/w/index.php?curid=93542",
-      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Hi_hat_closed.ogg",
-      "downloadable": true,
-      "form": "one-shot",
-      "author": "No machine-readable author provided. Clngre~commonswiki assumed (based on copyright claims).",
-      "license": {
-        "id": "CC-BY-SA-3.0",
-        "name": "CC BY-SA 3.0",
-        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "verdict": "restricted",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "ogg"
-      ],
-      "durationSec": 3.982
     },
     {
       "id": "openverse:5d4f37fc-4787-4254-802c-2883fe523cfd",
@@ -105,29 +82,6 @@
         "wav"
       ],
       "durationSec": 0.87
-    },
-    {
-      "id": "openverse:75463750-6f1b-452b-84e6-b098f2908511",
-      "provider": "openverse",
-      "title": "Hi hat foot pedal",
-      "category": "drums.hat",
-      "url": "https://commons.wikimedia.org/w/index.php?curid=93545",
-      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Hi_hat_foot_pedal.ogg",
-      "downloadable": true,
-      "form": "one-shot",
-      "author": "No machine-readable author provided. Clngre~commonswiki assumed (based on copyright claims).",
-      "license": {
-        "id": "CC-BY-SA-3.0",
-        "name": "CC BY-SA 3.0",
-        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "verdict": "restricted",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "ogg"
-      ],
-      "durationSec": 3.522
     },
     {
       "id": "openverse:c4121c51-f651-4b6a-bd44-0435d2a8f08c",
@@ -298,14 +252,83 @@
       "durationSec": 0.198
     },
     {
-      "id": "openverse:738166e5-d021-4230-ac9c-d3c34d04c50e",
-      "provider": "openverse",
-      "title": "Rock beat hi hat",
+      "id": "wikimediacommons:Hi-Hat_Cerrado.ogg",
+      "provider": "wikimediacommons",
+      "title": "Hi-Hat Cerrado",
       "category": "drums.hat",
-      "url": "https://commons.wikimedia.org/w/index.php?curid=93555",
-      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Rock_beat_hi_hat.ogg",
+      "url": "https://commons.wikimedia.org/wiki/File:Hi-Hat_Cerrado.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c9/Hi-Hat_Cerrado.ogg/Hi-Hat_Cerrado.ogg.mp3",
       "downloadable": true,
-      "author": "No machine-readable author provided. Clngre~commonswiki assumed (based on copyright claims).",
+      "form": "one-shot",
+      "author": "ZappaMidiPF",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 0.231
+    },
+    {
+      "id": "strudel:dough-samples/hat/0",
+      "provider": "strudel",
+      "title": "Dough Samples · hat · 0",
+      "category": "drums.hat",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Samples/blob/main/hat/hatt5.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Samples/main/hat/hatt5.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-GPL-3-0-repository-licence",
+        "name": "GPL-3.0 (repository licence)",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Hi-Hat_Abierto.ogg",
+      "provider": "wikimediacommons",
+      "title": "Hi-Hat Abierto",
+      "category": "drums.hat",
+      "url": "https://commons.wikimedia.org/wiki/File:Hi-Hat_Abierto.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/07/Hi-Hat_Abierto.ogg/Hi-Hat_Abierto.ogg.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "ZappaMidiPF",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 0.743
+    },
+    {
+      "id": "wikimediacommons:Hi_hat_closed.ogg",
+      "provider": "wikimediacommons",
+      "title": "Hi hat closed",
+      "category": "drums.hat",
+      "url": "https://commons.wikimedia.org/wiki/File:Hi_hat_closed.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/95/Hi_hat_closed.ogg/Hi_hat_closed.ogg.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Clngre",
       "license": {
         "id": "CC-BY-SA-3.0",
         "name": "CC BY-SA 3.0",
@@ -315,31 +338,410 @@
       },
       "free": true,
       "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 3.982
+    },
+    {
+      "id": "strudel:dough-samples/hat/1",
+      "provider": "strudel",
+      "title": "Dough Samples · hat · 1",
+      "category": "drums.hat",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Samples/blob/main/hat/hatt4.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Samples/main/hat/hatt4.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-GPL-3-0-repository-licence",
+        "name": "GPL-3.0 (repository licence)",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Hi_hat_foot_pedal.ogg",
+      "provider": "wikimediacommons",
+      "title": "Hi hat foot pedal",
+      "category": "drums.hat",
+      "url": "https://commons.wikimedia.org/wiki/File:Hi_hat_foot_pedal.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0a/Hi_hat_foot_pedal.ogg/Hi_hat_foot_pedal.ogg.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Clngre",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 3.522
+    },
+    {
+      "id": "strudel:dough-samples/hat/2",
+      "provider": "strudel",
+      "title": "Dough Samples · hat · 2",
+      "category": "drums.hat",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Samples/blob/main/hat/hat%209.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Samples/main/hat/hat%209.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-GPL-3-0-repository-licence",
+        "name": "GPL-3.0 (repository licence)",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:dough-samples/hat/3",
+      "provider": "strudel",
+      "title": "Dough Samples · hat · 3",
+      "category": "drums.hat",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Samples/blob/main/hat/hatt6.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Samples/main/hat/hatt6.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-GPL-3-0-repository-licence",
+        "name": "GPL-3.0 (repository licence)",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:In_the_Round_Hi-Hat_-_Touch_'N_Go_-_United_States_Air_Forces_in_Europe_Band.mp3",
+      "provider": "wikimediacommons",
+      "title": "In the Round Hi-Hat - Touch 'N Go - United States Air Forces in Europe Band",
+      "category": "drums.hat",
+      "url": "https://commons.wikimedia.org/wiki/File:In_the_Round_Hi-Hat_-_Touch_%27N_Go_-_United_States_Air_Forces_in_Europe_Band.mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/In_the_Round_Hi-Hat_-_Touch_%27N_Go_-_United_States_Air_Forces_in_Europe_Band.mp3",
+      "downloadable": true,
+      "author": "Composition: SSgt Dustin Trimble; Performance: United States Air Forces in Europe Band, Touch 'N Go; Recording: United S",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
         "ogg"
+      ],
+      "durationSec": 51.914
+    },
+    {
+      "id": "strudel:dough-samples/hat/4",
+      "provider": "strudel",
+      "title": "Dough Samples · hat · 4",
+      "category": "drums.hat",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Samples/blob/main/hat/hat9.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Samples/main/hat/hat9.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-GPL-3-0-repository-licence",
+        "name": "GPL-3.0 (repository licence)",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Hi_hat_open.ogg",
+      "provider": "wikimediacommons",
+      "title": "Hi hat open",
+      "category": "drums.hat",
+      "url": "https://commons.wikimedia.org/wiki/File:Hi_hat_open.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3d/Hi_hat_open.ogg/Hi_hat_open.ogg.mp3",
+      "downloadable": true,
+      "author": "Clngre",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 4.378
+    },
+    {
+      "id": "strudel:dough-samples/hat/5",
+      "provider": "strudel",
+      "title": "Dough Samples · hat · 5",
+      "category": "drums.hat",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Samples/blob/main/hat/hat8.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Samples/main/hat/hat8.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-GPL-3-0-repository-licence",
+        "name": "GPL-3.0 (repository licence)",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Bauchamp_-_128_groovy_snare_and_hi_hat.ogg",
+      "provider": "wikimediacommons",
+      "title": "Bauchamp - 128 groovy snare and hi hat",
+      "category": "drums.hat",
+      "url": "https://commons.wikimedia.org/wiki/File:Bauchamp_-_128_groovy_snare_and_hi_hat.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a0/Bauchamp_-_128_groovy_snare_and_hi_hat.ogg/Bauchamp_-_128_groovy_snare_and_hi_hat.ogg.mp3",
+      "downloadable": true,
+      "author": "Bauchamp",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 15.073
+    },
+    {
+      "id": "strudel:dough-samples/hat/6",
+      "provider": "strudel",
+      "title": "Dough Samples · hat · 6",
+      "category": "drums.hat",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Samples/blob/main/hat/hatt7.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Samples/main/hat/hatt7.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-GPL-3-0-repository-licence",
+        "name": "GPL-3.0 (repository licence)",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Rock_beat_hi_hat.ogg",
+      "provider": "wikimediacommons",
+      "title": "Rock beat hi hat",
+      "category": "drums.hat",
+      "url": "https://commons.wikimedia.org/wiki/File:Rock_beat_hi_hat.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/94/Rock_beat_hi_hat.ogg/Rock_beat_hi_hat.ogg.mp3",
+      "downloadable": true,
+      "author": "Clngre",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
       ],
       "durationSec": 9.167
     },
     {
-      "id": "openverse:87c6329a-e497-41cc-9ce2-9ce6def6da7d",
-      "provider": "openverse",
-      "title": "Hi hat open",
+      "id": "strudel:dough-samples/hat/7",
+      "provider": "strudel",
+      "title": "Dough Samples · hat · 7",
       "category": "drums.hat",
-      "url": "https://commons.wikimedia.org/w/index.php?curid=93543",
-      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Hi_hat_open.ogg",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Samples/blob/main/hat/hat%208.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Samples/main/hat/hat%208.wav",
       "downloadable": true,
-      "author": "No machine-readable author provided. Clngre~commonswiki assumed (based on copyright claims).",
+      "form": "one-shot",
       "license": {
-        "id": "CC-BY-SA-3.0",
-        "name": "CC BY-SA 3.0",
-        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "id": "LicenseRef-GPL-3-0-repository-licence",
+        "name": "GPL-3.0 (repository licence)",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:MIGUEL_ANGEL_FLORES_HERRADA_-_NEON_HI_HAT.wav",
+      "provider": "wikimediacommons",
+      "title": "MIGUEL ANGEL FLORES HERRADA - NEON HI HAT",
+      "category": "drums.hat",
+      "url": "https://commons.wikimedia.org/wiki/File:MIGUEL_ANGEL_FLORES_HERRADA_-_NEON_HI_HAT.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/32/MIGUEL_ANGEL_FLORES_HERRADA_-_NEON_HI_HAT.wav/MIGUEL_ANGEL_FLORES_HERRADA_-_NEON_HI_HAT.wav.mp3",
+      "downloadable": true,
+      "author": "MUSICA LAB",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "verdict": "restricted",
         "attributionRequired": true
       },
       "free": true,
       "formats": [
+        "wav",
+        "mp3",
         "ogg"
       ],
-      "durationSec": 4.377
+      "durationSec": 80.25
+    },
+    {
+      "id": "strudel:dough-samples/hat/8",
+      "provider": "strudel",
+      "title": "Dough Samples · hat · 8",
+      "category": "drums.hat",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Samples/blob/main/hat/hatt3.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Samples/main/hat/hatt3.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-GPL-3-0-repository-licence",
+        "name": "GPL-3.0 (repository licence)",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:dough-samples/hat/9",
+      "provider": "strudel",
+      "title": "Dough Samples · hat · 9",
+      "category": "drums.hat",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Samples/blob/main/hat/hatt2.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Samples/main/hat/hatt2.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-GPL-3-0-repository-licence",
+        "name": "GPL-3.0 (repository licence)",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:dough-samples/hat/10",
+      "provider": "strudel",
+      "title": "Dough Samples · hat · 10",
+      "category": "drums.hat",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Samples/blob/main/hat/hat.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Samples/main/hat/hat.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-GPL-3-0-repository-licence",
+        "name": "GPL-3.0 (repository licence)",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:dough-samples/hat/11",
+      "provider": "strudel",
+      "title": "Dough Samples · hat · 11",
+      "category": "drums.hat",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Samples/blob/main/hat/hat10.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Samples/main/hat/hat10.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-GPL-3-0-repository-licence",
+        "name": "GPL-3.0 (repository licence)",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:dough-samples/hat/12",
+      "provider": "strudel",
+      "title": "Dough Samples · hat · 12",
+      "category": "drums.hat",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Samples/blob/main/hat/hat11.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Samples/main/hat/hat11.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-GPL-3-0-repository-licence",
+        "name": "GPL-3.0 (repository licence)",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:dough-samples/hat/13",
+      "provider": "strudel",
+      "title": "Dough Samples · hat · 13",
+      "category": "drums.hat",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Samples/blob/main/hat/hat12.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Samples/main/hat/hat12.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-GPL-3-0-repository-licence",
+        "name": "GPL-3.0 (repository licence)",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
     }
   ]
 }

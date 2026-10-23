@@ -843,6 +843,104 @@ export function openApiSpec(baseUrl?: string) {
           },
         },
       },
+      "/v1/samples/{id}/peaks": {
+        get: {
+          operationId: "getPeaks",
+          tags: ["Samples"],
+          summary: "Waveform peaks",
+          description:
+            "Min/max pairs (-1..1) for drawing the sample's waveform, computed from its preview and cached. Pass them to " +
+            "wavesurfer.js as `peaks` with `duration`.",
+          parameters: [
+            idParam,
+            { name: "points", in: "query", description: "Number of min/max pairs (50–4000, default 800).", schema: { type: "integer", minimum: 50, maximum: 4000 } },
+          ],
+          responses: {
+            200: {
+              description: "Peaks.",
+              content: json({ type: "object", required: ["peaks", "points", "durationSec"], properties: { peaks: { type: "array", items: { type: "number" } }, points: { type: "integer" }, durationSec: { type: "number" } } }),
+            },
+            404: errorResponse("Unknown sample, or no audio file to analyse."),
+          },
+        },
+      },
+      "/v1/samples/{id}/similar": {
+        get: {
+          operationId: "findSimilar",
+          tags: ["Samples"],
+          summary: "Sounds like this one",
+          description:
+            "Nearest sounds by audio embedding (CLAP) among the samples this server has indexed, when embeddings are turned on; " +
+            "otherwise Freesound's own similarity for `freesound:` ids. `method` says which was used.",
+          parameters: [idParam, { name: "limit", in: "query", description: "Max results (default 12, max 30).", schema: { type: "integer", minimum: 1, maximum: 30 } }],
+          responses: {
+            200: {
+              description: "Similar samples.",
+              content: json({
+                type: "object",
+                required: ["id", "method", "results"],
+                properties: {
+                  id: { type: "string" },
+                  method: { type: "string", enum: ["clap", "freesound"] },
+                  results: { type: "array", items: ref("Sample") },
+                  indexed: { type: "integer", description: "Samples in the embedding index." },
+                  note: { type: "string" },
+                },
+              }),
+            },
+            404: errorResponse("Unknown sample."),
+            501: errorResponse("Embeddings are off on this server and the sample is not from Freesound."),
+          },
+        },
+      },
+      "/v1/samples/{id}/midi": {
+        get: {
+          operationId: "extractMidi",
+          tags: ["Samples"],
+          summary: "MIDI from a melodic sample",
+          description:
+            "Transcribes a melodic sample (bass line, lead, arpeggio, vocal line) one note at a time and returns a Standard MIDI " +
+            "File, or the notes as JSON with `format=json`. Notes snap to the grid when the tempo is known (`bpm`, or the sample's own). " +
+            "Chords and drums are not transcribed; a warning says so.",
+          parameters: [
+            idParam,
+            { name: "bpm", in: "query", description: "Tempo of the loop (40–300).", schema: { type: "number" } },
+            { name: "quantize", in: "query", description: "Steps per beat: 1, 2, 4 (16ths, default) or 8; `false` keeps the played timing.", schema: { type: "string" } },
+            { name: "format", in: "query", description: "`json` for the notes instead of the file.", schema: { type: "string", enum: ["json"] } },
+          ],
+          responses: {
+            200: {
+              description: "The MIDI file, or the notes.",
+              content: {
+                "audio/midi": { schema: { type: "string", format: "binary" } },
+                "application/json": {
+                  schema: {
+                    type: "object",
+                    properties: {
+                      bpm: { type: "number" },
+                      bpmSource: { type: "string", enum: ["given", "analysis", "default"] },
+                      quantized: { type: "boolean" },
+                      notes: { type: "array", items: { type: "object", properties: { name: { type: "string" }, pitch: { type: "integer" }, start: { type: "number" }, end: { type: "number" }, velocity: { type: "integer" } } } },
+                      warnings: { type: "array", items: { type: "string" } },
+                    },
+                  },
+                },
+              },
+            },
+            400: errorResponse("Invalid bpm or quantize."),
+            404: errorResponse("Unknown sample."),
+          },
+        },
+      },
+      "/v1/embeddings": {
+        get: {
+          operationId: "embeddingsStatus",
+          tags: ["System"],
+          summary: "Embedding index status",
+          description: "Whether audio embeddings are on, the model, how many samples are indexed and the indexing queue.",
+          responses: { 200: { description: "Status.", content: json({ type: "object", additionalProperties: true }) } },
+        },
+      },
       "/v1/kits": {
         post: {
           operationId: "buildKit",

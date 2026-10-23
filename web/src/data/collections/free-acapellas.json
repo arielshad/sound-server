@@ -6,6 +6,580 @@
       "vocals.acapella"
     ]
   },
-  "updatedAt": "2026-10-23T04:44:02.511Z",
-  "samples": []
+  "updatedAt": "2026-10-23T09:37:06.693Z",
+  "samples": [
+    {
+      "id": "wikimediacommons:Acapella_Himne_F.C._Barcelona.ogg",
+      "provider": "wikimediacommons",
+      "title": "Acapella Himne F.C. Barcelona",
+      "category": "vocals.acapella",
+      "url": "https://commons.wikimedia.org/wiki/File:Acapella_Himne_F.C._Barcelona.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/74/Acapella_Himne_F.C._Barcelona.ogg/Acapella_Himne_F.C._Barcelona.ogg.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "Tailsandshadow",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 83.647
+    },
+    {
+      "id": "openverse:813e4610-7b81-4371-b8bb-87b5bdd7aa65",
+      "provider": "openverse",
+      "title": "Occupy The Acapella .wav",
+      "category": "vocals.acapella",
+      "url": "https://freesound.org/people/Plaedo/sounds/177150",
+      "previewUrl": "https://cdn.freesound.org/previews/177/177150_1992324-hq.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "Plaedo",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 265.903
+    },
+    {
+      "id": "openverse:261a3a71-bf5b-42d8-bd33-4565fd379bb5",
+      "provider": "openverse",
+      "title": "Aliens Exist Acapella",
+      "category": "vocals.acapella",
+      "url": "https://freesound.org/people/Plaedo/sounds/277318",
+      "previewUrl": "https://cdn.freesound.org/previews/277/277318_1992324-hq.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "Plaedo",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 71.994
+    },
+    {
+      "id": "wikimediacommons:EternalFather_USNavyBand_acapella.ogg",
+      "provider": "wikimediacommons",
+      "title": "EternalFather USNavyBand acapella",
+      "category": "vocals.acapella",
+      "url": "https://commons.wikimedia.org/wiki/File:EternalFather_USNavyBand_acapella.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/dc/EternalFather_USNavyBand_acapella.ogg/EternalFather_USNavyBand_acapella.ogg.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "Reverend Augustus Montaigne Toplady (1873); Composed by Thomas Hastings (c.1860)",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 61.627
+    },
+    {
+      "id": "openverse:75b339a2-f478-41c1-abf8-a2ca44262433",
+      "provider": "openverse",
+      "title": "steklo - crushed (acapella)",
+      "category": "vocals.acapella",
+      "url": "https://freesound.org/people/steklovocals/sounds/141475",
+      "previewUrl": "https://cdn.freesound.org/previews/141/141475_2352853-hq.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "steklovocals",
+      "license": {
+        "id": "CC-BY-NC-3.0",
+        "name": "CC BY-NC 3.0",
+        "url": "https://creativecommons.org/licenses/by-nc/3.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 38.233
+    },
+    {
+      "id": "wikimediacommons:IMSLP206671-WIMA_8582-BWV1(II)Sco.ogg",
+      "provider": "wikimediacommons",
+      "title": "IMSLP206671-WIMA 8582-BWV1(II)Sco",
+      "category": "vocals.acapella",
+      "url": "https://commons.wikimedia.org/wiki/File:IMSLP206671-WIMA_8582-BWV1(II)Sco.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bc/IMSLP206671-WIMA_8582-BWV1%28II%29Sco.ogg/IMSLP206671-WIMA_8582-BWV1%28II%29Sco.ogg.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "Michel Rondeau - part of the Werner Icking Music Collection.",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 43.592
+    },
+    {
+      "id": "wikimediacommons:Eternal_Father_-_U.S._Navy_Band.ogg",
+      "provider": "wikimediacommons",
+      "title": "Eternal Father - U.S. Navy Band",
+      "category": "vocals.acapella",
+      "url": "https://commons.wikimedia.org/wiki/File:Eternal_Father_-_U.S._Navy_Band.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/41/Eternal_Father_-_U.S._Navy_Band.ogg/Eternal_Father_-_U.S._Navy_Band.ogg.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "Words: William Whiting (1825–1878) Tune: \"Melita\" by John Bacchus Dykes (1823–1876) Performance: U.S. Navy Band",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 61.623
+    },
+    {
+      "id": "openverse:12ad0ffd-a0ab-4869-9012-9862fac0f481",
+      "provider": "openverse",
+      "title": "Hello Acapella",
+      "category": "vocals.acapella",
+      "url": "https://freesound.org/people/Dave_Girtsman/sounds/560625",
+      "previewUrl": "https://cdn.freesound.org/previews/560/560625_392324-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Dave_Girtsman",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "aiff"
+      ],
+      "durationSec": 4.041
+    },
+    {
+      "id": "wikimediacommons:Bright_College_Years.ogg",
+      "provider": "wikimediacommons",
+      "title": "Bright College Years",
+      "category": "vocals.acapella",
+      "url": "https://commons.wikimedia.org/wiki/File:Bright_College_Years.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/ba/Bright_College_Years.ogg/Bright_College_Years.ogg.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "Lyrics by Henry Durand (1881) Performance by 2006 Yale Whiffenpoofs (2006)",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 103.747
+    },
+    {
+      "id": "openverse:4491e745-dd99-40fe-bc17-bf2cc870c1de",
+      "provider": "openverse",
+      "title": "Random Acapella",
+      "category": "vocals.acapella",
+      "url": "https://freesound.org/people/dmz18_/sounds/711951",
+      "previewUrl": "https://cdn.freesound.org/previews/711/711951_15430085-hq.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "dmz18_",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 6.704
+    },
+    {
+      "id": "wikimediacommons:U.S._Army_Band_-_Angels_We_Have_Heard_on_High.ogg",
+      "provider": "wikimediacommons",
+      "title": "Angels We Have Heard on High",
+      "category": "vocals.acapella",
+      "url": "https://commons.wikimedia.org/wiki/File:U.S._Army_Band_-_Angels_We_Have_Heard_on_High.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/87/U.S._Army_Band_-_Angels_We_Have_Heard_on_High.ogg/U.S._Army_Band_-_Angels_We_Have_Heard_on_High.ogg.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 43.73
+    },
+    {
+      "id": "openverse:8307825e-420c-4bc4-90ff-c6e21478cc1b",
+      "provider": "openverse",
+      "title": "Warrior Soundz Acapella (NB) .wav",
+      "category": "vocals.acapella",
+      "url": "https://freesound.org/people/Plaedo/sounds/398994",
+      "previewUrl": "https://cdn.freesound.org/previews/398/398994_1992324-hq.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "Plaedo",
+      "license": {
+        "id": "CC-BY-NC-3.0",
+        "name": "CC BY-NC 3.0",
+        "url": "https://creativecommons.org/licenses/by-nc/3.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 61.714
+    },
+    {
+      "id": "wikimediacommons:Azerbaijani_anthem_a_capella.ogg",
+      "provider": "wikimediacommons",
+      "title": "Azerbaijani anthem a capella",
+      "category": "vocals.acapella",
+      "url": "https://commons.wikimedia.org/wiki/File:Azerbaijani_anthem_a_capella.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/17/Azerbaijani_anthem_a_capella.ogg/Azerbaijani_anthem_a_capella.ogg.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "rally participants",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 84.48
+    },
+    {
+      "id": "openverse:1954bdf9-f28b-431e-8690-3cabca5406bf",
+      "provider": "openverse",
+      "title": "Tribal Revival Acapella (NB) .wav",
+      "category": "vocals.acapella",
+      "url": "https://freesound.org/people/Plaedo/sounds/398995",
+      "previewUrl": "https://cdn.freesound.org/previews/398/398995_1992324-hq.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "Plaedo",
+      "license": {
+        "id": "CC-BY-NC-3.0",
+        "name": "CC BY-NC 3.0",
+        "url": "https://creativecommons.org/licenses/by-nc/3.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 45.6
+    },
+    {
+      "id": "wikimediacommons:Twinkle_Twinkle_Little_Star_-_sung_with_full_lyrics.ogg",
+      "provider": "wikimediacommons",
+      "title": "Twinkle Twinkle Little Star - sung with full lyrics",
+      "category": "vocals.acapella",
+      "url": "https://commons.wikimedia.org/wiki/File:Twinkle_Twinkle_Little_Star_-_sung_with_full_lyrics.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4f/Twinkle_Twinkle_Little_Star_-_sung_with_full_lyrics.ogg/Twinkle_Twinkle_Little_Star_-_sung_with_full_lyrics.ogg.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "Dcoetzee",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 125.682
+    },
+    {
+      "id": "openverse:2fe0a3e9-e352-4e19-ace4-b1ee157ba2f6",
+      "provider": "openverse",
+      "title": "The Beauty I See Acapella (NB) .wav",
+      "category": "vocals.acapella",
+      "url": "https://freesound.org/people/Plaedo/sounds/398996",
+      "previewUrl": "https://cdn.freesound.org/previews/398/398996_1992324-hq.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "Plaedo",
+      "license": {
+        "id": "CC-BY-NC-3.0",
+        "name": "CC BY-NC 3.0",
+        "url": "https://creativecommons.org/licenses/by-nc/3.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 45.6
+    },
+    {
+      "id": "wikimediacommons:It_Came_Upon_a_Midnight_Clear,_Deck_the_Halls_-_A_Cappella_Singers_-_United_States_Air_Force_Band_of_the_Rockies.mp3",
+      "provider": "wikimediacommons",
+      "title": "It Came Upon a Midnight Clear, Deck the Halls - A Cappella Singers - United States Air Force Band of the Rockies",
+      "category": "vocals.acapella",
+      "url": "https://commons.wikimedia.org/wiki/File:It_Came_Upon_a_Midnight_Clear,_Deck_the_Halls_-_A_Cappella_Singers_-_United_States_Air_Force_Band_of_the_Rockies.mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/It_Came_Upon_a_Midnight_Clear%2C_Deck_the_Halls_-_A_Cappella_Singers_-_United_States_Air_Force_Band_of_the_Rockies.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "Composition: Richard Storrs Willis, traditional; Lyrics: Edmund Sears, Thomas Oliphant; Performance: United States Air F",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 135.119
+    },
+    {
+      "id": "openverse:d6ab87ab-e384-454b-a65d-053d519f8f2d",
+      "provider": "openverse",
+      "title": "Bank acapella",
+      "category": "vocals.acapella",
+      "url": "https://freesound.org/people/grafezzy/sounds/672105",
+      "previewUrl": "https://cdn.freesound.org/previews/672/672105_14578063-hq.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "grafezzy",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 48.881
+    },
+    {
+      "id": "openverse:bf9d9f5b-8120-462a-8ed4-4a9f17762bad",
+      "provider": "openverse",
+      "title": "Some acapella sort of thing",
+      "category": "vocals.acapella",
+      "url": "https://freesound.org/people/sonically_sound/sounds/651798",
+      "previewUrl": "https://cdn.freesound.org/previews/651/651798_12946258-hq.mp3",
+      "downloadable": true,
+      "form": "midi",
+      "author": "sonically_sound",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "flac"
+      ],
+      "durationSec": 25.191
+    },
+    {
+      "id": "wikimediacommons:Ievan_Polkka_short_parody.ogg",
+      "provider": "wikimediacommons",
+      "title": "Ievan Polkka short parody",
+      "category": "vocals.acapella",
+      "url": "https://commons.wikimedia.org/wiki/File:Ievan_Polkka_short_parody.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e4/Ievan_Polkka_short_parody.ogg/Ievan_Polkka_short_parody.ogg.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "Tomskyhaha",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 46.47
+    },
+    {
+      "id": "openverse:ada74f21-4ff0-4881-aba2-4ad98b9dc776",
+      "provider": "openverse",
+      "title": "cap acapella",
+      "category": "vocals.acapella",
+      "url": "https://freesound.org/people/5ocrates/sounds/666081",
+      "previewUrl": "https://cdn.freesound.org/previews/666/666081_14580252-hq.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "5ocrates",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 106.78
+    },
+    {
+      "id": "wikimediacommons:Tommy_Wright_III_On_Da_Creep_2.wav",
+      "provider": "wikimediacommons",
+      "title": "Tommy Wright III On Da Creep 2",
+      "category": "vocals.acapella",
+      "url": "https://commons.wikimedia.org/wiki/File:Tommy_Wright_III_On_Da_Creep_2.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/46/Tommy_Wright_III_On_Da_Creep_2.wav/Tommy_Wright_III_On_Da_Creep_2.wav.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "UnKnownrNone",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 7.102
+    },
+    {
+      "id": "openverse:4f9a0d83-650d-432b-af7d-a60d55d060a5",
+      "provider": "openverse",
+      "title": "Plaedo is Like Water Acapella (NB) .wav",
+      "category": "vocals.acapella",
+      "url": "https://freesound.org/people/Plaedo/sounds/398997",
+      "previewUrl": "https://cdn.freesound.org/previews/398/398997_1992324-hq.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "Plaedo",
+      "license": {
+        "id": "CC-BY-NC-3.0",
+        "name": "CC BY-NC 3.0",
+        "url": "https://creativecommons.org/licenses/by-nc/3.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 44.835
+    },
+    {
+      "id": "wikimediacommons:ASEAN_Way_Anthem_2023_ASEAN_Summit_Rendition.ogg",
+      "provider": "wikimediacommons",
+      "title": "ASEAN Way Anthem 2023 ASEAN Summit Rendition",
+      "category": "vocals.acapella",
+      "url": "https://commons.wikimedia.org/wiki/File:ASEAN_Way_Anthem_2023_ASEAN_Summit_Rendition.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/27/ASEAN_Way_Anthem_2023_ASEAN_Summit_Rendition.ogg/ASEAN_Way_Anthem_2023_ASEAN_Summit_Rendition.ogg.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "Secretariat of the President of the Republic of Indonesia",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 74.822
+    }
+  ]
 }

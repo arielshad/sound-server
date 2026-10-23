@@ -44,7 +44,7 @@ const dateFmt = new Intl.DateTimeFormat("en", { year: "numeric", month: "short",
     <section class="mt-16" aria-labelledby="recent">
       <div class="flex flex-wrap items-baseline justify-between gap-2">
         <h2 id="recent" class="text-xl font-semibold tracking-tight">Recently added sources</h2>
-        <a href="/docs/sources" class="text-sm text-primary hover:underline">All sources &amp; licences →</a>
+        <a href="/docs/sources" class="text-sm text-primary underline underline-offset-2 hover:decoration-2">All sources &amp; licences →</a>
       </div>
       <p class="mt-1 text-sm text-muted-foreground">
         New sample sites are checked for every day. A site is added only when its terms allow automated search and its integration passes the test suite against the live site.
@@ -68,7 +68,7 @@ const dateFmt = new Intl.DateTimeFormat("en", { year: "numeric", month: "short",
         <li>Every search, sample view, download and MCP tool call increments a counter on the server. The counters are labelled only by surface (website, REST API, MCP), client family (for example "Claude Code" or "curl"), category and source.</li>
         <li>Totals for the last 24 hours and 7 days come from the server's Prometheus metrics, so they are approximate to within a few events.</li>
         <li>Source health counts how often each site answered a search, failed or timed out, and how long it took.</li>
-        <li>The same data is available as JSON at <a class="text-primary hover:underline" href="/v1/stats">/v1/stats</a> (<a class="text-primary hover:underline" href="/docs/api/reference#op-getStats">reference</a>). See the <a class="text-primary hover:underline" href="/privacy">privacy policy</a> for what is logged.</li>
+        <li>The same data is available as JSON at <a class="text-primary underline underline-offset-2 hover:decoration-2" href="/v1/stats">/v1/stats</a> (<a class="text-primary underline underline-offset-2 hover:decoration-2" href="/docs/api/reference#op-getStats">reference</a>). See the <a class="text-primary underline underline-offset-2 hover:decoration-2" href="/privacy">privacy policy</a> for what is logged.</li>
       </ul>
     </section>
   </div>

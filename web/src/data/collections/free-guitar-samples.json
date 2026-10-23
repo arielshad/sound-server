@@ -1,0 +1,834 @@
+{
+  "slug": "free-guitar-samples",
+  "search": {
+    "q": "guitar",
+    "categories": [
+      "guitar"
+    ],
+    "forms": [
+      "one-shot"
+    ]
+  },
+  "updatedAt": "2026-10-23T09:40:20.607Z",
+  "samples": [
+    {
+      "id": "wikimediacommons:Wikipedia_guitar_solo.ogg",
+      "provider": "wikimediacommons",
+      "title": "Wikipedia guitar solo",
+      "category": "guitar",
+      "url": "https://commons.wikimedia.org/wiki/File:Wikipedia_guitar_solo.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b6/Wikipedia_guitar_solo.ogg/Wikipedia_guitar_solo.ogg.mp3",
+      "downloadable": true,
+      "author": "Leechfoot",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 42.005
+    },
+    {
+      "id": "openverse:b6e0691b-820d-4e19-95c9-c3816d5f9071",
+      "provider": "openverse",
+      "title": "Guitar solo.wav",
+      "category": "guitar",
+      "url": "https://freesound.org/people/karolist/sounds/370934",
+      "previewUrl": "https://cdn.freesound.org/previews/370/370934_6399962-hq.mp3",
+      "downloadable": true,
+      "author": "karolist",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 15.896
+    },
+    {
+      "id": "strudel:vcsl/strumstick/0",
+      "provider": "strudel",
+      "title": "VCSL · strumstick D2 · 0",
+      "category": "guitar",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Chordophones/Composite%20Chordophones/Strumstick/Finger/Strumstick_Finger_Str1_Main_D2_vl3_rr1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Chordophones/Composite%20Chordophones/Strumstick/Finger/Strumstick_Finger_Str1_Main_D2_vl3_rr1.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Guitar_amp_feedback_-_low_rumble.ogg",
+      "provider": "wikimediacommons",
+      "title": "Guitar amp feedback - low rumble",
+      "category": "guitar",
+      "url": "https://commons.wikimedia.org/wiki/File:Guitar_amp_feedback_-_low_rumble.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3c/Guitar_amp_feedback_-_low_rumble.ogg/Guitar_amp_feedback_-_low_rumble.ogg.mp3",
+      "downloadable": true,
+      "author": "Skimel",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 20.859
+    },
+    {
+      "id": "openverse:e2e3a1d5-13d6-473f-b497-3f6a857f2394",
+      "provider": "openverse",
+      "title": "guitar feedback 2.mp3",
+      "category": "guitar",
+      "url": "https://freesound.org/people/oymaldonado/sounds/74869",
+      "previewUrl": "https://cdn.freesound.org/previews/74/74869_108576-hq.mp3",
+      "downloadable": true,
+      "author": "oymaldonado",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 27.756
+    },
+    {
+      "id": "wikimediacommons:Electric_guitar_lick_in_the_style_of_Chuck_Berry.wav",
+      "provider": "wikimediacommons",
+      "title": "Electric guitar lick in the style of Chuck Berry",
+      "category": "guitar",
+      "url": "https://commons.wikimedia.org/wiki/File:Electric_guitar_lick_in_the_style_of_Chuck_Berry.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/91/Electric_guitar_lick_in_the_style_of_Chuck_Berry.wav/Electric_guitar_lick_in_the_style_of_Chuck_Berry.wav.mp3",
+      "downloadable": true,
+      "author": "Include.aliment",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 5.619
+    },
+    {
+      "id": "strudel:vcsl/strumstick/1",
+      "provider": "strudel",
+      "title": "VCSL · strumstick E2 · 1",
+      "category": "guitar",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Chordophones/Composite%20Chordophones/Strumstick/Finger/Strumstick_Finger_Str1_Main_E2_vl3_rr1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Chordophones/Composite%20Chordophones/Strumstick/Finger/Strumstick_Finger_Str1_Main_E2_vl3_rr1.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "openverse:c4b99b5e-1274-4446-9ba7-891119b205be",
+      "provider": "openverse",
+      "title": "Guitar clean rif.wav",
+      "category": "guitar",
+      "url": "https://freesound.org/people/LG/sounds/16054",
+      "previewUrl": "https://cdn.freesound.org/previews/16/16054_36188-hq.mp3",
+      "downloadable": true,
+      "author": "LG",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 3.914
+    },
+    {
+      "id": "wikimediacommons:Steel_guitar_solo_in_Ryūkōka.ogg",
+      "provider": "wikimediacommons",
+      "title": "Steel guitar solo in Ryūkōka",
+      "category": "guitar",
+      "url": "https://commons.wikimedia.org/wiki/File:Steel_guitar_solo_in_Ry%C5%ABk%C5%8Dka.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/88/Steel_guitar_solo_in_Ry%C5%ABk%C5%8Dka.ogg/Steel_guitar_solo_in_Ry%C5%ABk%C5%8Dka.ogg.mp3",
+      "downloadable": true,
+      "author": "Gasybeaugosse2020",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 10.042
+    },
+    {
+      "id": "strudel:vcsl/strumstick/2",
+      "provider": "strudel",
+      "title": "VCSL · strumstick F#2 · 2",
+      "category": "guitar",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Chordophones/Composite%20Chordophones/Strumstick/Finger/Strumstick_Finger_Str1_Main_F%232_vl3_rr2.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Chordophones/Composite%20Chordophones/Strumstick/Finger/Strumstick_Finger_Str1_Main_F%232_vl3_rr2.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "openverse:ce76b347-80a0-4f81-95d3-fc544ee3db39",
+      "provider": "openverse",
+      "title": "E-Guitar 1",
+      "category": "guitar",
+      "url": "https://freesound.org/people/lennartgreen/sounds/203646",
+      "previewUrl": "https://cdn.freesound.org/previews/203/203646_3661618-hq.mp3",
+      "downloadable": true,
+      "author": "lennartgreen",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 10.704
+    },
+    {
+      "id": "wikimediacommons:Double_tracked_distorted_electric_guitar_playing_chords.ogg",
+      "provider": "wikimediacommons",
+      "title": "Double tracked distorted electric guitar playing chords",
+      "category": "guitar",
+      "url": "https://commons.wikimedia.org/wiki/File:Double_tracked_distorted_electric_guitar_playing_chords.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/36/Double_tracked_distorted_electric_guitar_playing_chords.ogg/Double_tracked_distorted_electric_guitar_playing_chords.ogg.mp3",
+      "downloadable": true,
+      "author": "Skimel",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 14.378
+    },
+    {
+      "id": "strudel:vcsl/strumstick/3",
+      "provider": "strudel",
+      "title": "VCSL · strumstick G2 · 3",
+      "category": "guitar",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Chordophones/Composite%20Chordophones/Strumstick/Finger/Strumstick_Finger_Str1_Main_G2_vl3_rr1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Chordophones/Composite%20Chordophones/Strumstick/Finger/Strumstick_Finger_Str1_Main_G2_vl3_rr1.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "openverse:b631aea4-af12-4387-a5b8-623e80df2cfc",
+      "provider": "openverse",
+      "title": "Short Guitar Riff",
+      "category": "guitar",
+      "url": "https://freesound.org/people/masterg180/sounds/232924",
+      "previewUrl": "https://cdn.freesound.org/previews/232/232924_3241859-hq.mp3",
+      "downloadable": true,
+      "author": "masterg180",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 4.402
+    },
+    {
+      "id": "wikimediacommons:Electric_guitar_neck_humbucker_(hotrail)_-_full_vs_split.ogg",
+      "provider": "wikimediacommons",
+      "title": "Electric guitar neck humbucker (hotrail) - full vs split",
+      "category": "guitar",
+      "url": "https://commons.wikimedia.org/wiki/File:Electric_guitar_neck_humbucker_(hotrail)_-_full_vs_split.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ee/Electric_guitar_neck_humbucker_%28hotrail%29_-_full_vs_split.ogg/Electric_guitar_neck_humbucker_%28hotrail%29_-_full_vs_split.ogg.mp3",
+      "downloadable": true,
+      "author": "Skimel",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 6.5
+    },
+    {
+      "id": "strudel:vcsl/strumstick/4",
+      "provider": "strudel",
+      "title": "VCSL · strumstick A2 · 4",
+      "category": "guitar",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Chordophones/Composite%20Chordophones/Strumstick/Finger/Strumstick_Finger_Str2_Main_A2_vl3_rr1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Chordophones/Composite%20Chordophones/Strumstick/Finger/Strumstick_Finger_Str2_Main_A2_vl3_rr1.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "openverse:54bfa4f3-77d4-4a9a-9a24-e7d3f925cc0f",
+      "provider": "openverse",
+      "title": "Electric guitar Metal Riff",
+      "category": "guitar",
+      "url": "https://freesound.org/people/davidkyoku/sounds/133999",
+      "previewUrl": "https://cdn.freesound.org/previews/133/133999_1960341-hq.mp3",
+      "downloadable": true,
+      "author": "davidkyoku",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 6.833
+    },
+    {
+      "id": "wikimediacommons:Audio_files_of_spanish_guitar_chords_14.wav",
+      "provider": "wikimediacommons",
+      "title": "Audio files of spanish guitar chords 14",
+      "category": "guitar",
+      "url": "https://commons.wikimedia.org/wiki/File:Audio_files_of_spanish_guitar_chords_14.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/eb/Audio_files_of_spanish_guitar_chords_14.wav/Audio_files_of_spanish_guitar_chords_14.wav.mp3",
+      "downloadable": true,
+      "author": "Wilfredor",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 7.721
+    },
+    {
+      "id": "strudel:vcsl/strumstick/5",
+      "provider": "strudel",
+      "title": "VCSL · strumstick B2 · 5",
+      "category": "guitar",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Chordophones/Composite%20Chordophones/Strumstick/Finger/Strumstick_Finger_Str2_Main_B2_vl3_rr1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Chordophones/Composite%20Chordophones/Strumstick/Finger/Strumstick_Finger_Str2_Main_B2_vl3_rr1.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "openverse:14b14f59-90d0-4df8-8a51-d6d3657851b5",
+      "provider": "openverse",
+      "title": "E-Guitar 2",
+      "category": "guitar",
+      "url": "https://freesound.org/people/lennartgreen/sounds/203645",
+      "previewUrl": "https://cdn.freesound.org/previews/203/203645_3661618-hq.mp3",
+      "downloadable": true,
+      "author": "lennartgreen",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 10.712
+    },
+    {
+      "id": "wikimediacommons:Audio_files_of_spanish_guitar_chords_05.wav",
+      "provider": "wikimediacommons",
+      "title": "Audio files of spanish guitar chords 05",
+      "category": "guitar",
+      "url": "https://commons.wikimedia.org/wiki/File:Audio_files_of_spanish_guitar_chords_05.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7c/Audio_files_of_spanish_guitar_chords_05.wav/Audio_files_of_spanish_guitar_chords_05.wav.mp3",
+      "downloadable": true,
+      "author": "Wilfredor",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 56.377
+    },
+    {
+      "id": "strudel:vcsl/strumstick/6",
+      "provider": "strudel",
+      "title": "VCSL · strumstick C#3 · 6",
+      "category": "guitar",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Chordophones/Composite%20Chordophones/Strumstick/Finger/Strumstick_Finger_Str2_Main_C%233_vl3_rr1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Chordophones/Composite%20Chordophones/Strumstick/Finger/Strumstick_Finger_Str2_Main_C%233_vl3_rr1.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Audio_files_of_spanish_guitar_chords_29.wav",
+      "provider": "wikimediacommons",
+      "title": "Audio files of spanish guitar chords 29",
+      "category": "guitar",
+      "url": "https://commons.wikimedia.org/wiki/File:Audio_files_of_spanish_guitar_chords_29.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/94/Audio_files_of_spanish_guitar_chords_29.wav/Audio_files_of_spanish_guitar_chords_29.wav.mp3",
+      "downloadable": true,
+      "author": "Wilfredor",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 65.252
+    },
+    {
+      "id": "openverse:3280c195-54cf-427d-b7af-2f3f69a40b43",
+      "provider": "openverse",
+      "title": "guitar 0.wav",
+      "category": "guitar",
+      "url": "https://freesound.org/people/NoiseCollector/sounds/2550",
+      "previewUrl": "https://cdn.freesound.org/previews/2/2550_4948-hq.mp3",
+      "downloadable": true,
+      "author": "NoiseCollector",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 4
+    },
+    {
+      "id": "strudel:vcsl/strumstick/7",
+      "provider": "strudel",
+      "title": "VCSL · strumstick D3 · 7",
+      "category": "guitar",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Chordophones/Composite%20Chordophones/Strumstick/Finger/Strumstick_Finger_Str2_Main_D3_vl3_rr1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Chordophones/Composite%20Chordophones/Strumstick/Finger/Strumstick_Finger_Str2_Main_D3_vl3_rr1.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Audio_files_of_spanish_guitar_chords_21.wav",
+      "provider": "wikimediacommons",
+      "title": "Audio files of spanish guitar chords 21",
+      "category": "guitar",
+      "url": "https://commons.wikimedia.org/wiki/File:Audio_files_of_spanish_guitar_chords_21.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ea/Audio_files_of_spanish_guitar_chords_21.wav/Audio_files_of_spanish_guitar_chords_21.wav.mp3",
+      "downloadable": true,
+      "author": "Wilfredor",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 32.021
+    },
+    {
+      "id": "openverse:ac9e80d7-a4fd-4a51-a0a8-43a87445fb53",
+      "provider": "openverse",
+      "title": "Classical guitar scale",
+      "category": "guitar",
+      "url": "https://commons.wikimedia.org/w/index.php?curid=171917",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Classical_guitar_scale.ogg",
+      "downloadable": true,
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg"
+      ],
+      "durationSec": 11.742
+    },
+    {
+      "id": "strudel:vcsl/strumstick/8",
+      "provider": "strudel",
+      "title": "VCSL · strumstick A3 · 8",
+      "category": "guitar",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Chordophones/Composite%20Chordophones/Strumstick/Finger/Strumstick_Finger_Str3_Main_A3_vl3_rr1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Chordophones/Composite%20Chordophones/Strumstick/Finger/Strumstick_Finger_Str3_Main_A3_vl3_rr1.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Audio_files_of_spanish_guitar_chords_02.wav",
+      "provider": "wikimediacommons",
+      "title": "Audio files of spanish guitar chords 02",
+      "category": "guitar",
+      "url": "https://commons.wikimedia.org/wiki/File:Audio_files_of_spanish_guitar_chords_02.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ce/Audio_files_of_spanish_guitar_chords_02.wav/Audio_files_of_spanish_guitar_chords_02.wav.mp3",
+      "downloadable": true,
+      "author": "Wilfredor",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 236.05
+    },
+    {
+      "id": "openverse:fdc1ed14-f61b-4235-970b-6614e1c1b49a",
+      "provider": "openverse",
+      "title": "dexnay - guitar sad.mp3",
+      "category": "guitar",
+      "url": "https://freesound.org/people/Dexnay/sounds/82310",
+      "previewUrl": "https://cdn.freesound.org/previews/82/82310_1303845-hq.mp3",
+      "downloadable": true,
+      "author": "Dexnay",
+      "license": {
+        "id": "LicenseRef-Sampling-Plus-1.0",
+        "name": "CC Sampling+ 1.0",
+        "url": "https://creativecommons.org/licenses/sampling+/1.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 12.056
+    },
+    {
+      "id": "strudel:vcsl/strumstick/9",
+      "provider": "strudel",
+      "title": "VCSL · strumstick A4 · 9",
+      "category": "guitar",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Chordophones/Composite%20Chordophones/Strumstick/Finger/Strumstick_Finger_Str3_Main_A4_vl3_rr1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Chordophones/Composite%20Chordophones/Strumstick/Finger/Strumstick_Finger_Str3_Main_A4_vl3_rr1.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Audio_files_of_spanish_guitar_chords_13.wav",
+      "provider": "wikimediacommons",
+      "title": "Audio files of spanish guitar chords 13",
+      "category": "guitar",
+      "url": "https://commons.wikimedia.org/wiki/File:Audio_files_of_spanish_guitar_chords_13.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/24/Audio_files_of_spanish_guitar_chords_13.wav/Audio_files_of_spanish_guitar_chords_13.wav.mp3",
+      "downloadable": true,
+      "author": "Wilfredor",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 201.249
+    },
+    {
+      "id": "openverse:884ef54a-59cb-4759-a11e-bc0249b54e59",
+      "provider": "openverse",
+      "title": "Guitar Standard Tuning",
+      "category": "guitar",
+      "url": "https://commons.wikimedia.org/w/index.php?curid=15193916",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Guitar_Standard_Tuning.ogg",
+      "downloadable": true,
+      "author": "Raoul NK",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg"
+      ],
+      "durationSec": 14.739
+    },
+    {
+      "id": "strudel:vcsl/strumstick/10",
+      "provider": "strudel",
+      "title": "VCSL · strumstick B3 · 10",
+      "category": "guitar",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Chordophones/Composite%20Chordophones/Strumstick/Finger/Strumstick_Finger_Str3_Main_B3_vl3_rr1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Chordophones/Composite%20Chordophones/Strumstick/Finger/Strumstick_Finger_Str3_Main_B3_vl3_rr1.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Audio_files_of_spanish_guitar_chords_18.wav",
+      "provider": "wikimediacommons",
+      "title": "Audio files of spanish guitar chords 18",
+      "category": "guitar",
+      "url": "https://commons.wikimedia.org/wiki/File:Audio_files_of_spanish_guitar_chords_18.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/41/Audio_files_of_spanish_guitar_chords_18.wav/Audio_files_of_spanish_guitar_chords_18.wav.mp3",
+      "downloadable": true,
+      "author": "Wilfredor",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 7.592
+    },
+    {
+      "id": "openverse:697ede37-530e-4d50-bf86-91a96b2c18c9",
+      "provider": "openverse",
+      "title": "Guitar Riff",
+      "category": "guitar",
+      "url": "https://freesound.org/people/mr-guitarra/sounds/434953",
+      "previewUrl": "https://cdn.freesound.org/previews/434/434953_7340038-hq.mp3",
+      "downloadable": true,
+      "author": "mr-guitarra",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 5.241
+    }
+  ]
+}

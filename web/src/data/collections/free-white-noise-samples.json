@@ -1,0 +1,746 @@
+{
+  "slug": "free-white-noise-samples",
+  "search": {
+    "q": "noise",
+    "categories": [
+      "fx.noise"
+    ]
+  },
+  "updatedAt": "2026-10-23T09:46:41.795Z",
+  "samples": [
+    {
+      "id": "wikimediacommons:20220623_Noise_pollution._Tomaszów_Mazowiecki_(60,000_population_town),_residential_area.oga",
+      "provider": "wikimediacommons",
+      "title": "20220623 Noise pollution. Tomaszów Mazowiecki (60,000 population town), residential area",
+      "category": "fx.noise",
+      "url": "https://commons.wikimedia.org/wiki/File:20220623_Noise_pollution._Tomasz%C3%B3w_Mazowiecki_(60,000_population_town),_residential_area.oga",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8d/20220623_Noise_pollution._Tomasz%C3%B3w_Mazowiecki_%2860%2C000_population_town%29%2C_residential_area.oga/20220623_Noise_pollution._Tomasz%C3%B3w_Mazowiecki_%2860%2C000_population_town%29%2C_residential_area.oga.mp3",
+      "downloadable": true,
+      "author": "WrS.tm.pl",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 136.84
+    },
+    {
+      "id": "soundbible:1016-Strange-Noise",
+      "provider": "soundbible",
+      "title": "Strange Noise",
+      "category": "fx.noise",
+      "url": "https://soundbible.com/1016-Strange-Noise.html",
+      "previewUrl": "https://soundbible.com/mp3/Strange%20Noise-SoundBible.com-229408508.mp3",
+      "downloadable": true,
+      "author": "Mike Koenig",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "strudel:dirt-samples/noise/0",
+      "provider": "strudel",
+      "title": "Dirt-Samples · noise · 0",
+      "category": "fx.noise",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/noise/000_noise.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/noise/000_noise.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "opengameart:static-noise-similar-untuned-tv-also-known-white-noise",
+      "provider": "opengameart",
+      "title": "static noise similar to an untuned tv (also known as white noise)",
+      "category": "fx.noise",
+      "url": "https://opengameart.org/content/static-noise-similar-untuned-tv-also-known-white-noise",
+      "previewUrl": "https://opengameart.org/sites/default/files/sn.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/sn.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:58133",
+      "provider": "orangefreesounds",
+      "title": "Three Creepy Wall Clock Strikes With Mechanism Noise Sound Effect",
+      "category": "fx.noise",
+      "url": "https://orangefreesounds.com/three-creepy-wall-clock-strikes-with-mechanism-noise-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/08/Three-creepy-wall-clock-strikes-with-mechanism-noise-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 15
+    },
+    {
+      "id": "soundbible:474-Magic-Wand-Noise",
+      "provider": "soundbible",
+      "title": "Magic Wand Noise",
+      "category": "fx.noise",
+      "url": "https://soundbible.com/474-Magic-Wand-Noise.html",
+      "previewUrl": "https://soundbible.com/mp3/Magic%20Wand%20Noise-SoundBible.com-375928671.mp3",
+      "downloadable": true,
+      "author": "Mike Koenig",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Noise_reduction_in_Audacity_(0,_5,_12,_30_dB)_(150Hz)_(0.15_sec).ogg",
+      "provider": "wikimediacommons",
+      "title": "Noise reduction in Audacity (0, 5, 12, 30 dB) (150Hz) (0.15 sec)",
+      "category": "fx.noise",
+      "url": "https://commons.wikimedia.org/wiki/File:Noise_reduction_in_Audacity_(0,_5,_12,_30_dB)_(150Hz)_(0.15_sec).ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/df/Noise_reduction_in_Audacity_%280%2C_5%2C_12%2C_30_dB%29_%28150Hz%29_%280.15_sec%29.ogg/Noise_reduction_in_Audacity_%280%2C_5%2C_12%2C_30_dB%29_%28150Hz%29_%280.15_sec%29.ogg.mp3",
+      "downloadable": true,
+      "author": "Beta M",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 39.497
+    },
+    {
+      "id": "opengameart:warning-noise",
+      "provider": "opengameart",
+      "title": "Warning Noise",
+      "category": "fx.noise",
+      "url": "https://opengameart.org/content/warning-noise",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/warning.ogg.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/warning.ogg.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "wikimediacommons:Brown_noise_15-00_8kbps.mp3",
+      "provider": "wikimediacommons",
+      "title": "Brown noise 15-00 8kbps",
+      "category": "fx.noise",
+      "url": "https://commons.wikimedia.org/wiki/File:Brown_noise_15-00_8kbps.mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Brown_noise_15-00_8kbps.mp3",
+      "downloadable": true,
+      "author": "JPxG",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 900.144
+    },
+    {
+      "id": "orangefreesounds:57891",
+      "provider": "orangefreesounds",
+      "title": "Shopping Mall And Arcade Crowd Noise Sound Effect",
+      "category": "fx.noise",
+      "url": "https://orangefreesounds.com/shopping-mall-and-arcade-crowd-noise-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/08/Shopping-mall-and-arcade-crowd-noise-sound-effect.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 11
+    },
+    {
+      "id": "soundbible:1577-Siren-Noise",
+      "provider": "soundbible",
+      "title": "Siren Noise",
+      "category": "fx.noise",
+      "url": "https://soundbible.com/1577-Siren-Noise.html",
+      "previewUrl": "https://soundbible.com/mp3/Siren_Noise-KevanGC-1337458893.mp3",
+      "downloadable": true,
+      "author": "KevanGC",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "opengameart:background-rumble-noise",
+      "provider": "opengameart",
+      "title": "Background Rumble Noise",
+      "category": "fx.noise",
+      "url": "https://opengameart.org/content/background-rumble-noise",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/background_ambience.ogg.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/background_ambience.ogg.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "wikimediacommons:Noise_in_a_telephone_line.ogg",
+      "provider": "wikimediacommons",
+      "title": "Noise in a telephone line",
+      "category": "fx.noise",
+      "url": "https://commons.wikimedia.org/wiki/File:Noise_in_a_telephone_line.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/14/Noise_in_a_telephone_line.ogg/Noise_in_a_telephone_line.ogg.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Yousaf465",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 5.503
+    },
+    {
+      "id": "orangefreesounds:55878",
+      "provider": "orangefreesounds",
+      "title": "Loud Street Sweeper Machine Sound Effect – Urban Cleaning Vehicle Noise",
+      "category": "fx.noise",
+      "url": "https://orangefreesounds.com/loud-street-sweeper-machine-sound-effect-urban-cleaning-vehicle-noise/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/03/Loud-street-sweeper-machine-sound-effect-urban-cleaning-vehicle-noise.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 62
+    },
+    {
+      "id": "soundbible:484-Chewbacca-Wookie-Noise",
+      "provider": "soundbible",
+      "title": "Chewbacca Wookie Noise",
+      "category": "fx.noise",
+      "url": "https://soundbible.com/484-Chewbacca-Wookie-Noise.html",
+      "previewUrl": "https://soundbible.com/mp3/Chewbacca%20Wookie%20Noise-SoundBible.com-1201859158.mp3",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Personal-Use-Only",
+        "name": "Personal Use Only",
+        "verdict": "no"
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "strudel:dirt-samples/casio/2",
+      "provider": "strudel",
+      "title": "Dirt-Samples · casio · 2",
+      "category": "fx.noise",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/casio/noise.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/casio/noise.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "opengameart:robot-noise",
+      "provider": "opengameart",
+      "title": "Robot Noise",
+      "category": "fx.noise",
+      "url": "https://opengameart.org/content/robot-noise",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/turret.wav.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/turret.wav.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "wikimediacommons:White-noise-sound-20sec-mono-44100Hz.ogg",
+      "provider": "wikimediacommons",
+      "title": "White-noise-sound-20sec-mono-44100Hz",
+      "category": "fx.noise",
+      "url": "https://commons.wikimedia.org/wiki/File:White-noise-sound-20sec-mono-44100Hz.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/98/White-noise-sound-20sec-mono-44100Hz.ogg/White-noise-sound-20sec-mono-44100Hz.ogg.mp3",
+      "downloadable": true,
+      "author": "Jorge Stolfi",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 20.016
+    },
+    {
+      "id": "orangefreesounds:55699",
+      "provider": "orangefreesounds",
+      "title": "Loud Street Cleaning Machine Noise Sound Effect",
+      "category": "fx.noise",
+      "url": "https://orangefreesounds.com/loud-street-cleaning-machine-noise-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/02/Loud-street-cleaning-machine-noise-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 62
+    },
+    {
+      "id": "strudel:dirt-samples/noise2/0",
+      "provider": "strudel",
+      "title": "Dirt-Samples · noise2 · 0",
+      "category": "fx.noise",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/noise2/000_0.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/noise2/000_0.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Brown_noise_15-00_69kbps.mp3",
+      "provider": "wikimediacommons",
+      "title": "Brown noise 15-00 69kbps",
+      "category": "fx.noise",
+      "url": "https://commons.wikimedia.org/wiki/File:Brown_noise_15-00_69kbps.mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Brown_noise_15-00_69kbps.mp3",
+      "downloadable": true,
+      "author": "JPxG",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 900.049
+    },
+    {
+      "id": "opengameart:retro-computer-noise",
+      "provider": "opengameart",
+      "title": "Retro Computer Noise",
+      "category": "fx.noise",
+      "url": "https://opengameart.org/content/retro-computer-noise",
+      "previewUrl": "https://opengameart.org/sites/default/files/computer-noise.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/computer-noise.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:57557",
+      "provider": "orangefreesounds",
+      "title": "Wind Blowing Noise Loop Sound Effect",
+      "category": "fx.noise",
+      "url": "https://orangefreesounds.com/wind-blowing-noise-loop-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/07/Wind-blowing-noise-loop-sound-effect.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 44
+    },
+    {
+      "id": "strudel:tidal-drum-machines/YamahaRY30_misc/3",
+      "provider": "strudel",
+      "title": "Yamaha RY30 · misc · 3",
+      "category": "fx.noise",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/YamahaRY30/yamahary30-misc/Noise.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/YamahaRY30/yamahary30-misc/Noise.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "soundbible:1611-TV-Static",
+      "provider": "soundbible",
+      "title": "TV Static",
+      "category": "fx.noise",
+      "url": "https://soundbible.com/1611-TV-Static.html",
+      "previewUrl": "https://soundbible.com/mp3/TV_Static-Mike_Koenig-1287909192.mp3",
+      "downloadable": true,
+      "author": "Mike Koenig",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "opengameart:technology-noise",
+      "provider": "opengameart",
+      "title": "Technology noise.",
+      "category": "fx.noise",
+      "url": "https://opengameart.org/content/technology-noise",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/block.wav.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/block.wav.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:55030",
+      "provider": "orangefreesounds",
+      "title": "Urban Traffic Noise With Passing Tram – Sound Effect",
+      "category": "fx.noise",
+      "url": "https://orangefreesounds.com/urban-traffic-noise-with-passing-tram-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/01/Urban-traffic-noise-with-passing-tram-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 14
+    },
+    {
+      "id": "wikimediacommons:Metal_riff_without_and_with_noise_gate_(hard_gating).wav",
+      "provider": "wikimediacommons",
+      "title": "Metal riff without and with noise gate (hard gating)",
+      "category": "fx.noise",
+      "url": "https://commons.wikimedia.org/wiki/File:Metal_riff_without_and_with_noise_gate_(hard_gating).wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7c/Metal_riff_without_and_with_noise_gate_%28hard_gating%29.wav/Metal_riff_without_and_with_noise_gate_%28hard_gating%29.wav.mp3",
+      "downloadable": true,
+      "author": "Skimel",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 18.99
+    },
+    {
+      "id": "strudel:dirt-samples/noise2/1",
+      "provider": "strudel",
+      "title": "Dirt-Samples · noise2 · 1",
+      "category": "fx.noise",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/noise2/001_1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/noise2/001_1.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "opengameart:some-animal-noise",
+      "provider": "opengameart",
+      "title": "Some animal noise",
+      "category": "fx.noise",
+      "url": "https://opengameart.org/content/some-animal-noise",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/soma%20animal%20noise.ogg.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/soma%20animal%20noise.ogg.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:57499",
+      "provider": "orangefreesounds",
+      "title": "Rain Noise Loop – Realistic Rainfall Sound Effect",
+      "category": "fx.noise",
+      "url": "https://orangefreesounds.com/rain-noise-loop-realistic-rainfall-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/07/Rain-noise-loop-realistic-rainfall-sound-effect.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 36
+    },
+    {
+      "id": "strudel:dirt-samples/noise2/2",
+      "provider": "strudel",
+      "title": "Dirt-Samples · noise2 · 2",
+      "category": "fx.noise",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/noise2/002_2.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/noise2/002_2.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "soundbible:1574-Record-Static",
+      "provider": "soundbible",
+      "title": "Record Static",
+      "category": "fx.noise",
+      "url": "https://soundbible.com/1574-Record-Static.html",
+      "previewUrl": "https://soundbible.com/mp3/Record%20Static-SoundBible.com-306727640.mp3",
+      "downloadable": true,
+      "author": "Bernhardleimbrock",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "opengameart:sirens-and-alarm-noise",
+      "provider": "opengameart",
+      "title": "Sirens and Alarm Noise",
+      "category": "fx.noise",
+      "url": "https://opengameart.org/content/sirens-and-alarm-noise",
+      "previewUrl": "https://opengameart.org/sites/default/files/siren.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/siren.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:55262",
+      "provider": "orangefreesounds",
+      "title": "Waterfall And Birdsong Ambience – Nature White Noise Sound Effect",
+      "category": "fx.noise",
+      "url": "https://orangefreesounds.com/waterfall-and-birdsong-ambience-nature-white-noise-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/01/Waterfall-and-birdsong-ambience-nature-white-noise-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 56
+    },
+    {
+      "id": "strudel:dirt-samples/noise2/3",
+      "provider": "strudel",
+      "title": "Dirt-Samples · noise2 · 3",
+      "category": "fx.noise",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/noise2/003_3.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/noise2/003_3.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    }
+  ]
+}

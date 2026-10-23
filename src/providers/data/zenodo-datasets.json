@@ -1,0 +1,694 @@
+{
+  "$comment": "Allow-list of Zenodo datasets that are useful as sample or instrument sources, for the 'zenodo' provider. Metadata and file sizes come from https://zenodo.org/api/records/{recordId} (fetched by hand on the 'verified' date; the provider makes no API calls, since robots.txt disallows /api and /search). Licences were read from each record and its description; descriptions are our own words. Files are downloaded from https://zenodo.org/records/{recordId}/files/{key}?download=1.",
+  "licenses": {
+    "cc-by-4.0": {
+      "kind": "cc",
+      "version": "4.0"
+    },
+    "waivops": {
+      "kind": "cc",
+      "version": "4.0",
+      "note": "CC BY 4.0: credit Patchbanks / WaivOps. The loops were rendered from Patchbanks' own sample and MIDI libraries and are stated as cleared for copyright."
+    },
+    "freesound-mixed": {
+      "kind": "custom",
+      "name": "Mixed Freesound licences (CC0, CC BY, CC BY-NC)",
+      "url": "https://zenodo.org/records/3665275/files/licenses.txt",
+      "verdict": "check-terms",
+      "note": "Each sound keeps its Freesound licence, listed with its uploader in licenses.txt: CC0 and CC BY sounds can be used commercially (credit the BY ones), CC BY-NC ones cannot."
+    },
+    "good-sounds": {
+      "kind": "cc",
+      "version": "4.0",
+      "nc": true,
+      "note": "The Zenodo record is tagged CC BY 4.0, but the dataset's own description says CC BY-NC 4.0: treat it as non-commercial."
+    }
+  },
+  "records": [
+    {
+      "recordId": 3685367,
+      "id": "tinysol",
+      "title": "TinySOL: isolated orchestral notes",
+      "creators": [
+        "Carmine-Emanuele Cella",
+        "Daniele Ghisi",
+        "Vincent Lostanlen",
+        "Fabien Lévy",
+        "Joshua Fineberg",
+        "Yan Maresz"
+      ],
+      "doi": "10.5281/zenodo.3685367",
+      "version": "6.0",
+      "published": "2020-01-31",
+      "category": "strings",
+      "form": "multisample",
+      "unit": "pack",
+      "packSize": 2913,
+      "formats": [
+        "wav"
+      ],
+      "tags": [
+        "tinysol",
+        "ircam",
+        "orchestral",
+        "single notes",
+        "brass",
+        "woodwind",
+        "strings",
+        "dataset"
+      ],
+      "description": "2,913 single notes from 14 orchestral instruments (strings, woodwinds, brass), ordinary playing technique, from IRCAM's Studio On Line library; a CSV lists pitch and dynamics.",
+      "license": "cc-by-4.0",
+      "files": [
+        {
+          "key": "TinySOL.tar.gz",
+          "sizeBytes": 1026917185,
+          "format": "tar.gz",
+          "role": "pack"
+        }
+      ],
+      "sameAs": [
+        "curated:tinysol"
+      ],
+      "verified": "2026-10-23"
+    },
+    {
+      "recordId": 1442513,
+      "id": "vocalset",
+      "title": "VocalSet: singing voice dataset",
+      "creators": [
+        "Wilkins, Julia",
+        "Prem Seetharaman",
+        "Alison Wahl",
+        "Bryan Pardo"
+      ],
+      "doi": "10.5281/zenodo.1442513",
+      "version": "1.2",
+      "published": "2018-03-08",
+      "category": "vocals",
+      "form": "pack",
+      "unit": "pack",
+      "formats": [
+        "wav"
+      ],
+      "tags": [
+        "singing",
+        "vocal techniques",
+        "vowels",
+        "vibrato",
+        "belt",
+        "breathy",
+        "dataset"
+      ],
+      "description": "About 10 hours of 20 professional singers on scales, arpeggios, long tones and excerpts across five vowels and techniques such as vibrato, belt, breathy and vocal fry.",
+      "license": "cc-by-4.0",
+      "files": [
+        {
+          "key": "VocalSet11.zip",
+          "sizeBytes": 2077243579,
+          "format": "zip",
+          "role": "pack"
+        },
+        {
+          "key": "VocalSet1-2.zip",
+          "sizeBytes": 5991573193,
+          "format": "zip",
+          "role": "pack"
+        }
+      ],
+      "sameAs": [
+        "curated:vocalset"
+      ],
+      "verified": "2026-10-23"
+    },
+    {
+      "recordId": 3897182,
+      "id": "dagstuhl-choirset",
+      "title": "Dagstuhl ChoirSet",
+      "creators": [
+        "Rosenzweig, Sebastian",
+        "Cuesta, Helena",
+        "Weiß, Christof",
+        "Scherbaum, Frank",
+        "Gómez, Emilia",
+        "Müller, Meinard"
+      ],
+      "doi": "10.5281/zenodo.3897182",
+      "version": "1.0",
+      "published": "2020-07-22",
+      "category": "vocals.choir",
+      "form": "pack",
+      "unit": "pack",
+      "formats": [
+        "wav"
+      ],
+      "tags": [
+        "choir",
+        "choral",
+        "multitrack",
+        "a cappella",
+        "dataset"
+      ],
+      "description": "Multitrack recordings of an amateur choir (close and room microphones per singer) singing choral pieces, with pitch annotations.",
+      "license": "cc-by-4.0",
+      "files": [
+        {
+          "key": "DagstuhlChoirSet.zip",
+          "sizeBytes": 5130262665,
+          "format": "zip",
+          "role": "pack"
+        }
+      ],
+      "sameAs": [
+        "curated:dagstuhl-choirset"
+      ],
+      "verified": "2026-10-23"
+    },
+    {
+      "recordId": 3371780,
+      "id": "guitarset",
+      "title": "GuitarSet: acoustic guitar recordings",
+      "creators": [
+        "Qingyang Xi",
+        "Rachel M. Bittner",
+        "Johan Pauwels",
+        "Xuzhou Ye",
+        "Juan P. Bello"
+      ],
+      "doi": "10.5281/zenodo.3371780",
+      "version": "1.1.0",
+      "published": "2019-08-20",
+      "category": "guitar",
+      "form": "pack",
+      "unit": "pack",
+      "packSize": 360,
+      "formats": [
+        "wav"
+      ],
+      "tags": [
+        "acoustic guitar",
+        "hexaphonic",
+        "comping",
+        "solo",
+        "chords",
+        "dataset"
+      ],
+      "description": "360 short acoustic guitar excerpts (comping and solos in several styles) by six players, recorded with a microphone and a hexaphonic pickup (one track per string).",
+      "license": "cc-by-4.0",
+      "files": [
+        {
+          "key": "audio_mono-mic.zip",
+          "sizeBytes": 656927981,
+          "format": "zip",
+          "role": "pack"
+        },
+        {
+          "key": "audio_mono-pickup_mix.zip",
+          "sizeBytes": 683145360,
+          "format": "zip",
+          "role": "pack"
+        },
+        {
+          "key": "audio_hex-pickup_debleeded.zip",
+          "sizeBytes": 3607349578,
+          "format": "zip",
+          "role": "pack"
+        },
+        {
+          "key": "audio_hex-pickup_original.zip",
+          "sizeBytes": 3210735945,
+          "format": "zip",
+          "role": "pack"
+        }
+      ],
+      "verified": "2026-10-23"
+    },
+    {
+      "recordId": 3780109,
+      "id": "dynamic-percussion-dataset",
+      "title": "Dynamic Percussion Dataset",
+      "creators": [
+        "Nieminen, Elias Veikko Juhani"
+      ],
+      "doi": "10.5281/zenodo.3780109",
+      "version": "1.1.0",
+      "published": "2020-04-28",
+      "category": "drums.perc",
+      "form": "pack",
+      "unit": "pack",
+      "formats": [
+        "wav"
+      ],
+      "tags": [
+        "percussion",
+        "drum kit",
+        "one-shots",
+        "anechoic",
+        "dynamics",
+        "dataset"
+      ],
+      "description": "One-shot hits of drum-kit pieces and percussion at several dynamics, recorded dry in an anechoic room (24-bit, 44.1 kHz mono).",
+      "license": "cc-by-4.0",
+      "files": [
+        {
+          "key": "DynamicPercussionDataset.zip",
+          "sizeBytes": 174347648,
+          "format": "zip",
+          "role": "pack"
+        }
+      ],
+      "verified": "2026-10-23"
+    },
+    {
+      "recordId": 3665275,
+      "id": "freesound-one-shot-percussive-sounds",
+      "title": "Freesound One-Shot Percussive Sounds",
+      "creators": [
+        "António Ramires",
+        "Pritish Chandna",
+        "Xavier Favory",
+        "Emilia Gómez",
+        "Xavier Serra"
+      ],
+      "doi": "10.5281/zenodo.3665275",
+      "version": "1.0",
+      "published": "2020-02-12",
+      "category": "drums",
+      "form": "pack",
+      "unit": "pack",
+      "packSize": 10254,
+      "formats": [
+        "wav"
+      ],
+      "tags": [
+        "one-shots",
+        "percussion",
+        "kick",
+        "snare",
+        "freesound",
+        "dataset"
+      ],
+      "description": "10,254 short percussive one-shots (under a second) gathered from Freesound, with timbre analysis per sound.",
+      "license": "freesound-mixed",
+      "files": [
+        {
+          "key": "one_shot_percussive_sounds.zip",
+          "sizeBytes": 112614838,
+          "format": "zip",
+          "role": "pack"
+        }
+      ],
+      "verified": "2026-10-23"
+    },
+    {
+      "recordId": 4588740,
+      "id": "good-sounds",
+      "title": "Good-sounds: single notes and scales of 12 instruments",
+      "creators": [
+        "Romani Picas, Oriol",
+        "Parra Rodriguez, Hector",
+        "Dabiri, Dara",
+        "Serra, Xavier"
+      ],
+      "doi": "10.5281/zenodo.4588740",
+      "version": "1.1",
+      "published": "2017-06-29",
+      "category": "woodwind",
+      "form": "multisample",
+      "unit": "pack",
+      "formats": [
+        "flac"
+      ],
+      "tags": [
+        "single notes",
+        "scales",
+        "flute",
+        "clarinet",
+        "saxophone",
+        "trumpet",
+        "violin",
+        "cello",
+        "dataset"
+      ],
+      "description": "Single notes and scales of 12 instruments (flute, clarinet, saxophones, oboe, trumpet, violin, cello, bass...) played well and badly by 15 musicians, one 48 kHz FLAC per note.",
+      "license": "good-sounds",
+      "files": [
+        {
+          "key": "good-sounds.zip",
+          "sizeBytes": 13906331564,
+          "format": "zip",
+          "role": "pack"
+        }
+      ],
+      "verified": "2026-10-23"
+    },
+    {
+      "recordId": 10278066,
+      "id": "waivops-edm-tr9",
+      "title": "WaivOps EDM-TR9: TR-909 drum loops",
+      "creators": [
+        "Patchbanks"
+      ],
+      "doi": "10.5281/zenodo.10278066",
+      "version": "1.0",
+      "published": "2023-12-06",
+      "category": "drums",
+      "form": "pack",
+      "unit": "pack",
+      "packSize": 3780,
+      "formats": [
+        "wav"
+      ],
+      "tags": [
+        "drum loops",
+        "909",
+        "tr-909",
+        "house",
+        "techno",
+        "edm",
+        "bpm labelled",
+        "dataset"
+      ],
+      "description": "3,780 drum loops in the style of the Roland TR-909 for dance, house and techno, 120-140 BPM, 24-bit WAV with tempo labels.",
+      "license": "waivops",
+      "files": [
+        {
+          "key": "edm_tr9_drm_id_001.tar.gz",
+          "sizeBytes": 4810529632,
+          "format": "tar.gz",
+          "role": "pack"
+        }
+      ],
+      "verified": "2026-10-23"
+    },
+    {
+      "recordId": 7523435,
+      "id": "waivops-hh-lfbb",
+      "title": "WaivOps HH-LFBB: lo-fi and boom bap drum loops",
+      "creators": [
+        "Patchbanks"
+      ],
+      "doi": "10.5281/zenodo.7523435",
+      "version": "1.0.0",
+      "published": "2023-02-25",
+      "category": "drums",
+      "form": "pack",
+      "unit": "pack",
+      "packSize": 3332,
+      "formats": [
+        "wav",
+        "mid"
+      ],
+      "tags": [
+        "drum loops",
+        "lofi",
+        "boom bap",
+        "hip hop",
+        "bpm labelled",
+        "midi",
+        "dataset"
+      ],
+      "description": "3,332 swung lo-fi and boom bap drum loops, 60-96 BPM, 24-bit WAV with tempo labels and MIDI.",
+      "license": "waivops",
+      "files": [
+        {
+          "key": "hh_lfbb_lps_mid_001-009.tar.gz",
+          "sizeBytes": 7081175951,
+          "format": "tar.gz",
+          "role": "pack"
+        },
+        {
+          "key": "hh_lfbb_lps_mid_010-012.tar.gz",
+          "sizeBytes": 8009382901,
+          "format": "tar.gz",
+          "role": "pack"
+        }
+      ],
+      "verified": "2026-10-23"
+    },
+    {
+      "recordId": 8327650,
+      "id": "waivops-rtro-drm",
+      "title": "WaivOps RTRO-DRM: 1980s drum machine loops",
+      "creators": [
+        "Patchbanks"
+      ],
+      "doi": "10.5281/zenodo.8327650",
+      "version": "1.0.0",
+      "published": "2023-09-08",
+      "category": "drums",
+      "form": "pack",
+      "unit": "pack",
+      "packSize": 2138,
+      "formats": [
+        "wav"
+      ],
+      "tags": [
+        "drum loops",
+        "drum machine",
+        "80s",
+        "retro",
+        "bpm labelled",
+        "dataset"
+      ],
+      "description": "2,138 raw drum machine loops in a 1980s electronic style, 100-145 BPM, 24-bit WAV with tempo labels.",
+      "license": "waivops",
+      "files": [
+        {
+          "key": "rtro_drm_id_001.tar.gz",
+          "sizeBytes": 3721444662,
+          "format": "tar.gz",
+          "role": "pack"
+        }
+      ],
+      "verified": "2026-10-23"
+    },
+    {
+      "recordId": 8388266,
+      "id": "waivops-wrld-lp",
+      "title": "WaivOps WRLD-LP: world percussion loops",
+      "creators": [
+        "Patchbanks"
+      ],
+      "doi": "10.5281/zenodo.8388266",
+      "version": "1.0.0",
+      "published": "2023-09-30",
+      "category": "drums.perc",
+      "form": "pack",
+      "unit": "pack",
+      "packSize": 3162,
+      "formats": [
+        "wav"
+      ],
+      "tags": [
+        "percussion loops",
+        "world percussion",
+        "bpm labelled",
+        "dataset"
+      ],
+      "description": "3,162 world percussion loops with dense rhythms, 100-130 BPM, 24-bit WAV with tempo labels.",
+      "license": "waivops",
+      "files": [
+        {
+          "key": "wrld_lp_id_001.tar.gz",
+          "sizeBytes": 6540987376,
+          "format": "tar.gz",
+          "role": "pack"
+        }
+      ],
+      "verified": "2026-10-23"
+    },
+    {
+      "recordId": 15493892,
+      "id": "waivops-lofi-drums",
+      "title": "WaivOps Lo-Fi Drums: lo-fi hip hop drum loops",
+      "creators": [
+        "Patchbanks",
+        "WaivOps"
+      ],
+      "doi": "10.5281/zenodo.15493892",
+      "version": "1.0",
+      "published": "2025-05-23",
+      "category": "drums",
+      "form": "pack",
+      "unit": "pack",
+      "packSize": 10000,
+      "formats": [
+        "wav"
+      ],
+      "tags": [
+        "drum loops",
+        "lofi",
+        "hip hop",
+        "boom bap",
+        "chillhop",
+        "trip hop",
+        "dataset"
+      ],
+      "description": "10,000 four-bar lo-fi hip hop drum loops (boom bap, chill hop, trip hop), 50-90 BPM, 16-bit WAV with JSON labels.",
+      "license": "waivops",
+      "files": [
+        {
+          "key": "lofi_drums_dataset_wav.tar.gz",
+          "sizeBytes": 12904390566,
+          "format": "tar.gz",
+          "role": "pack"
+        }
+      ],
+      "verified": "2026-10-23"
+    },
+    {
+      "recordId": 15658848,
+      "id": "waivops-jaz-drm",
+      "title": "WaivOps JAZ-DRM: jazz drum loops",
+      "creators": [
+        "Patchbanks",
+        "WaivOps"
+      ],
+      "doi": "10.5281/zenodo.15658848",
+      "version": "1.0",
+      "published": "2025-06-13",
+      "category": "drums",
+      "form": "pack",
+      "unit": "pack",
+      "packSize": 1675,
+      "formats": [
+        "wav"
+      ],
+      "tags": [
+        "drum loops",
+        "jazz",
+        "swing",
+        "bebop",
+        "brushes",
+        "dataset"
+      ],
+      "description": "1,675 jazz drum kit loops (bebop, swing, ballad, modern, free), 130-220 BPM, 16-bit WAV with JSON labels.",
+      "license": "waivops",
+      "files": [
+        {
+          "key": "jaz_drm_wav.tar.gz",
+          "sizeBytes": 2547998379,
+          "format": "tar.gz",
+          "role": "pack"
+        }
+      ],
+      "verified": "2026-10-23"
+    },
+    {
+      "recordId": 13769544,
+      "id": "waivops-edm-hse",
+      "title": "WaivOps EDM-HSE: house drum loops",
+      "creators": [
+        "Patchbanks",
+        "WaivOps"
+      ],
+      "doi": "10.5281/zenodo.13769544",
+      "version": "1.0",
+      "published": "2024-09-16",
+      "category": "drums",
+      "form": "pack",
+      "unit": "pack",
+      "packSize": 8000,
+      "formats": [
+        "wav"
+      ],
+      "tags": [
+        "drum loops",
+        "house",
+        "edm",
+        "big room",
+        "electro",
+        "minimal",
+        "dataset"
+      ],
+      "description": "8,000 house drum loops (big room, electro, minimal, classic), 120-130 BPM, 16-bit WAV with JSON labels.",
+      "license": "waivops",
+      "files": [
+        {
+          "key": "edm_hse_id_001-004_wav.tar.gz",
+          "sizeBytes": 7597116046,
+          "format": "tar.gz",
+          "role": "pack"
+        }
+      ],
+      "verified": "2026-10-23"
+    },
+    {
+      "recordId": 17584890,
+      "id": "waivops-edm-tech",
+      "title": "WaivOps EDM-TECH: techno drum loops",
+      "creators": [
+        "Patchbanks",
+        "WaivOps"
+      ],
+      "doi": "10.5281/zenodo.17584890",
+      "version": "1.0",
+      "published": "2025-11-11",
+      "category": "drums",
+      "form": "pack",
+      "unit": "pack",
+      "packSize": 11270,
+      "formats": [
+        "wav"
+      ],
+      "tags": [
+        "drum loops",
+        "techno",
+        "industrial",
+        "hardcore",
+        "drum machine",
+        "dataset"
+      ],
+      "description": "11,270 four-bar techno drum loops (modern, minimal, industrial, hardcore, 90s), 128-150 BPM, 16-bit 44.1 kHz WAV with JSON labels.",
+      "license": "waivops",
+      "files": [
+        {
+          "key": "edm_tech_drm_wav.tar.gz",
+          "sizeBytes": 12063422961,
+          "format": "tar.gz",
+          "role": "pack"
+        }
+      ],
+      "verified": "2026-10-23"
+    },
+    {
+      "recordId": 15734094,
+      "id": "waivops-hh-trp",
+      "title": "WaivOps HH-TRP: trap drum loops",
+      "creators": [
+        "Patchbanks",
+        "WaivOps"
+      ],
+      "doi": "10.5281/zenodo.15734094",
+      "version": "1.0",
+      "published": "2025-06-25",
+      "category": "drums",
+      "form": "pack",
+      "unit": "pack",
+      "packSize": 15000,
+      "formats": [
+        "wav"
+      ],
+      "tags": [
+        "drum loops",
+        "trap",
+        "drill",
+        "hip hop",
+        "808",
+        "dataset"
+      ],
+      "description": "15,000 modern hip hop drum loops (drill, trapsoul, cloud rap, emo rap), 110-180 BPM, 16-bit WAV with JSON labels.",
+      "license": "waivops",
+      "files": [
+        {
+          "key": "hh_trp_wav.tar.gz",
+          "sizeBytes": 22335293835,
+          "format": "tar.gz",
+          "role": "pack"
+        }
+      ],
+      "verified": "2026-10-23"
+    }
+  ]
+}

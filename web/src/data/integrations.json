@@ -29,6 +29,20 @@
       "addedBy": "launch"
     },
     {
+      "id": "bigsoundbank",
+      "name": "BigSoundBank",
+      "homepage": "https://bigsoundbank.com",
+      "addedAt": "2026-10-23",
+      "addedBy": "human"
+    },
+    {
+      "id": "blackoctopus",
+      "name": "Black Octopus Sound",
+      "homepage": "https://blackoctopus-sound.com",
+      "addedAt": "2026-10-23",
+      "addedBy": "human"
+    },
+    {
       "id": "ccmixter",
       "name": "ccMixter",
       "homepage": "https://ccmixter.org",
@@ -57,6 +71,13 @@
       "addedBy": "launch"
     },
     {
+      "id": "freepacks",
+      "name": "Free pack news",
+      "homepage": "https://99sounds.org/sounds/",
+      "addedAt": "2026-10-23",
+      "addedBy": "human"
+    },
+    {
       "id": "freewavesamples",
       "name": "Free Wave Samples",
       "homepage": "https://freewavesamples.com",
@@ -69,6 +90,20 @@
       "homepage": "https://freesound.org",
       "addedAt": "2026-10-23",
       "addedBy": "launch"
+    },
+    {
+      "id": "functionloops",
+      "name": "Function Loops",
+      "homepage": "https://www.functionloops.com",
+      "addedAt": "2026-10-23",
+      "addedBy": "human"
+    },
+    {
+      "id": "ghosthack",
+      "name": "Ghosthack",
+      "homepage": "https://www.ghosthack.de",
+      "addedAt": "2026-10-23",
+      "addedBy": "human"
     },
     {
       "id": "internetarchive",
@@ -244,6 +279,13 @@
       "homepage": "https://www.zapsplat.com",
       "addedAt": "2026-10-23",
       "addedBy": "launch"
+    },
+    {
+      "id": "zenodo",
+      "name": "Zenodo datasets",
+      "homepage": "https://zenodo.org",
+      "addedAt": "2026-10-23",
+      "addedBy": "human"
     }
   ],
   "rejected": 0

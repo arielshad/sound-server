@@ -1,0 +1,858 @@
+{
+  "slug": "free-breakbeats",
+  "search": {
+    "q": "break",
+    "categories": [
+      "drums.break"
+    ]
+  },
+  "updatedAt": "2026-10-23T09:37:27.775Z",
+  "samples": [
+    {
+      "id": "openverse:270cb14d-d300-4420-8a11-62583c81b5db",
+      "provider": "openverse",
+      "title": "sold break - 8 bars.wav",
+      "category": "drums.break",
+      "url": "https://freesound.org/people/TicTacShutUp/sounds/9579",
+      "previewUrl": "https://cdn.freesound.org/previews/9/9579_196-hq.mp3",
+      "downloadable": true,
+      "author": "TicTacShutUp",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 22.703
+    },
+    {
+      "id": "wikimediacommons:But_is_to_break_in_tyap.ogg",
+      "provider": "wikimediacommons",
+      "title": "But is to break in tyap",
+      "category": "drums.break",
+      "url": "https://commons.wikimedia.org/wiki/File:But_is_to_break_in_tyap.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/be/But_is_to_break_in_tyap.ogg/But_is_to_break_in_tyap.ogg.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Merex25",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 1.877
+    },
+    {
+      "id": "opengameart:break-pumpkin",
+      "provider": "opengameart",
+      "title": "break pumpkin",
+      "category": "drums.break",
+      "url": "https://opengameart.org/content/break-pumpkin",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/pumpkin_break_01.ogg.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/pumpkin_break_01.ogg.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:5161",
+      "provider": "orangefreesounds",
+      "title": "130 bpm Drum Loop (break beat)",
+      "category": "drums.break",
+      "url": "https://orangefreesounds.com/130-bpm-drum-loop-break-beat/",
+      "previewUrl": "https://www.orangefreesounds.com/wp-content/uploads/2014/12/130-bpm-drum-loop.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "zip",
+        "mp3"
+      ],
+      "bpm": 130,
+      "durationSec": 3
+    },
+    {
+      "id": "wikimediacommons:Night_Break_(ISRC_USUAN1100380).mp3",
+      "provider": "wikimediacommons",
+      "title": "Night Break (ISRC USUAN1100380)",
+      "category": "drums.break",
+      "url": "https://commons.wikimedia.org/wiki/File:Night_Break_(ISRC_USUAN1100380).mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Night_Break_%28ISRC_USUAN1100380%29.mp3",
+      "downloadable": true,
+      "author": "Kevin MacLeod",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 132.075
+    },
+    {
+      "id": "openverse:5e55eeef-497b-41c3-ab38-6b8599af6b44",
+      "provider": "openverse",
+      "title": "Barrel Break 1.wav",
+      "category": "drums.break",
+      "url": "https://freesound.org/people/kevinkace/sounds/66769",
+      "previewUrl": "https://cdn.freesound.org/previews/66/66769_242154-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "kevinkace",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.5
+    },
+    {
+      "id": "opengameart:final-boss-break-beat-music",
+      "provider": "opengameart",
+      "title": "Final Boss [Break beat music]",
+      "category": "drums.break",
+      "url": "https://opengameart.org/content/final-boss-break-beat-music",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/final%20boss.wav.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/final%20boss.wav.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:5041",
+      "provider": "orangefreesounds",
+      "title": "Drum Break",
+      "category": "drums.break",
+      "url": "https://orangefreesounds.com/drum-break/",
+      "previewUrl": "https://www.orangefreesounds.com/wp-content/uploads/2014/12/Drum-break.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "zip",
+        "mp3"
+      ],
+      "durationSec": 1
+    },
+    {
+      "id": "wikimediacommons:Charlie_Patton_-_Shake_It_and_Break_It.ogg",
+      "provider": "wikimediacommons",
+      "title": "Charlie Patton - Shake It and Break It",
+      "category": "drums.break",
+      "url": "https://commons.wikimedia.org/wiki/File:Charlie_Patton_-_Shake_It_and_Break_It.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/98/Charlie_Patton_-_Shake_It_and_Break_It.ogg/Charlie_Patton_-_Shake_It_and_Break_It.ogg.mp3",
+      "downloadable": true,
+      "author": "Charlie Patton (1891–1934)",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 184.835
+    },
+    {
+      "id": "openverse:f4ac9b82-9d67-446d-ab58-7b41f97a8687",
+      "provider": "openverse",
+      "title": "Crate Break 2.wav",
+      "category": "drums.break",
+      "url": "https://freesound.org/people/kevinkace/sounds/66778",
+      "previewUrl": "https://cdn.freesound.org/previews/66/66778_242154-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "kevinkace",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.2
+    },
+    {
+      "id": "soundbible:404-Neck-Breaking",
+      "provider": "soundbible",
+      "title": "Neck Breaking",
+      "category": "drums.break",
+      "url": "https://soundbible.com/404-Neck-Breaking.html",
+      "previewUrl": "https://soundbible.com/mp3/Neck%20Breaking-SoundBible.com-933536431.mp3",
+      "downloadable": true,
+      "author": "Mike Koenig",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "opengameart:sledgehammer-using-to-break-a-block-of-concrete",
+      "provider": "opengameart",
+      "title": "Sledgehammer - using to break a block of concrete.",
+      "category": "drums.break",
+      "url": "https://opengameart.org/content/sledgehammer-using-to-break-a-block-of-concrete",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/334167-sledgehammer-concrete_block_3.wav.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/334167-sledgehammer-concrete_block_3.wav.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:4643",
+      "provider": "orangefreesounds",
+      "title": "Amen Break",
+      "category": "drums.break",
+      "url": "https://orangefreesounds.com/amen-break/",
+      "previewUrl": "https://www.orangefreesounds.com/wp-content/uploads/2014/11/Amen-break.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "The Winstons",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "zip",
+        "mp3"
+      ],
+      "bpm": 136,
+      "durationSec": 6
+    },
+    {
+      "id": "wikimediacommons:Break_Beat_Meets_909_(Antti_Luode).mp3",
+      "provider": "wikimediacommons",
+      "title": "Break Beat Meets 909 (Antti Luode)",
+      "category": "drums.break",
+      "url": "https://commons.wikimedia.org/wiki/File:Break_Beat_Meets_909_(Antti_Luode).mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Break_Beat_Meets_909_%28Antti_Luode%29.mp3",
+      "downloadable": true,
+      "author": "Antti Luode",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 230.766
+    },
+    {
+      "id": "openverse:78be4c6e-63f1-42a1-8901-21e1680a6a6e",
+      "provider": "openverse",
+      "title": "Amen Break B (160 BPM)",
+      "category": "drums.break",
+      "url": "https://freesound.org/people/Kevcio/sounds/263869",
+      "previewUrl": "https://cdn.freesound.org/previews/263/263869_3095604-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Kevcio",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "bpm": 160,
+      "durationSec": 6
+    },
+    {
+      "id": "wikimediacommons:Let_us_break_bread_together_-_Cor_Godre'r_Aran.ogg",
+      "provider": "wikimediacommons",
+      "title": "Let us break bread together - Cor Godre'r Aran",
+      "category": "drums.break",
+      "url": "https://commons.wikimedia.org/wiki/File:Let_us_break_bread_together_-_Cor_Godre%27r_Aran.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/63/Let_us_break_bread_together_-_Cor_Godre%27r_Aran.ogg/Let_us_break_bread_together_-_Cor_Godre%27r_Aran.ogg.mp3",
+      "downloadable": true,
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 30
+    },
+    {
+      "id": "soundbible:675-Backing-Up",
+      "provider": "soundbible",
+      "title": "Backing Up",
+      "category": "drums.break",
+      "url": "https://soundbible.com/675-Backing-Up.html",
+      "previewUrl": "https://soundbible.com/mp3/Backing%20Up-SoundBible.com-788937884.mp3",
+      "downloadable": true,
+      "author": "Mike Koenig",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Steve_Combs_-_02_-_As_You_Break_in_Two.ogg",
+      "provider": "wikimediacommons",
+      "title": "Steve Combs - 02 - As You Break in Two",
+      "category": "drums.break",
+      "url": "https://commons.wikimedia.org/wiki/File:Steve_Combs_-_02_-_As_You_Break_in_Two.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/29/Steve_Combs_-_02_-_As_You_Break_in_Two.ogg/Steve_Combs_-_02_-_As_You_Break_in_Two.ogg.mp3",
+      "downloadable": true,
+      "author": "Steve Combs",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 136.632
+    },
+    {
+      "id": "orangefreesounds:55125",
+      "provider": "orangefreesounds",
+      "title": "High-Energy Breakbeat Drum Loop – 140 BPM Modern Jungle Rhythm",
+      "category": "drums.break",
+      "url": "https://orangefreesounds.com/high-energy-breakbeat-drum-loop-140-bpm-modern-jungle-rhythm/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/01/High-energy-breakbeat-drum-loop-140-bpm-modern-jungle-rhythm.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "zip",
+        "mp3"
+      ],
+      "bpm": 140,
+      "durationSec": 7
+    },
+    {
+      "id": "openverse:870d3ce3-cce5-428c-8472-43247d65d22d",
+      "provider": "openverse",
+      "title": "Amen Break D (200 BPM)",
+      "category": "drums.break",
+      "url": "https://freesound.org/people/Kevcio/sounds/263871",
+      "previewUrl": "https://cdn.freesound.org/previews/263/263871_3095604-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Kevcio",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "bpm": 200,
+      "durationSec": 4.8
+    },
+    {
+      "id": "wikimediacommons:Cyber_crime_break.ogg",
+      "provider": "wikimediacommons",
+      "title": "Cyber crime break",
+      "category": "drums.break",
+      "url": "https://commons.wikimedia.org/wiki/File:Cyber_crime_break.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/42/Cyber_crime_break.ogg/Cyber_crime_break.ogg.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Audiofiller",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 1.757
+    },
+    {
+      "id": "orangefreesounds:44628",
+      "provider": "orangefreesounds",
+      "title": "Funky Breakbeat Loop 102 bpm",
+      "category": "drums.break",
+      "url": "https://orangefreesounds.com/funky-breakbeat-loop-102-bpm/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2023/09/Funky-breakbeat-loop-102-bpm.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "zip",
+        "mp3"
+      ],
+      "bpm": 102,
+      "durationSec": 9
+    },
+    {
+      "id": "wikimediacommons:TWIP_-_2008-03-02_Oded_Na'aman_of_'Break_the_Silence'.vorb.oga",
+      "provider": "wikimediacommons",
+      "title": "TWIP - 2008-03-02 Oded Na'aman of 'Break the Silence'.vorb",
+      "category": "drums.break",
+      "url": "https://commons.wikimedia.org/wiki/File:TWIP_-_2008-03-02_Oded_Na%27aman_of_%27Break_the_Silence%27.vorb.oga",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c2/TWIP_-_2008-03-02_Oded_Na%27aman_of_%27Break_the_Silence%27.vorb.oga/TWIP_-_2008-03-02_Oded_Na%27aman_of_%27Break_the_Silence%27.vorb.oga.mp3",
+      "downloadable": true,
+      "author": "Truth and Justice Radio (WZBC)",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 2547.984
+    },
+    {
+      "id": "orangefreesounds:35764",
+      "provider": "orangefreesounds",
+      "title": "Breakbeat Drum Loop 116 bpm",
+      "category": "drums.break",
+      "url": "https://orangefreesounds.com/breakbeat-drum-loop-116-bpm/",
+      "previewUrl": "https://www.orangefreesounds.com/wp-content/uploads/2021/08/Breakbeat-drum-loop-116-bpm.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "zip",
+        "mp3"
+      ],
+      "bpm": 116,
+      "durationSec": 2
+    },
+    {
+      "id": "wikimediacommons:Handel_-_Messiah,_Part_2_(Scherchen)_-_42._Let_us_break_their_bonds_asunder.ogg",
+      "provider": "wikimediacommons",
+      "title": "Handel - Messiah, Part 2 (Scherchen) - 42. Let us break their bonds asunder",
+      "category": "drums.break",
+      "url": "https://commons.wikimedia.org/wiki/File:Handel_-_Messiah,_Part_2_(Scherchen)_-_42._Let_us_break_their_bonds_asunder.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/45/Handel_-_Messiah%2C_Part_2_%28Scherchen%29_-_42._Let_us_break_their_bonds_asunder.ogg/Handel_-_Messiah%2C_Part_2_%28Scherchen%29_-_42._Let_us_break_their_bonds_asunder.ogg.mp3",
+      "downloadable": true,
+      "author": "Hermann Scherchen, conductor; London Symphony Orchestra; London Philharmonic Choir; Margaret Ritchie, soprano; Constance",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 110.708
+    },
+    {
+      "id": "orangefreesounds:7422",
+      "provider": "orangefreesounds",
+      "title": "Breakbeat Loop 108 bpm",
+      "category": "drums.break",
+      "url": "https://orangefreesounds.com/breakbeat-loop-108-bpm/",
+      "previewUrl": "https://www.orangefreesounds.com/wp-content/uploads/2015/05/Breakbeat-loop-108-bpm.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "zip",
+        "mp3"
+      ],
+      "bpm": 108,
+      "durationSec": 4
+    },
+    {
+      "id": "openverse:b227e978-65aa-4fca-a222-515ab5531d1f",
+      "provider": "openverse",
+      "title": "JBF Plywood Breaking 2.aif",
+      "category": "drums.break",
+      "url": "https://freesound.org/people/cmusounddesign/sounds/96167",
+      "previewUrl": "https://cdn.freesound.org/previews/96/96167_1059930-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "cmusounddesign",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "aiff"
+      ],
+      "durationSec": 1.535
+    },
+    {
+      "id": "wikimediacommons:Handel_-_Messiah,_Part_2_(Scherchen)_-_44._Thou_shalt_break_them_with_a_rod_of_iron.ogg",
+      "provider": "wikimediacommons",
+      "title": "Handel - Messiah, Part 2 (Scherchen) - 44. Thou shalt break them with a rod of iron",
+      "category": "drums.break",
+      "url": "https://commons.wikimedia.org/wiki/File:Handel_-_Messiah,_Part_2_(Scherchen)_-_44._Thou_shalt_break_them_with_a_rod_of_iron.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a8/Handel_-_Messiah%2C_Part_2_%28Scherchen%29_-_44._Thou_shalt_break_them_with_a_rod_of_iron.ogg/Handel_-_Messiah%2C_Part_2_%28Scherchen%29_-_44._Thou_shalt_break_them_with_a_rod_of_iron.ogg.mp3",
+      "downloadable": true,
+      "author": "Hermann Scherchen, conductor; London Symphony Orchestra; London Philharmonic Choir; Margaret Ritchie, soprano; Constance",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 127
+    },
+    {
+      "id": "orangefreesounds:57353",
+      "provider": "orangefreesounds",
+      "title": "Warm Groovy 109 BPM Funk Loop",
+      "category": "drums.break",
+      "url": "https://orangefreesounds.com/warm-groovy-109-bpm-funk-loop/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/07/Warm-groovy-109-bpm-funk-loop.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "zip",
+        "mp3"
+      ],
+      "bpm": 109,
+      "durationSec": 4
+    },
+    {
+      "id": "wikimediacommons:Rory_breaks.wav",
+      "provider": "wikimediacommons",
+      "title": "Rory breaks",
+      "category": "drums.break",
+      "url": "https://commons.wikimedia.org/wiki/File:Rory_breaks.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d0/Rory_breaks.wav/Rory_breaks.wav.mp3",
+      "downloadable": true,
+      "author": "Rory in early 20s",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 23.42
+    },
+    {
+      "id": "openverse:33239df6-c9d4-4b2d-a00c-66a2b92ee2e9",
+      "provider": "openverse",
+      "title": "Bones breaking",
+      "category": "drums.break",
+      "url": "https://freesound.org/people/VlatkoBlazek/sounds/189736",
+      "previewUrl": "https://cdn.freesound.org/previews/189/189736_3452716-hq.mp3",
+      "downloadable": true,
+      "author": "VlatkoBlazek",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 5.509
+    },
+    {
+      "id": "orangefreesounds:5353",
+      "provider": "orangefreesounds",
+      "title": "Breakbeat Loop",
+      "category": "drums.break",
+      "url": "https://orangefreesounds.com/breakbeat-loop/",
+      "previewUrl": "https://www.orangefreesounds.com/wp-content/uploads/2015/01/Breakbeat-loop.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "zip",
+        "mp3"
+      ],
+      "bpm": 122,
+      "durationSec": 2
+    },
+    {
+      "id": "wikimediacommons:Bauchamp_-_160_friki_break.ogg",
+      "provider": "wikimediacommons",
+      "title": "Bauchamp - 160 friki break",
+      "category": "drums.break",
+      "url": "https://commons.wikimedia.org/wiki/File:Bauchamp_-_160_friki_break.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/25/Bauchamp_-_160_friki_break.ogg/Bauchamp_-_160_friki_break.ogg.mp3",
+      "downloadable": true,
+      "author": "Bauchamp",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 13.558
+    },
+    {
+      "id": "orangefreesounds:5578",
+      "provider": "orangefreesounds",
+      "title": "Breakbeat Drum Loop 133 bpm",
+      "category": "drums.break",
+      "url": "https://orangefreesounds.com/breakbeat-drum-loop-133-bpm/",
+      "previewUrl": "https://www.orangefreesounds.com/wp-content/uploads/2015/01/Breakbeat-drum-loop-133-bpm.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "zip",
+        "mp3"
+      ],
+      "bpm": 133,
+      "durationSec": 7
+    },
+    {
+      "id": "wikimediacommons:Ellennerv_-_61_-_Twist_it_till_it_Breaks.ogg",
+      "provider": "wikimediacommons",
+      "title": "Ellennerv - 61 - Twist it till it Breaks",
+      "category": "drums.break",
+      "url": "https://commons.wikimedia.org/wiki/File:Ellennerv_-_61_-_Twist_it_till_it_Breaks.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fa/Ellennerv_-_61_-_Twist_it_till_it_Breaks.ogg/Ellennerv_-_61_-_Twist_it_till_it_Breaks.ogg.mp3",
+      "downloadable": true,
+      "author": "Ellennerv",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 12.007
+    },
+    {
+      "id": "openverse:5408569b-6fb7-45fe-8e57-0f55981a5b8d",
+      "provider": "openverse",
+      "title": "Breaking bones.wav",
+      "category": "drums.break",
+      "url": "https://freesound.org/people/ScouseMouseJB/sounds/333910",
+      "previewUrl": "https://cdn.freesound.org/previews/333/333910_5284496-hq.mp3",
+      "downloadable": true,
+      "author": "ScouseMouseJB",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 5.398
+    }
+  ]
+}

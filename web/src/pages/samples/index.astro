@@ -40,7 +40,7 @@ const trail = [{ name: "Home", path: "/" }, { name: "Sample collections", path: 
         <section class="mt-14" aria-labelledby={`hub-${hub.id}`}>
           <div class="flex flex-wrap items-baseline justify-between gap-2">
             <h2 id={`hub-${hub.id}`} class="text-2xl font-semibold tracking-tight"><a href={hubPath(hub)} class="hover:text-primary">{hub.title}</a></h2>
-            <a href={hubPath(hub)} class="text-sm text-primary hover:underline">All {hub.name.toLowerCase()} →</a>
+            <a href={hubPath(hub)} class="text-sm text-primary underline underline-offset-2 hover:decoration-2">All {hub.name.toLowerCase()} →</a>
           </div>
           <ul class="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {cs.map((c) => <CollectionCard collection={c} />)}
@@ -50,7 +50,7 @@ const trail = [{ name: "Home", path: "/" }, { name: "Sample collections", path: 
     })}
 
     <p class="mt-16 text-sm text-muted-foreground">
-      Looking for something else? <a href="/search" class="text-primary hover:underline">Search all {SOURCE_COUNT} sites</a>, <a href="/kit" class="text-primary hover:underline">build a drum kit</a>, or see <a href="/docs/sources" class="text-primary hover:underline">every source and its licence</a>.
+      Looking for something else? <a href="/search" class="text-primary underline underline-offset-2 hover:decoration-2">Search all {SOURCE_COUNT} sites</a>, <a href="/kit" class="text-primary underline underline-offset-2 hover:decoration-2">build a drum kit</a>, or see <a href="/docs/sources" class="text-primary underline underline-offset-2 hover:decoration-2">every source and its licence</a>.
     </p>
   </div>
 </BaseLayout>

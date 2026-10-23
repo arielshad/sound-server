@@ -1,0 +1,661 @@
+{
+  "slug": "free-rhodes-electric-piano-samples",
+  "search": {
+    "q": "electric piano",
+    "categories": [
+      "keys"
+    ]
+  },
+  "updatedAt": "2026-10-23T09:42:30.438Z",
+  "samples": [
+    {
+      "id": "wikimediacommons:Electric_Piano_Man_(Antti_Luode).mp3",
+      "provider": "wikimediacommons",
+      "title": "Electric Piano Man (Antti Luode)",
+      "category": "keys",
+      "url": "https://commons.wikimedia.org/wiki/File:Electric_Piano_Man_(Antti_Luode).mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Electric_Piano_Man_%28Antti_Luode%29.mp3",
+      "downloadable": true,
+      "author": "Antti Luode",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 219.611
+    },
+    {
+      "id": "openverse:0805deb8-86f8-43f5-8ff3-61290f35439c",
+      "provider": "openverse",
+      "title": "Electric piano chilled melody",
+      "category": "keys",
+      "url": "https://freesound.org/people/Toivo161/sounds/266005",
+      "previewUrl": "https://cdn.freesound.org/previews/266/266005_1871962-hq.mp3",
+      "downloadable": true,
+      "author": "Toivo161",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 15.672
+    },
+    {
+      "id": "orangefreesounds:26091",
+      "provider": "orangefreesounds",
+      "title": "Electric Piano Ident",
+      "category": "keys",
+      "url": "https://orangefreesounds.com/electric-piano-ident/",
+      "previewUrl": "https://www.orangefreesounds.com/wp-content/uploads/2019/07/Electric-blues-piano-ident.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 6
+    },
+    {
+      "id": "openverse:1a6b7525-89ab-4e5e-94fb-cd0ab57aa679",
+      "provider": "openverse",
+      "title": "Electric Piano Jazz Chords",
+      "category": "keys",
+      "url": "https://freesound.org/people/nadetastic/sounds/528222",
+      "previewUrl": "https://cdn.freesound.org/previews/528/528222_11620474-hq.mp3",
+      "downloadable": true,
+      "author": "nadetastic",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 8.735
+    },
+    {
+      "id": "openverse:8368397e-cb3d-4166-8469-f54d7649e952",
+      "provider": "openverse",
+      "title": "Smooth Electric Piano Loop 123BPM",
+      "category": "keys",
+      "url": "https://freesound.org/people/Orboram/sounds/663949",
+      "previewUrl": "https://cdn.freesound.org/previews/663/663949_9959691-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Orboram",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "bpm": 123,
+      "durationSec": 31.219
+    },
+    {
+      "id": "wikimediacommons:Electronic_piano_performance_of_Charles-Valentin_Alkan_Opus_31_No._8_\"La_chanson_de_la_folle_au_bord_de_la_mer\".wav",
+      "provider": "wikimediacommons",
+      "title": "Electronic piano performance of Charles-Valentin Alkan Opus 31 No. 8 \"La chanson de la folle au bord de la mer\"",
+      "category": "keys",
+      "url": "https://commons.wikimedia.org/wiki/File:Electronic_piano_performance_of_Charles-Valentin_Alkan_Opus_31_No._8_%22La_chanson_de_la_folle_au_bord_de_la_mer%22.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fd/Electronic_piano_performance_of_Charles-Valentin_Alkan_Opus_31_No._8_%22La_chanson_de_la_folle_au_bord_de_la_mer%22.wav/Electronic_piano_performance_of_Charles-Valentin_Alkan_Opus_31_No._8_%22La_chanson_de_la_folle_au_bord_de_la_mer%22.wav.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "AugusteBlanqui",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 185.563
+    },
+    {
+      "id": "wikimediacommons:Rhodes_Mark_I_Tubeamp.ogg",
+      "provider": "wikimediacommons",
+      "title": "Rhodes Mark I Tubeamp",
+      "category": "keys",
+      "url": "https://commons.wikimedia.org/wiki/File:Rhodes_Mark_I_Tubeamp.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b6/Rhodes_Mark_I_Tubeamp.ogg/Rhodes_Mark_I_Tubeamp.ogg.mp3",
+      "downloadable": true,
+      "author": "The original uploader was Fetz at German Wikipedia .",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 8.594
+    },
+    {
+      "id": "openverse:ccd08edf-c82f-4d07-b4b9-366631df26c7",
+      "provider": "openverse",
+      "title": "Electric Piano Man.wav",
+      "category": "keys",
+      "url": "https://freesound.org/people/SystemShock79/sounds/592851",
+      "previewUrl": "https://cdn.freesound.org/previews/592/592851_13343355-hq.mp3",
+      "downloadable": true,
+      "author": "SystemShock79",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 15.018
+    },
+    {
+      "id": "wikimediacommons:Jericho_to_město_písní.ogg",
+      "provider": "wikimediacommons",
+      "title": "Jericho to město písní",
+      "category": "keys",
+      "url": "https://commons.wikimedia.org/wiki/File:Jericho_to_m%C4%9Bsto_p%C3%ADsn%C3%AD.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c2/Jericho_to_m%C4%9Bsto_p%C3%ADsn%C3%AD.ogg/Jericho_to_m%C4%9Bsto_p%C3%ADsn%C3%AD.ogg.mp3",
+      "downloadable": true,
+      "author": "Mike Beer",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 176.948
+    },
+    {
+      "id": "openverse:a40c9c24-1caf-4143-a32a-5d1354292303",
+      "provider": "openverse",
+      "title": "Electric Piano Jazz Chords (Strummed)",
+      "category": "keys",
+      "url": "https://freesound.org/people/nadetastic/sounds/528223",
+      "previewUrl": "https://cdn.freesound.org/previews/528/528223_11620474-hq.mp3",
+      "downloadable": true,
+      "author": "nadetastic",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 8.869
+    },
+    {
+      "id": "wikimediacommons:Ehma_-_Prélude.flac",
+      "provider": "wikimediacommons",
+      "title": "Ehma - Prélude",
+      "category": "keys",
+      "url": "https://commons.wikimedia.org/wiki/File:Ehma_-_Pr%C3%A9lude.flac",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b3/Ehma_-_Pr%C3%A9lude.flac/Ehma_-_Pr%C3%A9lude.flac.mp3",
+      "downloadable": true,
+      "author": "Ehma",
+      "license": {
+        "id": "LicenseRef-FAL",
+        "name": "FAL",
+        "url": "http://artlibre.org/licence/lal/en",
+        "verdict": "check-terms",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "flac",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 165.602
+    },
+    {
+      "id": "openverse:8f665275-1b26-4b7f-9e8c-d91af1258613",
+      "provider": "openverse",
+      "title": "Dissonant Electric Piano Sting 3",
+      "category": "keys",
+      "url": "https://freesound.org/people/nomiqbomi/sounds/578340",
+      "previewUrl": "https://cdn.freesound.org/previews/578/578340_10522382-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "nomiqbomi",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 5.421
+    },
+    {
+      "id": "wikimediacommons:I_To_půjde.ogg",
+      "provider": "wikimediacommons",
+      "title": "I To půjde",
+      "category": "keys",
+      "url": "https://commons.wikimedia.org/wiki/File:I_To_p%C5%AFjde.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d3/I_To_p%C5%AFjde.ogg/I_To_p%C5%AFjde.ogg.mp3",
+      "downloadable": true,
+      "author": "Mike Beer",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 121.409
+    },
+    {
+      "id": "openverse:6ec16399-d21f-472d-b223-a017861c1008",
+      "provider": "openverse",
+      "title": "Dissonant Electric Piano Sting 2",
+      "category": "keys",
+      "url": "https://freesound.org/people/nomiqbomi/sounds/578341",
+      "previewUrl": "https://cdn.freesound.org/previews/578/578341_10522382-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "nomiqbomi",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 5.421
+    },
+    {
+      "id": "openverse:61c118af-1309-45f0-b2d3-12db718d7e91",
+      "provider": "openverse",
+      "title": "Dissonant Electric Piano Sting 1",
+      "category": "keys",
+      "url": "https://freesound.org/people/nomiqbomi/sounds/578343",
+      "previewUrl": "https://cdn.freesound.org/previews/578/578343_10522382-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "nomiqbomi",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 5.421
+    },
+    {
+      "id": "wikimediacommons:Etuda_Spirituální_rock.ogg",
+      "provider": "wikimediacommons",
+      "title": "Etuda Spirituální rock",
+      "category": "keys",
+      "url": "https://commons.wikimedia.org/wiki/File:Etuda_Spiritu%C3%A1ln%C3%AD_rock.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f8/Etuda_Spiritu%C3%A1ln%C3%AD_rock.ogg/Etuda_Spiritu%C3%A1ln%C3%AD_rock.ogg.mp3",
+      "downloadable": true,
+      "author": "Mike Beer",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 64.331
+    },
+    {
+      "id": "openverse:95f4eb28-e220-4029-bcfd-932ad36b2f10",
+      "provider": "openverse",
+      "title": "Dissonant Electric Piano Sting 7",
+      "category": "keys",
+      "url": "https://freesound.org/people/nomiqbomi/sounds/578344",
+      "previewUrl": "https://cdn.freesound.org/previews/578/578344_10522382-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "nomiqbomi",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 5.421
+    },
+    {
+      "id": "wikimediacommons:Z_popela.ogg",
+      "provider": "wikimediacommons",
+      "title": "Z popela",
+      "category": "keys",
+      "url": "https://commons.wikimedia.org/wiki/File:Z_popela.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a3/Z_popela.ogg/Z_popela.ogg.mp3",
+      "downloadable": true,
+      "author": "Mike Beer",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 89.095
+    },
+    {
+      "id": "openverse:a1ca83c6-dc90-4663-a9d2-0aefade59fdf",
+      "provider": "openverse",
+      "title": "Convoluted electric piano.",
+      "category": "keys",
+      "url": "https://freesound.org/people/DefySolipsis/sounds/615968",
+      "previewUrl": "https://cdn.freesound.org/previews/615/615968_9121616-hq.mp3",
+      "downloadable": true,
+      "author": "DefySolipsis",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 16.015
+    },
+    {
+      "id": "wikimediacommons:Jazzy_life.ogg",
+      "provider": "wikimediacommons",
+      "title": "Jazzy life",
+      "category": "keys",
+      "url": "https://commons.wikimedia.org/wiki/File:Jazzy_life.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bb/Jazzy_life.ogg/Jazzy_life.ogg.mp3",
+      "downloadable": true,
+      "author": "Mike Beer",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 225.721
+    },
+    {
+      "id": "openverse:223420b2-2f41-4d29-808d-67e66e60ead9",
+      "provider": "openverse",
+      "title": "Dissonant Electric Piano Sting 10",
+      "category": "keys",
+      "url": "https://freesound.org/people/nomiqbomi/sounds/578342",
+      "previewUrl": "https://cdn.freesound.org/previews/578/578342_10522382-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "nomiqbomi",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 5.421
+    },
+    {
+      "id": "wikimediacommons:Etuda_Mít_tě_tam_na_kytkách.ogg",
+      "provider": "wikimediacommons",
+      "title": "Etuda Mít tě tam na kytkách",
+      "category": "keys",
+      "url": "https://commons.wikimedia.org/wiki/File:Etuda_M%C3%ADt_t%C4%9B_tam_na_kytk%C3%A1ch.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d2/Etuda_M%C3%ADt_t%C4%9B_tam_na_kytk%C3%A1ch.ogg/Etuda_M%C3%ADt_t%C4%9B_tam_na_kytk%C3%A1ch.ogg.mp3",
+      "downloadable": true,
+      "author": "Mike Beer",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 101.669
+    },
+    {
+      "id": "openverse:6e536c34-17c1-4973-9a56-22e4c71c8d30",
+      "provider": "openverse",
+      "title": "Dissonant Electric Piano Sting 5",
+      "category": "keys",
+      "url": "https://freesound.org/people/nomiqbomi/sounds/578346",
+      "previewUrl": "https://cdn.freesound.org/previews/578/578346_10522382-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "nomiqbomi",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 5.421
+    },
+    {
+      "id": "wikimediacommons:Jižák_etuda.ogg",
+      "provider": "wikimediacommons",
+      "title": "Jižák etuda",
+      "category": "keys",
+      "url": "https://commons.wikimedia.org/wiki/File:Ji%C5%BE%C3%A1k_etuda.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/aa/Ji%C5%BE%C3%A1k_etuda.ogg/Ji%C5%BE%C3%A1k_etuda.ogg.mp3",
+      "downloadable": true,
+      "author": "Mike Beer",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 83.751
+    },
+    {
+      "id": "openverse:deacaf91-bf44-4879-96b4-7708082a9572",
+      "provider": "openverse",
+      "title": "Electric Piano Pedal.wav",
+      "category": "keys",
+      "url": "https://freesound.org/people/Tairblenn/sounds/531529",
+      "previewUrl": "https://cdn.freesound.org/previews/531/531529_11663790-hq.mp3",
+      "downloadable": true,
+      "author": "Tairblenn",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 15.826
+    },
+    {
+      "id": "wikimediacommons:Jižák_bicíII.ogg",
+      "provider": "wikimediacommons",
+      "title": "Jižák bicíII",
+      "category": "keys",
+      "url": "https://commons.wikimedia.org/wiki/File:Ji%C5%BE%C3%A1k_bic%C3%ADII.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cf/Ji%C5%BE%C3%A1k_bic%C3%ADII.ogg/Ji%C5%BE%C3%A1k_bic%C3%ADII.ogg.mp3",
+      "downloadable": true,
+      "author": "Mike Beer",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 87.378
+    },
+    {
+      "id": "openverse:617fdec8-29d6-40cc-9d58-19056e1a8748",
+      "provider": "openverse",
+      "title": "CS 80 ELECTRIC PIANO - 67 (G4) - vel 127",
+      "category": "keys",
+      "url": "https://freesound.org/people/mogigrumbles/sounds/526330",
+      "previewUrl": "https://cdn.freesound.org/previews/526/526330_11399618-hq.mp3",
+      "downloadable": true,
+      "form": "midi",
+      "author": "mogigrumbles",
+      "license": {
+        "id": "CC-BY-NC-3.0",
+        "name": "CC BY-NC 3.0",
+        "url": "https://creativecommons.org/licenses/by-nc/3.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 8.5
+    },
+    {
+      "id": "wikimediacommons:B_Dárky_pro_Ježíška.ogg",
+      "provider": "wikimediacommons",
+      "title": "B Dárky pro Ježíška",
+      "category": "keys",
+      "url": "https://commons.wikimedia.org/wiki/File:B_D%C3%A1rky_pro_Je%C5%BE%C3%AD%C5%A1ka.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/82/B_D%C3%A1rky_pro_Je%C5%BE%C3%AD%C5%A1ka.ogg/B_D%C3%A1rky_pro_Je%C5%BE%C3%AD%C5%A1ka.ogg.mp3",
+      "downloadable": true,
+      "author": "Mike Beer",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 109.407
+    }
+  ]
+}

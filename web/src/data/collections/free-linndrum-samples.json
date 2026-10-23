@@ -1,0 +1,374 @@
+{
+  "slug": "free-linndrum-samples",
+  "search": {
+    "q": "linn",
+    "categories": [
+      "drums"
+    ]
+  },
+  "updatedAt": "2026-10-23T09:47:32.560Z",
+  "samples": [
+    {
+      "id": "strudel:tidal-drum-machines/AkaiLinn_bd/0",
+      "provider": "strudel",
+      "title": "Akai Linn · bd · 0",
+      "category": "drums.kick",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AkaiLinn/akailinn-bd/Bassdrum.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AkaiLinn/akailinn-bd/Bassdrum.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AkaiLinn_cb/0",
+      "provider": "strudel",
+      "title": "Akai Linn · cb · 0",
+      "category": "drums.perc",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AkaiLinn/akailinn-cb/Cowbell.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AkaiLinn/akailinn-cb/Cowbell.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AkaiLinn_cp/0",
+      "provider": "strudel",
+      "title": "Akai Linn · cp · 0",
+      "category": "drums.clap",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AkaiLinn/akailinn-cp/Clap.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AkaiLinn/akailinn-cp/Clap.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AkaiLinn_cr/0",
+      "provider": "strudel",
+      "title": "Akai Linn · cr · 0",
+      "category": "drums.cymbal.crash",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AkaiLinn/akailinn-cr/Crash.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AkaiLinn/akailinn-cr/Crash.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AkaiLinn_hh/0",
+      "provider": "strudel",
+      "title": "Akai Linn · hh · 0",
+      "category": "drums.hat.closed",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AkaiLinn/akailinn-hh/Closed%20Hat.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AkaiLinn/akailinn-hh/Closed%20Hat.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AkaiLinn_ht/0",
+      "provider": "strudel",
+      "title": "Akai Linn · ht · 0",
+      "category": "drums.tom",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AkaiLinn/akailinn-ht/Tom%20H.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AkaiLinn/akailinn-ht/Tom%20H.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AkaiLinn_lt/0",
+      "provider": "strudel",
+      "title": "Akai Linn · lt · 0",
+      "category": "drums.tom",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AkaiLinn/akailinn-lt/Tom%20L.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AkaiLinn/akailinn-lt/Tom%20L.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AkaiLinn_mt/0",
+      "provider": "strudel",
+      "title": "Akai Linn · mt · 0",
+      "category": "drums.tom",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AkaiLinn/akailinn-mt/Tom%20M.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AkaiLinn/akailinn-mt/Tom%20M.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AkaiLinn_oh/0",
+      "provider": "strudel",
+      "title": "Akai Linn · oh · 0",
+      "category": "drums.hat.open",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AkaiLinn/akailinn-oh/Open%20Hat.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AkaiLinn/akailinn-oh/Open%20Hat.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AkaiLinn_rd/0",
+      "provider": "strudel",
+      "title": "Akai Linn · rd · 0",
+      "category": "drums.cymbal.ride",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AkaiLinn/akailinn-rd/Ride.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AkaiLinn/akailinn-rd/Ride.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AkaiLinn_sd/0",
+      "provider": "strudel",
+      "title": "Akai Linn · sd · 0",
+      "category": "drums.snare",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AkaiLinn/akailinn-sd/SD.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AkaiLinn/akailinn-sd/SD.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AkaiLinn_sh/0",
+      "provider": "strudel",
+      "title": "Akai Linn · sh · 0",
+      "category": "drums.perc",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AkaiLinn/akailinn-sh/Shuffle.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AkaiLinn/akailinn-sh/Shuffle.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AkaiLinn_tb/0",
+      "provider": "strudel",
+      "title": "Akai Linn · tb · 0",
+      "category": "drums.perc",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AkaiLinn/akailinn-tb/Tambourin.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AkaiLinn/akailinn-tb/Tambourin.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:tidal-drum-machines/Linn9000_bd/0",
+      "provider": "strudel",
+      "title": "Linn 9000 · bd · 0",
+      "category": "drums.kick",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/Linn9000/linn9000-bd/BAssdrum.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/Linn9000/linn9000-bd/BAssdrum.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "openverse:58c034ed-5301-4a15-b09f-d048e1dd88a1",
+      "provider": "openverse",
+      "title": "linn tambourine.wav",
+      "category": "drums.perc",
+      "url": "https://freesound.org/people/NoiseCollector/sounds/4353",
+      "previewUrl": "https://cdn.freesound.org/previews/4/4353_4948-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "NoiseCollector",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.153
+    },
+    {
+      "id": "openverse:4681afdd-93a8-412f-baa6-546d367ec659",
+      "provider": "openverse",
+      "title": "linn snare.wav",
+      "category": "drums.snare",
+      "url": "https://freesound.org/people/NoiseCollector/sounds/4351",
+      "previewUrl": "https://cdn.freesound.org/previews/4/4351_4948-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "NoiseCollector",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.111
+    },
+    {
+      "id": "openverse:c832c74e-3704-4af5-adb9-283c253d339f",
+      "provider": "openverse",
+      "title": "linn tom2.wav",
+      "category": "drums.tom",
+      "url": "https://freesound.org/people/NoiseCollector/sounds/4358",
+      "previewUrl": "https://cdn.freesound.org/previews/4/4358_4948-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "NoiseCollector",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.583
+    },
+    {
+      "id": "openverse:3ce385f6-0b03-4783-a5d4-51437d9a6eb6",
+      "provider": "openverse",
+      "title": "linn tom 5.wav",
+      "category": "drums.tom",
+      "url": "https://freesound.org/people/NoiseCollector/sounds/4356",
+      "previewUrl": "https://cdn.freesound.org/previews/4/4356_4948-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "NoiseCollector",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.234
+    }
+  ]
+}

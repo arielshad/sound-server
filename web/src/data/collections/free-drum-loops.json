@@ -1,0 +1,655 @@
+{
+  "slug": "free-drum-loops",
+  "search": {
+    "q": "drum loop",
+    "categories": [
+      "drums"
+    ],
+    "forms": [
+      "loop"
+    ]
+  },
+  "updatedAt": "2026-10-23T09:38:43.144Z",
+  "samples": [
+    {
+      "id": "orangefreesounds:58632",
+      "provider": "orangefreesounds",
+      "title": "Upbeat Cyberpunk Synth Drum Loop – Pulsating Beat, 160 BPM",
+      "category": "drums",
+      "url": "https://orangefreesounds.com/upbeat-cyberpunk-synth-drum-loop-pulsating-beat-160-bpm/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/09/Upbeat-cyberpunk-synth-drum-loop-pulsating-beat-160-bpm.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "zip",
+        "mp3"
+      ],
+      "bpm": 160,
+      "durationSec": 6
+    },
+    {
+      "id": "wikimediacommons:Drum_loop_(Carrai_Pass).wav",
+      "provider": "wikimediacommons",
+      "title": "Drum loop (Carrai Pass)",
+      "category": "drums",
+      "url": "https://commons.wikimedia.org/wiki/File:Drum_loop_(Carrai_Pass).wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/80/Drum_loop_%28Carrai_Pass%29.wav/Drum_loop_%28Carrai_Pass%29.wav.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Pannage",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 12.399
+    },
+    {
+      "id": "opengameart:prehistoric-drum-loop",
+      "provider": "opengameart",
+      "title": "Prehistoric Drum Loop",
+      "category": "drums",
+      "url": "https://opengameart.org/content/prehistoric-drum-loop",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/select.ogg.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/select.ogg.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:58624",
+      "provider": "orangefreesounds",
+      "title": "Classic Retro Electro Drum Loop – 160 BPM",
+      "category": "drums",
+      "url": "https://orangefreesounds.com/classic-retro-electro-drum-loop-160-bpm/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/09/Classic-retro-electro-drum-loop-160-bpm.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "zip",
+        "mp3"
+      ],
+      "bpm": 160,
+      "durationSec": 3
+    },
+    {
+      "id": "strudel:dough-samples/loop/6",
+      "provider": "strudel",
+      "title": "Dough Samples · loop · 6",
+      "category": "drums",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Samples/blob/main/loop/loop%20drum%202.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Samples/main/loop/loop%20drum%202.wav",
+      "downloadable": true,
+      "form": "loop",
+      "license": {
+        "id": "LicenseRef-GPL-3-0-repository-licence",
+        "name": "GPL-3.0 (repository licence)",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "opengameart:drum-dirty-loop",
+      "provider": "opengameart",
+      "title": "Drum Dirty Loop",
+      "category": "drums",
+      "url": "https://opengameart.org/content/drum-dirty-loop",
+      "previewUrl": "https://opengameart.org/sites/default/files/dirty_.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/dirty_.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:58619",
+      "provider": "orangefreesounds",
+      "title": "Mazurka Style Drum Loop – 152 BPM",
+      "category": "drums",
+      "url": "https://orangefreesounds.com/mazurka-style-drum-loop-152-bpm/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/09/Mazurka-style-drum-loop-152-bpm.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "zip",
+        "mp3"
+      ],
+      "bpm": 152,
+      "durationSec": 4
+    },
+    {
+      "id": "wikimediacommons:Sacred_Battle_Loop_by_MusicLFiles.ogg",
+      "provider": "wikimediacommons",
+      "title": "Sacred Battle Loop by MusicLFiles",
+      "category": "drums",
+      "url": "https://commons.wikimedia.org/wiki/File:Sacred_Battle_Loop_by_MusicLFiles.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e0/Sacred_Battle_Loop_by_MusicLFiles.ogg/Sacred_Battle_Loop_by_MusicLFiles.ogg.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "MusicLFiles",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 30
+    },
+    {
+      "id": "strudel:dough-samples/loop/8",
+      "provider": "strudel",
+      "title": "Dough Samples · loop · 8",
+      "category": "drums",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Samples/blob/main/loop/loop%20drum%201.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Samples/main/loop/loop%20drum%201.wav",
+      "downloadable": true,
+      "form": "loop",
+      "license": {
+        "id": "LicenseRef-GPL-3-0-repository-licence",
+        "name": "GPL-3.0 (repository licence)",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "opengameart:get-equipped-8-bit-drum-loop",
+      "provider": "opengameart",
+      "title": "Get Equipped (8-bit drum loop)",
+      "category": "drums",
+      "url": "https://opengameart.org/content/get-equipped-8-bit-drum-loop",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/getequipped.wav.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/getequipped.wav.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:58508",
+      "provider": "orangefreesounds",
+      "title": "Acoustic Old School Drum Loop 100 BPM",
+      "category": "drums",
+      "url": "https://orangefreesounds.com/acoustic-old-school-drum-loop-100-bpm/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/09/Acoustic-old-school-drum-loop-100-bpm.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "zip",
+        "mp3"
+      ],
+      "bpm": 100,
+      "durationSec": 2
+    },
+    {
+      "id": "wikimediacommons:Funk_carioca_8_bar_loop.ogg",
+      "provider": "wikimediacommons",
+      "title": "Funk carioca 8 bar loop",
+      "category": "drums",
+      "url": "https://commons.wikimedia.org/wiki/File:Funk_carioca_8_bar_loop.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b8/Funk_carioca_8_bar_loop.ogg/Funk_carioca_8_bar_loop.ogg.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Zanahary",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 3.697
+    },
+    {
+      "id": "opengameart:2-tribal-drum-loops",
+      "provider": "opengameart",
+      "title": "2 tribal drum loops",
+      "category": "drums",
+      "url": "https://opengameart.org/content/2-tribal-drum-loops",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/tribal_loop_1_1.wav.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/tribal_loop_1_1.wav.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:57685",
+      "provider": "orangefreesounds",
+      "title": "1960s Solo Acoustic Drum Loop Beat",
+      "category": "drums",
+      "url": "https://orangefreesounds.com/1960s-solo-acoustic-drum-loop-beat/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/08/1960s-solo-acoustic-drum-loop-beat.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "zip",
+        "mp3"
+      ],
+      "bpm": 98,
+      "durationSec": 2
+    },
+    {
+      "id": "opengameart:fantasy-music-and-drum-loops-pack",
+      "provider": "opengameart",
+      "title": "Fantasy Music and Drum Loops Pack",
+      "category": "drums",
+      "url": "https://opengameart.org/content/fantasy-music-and-drum-loops-pack",
+      "previewUrl": "https://opengameart.org/sites/default/files/fantasymusicpackpreview.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/fantasymusicpackpreview.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:55763",
+      "provider": "orangefreesounds",
+      "title": "80 BPM Salsa Rhythm Drum Loop",
+      "category": "drums",
+      "url": "https://orangefreesounds.com/80-bpm-salsa-rhythm-drum-loop/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/03/80-bpm-salsa-rhythm-drum-loop.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "zip",
+        "mp3"
+      ],
+      "bpm": 80,
+      "durationSec": 3
+    },
+    {
+      "id": "opengameart:tense-bass-boost-drum-loop-140-bpm",
+      "provider": "opengameart",
+      "title": "Tense Bass Boost Drum Loop 140 BPM",
+      "category": "drums",
+      "url": "https://opengameart.org/content/tense-bass-boost-drum-loop-140-bpm",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/tensebassboostdrums.ogg.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/tensebassboostdrums.ogg.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "bpm": 140
+    },
+    {
+      "id": "orangefreesounds:56991",
+      "provider": "orangefreesounds",
+      "title": "Electro Pulse – 80 BPM Electro Drum Loop",
+      "category": "drums",
+      "url": "https://orangefreesounds.com/electro-pulse-80-bpm-electro-drum-loop/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/06/Electro-pulse-80-bpm-electro-drum-loop.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "zip",
+        "mp3"
+      ],
+      "bpm": 80,
+      "durationSec": 6
+    },
+    {
+      "id": "opengameart:taiko-drums-seamless-loop",
+      "provider": "opengameart",
+      "title": "Taiko drums (seamless loop)",
+      "category": "drums.perc",
+      "url": "https://opengameart.org/content/taiko-drums-seamless-loop",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/taiko-drums-preview.ogg.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/taiko-drums-preview.ogg.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:55748",
+      "provider": "orangefreesounds",
+      "title": "Techno Drum Loop 135 BPM – Free WAV Download",
+      "category": "drums",
+      "url": "https://orangefreesounds.com/techno-drum-loop-135-bpm-free-wav-download/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/03/Techno-drum-loop-135-bpm-free-wav-download.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "zip",
+        "mp3"
+      ],
+      "bpm": 135,
+      "durationSec": 4
+    },
+    {
+      "id": "opengameart:horde-war-drums-loop",
+      "provider": "opengameart",
+      "title": "Horde War Drums loop",
+      "category": "drums",
+      "url": "https://opengameart.org/content/horde-war-drums-loop",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/horde_war_drums_by_william_hector.wav.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/horde_war_drums_by_william_hector.wav.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:55738",
+      "provider": "orangefreesounds",
+      "title": "Lo-Fi Chill Drum Loop 91 BPM – Smooth Vintage Groove",
+      "category": "drums",
+      "url": "https://orangefreesounds.com/lo-fi-chill-drum-loop-91-bpm-smooth-vintage-groove/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/03/Lo-fi-chill-drum-loop-91-bpm-smooth-vintage-groove.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "zip",
+        "mp3"
+      ],
+      "bpm": 91,
+      "durationSec": 3
+    },
+    {
+      "id": "orangefreesounds:55685",
+      "provider": "orangefreesounds",
+      "title": "Energetic Retro Mambo Dance Drum Loop 194 BPM",
+      "category": "drums",
+      "url": "https://orangefreesounds.com/energetic-retro-mambo-dance-drum-loop-194-bpm/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/02/Energetic-retro-mambo-dance-drum-loop-194-bpm.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "zip",
+        "mp3"
+      ],
+      "bpm": 194,
+      "durationSec": 5
+    },
+    {
+      "id": "opengameart:cinematic-percussion-loop",
+      "provider": "opengameart",
+      "title": "Cinematic percussion loop",
+      "category": "drums",
+      "url": "https://opengameart.org/content/cinematic-percussion-loop",
+      "previewUrl": "https://opengameart.org/sites/default/files/Cinematic%20drumloop%20sample.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/Cinematic%20drumloop%20sample.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:55437",
+      "provider": "orangefreesounds",
+      "title": "Groovy 132 BPM Drum Loop",
+      "category": "drums",
+      "url": "https://orangefreesounds.com/groovy-132-bpm-drum-loop/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/02/Groovy-132-bpm-drum-loop.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "zip",
+        "mp3"
+      ],
+      "bpm": 132,
+      "durationSec": 2
+    },
+    {
+      "id": "orangefreesounds:55416",
+      "provider": "orangefreesounds",
+      "title": "Hip Hop Electronic Industrial Drum Loop – 132 BPM",
+      "category": "drums",
+      "url": "https://orangefreesounds.com/hip-hop-electronic-industrial-drum-loop-132-bpm/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/02/Hip-hop-electronic-industrial-drum-loop-132-bpm.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "zip",
+        "mp3"
+      ],
+      "bpm": 132,
+      "durationSec": 3
+    },
+    {
+      "id": "orangefreesounds:54608",
+      "provider": "orangefreesounds",
+      "title": "EDM Drum Loop Driving Beat",
+      "category": "drums",
+      "url": "https://orangefreesounds.com/edm-drum-loop-driving-beat/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2025/12/EDM-drum-loop-driving-beat.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "zip",
+        "mp3"
+      ],
+      "bpm": 120,
+      "durationSec": 4
+    },
+    {
+      "id": "orangefreesounds:55157",
+      "provider": "orangefreesounds",
+      "title": "Kick Drum Loop – 140 BPM – Techno/Electronic",
+      "category": "drums.kick",
+      "url": "https://orangefreesounds.com/kick-drum-loop-140-bpm-techno-electronic/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/01/Kick-drum-loop-140-bpm-techno-electronic.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "zip",
+        "mp3"
+      ],
+      "bpm": 140,
+      "durationSec": 3
+    }
+  ]
+}

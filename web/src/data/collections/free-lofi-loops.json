@@ -1,0 +1,803 @@
+{
+  "slug": "free-lofi-loops",
+  "search": {
+    "q": "lofi",
+    "forms": [
+      "loop"
+    ]
+  },
+  "updatedAt": "2026-10-23T09:41:00.078Z",
+  "samples": [
+    {
+      "id": "openverse:2f5d351d-a1de-41d9-ba70-c73ba285c875",
+      "provider": "openverse",
+      "title": "Lofi Jazz Organ Loop 95 BPM.wav",
+      "category": "keys",
+      "url": "https://freesound.org/people/holizna/sounds/629154",
+      "previewUrl": "https://cdn.freesound.org/previews/629/629154_12574855-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "holizna",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "bpm": 95,
+      "durationSec": 40.421
+    },
+    {
+      "id": "orangefreesounds:41778",
+      "provider": "orangefreesounds",
+      "title": "LoFi Drum Loop",
+      "category": "drums",
+      "url": "https://orangefreesounds.com/lofi-drum-loop/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2023/02/LoFi-drum-loop.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "zip",
+        "mp3"
+      ],
+      "bpm": 80,
+      "durationSec": 6
+    },
+    {
+      "id": "openverse:df933c32-c44d-4531-9f17-e28dba9ecabd",
+      "provider": "openverse",
+      "title": "lofi guitar",
+      "category": "guitar",
+      "url": "https://freesound.org/people/aptbr/sounds/203932",
+      "previewUrl": "https://cdn.freesound.org/previews/203/203932_3783190-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "aptbr",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 12
+    },
+    {
+      "id": "wikimediacommons:Lofi_by_Caden_Currie.mp3",
+      "provider": "wikimediacommons",
+      "title": "Lofi by Caden Currie",
+      "category": "other",
+      "url": "https://commons.wikimedia.org/wiki/File:Lofi_by_Caden_Currie.mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Lofi_by_Caden_Currie.mp3",
+      "downloadable": true,
+      "author": "Caden Carrie",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 88.189
+    },
+    {
+      "id": "opengameart:lofi-hip-hop-loop",
+      "provider": "opengameart",
+      "title": "Lofi Hip Hop Loop",
+      "category": "other",
+      "url": "https://opengameart.org/content/lofi-hip-hop-loop",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/LofiLoop_1.ogg.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/LofiLoop_1.ogg.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:41255",
+      "provider": "orangefreesounds",
+      "title": "LoFi Music Loop 120 bpm",
+      "category": "synth",
+      "url": "https://orangefreesounds.com/lofi-music-loop-120-bpm/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2023/01/Lofi-music-loop-120-bpm.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Alexander Blu",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "zip",
+        "mp3"
+      ],
+      "bpm": 120,
+      "durationSec": 4
+    },
+    {
+      "id": "openverse:795da5a7-b63b-43e9-8f50-61b9e2b1a5f0",
+      "provider": "openverse",
+      "title": "Lofi Guitar Loop EM 119 BPM(3).wav",
+      "category": "guitar",
+      "url": "https://freesound.org/people/holizna/sounds/629150",
+      "previewUrl": "https://cdn.freesound.org/previews/629/629150_12574855-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "holizna",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "bpm": 119,
+      "key": "E major",
+      "durationSec": 38.319
+    },
+    {
+      "id": "wikimediacommons:Lofi_music_001.wav",
+      "provider": "wikimediacommons",
+      "title": "Lofi music 001",
+      "category": "other",
+      "url": "https://commons.wikimedia.org/wiki/File:Lofi_music_001.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f5/Lofi_music_001.wav/Lofi_music_001.wav.mp3",
+      "downloadable": true,
+      "author": "Luisalvaz",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 166.154
+    },
+    {
+      "id": "opengameart:whatever-happens-happens-lofi-loop",
+      "provider": "opengameart",
+      "title": "Whatever Happens, Happens - LoFi - Loop",
+      "category": "other",
+      "url": "https://opengameart.org/content/whatever-happens-happens-lofi-loop",
+      "previewUrl": "https://opengameart.org/sites/default/files/whatever-happens-happens-lofi-loop.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/whatever-happens-happens-lofi-loop.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "openverse:2ede71c8-18be-4a17-ab28-aa3bb1dac503",
+      "provider": "openverse",
+      "title": "Chill Lofi Melody Loop 95 BPM.wav",
+      "category": "drums",
+      "url": "https://freesound.org/people/holizna/sounds/629147",
+      "previewUrl": "https://cdn.freesound.org/previews/629/629147_12574855-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "holizna",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "bpm": 95,
+      "durationSec": 40.421
+    },
+    {
+      "id": "wikimediacommons:Sappheiros_-_Perspective_(Lofi_Hip_Hop).ogg",
+      "provider": "wikimediacommons",
+      "title": "Sappheiros - Perspective (Lofi Hip Hop)",
+      "category": "other",
+      "url": "https://commons.wikimedia.org/wiki/File:Sappheiros_-_Perspective_(Lofi_Hip_Hop).ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/09/Sappheiros_-_Perspective_%28Lofi_Hip_Hop%29.ogg/Sappheiros_-_Perspective_%28Lofi_Hip_Hop%29.ogg.mp3",
+      "downloadable": true,
+      "author": "Sappheiros",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 137.276
+    },
+    {
+      "id": "opengameart:benkyou-lofi-loop",
+      "provider": "opengameart",
+      "title": "Benkyou - LoFi - Loop",
+      "category": "other",
+      "url": "https://opengameart.org/content/benkyou-lofi-loop",
+      "previewUrl": "https://opengameart.org/sites/default/files/benkyou-loop.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/benkyou-loop.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "openverse:dc318916-e4a2-4902-a481-6140e7b4ea23",
+      "provider": "openverse",
+      "title": "Chill Lofi Epiano Loop 80 BPM.wav",
+      "category": "keys",
+      "url": "https://freesound.org/people/holizna/sounds/629170",
+      "previewUrl": "https://cdn.freesound.org/previews/629/629170_12574855-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "holizna",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "bpm": 80,
+      "durationSec": 24
+    },
+    {
+      "id": "wikimediacommons:Raspberrymusic_-_Lofi_Hip_Hop_Upbeat.ogg",
+      "provider": "wikimediacommons",
+      "title": "Raspberrymusic - Lofi Hip Hop Upbeat",
+      "category": "other",
+      "url": "https://commons.wikimedia.org/wiki/File:Raspberrymusic_-_Lofi_Hip_Hop_Upbeat.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ad/Raspberrymusic_-_Lofi_Hip_Hop_Upbeat.ogg/Raspberrymusic_-_Lofi_Hip_Hop_Upbeat.ogg.mp3",
+      "downloadable": true,
+      "author": "raspberrymusic",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 133.548
+    },
+    {
+      "id": "opengameart:lofi-compilation",
+      "provider": "opengameart",
+      "title": "lofi Compilation",
+      "category": "other",
+      "url": "https://opengameart.org/content/lofi-compilation",
+      "previewUrl": "https://opengameart.org/sites/default/files/A%20cup%20of%20tea.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/A%20cup%20of%20tea.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "openverse:4be9c60f-f991-4103-9499-9f242d44516e",
+      "provider": "openverse",
+      "title": "lofi loop 5",
+      "category": "ambience",
+      "url": "https://freesound.org/people/deleted_user_11009121/sounds/508368",
+      "previewUrl": "https://cdn.freesound.org/previews/508/508368_11009121-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "deleted_user_11009121",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 19.24
+    },
+    {
+      "id": "opengameart:chill-lofi-inspired-loop-edit",
+      "provider": "opengameart",
+      "title": "Chill lofi inspired [loop edit]",
+      "category": "other",
+      "url": "https://opengameart.org/content/chill-lofi-inspired-loop-edit",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/chilllofir-loop-preview.ogg.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/chilllofir-loop-preview.ogg.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "openverse:b3a01746-e6f3-43f4-bdd9-9de7b221d4bd",
+      "provider": "openverse",
+      "title": "Lofi Beat w. bass",
+      "category": "bass",
+      "url": "https://freesound.org/people/Teacoma/sounds/431304",
+      "previewUrl": "https://cdn.freesound.org/previews/431/431304_3356610-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Teacoma",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 24.615
+    },
+    {
+      "id": "wikimediacommons:Lofi_Dystopia_(ambient_dub_techno_soundscape_set).opus",
+      "provider": "wikimediacommons",
+      "title": "Lofi Dystopia (ambient dub techno soundscape set)",
+      "category": "ambience",
+      "url": "https://commons.wikimedia.org/wiki/File:Lofi_Dystopia_(ambient_dub_techno_soundscape_set).opus",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ef/Lofi_Dystopia_%28ambient_dub_techno_soundscape_set%29.opus/Lofi_Dystopia_%28ambient_dub_techno_soundscape_set%29.opus.mp3",
+      "downloadable": true,
+      "author": "Dystopian Soundscapes",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "opus",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 14156.321
+    },
+    {
+      "id": "opengameart:cozy-music-sampler-%E2%80%94-7-seamless-loops-lofi-farm-fantasy-tavern-halloween-winter-caf%C3%A9-space",
+      "provider": "opengameart",
+      "title": "Cozy Music Sampler — 7 Seamless Loops (Lofi, Farm, Fantasy Tavern, Halloween, Winter, Café, Space)",
+      "category": "other",
+      "url": "https://opengameart.org/content/cozy-music-sampler-%E2%80%94-7-seamless-loops-lofi-farm-fantasy-tavern-halloween-winter-caf%C3%A9-space",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/cozy-music-sampler-preview.ogg.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/cozy-music-sampler-preview.ogg.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "openverse:c5975ab3-9574-4fe2-8974-d692321e9e43",
+      "provider": "openverse",
+      "title": "Dusty Lofi Drum Loop 95 BPM.wav",
+      "category": "drums",
+      "url": "https://freesound.org/people/holizna/sounds/629138",
+      "previewUrl": "https://cdn.freesound.org/previews/629/629138_12574855-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "holizna",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "bpm": 95,
+      "durationSec": 20.21
+    },
+    {
+      "id": "opengameart:happy-lo-fi-lofi-collection",
+      "provider": "opengameart",
+      "title": "Happy Lo-Fi (Lofi Collection)",
+      "category": "other",
+      "url": "https://opengameart.org/content/happy-lo-fi-lofi-collection",
+      "previewUrl": "https://opengameart.org/sites/default/files/03_holiznacc0_-_blue_skies.mp3.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/03_holiznacc0_-_blue_skies.mp3.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "openverse:1e2a72cf-de0f-4bd6-94ff-c6f53c601bf2",
+      "provider": "openverse",
+      "title": "Relaxing Lofi",
+      "category": "drums.perc",
+      "url": "https://freesound.org/people/Seth_Makes_Sounds/sounds/591660",
+      "previewUrl": "https://cdn.freesound.org/previews/591/591660_13228046-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Seth_Makes_Sounds",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 12.8
+    },
+    {
+      "id": "wikimediacommons:Lo-fi_by_PetroVenus.mp3",
+      "provider": "wikimediacommons",
+      "title": "Lo-fi by PetroVenus",
+      "category": "other",
+      "url": "https://commons.wikimedia.org/wiki/File:Lo-fi_by_PetroVenus.mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Lo-fi_by_PetroVenus.mp3",
+      "downloadable": true,
+      "author": "PetroVenus",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 411.611
+    },
+    {
+      "id": "opengameart:lofi-hip-hop",
+      "provider": "opengameart",
+      "title": "lofi hip hop",
+      "category": "other",
+      "url": "https://opengameart.org/content/lofi-hip-hop",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/lofihiphop.ogg.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/lofihiphop.ogg.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "openverse:ec72a4fd-6839-4a3b-ab4d-4377c6779d93",
+      "provider": "openverse",
+      "title": "lofi loop 7",
+      "category": "keys",
+      "url": "https://freesound.org/people/deleted_user_11009121/sounds/510895",
+      "previewUrl": "https://cdn.freesound.org/previews/510/510895_11009121-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "deleted_user_11009121",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 8.033
+    },
+    {
+      "id": "opengameart:chill-lofi-inspired",
+      "provider": "opengameart",
+      "title": "Chill lofi inspired",
+      "category": "other",
+      "url": "https://opengameart.org/content/chill-lofi-inspired",
+      "previewUrl": "https://opengameart.org/sites/default/files/ChillLofiR.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/ChillLofiR.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "openverse:88cd9e15-0720-4875-940e-1bbccfb3971c",
+      "provider": "openverse",
+      "title": "Lofi Piano Loop 80 BPM(2).wav",
+      "category": "keys",
+      "url": "https://freesound.org/people/holizna/sounds/629174",
+      "previewUrl": "https://cdn.freesound.org/previews/629/629174_12574855-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "holizna",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "bpm": 80,
+      "durationSec": 47.594
+    },
+    {
+      "id": "wikimediacommons:Happy-Frog.wav",
+      "provider": "wikimediacommons",
+      "title": "Happy-Frog",
+      "category": "other",
+      "url": "https://commons.wikimedia.org/wiki/File:Happy-Frog.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/76/Happy-Frog.wav/Happy-Frog.wav.mp3",
+      "downloadable": true,
+      "author": "Happiest Boy",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 135.558
+    },
+    {
+      "id": "opengameart:sad-lo-fi-lofi-collectioni",
+      "provider": "opengameart",
+      "title": "Sad Lo-Fi (Lofi Collectioni)",
+      "category": "other",
+      "url": "https://opengameart.org/content/sad-lo-fi-lofi-collectioni",
+      "previewUrl": "https://opengameart.org/sites/default/files/05_holiznacc0_-_small_towns_smaller_lives.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/05_holiznacc0_-_small_towns_smaller_lives.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "openverse:4691f0d2-8c5e-4444-b04d-2ca83f2705ec",
+      "provider": "openverse",
+      "title": "Doctor Dreamchip - Lofi Keyboard Pack - Rhodes80BPM C Major - 9.wav",
+      "category": "keys",
+      "url": "https://freesound.org/people/Doctor_Dreamchip/sounds/517990",
+      "previewUrl": "https://cdn.freesound.org/previews/517/517990_8462944-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Doctor_Dreamchip",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "bpm": 80,
+      "durationSec": 30
+    },
+    {
+      "id": "wikimediacommons:Study_And_Relax_by_Kevin_MacLeod.ogg",
+      "provider": "wikimediacommons",
+      "title": "Study And Relax by Kevin MacLeod",
+      "category": "other",
+      "url": "https://commons.wikimedia.org/wiki/File:Study_And_Relax_by_Kevin_MacLeod.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9c/Study_And_Relax_by_Kevin_MacLeod.ogg/Study_And_Relax_by_Kevin_MacLeod.ogg.mp3",
+      "downloadable": true,
+      "author": "Kevin MacLeod",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 223.399
+    },
+    {
+      "id": "opengameart:lofi-again",
+      "provider": "opengameart",
+      "title": "Lofi again",
+      "category": "other",
+      "url": "https://opengameart.org/content/lofi-again",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/lofiagain_0.ogg.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/lofiagain_0.ogg.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "openverse:92c98567-f264-4e42-88d3-15a3833feb32",
+      "provider": "openverse",
+      "title": "Ambient Lofi Melody Loop 88 BPM.wav",
+      "category": "ambience",
+      "url": "https://freesound.org/people/holizna/sounds/629148",
+      "previewUrl": "https://cdn.freesound.org/previews/629/629148_12574855-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "holizna",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "bpm": 88,
+      "durationSec": 43.636
+    },
+    {
+      "id": "wikimediacommons:Rainy-Winter-Day.wav",
+      "provider": "wikimediacommons",
+      "title": "Rainy-Winter-Day",
+      "category": "other",
+      "url": "https://commons.wikimedia.org/wiki/File:Rainy-Winter-Day.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a3/Rainy-Winter-Day.wav/Rainy-Winter-Day.wav.mp3",
+      "downloadable": true,
+      "author": "Happiest Boy",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 118.77
+    },
+    {
+      "id": "opengameart:8-bit-lofi-ice-cave",
+      "provider": "opengameart",
+      "title": "8 bit lofi - Ice Cave",
+      "category": "other",
+      "url": "https://opengameart.org/content/8-bit-lofi-ice-cave",
+      "previewUrl": "https://opengameart.org/sites/default/files/8_bit_ice_cave_lofi.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/8_bit_ice_cave_lofi.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    }
+  ]
+}

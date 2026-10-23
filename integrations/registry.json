@@ -279,6 +279,54 @@
       "access": "scrape",
       "addedAt": "2026-10-23",
       "addedBy": "launch"
+    },
+    {
+      "id": "zenodo",
+      "name": "Zenodo datasets",
+      "homepage": "https://zenodo.org",
+      "access": "static",
+      "addedAt": "2026-10-23",
+      "addedBy": "human"
+    },
+    {
+      "id": "bigsoundbank",
+      "name": "BigSoundBank",
+      "homepage": "https://bigsoundbank.com",
+      "access": "scrape",
+      "addedAt": "2026-10-23",
+      "addedBy": "human"
+    },
+    {
+      "id": "freepacks",
+      "name": "Free pack news",
+      "homepage": "https://99sounds.org/sounds/",
+      "access": "scrape",
+      "addedAt": "2026-10-23",
+      "addedBy": "human"
+    },
+    {
+      "id": "ghosthack",
+      "name": "Ghosthack",
+      "homepage": "https://www.ghosthack.de",
+      "access": "scrape",
+      "addedAt": "2026-10-23",
+      "addedBy": "human"
+    },
+    {
+      "id": "blackoctopus",
+      "name": "Black Octopus Sound",
+      "homepage": "https://blackoctopus-sound.com",
+      "access": "scrape",
+      "addedAt": "2026-10-23",
+      "addedBy": "human"
+    },
+    {
+      "id": "functionloops",
+      "name": "Function Loops",
+      "homepage": "https://www.functionloops.com",
+      "access": "link",
+      "addedAt": "2026-10-23",
+      "addedBy": "human"
     }
   ],
   "rejected": []

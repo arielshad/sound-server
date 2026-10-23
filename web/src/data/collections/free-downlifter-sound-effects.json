@@ -1,0 +1,154 @@
+{
+  "slug": "free-downlifter-sound-effects",
+  "search": {
+    "q": "downlifter",
+    "categories": [
+      "fx.downlifter"
+    ]
+  },
+  "updatedAt": "2026-10-23T09:47:24.264Z",
+  "samples": [
+    {
+      "id": "openverse:c1c779a1-9c71-464d-8c88-3107ef547979",
+      "provider": "openverse",
+      "title": "Lunar Downlifter FX 4.wav",
+      "category": "fx.downlifter",
+      "url": "https://freesound.org/people/maqsim/sounds/172157",
+      "previewUrl": "https://cdn.freesound.org/previews/172/172157_1897295-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "maqsim",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 7.394
+    },
+    {
+      "id": "openverse:3e80ac96-7343-4d53-acad-9c9130dbdbe0",
+      "provider": "openverse",
+      "title": "Lunar Downlifter FX 1.wav",
+      "category": "fx.downlifter",
+      "url": "https://freesound.org/people/maqsim/sounds/172154",
+      "previewUrl": "https://cdn.freesound.org/previews/172/172154_1897295-hq.mp3",
+      "downloadable": true,
+      "author": "maqsim",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 29.548
+    },
+    {
+      "id": "openverse:b7b667f1-c9d4-4c24-b192-0c1ed9e2c84a",
+      "provider": "openverse",
+      "title": "downlifter 2.wav",
+      "category": "fx.downlifter",
+      "url": "https://freesound.org/people/neezen./sounds/482146",
+      "previewUrl": "https://cdn.freesound.org/previews/482/482146_9637845-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "neezen.",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 4.028
+    },
+    {
+      "id": "openverse:b5a42856-1831-4569-b2e2-7ca865b84eab",
+      "provider": "openverse",
+      "title": "Warped Downlifter.wav",
+      "category": "fx.downlifter",
+      "url": "https://freesound.org/people/TechGeekMusic/sounds/353399",
+      "previewUrl": "https://cdn.freesound.org/previews/353/353399_6397561-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "TechGeekMusic",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 8.571
+    },
+    {
+      "id": "openverse:9c3bc18a-08c3-4c25-b806-2f56bb2765c3",
+      "provider": "openverse",
+      "title": "FX_Noise_Riser_Downlifter.wav",
+      "category": "fx.downlifter",
+      "url": "https://freesound.org/people/michael_grinnell/sounds/464398",
+      "previewUrl": "https://cdn.freesound.org/previews/464/464398_7372230-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "michael_grinnell",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 85.333
+    },
+    {
+      "id": "openverse:89bd47d9-5981-44ce-9e66-28b9f9889b0c",
+      "provider": "openverse",
+      "title": "eerie long thing.wav",
+      "category": "fx.downlifter",
+      "url": "https://freesound.org/people/KewlFox/sounds/492409",
+      "previewUrl": "https://cdn.freesound.org/previews/492/492409_10636871-hq.mp3",
+      "downloadable": true,
+      "author": "KewlFox",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 23.75
+    }
+  ]
+}

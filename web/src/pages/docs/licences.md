@@ -2,7 +2,7 @@
 layout: ../../layouts/DocsLayout.astro
 title: Sample licences explained
 crumb: Sample licences explained
-description: What CC0, CC BY, share-alike, NC, ND, Sampling+ and royalty-free licences mean for music samples, how credit lines work, and how Sound Server decides each verdict.
+description: What CC0, CC BY, share-alike, NC, ND, Sampling+ and royalty-free licences mean for music samples, how credit works and how each verdict is decided.
 ---
 
 # Sample licences explained

@@ -1,0 +1,649 @@
+{
+  "slug": "free-forest-ambience",
+  "search": {
+    "q": "forest",
+    "categories": [
+      "ambience"
+    ]
+  },
+  "updatedAt": "2026-10-23T09:39:29.981Z",
+  "samples": [
+    {
+      "id": "wikimediacommons:Emmelie_de_Forest_ESC2013_presentation.ogg",
+      "provider": "wikimediacommons",
+      "title": "Emmelie de Forest ESC2013 presentation",
+      "category": "ambience",
+      "url": "https://commons.wikimedia.org/wiki/File:Emmelie_de_Forest_ESC2013_presentation.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/71/Emmelie_de_Forest_ESC2013_presentation.ogg/Emmelie_de_Forest_ESC2013_presentation.ogg.mp3",
+      "downloadable": true,
+      "author": "Albin Olsson",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 13.357
+    },
+    {
+      "id": "opengameart:ambient-mountain-river-wind-and-forest-and-waterfall",
+      "provider": "opengameart",
+      "title": "Ambient Mountain, River, Wind and Forest and Waterfall",
+      "category": "ambience",
+      "url": "https://opengameart.org/content/ambient-mountain-river-wind-and-forest-and-waterfall",
+      "previewUrl": "https://opengameart.org/sites/default/files/ambenv_3.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/ambenv_3.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:57192",
+      "provider": "orangefreesounds",
+      "title": "Bird Singing And Forest Stream Sound Effect",
+      "category": "ambience",
+      "url": "https://orangefreesounds.com/bird-singing-and-forest-stream-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/06/Bird-singing-and-forest-stream-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 43
+    },
+    {
+      "id": "wikimediacommons:Ninja_Gaiden_The_Forest_-_Felipe_RuizBRX11.wav",
+      "provider": "wikimediacommons",
+      "title": "Ninja Gaiden The Forest - Felipe RuizBRX11",
+      "category": "ambience",
+      "url": "https://commons.wikimedia.org/wiki/File:Ninja_Gaiden_The_Forest_-_Felipe_RuizBRX11.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b0/Ninja_Gaiden_The_Forest_-_Felipe_RuizBRX11.wav/Ninja_Gaiden_The_Forest_-_Felipe_RuizBRX11.wav.mp3",
+      "downloadable": true,
+      "author": "Felipe RUiz P",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 122.613
+    },
+    {
+      "id": "opengameart:forest-bird-sounds",
+      "provider": "opengameart",
+      "title": "Forest bird sounds",
+      "category": "ambience",
+      "url": "https://opengameart.org/content/forest-bird-sounds",
+      "previewUrl": "https://opengameart.org/sites/default/files/fb.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/fb.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "wikimediacommons:Zero-project_-_02_-_First_night_at_the_Wood_Elf_Forest.ogg",
+      "provider": "wikimediacommons",
+      "title": "Zero-project - 02 - First night at the Wood Elf Forest",
+      "category": "ambience",
+      "url": "https://commons.wikimedia.org/wiki/File:Zero-project_-_02_-_First_night_at_the_Wood_Elf_Forest.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1f/Zero-project_-_02_-_First_night_at_the_Wood_Elf_Forest.ogg/Zero-project_-_02_-_First_night_at_the_Wood_Elf_Forest.ogg.mp3",
+      "downloadable": true,
+      "author": "zero-project",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 422
+    },
+    {
+      "id": "orangefreesounds:56912",
+      "provider": "orangefreesounds",
+      "title": "Lively Birds Singing In Peaceful Forest Ambience",
+      "category": "ambience",
+      "url": "https://orangefreesounds.com/lively-birds-singing-in-peaceful-forest-ambience/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/06/Lively-birds-singing-in-peaceful-forest-ambience.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 110
+    },
+    {
+      "id": "opengameart:dark-forest-bird",
+      "provider": "opengameart",
+      "title": "Dark Forest Bird",
+      "category": "ambience",
+      "url": "https://opengameart.org/content/dark-forest-bird",
+      "previewUrl": "https://opengameart.org/sites/default/files/Dark%20Forest%20Bird.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/Dark%20Forest%20Bird.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "wikimediacommons:The_Forest_and_the_Trees_(Kevin_MacLeod)_(ISRC_USUAN1100766).oga",
+      "provider": "wikimediacommons",
+      "title": "The Forest and the Trees (Kevin MacLeod) (ISRC USUAN1100766)",
+      "category": "ambience",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Forest_and_the_Trees_(Kevin_MacLeod)_(ISRC_USUAN1100766).oga",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d3/The_Forest_and_the_Trees_%28Kevin_MacLeod%29_%28ISRC_USUAN1100766%29.oga/The_Forest_and_the_Trees_%28Kevin_MacLeod%29_%28ISRC_USUAN1100766%29.oga.mp3",
+      "downloadable": true,
+      "author": "Kevin MacLeod, USA",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 94.248
+    },
+    {
+      "id": "orangefreesounds:56604",
+      "provider": "orangefreesounds",
+      "title": "Night Forest Ambience With Chirping Insects And Flowing Stream Sound Effect",
+      "category": "ambience",
+      "url": "https://orangefreesounds.com/night-forest-ambience-with-chirping-insects-and-flowing-stream-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/05/Night-forest-ambience-with-chirping-insects-and-flowing-stream-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 74
+    },
+    {
+      "id": "wikimediacommons:Forest_lawn_creek.ogg",
+      "provider": "wikimediacommons",
+      "title": "Forest lawn creek",
+      "category": "ambience",
+      "url": "https://commons.wikimedia.org/wiki/File:Forest_lawn_creek.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9e/Forest_lawn_creek.ogg/Forest_lawn_creek.ogg.mp3",
+      "downloadable": true,
+      "author": "Dsw4",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 449.074
+    },
+    {
+      "id": "orangefreesounds:56763",
+      "provider": "orangefreesounds",
+      "title": "Birds Singing in Windy Forest Sound Effect",
+      "category": "ambience",
+      "url": "https://orangefreesounds.com/birds-singing-in-windy-forest-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/05/Birds-singing-in-windy-forest-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 131
+    },
+    {
+      "id": "orangefreesounds:55951",
+      "provider": "orangefreesounds",
+      "title": "Forest Spring Ambient Sound Effect – Relaxing Nature Sounds",
+      "category": "ambience",
+      "url": "https://orangefreesounds.com/forest-spring-ambient-sound-effect-relaxing-nature-sounds/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/03/Forest-spring-ambient-sound-effect-relaxing-nature-sounds.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 64
+    },
+    {
+      "id": "wikimediacommons:Forest_track.ogg",
+      "provider": "wikimediacommons",
+      "title": "Forest track",
+      "category": "ambience",
+      "url": "https://commons.wikimedia.org/wiki/File:Forest_track.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/10/Forest_track.ogg/Forest_track.ogg.mp3",
+      "downloadable": true,
+      "author": "tball74",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 22.178
+    },
+    {
+      "id": "wikimediacommons:Forest_track_3.ogg",
+      "provider": "wikimediacommons",
+      "title": "Forest track 3",
+      "category": "ambience",
+      "url": "https://commons.wikimedia.org/wiki/File:Forest_track_3.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/00/Forest_track_3.ogg/Forest_track_3.ogg.mp3",
+      "downloadable": true,
+      "author": "tball74",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 5.747
+    },
+    {
+      "id": "orangefreesounds:55456",
+      "provider": "orangefreesounds",
+      "title": "Relaxing Forest Sounds With Birds",
+      "category": "ambience",
+      "url": "https://orangefreesounds.com/relaxing-forest-sounds-with-birds/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/02/Relaxing-forest-sounds-with-birds.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 71
+    },
+    {
+      "id": "wikimediacommons:Forest_track_4.ogg",
+      "provider": "wikimediacommons",
+      "title": "Forest track 4",
+      "category": "ambience",
+      "url": "https://commons.wikimedia.org/wiki/File:Forest_track_4.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4c/Forest_track_4.ogg/Forest_track_4.ogg.mp3",
+      "downloadable": true,
+      "author": "tball74",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 10.684
+    },
+    {
+      "id": "orangefreesounds:55328",
+      "provider": "orangefreesounds",
+      "title": "Bird Calls & Forest Stream Sound Effect",
+      "category": "ambience",
+      "url": "https://orangefreesounds.com/bird-calls-forest-stream-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/02/Bird-calls-forest-stream-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 39
+    },
+    {
+      "id": "orangefreesounds:55195",
+      "provider": "orangefreesounds",
+      "title": "Relaxing Summer Forest Ambience",
+      "category": "ambience",
+      "url": "https://orangefreesounds.com/relaxing-summer-forest-ambience/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/01/Relaxing-summer-forest-ambience.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 128
+    },
+    {
+      "id": "wikimediacommons:Wind_in_Swedish_pine_forest_at_25_mps.ogg",
+      "provider": "wikimediacommons",
+      "title": "Wind in Swedish pine forest at 25 mps",
+      "category": "ambience",
+      "url": "https://commons.wikimedia.org/wiki/File:Wind_in_Swedish_pine_forest_at_25_mps.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f3/Wind_in_Swedish_pine_forest_at_25_mps.ogg/Wind_in_Swedish_pine_forest_at_25_mps.ogg.mp3",
+      "downloadable": true,
+      "author": "W.carter",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 60.48
+    },
+    {
+      "id": "orangefreesounds:54697",
+      "provider": "orangefreesounds",
+      "title": "Santa Sleigh Over Dark Forest Sound Effect",
+      "category": "ambience",
+      "url": "https://orangefreesounds.com/santa-sleigh-over-dark-forest-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2025/12/Santa-sleigh-over-dark-forest-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 9
+    },
+    {
+      "id": "wikimediacommons:Forest_Raven_Call.ogg",
+      "provider": "wikimediacommons",
+      "title": "Forest Raven Call",
+      "category": "ambience",
+      "url": "https://commons.wikimedia.org/wiki/File:Forest_Raven_Call.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0b/Forest_Raven_Call.ogg/Forest_Raven_Call.ogg.mp3",
+      "downloadable": true,
+      "author": "FelixWilson",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 3.674
+    },
+    {
+      "id": "orangefreesounds:54480",
+      "provider": "orangefreesounds",
+      "title": "Forest River Flow Sound Effect",
+      "category": "ambience",
+      "url": "https://orangefreesounds.com/forest-river-flow-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2025/12/Forest-river-flow-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 74
+    },
+    {
+      "id": "wikimediacommons:Forest_track_2.ogg",
+      "provider": "wikimediacommons",
+      "title": "Forest track 2",
+      "category": "ambience",
+      "url": "https://commons.wikimedia.org/wiki/File:Forest_track_2.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a2/Forest_track_2.ogg/Forest_track_2.ogg.mp3",
+      "downloadable": true,
+      "author": "tball74",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 29.179
+    },
+    {
+      "id": "orangefreesounds:51982",
+      "provider": "orangefreesounds",
+      "title": "Forest Stream Babbling Sound Effect",
+      "category": "ambience",
+      "url": "https://orangefreesounds.com/forest-stream-babbling-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2025/08/Forest-stream-babbling-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 76
+    },
+    {
+      "id": "wikimediacommons:Red_capped-forest_warbler_call_(artisornis_metopias).wav",
+      "provider": "wikimediacommons",
+      "title": "Red capped-forest warbler call (artisornis metopias)",
+      "category": "ambience",
+      "url": "https://commons.wikimedia.org/wiki/File:Red_capped-forest_warbler_call_(artisornis_metopias).wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8c/Red_capped-forest_warbler_call_%28artisornis_metopias%29.wav/Red_capped-forest_warbler_call_%28artisornis_metopias%29.wav.mp3",
+      "downloadable": true,
+      "author": "Mikael Bauer",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 21.518
+    },
+    {
+      "id": "orangefreesounds:50782",
+      "provider": "orangefreesounds",
+      "title": "Thunderstorm In The Forest Sound Effect",
+      "category": "ambience",
+      "url": "https://orangefreesounds.com/thunderstorm-in-the-forest-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2025/04/Thunderstorm-in-the-forest-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 104
+    },
+    {
+      "id": "orangefreesounds:50333",
+      "provider": "orangefreesounds",
+      "title": "Wild Bird Songs Of The Spring Forest",
+      "category": "ambience",
+      "url": "https://orangefreesounds.com/wild-bird-songs-of-the-spring-forest/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2025/03/Wild-bird-songs-of-the-spring-forest.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 43
+    },
+    {
+      "id": "orangefreesounds:50177",
+      "provider": "orangefreesounds",
+      "title": "Spring Forest Sounds For Relaxation",
+      "category": "ambience",
+      "url": "https://orangefreesounds.com/spring-forest-sounds-for-relaxation/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2025/03/Spring-forest-sounds-for-relaxation.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 111
+    }
+  ]
+}
