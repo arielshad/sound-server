@@ -24,7 +24,7 @@ import {
 import { SampleNotFoundError, SimilarUnavailableError, findSimilar } from "../core/similar.js";
 import { LocalStats, PrometheusStats, cachedStats, teeAnalytics, type StatsSource } from "../core/stats.js";
 import type { BpmRange, SampleDetails, SampleFile } from "../core/types.js";
-import { CATEGORIES, SAMPLE_FORMS, type Category, type SampleForm } from "../core/vocab.js";
+import { CATEGORIES, SAMPLE_FORMS, isCategory, type Category, type SampleForm } from "../core/vocab.js";
 import type { NetworkClassifier } from "../core/network.js";
 import { DailyCallers, SessionTokens, checkConsistency, pickClient, versionLabel } from "../mcp/attribution.js";
 import { createMcpServer } from "../mcp/server.js";
@@ -542,6 +542,18 @@ export function createApp(service: SampleService, opts: AppOptions = {}): Hono {
     const limit = Math.min(Math.max(Number(c.req.query("limit") ?? 12) || 12, 1), 50);
     const res = await findSimilar(service, c.req.param("id"), { limit, credentials: callerCredentials(c) });
     return c.json(res);
+  });
+
+  /** Embedded samples laid out in 2-D, alike sounds together (empty when embeddings are off). */
+  app.get("/v1/map", async (c) => {
+    const category = c.req.query("category") || undefined;
+    const provider = c.req.query("provider") || undefined;
+    if (category && !isCategory(category)) return c.json({ error: `Unknown category: ${category}` }, 400);
+    if (provider && !service.getProvider(provider)) return c.json({ error: `Unknown source: ${provider}` }, 400);
+    if (!service.embeddings) return c.json({ enabled: false, points: [] });
+    const limit = Number(c.req.query("limit") ?? 1500) || 1500;
+    c.header("cache-control", "public, max-age=300");
+    return c.json(await service.embeddings.map({ category, provider, limit }));
   });
 
   /** Status of the optional embedding index and persistent store (for operators). */

@@ -192,7 +192,9 @@ export class SampleService {
     );
 
     const order = [...this.providers.keys()];
-    const unique = dedupe(ranked, order);
+    const byUrl = dedupe(ranked, order);
+    // The same recording on two sources (e.g. a Freesound sound re-uploaded to Wikimedia), by stored audio vector.
+    const unique = this.embeddings ? this.embeddings.mergeDuplicates(byUrl, order) : byUrl;
     // Text→audio similarity for results that already have a stored vector. Never fetches audio.
     const semantic = this.embeddings && q.query.trim() ? await this.embeddings.semanticScores(q.query, unique.map((u) => u.sample.id)).catch(() => undefined) : undefined;
     const results = rankResults(unique, q, semantic ? { semantic, weight: this.embeddings!.rerankWeight } : undefined).slice(0, limit);

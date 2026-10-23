@@ -64,6 +64,28 @@ Node 22 or newer. Install `ffmpeg` (with `ffprobe`) for measured BPM, key, lengt
 | `SOUND_SERVER_SESSION_SECRET` | random | Signs the MCP session IDs that carry each client's declared name. Set it so sessions keep their label across restarts. |
 | `SOUND_SERVER_TELEMETRY` | off | `1` to send anonymous usage counts to the maintainers (see [Privacy](/privacy)). `DO_NOT_TRACK=1` always turns it off. |
 | `UMAMI_WEBSITE_ID`, `UMAMI_HOST` | off | Add your own self-hosted Umami tracker to the website pages (cookieless page views). |
+| `SOUND_SERVER_DATA_DIR` | none | Keep audio analyses and the embedding index in SQLite (`<dir>/sound-server.db`) across restarts. |
+| `SOUND_SERVER_EMBEDDINGS` | off | `1` turns on CLAP audio embeddings (needs the `-ml` image and about 1.5 GB of memory). See [Audio embeddings](#audio-embeddings). |
+| `SOUND_SERVER_INDEX_PER_MINUTE` | `20` | How many previews the background indexer embeds per minute. `0` stops it. |
+| `SOUND_SERVER_DUPLICATE_COSINE` | `0.985` | How alike two sources' audio must be (with matching durations) to count as the same recording. |
+
+## Audio embeddings
+
+With `SOUND_SERVER_EMBEDDINGS=1` the server embeds sample previews with CLAP, a model that places sounds and
+text descriptions in the same space. Previews of samples that appear in searches are embedded in the background,
+a few per minute; `sound-server index --providers strudel` embeds a whole catalogue up front. Once samples are
+indexed:
+
+- **Sounds like this** (`find_similar`, `/v1/samples/{id}/similar`) works for every source, not only Freesound.
+- **Search ranking** also weighs how well each indexed result *sounds* like the query.
+- **Duplicates across sources merge.** When two sources carry the same recording (near-identical audio and the
+  same duration), search shows it once, under the source listed first, with the other copy in `sameAs`.
+- **Unsure categories** get a second opinion from the model.
+- **The sound map** at [/map](/map) (and [`/v1/map`](/docs/api/reference#op-soundMap)) lays out the indexed sounds
+  in 2-D so that sounds that sound alike sit close together. Click a dot to hear it.
+
+The model files (about 200 MB) download on first use into `SOUND_SERVER_DATA_DIR`. Use the image tagged
+`sha-<commit>-ml`: its Debian base runs the ONNX runtime the model needs.
 
 ## Analytics
 

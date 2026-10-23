@@ -19,8 +19,9 @@ import { decodeAudio } from "./analyze.js";
 import { CLAP_SAMPLE_RATE, dot, l2normalize, withTimeout, type Embedder, type EmbedderStatus } from "./embeddings.js";
 import type { SampleService } from "./service.js";
 import type { SampleStore, StoreStats } from "./store.js";
-import type { HttpClient, Sample, SampleDetails } from "./types.js";
-import { CATEGORY_DEFS, type Category } from "./vocab.js";
+import { layoutMapAsync } from "./soundmap.js";
+import type { CommercialVerdict, HttpClient, Sample, SampleDetails } from "./types.js";
+import { CATEGORY_DEFS, categoryMatches, type Category } from "./vocab.js";
 
 // ---------------------------------------------------------------------------
 // Vector index
@@ -31,6 +32,8 @@ export interface IndexedMeta {
   category?: string;
   previewUrl?: string;
   sameAs?: string[];
+  durationSec?: number;
+  verdict?: CommercialVerdict;
 }
 
 export interface Neighbour {
@@ -46,9 +49,31 @@ export class VectorIndex {
   private ids: string[] = [];
   private metas: IndexedMeta[] = [];
   private readonly pos = new Map<string, number>();
+  private changes = 0;
 
   get size(): number {
     return this.ids.length;
+  }
+
+  /** Bumped on every upsert, for caching anything derived from the whole index. */
+  get version(): number {
+    return this.changes;
+  }
+
+  /** Every id with its metadata, in insertion order. */
+  *entries(): IterableIterator<[string, IndexedMeta]> {
+    for (let i = 0; i < this.ids.length; i++) yield [this.ids[i]!, this.metas[i]!];
+  }
+
+  /** Cosine of two stored vectors (undefined if either is missing). */
+  cosine(a: string, b: string): number | undefined {
+    const i = this.pos.get(a);
+    const j = this.pos.get(b);
+    if (i === undefined || j === undefined) return undefined;
+    let s = 0;
+    const d = this.dim;
+    for (let t = 0; t < d; t++) s += this.data[i * d + t]! * this.data[j * d + t]!;
+    return s;
   }
 
   get dimensions(): number {
@@ -87,6 +112,7 @@ export class VectorIndex {
       this.pos.set(id, i);
     } else this.metas[i] = meta;
     this.data.set(v, i * this.dim);
+    this.changes++;
   }
 
   /** The `k` most similar vectors to `query` (cosine), best first, skipping `exclude`d ones. */
@@ -227,6 +253,12 @@ export interface EmbeddingIndexOptions {
   zeroShotMinMargin?: number;
   /** Weight of the text→audio term in search ranking (default 0.15). */
   rerankWeight?: number;
+  /**
+   * Two samples from different sources whose vectors are at least this similar
+   * (cosine), with durations that agree, are the same sound (default 0.985).
+   * Without both durations the bar is raised to halfway between this and 1.
+   */
+  duplicateCosine?: number;
   now?: () => number;
 }
 
@@ -250,6 +282,7 @@ export class EmbeddingIndex {
   readonly vectors = new VectorIndex();
   readonly embedder: Embedder;
   readonly rerankWeight: number;
+  readonly duplicateCosine: number;
   private readonly store?: SampleStore;
   private readonly http?: HttpClient;
   private readonly loadPcm: (file: PreviewFile, signal?: AbortSignal) => Promise<Float32Array>;
@@ -289,13 +322,22 @@ export class EmbeddingIndex {
     this.zeroShotMinConfidence = opts.zeroShotMinConfidence ?? 0.5;
     this.zeroShotMinMargin = opts.zeroShotMinMargin ?? 0.3;
     this.rerankWeight = opts.rerankWeight ?? 0.15;
+    this.duplicateCosine = opts.duplicateCosine ?? 0.985;
     this.now = opts.now ?? Date.now;
     this.tokens = Math.min(this.perMinute, 5);
     this.lastRefill = this.now();
     if (this.store) {
       for (const e of this.store.embeddings(this.embedder.model)) {
         try {
-          this.vectors.upsert(e.sampleId, e.vector, { provider: e.provider, title: e.title, category: e.category, previewUrl: e.previewUrl, sameAs: e.sameAs });
+          this.vectors.upsert(e.sampleId, e.vector, {
+            provider: e.provider,
+            title: e.title,
+            category: e.category,
+            previewUrl: e.previewUrl,
+            sameAs: e.sameAs,
+            durationSec: e.durationSec,
+            verdict: e.verdict,
+          });
         } catch {
           // A vector of another size (model files changed): skip it, it is re-embedded when seen again.
         }
@@ -512,7 +554,15 @@ export class EmbeddingIndex {
   /** Add a vector we already have (tests, imports). */
   remember(s: Sample, vector: Float32Array, previewUrl = s.previewUrl): void {
     const v = l2normalize(vector);
-    this.vectors.upsert(s.id, v, { provider: s.provider, title: s.title, category: s.category, previewUrl, sameAs: s.sameAs });
+    this.vectors.upsert(s.id, v, {
+      provider: s.provider,
+      title: s.title,
+      category: s.category,
+      previewUrl,
+      sameAs: s.sameAs,
+      durationSec: s.durationSec,
+      verdict: s.license?.verdict,
+    });
     const { files: _files, ...plain } = s as SampleDetails;
     const sample: Sample = plain;
     if (this.store) {
@@ -543,25 +593,136 @@ export class EmbeddingIndex {
 
   /**
    * Stored samples nearest to `vector`, best first, without `excludeIds` and
-   * with one copy per sound (sameAs / identical preview URL).
+   * with one copy per sound (sameAs, identical preview URL, or a near-identical
+   * vector with the same duration on another source). Neighbours that are the
+   * query sound itself on another source (`provider` is the query's) come back
+   * in `sameSound` instead.
    */
-  similar(vector: Float32Array, opts: { limit: number; excludeIds?: string[]; excludeUrls?: string[] }): { sample: Sample; score: number }[] {
+  similar(
+    vector: Float32Array,
+    opts: { limit: number; excludeIds?: string[]; excludeUrls?: string[]; durationSec?: number; provider?: string },
+  ): { sample: Sample; score: number }[] & { sameSound?: string[] } {
     const excluded = new Set(opts.excludeIds ?? []);
     const urls = new Set((opts.excludeUrls ?? []).map(normUrl));
     const isExcluded = (id: string, m: IndexedMeta) =>
       excluded.has(id) || (m.sameAs ?? []).some((x) => excluded.has(x)) || (m.previewUrl !== undefined && urls.has(normUrl(m.previewUrl)));
-    const out: { sample: Sample; score: number }[] = [];
+    const out: { sample: Sample; score: number }[] & { sameSound?: string[] } = [];
+    const sameSound: string[] = [];
     const seen = new Set<string>();
+    const kept: { id: string; provider: string; durationSec?: number }[] = [];
     for (const n of this.vectors.nearest(vector, opts.limit * 3 + 5, isExcluded)) {
       const keys = [n.id, ...(n.meta.sameAs ?? []), ...(n.meta.previewUrl ? [`url:${normUrl(n.meta.previewUrl)}`] : [])];
       if (keys.some((k) => seen.has(k))) continue;
+      if (opts.provider && n.meta.provider !== opts.provider && this.isSameSound(n.score, opts.durationSec, n.meta.durationSec)) {
+        sameSound.push(n.id);
+        keys.forEach((k) => seen.add(k));
+        continue;
+      }
+      if (kept.some((k) => k.provider !== n.meta.provider && this.isSameSound(this.vectors.cosine(k.id, n.id) ?? 0, k.durationSec, n.meta.durationSec))) continue;
       const sample = this.storedSample(n.id);
       if (!sample) continue;
       keys.forEach((k) => seen.add(k));
+      kept.push({ id: n.id, provider: n.meta.provider, durationSec: n.meta.durationSec });
       out.push({ sample: this.refine(sample), score: Math.round(n.score * 1000) / 1000 });
       if (out.length >= opts.limit) break;
     }
+    if (sameSound.length) out.sameSound = sameSound;
     return out;
+  }
+
+  /** Whether a cosine and two durations say "the same recording". */
+  isSameSound(cosine: number, aSec?: number, bSec?: number): boolean {
+    if (aSec !== undefined && bSec !== undefined && aSec > 0 && bSec > 0) {
+      if (Math.abs(aSec - bSec) > Math.max(0.15, 0.04 * Math.max(aSec, bSec))) return false;
+      return cosine >= this.duplicateCosine;
+    }
+    return cosine >= (this.duplicateCosine + 1) / 2;
+  }
+
+  /**
+   * Search results that are the same sound on two sources (by stored vector,
+   * see isSameSound) collapse into the copy from the earlier source in
+   * `order`; the dropped copy's id joins the kept one's sameAs. Results without
+   * a stored vector are untouched; nothing is fetched.
+   */
+  mergeDuplicates<T extends { sample: Sample; provider: { id: string } }>(items: T[], order: string[]): T[] {
+    const withVec = items.filter((it) => this.vectors.has(it.sample.id));
+    if (withVec.length < 2) return items;
+    const byPriority = [...withVec].sort((a, b) => order.indexOf(a.provider.id) - order.indexOf(b.provider.id));
+    const keepers: T[] = [];
+    const dropped = new Set<T>();
+    const extra = new Map<T, string[]>();
+    for (const it of byPriority) {
+      const twin = keepers.find(
+        (k) =>
+          k.provider.id !== it.provider.id &&
+          this.isSameSound(this.vectors.cosine(k.sample.id, it.sample.id) ?? 0, k.sample.durationSec, it.sample.durationSec),
+      );
+      if (!twin) {
+        keepers.push(it);
+        continue;
+      }
+      dropped.add(it);
+      extra.set(twin, [...(extra.get(twin) ?? []), it.sample.id, ...(it.sample.sameAs ?? [])]);
+    }
+    if (!dropped.size) return items;
+    return items
+      .filter((it) => !dropped.has(it))
+      .map((it) => {
+        const ids = extra.get(it);
+        if (!ids) return it;
+        const sameAs = [...new Set([...(it.sample.sameAs ?? []), ...ids])].filter((x) => x !== it.sample.id);
+        return { ...it, sample: { ...it.sample, sameAs } };
+      });
+  }
+
+  // -------------------------------------------------------------------------
+  // Sound map
+
+  private readonly mapCache = new LRUCache<string, Promise<SoundMap>>({ max: 20 });
+
+  /**
+   * Stored samples laid out in 2-D so that sounds that sound alike sit close
+   * together (see soundmap.ts). Filtered by category (and its children) and
+   * provider; one point per sound; at most `limit` points, spread evenly over
+   * the index when there are more. Cached (and shared between concurrent
+   * callers) until the index changes; the layout yields to the event loop.
+   */
+  map(opts: { category?: string; provider?: string; limit?: number } = {}): Promise<SoundMap> {
+    const limit = Math.min(Math.max(Math.floor(opts.limit ?? 1500), 1), MAP_MAX_POINTS);
+    const key = `${this.vectors.version}|${opts.category ?? ""}|${opts.provider ?? ""}|${limit}`;
+    const hit = this.mapCache.get(key);
+    if (hit) return hit;
+    const pending = this.buildMap(opts, limit);
+    this.mapCache.set(key, pending);
+    pending.catch(() => this.mapCache.delete(key));
+    return pending;
+  }
+
+  private async buildMap(opts: { category?: string; provider?: string }, limit: number): Promise<SoundMap> {
+    const seen = new Set<string>();
+    const matching: [string, IndexedMeta][] = [];
+    for (const [id, meta] of this.vectors.entries()) {
+      if (opts.provider && meta.provider !== opts.provider) continue;
+      if (opts.category && !categoryMatches(meta.category, [opts.category])) continue;
+      const keys = [id, ...(meta.sameAs ?? []), ...(meta.previewUrl ? [`url:${normUrl(meta.previewUrl)}`] : [])];
+      if (keys.some((k) => seen.has(k))) continue;
+      keys.forEach((k) => seen.add(k));
+      matching.push([id, meta]);
+    }
+    const picked = matching.length <= limit ? matching : Array.from({ length: limit }, (_, i) => matching[Math.floor((i * matching.length) / limit)]!);
+    const coords = await layoutMapAsync(picked.map(([id]) => this.vectors.get(id)!));
+    const points: SoundMapPoint[] = picked.map(([id, m], i) => ({
+      id,
+      x: Math.round(coords[i * 2]! * 10000) / 10000,
+      y: Math.round(coords[i * 2 + 1]! * 10000) / 10000,
+      provider: m.provider,
+      ...(m.title ? { title: m.title } : {}),
+      ...(m.category ? { category: m.category } : {}),
+      ...(m.durationSec !== undefined ? { durationSec: Math.round(m.durationSec * 100) / 100 } : {}),
+      ...(m.verdict ? { verdict: m.verdict } : {}),
+    }));
+    return { enabled: true, model: this.embedder.model, indexed: this.vectors.size, matching: matching.length, points, generatedAt: new Date(this.now()).toISOString() };
   }
 
   // -------------------------------------------------------------------------
@@ -669,6 +830,36 @@ function normUrl(u: string): string {
 }
 
 // ---------------------------------------------------------------------------
+// Sound map
+
+/** Most points one map holds (layout time grows with the square of this). */
+export const MAP_MAX_POINTS = 2500;
+
+export interface SoundMapPoint {
+  id: string;
+  /** 0..1, left to right. */
+  x: number;
+  /** 0..1, top to bottom. */
+  y: number;
+  provider: string;
+  title?: string;
+  category?: string;
+  durationSec?: number;
+  verdict?: CommercialVerdict;
+}
+
+export interface SoundMap {
+  enabled: true;
+  model: string;
+  /** Samples in the index. */
+  indexed: number;
+  /** Samples that matched the filters (before thinning to the limit). */
+  matching: number;
+  points: SoundMapPoint[];
+  generatedAt: string;
+}
+
+// ---------------------------------------------------------------------------
 // find_similar
 
 export interface SimilarResult {
@@ -678,6 +869,8 @@ export interface SimilarResult {
   results: Sample[];
   /** How many samples the CLAP index holds (when embeddings are on). */
   indexed?: number;
+  /** Ids of this same recording on other sources (near-identical audio and duration), left out of results. */
+  sameSound?: string[];
   note?: string;
 }
 
@@ -733,8 +926,11 @@ export async function findSimilar(
         limit,
         excludeIds: [id, ...(self?.sameAs ?? [])],
         excludeUrls: self?.previewUrl ? [self.previewUrl] : [],
+        durationSec: self?.durationSec,
+        provider,
       });
-      if (results.length) return { id, method: "clap", results: results.map((r) => ({ ...r.sample, score: r.score })), indexed: index.size };
+      const sameSound = results.sameSound ? { sameSound: results.sameSound } : {};
+      if (results.length) return { id, method: "clap", results: results.map((r) => ({ ...r.sample, score: r.score })), indexed: index.size, ...sameSound };
     }
     if (!index.size) notes.push("The sound index is empty so far.");
     const down = index.embedder.unavailable?.("audio");
@@ -853,7 +1049,14 @@ export async function embeddingIndexFromEnv(opts: { http?: HttpClient; store?: S
   const { modelDirFromEnv } = await import("./store.js");
   const embedder = ClapEmbedder.fromEnv(env, modelDirFromEnv(env));
   const perMinute = opts.perMinute ?? Number(env.SOUND_SERVER_INDEX_PER_MINUTE ?? 20);
-  const index = new EmbeddingIndex({ embedder, store: opts.store, http: opts.http, perMinute: Number.isFinite(perMinute) ? perMinute : 20 });
+  const dup = Number(env.SOUND_SERVER_DUPLICATE_COSINE ?? "");
+  const index = new EmbeddingIndex({
+    embedder,
+    store: opts.store,
+    http: opts.http,
+    perMinute: Number.isFinite(perMinute) ? perMinute : 20,
+    ...(dup > 0.5 && dup <= 1 ? { duplicateCosine: dup } : {}),
+  });
   if (!opts.store) console.error("sound-server: embeddings are on without SOUND_SERVER_DATA_DIR; vectors are kept in memory only");
   return index;
 }

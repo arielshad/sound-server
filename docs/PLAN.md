@@ -1,17 +1,18 @@
 # sound-server: plan to production
 
-> **Status (2026-10-23):** M0–M6 live at sound.shep.bot; M7, v1.1 and most of v2 built.
+> **Status (2026-10-23):** M0–M6 live at sound.shep.bot; M7, v1.1 and v2 built.
 > - 37 sources (22 searched or indexed, 15 link-only), including the v1.1 set: Ghosthack, Black Octopus,
 >   BigSoundBank, Zenodo datasets, free-pack news; Function Loops is link-only.
 > - v2: persistent store, CLAP embeddings (optional, `ml` image), find-similar for every source,
->   re-ranking, zero-shot category fallback, SFZ / Decent Sampler instrument export, monophonic MIDI.
+>   re-ranking, zero-shot category fallback, SFZ / Decent Sampler instrument export, monophonic MIDI,
+>   cross-source de-duplication by audio, and the 2-D sound map (`/map`, `/v1/map`).
 > - SEO/GEO pass (docs/SEO-GEO-AUDIT.md): 138 pages, 55 collections, 13 guides, glossary, FAQ.
-> - 724 offline tests pass.
+> - 733 offline tests pass.
 >
 > Not done:
 > - M7 runs need repo secrets (`FREESOUND_API_KEY`, `CLAUDE_CODE_OAUTH_TOKEN` or `ANTHROPIC_API_KEY`).
 > - Embeddings in production (switch to the ml image, 1.5 GiB memory).
-> - The 2-D sound map, cosine de-duplication across sources, polyphonic MIDI.
+> - Polyphonic MIDI (Basic Pitch needs TensorFlow.js native libraries that do not run on the server image).
 > - The shared core package (§9).
 >
 > Changes from the plan:
