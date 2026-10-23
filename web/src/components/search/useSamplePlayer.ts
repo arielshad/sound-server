@@ -7,7 +7,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import type WaveSurfer from "wavesurfer.js";
 import type { Sample } from "./api";
-import { claim, cspNonce, fetchPeaks, peakChannels, playableUrl, previewBlob, queued, register, release, useNowPlaying } from "./player";
+import { claim, cspNonce, current, fetchPeaks, inlineStylesBlocked, peakChannels, playableUrl, previewBlob, queued, register, release, useNowPlaying } from "./player";
 
 export type PlayerState = "idle" | "loading" | "ready" | "nowave";
 
@@ -57,7 +57,9 @@ export function useSamplePlayer(key: string, sample: PlayerSample, opts: PlayerO
     if (media.current) return media.current;
     const a = new Audio();
     a.preload = "none";
-    a.addEventListener("play", () => claim(key));
+    // Every start goes through play(), which claims first; a late "play" from a
+    // sound that was superseded while it loaded is stopped.
+    a.addEventListener("play", () => (current() === key ? undefined : a.pause()));
     a.addEventListener("pause", () => release(key));
     a.addEventListener("ended", () => release(key));
     a.addEventListener("timeupdate", () => setTime(a.currentTime));
@@ -85,11 +87,12 @@ export function useSamplePlayer(key: string, sample: PlayerSample, opts: PlayerO
           peaks = undefined;
         }
         if (!alive.current) return;
-        if (peaks && container.current) {
+        if (peaks && container.current && !inlineStylesBlocked()) {
+          let w: WaveSurfer | undefined;
           try {
             const { default: WS } = await import("wavesurfer.js");
             if (!alive.current || !container.current) return;
-            const w = WS.create({
+            w = WS.create({
               container: container.current,
               media: a,
               url: src,
@@ -110,12 +113,17 @@ export function useSamplePlayer(key: string, sample: PlayerSample, opts: PlayerO
             w.on("interaction", () => {
               if (a.paused) void playRef.current();
             });
+            // Without a CSP nonce the waveform's styles are refused (reported asynchronously).
+            await new Promise((r) => setTimeout(r, 50));
+            if (inlineStylesBlocked()) throw new Error("inline styles blocked");
             ws.current = w;
             setDuration(peaks.durationSec);
             setState("ready");
             return;
           } catch {
+            w?.destroy();
             ws.current = null;
+            container.current?.replaceChildren();
           }
         }
         if (src && !a.getAttribute("src")) a.src = src;
@@ -132,6 +140,8 @@ export function useSamplePlayer(key: string, sample: PlayerSample, opts: PlayerO
     claim(key); // stop the others right away, even while this one loads
     setFailed(false);
     await ensure(true);
+    // Another sound was asked for while this one loaded (e.g. ↓ pressed twice): stay quiet.
+    if (current() !== key) return;
     const a = media.current;
     if (!a || !alive.current) return release(key);
     if (!a.getAttribute("src")) {
@@ -140,7 +150,9 @@ export function useSamplePlayer(key: string, sample: PlayerSample, opts: PlayerO
       else {
         // The server needs a key: fetch the preview with it in a header.
         try {
-          a.src = URL.createObjectURL(await previewBlob(sample));
+          const blob = await previewBlob(sample);
+          if (current() !== key) return;
+          a.src = URL.createObjectURL(blob);
         } catch {
           setFailed(true);
           return release(key);

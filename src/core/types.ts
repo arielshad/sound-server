@@ -250,6 +250,11 @@ export interface SourceCensus {
   highlights?: CensusHighlight[];
   /** One line on how this was counted. */
   method: string;
+  /**
+   * The source re-indexes other sources (Openverse mirrors Freesound and
+   * Wikimedia): it is listed, but left out of the catalogue totals.
+   */
+  mirror?: boolean;
 }
 
 export interface ProviderContext {

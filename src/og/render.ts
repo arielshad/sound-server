@@ -33,7 +33,7 @@ const C = {
 const LOGO =
   "data:image/svg+xml;base64," +
   Buffer.from(
-    `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none"><defs><linearGradient id="g" x1="4" y1="3" x2="28" y2="29" gradientUnits="userSpaceOnUse"><stop stop-color="#8b6cf6"/><stop offset="1" stop-color="#4cc9e6"/></linearGradient></defs><rect width="32" height="32" rx="7" fill="#16141f"/><path d="M16 4.5 6 10.2v11.6l10 5.7 10-5.7V10.2L16 4.5Z" stroke="url(#g)" stroke-width="2.2" stroke-linejoin="round"/><path d="M6 10.2 16 16l10-5.8M16 16v11.5" stroke="url(#g)" stroke-width="2.2" stroke-linejoin="round"/><circle cx="16" cy="16" r="2.2" fill="url(#g)"/></svg>`,
+    `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none"><defs><linearGradient id="g" x1="3" y1="4" x2="29" y2="28" gradientUnits="userSpaceOnUse"><stop stop-color="#8b6cf6"/><stop offset="1" stop-color="#4cc9e6"/></linearGradient></defs><rect width="32" height="32" rx="7" fill="#16141f"/><g fill="url(#g)"><rect x="3.35" y="13" width="2.8" height="6" rx="1.4"/><rect x="7.85" y="9" width="2.8" height="14" rx="1.4"/><rect x="12.35" y="5" width="2.8" height="22" rx="1.4"/><rect x="16.85" y="10" width="2.8" height="12" rx="1.4"/><rect x="21.35" y="7.5" width="2.8" height="17" rx="1.4"/><rect x="25.85" y="12" width="2.8" height="8" rx="1.4"/></g></svg>`,
   ).toString("base64");
 
 type Style = Record<string, string | number>;

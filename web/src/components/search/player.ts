@@ -122,6 +122,9 @@ export function register(key: string, c: Controls): () => void {
   };
 }
 
+/** The key of the player that should be sounding (it may still be loading). */
+export const current = () => nowPlaying;
+
 /** A player started: stop whichever other one was playing. */
 export function claim(key: string): void {
   if (nowPlaying && nowPlaying !== key) players.get(nowPlaying)?.pause();
@@ -162,6 +165,19 @@ export function useNowPlaying(): string | null {
     () => null,
   );
 }
+
+/**
+ * True once the page's CSP has refused an inline <style> (a page served
+ * without a nonce). wavesurfer's shadow-DOM styles are then missing, so
+ * players fall back to audio without a waveform instead of a broken layout.
+ */
+let stylesBlocked = false;
+if (typeof document !== "undefined") {
+  document.addEventListener("securitypolicyviolation", (e) => {
+    if (e.violatedDirective.startsWith("style-src") && e.blockedURI === "inline") stylesBlocked = true;
+  });
+}
+export const inlineStylesBlocked = () => stylesBlocked;
 
 /** The per-request CSP nonce the server puts on /search and /kit (wavesurfer's shadow-DOM <style> needs it). */
 export function cspNonce(): string | undefined {

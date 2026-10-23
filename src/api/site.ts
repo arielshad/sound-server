@@ -306,7 +306,7 @@ export class Site {
       "",
       "Where to go instead:",
       "",
-      `- [Agent guide (AGENTS.md)](${base}/AGENTS.md): how to search and download 3D assets with this service`,
+      `- [Agent guide (AGENTS.md)](${base}/AGENTS.md): how to search and download music samples with this service`,
       `- [llms.txt](${base}/llms.txt): index of every page as Markdown`,
       `- [Docs](${base}/docs): quick start, MCP setup, REST API guide`,
       `- [Sitemap](${base}/sitemap-index.xml)`,

@@ -22,6 +22,27 @@
       "addedBy": "launch"
     },
     {
+      "id": "bbc",
+      "name": "BBC Sound Effects",
+      "homepage": "https://sound-effects.bbcrewind.co.uk",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "ccmixter",
+      "name": "ccMixter",
+      "homepage": "https://ccmixter.org",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "curated",
+      "name": "Curated free libraries",
+      "homepage": "https://github.com/arielshad/sound-server/blob/main/src/providers/data/curated-packs.json",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
       "id": "cymatics",
       "name": "Cymatics",
       "homepage": "https://cymatics.fm",
@@ -46,6 +67,20 @@
       "id": "freesound",
       "name": "Freesound",
       "homepage": "https://freesound.org",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "internetarchive",
+      "name": "Internet Archive",
+      "homepage": "https://archive.org",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "kenney",
+      "name": "Kenney",
+      "homepage": "https://kenney.nl/assets/category:Audio",
       "addedAt": "2026-10-23",
       "addedBy": "launch"
     },
@@ -81,6 +116,13 @@
       "id": "mixkit",
       "name": "Mixkit",
       "homepage": "https://mixkit.co",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "sampleradar",
+      "name": "MusicRadar SampleRadar",
+      "homepage": "https://www.musicradar.com/news/tech/free-music-samples-royalty-free-loops-hits-and-multis-to-download-sampleradar",
       "addedAt": "2026-10-23",
       "addedBy": "launch"
     },
@@ -169,6 +211,13 @@
       "addedBy": "launch"
     },
     {
+      "id": "strudel",
+      "name": "Strudel sample banks",
+      "homepage": "https://strudel.cc/learn/samples/",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
       "id": "tracklib",
       "name": "Tracklib",
       "homepage": "https://www.tracklib.com",
@@ -179,6 +228,13 @@
       "id": "uppbeat",
       "name": "Uppbeat SFX",
       "homepage": "https://uppbeat.io/sfx",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "wikimediacommons",
+      "name": "Wikimedia Commons",
+      "homepage": "https://commons.wikimedia.org",
       "addedAt": "2026-10-23",
       "addedBy": "launch"
     },

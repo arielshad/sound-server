@@ -250,7 +250,7 @@ export default function SearchApp() {
   return (
     <TooltipProvider>
       <div className="mx-auto max-w-7xl px-4 pb-24 sm:px-6">
-        <div className="sticky top-14 z-30 -mx-4 border-b border-border/60 bg-background/85 px-4 pb-3 pt-4 backdrop-blur-xl sm:-mx-6 sm:px-6">
+        <div className="z-30 -mx-4 border-b border-border/60 bg-background/85 px-4 pb-3 pt-4 backdrop-blur-xl sm:-mx-6 sm:px-6 md:sticky md:top-14">
           <form
             role="search"
             onSubmit={(e) => {
@@ -317,11 +317,11 @@ export default function SearchApp() {
         </div>
 
         {searchedReports.length > 0 && (
-          <div className="mt-4 flex flex-wrap items-center gap-1.5 text-xs" aria-label="Sources searched">
+          <div className="-mx-4 mt-4 flex items-center gap-1.5 overflow-x-auto px-4 pb-1 text-xs [scrollbar-width:none] sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0" aria-label="Sources searched">
             {searchedReports.map((r) => {
               const failed = r.status === "error" || r.status === "timeout";
               const url = safeUrl(r.searchUrl);
-              const cls = cn("inline-flex items-center gap-1 rounded-md border px-2 py-0.5", failed ? "border-destructive/30 text-destructive" : "text-muted-foreground");
+              const cls = cn("inline-flex shrink-0 items-center gap-1 whitespace-nowrap rounded-md border px-2 py-0.5", failed ? "border-destructive/30 text-destructive" : "text-muted-foreground");
               const body = (
                 <>
                   {r.name}
@@ -338,12 +338,12 @@ export default function SearchApp() {
           </div>
         )}
         {linkReports.length > 0 && (
-          <p className="mt-2 flex flex-wrap items-center gap-1.5 text-xs text-muted-foreground">
-            <span>Also look on:</span>
+          <p className="-mx-4 mt-2 flex items-center gap-1.5 overflow-x-auto px-4 pb-1 text-xs text-muted-foreground [scrollbar-width:none] sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0">
+            <span className="shrink-0">Also look on:</span>
             {linkReports.map((r) => {
               const url = safeUrl(r.searchUrl);
               return url ? (
-                <a key={r.provider} href={url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-0.5 rounded-md border border-primary/30 px-2 py-0.5 text-primary hover:bg-primary/10">
+                <a key={r.provider} href={url} target="_blank" rel="noopener noreferrer" className="inline-flex shrink-0 items-center gap-0.5 whitespace-nowrap rounded-md border border-primary/30 px-2 py-0.5 text-primary hover:bg-primary/10">
                   {r.name} <ArrowUpRight className="size-3" />
                 </a>
               ) : null;

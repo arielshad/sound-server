@@ -87,7 +87,7 @@ export function safeFilename(name: string, fallback = "sample"): string {
   const stem = base
     .slice(0, base.length - extname(base).length)
     .normalize("NFKD")
-    .replace(/[^\w.\- ]+/g, "_")
+    .replace(/[^\w.\- ]+/g, " ")
     .replace(/\s+/g, " ")
     .trim()
     .slice(0, 100);
@@ -480,6 +480,6 @@ export function formatBytes(n: number): string {
 
 /** Folder name for a sample bundle: `<provider>-<slug>`. */
 export function sampleFolderName(sample: { provider: string; nativeId: string }): string {
-  const slug = basename(sample.nativeId.replace(/\\/g, "/")).replace(/[^\w.-]+/g, "_").slice(0, 80) || "sample";
+  const slug = sample.nativeId.replace(/[^\w.-]+/g, "_").replace(/^_+|_+$/g, "").slice(-80) || "sample";
   return `${sample.provider}-${slug}`;
 }

@@ -22,6 +22,7 @@ import {
 } from "@/lib/collections";
 import { breadcrumbs, collectionPage, faqPage } from "@/lib/schema";
 import { MCP_URL, SOURCE_COUNT } from "@/lib/site";
+import { TOP_CATEGORIES, categoryLabel, formLabel, subCategories } from "@/lib/vocab";
 
 export async function getStaticPaths() {
   const all = await allCollections();
@@ -49,6 +50,17 @@ if (c) {
   Content = (await render(c.topic)).Content;
 }
 const otherHubs = (await allHubs()).filter((h) => h.id !== (hub ?? c?.hub)?.id);
+/** Live searches for what a hub covers: its categories (and their children), in its forms. */
+const hubSearches = hub
+  ? (() => {
+      const form = hub.forms?.length === 1 ? hub.forms[0] : undefined;
+      const cats = hub.categories?.length ? hub.categories.flatMap((t) => [t, ...subCategories(t).filter((x) => x.id.split(".").length === 2).map((x) => x.id)]) : TOP_CATEGORIES.filter((t) => t !== "other");
+      return cats.map((id) => ({
+        label: `${categoryLabel(id)}${form ? ` ${formLabel(form).toLowerCase()}s` : ""}`,
+        href: `/search?${new URLSearchParams({ category: id, ...(form ? { form } : {}) })}`,
+      }));
+    })()
+  : [];
 const hubUpdated = hub ? latest(hubCollections) : undefined;
 ---
 
@@ -76,6 +88,18 @@ const hubUpdated = hub ? latest(hubCollections) : undefined;
         </ul>
       ) : (
         <p class="mt-10 rounded-xl border p-6 text-sm text-muted-foreground">No collections here yet. <a href="/search" class="text-primary hover:underline">Search every source</a> in the meantime.</p>
+      )}
+      {hubSearches.length > 0 && (
+        <section class="mt-16" aria-labelledby="live">
+          <h2 id="live" class="text-xl font-semibold tracking-tight">Search {hub.name.toLowerCase()} live</h2>
+          <p class="mt-2 max-w-3xl text-sm text-muted-foreground">
+            Each link runs a fresh search of every source for one kind of sound. Results play in the page, show their tempo, key and length where known, and carry a licence verdict; turn on Commercial-safe to keep only sounds you can release.
+          </p>
+          <ul class="mt-4 flex flex-wrap gap-2 text-sm">
+            {hubSearches.map((x) => <li><a href={x.href} class="inline-flex rounded-full border px-3 py-1 text-muted-foreground transition hover:border-primary/40 hover:text-foreground">{x.label}</a></li>)}
+          </ul>
+          {hub.aliases?.length ? <p class="mt-3 text-xs text-muted-foreground">Also known as: {hub.aliases.join(", ")}.</p> : null}
+        </section>
       )}
       <section class="mt-16" aria-labelledby="more">
         <h2 id="more" class="text-xl font-semibold tracking-tight">More collections</h2>

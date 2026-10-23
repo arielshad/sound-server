@@ -68,7 +68,7 @@ export const SampleRow = memo(function SampleRow({ sample: s, providerName, sele
       aria-current={selected || undefined}
       onClick={() => onSelect(s.id)}
       className={cn(
-        "group grid scroll-mt-64 grid-cols-[2.25rem_minmax(0,1fr)_auto] items-center gap-x-3 gap-y-1.5 border-b border-border/60 px-2 py-2 transition-colors sm:px-3",
+        "group grid scroll-mt-4 md:scroll-mt-64 grid-cols-[2.25rem_minmax(0,1fr)_auto] items-center gap-x-3 gap-y-1.5 border-b border-border/60 px-2 py-2 transition-colors sm:px-3",
         "md:grid-cols-[2.25rem_minmax(7rem,14rem)_minmax(0,1fr)_auto_auto] md:gap-y-0",
         selected ? "bg-primary/10 ring-1 ring-inset ring-primary/40" : "hover:bg-accent/40",
       )}

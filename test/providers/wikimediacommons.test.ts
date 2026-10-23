@@ -122,7 +122,7 @@ describe("wikimediacommons", () => {
     const ctx = fixtureCtx(routes);
     const c = await wikimediacommons.census!(ctx);
     expect(ctx.fetch.requests).toHaveLength(1);
-    expect(params(ctx.fetch.requests[0]!).get("srsearch")).toBe("filetype:audio -filemime:audio/midi");
+    expect(params(ctx.fetch.requests[0]!).get("srsearch")).toContain("-pronunciation");
     expect(c.total).toBeGreaterThan(1_000_000);
   });
 });

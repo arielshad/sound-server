@@ -386,6 +386,7 @@ export const openverse: Provider = {
       free: total,
       byCategory: {},
       categories,
+      mirror: true,
       unit: "samples",
       method:
         "Openverse /v1/audio/stats/: media counts of the sources we search (Freesound + Wikimedia Commons audio; Jamendo songs listed but not searched)",

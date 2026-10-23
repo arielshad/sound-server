@@ -194,6 +194,8 @@ export async function runCensus(
   const byLicense: Record<string, number> = {};
   let added = 0;
   for (const s of sources) {
+    // Mirrors count sounds that other sources already counted.
+    if (s.mirror) continue;
     add(listings, s.total, s.atLeast);
     const sourceFree = s.free ?? (s.pricing === "free" ? s.total : undefined);
     add(free, sourceFree, s.atLeast);

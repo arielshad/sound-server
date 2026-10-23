@@ -44,6 +44,263 @@
     ]
   },
   {
+    "id": "wikimediacommons",
+    "name": "Wikimedia Commons",
+    "homepage": "https://commons.wikimedia.org",
+    "description": "Free audio from Wikipedia's media archive: instrument demos, drum hits, field recordings and public-domain music; each file has its own CC0, public-domain or CC BY(-SA) licence.",
+    "categories": [
+      "drums",
+      "fx",
+      "foley",
+      "ambience",
+      "vocals",
+      "keys",
+      "guitar",
+      "strings",
+      "brass",
+      "woodwind",
+      "mallets",
+      "synth"
+    ],
+    "forms": null,
+    "access": "api",
+    "pricing": "free",
+    "license": null,
+    "licenseId": null,
+    "licenseUrl": null,
+    "licenseVerdict": null,
+    "supportsDownload": true,
+    "apiKeyEnv": null,
+    "nativeFilters": []
+  },
+  {
+    "id": "ccmixter",
+    "name": "ccMixter",
+    "homepage": "https://ccmixter.org",
+    "description": "Creative Commons a cappellas (about 6,000) and remix stems from the ccMixter community; licence per upload (CC BY, BY-NC, CC0, Sampling+).",
+    "categories": [
+      "vocals",
+      "drums",
+      "bass",
+      "synth",
+      "keys",
+      "guitar"
+    ],
+    "forms": [
+      "phrase",
+      "loop",
+      "pack"
+    ],
+    "access": "api",
+    "pricing": "free",
+    "license": null,
+    "licenseId": null,
+    "licenseUrl": null,
+    "licenseVerdict": null,
+    "supportsDownload": true,
+    "apiKeyEnv": null,
+    "nativeFilters": [
+      "categories",
+      "commercialOnly"
+    ]
+  },
+  {
+    "id": "internetarchive",
+    "name": "Internet Archive",
+    "homepage": "https://archive.org",
+    "description": "Uploaded sample packs, drum-machine recordings and sound-effect collections; only items whose uploader states CC0, public domain or CC BY(-SA) are listed, and commercial sample CDs are filtered out.",
+    "categories": [
+      "drums",
+      "bass",
+      "fx",
+      "foley",
+      "ambience",
+      "vocals",
+      "synth",
+      "keys"
+    ],
+    "forms": [
+      "pack"
+    ],
+    "access": "api",
+    "pricing": "free",
+    "license": null,
+    "licenseId": null,
+    "licenseUrl": null,
+    "licenseVerdict": null,
+    "supportsDownload": true,
+    "apiKeyEnv": null,
+    "nativeFilters": [
+      "commercialOnly"
+    ]
+  },
+  {
+    "id": "bbc",
+    "name": "BBC Sound Effects",
+    "homepage": "https://sound-effects.bbcrewind.co.uk",
+    "description": "33,000 BBC archive and Natural History Unit recordings (nature, ambience, transport, machines, foley) as WAV and MP3; RemArc licence: personal, educational and research use only.",
+    "categories": [
+      "ambience",
+      "foley",
+      "fx"
+    ],
+    "forms": [
+      "one-shot",
+      "phrase"
+    ],
+    "access": "api",
+    "pricing": "free",
+    "license": "BBC RemArc licence",
+    "licenseId": "LicenseRef-BBC-RemArc",
+    "licenseUrl": "https://sound-effects.bbcrewind.co.uk/licensing",
+    "licenseVerdict": "no",
+    "supportsDownload": true,
+    "apiKeyEnv": null,
+    "nativeFilters": [
+      "duration"
+    ]
+  },
+  {
+    "id": "strudel",
+    "name": "Strudel sample banks",
+    "homepage": "https://strudel.cc/learn/samples/",
+    "description": "Sample banks that Strudel and TidalCycles load from GitHub: ~70 classic drum machines, Dirt-Samples, the CC0 VCSL orchestral set and the Salamander piano, one file per listing.",
+    "categories": [
+      "drums",
+      "bass",
+      "keys",
+      "synth",
+      "strings",
+      "brass",
+      "woodwind",
+      "mallets",
+      "guitar",
+      "vocals",
+      "fx",
+      "foley",
+      "ambience",
+      "other"
+    ],
+    "forms": [
+      "one-shot",
+      "loop"
+    ],
+    "access": "static",
+    "pricing": "free",
+    "license": null,
+    "licenseId": null,
+    "licenseUrl": null,
+    "licenseVerdict": null,
+    "supportsDownload": true,
+    "apiKeyEnv": null,
+    "nativeFilters": [
+      "categories",
+      "forms",
+      "commercialOnly",
+      "freeOnly"
+    ]
+  },
+  {
+    "id": "sampleradar",
+    "name": "MusicRadar SampleRadar",
+    "homepage": "https://www.musicradar.com/news/tech/free-music-samples-royalty-free-loops-hits-and-multis-to-download-sampleradar",
+    "description": "Around 270 free, royalty-free genre sample packs (loops, hits and multis) from MusicRadar and Computer Music, each a direct zip download.",
+    "categories": [
+      "drums",
+      "bass",
+      "synth",
+      "keys",
+      "guitar",
+      "vocals",
+      "fx",
+      "ambience",
+      "strings",
+      "brass",
+      "other"
+    ],
+    "forms": [
+      "pack"
+    ],
+    "access": "static",
+    "pricing": "free",
+    "license": "MusicRadar SampleRadar licence",
+    "licenseId": "LicenseRef-MusicRadar-SampleRadar-licence",
+    "licenseUrl": "https://www.musicradar.com/news/tech/free-music-samples-royalty-free-loops-hits-and-multis-to-download-sampleradar",
+    "licenseVerdict": "yes",
+    "supportsDownload": true,
+    "apiKeyEnv": null,
+    "nativeFilters": [
+      "categories",
+      "forms"
+    ]
+  },
+  {
+    "id": "curated",
+    "name": "Curated free libraries",
+    "homepage": "https://github.com/arielshad/sound-server/blob/main/src/providers/data/curated-packs.json",
+    "description": "A hand-checked list of well-known free sample libraries and instruments (Philharmonia, Iowa MIS, VSCO 2 CE, VCSL, FreePats, DrumGizmo, Adobe SFX, Goldbaby, Sonniss GDC...), with verified direct downloads where they exist.",
+    "categories": [
+      "strings",
+      "brass",
+      "woodwind",
+      "drums",
+      "guitar",
+      "mallets",
+      "keys",
+      "foley",
+      "fx",
+      "vocals",
+      "ambience",
+      "synth"
+    ],
+    "forms": [
+      "pack",
+      "multisample",
+      "preset"
+    ],
+    "access": "static",
+    "pricing": "free",
+    "license": null,
+    "licenseId": null,
+    "licenseUrl": null,
+    "licenseVerdict": null,
+    "supportsDownload": true,
+    "apiKeyEnv": null,
+    "nativeFilters": [
+      "categories",
+      "forms",
+      "commercialOnly",
+      "freeOnly"
+    ]
+  },
+  {
+    "id": "kenney",
+    "name": "Kenney",
+    "homepage": "https://kenney.nl/assets/category:Audio",
+    "description": "Kenney's CC0 game audio packs: UI clicks, impacts, sci-fi, RPG and casino foley, voice-overs and music jingles, as direct zips.",
+    "categories": [
+      "fx",
+      "foley",
+      "vocals",
+      "other"
+    ],
+    "forms": [
+      "pack"
+    ],
+    "access": "scrape",
+    "pricing": "free",
+    "license": "CC0 1.0",
+    "licenseId": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "licenseVerdict": "yes",
+    "supportsDownload": true,
+    "apiKeyEnv": null,
+    "nativeFilters": [
+      "categories",
+      "forms"
+    ]
+  },
+  {
     "id": "freewavesamples",
     "name": "Free Wave Samples",
     "homepage": "https://freewavesamples.com",

@@ -157,4 +157,12 @@
 /* Prose-like snippets (example prompts) wrap instead of scrolling. */
 .prose-docs pre[data-language="text"] {
   white-space: pre-wrap;
+}/* Wide tables and long inline code scroll or wrap instead of widening the page on phones. */
+.prose-docs table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+}
+.prose-docs :not(pre) > code {
+  overflow-wrap: anywhere;
 }

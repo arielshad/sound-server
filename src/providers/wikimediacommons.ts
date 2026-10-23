@@ -265,7 +265,8 @@ export const wikimediacommons: Provider = {
         formatversion: 2,
         maxlag: 5,
         list: "search",
-        srsearch: "filetype:audio -filemime:audio/midi",
+        // Same exclusions as search (no MIDI, pronunciations or Lingua Libre word recordings).
+        srsearch: SEARCH_SUFFIX,
         srnamespace: 6,
         srlimit: 1,
         srprop: "",
@@ -279,7 +280,7 @@ export const wikimediacommons: Provider = {
       free: total,
       byCategory: {},
       unit: "samples",
-      method: "MediaWiki search API: total hits for `filetype:audio -filemime:audio/midi` in the File namespace (includes pronunciations and music)",
+      method: "MediaWiki search API: total hits in the File namespace for audio files, excluding MIDI, pronunciations and Lingua Libre recordings (still includes music and speech)",
     };
   },
 };

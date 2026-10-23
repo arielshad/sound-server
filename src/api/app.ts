@@ -8,7 +8,7 @@ import { z } from "zod";
 import { clientFamily, noopAnalytics, type Analytics, type Surface } from "../core/analytics.js";
 import { creditsJson, creditsMarkdown } from "../core/credits.js";
 import { planKit } from "../core/kit.js";
-import { pickAnalysisFile, waveformPeaks } from "../core/analyze.js";
+import { analyzeSample, pickAnalysisFile, waveformPeaks } from "../core/analyze.js";
 import { kitExports } from "../mcp/kit-export.js";
 import { assertPublicUrl, fetchFile, sampleFolderName, samplePath, selectFiles, totalBytes, zipStream } from "../core/download.js";
 import { HttpError } from "../core/http.js";
@@ -220,6 +220,13 @@ function headerValue(s: string): string {
  * og:url; `pre` carries metadata looked up ahead of time (the sample).
  */
 function pageRewrite(route: string, params: URLSearchParams, origin: string, pre?: HeadMeta): ServeOptions["rewrite"] {
+  // The kit builder's waveform players inject a <style> that needs the nonce too.
+  if (route === "/kit") {
+    return (html) => {
+      const nonce = randomBytes(16).toString("base64");
+      return { html: html.replace("<head>", `<head><meta property="csp-nonce" content="${nonce}">`), styleNonce: nonce };
+    };
+  }
   if (route === "/search") {
     const meta = pre ?? searchMeta(params);
     const share = pre ? `sample=${encodeURIComponent(params.get("sample") ?? "")}` : searchShare(params)?.key;
@@ -446,7 +453,11 @@ export function createApp(service: SampleService, opts: AppOptions = {}): Hono {
 
   app.get("/v1/samples/:id", async (c) => {
     const id = c.req.param("id");
-    const sample = await lookup(c);
+    let sample = await lookup(c);
+    // ?analyze=true fills in duration, BPM (loops), key, root note and loudness from the audio.
+    if (sample && ["true", "1"].includes(c.req.query("analyze") ?? "")) {
+      sample = (await analyzeSample(sample, { http: service.http, deep: true, signal: AbortSignal.timeout(30_000) })).sample;
+    }
     analytics.sampleView({ ...who(c), provider: id.split(":")[0] ?? "", found: Boolean(sample) });
     if (!sample) return c.json({ error: "not found" }, 404);
     // A page for people: opens this sample on the website and unfurls with a preview card.

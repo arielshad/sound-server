@@ -2,6 +2,7 @@
 // The catalog census: what every source holds, counted daily (scripts/census.mjs).
 // Static HTML, so the numbers are indexable and quotable.
 import CopyButton from "@/components/stats/CopyQuote";
+import { PROVIDERS } from "@/lib/site";
 import { CATALOG, CATALOG_SENTENCE, CATEGORIES_BY_SIZE, COUNTED_ON, FREE_LIBRARIES, HISTORY, categoryName, fmt, fmtShort } from "@/lib/catalog";
 
 const t = CATALOG.totals;
@@ -24,6 +25,8 @@ const mainCategories = (byCategory: Record<string, number>) =>
     .map(([k, n]) => `${categoryName(k)} ${fmtShort(n)}`)
     .join(" · ");
 
+/** Human licence name: the source's own (providers.json), else the census value unless it is a bare LicenseRef id. */
+const licenceName = (s: { id: string; license?: string }) => PROVIDERS.find((p) => p.id === s.id)?.license ?? (s.license?.startsWith("LicenseRef-") ? undefined : s.license);
 const highlights = CATALOG.sources.flatMap((s) => (s.highlights ?? []).map((h) => ({ ...h, source: s.name })));
 const downloads = CATALOG.sources.filter((s) => s.downloads);
 const dated = CATALOG.sources.filter((s) => s.addedLast30Days !== undefined);
@@ -92,7 +95,7 @@ const path = points.map((p, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(p.valu
             <a href={`/sources/${s.id}`} class="font-medium hover:underline">{s.name}</a>
             <span class="text-right text-muted-foreground">
               <span class="tabular-nums text-foreground">{fmt(s.total, s.atLeast)}</span> {s.unit === "packs" ? "packs" : "sounds"}
-              {s.license && <span class="ml-1 text-xs">· {s.license}</span>}
+              {licenceName(s) && <span class="ml-1 text-xs">· {licenceName(s)}</span>}
             </span>
           </li>
         ))}

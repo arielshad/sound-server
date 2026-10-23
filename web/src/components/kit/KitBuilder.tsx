@@ -14,6 +14,9 @@ import { Placeholder } from "@/components/search/SampleRow";
 import { useSamplePlayer } from "@/components/search/useSamplePlayer";
 import { TONE_CLASS, VerdictBadge } from "@/components/search/VerdictBadge";
 import { CopyButton } from "@/components/home/AgentSetup";
+import { PROVIDERS } from "@/lib/site";
+
+const sourceName = (id: string) => PROVIDERS.find((p) => p.id === id)?.name ?? id;
 
 if (typeof document !== "undefined") {
   const nonce = document.querySelector<HTMLMetaElement>('meta[property="csp-nonce"]')?.content;
@@ -146,7 +149,7 @@ function SlotCard({ slot, pick, onSwap }: { slot: KitSlotResult; pick?: KitItem;
           </div>
           <div className="mt-2 flex flex-wrap items-center gap-x-2 gap-y-1 text-sm">
             <a href={`/search?sample=${encodeURIComponent(s.id)}`} className="min-w-0 truncate font-medium hover:text-primary hover:underline" title={s.title}>{s.title}</a>
-            <span className="text-xs text-muted-foreground">{s.provider}{s.durationSec ? ` · ${durationText(s.durationSec)}` : ""}</span>
+            <span className="text-xs text-muted-foreground">{sourceName(s.provider)}{s.durationSec ? ` · ${durationText(s.durationSec)}` : ""}</span>
             <span className="ml-auto"><VerdictBadge license={s.license} /></span>
           </div>
           {slot.reason && <p className="mt-1 text-xs text-muted-foreground">{slot.reason}</p>}
@@ -343,6 +346,7 @@ export default function KitBuilder() {
             <div className={cn("space-y-8", loading && "opacity-60")}>
               <section aria-labelledby="licences-h" className="rounded-xl border p-4">
                 <h2 id="licences-h" className="font-medium">Licences in this kit</h2>
+                {!picks.some((x) => x.pick) && <p className="mt-1 text-sm text-muted-foreground">Nothing was picked. Try another style, drop the key{commercial ? ", or turn off Commercial-safe to include sounds you can only use non-commercially" : ""}.</p>}
                 <ul className="mt-2 flex flex-wrap gap-2 text-xs">
                   {VERDICTS.filter((v) => licenceCounts[v]).map((v) => (
                     <li key={v} className={cn("rounded-full border px-2.5 py-0.5 font-medium", TONE_CLASS[verdictTone(v)])}>
@@ -389,7 +393,7 @@ export default function KitBuilder() {
                 </ul>
               </section>
 
-              {snippet && (
+              {snippet && picks.some((x) => x.pick) && (
                 <section aria-labelledby="strudel-h">
                   <div className="flex flex-wrap items-baseline justify-between gap-2">
                     <h2 id="strudel-h" className="text-xl font-semibold tracking-tight">Play it in Strudel</h2>
@@ -407,7 +411,7 @@ export default function KitBuilder() {
                 </section>
               )}
 
-              {kit.gm?.sfz && (
+              {kit.gm?.sfz && picks.some((x) => x.pick) && (
                 <details className="rounded-xl border p-4">
                   <summary className="cursor-pointer font-medium">General MIDI map and SFZ file</summary>
                   <p className="mt-2 text-sm text-muted-foreground">Kick on MIDI note 36, snare 38, clap 39, closed hat 42, open hat 46, 808 on 35. Load the SFZ in any SFZ sampler (sfizz, Sforzando, DecentSampler converts it).</p>
