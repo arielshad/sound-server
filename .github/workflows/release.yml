@@ -35,19 +35,34 @@ jobs:
         with:
           node-version: 24
           registry-url: https://registry.npmjs.org
-      # A hung package mirror once stalled this step for half an hour: cap each
-      # attempt and retry, rather than waiting out the 6-hour job limit.
+      # Static ffmpeg 8.1 from GitHub releases (fast from Actions, cached between
+      # runs). The Ubuntu package mirror has been slow enough to stall CI for
+      # half an hour; apt stays as the fallback.
+      - name: Cache ffmpeg
+        uses: actions/cache@v4
+        with:
+          path: ~/ffmpeg
+          key: ffmpeg-n8.1-linux64-gpl-v1
       - name: ffmpeg
-        timeout-minutes: 12
+        timeout-minutes: 20
         run: |
-          command -v ffprobe && exit 0
-          for i in 1 2 3; do
-            sudo timeout 180 apt-get -o Acquire::Retries=3 -o Acquire::http::Timeout=30 update &&
-              sudo timeout 180 apt-get -o Acquire::Retries=3 -o Acquire::http::Timeout=30 install -y --no-install-recommends ffmpeg &&
-              exit 0
-            echo "apt attempt $i failed; retrying" && sleep 10
-          done
-          exit 1
+          dir="$HOME/ffmpeg"
+          if [ ! -x "$dir/ffprobe" ]; then
+            mkdir -p "$dir"
+            url=https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-n8.1-latest-linux64-gpl-8.1.tar.xz
+            if ! curl -fsSL --retry 3 --max-time 300 "$url" | tar -xJ -C "$dir" --strip-components=2 --wildcards '*/bin/ffmpeg' '*/bin/ffprobe'; then
+              echo "static ffmpeg unavailable; installing from apt"
+              rm -rf "$dir"
+              sudo apt-get -o Acquire::Retries=3 update
+              sudo apt-get -o Acquire::Retries=3 install -y --no-install-recommends ffmpeg
+            fi
+          fi
+          if [ -x "$dir/ffprobe" ]; then
+            echo "$dir" >> "$GITHUB_PATH"
+            "$dir/ffprobe" -version | sed -n 1p
+          else
+            ffprobe -version | sed -n 1p
+          fi
       - run: npm ci
       - run: npm --prefix web ci
       - run: npm run build
