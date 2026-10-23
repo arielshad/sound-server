@@ -1,0 +1,355 @@
+{
+  "slug": "free-rimshot-samples",
+  "search": {
+    "q": "rimshot",
+    "categories": [
+      "drums.snare"
+    ]
+  },
+  "updatedAt": "2026-10-23T09:43:01.293Z",
+  "samples": [
+    {
+      "id": "wikimediacommons:Rimshot_loop_208bpm.ogg",
+      "provider": "wikimediacommons",
+      "title": "Rimshot loop 208bpm",
+      "category": "drums.snare",
+      "url": "https://commons.wikimedia.org/wiki/File:Rimshot_loop_208bpm.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e2/Rimshot_loop_208bpm.ogg/Rimshot_loop_208bpm.ogg.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Pannage",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "bpm": 208,
+      "durationSec": 4.534
+    },
+    {
+      "id": "wikimediacommons:Rimshot_loop_66bpm.ogg",
+      "provider": "wikimediacommons",
+      "title": "Rimshot loop 66bpm",
+      "category": "drums.snare",
+      "url": "https://commons.wikimedia.org/wiki/File:Rimshot_loop_66bpm.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2b/Rimshot_loop_66bpm.ogg/Rimshot_loop_66bpm.ogg.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Pannage",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "bpm": 66,
+      "durationSec": 14.333
+    },
+    {
+      "id": "wikimediacommons:Rimshot_loop_60bpm.ogg",
+      "provider": "wikimediacommons",
+      "title": "Rimshot loop 60bpm",
+      "category": "drums.snare",
+      "url": "https://commons.wikimedia.org/wiki/File:Rimshot_loop_60bpm.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/12/Rimshot_loop_60bpm.ogg/Rimshot_loop_60bpm.ogg.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Pannage",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "bpm": 60,
+      "durationSec": 15.787
+    },
+    {
+      "id": "wikimediacommons:Rimshot_loop_168bpm.ogg",
+      "provider": "wikimediacommons",
+      "title": "Rimshot loop 168bpm",
+      "category": "drums.snare",
+      "url": "https://commons.wikimedia.org/wiki/File:Rimshot_loop_168bpm.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2d/Rimshot_loop_168bpm.ogg/Rimshot_loop_168bpm.ogg.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Pannage",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "bpm": 168,
+      "durationSec": 5.657
+    },
+    {
+      "id": "wikimediacommons:Rimshot_loop_108bpm.ogg",
+      "provider": "wikimediacommons",
+      "title": "Rimshot loop 108bpm",
+      "category": "drums.snare",
+      "url": "https://commons.wikimedia.org/wiki/File:Rimshot_loop_108bpm.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ae/Rimshot_loop_108bpm.ogg/Rimshot_loop_108bpm.ogg.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Pannage",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "bpm": 108,
+      "durationSec": 8.771
+    },
+    {
+      "id": "wikimediacommons:Kevin_MacLeod_assorted_rimshots_-_Bdum-bheh.wav",
+      "provider": "wikimediacommons",
+      "title": "Kevin MacLeod assorted rimshots - Bdum-bheh",
+      "category": "drums.snare",
+      "url": "https://commons.wikimedia.org/wiki/File:Kevin_MacLeod_assorted_rimshots_-_Bdum-bheh.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/aa/Kevin_MacLeod_assorted_rimshots_-_Bdum-bheh.wav/Kevin_MacLeod_assorted_rimshots_-_Bdum-bheh.wav.mp3",
+      "downloadable": true,
+      "author": "Kevin MacLeod",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 7.998
+    },
+    {
+      "id": "wikimediacommons:Kevin_MacLeod_assorted_rimshots_-_Bu-doo.wav",
+      "provider": "wikimediacommons",
+      "title": "Kevin MacLeod assorted rimshots - Bu-doo",
+      "category": "drums.snare",
+      "url": "https://commons.wikimedia.org/wiki/File:Kevin_MacLeod_assorted_rimshots_-_Bu-doo.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/76/Kevin_MacLeod_assorted_rimshots_-_Bu-doo.wav/Kevin_MacLeod_assorted_rimshots_-_Bu-doo.wav.mp3",
+      "downloadable": true,
+      "author": "Kevin MacLeod",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 8.007
+    },
+    {
+      "id": "wikimediacommons:Kevin_MacLeod_assorted_rimshots_-_Crasher.wav",
+      "provider": "wikimediacommons",
+      "title": "Kevin MacLeod assorted rimshots - Crasher",
+      "category": "drums.snare",
+      "url": "https://commons.wikimedia.org/wiki/File:Kevin_MacLeod_assorted_rimshots_-_Crasher.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/df/Kevin_MacLeod_assorted_rimshots_-_Crasher.wav/Kevin_MacLeod_assorted_rimshots_-_Crasher.wav.mp3",
+      "downloadable": true,
+      "author": "Kevin MacLeod",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 13.72
+    },
+    {
+      "id": "wikimediacommons:Rimshot_loop_120bpm.ogg",
+      "provider": "wikimediacommons",
+      "title": "Rimshot loop 120bpm",
+      "category": "drums.snare",
+      "url": "https://commons.wikimedia.org/wiki/File:Rimshot_loop_120bpm.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b9/Rimshot_loop_120bpm.ogg/Rimshot_loop_120bpm.ogg.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Pannage",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "bpm": 120,
+      "durationSec": 7.895
+    },
+    {
+      "id": "wikimediacommons:Kevin_MacLeod_assorted_rimshots_-_Kdum-keesh.wav",
+      "provider": "wikimediacommons",
+      "title": "Kevin MacLeod assorted rimshots - Kdum-keesh",
+      "category": "drums.snare",
+      "url": "https://commons.wikimedia.org/wiki/File:Kevin_MacLeod_assorted_rimshots_-_Kdum-keesh.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0c/Kevin_MacLeod_assorted_rimshots_-_Kdum-keesh.wav/Kevin_MacLeod_assorted_rimshots_-_Kdum-keesh.wav.mp3",
+      "downloadable": true,
+      "author": "Kevin MacLeod",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 13.72
+    },
+    {
+      "id": "wikimediacommons:Kevin_MacLeod_assorted_rimshots_-_Bah-dum.wav",
+      "provider": "wikimediacommons",
+      "title": "Kevin MacLeod assorted rimshots - Bah-dum",
+      "category": "drums.snare",
+      "url": "https://commons.wikimedia.org/wiki/File:Kevin_MacLeod_assorted_rimshots_-_Bah-dum.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0f/Kevin_MacLeod_assorted_rimshots_-_Bah-dum.wav/Kevin_MacLeod_assorted_rimshots_-_Bah-dum.wav.mp3",
+      "downloadable": true,
+      "author": "Kevin MacLeod",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 7.998
+    },
+    {
+      "id": "wikimediacommons:Kevin_MacLeod_assorted_rimshots_-_4-second_roll.wav",
+      "provider": "wikimediacommons",
+      "title": "Kevin MacLeod assorted rimshots - 4-second roll",
+      "category": "drums.snare",
+      "url": "https://commons.wikimedia.org/wiki/File:Kevin_MacLeod_assorted_rimshots_-_4-second_roll.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/70/Kevin_MacLeod_assorted_rimshots_-_4-second_roll.wav/Kevin_MacLeod_assorted_rimshots_-_4-second_roll.wav.mp3",
+      "downloadable": true,
+      "author": "Kevin MacLeod",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 7.235
+    },
+    {
+      "id": "wikimediacommons:Kevin_MacLeod_assorted_rimshots_-_D-dum-ping.wav",
+      "provider": "wikimediacommons",
+      "title": "Kevin MacLeod assorted rimshots - D-dum-ping",
+      "category": "drums.snare",
+      "url": "https://commons.wikimedia.org/wiki/File:Kevin_MacLeod_assorted_rimshots_-_D-dum-ping.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bf/Kevin_MacLeod_assorted_rimshots_-_D-dum-ping.wav/Kevin_MacLeod_assorted_rimshots_-_D-dum-ping.wav.mp3",
+      "downloadable": true,
+      "author": "Kevin MacLeod",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 13.72
+    },
+    {
+      "id": "wikimediacommons:Rimshot_loop_76bpm.ogg",
+      "provider": "wikimediacommons",
+      "title": "Rimshot loop 76bpm",
+      "category": "drums.snare",
+      "url": "https://commons.wikimedia.org/wiki/File:Rimshot_loop_76bpm.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b7/Rimshot_loop_76bpm.ogg/Rimshot_loop_76bpm.ogg.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Pannage",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "bpm": 76,
+      "durationSec": 12.443
+    }
+  ]
+}

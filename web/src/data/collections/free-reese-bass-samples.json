@@ -1,0 +1,315 @@
+{
+  "slug": "free-reese-bass-samples",
+  "search": {
+    "q": "reese",
+    "categories": [
+      "bass"
+    ]
+  },
+  "updatedAt": "2026-10-23T09:42:16.960Z",
+  "samples": [
+    {
+      "id": "openverse:b589851b-738e-4d36-8615-3c0be8ef91ab",
+      "provider": "openverse",
+      "title": "Reese 1 (Mono).aiff",
+      "category": "bass.sub",
+      "url": "https://freesound.org/people/Walter_Odington/sounds/18019",
+      "previewUrl": "https://cdn.freesound.org/previews/18/18019_48671-hq.mp3",
+      "downloadable": true,
+      "author": "Walter_Odington",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "aiff"
+      ],
+      "durationSec": 27.857
+    },
+    {
+      "id": "openverse:9024fa11-c7a6-459e-b497-2526c7cd6f4b",
+      "provider": "openverse",
+      "title": "Mag Reese Bass 2",
+      "category": "bass.sub",
+      "url": "https://freesound.org/people/magnesium1/sounds/236932",
+      "previewUrl": "https://cdn.freesound.org/previews/236/236932_4212462-hq.mp3",
+      "downloadable": true,
+      "author": "magnesium1",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 8.47
+    },
+    {
+      "id": "openverse:f8f9c8ef-e79c-4d08-b61b-485d17f5e444",
+      "provider": "openverse",
+      "title": "reese 413th.wav",
+      "category": "bass.sub",
+      "url": "https://freesound.org/people/kival/sounds/202765",
+      "previewUrl": "https://cdn.freesound.org/previews/202/202765_414276-hq.mp3",
+      "downloadable": true,
+      "author": "kival",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 6.956
+    },
+    {
+      "id": "openverse:2c24c17b-eb58-48d4-8565-4d380989ff33",
+      "provider": "openverse",
+      "title": "Mag Reese Bass 1",
+      "category": "bass.sub",
+      "url": "https://freesound.org/people/magnesium1/sounds/236933",
+      "previewUrl": "https://cdn.freesound.org/previews/236/236933_4212462-hq.mp3",
+      "downloadable": true,
+      "author": "magnesium1",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "aiff"
+      ],
+      "durationSec": 7.999
+    },
+    {
+      "id": "openverse:b67bd543-e478-4c64-8898-1d907e10ba54",
+      "provider": "openverse",
+      "title": "Koany Reese F.wav",
+      "category": "bass.sub",
+      "url": "https://freesound.org/people/TechGeekMusic/sounds/353267",
+      "previewUrl": "https://cdn.freesound.org/previews/353/353267_6397561-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "TechGeekMusic",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.281
+    },
+    {
+      "id": "openverse:792c3275-def1-4dc5-8b1b-fcc847daea8c",
+      "provider": "openverse",
+      "title": "TEARING NEUROFUNK REESE BASS SMALL.wav",
+      "category": "bass.sub",
+      "url": "https://freesound.org/people/hardwareshaba/sounds/139085",
+      "previewUrl": "https://cdn.freesound.org/previews/139/139085_2540244-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "hardwareshaba",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 2.06
+    },
+    {
+      "id": "openverse:5fdc2f07-d91b-495e-b1e9-170a53f0bcf3",
+      "provider": "openverse",
+      "title": "Dark Reese F#.wav",
+      "category": "bass.sub",
+      "url": "https://freesound.org/people/TechGeekMusic/sounds/353269",
+      "previewUrl": "https://cdn.freesound.org/previews/353/353269_6397561-hq.mp3",
+      "downloadable": true,
+      "author": "TechGeekMusic",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 4.347
+    },
+    {
+      "id": "openverse:54c1964f-cca7-4a03-90e7-01146f0f0554",
+      "provider": "openverse",
+      "title": "Reese // Reece",
+      "category": "bass.sub",
+      "url": "https://freesound.org/people/PigBenx/sounds/261326",
+      "previewUrl": "https://cdn.freesound.org/previews/261/261326_4368910-hq.mp3",
+      "downloadable": true,
+      "author": "PigBenx",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 13.789
+    },
+    {
+      "id": "openverse:69830245-6ab6-4464-ac7b-faf9f267631d",
+      "provider": "openverse",
+      "title": "reese (without lowpass).wav",
+      "category": "bass.sub",
+      "url": "https://freesound.org/people/deleted_user_2428730/sounds/264426",
+      "previewUrl": "https://cdn.freesound.org/previews/264/264426_2428730-hq.mp3",
+      "downloadable": true,
+      "author": "deleted_user_2428730",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 9.603
+    },
+    {
+      "id": "openverse:df7158f8-24d6-4176-bff0-de10daab1b45",
+      "provider": "openverse",
+      "title": "EFEV1 Reese bass 2.wav",
+      "category": "bass.sub",
+      "url": "https://freesound.org/people/Earmark_Audio/sounds/277400",
+      "previewUrl": "https://cdn.freesound.org/previews/277/277400_5319918-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Earmark_Audio",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.727
+    },
+    {
+      "id": "openverse:c818b41c-c7c6-48db-ae34-10765b1e3660",
+      "provider": "openverse",
+      "title": "Distorted reese bass",
+      "category": "bass",
+      "url": "https://freesound.org/people/Anoesj/sounds/345945",
+      "previewUrl": "https://cdn.freesound.org/previews/345/345945_1968639-hq.mp3",
+      "downloadable": true,
+      "author": "Anoesj",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 23.591
+    },
+    {
+      "id": "openverse:cddde531-9ba8-46c4-97dc-265b5ed98483",
+      "provider": "openverse",
+      "title": "TEARING NEUROFUNK REESE BASS STAB.wav",
+      "category": "bass.sub",
+      "url": "https://freesound.org/people/hardwareshaba/sounds/139084",
+      "previewUrl": "https://cdn.freesound.org/previews/139/139084_2540244-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "hardwareshaba",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.375
+    },
+    {
+      "id": "openverse:a3ac06f4-5e97-4e05-9b19-651c1f22a599",
+      "provider": "openverse",
+      "title": "De-reese",
+      "category": "bass.sub",
+      "url": "https://commons.wikimedia.org/w/index.php?curid=92506025",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/De-reese.ogg",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Jeuwre",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg"
+      ],
+      "durationSec": 1.91
+    }
+  ]
+}

@@ -1,0 +1,715 @@
+{
+  "slug": "free-crash-cymbal-samples",
+  "search": {
+    "q": "crash",
+    "categories": [
+      "drums.cymbal.crash"
+    ]
+  },
+  "updatedAt": "2026-10-23T09:38:06.289Z",
+  "samples": [
+    {
+      "id": "wikimediacommons:Kobe_Bryant_helicopter_crash_ATC_audio.flac",
+      "provider": "wikimediacommons",
+      "title": "Kobe Bryant helicopter crash ATC audio",
+      "category": "drums.cymbal.crash",
+      "url": "https://commons.wikimedia.org/wiki/File:Kobe_Bryant_helicopter_crash_ATC_audio.flac",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/81/Kobe_Bryant_helicopter_crash_ATC_audio.flac/Kobe_Bryant_helicopter_crash_ATC_audio.flac.mp3",
+      "downloadable": true,
+      "author": "FAA",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "flac",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 237.3
+    },
+    {
+      "id": "soundbible:1172-Crash-Large",
+      "provider": "soundbible",
+      "title": "Crash Large",
+      "category": "drums.cymbal.crash",
+      "url": "https://soundbible.com/1172-Crash-Large.html",
+      "previewUrl": "https://soundbible.com/mp3/Crash%20Large-SoundBible.com-2049318973.mp3",
+      "downloadable": true,
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "strudel:dough-samples/crash/0",
+      "provider": "strudel",
+      "title": "Dough Samples · crash · 0",
+      "category": "drums.cymbal.crash",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Samples/blob/main/crash/CRASH%203.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Samples/main/crash/CRASH%203.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-GPL-3-0-repository-licence",
+        "name": "GPL-3.0 (repository licence)",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "opengameart:crash-collision",
+      "provider": "opengameart",
+      "title": "Crash Collision",
+      "category": "drums.cymbal.crash",
+      "url": "https://opengameart.org/content/crash-collision",
+      "previewUrl": "https://opengameart.org/sites/default/files/qubodup-crash.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/qubodup-crash.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "wikimediacommons:Crash_(1)_Sample.wav",
+      "provider": "wikimediacommons",
+      "title": "Crash (1) Sample",
+      "category": "drums.cymbal.crash",
+      "url": "https://commons.wikimedia.org/wiki/File:Crash_(1)_Sample.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/70/Crash_%281%29_Sample.wav/Crash_%281%29_Sample.wav.mp3",
+      "downloadable": true,
+      "author": "UnKnownrNone",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 9.165
+    },
+    {
+      "id": "soundbible:1651-747-Jet-Crash",
+      "provider": "soundbible",
+      "title": "747 Jet Crash",
+      "category": "drums.cymbal.crash",
+      "url": "https://soundbible.com/1651-747-Jet-Crash.html",
+      "previewUrl": "https://soundbible.com/mp3/747_jet_crash-keyWasFull-1290116770.mp3",
+      "downloadable": true,
+      "author": "keyWasFull",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "strudel:dough-samples/crash/1",
+      "provider": "strudel",
+      "title": "Dough Samples · crash · 1",
+      "category": "drums.cymbal.crash",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Samples/blob/main/crash/crash%202.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Samples/main/crash/crash%202.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-GPL-3-0-repository-licence",
+        "name": "GPL-3.0 (repository licence)",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Vídeo_ANÁLISIS_CRASH_BANDICOOT_N._Sane_TRILOGY.ogg",
+      "provider": "wikimediacommons",
+      "title": "Vídeo ANÁLISIS CRASH BANDICOOT N. Sane TRILOGY",
+      "category": "drums.cymbal.crash",
+      "url": "https://commons.wikimedia.org/wiki/File:V%C3%ADdeo_AN%C3%81LISIS_CRASH_BANDICOOT_N._Sane_TRILOGY.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fa/V%C3%ADdeo_AN%C3%81LISIS_CRASH_BANDICOOT_N._Sane_TRILOGY.ogg/V%C3%ADdeo_AN%C3%81LISIS_CRASH_BANDICOOT_N._Sane_TRILOGY.ogg.mp3",
+      "downloadable": true,
+      "author": "Vandal",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 319.344
+    },
+    {
+      "id": "opengameart:3-background-crash-explosion-bang-sounds",
+      "provider": "opengameart",
+      "title": "3 Background Crash Explosion Bang Sounds",
+      "category": "drums.cymbal.crash",
+      "url": "https://opengameart.org/content/3-background-crash-explosion-bang-sounds",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/qubodup-BangPreview.ogg.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/qubodup-BangPreview.ogg.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "strudel:dough-samples/crash/2",
+      "provider": "strudel",
+      "title": "Dough Samples · crash · 2",
+      "category": "drums.cymbal.crash",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Samples/blob/main/crash/crash2.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Samples/main/crash/crash2.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-GPL-3-0-repository-licence",
+        "name": "GPL-3.0 (repository licence)",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Alaska_Airlines_Flight_261_crash_ATC_recording.ogg",
+      "provider": "wikimediacommons",
+      "title": "Alaska Airlines Flight 261 crash ATC recording",
+      "category": "drums.cymbal.crash",
+      "url": "https://commons.wikimedia.org/wiki/File:Alaska_Airlines_Flight_261_crash_ATC_recording.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8a/Alaska_Airlines_Flight_261_crash_ATC_recording.ogg/Alaska_Airlines_Flight_261_crash_ATC_recording.ogg.mp3",
+      "downloadable": true,
+      "author": "FAA",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 236.084
+    },
+    {
+      "id": "strudel:dough-samples/crash/3",
+      "provider": "strudel",
+      "title": "Dough Samples · crash · 3",
+      "category": "drums.cymbal.crash",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Samples/blob/main/crash/crash%204.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Samples/main/crash/crash%204.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-GPL-3-0-repository-licence",
+        "name": "GPL-3.0 (repository licence)",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Crash_cymbal.ogg",
+      "provider": "wikimediacommons",
+      "title": "Crash cymbal",
+      "category": "drums.cymbal.crash",
+      "url": "https://commons.wikimedia.org/wiki/File:Crash_cymbal.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ef/Crash_cymbal.ogg/Crash_cymbal.ogg.mp3",
+      "downloadable": true,
+      "author": "Clngre",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 4.922
+    },
+    {
+      "id": "strudel:dough-samples/crash/4",
+      "provider": "strudel",
+      "title": "Dough Samples · crash · 4",
+      "category": "drums.cymbal.crash",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Samples/blob/main/crash/CRASH1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Samples/main/crash/CRASH1.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-GPL-3-0-repository-licence",
+        "name": "GPL-3.0 (repository licence)",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Crash_delayed_(Gravity_Sound).wav",
+      "provider": "wikimediacommons",
+      "title": "Crash delayed (Gravity Sound)",
+      "category": "drums.cymbal.crash",
+      "url": "https://commons.wikimedia.org/wiki/File:Crash_delayed_(Gravity_Sound).wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c3/Crash_delayed_%28Gravity_Sound%29.wav/Crash_delayed_%28Gravity_Sound%29.wav.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Gravity Sound",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 2.667
+    },
+    {
+      "id": "soundbible:1813-Slowed-Breathing",
+      "provider": "soundbible",
+      "title": "Slowed Breathing",
+      "category": "drums.cymbal.crash",
+      "url": "https://soundbible.com/1813-Slowed-Breathing.html",
+      "previewUrl": "https://soundbible.com/mp3/Slowed_Breathing-Kibblesbob-1806013479.mp3",
+      "downloadable": true,
+      "author": "Kibblesbob",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "strudel:dough-samples/crash/5",
+      "provider": "strudel",
+      "title": "Dough Samples · crash · 5",
+      "category": "drums.cymbal.crash",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Samples/blob/main/crash/crash.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Samples/main/crash/crash.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-GPL-3-0-repository-licence",
+        "name": "GPL-3.0 (repository licence)",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Crash_hit_(Gravity_Sound).wav",
+      "provider": "wikimediacommons",
+      "title": "Crash hit (Gravity Sound)",
+      "category": "drums.cymbal.crash",
+      "url": "https://commons.wikimedia.org/wiki/File:Crash_hit_(Gravity_Sound).wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/76/Crash_hit_%28Gravity_Sound%29.wav/Crash_hit_%28Gravity_Sound%29.wav.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Gravity Sound",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 2.667
+    },
+    {
+      "id": "wikimediacommons:Crash_hit_3_(Gravity_Sound).wav",
+      "provider": "wikimediacommons",
+      "title": "Crash hit 3 (Gravity Sound)",
+      "category": "drums.cymbal.crash",
+      "url": "https://commons.wikimedia.org/wiki/File:Crash_hit_3_(Gravity_Sound).wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a8/Crash_hit_3_%28Gravity_Sound%29.wav/Crash_hit_3_%28Gravity_Sound%29.wav.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Gravity Sound",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 3.78
+    },
+    {
+      "id": "wikimediacommons:Crash_hit_2_(Gravity_Sound).wav",
+      "provider": "wikimediacommons",
+      "title": "Crash hit 2 (Gravity Sound)",
+      "category": "drums.cymbal.crash",
+      "url": "https://commons.wikimedia.org/wiki/File:Crash_hit_2_(Gravity_Sound).wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b5/Crash_hit_2_%28Gravity_Sound%29.wav/Crash_hit_2_%28Gravity_Sound%29.wav.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Gravity Sound",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 0.5
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AkaiLinn_cr/0",
+      "provider": "strudel",
+      "title": "Akai Linn · cr · 0",
+      "category": "drums.cymbal.crash",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AkaiLinn/akailinn-cr/Crash.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AkaiLinn/akailinn-cr/Crash.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Análisis_CRASH_BANDICOOT_4_(PS4,_Xbox_One)_VUELVE_el_mejor_CRASH.ogg",
+      "provider": "wikimediacommons",
+      "title": "Análisis CRASH BANDICOOT 4 (PS4, Xbox One) VUELVE el mejor CRASH",
+      "category": "drums.cymbal.crash",
+      "url": "https://commons.wikimedia.org/wiki/File:An%C3%A1lisis_CRASH_BANDICOOT_4_(PS4,_Xbox_One)_VUELVE_el_mejor_CRASH.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/48/An%C3%A1lisis_CRASH_BANDICOOT_4_%28PS4%2C_Xbox_One%29_VUELVE_el_mejor_CRASH.ogg/An%C3%A1lisis_CRASH_BANDICOOT_4_%28PS4%2C_Xbox_One%29_VUELVE_el_mejor_CRASH.ogg.mp3",
+      "downloadable": true,
+      "author": "Vandal",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 332.208
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AkaiMPC60_cr/0",
+      "provider": "strudel",
+      "title": "Akai MPC60 · cr · 0",
+      "category": "drums.cymbal.crash",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AkaiMPC60/akaimpc60-cr/Crash.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AkaiMPC60/akaimpc60-cr/Crash.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AkaiXR10_cr/0",
+      "provider": "strudel",
+      "title": "Akai XR10 · cr · 0",
+      "category": "drums.cymbal.crash",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AkaiXR10/akaixr10-cr/Crash-01.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AkaiXR10/akaixr10-cr/Crash-01.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Asiana_214_crash_-_KSFO_Tower_ATC_recording.ogg",
+      "provider": "wikimediacommons",
+      "title": "Asiana 214 crash - KSFO Tower ATC recording",
+      "category": "drums.cymbal.crash",
+      "url": "https://commons.wikimedia.org/wiki/File:Asiana_214_crash_-_KSFO_Tower_ATC_recording.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/34/Asiana_214_crash_-_KSFO_Tower_ATC_recording.ogg/Asiana_214_crash_-_KSFO_Tower_ATC_recording.ogg.mp3",
+      "downloadable": true,
+      "author": "FAA",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 440.008
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AkaiXR10_cr/1",
+      "provider": "strudel",
+      "title": "Akai XR10 · cr · 1",
+      "category": "drums.cymbal.crash",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AkaiXR10/akaixr10-cr/Crash-02.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AkaiXR10/akaixr10-cr/Crash-02.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AkaiXR10_cr/2",
+      "provider": "strudel",
+      "title": "Akai XR10 · cr · 2",
+      "category": "drums.cymbal.crash",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AkaiXR10/akaixr10-cr/Crash-03.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AkaiXR10/akaixr10-cr/Crash-03.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Talk_Nation_Radio_-_2008-10-10_Economic_Crash_of_2008_101_with_Prof_Stephen_L_Ross_of_UCONN.vorb.oga",
+      "provider": "wikimediacommons",
+      "title": "Talk Nation Radio - 2008-10-10 Economic Crash of 2008 101 with Prof Stephen L Ross of UCONN.vorb",
+      "category": "drums.cymbal.crash",
+      "url": "https://commons.wikimedia.org/wiki/File:Talk_Nation_Radio_-_2008-10-10_Economic_Crash_of_2008_101_with_Prof_Stephen_L_Ross_of_UCONN.vorb.oga",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ea/Talk_Nation_Radio_-_2008-10-10_Economic_Crash_of_2008_101_with_Prof_Stephen_L_Ross_of_UCONN.vorb.oga/Talk_Nation_Radio_-_2008-10-10_Economic_Crash_of_2008_101_with_Prof_Stephen_L_Ross_of_UCONN.vorb.oga.mp3",
+      "downloadable": true,
+      "author": "Dori Smith",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 1786.07
+    },
+    {
+      "id": "wikimediacommons:Korean_Air_Flight_801_crash,_Guam_air_traffic_control_recording_(August_1997).oga",
+      "provider": "wikimediacommons",
+      "title": "Korean Air Flight 801 crash, Guam air traffic control recording (August 1997)",
+      "category": "drums.cymbal.crash",
+      "url": "https://commons.wikimedia.org/wiki/File:Korean_Air_Flight_801_crash,_Guam_air_traffic_control_recording_(August_1997).oga",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/68/Korean_Air_Flight_801_crash%2C_Guam_air_traffic_control_recording_%28August_1997%29.oga/Korean_Air_Flight_801_crash%2C_Guam_air_traffic_control_recording_%28August_1997%29.oga.mp3",
+      "downloadable": true,
+      "author": "FAA",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 274.213
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AlesisSR16_cr/0",
+      "provider": "strudel",
+      "title": "Alesis SR-16 · cr · 0",
+      "category": "drums.cymbal.crash",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AlesisSR16/alesissr16-cr/Crash-01.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AlesisSR16/alesissr16-cr/Crash-01.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:AAR214-KSFO-Crash.ogg",
+      "provider": "wikimediacommons",
+      "title": "AAR214-KSFO-Crash",
+      "category": "drums.cymbal.crash",
+      "url": "https://commons.wikimedia.org/wiki/File:AAR214-KSFO-Crash.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/04/AAR214-KSFO-Crash.ogg/AAR214-KSFO-Crash.ogg.mp3",
+      "downloadable": true,
+      "author": "Unknown author Unknown author",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 175.595
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AlesisSR16_cr/1",
+      "provider": "strudel",
+      "title": "Alesis SR-16 · cr · 1",
+      "category": "drums.cymbal.crash",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AlesisSR16/alesissr16-cr/Crash-02.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AlesisSR16/alesissr16-cr/Crash-02.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:tidal-drum-machines/BossDR110_cr/0",
+      "provider": "strudel",
+      "title": "Boss DR-110 · cr · 0",
+      "category": "drums.cymbal.crash",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/BossDR110/bossdr110-cr/Crash.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/BossDR110/bossdr110-cr/Crash.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    }
+  ]
+}

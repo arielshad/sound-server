@@ -1,0 +1,790 @@
+{
+  "slug": "free-glitch-sound-effects",
+  "search": {
+    "q": "glitch",
+    "categories": [
+      "fx.glitch"
+    ]
+  },
+  "updatedAt": "2026-10-23T09:40:01.476Z",
+  "samples": [
+    {
+      "id": "wikimediacommons:Alexi_Action_-_Lifelike_(Dark_Glitch_Technology_Background_Music).opus",
+      "provider": "wikimediacommons",
+      "title": "Alexi Action - Lifelike (Dark Glitch Technology Background Music)",
+      "category": "fx.glitch",
+      "url": "https://commons.wikimedia.org/wiki/File:Alexi_Action_-_Lifelike_(Dark_Glitch_Technology_Background_Music).opus",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c4/Alexi_Action_-_Lifelike_%28Dark_Glitch_Technology_Background_Music%29.opus/Alexi_Action_-_Lifelike_%28Dark_Glitch_Technology_Background_Music%29.opus.mp3",
+      "downloadable": true,
+      "author": "Alexi Action",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "opus",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 144.021
+    },
+    {
+      "id": "strudel:dirt-samples/glitch/1",
+      "provider": "strudel",
+      "title": "Dirt-Samples · glitch · 1",
+      "category": "fx.glitch",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/glitch/001_CB.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/glitch/001_CB.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "orangefreesounds:57035",
+      "provider": "orangefreesounds",
+      "title": "Glitch Error Sound Effect",
+      "category": "fx.glitch",
+      "url": "https://orangefreesounds.com/glitch-error-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/06/Glitch-error-sound-effect.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 2
+    },
+    {
+      "id": "opengameart:glitch-music",
+      "provider": "opengameart",
+      "title": "glitch music",
+      "category": "fx.glitch",
+      "url": "https://opengameart.org/content/glitch-music",
+      "previewUrl": "https://opengameart.org/sites/default/files/glitch.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/glitch.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "wikimediacommons:Glitch_by_Wuzzy_(Minetest)_glitch_abilities_powerslide.ogg",
+      "provider": "wikimediacommons",
+      "title": "Glitch by Wuzzy (Minetest) glitch abilities powerslide",
+      "category": "fx.glitch",
+      "url": "https://commons.wikimedia.org/wiki/File:Glitch_by_Wuzzy_(Minetest)_glitch_abilities_powerslide.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e9/Glitch_by_Wuzzy_%28Minetest%29_glitch_abilities_powerslide.ogg/Glitch_by_Wuzzy_%28Minetest%29_glitch_abilities_powerslide.ogg.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Mod Mod Glitch: Wuzzy ( https://content.minetest.net/users/Wuzzy/ / https://web.archive.org/web/20230127174210/https://c",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 0.736
+    },
+    {
+      "id": "strudel:dirt-samples/glitch/0",
+      "provider": "strudel",
+      "title": "Dirt-Samples · glitch · 0",
+      "category": "fx.glitch",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/glitch/000_BD.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/glitch/000_BD.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "orangefreesounds:55925",
+      "provider": "orangefreesounds",
+      "title": "Glitch Beep Sound Effect",
+      "category": "fx.glitch",
+      "url": "https://orangefreesounds.com/glitch-beep-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/03/Glitch-beep-sound-effect.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 1
+    },
+    {
+      "id": "opengameart:packsmithy-sfx-sampler-30-synthesised-sound-effects-ui-retro-horror-sci-fi-glitch",
+      "provider": "opengameart",
+      "title": "Packsmithy SFX sampler: 30 synthesised sound effects (UI, retro, horror, sci-fi, glitch)",
+      "category": "fx.glitch",
+      "url": "https://opengameart.org/content/packsmithy-sfx-sampler-30-synthesised-sound-effects-ui-retro-horror-sci-fi-glitch",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/packsmithy-sfx-sampler-preview.ogg.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/packsmithy-sfx-sampler-preview.ogg.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "wikimediacommons:Glitch_by_Wuzzy_(Minetest)_glitch_abilities_jumppad.ogg",
+      "provider": "wikimediacommons",
+      "title": "Glitch by Wuzzy (Minetest) glitch abilities jumppad",
+      "category": "fx.glitch",
+      "url": "https://commons.wikimedia.org/wiki/File:Glitch_by_Wuzzy_(Minetest)_glitch_abilities_jumppad.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e1/Glitch_by_Wuzzy_%28Minetest%29_glitch_abilities_jumppad.ogg/Glitch_by_Wuzzy_%28Minetest%29_glitch_abilities_jumppad.ogg.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Mod Mod Glitch: Wuzzy ( https://content.minetest.net/users/Wuzzy/ / https://web.archive.org/web/20230127174210/https://c",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 0.512
+    },
+    {
+      "id": "strudel:dirt-samples/glitch/2",
+      "provider": "strudel",
+      "title": "Dirt-Samples · glitch · 2",
+      "category": "fx.glitch",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/glitch/002_FX.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/glitch/002_FX.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "orangefreesounds:55885",
+      "provider": "orangefreesounds",
+      "title": "Digital Glitch Error Sound Effect",
+      "category": "fx.glitch",
+      "url": "https://orangefreesounds.com/digital-glitch-error-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/03/Digital-glitch-error-sound-effect.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 2
+    },
+    {
+      "id": "wikimediacommons:Glitch_by_Wuzzy_(Minetest)_glitch_sounds_glitched.ogg",
+      "provider": "wikimediacommons",
+      "title": "Glitch by Wuzzy (Minetest) glitch sounds glitched",
+      "category": "fx.glitch",
+      "url": "https://commons.wikimedia.org/wiki/File:Glitch_by_Wuzzy_(Minetest)_glitch_sounds_glitched.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c8/Glitch_by_Wuzzy_%28Minetest%29_glitch_sounds_glitched.ogg/Glitch_by_Wuzzy_%28Minetest%29_glitch_sounds_glitched.ogg.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Mod Mod Glitch: Wuzzy ( https://content.minetest.net/users/Wuzzy/ / https://web.archive.org/web/20230127174210/https://c",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 4.468
+    },
+    {
+      "id": "soundbible:1741-Strange-Days",
+      "provider": "soundbible",
+      "title": "Strange Days",
+      "category": "fx.glitch",
+      "url": "https://soundbible.com/1741-Strange-Days.html",
+      "previewUrl": "https://soundbible.com/mp3/Strange_Days-Mike_Koenig-176042049.mp3",
+      "downloadable": true,
+      "author": "Mike Koenig",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "strudel:dirt-samples/glitch/4",
+      "provider": "strudel",
+      "title": "Dirt-Samples · glitch · 4",
+      "category": "fx.glitch",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/glitch/004_OH.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/glitch/004_OH.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "orangefreesounds:53967",
+      "provider": "orangefreesounds",
+      "title": "Distorted Glitch Sound Effect",
+      "category": "fx.glitch",
+      "url": "https://orangefreesounds.com/distorted-glitch-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2025/11/Distorted-glitch-sound-effect.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 1
+    },
+    {
+      "id": "wikimediacommons:Glitch_by_Wuzzy_(Minetest)_glitch_sounds_default_place.5.ogg",
+      "provider": "wikimediacommons",
+      "title": "Glitch by Wuzzy (Minetest) glitch sounds default place.5",
+      "category": "fx.glitch",
+      "url": "https://commons.wikimedia.org/wiki/File:Glitch_by_Wuzzy_(Minetest)_glitch_sounds_default_place.5.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/03/Glitch_by_Wuzzy_%28Minetest%29_glitch_sounds_default_place.5.ogg/Glitch_by_Wuzzy_%28Minetest%29_glitch_sounds_default_place.5.ogg.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Mod Mod Glitch: Wuzzy ( https://content.minetest.net/users/Wuzzy/ / https://web.archive.org/web/20230127174210/https://c",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 0.174
+    },
+    {
+      "id": "soundbible:1195-CD-Skipping",
+      "provider": "soundbible",
+      "title": "CD Skipping",
+      "category": "fx.glitch",
+      "url": "https://soundbible.com/1195-CD-Skipping.html",
+      "previewUrl": "https://soundbible.com/mp3/CD%20Skipping-SoundBible.com-816257683.mp3",
+      "downloadable": true,
+      "author": "Mike Koenig",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "strudel:dirt-samples/glitch/5",
+      "provider": "strudel",
+      "title": "Dirt-Samples · glitch · 5",
+      "category": "fx.glitch",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/glitch/005_P1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/glitch/005_P1.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Glitch_by_Wuzzy_(Minetest)_glitch_logo_sound.ogg",
+      "provider": "wikimediacommons",
+      "title": "Glitch by Wuzzy (Minetest) glitch logo sound",
+      "category": "fx.glitch",
+      "url": "https://commons.wikimedia.org/wiki/File:Glitch_by_Wuzzy_(Minetest)_glitch_logo_sound.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bd/Glitch_by_Wuzzy_%28Minetest%29_glitch_logo_sound.ogg/Glitch_by_Wuzzy_%28Minetest%29_glitch_logo_sound.ogg.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Mod Mod Glitch: Wuzzy ( https://content.minetest.net/users/Wuzzy/ / https://web.archive.org/web/20230127174210/https://c",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 4.559
+    },
+    {
+      "id": "orangefreesounds:48997",
+      "provider": "orangefreesounds",
+      "title": "Digital Glitch Sound Effect",
+      "category": "fx.glitch",
+      "url": "https://orangefreesounds.com/digital-glitch-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2024/12/Digital-glitch-sound-effect.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 1
+    },
+    {
+      "id": "strudel:dirt-samples/glitch/3",
+      "provider": "strudel",
+      "title": "Dirt-Samples · glitch · 3",
+      "category": "fx.glitch",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/glitch/003_HH.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/glitch/003_HH.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Glitch_by_Wuzzy_(Minetest)_glitch_levels_gateway.ogg",
+      "provider": "wikimediacommons",
+      "title": "Glitch by Wuzzy (Minetest) glitch levels gateway",
+      "category": "fx.glitch",
+      "url": "https://commons.wikimedia.org/wiki/File:Glitch_by_Wuzzy_(Minetest)_glitch_levels_gateway.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4a/Glitch_by_Wuzzy_%28Minetest%29_glitch_levels_gateway.ogg/Glitch_by_Wuzzy_%28Minetest%29_glitch_levels_gateway.ogg.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Mod Mod Glitch: Wuzzy ( https://content.minetest.net/users/Wuzzy/ / https://web.archive.org/web/20230127174210/https://c",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 1.429
+    },
+    {
+      "id": "orangefreesounds:44893",
+      "provider": "orangefreesounds",
+      "title": "Glitch Sound",
+      "category": "fx.glitch",
+      "url": "https://orangefreesounds.com/glitch-sound/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2023/10/Glitch-sound.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 1
+    },
+    {
+      "id": "strudel:dirt-samples/glitch/6",
+      "provider": "strudel",
+      "title": "Dirt-Samples · glitch · 6",
+      "category": "fx.glitch",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/glitch/006_P2.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/glitch/006_P2.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Glitch_by_Wuzzy_(Minetest)_glitch_entities_collect.ogg",
+      "provider": "wikimediacommons",
+      "title": "Glitch by Wuzzy (Minetest) glitch entities collect",
+      "category": "fx.glitch",
+      "url": "https://commons.wikimedia.org/wiki/File:Glitch_by_Wuzzy_(Minetest)_glitch_entities_collect.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/ba/Glitch_by_Wuzzy_%28Minetest%29_glitch_entities_collect.ogg/Glitch_by_Wuzzy_%28Minetest%29_glitch_entities_collect.ogg.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Mod Mod Glitch: Wuzzy ( https://content.minetest.net/users/Wuzzy/ / https://web.archive.org/web/20230127174210/https://c",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 0.406
+    },
+    {
+      "id": "orangefreesounds:39970",
+      "provider": "orangefreesounds",
+      "title": "Short Glitch Sound Effect",
+      "category": "fx.glitch",
+      "url": "https://orangefreesounds.com/short-glitch-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2022/10/Short-glitch-sound-effect.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 1
+    },
+    {
+      "id": "strudel:dirt-samples/glitch/7",
+      "provider": "strudel",
+      "title": "Dirt-Samples · glitch · 7",
+      "category": "fx.glitch",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/glitch/007_SN.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/glitch/007_SN.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Glitch_by_Wuzzy_(Minetest)_glitch_sounds_default_dug.1.ogg",
+      "provider": "wikimediacommons",
+      "title": "Glitch by Wuzzy (Minetest) glitch sounds default dug.1",
+      "category": "fx.glitch",
+      "url": "https://commons.wikimedia.org/wiki/File:Glitch_by_Wuzzy_(Minetest)_glitch_sounds_default_dug.1.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/94/Glitch_by_Wuzzy_%28Minetest%29_glitch_sounds_default_dug.1.ogg/Glitch_by_Wuzzy_%28Minetest%29_glitch_sounds_default_dug.1.ogg.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Mod Mod Glitch: Wuzzy ( https://content.minetest.net/users/Wuzzy/ / https://web.archive.org/web/20230127174210/https://c",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 0.157
+    },
+    {
+      "id": "orangefreesounds:41451",
+      "provider": "orangefreesounds",
+      "title": "Computer Glitch Sound Effect",
+      "category": "fx.glitch",
+      "url": "https://orangefreesounds.com/computer-glitch-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2023/02/Computer-glitch-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 15
+    },
+    {
+      "id": "wikimediacommons:Glitch_by_Wuzzy_(Minetest)_glitch_player_joy.ogg",
+      "provider": "wikimediacommons",
+      "title": "Glitch by Wuzzy (Minetest) glitch player joy",
+      "category": "fx.glitch",
+      "url": "https://commons.wikimedia.org/wiki/File:Glitch_by_Wuzzy_(Minetest)_glitch_player_joy.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/22/Glitch_by_Wuzzy_%28Minetest%29_glitch_player_joy.ogg/Glitch_by_Wuzzy_%28Minetest%29_glitch_player_joy.ogg.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Mod Mod Glitch: Wuzzy ( https://content.minetest.net/users/Wuzzy/ / https://web.archive.org/web/20230127174210/https://c",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 0.472
+    },
+    {
+      "id": "orangefreesounds:22549",
+      "provider": "orangefreesounds",
+      "title": "Radio Abstract Glitch Sound Effect",
+      "category": "fx.glitch",
+      "url": "https://orangefreesounds.com/radio-abstract-glitch-sound-effect/",
+      "previewUrl": "https://www.orangefreesounds.com/wp-content/uploads/2018/10/Radio-abstract-glitch-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 15
+    },
+    {
+      "id": "wikimediacommons:Glitch_by_Wuzzy_(Minetest)_glitch_gui_button_press.ogg",
+      "provider": "wikimediacommons",
+      "title": "Glitch by Wuzzy (Minetest) glitch gui button press",
+      "category": "fx.glitch",
+      "url": "https://commons.wikimedia.org/wiki/File:Glitch_by_Wuzzy_(Minetest)_glitch_gui_button_press.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/89/Glitch_by_Wuzzy_%28Minetest%29_glitch_gui_button_press.ogg/Glitch_by_Wuzzy_%28Minetest%29_glitch_gui_button_press.ogg.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Mod Mod Glitch: Wuzzy ( https://content.minetest.net/users/Wuzzy/ / https://web.archive.org/web/20230127174210/https://c",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 0.075
+    },
+    {
+      "id": "orangefreesounds:45876",
+      "provider": "orangefreesounds",
+      "title": "Glitch Button Click Sound Effect",
+      "category": "fx.glitch",
+      "url": "https://orangefreesounds.com/glitch-button-click-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2024/02/Glitch-button-click-sound-effect.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 1
+    },
+    {
+      "id": "wikimediacommons:Glitch_by_Wuzzy_(Minetest)_glitch_sounds_default_place.2.ogg",
+      "provider": "wikimediacommons",
+      "title": "Glitch by Wuzzy (Minetest) glitch sounds default place.2",
+      "category": "fx.glitch",
+      "url": "https://commons.wikimedia.org/wiki/File:Glitch_by_Wuzzy_(Minetest)_glitch_sounds_default_place.2.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7a/Glitch_by_Wuzzy_%28Minetest%29_glitch_sounds_default_place.2.ogg/Glitch_by_Wuzzy_%28Minetest%29_glitch_sounds_default_place.2.ogg.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Mod Mod Glitch: Wuzzy ( https://content.minetest.net/users/Wuzzy/ / https://web.archive.org/web/20230127174210/https://c",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 0.174
+    },
+    {
+      "id": "orangefreesounds:34030",
+      "provider": "orangefreesounds",
+      "title": "Glitch Sound Effect",
+      "category": "fx.glitch",
+      "url": "https://orangefreesounds.com/glitch-sound-effect/",
+      "previewUrl": "https://www.orangefreesounds.com/wp-content/uploads/2021/03/Glitch-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 20
+    },
+    {
+      "id": "strudel:dirt-samples/glitch2/1",
+      "provider": "strudel",
+      "title": "Dirt-Samples · glitch2 · 1",
+      "category": "fx.glitch",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/glitch2/001_CB.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/glitch2/001_CB.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    }
+  ]
+}

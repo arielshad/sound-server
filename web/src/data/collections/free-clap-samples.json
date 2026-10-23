@@ -9,7 +9,7 @@
       "one-shot"
     ]
   },
-  "updatedAt": "2026-10-23T04:44:16.524Z",
+  "updatedAt": "2026-10-23T09:37:50.639Z",
   "samples": [
     {
       "id": "openverse:c0bdec6f-8d5f-43b0-9fc4-2c3f9738cf1d",
@@ -59,25 +59,6 @@
       "durationSec": 2.809
     },
     {
-      "id": "soundbible:302-Thunder-Clap",
-      "provider": "soundbible",
-      "title": "Thunder Clap",
-      "category": "drums.clap",
-      "url": "https://soundbible.com/302-Thunder-Clap.html",
-      "previewUrl": "https://soundbible.com/mp3/Thunder%20Clap-SoundBible.com-1913038465.mp3",
-      "downloadable": true,
-      "license": {
-        "id": "LicenseRef-Personal-Use-Only",
-        "name": "Personal Use Only",
-        "verdict": "no"
-      },
-      "free": true,
-      "formats": [
-        "wav",
-        "mp3"
-      ]
-    },
-    {
       "id": "openverse:8e555bc1-5287-4d67-8b74-d85b53c71168",
       "provider": "openverse",
       "title": "Solo Clap",
@@ -123,28 +104,6 @@
         "mp3"
       ],
       "durationSec": 0.217
-    },
-    {
-      "id": "soundbible:1907-Thunder",
-      "provider": "soundbible",
-      "title": "Thunder",
-      "category": "drums.clap",
-      "url": "https://soundbible.com/1907-Thunder.html",
-      "previewUrl": "https://soundbible.com/mp3/Thunder-Mike_Koenig-315681025.mp3",
-      "downloadable": true,
-      "author": "Mike Koenig",
-      "license": {
-        "id": "CC-BY-3.0",
-        "name": "CC BY 3.0",
-        "url": "https://creativecommons.org/licenses/by/3.0/",
-        "verdict": "yes-with-credit",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "wav",
-        "mp3"
-      ]
     },
     {
       "id": "openverse:c3bb6987-7250-4ca4-aa96-cdb6b3004d67",
@@ -193,28 +152,6 @@
         "wav"
       ],
       "durationSec": 0.39
-    },
-    {
-      "id": "soundbible:2005-Elaborate-Thunder",
-      "provider": "soundbible",
-      "title": "Elaborate Thunder",
-      "category": "drums.clap",
-      "url": "https://soundbible.com/2005-Elaborate-Thunder.html",
-      "previewUrl": "https://soundbible.com/mp3/elaborate_thunder-Mike_Koenig-1877244752.mp3",
-      "downloadable": true,
-      "author": "Mike Koenig",
-      "license": {
-        "id": "CC-BY-3.0",
-        "name": "CC BY 3.0",
-        "url": "https://creativecommons.org/licenses/by/3.0/",
-        "verdict": "yes-with-credit",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "wav",
-        "mp3"
-      ]
     },
     {
       "id": "openverse:67620333-819e-4a0e-bb2b-2e3168a9cb65",
@@ -402,6 +339,500 @@
         "wav"
       ],
       "durationSec": 6.975
+    },
+    {
+      "id": "strudel:vcsl/clap/0",
+      "provider": "strudel",
+      "title": "VCSL · clap · 0",
+      "category": "drums.clap",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Idiophones/Struck%20Idiophones/Claps/Clap_rr1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Claps/Clap_rr1.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:\"I_Could_Say_The_Stupidest_Things_And_You'd_Clap\"_-_President_Donald_Trump.wav",
+      "provider": "wikimediacommons",
+      "title": "\"I Could Say The Stupidest Things And You'd Clap\" - President Donald Trump",
+      "category": "drums.clap",
+      "url": "https://commons.wikimedia.org/wiki/File:%22I_Could_Say_The_Stupidest_Things_And_You%27d_Clap%22_-_President_Donald_Trump.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/17/%22I_Could_Say_The_Stupidest_Things_And_You%27d_Clap%22_-_President_Donald_Trump.wav/%22I_Could_Say_The_Stupidest_Things_And_You%27d_Clap%22_-_President_Donald_Trump.wav.mp3",
+      "downloadable": true,
+      "author": "Donald Trump",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 38.264
+    },
+    {
+      "id": "strudel:vcsl/clap/1",
+      "provider": "strudel",
+      "title": "VCSL · clap · 1",
+      "category": "drums.clap",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Idiophones/Struck%20Idiophones/Claps/Clap_rr2.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Claps/Clap_rr2.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Clap_Along_With_Me_par_Sascha_Ende.mp3",
+      "provider": "wikimediacommons",
+      "title": "Clap Along With Me par Sascha Ende",
+      "category": "drums.clap",
+      "url": "https://commons.wikimedia.org/wiki/File:Clap_Along_With_Me_par_Sascha_Ende.mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Clap_Along_With_Me_par_Sascha_Ende.mp3",
+      "downloadable": true,
+      "author": "Sascha Ende",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 176.208
+    },
+    {
+      "id": "strudel:vcsl/clap/2",
+      "provider": "strudel",
+      "title": "VCSL · clap · 2",
+      "category": "drums.clap",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Idiophones/Struck%20Idiophones/Claps/Clap_rr3.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Claps/Clap_rr3.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Bauchamp_-_128_hi_hat_et_finger_clap.ogg",
+      "provider": "wikimediacommons",
+      "title": "Bauchamp - 128 hi hat et finger clap",
+      "category": "drums.clap",
+      "url": "https://commons.wikimedia.org/wiki/File:Bauchamp_-_128_hi_hat_et_finger_clap.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2b/Bauchamp_-_128_hi_hat_et_finger_clap.ogg/Bauchamp_-_128_hi_hat_et_finger_clap.ogg.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Bauchamp",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 3.814
+    },
+    {
+      "id": "strudel:vcsl/clap/3",
+      "provider": "strudel",
+      "title": "VCSL · clap · 3",
+      "category": "drums.clap",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Idiophones/Struck%20Idiophones/Claps/Clap_rr4.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Claps/Clap_rr4.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Bauchamp_-_138_hawaien_clap.ogg",
+      "provider": "wikimediacommons",
+      "title": "Bauchamp - 138 hawaien clap",
+      "category": "drums.clap",
+      "url": "https://commons.wikimedia.org/wiki/File:Bauchamp_-_138_hawaien_clap.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c6/Bauchamp_-_138_hawaien_clap.ogg/Bauchamp_-_138_hawaien_clap.ogg.mp3",
+      "downloadable": true,
+      "author": "Bauchamp",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 13.976
+    },
+    {
+      "id": "strudel:vcsl/clap/4",
+      "provider": "strudel",
+      "title": "VCSL · clap · 4",
+      "category": "drums.clap",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Idiophones/Struck%20Idiophones/Claps/Clap_rr5.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Claps/Clap_rr5.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:vcsl/clap/5",
+      "provider": "strudel",
+      "title": "VCSL · clap · 5",
+      "category": "drums.clap",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Idiophones/Struck%20Idiophones/Claps/Clap_rr6.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Claps/Clap_rr6.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Clapping_for_Carers_in_Oxford,_April_2020.opus",
+      "provider": "wikimediacommons",
+      "title": "Clapping for Carers in Oxford, April 2020",
+      "category": "drums.clap",
+      "url": "https://commons.wikimedia.org/wiki/File:Clapping_for_Carers_in_Oxford,_April_2020.opus",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4e/Clapping_for_Carers_in_Oxford%2C_April_2020.opus/Clapping_for_Carers_in_Oxford%2C_April_2020.opus.mp3",
+      "downloadable": true,
+      "author": "Pierre Marshall",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "opus",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 28.004
+    },
+    {
+      "id": "strudel:vcsl/clap/6",
+      "provider": "strudel",
+      "title": "VCSL · clap · 6",
+      "category": "drums.clap",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Idiophones/Struck%20Idiophones/Claps/SoloClap_vl1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Claps/SoloClap_vl1.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Clap1.ogg",
+      "provider": "wikimediacommons",
+      "title": "Clap1",
+      "category": "drums.clap",
+      "url": "https://commons.wikimedia.org/wiki/File:Clap1.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f4/Clap1.ogg/Clap1.ogg.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "WikiGrower1",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 1.045
+    },
+    {
+      "id": "strudel:vcsl/clap/7",
+      "provider": "strudel",
+      "title": "VCSL · clap · 7",
+      "category": "drums.clap",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Idiophones/Struck%20Idiophones/Claps/SoloClap_vl2.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Claps/SoloClap_vl2.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:vcsl/clap/8",
+      "provider": "strudel",
+      "title": "VCSL · clap · 8",
+      "category": "drums.clap",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Idiophones/Struck%20Idiophones/Claps/SoloClap_vl3.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Claps/SoloClap_vl3.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:vcsl/clap/9",
+      "provider": "strudel",
+      "title": "VCSL · clap · 9",
+      "category": "drums.clap",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Idiophones/Struck%20Idiophones/Claps/SoloClap_vl4.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Claps/SoloClap_vl4.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Audionautix-com-ccby-clapalong.mp3",
+      "provider": "wikimediacommons",
+      "title": "Audionautix-com-ccby-clapalong",
+      "category": "drums.clap",
+      "url": "https://commons.wikimedia.org/wiki/File:Audionautix-com-ccby-clapalong.mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Audionautix-com-ccby-clapalong.mp3",
+      "downloadable": true,
+      "author": "Created by Jason Shaw. Released under Creative Commons Attribution License 3.0. Required credit: \"music by audionautix.c",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 126.096
+    },
+    {
+      "id": "wikimediacommons:Fishcatsclap.ogg",
+      "provider": "wikimediacommons",
+      "title": "Fishcatsclap",
+      "category": "drums.clap",
+      "url": "https://commons.wikimedia.org/wiki/File:Fishcatsclap.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/04/Fishcatsclap.ogg/Fishcatsclap.ogg.mp3",
+      "downloadable": true,
+      "author": "Mtaylo",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 12.343
+    },
+    {
+      "id": "strudel:dough-samples/clap/0",
+      "provider": "strudel",
+      "title": "Dough Samples · clap · 0",
+      "category": "drums.clap",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Samples/blob/main/clap/clap.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Samples/main/clap/clap.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-GPL-3-0-repository-licence",
+        "name": "GPL-3.0 (repository licence)",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Clapping_sound_from_Cascabela_thevetia_leaves.wav",
+      "provider": "wikimediacommons",
+      "title": "Clapping sound from Cascabela thevetia leaves",
+      "category": "drums.clap",
+      "url": "https://commons.wikimedia.org/wiki/File:Clapping_sound_from_Cascabela_thevetia_leaves.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9a/Clapping_sound_from_Cascabela_thevetia_leaves.wav/Clapping_sound_from_Cascabela_thevetia_leaves.wav.mp3",
+      "downloadable": true,
+      "author": "Subhashish Panigrahi",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 54.379
+    },
+    {
+      "id": "wikimediacommons:Monkeys_At_Typewriters.mp3",
+      "provider": "wikimediacommons",
+      "title": "Monkeys At Typewriters",
+      "category": "drums.clap",
+      "url": "https://commons.wikimedia.org/wiki/File:Monkeys_At_Typewriters.mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Monkeys_At_Typewriters.mp3",
+      "downloadable": true,
+      "author": "Sj",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 153.096
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AkaiLinn_cp/0",
+      "provider": "strudel",
+      "title": "Akai Linn · cp · 0",
+      "category": "drums.clap",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AkaiLinn/akailinn-cp/Clap.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AkaiLinn/akailinn-cp/Clap.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
     }
   ]
 }

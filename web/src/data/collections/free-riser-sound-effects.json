@@ -6,7 +6,7 @@
       "fx.riser"
     ]
   },
-  "updatedAt": "2026-10-23T04:45:24.399Z",
+  "updatedAt": "2026-10-23T09:43:03.507Z",
   "samples": [
     {
       "id": "orangefreesounds:58887",
@@ -322,6 +322,443 @@
         "mp3"
       ],
       "durationSec": 7
+    },
+    {
+      "id": "wikimediacommons:Phonk_Riser_(1)_Sample.wav",
+      "provider": "wikimediacommons",
+      "title": "Phonk Riser (1) Sample",
+      "category": "fx.riser",
+      "url": "https://commons.wikimedia.org/wiki/File:Phonk_Riser_(1)_Sample.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d2/Phonk_Riser_%281%29_Sample.wav/Phonk_Riser_%281%29_Sample.wav.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "UnKnownrNone",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 10.8
+    },
+    {
+      "id": "openverse:dcaacccd-e20b-425a-8296-a6095377e8c4",
+      "provider": "openverse",
+      "title": "Scary Hits & Risers 001",
+      "category": "fx.riser",
+      "url": "https://freesound.org/people/Xinematix/sounds/396161",
+      "previewUrl": "https://cdn.freesound.org/previews/396/396161_4882128-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Xinematix",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 9.6
+    },
+    {
+      "id": "wikimediacommons:Evan_Schaeffer_-_04_-_Riser.ogg",
+      "provider": "wikimediacommons",
+      "title": "Evan Schaeffer - 04 - Riser",
+      "category": "fx.riser",
+      "url": "https://commons.wikimedia.org/wiki/File:Evan_Schaeffer_-_04_-_Riser.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/31/Evan_Schaeffer_-_04_-_Riser.ogg/Evan_Schaeffer_-_04_-_Riser.ogg.mp3",
+      "downloadable": true,
+      "author": "Evan Schaeffer",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 184.234
+    },
+    {
+      "id": "openverse:a9b70839-b479-4813-b482-61e42b87b71f",
+      "provider": "openverse",
+      "title": "Scary Hits & Risers 002",
+      "category": "fx.riser",
+      "url": "https://freesound.org/people/Xinematix/sounds/396160",
+      "previewUrl": "https://cdn.freesound.org/previews/396/396160_4882128-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Xinematix",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 9.6
+    },
+    {
+      "id": "wikimediacommons:Kevin_MacLeod_-_Early_Riser.ogg",
+      "provider": "wikimediacommons",
+      "title": "Kevin MacLeod - Early Riser",
+      "category": "fx.riser",
+      "url": "https://commons.wikimedia.org/wiki/File:Kevin_MacLeod_-_Early_Riser.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d7/Kevin_MacLeod_-_Early_Riser.ogg/Kevin_MacLeod_-_Early_Riser.ogg.mp3",
+      "downloadable": true,
+      "author": "Kevin MacLeod",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 173.897
+    },
+    {
+      "id": "openverse:52f9b0a6-b23d-46b0-8a6a-0703b0d8cc5f",
+      "provider": "openverse",
+      "title": "impact riser 01",
+      "category": "fx.riser",
+      "url": "https://freesound.org/people/soramoosic/sounds/244249",
+      "previewUrl": "https://cdn.freesound.org/previews/244/244249_3986112-hq.mp3",
+      "downloadable": true,
+      "author": "soramoosic",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 14.575
+    },
+    {
+      "id": "strudel:dirt-samples/ade/9",
+      "provider": "strudel",
+      "title": "Dirt-Samples · ade · 9",
+      "category": "fx.riser",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/ade/009_rise.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/ade/009_rise.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "openverse:96a9062b-be8d-42ae-aacc-f64d3a34294a",
+      "provider": "openverse",
+      "title": "Riser",
+      "category": "fx.riser",
+      "url": "https://freesound.org/people/Rizzard/sounds/561207",
+      "previewUrl": "https://cdn.freesound.org/previews/561/561207_10825267-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Rizzard",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 2
+    },
+    {
+      "id": "openverse:e1767f12-36cd-4822-b2d0-fc1c23363ddd",
+      "provider": "openverse",
+      "title": "Riser 4_Flicker.wav",
+      "category": "fx.riser",
+      "url": "https://freesound.org/people/Flick3r/sounds/45618",
+      "previewUrl": "https://cdn.freesound.org/previews/45/45618_508997-hq.mp3",
+      "downloadable": true,
+      "author": "Flick3r",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 13.508
+    },
+    {
+      "id": "openverse:64d9324b-80ce-4b63-8f08-b0c2f199ad11",
+      "provider": "openverse",
+      "title": "Long Panned Riser",
+      "category": "fx.riser",
+      "url": "https://freesound.org/people/gerainsan/sounds/354171",
+      "previewUrl": "https://cdn.freesound.org/previews/354/354171_3577171-hq.mp3",
+      "downloadable": true,
+      "author": "gerainsan",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 12.518
+    },
+    {
+      "id": "wikimediacommons:The_Rise_and_Fall_and_Rise_of_Klonoa.ogg",
+      "provider": "wikimediacommons",
+      "title": "The Rise and Fall and Rise of Klonoa",
+      "category": "fx.riser",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Rise_and_Fall_and_Rise_of_Klonoa.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/76/The_Rise_and_Fall_and_Rise_of_Klonoa.ogg/The_Rise_and_Fall_and_Rise_of_Klonoa.ogg.mp3",
+      "downloadable": true,
+      "author": "Video Game Story Time",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 347.371
+    },
+    {
+      "id": "openverse:47e77587-d162-43fe-9e9d-dd701363bba0",
+      "provider": "openverse",
+      "title": "Riser #42 - Medieval / Witcher",
+      "category": "fx.riser",
+      "url": "https://freesound.org/people/Tri-Tachyon/sounds/504893",
+      "previewUrl": "https://cdn.freesound.org/previews/504/504893_3492460-hq.mp3",
+      "downloadable": true,
+      "author": "Tri-Tachyon",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 19.058
+    },
+    {
+      "id": "openverse:031a2372-38eb-4109-a4f4-4b937107e010",
+      "provider": "openverse",
+      "title": "Long Pitched Panned Riser",
+      "category": "fx.riser",
+      "url": "https://freesound.org/people/gerainsan/sounds/354174",
+      "previewUrl": "https://cdn.freesound.org/previews/354/354174_3577171-hq.mp3",
+      "downloadable": true,
+      "author": "gerainsan",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 14.863
+    },
+    {
+      "id": "openverse:27d5412d-a2b4-4b9e-a046-7cdcb926f3b5",
+      "provider": "openverse",
+      "title": "Cinematic Riser 1.wav",
+      "category": "fx.riser",
+      "url": "https://freesound.org/people/original_sound/sounds/363124",
+      "previewUrl": "https://cdn.freesound.org/previews/363/363124_6687700-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "original_sound",
+      "license": {
+        "id": "CC-BY-NC-3.0",
+        "name": "CC BY-NC 3.0",
+        "url": "https://creativecommons.org/licenses/by-nc/3.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 5.25
+    },
+    {
+      "id": "openverse:0776d0f1-15db-44da-8087-4c38840fbb52",
+      "provider": "openverse",
+      "title": "Bright riser",
+      "category": "fx.riser",
+      "url": "https://freesound.org/people/xkeril/sounds/609765",
+      "previewUrl": "https://cdn.freesound.org/previews/609/609765_13504080-hq.mp3",
+      "downloadable": true,
+      "author": "xkeril",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 12.175
+    },
+    {
+      "id": "openverse:9adf4692-fee4-47b7-ad3f-24f22073b085",
+      "provider": "openverse",
+      "title": "Tension riser",
+      "category": "fx.riser",
+      "url": "https://freesound.org/people/xkeril/sounds/609767",
+      "previewUrl": "https://cdn.freesound.org/previews/609/609767_13504080-hq.mp3",
+      "downloadable": true,
+      "author": "xkeril",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 12.437
+    },
+    {
+      "id": "openverse:a340589d-a944-4429-9ec7-d6cd4d0c2705",
+      "provider": "openverse",
+      "title": "Riser 3_Flicker.wav",
+      "category": "fx.riser",
+      "url": "https://freesound.org/people/Flick3r/sounds/45617",
+      "previewUrl": "https://cdn.freesound.org/previews/45/45617_508997-hq.mp3",
+      "downloadable": true,
+      "author": "Flick3r",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 13.508
+    },
+    {
+      "id": "openverse:418cfc6d-2d41-44f7-ae52-d7e4eb8f4b2a",
+      "provider": "openverse",
+      "title": "Dark riser",
+      "category": "fx.riser",
+      "url": "https://freesound.org/people/xkeril/sounds/609764",
+      "previewUrl": "https://cdn.freesound.org/previews/609/609764_13504080-hq.mp3",
+      "downloadable": true,
+      "author": "xkeril",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 12.162
+    },
+    {
+      "id": "openverse:d42cea96-c829-4c0b-ac25-9ce7d5e63013",
+      "provider": "openverse",
+      "title": "agressive Riser 126 bpm.wav",
+      "category": "fx.riser",
+      "url": "https://freesound.org/people/markus1982/sounds/264433",
+      "previewUrl": "https://cdn.freesound.org/previews/264/264433_2428730-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "markus1982",
+      "license": {
+        "id": "CC-BY-NC-3.0",
+        "name": "CC BY-NC 3.0",
+        "url": "https://creativecommons.org/licenses/by-nc/3.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "bpm": 126,
+      "durationSec": 24.766
     }
   ]
 }

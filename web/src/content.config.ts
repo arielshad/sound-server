@@ -38,4 +38,32 @@ const sampleCollections = defineCollection({
   }),
 });
 
-export const collections = { collections: sampleCollections };
+/**
+ * Guides (/guides/<slug>): answer-first articles for producers and AI
+ * assistants. `answer` is the short, quotable reply shown at the top of the
+ * page (and as the Article's abstract); `steps` makes it a HowTo; `faq` adds
+ * a FAQPage. Links in `searches` must be internal (/search?…).
+ */
+const guides = defineCollection({
+  loader: glob({ pattern: "*.md", base: "./src/content/guides" }),
+  schema: z.object({
+    title: z.string().min(10).max(70),
+    /** <title> when the H1 is too long for one (at most 55 characters + " · Sound Server"). */
+    seoTitle: z.string().min(10).max(55).optional(),
+    description: z.string().min(110).max(160),
+    answer: z.string().min(80).max(700),
+    section: z.enum(["Licensing", "Production", "AI agents"]),
+    kind: z.enum(["article", "howto"]).default("article"),
+    steps: z.array(z.object({ name: z.string(), text: z.string() })).min(3).optional(),
+    faq: z.array(z.object({ q: z.string().endsWith("?"), a: z.string().min(40).max(600) })).max(6).default([]),
+    searches: z.array(z.object({ label: z.string(), href: z.string().startsWith("/") })).default([]),
+    collections: z.array(z.string()).default([]),
+    related: z.array(z.string()).default([]),
+    cites: z.array(z.object({ name: z.string(), url: z.string().url() })).default([]),
+    published: z.coerce.date(),
+    updated: z.coerce.date(),
+    order: z.number(),
+  }),
+});
+
+export const collections = { collections: sampleCollections, guides };

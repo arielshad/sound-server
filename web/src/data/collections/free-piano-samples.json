@@ -6,7 +6,7 @@
       "keys"
     ]
   },
-  "updatedAt": "2026-10-23T04:44:58.070Z",
+  "updatedAt": "2026-10-23T09:41:58.745Z",
   "samples": [
     {
       "id": "openverse:2c51e4eb-dbe7-468c-ba6c-d1c85a1b71ae",
@@ -657,6 +657,188 @@
         "mp3"
       ],
       "durationSec": 108
+    },
+    {
+      "id": "strudel:piano/piano/0",
+      "provider": "strudel",
+      "title": "Salamander Grand Piano · piano A0 · 0",
+      "category": "keys",
+      "url": "https://github.com/felixroos/dough-samples/blob/main/piano/A0v8.mp3",
+      "previewUrl": "https://raw.githubusercontent.com/felixroos/dough-samples/main/piano/A0v8.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander Holm",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Outing-_Chinese_kids'_Piano_Song_-_Junjun's_edition_(selected_from_real_piano_lesson).ogg",
+      "provider": "wikimediacommons",
+      "title": "Outing- Chinese kids' Piano Song - Junjun's edition (selected from real piano lesson)",
+      "category": "keys",
+      "url": "https://commons.wikimedia.org/wiki/File:Outing-_Chinese_kids%27_Piano_Song_-_Junjun%27s_edition_(selected_from_real_piano_lesson).ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/41/Outing-_Chinese_kids%27_Piano_Song_-_Junjun%27s_edition_%28selected_from_real_piano_lesson%29.ogg/Outing-_Chinese_kids%27_Piano_Song_-_Junjun%27s_edition_%28selected_from_real_piano_lesson%29.ogg.mp3",
+      "downloadable": true,
+      "author": "Jason M. C., Han",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 81.196
+    },
+    {
+      "id": "strudel:piano/piano/1",
+      "provider": "strudel",
+      "title": "Salamander Grand Piano · piano C1 · 1",
+      "category": "keys",
+      "url": "https://github.com/felixroos/dough-samples/blob/main/piano/C1v8.mp3",
+      "previewUrl": "https://raw.githubusercontent.com/felixroos/dough-samples/main/piano/C1v8.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander Holm",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Cole_Porter’s_“I_Love_You”_-_JMC,_Han's_Piano_Edition.ogg",
+      "provider": "wikimediacommons",
+      "title": "Cole Porter’s “I Love You” - JMC, Han's Piano Edition",
+      "category": "keys",
+      "url": "https://commons.wikimedia.org/wiki/File:Cole_Porter%E2%80%99s_%E2%80%9CI_Love_You%E2%80%9D_-_JMC,_Han%27s_Piano_Edition.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/42/Cole_Porter%E2%80%99s_%E2%80%9CI_Love_You%E2%80%9D_-_JMC%2C_Han%27s_Piano_Edition.ogg/Cole_Porter%E2%80%99s_%E2%80%9CI_Love_You%E2%80%9D_-_JMC%2C_Han%27s_Piano_Edition.ogg.mp3",
+      "downloadable": true,
+      "author": "Jason M. C., Han",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 65.174
+    },
+    {
+      "id": "strudel:piano/piano/2",
+      "provider": "strudel",
+      "title": "Salamander Grand Piano · piano D#1 · 2",
+      "category": "keys",
+      "url": "https://github.com/felixroos/dough-samples/blob/main/piano/Ds1v8.mp3",
+      "previewUrl": "https://raw.githubusercontent.com/felixroos/dough-samples/main/piano/Ds1v8.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander Holm",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Piano-phrase.wav",
+      "provider": "wikimediacommons",
+      "title": "Piano-phrase",
+      "category": "keys",
+      "url": "https://commons.wikimedia.org/wiki/File:Piano-phrase.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/48/Piano-phrase.wav/Piano-phrase.wav.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "Xavier-Serra",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 3.846
+    },
+    {
+      "id": "strudel:piano/piano/3",
+      "provider": "strudel",
+      "title": "Salamander Grand Piano · piano F#1 · 3",
+      "category": "keys",
+      "url": "https://github.com/felixroos/dough-samples/blob/main/piano/Fs1v8.mp3",
+      "previewUrl": "https://raw.githubusercontent.com/felixroos/dough-samples/main/piano/Fs1v8.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander Holm",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Blue_Danube_(Exercise_and_variations-collections_in_piano)_JMC,_Han.ogg",
+      "provider": "wikimediacommons",
+      "title": "Blue Danube (Exercise and variations-collections in piano) JMC, Han",
+      "category": "keys",
+      "url": "https://commons.wikimedia.org/wiki/File:Blue_Danube_(Exercise_and_variations-collections_in_piano)_JMC,_Han.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/aa/Blue_Danube_%28Exercise_and_variations-collections_in_piano%29_JMC%2C_Han.ogg/Blue_Danube_%28Exercise_and_variations-collections_in_piano%29_JMC%2C_Han.ogg.mp3",
+      "downloadable": true,
+      "author": "Jason M. C., Han",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 438.679
     }
   ]
 }

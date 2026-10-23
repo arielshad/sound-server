@@ -1,0 +1,64 @@
+{
+  "slug": "free-guitar-loops",
+  "search": {
+    "q": "guitar loop",
+    "categories": [
+      "guitar"
+    ],
+    "forms": [
+      "loop"
+    ]
+  },
+  "updatedAt": "2026-10-23T09:40:16.725Z",
+  "samples": [
+    {
+      "id": "wikimediacommons:Audio_influence_of_phaser_placement_in_the_signal_chain_(before_guitar_amp,_in_effects_loop,_after_cab).ogg",
+      "provider": "wikimediacommons",
+      "title": "Audio influence of phaser placement in the signal chain (before guitar amp, in effects loop, after cab)",
+      "category": "guitar",
+      "url": "https://commons.wikimedia.org/wiki/File:Audio_influence_of_phaser_placement_in_the_signal_chain_(before_guitar_amp,_in_effects_loop,_after_cab).ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/72/Audio_influence_of_phaser_placement_in_the_signal_chain_%28before_guitar_amp%2C_in_effects_loop%2C_after_cab%29.ogg/Audio_influence_of_phaser_placement_in_the_signal_chain_%28before_guitar_amp%2C_in_effects_loop%2C_after_cab%29.ogg.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Skimel",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 49
+    },
+    {
+      "id": "wikimediacommons:Poppin_bubbles.wav",
+      "provider": "wikimediacommons",
+      "title": "Poppin bubbles",
+      "category": "guitar",
+      "url": "https://commons.wikimedia.org/wiki/File:Poppin_bubbles.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a4/Poppin_bubbles.wav/Poppin_bubbles.wav.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Nn88nn88",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 38.857
+    }
+  ]
+}

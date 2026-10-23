@@ -1,0 +1,561 @@
+{
+  "slug": "free-marimba-samples",
+  "search": {
+    "q": "marimba",
+    "categories": [
+      "mallets"
+    ]
+  },
+  "updatedAt": "2026-10-23T09:41:15.672Z",
+  "samples": [
+    {
+      "id": "wikimediacommons:Attraction_Marimba.ogg",
+      "provider": "wikimediacommons",
+      "title": "Attraction Marimba",
+      "category": "mallets",
+      "url": "https://commons.wikimedia.org/wiki/File:Attraction_Marimba.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9c/Attraction_Marimba.ogg/Attraction_Marimba.ogg.mp3",
+      "downloadable": true,
+      "author": "中国新闻社",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 14.048
+    },
+    {
+      "id": "strudel:vcsl/marimba/0",
+      "provider": "strudel",
+      "title": "VCSL · marimba B2 · 0",
+      "category": "mallets",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Idiophones/Struck%20Idiophones/Marimba/Marimba_hit_Outrigger_B2_soft_01.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Marimba/Marimba_hit_Outrigger_B2_soft_01.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Chiapanecas_marimba.ogg",
+      "provider": "wikimediacommons",
+      "title": "Chiapanecas marimba",
+      "category": "mallets",
+      "url": "https://commons.wikimedia.org/wiki/File:Chiapanecas_marimba.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b7/Chiapanecas_marimba.ogg/Chiapanecas_marimba.ogg.mp3",
+      "downloadable": true,
+      "author": "Musica: Bulmaro Lopez Fernandez. Letra: Juan Arozamena Sánchez.",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 169.803
+    },
+    {
+      "id": "strudel:vcsl/marimba/1",
+      "provider": "strudel",
+      "title": "VCSL · marimba B4 · 1",
+      "category": "mallets",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Idiophones/Struck%20Idiophones/Marimba/Marimba_hit_Outrigger_B4_soft_01.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Marimba/Marimba_hit_Outrigger_B4_soft_01.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Exemple_marimba.ogg",
+      "provider": "wikimediacommons",
+      "title": "Exemple marimba",
+      "category": "mallets",
+      "url": "https://commons.wikimedia.org/wiki/File:Exemple_marimba.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5d/Exemple_marimba.ogg/Exemple_marimba.ogg.mp3",
+      "downloadable": true,
+      "author": "Bigfall00",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 152.921
+    },
+    {
+      "id": "strudel:vcsl/marimba/2",
+      "provider": "strudel",
+      "title": "VCSL · marimba C2 · 2",
+      "category": "mallets",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Idiophones/Struck%20Idiophones/Marimba/Marimba_hit_Outrigger_C2_soft_01.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Marimba/Marimba_hit_Outrigger_C2_soft_01.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Ave_Marimba_(ISRC_USUAN1700024).mp3",
+      "provider": "wikimediacommons",
+      "title": "Ave Marimba (ISRC USUAN1700024)",
+      "category": "mallets",
+      "url": "https://commons.wikimedia.org/wiki/File:Ave_Marimba_(ISRC_USUAN1700024).mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Ave_Marimba_%28ISRC_USUAN1700024%29.mp3",
+      "downloadable": true,
+      "author": "Kevin MacLeod",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 169.77
+    },
+    {
+      "id": "strudel:vcsl/marimba/3",
+      "provider": "strudel",
+      "title": "VCSL · marimba C4 · 3",
+      "category": "mallets",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Idiophones/Struck%20Idiophones/Marimba/Marimba_hit_Outrigger_C4_soft_01.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Marimba/Marimba_hit_Outrigger_C4_soft_01.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:The_Marimba_Gang_(Antti_Luode).mp3",
+      "provider": "wikimediacommons",
+      "title": "The Marimba Gang (Antti Luode)",
+      "category": "mallets",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Marimba_Gang_(Antti_Luode).mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/The_Marimba_Gang_%28Antti_Luode%29.mp3",
+      "downloadable": true,
+      "author": "Antti Luode",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 185.887
+    },
+    {
+      "id": "strudel:vcsl/marimba/4",
+      "provider": "strudel",
+      "title": "VCSL · marimba C6 · 4",
+      "category": "mallets",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Idiophones/Struck%20Idiophones/Marimba/Marimba_hit_Outrigger_C6_soft_01.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Marimba/Marimba_hit_Outrigger_C6_soft_01.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:2._Entrada_Mango_(marimba).mp3",
+      "provider": "wikimediacommons",
+      "title": "2. Entrada Mango (marimba)",
+      "category": "mallets",
+      "url": "https://commons.wikimedia.org/wiki/File:2._Entrada_Mango_(marimba).mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/2._Entrada_Mango_%28marimba%29.mp3",
+      "downloadable": true,
+      "author": "Luis Alvaz",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 3.735
+    },
+    {
+      "id": "strudel:vcsl/marimba/5",
+      "provider": "strudel",
+      "title": "VCSL · marimba F1 · 5",
+      "category": "mallets",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Idiophones/Struck%20Idiophones/Marimba/Marimba_hit_Outrigger_F1_soft_01.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Marimba/Marimba_hit_Outrigger_F1_soft_01.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Daniel_Birch_-_07_-_Marimba_On_The_Loose.ogg",
+      "provider": "wikimediacommons",
+      "title": "Daniel Birch - 07 - Marimba On The Loose",
+      "category": "mallets",
+      "url": "https://commons.wikimedia.org/wiki/File:Daniel_Birch_-_07_-_Marimba_On_The_Loose.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/40/Daniel_Birch_-_07_-_Marimba_On_The_Loose.ogg/Daniel_Birch_-_07_-_Marimba_On_The_Loose.ogg.mp3",
+      "downloadable": true,
+      "author": "Daniel Birch",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 64.824
+    },
+    {
+      "id": "strudel:vcsl/marimba/6",
+      "provider": "strudel",
+      "title": "VCSL · marimba F3 · 6",
+      "category": "mallets",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Idiophones/Struck%20Idiophones/Marimba/Marimba_hit_Outrigger_F3_soft_01.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Marimba/Marimba_hit_Outrigger_F3_soft_01.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:vcsl/marimba/7",
+      "provider": "strudel",
+      "title": "VCSL · marimba F5 · 7",
+      "category": "mallets",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Idiophones/Struck%20Idiophones/Marimba/Marimba_hit_Outrigger_F5_soft_01.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Marimba/Marimba_hit_Outrigger_F5_soft_01.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:vcsl/marimba/8",
+      "provider": "strudel",
+      "title": "VCSL · marimba G2 · 8",
+      "category": "mallets",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Idiophones/Struck%20Idiophones/Marimba/Marimba_hit_Outrigger_G2_soft_01.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Marimba/Marimba_hit_Outrigger_G2_soft_01.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:vcsl/marimba/9",
+      "provider": "strudel",
+      "title": "VCSL · marimba G4 · 9",
+      "category": "mallets",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Idiophones/Struck%20Idiophones/Marimba/Marimba_hit_Outrigger_G4_soft_01.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Idiophones/Struck%20Idiophones/Marimba/Marimba_hit_Outrigger_G4_soft_01.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Dm_all_notes.ogg",
+      "provider": "wikimediacommons",
+      "title": "Dm all notes",
+      "category": "mallets",
+      "url": "https://commons.wikimedia.org/wiki/File:Dm_all_notes.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b3/Dm_all_notes.ogg/Dm_all_notes.ogg.mp3",
+      "downloadable": true,
+      "author": "Фіксер",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "key": "D minor",
+      "durationSec": 14.5
+    },
+    {
+      "id": "wikimediacommons:Dm_otonality_4.ogg",
+      "provider": "wikimediacommons",
+      "title": "Dm otonality 4",
+      "category": "mallets",
+      "url": "https://commons.wikimedia.org/wiki/File:Dm_otonality_4.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/96/Dm_otonality_4.ogg/Dm_otonality_4.ogg.mp3",
+      "downloadable": true,
+      "author": "Фіксер",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "key": "D minor",
+      "durationSec": 3
+    },
+    {
+      "id": "wikimediacommons:Dm_otonality_3.ogg",
+      "provider": "wikimediacommons",
+      "title": "Dm otonality 3",
+      "category": "mallets",
+      "url": "https://commons.wikimedia.org/wiki/File:Dm_otonality_3.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/76/Dm_otonality_3.ogg/Dm_otonality_3.ogg.mp3",
+      "downloadable": true,
+      "author": "Фіксер",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "key": "D minor",
+      "durationSec": 3
+    },
+    {
+      "id": "wikimediacommons:Dm_otonality_5.ogg",
+      "provider": "wikimediacommons",
+      "title": "Dm otonality 5",
+      "category": "mallets",
+      "url": "https://commons.wikimedia.org/wiki/File:Dm_otonality_5.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e6/Dm_otonality_5.ogg/Dm_otonality_5.ogg.mp3",
+      "downloadable": true,
+      "author": "Фіксер",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "key": "D minor",
+      "durationSec": 3
+    },
+    {
+      "id": "wikimediacommons:Dm_utonality_4.ogg",
+      "provider": "wikimediacommons",
+      "title": "Dm utonality 4",
+      "category": "mallets",
+      "url": "https://commons.wikimedia.org/wiki/File:Dm_utonality_4.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/14/Dm_utonality_4.ogg/Dm_utonality_4.ogg.mp3",
+      "downloadable": true,
+      "author": "Фіксер",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "key": "D minor",
+      "durationSec": 3
+    },
+    {
+      "id": "wikimediacommons:Dm_otonality_2.ogg",
+      "provider": "wikimediacommons",
+      "title": "Dm otonality 2",
+      "category": "mallets",
+      "url": "https://commons.wikimedia.org/wiki/File:Dm_otonality_2.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a0/Dm_otonality_2.ogg/Dm_otonality_2.ogg.mp3",
+      "downloadable": true,
+      "author": "Фіксер",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "key": "D minor",
+      "durationSec": 3
+    },
+    {
+      "id": "wikimediacommons:Dm_utonality_1.ogg",
+      "provider": "wikimediacommons",
+      "title": "Dm utonality 1",
+      "category": "mallets",
+      "url": "https://commons.wikimedia.org/wiki/File:Dm_utonality_1.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5a/Dm_utonality_1.ogg/Dm_utonality_1.ogg.mp3",
+      "downloadable": true,
+      "author": "Фіксер",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "key": "D minor",
+      "durationSec": 3
+    }
+  ]
+}

@@ -1,0 +1,642 @@
+{
+  "slug": "free-string-samples",
+  "search": {
+    "q": "strings",
+    "categories": [
+      "strings"
+    ]
+  },
+  "updatedAt": "2026-10-23T09:44:07.773Z",
+  "samples": [
+    {
+      "id": "wikimediacommons:Inleiding_Festival_Strings_Lucerne_(audio).mp3",
+      "provider": "wikimediacommons",
+      "title": "Inleiding Festival Strings Lucerne (audio)",
+      "category": "strings",
+      "url": "https://commons.wikimedia.org/wiki/File:Inleiding_Festival_Strings_Lucerne_(audio).mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Inleiding_Festival_Strings_Lucerne_%28audio%29.mp3",
+      "downloadable": true,
+      "author": "deSingel",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 1913.361
+    },
+    {
+      "id": "wikimediacommons:Canon_(2004)_-_Strolling_Strings_-_United_States_Air_Force_Band.mp3",
+      "provider": "wikimediacommons",
+      "title": "Canon (2004) - Strolling Strings - United States Air Force Band",
+      "category": "strings",
+      "url": "https://commons.wikimedia.org/wiki/File:Canon_(2004)_-_Strolling_Strings_-_United_States_Air_Force_Band.mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Canon_%282004%29_-_Strolling_Strings_-_United_States_Air_Force_Band.mp3",
+      "downloadable": true,
+      "author": "Composition: Johann Pachelbel; Arrangement: Frank Hudson; Performance: United States Air Force Band, Strolling Strings; ",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 228.812
+    },
+    {
+      "id": "strudel:vcsl/harp/0",
+      "provider": "strudel",
+      "title": "VCSL · harp A2 · 0",
+      "category": "strings",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_A2_mf1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_A2_mf1.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Amazing_Grace_(2004)_-_Strolling_Strings_-_United_States_Air_Force_Band.mp3",
+      "provider": "wikimediacommons",
+      "title": "Amazing Grace (2004) - Strolling Strings - United States Air Force Band",
+      "category": "strings",
+      "url": "https://commons.wikimedia.org/wiki/File:Amazing_Grace_(2004)_-_Strolling_Strings_-_United_States_Air_Force_Band.mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Amazing_Grace_%282004%29_-_Strolling_Strings_-_United_States_Air_Force_Band.mp3",
+      "downloadable": true,
+      "author": "Composition: traditional; Arrangement: Cleveland Chandler; Performance: United States Air Force Band, Strolling Strings;",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 125.027
+    },
+    {
+      "id": "wikimediacommons:Serenade_for_Strings_-mvt-1-_Elgar.ogg",
+      "provider": "wikimediacommons",
+      "title": "Serenade for Strings -mvt-1- Elgar",
+      "category": "strings",
+      "url": "https://commons.wikimedia.org/wiki/File:Serenade_for_Strings_-mvt-1-_Elgar.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e5/Serenade_for_Strings_-mvt-1-_Elgar.ogg/Serenade_for_Strings_-mvt-1-_Elgar.ogg.mp3",
+      "downloadable": true,
+      "author": "Edward Elgar, performed by the United States Army Strings",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 757.002
+    },
+    {
+      "id": "strudel:vcsl/harp/1",
+      "provider": "strudel",
+      "title": "VCSL · harp A4 · 1",
+      "category": "strings",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_A4_mf1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_A4_mf1.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Allegro_in_C_Major_-_Air_Force_Strings_-_United_States_Air_Force_Band.mp3",
+      "provider": "wikimediacommons",
+      "title": "Allegro in C Major - Air Force Strings - United States Air Force Band",
+      "category": "strings",
+      "url": "https://commons.wikimedia.org/wiki/File:Allegro_in_C_Major_-_Air_Force_Strings_-_United_States_Air_Force_Band.mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Allegro_in_C_Major_-_Air_Force_Strings_-_United_States_Air_Force_Band.mp3",
+      "downloadable": true,
+      "author": "Composition: Gaetano Donizetti; Performance: United States Air Force Band, Air Force Strings; Recording: United States A",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 413.497
+    },
+    {
+      "id": "strudel:vcsl/harp/2",
+      "provider": "strudel",
+      "title": "VCSL · harp A6 · 2",
+      "category": "strings",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_A6_mf1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_A6_mf1.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:'Rule,_Britannia!'_(United_States_Army_Strings).oga",
+      "provider": "wikimediacommons",
+      "title": "'Rule, Britannia!' (United States Army Strings)",
+      "category": "strings",
+      "url": "https://commons.wikimedia.org/wiki/File:%27Rule,_Britannia!%27_(United_States_Army_Strings).oga",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/45/%27Rule%2C_Britannia%21%27_%28United_States_Army_Strings%29.oga/%27Rule%2C_Britannia%21%27_%28United_States_Army_Strings%29.oga.mp3",
+      "downloadable": true,
+      "author": "United States Army Strings",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 76.71
+    },
+    {
+      "id": "strudel:vcsl/harp/3",
+      "provider": "strudel",
+      "title": "VCSL · harp B1 · 3",
+      "category": "strings",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_B1_mf1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_B1_mf1.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Miserlou_-_Strolling_Strings_-_United_States_Air_Force_Band.mp3",
+      "provider": "wikimediacommons",
+      "title": "Miserlou - Strolling Strings - United States Air Force Band",
+      "category": "strings",
+      "url": "https://commons.wikimedia.org/wiki/File:Miserlou_-_Strolling_Strings_-_United_States_Air_Force_Band.mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/Miserlou_-_Strolling_Strings_-_United_States_Air_Force_Band.mp3",
+      "downloadable": true,
+      "author": "Composition: traditional; Arrangement: Robert Walters; Performance: United States Air Force Band, Strolling Strings; Rec",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 145.22
+    },
+    {
+      "id": "strudel:vcsl/harp/4",
+      "provider": "strudel",
+      "title": "VCSL · harp B3 · 4",
+      "category": "strings",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_B3_mf1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_B3_mf1.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Espana_-_Strolling_Strings_-_United_States_Air_Force_Band.mp3",
+      "provider": "wikimediacommons",
+      "title": "Espana - Strolling Strings - United States Air Force Band",
+      "category": "strings",
+      "url": "https://commons.wikimedia.org/wiki/File:Espana_-_Strolling_Strings_-_United_States_Air_Force_Band.mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Espana_-_Strolling_Strings_-_United_States_Air_Force_Band.mp3",
+      "downloadable": true,
+      "author": "Composition: Emmanuel Chabrier; Performance: United States Air Force Band, Strolling Strings; Recording: United States A",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 175.398
+    },
+    {
+      "id": "strudel:vcsl/harp/5",
+      "provider": "strudel",
+      "title": "VCSL · harp B5 · 5",
+      "category": "strings",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_B5_mf1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_B5_mf1.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:La_Danza_-_Strolling_Strings_-_United_States_Air_Force_Band.mp3",
+      "provider": "wikimediacommons",
+      "title": "La Danza - Strolling Strings - United States Air Force Band",
+      "category": "strings",
+      "url": "https://commons.wikimedia.org/wiki/File:La_Danza_-_Strolling_Strings_-_United_States_Air_Force_Band.mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/La_Danza_-_Strolling_Strings_-_United_States_Air_Force_Band.mp3",
+      "downloadable": true,
+      "author": "Composition: Gioachino Rossini; Performance: United States Air Force Band, Strolling Strings; Recording: United States A",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 170.856
+    },
+    {
+      "id": "strudel:vcsl/harp/6",
+      "provider": "strudel",
+      "title": "VCSL · harp B6 · 6",
+      "category": "strings",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_B6_mf1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_B6_mf1.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Tarantella_-_Air_Force_Strings_-_United_States_Air_Force_Band.mp3",
+      "provider": "wikimediacommons",
+      "title": "Tarantella - Air Force Strings - United States Air Force Band",
+      "category": "strings",
+      "url": "https://commons.wikimedia.org/wiki/File:Tarantella_-_Air_Force_Strings_-_United_States_Air_Force_Band.mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Tarantella_-_Air_Force_Strings_-_United_States_Air_Force_Band.mp3",
+      "downloadable": true,
+      "author": "Composition: traditional; Arrangement: William Popp; Performance: United States Air Force Band, Air Force Strings; Recor",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 101.925
+    },
+    {
+      "id": "strudel:vcsl/harp/7",
+      "provider": "strudel",
+      "title": "VCSL · harp C3 · 7",
+      "category": "strings",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_C3_mf3.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_C3_mf3.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Strings_G-Major_Scale.ogg",
+      "provider": "wikimediacommons",
+      "title": "Strings G-Major Scale",
+      "category": "strings",
+      "url": "https://commons.wikimedia.org/wiki/File:Strings_G-Major_Scale.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d6/Strings_G-Major_Scale.ogg/Strings_G-Major_Scale.ogg.mp3",
+      "downloadable": true,
+      "author": "SoylentGreen",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 8.557
+    },
+    {
+      "id": "strudel:vcsl/harp/8",
+      "provider": "strudel",
+      "title": "VCSL · harp C5 · 8",
+      "category": "strings",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_C5_mf1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_C5_mf1.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Air_-_Air_Force_Strings_-_United_States_Air_Force_Band.mp3",
+      "provider": "wikimediacommons",
+      "title": "Air - Air Force Strings - United States Air Force Band",
+      "category": "strings",
+      "url": "https://commons.wikimedia.org/wiki/File:Air_-_Air_Force_Strings_-_United_States_Air_Force_Band.mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Air_-_Air_Force_Strings_-_United_States_Air_Force_Band.mp3",
+      "downloadable": true,
+      "author": "Composition: Johann Sebastian Bach; Performance: United States Air Force Band, Air Force Strings; Recording: United Stat",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 183.306
+    },
+    {
+      "id": "strudel:vcsl/harp/9",
+      "provider": "strudel",
+      "title": "VCSL · harp D2 · 9",
+      "category": "strings",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_D2_mf1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_D2_mf1.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Flight_of_the_Bumblebee_-_Strolling_Strings_-_United_States_Air_Force_Band.mp3",
+      "provider": "wikimediacommons",
+      "title": "Flight of the Bumblebee - Strolling Strings - United States Air Force Band",
+      "category": "strings",
+      "url": "https://commons.wikimedia.org/wiki/File:Flight_of_the_Bumblebee_-_Strolling_Strings_-_United_States_Air_Force_Band.mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Flight_of_the_Bumblebee_-_Strolling_Strings_-_United_States_Air_Force_Band.mp3",
+      "downloadable": true,
+      "author": "Composition: Nikolai Rimsky-Korsakov; Performance: United States Air Force Band, Strolling Strings; Recording: United St",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 81.62
+    },
+    {
+      "id": "strudel:vcsl/harp/10",
+      "provider": "strudel",
+      "title": "VCSL · harp D4 · 10",
+      "category": "strings",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_D4_mf1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_D4_mf1.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Invention_No._8_-_Strolling_Strings_-_United_States_Air_Force_Band.mp3",
+      "provider": "wikimediacommons",
+      "title": "Invention No. 8 - Strolling Strings - United States Air Force Band",
+      "category": "strings",
+      "url": "https://commons.wikimedia.org/wiki/File:Invention_No._8_-_Strolling_Strings_-_United_States_Air_Force_Band.mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Invention_No._8_-_Strolling_Strings_-_United_States_Air_Force_Band.mp3",
+      "downloadable": true,
+      "author": "Composition: Johann Sebastian Bach; Performance: United States Air Force Band, Strolling Strings; Recording: United Stat",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 61.654
+    },
+    {
+      "id": "strudel:vcsl/harp/11",
+      "provider": "strudel",
+      "title": "VCSL · harp D6 · 11",
+      "category": "strings",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_D6_mf1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_D6_mf1.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:vcsl/harp/12",
+      "provider": "strudel",
+      "title": "VCSL · harp D7 · 12",
+      "category": "strings",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_D7_p1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_D7_p1.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:vcsl/harp/13",
+      "provider": "strudel",
+      "title": "VCSL · harp E1 · 13",
+      "category": "strings",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_E1_f1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Chordophones/Composite%20Chordophones/Concert%20Harp/KSHarp_E1_f1.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,670 @@
+{
+  "slug": "free-ride-cymbal-samples",
+  "search": {
+    "q": "ride",
+    "categories": [
+      "drums.cymbal.ride"
+    ]
+  },
+  "updatedAt": "2026-10-23T09:42:45.994Z",
+  "samples": [
+    {
+      "id": "wikimediacommons:Jazz_ride_pattern.ogg",
+      "provider": "wikimediacommons",
+      "title": "Jazz ride pattern",
+      "category": "drums.cymbal.ride",
+      "url": "https://commons.wikimedia.org/wiki/File:Jazz_ride_pattern.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7b/Jazz_ride_pattern.ogg/Jazz_ride_pattern.ogg.mp3",
+      "downloadable": true,
+      "author": "Kakofonous",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 12.769
+    },
+    {
+      "id": "opengameart:riverside-ride",
+      "provider": "opengameart",
+      "title": "Riverside Ride",
+      "category": "drums.cymbal.ride",
+      "url": "https://opengameart.org/content/riverside-ride",
+      "previewUrl": "https://opengameart.org/sites/default/files/Riverside%20Ride.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/Riverside%20Ride.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "wikimediacommons:Ride_of_the_Valkyries.ogg",
+      "provider": "wikimediacommons",
+      "title": "Ride of the Valkyries",
+      "category": "drums.cymbal.ride",
+      "url": "https://commons.wikimedia.org/wiki/File:Ride_of_the_Valkyries.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/91/Ride_of_the_Valkyries.ogg/Ride_of_the_Valkyries.ogg.mp3",
+      "downloadable": true,
+      "author": "Conducted by Philip Milman ► https://pmmusic.pro/ Funded By Ludwig ► https://www.youtube.com/c/Ludwigahgren Schlatt ► ht",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 139.636
+    },
+    {
+      "id": "opengameart:easy-ride",
+      "provider": "opengameart",
+      "title": "Easy Ride",
+      "category": "drums.cymbal.ride",
+      "url": "https://opengameart.org/content/easy-ride",
+      "previewUrl": "https://opengameart.org/sites/default/files/Easy%20Ride.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/Easy%20Ride.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "wikimediacommons:Ride_cymbal.ogg",
+      "provider": "wikimediacommons",
+      "title": "Ride cymbal",
+      "category": "drums.cymbal.ride",
+      "url": "https://commons.wikimedia.org/wiki/File:Ride_cymbal.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/be/Ride_cymbal.ogg/Ride_cymbal.ogg.mp3",
+      "downloadable": true,
+      "author": "Clngre",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 5.967
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AkaiLinn_rd/0",
+      "provider": "strudel",
+      "title": "Akai Linn · rd · 0",
+      "category": "drums.cymbal.ride",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AkaiLinn/akailinn-rd/Ride.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AkaiLinn/akailinn-rd/Ride.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "opengameart:joy-ride",
+      "provider": "opengameart",
+      "title": "Joy Ride",
+      "category": "drums.cymbal.ride",
+      "url": "https://opengameart.org/content/joy-ride",
+      "previewUrl": "https://opengameart.org/sites/default/files/Joy%20Ride%20.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/Joy%20Ride%20.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "wikimediacommons:Inverted_ride_pattern.ogg",
+      "provider": "wikimediacommons",
+      "title": "Inverted ride pattern",
+      "category": "drums.cymbal.ride",
+      "url": "https://commons.wikimedia.org/wiki/File:Inverted_ride_pattern.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/63/Inverted_ride_pattern.ogg/Inverted_ride_pattern.ogg.mp3",
+      "downloadable": true,
+      "author": "Kakofonous",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 12.269
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AkaiMPC60_rd/0",
+      "provider": "strudel",
+      "title": "Akai MPC60 · rd · 0",
+      "category": "drums.cymbal.ride",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AkaiMPC60/akaimpc60-rd/Ride.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AkaiMPC60/akaimpc60-rd/Ride.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "opengameart:the-ride",
+      "provider": "opengameart",
+      "title": "The Ride",
+      "category": "drums.cymbal.ride",
+      "url": "https://opengameart.org/content/the-ride",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/TheRide.ogg.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/TheRide.ogg.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "wikimediacommons:Richard_Wagner_-_Ride_of_the_Valkyries.ogg",
+      "provider": "wikimediacommons",
+      "title": "Richard Wagner - Ride of the Valkyries",
+      "category": "drums.cymbal.ride",
+      "url": "https://commons.wikimedia.org/wiki/File:Richard_Wagner_-_Ride_of_the_Valkyries.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/29/Richard_Wagner_-_Ride_of_the_Valkyries.ogg/Richard_Wagner_-_Ride_of_the_Valkyries.ogg.mp3",
+      "downloadable": true,
+      "author": "Richard Wagner (1813–1883)",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 257.675
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AkaiXR10_rd/0",
+      "provider": "strudel",
+      "title": "Akai XR10 · rd · 0",
+      "category": "drums.cymbal.ride",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AkaiXR10/akaixr10-rd/Ride.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AkaiXR10/akaixr10-rd/Ride.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Sally_Ride_(As_Told_By_NASA_Chief_Scientist_Dr._Ellen_Stofan).ogg",
+      "provider": "wikimediacommons",
+      "title": "Sally Ride (As Told By NASA Chief Scientist Dr. Ellen Stofan)",
+      "category": "drums.cymbal.ride",
+      "url": "https://commons.wikimedia.org/wiki/File:Sally_Ride_(As_Told_By_NASA_Chief_Scientist_Dr._Ellen_Stofan).ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/13/Sally_Ride_%28As_Told_By_NASA_Chief_Scientist_Dr._Ellen_Stofan%29.ogg/Sally_Ride_%28As_Told_By_NASA_Chief_Scientist_Dr._Ellen_Stofan%29.ogg.mp3",
+      "downloadable": true,
+      "author": "Megan Smith, Ellen Stofan and Jo Handelsman",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 53.64
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AlesisSR16_rd/0",
+      "provider": "strudel",
+      "title": "Alesis SR-16 · rd · 0",
+      "category": "drums.cymbal.ride",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AlesisSR16/alesissr16-rd/Ride-01.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AlesisSR16/alesissr16-rd/Ride-01.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Light_ride_(Gravity_Sound).wav",
+      "provider": "wikimediacommons",
+      "title": "Light ride (Gravity Sound)",
+      "category": "drums.cymbal.ride",
+      "url": "https://commons.wikimedia.org/wiki/File:Light_ride_(Gravity_Sound).wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/47/Light_ride_%28Gravity_Sound%29.wav/Light_ride_%28Gravity_Sound%29.wav.mp3",
+      "downloadable": true,
+      "author": "Gravity Sound",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 10.667
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AlesisSR16_rd/1",
+      "provider": "strudel",
+      "title": "Alesis SR-16 · rd · 1",
+      "category": "drums.cymbal.ride",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AlesisSR16/alesissr16-rd/Ride-02.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AlesisSR16/alesissr16-rd/Ride-02.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Swinging_Ride_(Antti_Luode).mp3",
+      "provider": "wikimediacommons",
+      "title": "Swinging Ride (Antti Luode)",
+      "category": "drums.cymbal.ride",
+      "url": "https://commons.wikimedia.org/wiki/File:Swinging_Ride_(Antti_Luode).mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Swinging_Ride_%28Antti_Luode%29.mp3",
+      "downloadable": true,
+      "author": "Antti Luode",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 248.163
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AlesisSR16_rd/2",
+      "provider": "strudel",
+      "title": "Alesis SR-16 · rd · 2",
+      "category": "drums.cymbal.ride",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AlesisSR16/alesissr16-rd/Ride-03.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AlesisSR16/alesissr16-rd/Ride-03.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Swinging_Ride_2_(Antti_Luode).mp3",
+      "provider": "wikimediacommons",
+      "title": "Swinging Ride 2 (Antti Luode)",
+      "category": "drums.cymbal.ride",
+      "url": "https://commons.wikimedia.org/wiki/File:Swinging_Ride_2_(Antti_Luode).mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Swinging_Ride_2_%28Antti_Luode%29.mp3",
+      "downloadable": true,
+      "author": "Antti Luode",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 256.836
+    },
+    {
+      "id": "strudel:tidal-drum-machines/BossDR110_rd/0",
+      "provider": "strudel",
+      "title": "Boss DR-110 · rd · 0",
+      "category": "drums.cymbal.ride",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/BossDR110/bossdr110-rd/Ride.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/BossDR110/bossdr110-rd/Ride.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Light_ride_2_(Gravity_Sound).wav",
+      "provider": "wikimediacommons",
+      "title": "Light ride 2 (Gravity Sound)",
+      "category": "drums.cymbal.ride",
+      "url": "https://commons.wikimedia.org/wiki/File:Light_ride_2_(Gravity_Sound).wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/25/Light_ride_2_%28Gravity_Sound%29.wav/Light_ride_2_%28Gravity_Sound%29.wav.mp3",
+      "downloadable": true,
+      "author": "Gravity Sound",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 10.667
+    },
+    {
+      "id": "strudel:tidal-drum-machines/BossDR220_rd/0",
+      "provider": "strudel",
+      "title": "Boss DR-220 · rd · 0",
+      "category": "drums.cymbal.ride",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/BossDR220/bossdr220-rd/Ride.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/BossDR220/bossdr220-rd/Ride.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Richard_Wagner_-_Ride_of_the_Valkyries_original.ogg",
+      "provider": "wikimediacommons",
+      "title": "Richard Wagner - Ride of the Valkyries original",
+      "category": "drums.cymbal.ride",
+      "url": "https://commons.wikimedia.org/wiki/File:Richard_Wagner_-_Ride_of_the_Valkyries_original.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ad/Richard_Wagner_-_Ride_of_the_Valkyries_original.ogg/Richard_Wagner_-_Ride_of_the_Valkyries_original.ogg.mp3",
+      "downloadable": true,
+      "author": "Richard Wagner (1813-1883)",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 257.881
+    },
+    {
+      "id": "strudel:tidal-drum-machines/BossDR550_rd/0",
+      "provider": "strudel",
+      "title": "Boss DR-550 · rd · 0",
+      "category": "drums.cymbal.ride",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/BossDR550/bossdr550-rd/Ride-01.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/BossDR550/bossdr550-rd/Ride-01.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Ride_cymbal_bell.ogg",
+      "provider": "wikimediacommons",
+      "title": "Ride cymbal bell",
+      "category": "drums.cymbal.ride",
+      "url": "https://commons.wikimedia.org/wiki/File:Ride_cymbal_bell.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b7/Ride_cymbal_bell.ogg/Ride_cymbal_bell.ogg.mp3",
+      "downloadable": true,
+      "author": "Clngre",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 6.281
+    },
+    {
+      "id": "strudel:tidal-drum-machines/BossDR550_rd/1",
+      "provider": "strudel",
+      "title": "Boss DR-550 · rd · 1",
+      "category": "drums.cymbal.ride",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/BossDR550/bossdr550-rd/Ride-02.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/BossDR550/bossdr550-rd/Ride-02.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Zero-project_-_07_-_The_ride_of_the_Dark_Knight.ogg",
+      "provider": "wikimediacommons",
+      "title": "Zero-project - 07 - The ride of the Dark Knight",
+      "category": "drums.cymbal.ride",
+      "url": "https://commons.wikimedia.org/wiki/File:Zero-project_-_07_-_The_ride_of_the_Dark_Knight.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bf/Zero-project_-_07_-_The_ride_of_the_Dark_Knight.ogg/Zero-project_-_07_-_The_ride_of_the_Dark_Knight.ogg.mp3",
+      "downloadable": true,
+      "author": "zero-project",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 187.16
+    },
+    {
+      "id": "wikimediacommons:Rock_beat_ride_cymbal.ogg",
+      "provider": "wikimediacommons",
+      "title": "Rock beat ride cymbal",
+      "category": "drums.cymbal.ride",
+      "url": "https://commons.wikimedia.org/wiki/File:Rock_beat_ride_cymbal.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/74/Rock_beat_ride_cymbal.ogg/Rock_beat_ride_cymbal.ogg.mp3",
+      "downloadable": true,
+      "author": "Clngre",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 7.654
+    },
+    {
+      "id": "strudel:tidal-drum-machines/CasioRZ1_rd/0",
+      "provider": "strudel",
+      "title": "Casio RZ-1 · rd · 0",
+      "category": "drums.cymbal.ride",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/CasioRZ1/casiorz1-rd/Hat%20Open.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/CasioRZ1/casiorz1-rd/Hat%20Open.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:tidal-drum-machines/CasioRZ1_rd/1",
+      "provider": "strudel",
+      "title": "Casio RZ-1 · rd · 1",
+      "category": "drums.cymbal.ride",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/CasioRZ1/casiorz1-rd/Ride.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/CasioRZ1/casiorz1-rd/Ride.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:tidal-drum-machines/EmuSP12_rd/0",
+      "provider": "strudel",
+      "title": "E-mu SP-12 · rd · 0",
+      "category": "drums.cymbal.ride",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/EmuSP12/emusp12-rd/Ride.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/EmuSP12/emusp12-rd/Ride.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:tidal-drum-machines/KorgKRZ_rd/0",
+      "provider": "strudel",
+      "title": "Korg KRZ · rd · 0",
+      "category": "drums.cymbal.ride",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/KorgKRZ/korgkrz-rd/Ride.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/KorgKRZ/korgkrz-rd/Ride.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    }
+  ]
+}

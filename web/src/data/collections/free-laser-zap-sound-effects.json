@@ -6,7 +6,7 @@
       "fx.zap"
     ]
   },
-  "updatedAt": "2026-10-23T04:44:51.253Z",
+  "updatedAt": "2026-10-23T09:40:33.463Z",
   "samples": [
     {
       "id": "openverse:6fec77a1-f086-4bba-a4ae-77805c9e51e2",
@@ -375,6 +375,69 @@
         "wav"
       ],
       "durationSec": 2.124
+    },
+    {
+      "id": "strudel:dough-fox/flazer/0",
+      "provider": "strudel",
+      "title": "Dough-Fox (FoxDot samples) · flazer · 0",
+      "category": "fx.zap",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Fox/blob/main/flazer/2_lazer.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Fox/main/flazer/2_lazer.wav",
+      "downloadable": true,
+      "author": "FoxDot (Ryan Kirkbride)",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:dough-fox/flazer/1",
+      "provider": "strudel",
+      "title": "Dough-Fox (FoxDot samples) · flazer · 1",
+      "category": "fx.zap",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Fox/blob/main/flazer/0_lazer.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Fox/main/flazer/0_lazer.wav",
+      "downloadable": true,
+      "author": "FoxDot (Ryan Kirkbride)",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:dough-fox/flazer/2",
+      "provider": "strudel",
+      "title": "Dough-Fox (FoxDot samples) · flazer · 2",
+      "category": "fx.zap",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Fox/blob/main/flazer/1_lazer.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Fox/main/flazer/1_lazer.wav",
+      "downloadable": true,
+      "author": "FoxDot (Ryan Kirkbride)",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
     }
   ]
 }

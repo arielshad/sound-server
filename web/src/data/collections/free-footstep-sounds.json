@@ -1,0 +1,585 @@
+{
+  "slug": "free-footstep-sounds",
+  "search": {
+    "q": "footsteps",
+    "categories": [
+      "foley"
+    ]
+  },
+  "updatedAt": "2026-10-23T09:39:14.263Z",
+  "samples": [
+    {
+      "id": "wikimediacommons:Footstep_on_Gravel_(Gravity_Sound).mp3",
+      "provider": "wikimediacommons",
+      "title": "Footstep on Gravel (Gravity Sound)",
+      "category": "foley",
+      "url": "https://commons.wikimedia.org/wiki/File:Footstep_on_Gravel_(Gravity_Sound).mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Footstep_on_Gravel_%28Gravity_Sound%29.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Gravity Sound",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 0.575
+    },
+    {
+      "id": "soundbible:2057-Footsteps-On-Cement",
+      "provider": "soundbible",
+      "title": "Footsteps On Cement",
+      "category": "foley",
+      "url": "https://soundbible.com/2057-Footsteps-On-Cement.html",
+      "previewUrl": "https://soundbible.com/mp3/Footsteps_on_Cement-Tim_Fryer-870410055.mp3",
+      "downloadable": true,
+      "author": "Tim Fryer",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "orangefreesounds:58723",
+      "provider": "orangefreesounds",
+      "title": "Crunchy Frozen Ground Footsteps Sound Effect",
+      "category": "foley",
+      "url": "https://orangefreesounds.com/crunchy-frozen-ground-footsteps-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/10/Crunchy-frozen-ground-footsteps-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 14
+    },
+    {
+      "id": "opengameart:footsteps",
+      "provider": "opengameart",
+      "title": "Footsteps",
+      "category": "foley",
+      "url": "https://opengameart.org/content/footsteps",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/Footsteps.wav.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/Footsteps.wav.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "soundbible:911-Footsteps",
+      "provider": "soundbible",
+      "title": "Footsteps",
+      "category": "foley",
+      "url": "https://soundbible.com/911-Footsteps.html",
+      "previewUrl": "https://soundbible.com/mp3/Footsteps-SoundBible.com-534261997.mp3",
+      "downloadable": true,
+      "author": "Mike Koenig",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Creepy_footsteps_and_screaming_and_growl.wav",
+      "provider": "wikimediacommons",
+      "title": "Creepy footsteps and screaming and growl",
+      "category": "foley",
+      "url": "https://commons.wikimedia.org/wiki/File:Creepy_footsteps_and_screaming_and_growl.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/aa/Creepy_footsteps_and_screaming_and_growl.wav/Creepy_footsteps_and_screaming_and_growl.wav.mp3",
+      "downloadable": true,
+      "author": "Edisonisthebest",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 17.152
+    },
+    {
+      "id": "orangefreesounds:58674",
+      "provider": "orangefreesounds",
+      "title": "Deep Heavy Robot Footstep Sound Effect",
+      "category": "foley",
+      "url": "https://orangefreesounds.com/deep-heavy-robot-footstep-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/10/Deep-heavy-robot-footstep-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 11
+    },
+    {
+      "id": "opengameart:fantozzis-footsteps-grasssand-stone",
+      "provider": "opengameart",
+      "title": "Fantozzi's Footsteps (Grass/Sand & Stone)",
+      "category": "foley",
+      "url": "https://opengameart.org/content/fantozzis-footsteps-grasssand-stone",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/fallfantozi.ogg.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/fallfantozi.ogg.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "soundbible:100-Footsteps-Walking",
+      "provider": "soundbible",
+      "title": "Footsteps Walking",
+      "category": "foley",
+      "url": "https://soundbible.com/100-Footsteps-Walking.html",
+      "previewUrl": "https://soundbible.com/mp3/Footsteps%20Walking-SoundBible.com-522653436.mp3",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Personal-Use-Only",
+        "name": "Personal Use Only",
+        "verdict": "no"
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "orangefreesounds:58489",
+      "provider": "orangefreesounds",
+      "title": "Single Footstep On Creaky Wood Floor Sound Effect",
+      "category": "foley",
+      "url": "https://orangefreesounds.com/single-footstep-on-creaky-wood-floor-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/09/Single-footstep-on-creaky-wood-floor-sound-effect.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 1
+    },
+    {
+      "id": "opengameart:footsteps-leather-cloth-armor",
+      "provider": "opengameart",
+      "title": "Footsteps Leather, Cloth, Armor",
+      "category": "foley",
+      "url": "https://opengameart.org/content/footsteps-leather-cloth-armor",
+      "previewUrl": "https://opengameart.org/sites/default/files/preview_1_1.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/preview_1_1.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:57903",
+      "provider": "orangefreesounds",
+      "title": "Footsteps on Gravel By The Sea With Waves Sound Effect",
+      "category": "foley",
+      "url": "https://orangefreesounds.com/footsteps-on-gravel-by-the-sea-with-waves-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/08/Footsteps-on-gravel-by-the-sea-with-waves-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 15
+    },
+    {
+      "id": "opengameart:platformer-sounds-terminal-interaction-door-shots-bang-and-footsteps",
+      "provider": "opengameart",
+      "title": "Platformer Sounds: Terminal, Interaction, Door, Shots, Bang and Footsteps",
+      "category": "foley",
+      "url": "https://opengameart.org/content/platformer-sounds-terminal-interaction-door-shots-bang-and-footsteps",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/montage-sfx-20121205%40005411.ogg.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/montage-sfx-20121205%40005411.ogg.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:57522",
+      "provider": "orangefreesounds",
+      "title": "Summer Cicadas Chirping With Footsteps Sound Effect",
+      "category": "foley",
+      "url": "https://orangefreesounds.com/summer-cicadas-chirping-with-footsteps-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/07/Summer-cicadas-chirping-with-footsteps-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 31
+    },
+    {
+      "id": "opengameart:42-snow-and-gravel-footsteps",
+      "provider": "opengameart",
+      "title": "42 Snow and Gravel Footsteps",
+      "category": "foley",
+      "url": "https://opengameart.org/content/42-snow-and-gravel-footsteps",
+      "previewUrl": "https://opengameart.org/sites/default/files/montageAudio-20120408%40150929.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/montageAudio-20120408%40150929.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:57383",
+      "provider": "orangefreesounds",
+      "title": "Footsteps Walking On Beach Sand Sound Effect",
+      "category": "foley",
+      "url": "https://orangefreesounds.com/footsteps-walking-on-beach-sand-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/07/Footsteps-walking-on-beach-sand-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 16
+    },
+    {
+      "id": "opengameart:mouth-sounds-placeholder-footsteps-twice",
+      "provider": "opengameart",
+      "title": "Mouth Sounds / Placeholder Footsteps Twice",
+      "category": "foley",
+      "url": "https://opengameart.org/content/mouth-sounds-placeholder-footsteps-twice",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/SFX_Arrow_Passby-01_0.ogg.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/SFX_Arrow_Passby-01_0.ogg.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:57001",
+      "provider": "orangefreesounds",
+      "title": "Indoor Footsteps On Hard Floor Sound Effect",
+      "category": "foley",
+      "url": "https://orangefreesounds.com/indoor-footsteps-on-hard-floor-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/06/Indoor-footsteps-on-hard-floor-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 7
+    },
+    {
+      "id": "opengameart:footsteps-on-different-surfaces",
+      "provider": "opengameart",
+      "title": "Footsteps on different surfaces",
+      "category": "foley",
+      "url": "https://opengameart.org/content/footsteps-on-different-surfaces",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/preview_43.ogg.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/preview_43.ogg.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:56561",
+      "provider": "orangefreesounds",
+      "title": "Robot Giant Footsteps Sound Effect",
+      "category": "foley",
+      "url": "https://orangefreesounds.com/robot-giant-footsteps-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/05/Robot-giant-footsteps-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 10
+    },
+    {
+      "id": "orangefreesounds:56309",
+      "provider": "orangefreesounds",
+      "title": "Walking on Old Squeaky Wooden Floor – Creaky Interior Footsteps Sound Effect",
+      "category": "foley",
+      "url": "https://orangefreesounds.com/walking-on-old-squeaky-wooden-floor-creaky-interior-footsteps-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/04/Walking-on-old-squeaky-wooden-floor-creaky-interior-footsteps-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 25
+    },
+    {
+      "id": "opengameart:metal-footsteps-on-concrete",
+      "provider": "opengameart",
+      "title": "Metal footsteps on concrete",
+      "category": "foley",
+      "url": "https://opengameart.org/content/metal-footsteps-on-concrete",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/metal_steps.ogg.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/metal_steps.ogg.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:55661",
+      "provider": "orangefreesounds",
+      "title": "Footsteps On Dry Crunchy Leaves Sound Effect",
+      "category": "foley",
+      "url": "https://orangefreesounds.com/footsteps-on-dry-crunchy-leaves-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/02/Footsteps-on-dry-crunchy-leaves-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 26
+    },
+    {
+      "id": "opengameart:cozy-sfx-sampler-%E2%80%94-60-cute-sound-effects-ui-farm-rpg-retro-spooky-footsteps",
+      "provider": "opengameart",
+      "title": "Cozy SFX Sampler — 60 cute sound effects (UI, farm, RPG, retro, spooky, footsteps)",
+      "category": "foley",
+      "url": "https://opengameart.org/content/cozy-sfx-sampler-%E2%80%94-60-cute-sound-effects-ui-farm-rpg-retro-spooky-footsteps",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/cozy-sfx-sampler-preview.ogg.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/cozy-sfx-sampler-preview.ogg.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:55487",
+      "provider": "orangefreesounds",
+      "title": "Footsteps In Snow – Dry Crunchy Walking Sound Effect For Games & Videos",
+      "category": "foley",
+      "url": "https://orangefreesounds.com/footsteps-in-snow-dry-crunchy-walking-sound-effect-for-games-videos/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/02/Footsteps-in-snow-dry-crunchy-walking-sound-effect-for-games-videos.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 11
+    },
+    {
+      "id": "orangefreesounds:54419",
+      "provider": "orangefreesounds",
+      "title": "Fast Footsteps On Hard Wooden Floor Sound Effect",
+      "category": "foley",
+      "url": "https://orangefreesounds.com/fast-footsteps-on-hard-wooden-floor-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2025/12/Fast-footsteps-on-hard-wooden-floor-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 10
+    },
+    {
+      "id": "orangefreesounds:53046",
+      "provider": "orangefreesounds",
+      "title": "Footsteps On Dry Leaves Sound Effect",
+      "category": "foley",
+      "url": "https://orangefreesounds.com/footsteps-on-dry-leaves-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2025/09/Footsteps-on-dry-leaves-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 9
+    },
+    {
+      "id": "orangefreesounds:52695",
+      "provider": "orangefreesounds",
+      "title": "Fast Footsteps Of Person In Jacket Ascending Stairs Sound Effect",
+      "category": "foley",
+      "url": "https://orangefreesounds.com/fast-footsteps-of-person-in-jacket-ascending-stairs-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2025/09/Fast-footsteps-of-person-in-jacket-ascending-stairs-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 8
+    }
+  ]
+}

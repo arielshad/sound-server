@@ -1,0 +1,341 @@
+{
+  "slug": "free-flute-samples",
+  "search": {
+    "q": "flute",
+    "categories": [
+      "woodwind"
+    ]
+  },
+  "updatedAt": "2026-10-23T09:38:58.555Z",
+  "samples": [
+    {
+      "id": "wikimediacommons:Man_drunk_and_playing_flute_near_Santa_Justa_Lift,_Lisbon,_Portugal.wav",
+      "provider": "wikimediacommons",
+      "title": "Man drunk and playing flute near Santa Justa Lift, Lisbon, Portugal",
+      "category": "woodwind",
+      "url": "https://commons.wikimedia.org/wiki/File:Man_drunk_and_playing_flute_near_Santa_Justa_Lift,_Lisbon,_Portugal.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/22/Man_drunk_and_playing_flute_near_Santa_Justa_Lift%2C_Lisbon%2C_Portugal.wav/Man_drunk_and_playing_flute_near_Santa_Justa_Lift%2C_Lisbon%2C_Portugal.wav.mp3",
+      "downloadable": true,
+      "author": "Subhashish Panigrahi",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 40.974
+    },
+    {
+      "id": "wikimediacommons:Carl_Philipp_Emanuel_Bach-_Flute_Concerto_Gmaj_-_2._Largo.ogg",
+      "provider": "wikimediacommons",
+      "title": "Carl Philipp Emanuel Bach- Flute Concerto Gmaj - 2. Largo",
+      "category": "woodwind",
+      "url": "https://commons.wikimedia.org/wiki/File:Carl_Philipp_Emanuel_Bach-_Flute_Concerto_Gmaj_-_2._Largo.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cb/Carl_Philipp_Emanuel_Bach-_Flute_Concerto_Gmaj_-_2._Largo.ogg/Carl_Philipp_Emanuel_Bach-_Flute_Concerto_Gmaj_-_2._Largo.ogg.mp3",
+      "downloadable": true,
+      "author": "Advent Chamber Orchestra with Constance Schoepflin (flute)",
+      "license": {
+        "id": "CC-BY-SA-2.0",
+        "name": "CC BY-SA 2.0",
+        "url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "key": "G major",
+      "durationSec": 477.777
+    },
+    {
+      "id": "wikimediacommons:Carl_Philipp_Emanuel_Bach-_Flute_Concerto_Gmaj_-_3._Presto.ogg",
+      "provider": "wikimediacommons",
+      "title": "Carl Philipp Emanuel Bach- Flute Concerto Gmaj - 3. Presto",
+      "category": "woodwind",
+      "url": "https://commons.wikimedia.org/wiki/File:Carl_Philipp_Emanuel_Bach-_Flute_Concerto_Gmaj_-_3._Presto.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2a/Carl_Philipp_Emanuel_Bach-_Flute_Concerto_Gmaj_-_3._Presto.ogg/Carl_Philipp_Emanuel_Bach-_Flute_Concerto_Gmaj_-_3._Presto.ogg.mp3",
+      "downloadable": true,
+      "author": "Advent Chamber Orchestra with Constance Schoepflin (flute)",
+      "license": {
+        "id": "CC-BY-SA-2.0",
+        "name": "CC BY-SA 2.0",
+        "url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "key": "G major",
+      "durationSec": 367.093
+    },
+    {
+      "id": "wikimediacommons:Jazz_Flute_Cm7.ogg",
+      "provider": "wikimediacommons",
+      "title": "Jazz Flute Cm7",
+      "category": "woodwind",
+      "url": "https://commons.wikimedia.org/wiki/File:Jazz_Flute_Cm7.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/67/Jazz_Flute_Cm7.ogg/Jazz_Flute_Cm7.ogg.mp3",
+      "downloadable": true,
+      "author": "Serolillo",
+      "license": {
+        "id": "CC-BY-2.5",
+        "name": "CC BY 2.5",
+        "url": "https://creativecommons.org/licenses/by/2.5/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "key": "C minor",
+      "durationSec": 12.71
+    },
+    {
+      "id": "wikimediacommons:Carl_Philipp_Emanuel_Bach-_Flute_Concerto_Gmaj_-_1._Allegro.ogg",
+      "provider": "wikimediacommons",
+      "title": "Carl Philipp Emanuel Bach- Flute Concerto Gmaj - 1. Allegro",
+      "category": "woodwind",
+      "url": "https://commons.wikimedia.org/wiki/File:Carl_Philipp_Emanuel_Bach-_Flute_Concerto_Gmaj_-_1._Allegro.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3e/Carl_Philipp_Emanuel_Bach-_Flute_Concerto_Gmaj_-_1._Allegro.ogg/Carl_Philipp_Emanuel_Bach-_Flute_Concerto_Gmaj_-_1._Allegro.ogg.mp3",
+      "downloadable": true,
+      "author": "Advent Chamber Orchestra with Constance Schoepflin (flute)",
+      "license": {
+        "id": "CC-BY-SA-2.0",
+        "name": "CC BY-SA 2.0",
+        "url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "key": "G major",
+      "durationSec": 759.609
+    },
+    {
+      "id": "wikimediacommons:Native-American-flute©Marc-Lautenbacher_music_Guy-Simard_flute.ogg",
+      "provider": "wikimediacommons",
+      "title": "Native-American-flute©Marc-Lautenbacher music Guy-Simard flute",
+      "category": "woodwind",
+      "url": "https://commons.wikimedia.org/wiki/File:Native-American-flute%C2%A9Marc-Lautenbacher_music_Guy-Simard_flute.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bc/Native-American-flute%C2%A9Marc-Lautenbacher_music_Guy-Simard_flute.ogg/Native-American-flute%C2%A9Marc-Lautenbacher_music_Guy-Simard_flute.ogg.mp3",
+      "downloadable": true,
+      "author": "Marc-Lautenbacher",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 213.838
+    },
+    {
+      "id": "wikimediacommons:Bach_-_Partita_For_Solo_Flute_-_Modern_Flute_-_2._Courante.ogg",
+      "provider": "wikimediacommons",
+      "title": "Bach - Partita For Solo Flute - Modern Flute - 2. Courante",
+      "category": "woodwind",
+      "url": "https://commons.wikimedia.org/wiki/File:Bach_-_Partita_For_Solo_Flute_-_Modern_Flute_-_2._Courante.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/44/Bach_-_Partita_For_Solo_Flute_-_Modern_Flute_-_2._Courante.ogg/Bach_-_Partita_For_Solo_Flute_-_Modern_Flute_-_2._Courante.ogg.mp3",
+      "downloadable": true,
+      "author": "Scott Goff (flute)",
+      "license": {
+        "id": "CC-BY-SA-2.0",
+        "name": "CC BY-SA 2.0",
+        "url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 156.168
+    },
+    {
+      "id": "wikimediacommons:Bach_-_Partita_For_Solo_Flute_-_Modern_Flute_-_3._Sarabande.ogg",
+      "provider": "wikimediacommons",
+      "title": "Bach - Partita For Solo Flute - Modern Flute - 3. Sarabande",
+      "category": "woodwind",
+      "url": "https://commons.wikimedia.org/wiki/File:Bach_-_Partita_For_Solo_Flute_-_Modern_Flute_-_3._Sarabande.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/df/Bach_-_Partita_For_Solo_Flute_-_Modern_Flute_-_3._Sarabande.ogg/Bach_-_Partita_For_Solo_Flute_-_Modern_Flute_-_3._Sarabande.ogg.mp3",
+      "downloadable": true,
+      "author": "Scott Goff (flute)",
+      "license": {
+        "id": "CC-BY-SA-2.0",
+        "name": "CC BY-SA 2.0",
+        "url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 132.4
+    },
+    {
+      "id": "wikimediacommons:Bach_-_Partita_For_Solo_Flute_-_Modern_Flute_-_4._Bouree.ogg",
+      "provider": "wikimediacommons",
+      "title": "Bach - Partita For Solo Flute - Modern Flute - 4. Bouree",
+      "category": "woodwind",
+      "url": "https://commons.wikimedia.org/wiki/File:Bach_-_Partita_For_Solo_Flute_-_Modern_Flute_-_4._Bouree.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ec/Bach_-_Partita_For_Solo_Flute_-_Modern_Flute_-_4._Bouree.ogg/Bach_-_Partita_For_Solo_Flute_-_Modern_Flute_-_4._Bouree.ogg.mp3",
+      "downloadable": true,
+      "author": "Scott Goff (flute)",
+      "license": {
+        "id": "CC-BY-SA-2.0",
+        "name": "CC BY-SA 2.0",
+        "url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 82
+    },
+    {
+      "id": "wikimediacommons:Flute_2.ogg",
+      "provider": "wikimediacommons",
+      "title": "Flute 2",
+      "category": "woodwind",
+      "url": "https://commons.wikimedia.org/wiki/File:Flute_2.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e0/Flute_2.ogg/Flute_2.ogg.mp3",
+      "downloadable": true,
+      "author": "hokuspokus",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 11.886
+    },
+    {
+      "id": "wikimediacommons:Flute_3.ogg",
+      "provider": "wikimediacommons",
+      "title": "Flute 3",
+      "category": "woodwind",
+      "url": "https://commons.wikimedia.org/wiki/File:Flute_3.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fb/Flute_3.ogg/Flute_3.ogg.mp3",
+      "downloadable": true,
+      "author": "hokuspokus",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 13.74
+    },
+    {
+      "id": "wikimediacommons:Indian_Folk_Classical_Flute_Music_(1).wav",
+      "provider": "wikimediacommons",
+      "title": "Indian Folk Classical Flute Music (1)",
+      "category": "woodwind",
+      "url": "https://commons.wikimedia.org/wiki/File:Indian_Folk_Classical_Flute_Music_(1).wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1d/Indian_Folk_Classical_Flute_Music_%281%29.wav/Indian_Folk_Classical_Flute_Music_%281%29.wav.mp3",
+      "downloadable": true,
+      "author": "MayankSingh33",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 154.773
+    },
+    {
+      "id": "wikimediacommons:Bach_-_Partita_For_Solo_Flute_-_Modern_Flute_-_1._Allemande.ogg",
+      "provider": "wikimediacommons",
+      "title": "Bach - Partita For Solo Flute - Modern Flute - 1. Allemande",
+      "category": "woodwind",
+      "url": "https://commons.wikimedia.org/wiki/File:Bach_-_Partita_For_Solo_Flute_-_Modern_Flute_-_1._Allemande.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7d/Bach_-_Partita_For_Solo_Flute_-_Modern_Flute_-_1._Allemande.ogg/Bach_-_Partita_For_Solo_Flute_-_Modern_Flute_-_1._Allemande.ogg.mp3",
+      "downloadable": true,
+      "author": "Scott Goff (flute)",
+      "license": {
+        "id": "CC-BY-SA-2.0",
+        "name": "CC BY-SA 2.0",
+        "url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 181.2
+    },
+    {
+      "id": "wikimediacommons:Indian_Folk_Classical_Flute_Music_(2).wav",
+      "provider": "wikimediacommons",
+      "title": "Indian Folk Classical Flute Music (2)",
+      "category": "woodwind",
+      "url": "https://commons.wikimedia.org/wiki/File:Indian_Folk_Classical_Flute_Music_(2).wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f7/Indian_Folk_Classical_Flute_Music_%282%29.wav/Indian_Folk_Classical_Flute_Music_%282%29.wav.mp3",
+      "downloadable": true,
+      "author": "MayankSingh33",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 55.751
+    }
+  ]
+}

@@ -6,7 +6,7 @@
       "bass.808"
     ]
   },
-  "updatedAt": "2026-10-23T04:43:47.497Z",
+  "updatedAt": "2026-10-23T09:37:03.239Z",
   "samples": [
     {
       "id": "openverse:2ab36d14-6be7-4777-b47c-03f398f3fcf8",
@@ -197,6 +197,114 @@
       ],
       "bpm": 100,
       "durationSec": 9.6
+    },
+    {
+      "id": "strudel:dirt-samples/808/0",
+      "provider": "strudel",
+      "title": "Dirt-Samples · 808 · 0",
+      "category": "bass.808",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/808/CB.WAV",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/808/CB.WAV",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:dirt-samples/808/1",
+      "provider": "strudel",
+      "title": "Dirt-Samples · 808 · 1",
+      "category": "bass.808",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/808/CH.WAV",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/808/CH.WAV",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:dirt-samples/808/2",
+      "provider": "strudel",
+      "title": "Dirt-Samples · 808 · 2",
+      "category": "bass.808",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/808/CL.WAV",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/808/CL.WAV",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:dirt-samples/808/3",
+      "provider": "strudel",
+      "title": "Dirt-Samples · 808 · 3",
+      "category": "bass.808",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/808/CP.WAV",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/808/CP.WAV",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:dirt-samples/808/4",
+      "provider": "strudel",
+      "title": "Dirt-Samples · 808 · 4",
+      "category": "bass.808",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/808/MA.WAV",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/808/MA.WAV",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:dirt-samples/808/5",
+      "provider": "strudel",
+      "title": "Dirt-Samples · 808 · 5",
+      "category": "bass.808",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/808/RS.WAV",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/808/RS.WAV",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
     }
   ]
 }

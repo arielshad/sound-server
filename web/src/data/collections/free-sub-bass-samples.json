@@ -1,0 +1,605 @@
+{
+  "slug": "free-sub-bass-samples",
+  "search": {
+    "q": "sub",
+    "categories": [
+      "bass.sub"
+    ]
+  },
+  "updatedAt": "2026-10-23T09:44:21.333Z",
+  "samples": [
+    {
+      "id": "openverse:244b0713-eed9-4dc1-8b05-cc3df10da93c",
+      "provider": "openverse",
+      "title": "SUB A# 2 secs.wav",
+      "category": "bass.sub",
+      "url": "https://freesound.org/people/uzerx/sounds/63138",
+      "previewUrl": "https://cdn.freesound.org/previews/63/63138_704648-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "uzerx",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.985
+    },
+    {
+      "id": "openverse:aa4e0e1d-0b7a-4803-87bf-fd34c4e17b0e",
+      "provider": "openverse",
+      "title": "SUB OCEANO C.wav",
+      "category": "bass.sub",
+      "url": "https://freesound.org/people/uzerx/sounds/81147",
+      "previewUrl": "https://cdn.freesound.org/previews/81/81147_704648-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "uzerx",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 2.308
+    },
+    {
+      "id": "openverse:4f866dd5-ded4-4d76-85fe-5e1e77cc2595",
+      "provider": "openverse",
+      "title": "sub bass 4 secondsssss.wav",
+      "category": "bass.sub",
+      "url": "https://freesound.org/people/uzerx/sounds/59540",
+      "previewUrl": "https://cdn.freesound.org/previews/59/59540_704648-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "uzerx",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 2.435
+    },
+    {
+      "id": "strudel:dirt-samples/feel/6",
+      "provider": "strudel",
+      "title": "Dirt-Samples · feel · 6",
+      "category": "bass.sub",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/feel/sub.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/feel/sub.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "openverse:76aa1231-b609-413c-ba36-9b7215aa1a98",
+      "provider": "openverse",
+      "title": "SUB OCEANO D.wav",
+      "category": "bass.sub",
+      "url": "https://freesound.org/people/uzerx/sounds/81148",
+      "previewUrl": "https://cdn.freesound.org/previews/81/81148_704648-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "uzerx",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 2.058
+    },
+    {
+      "id": "strudel:dirt-samples/subroc3d/0",
+      "provider": "strudel",
+      "title": "Dirt-Samples · subroc3d · 0",
+      "category": "bass.sub",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/subroc3d/000_01.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/subroc3d/000_01.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "openverse:2eadbca9-e7ba-459d-977a-efda7edd2f77",
+      "provider": "openverse",
+      "title": "SUB OCEANO A sharp.wav",
+      "category": "bass.sub",
+      "url": "https://freesound.org/people/uzerx/sounds/81144",
+      "previewUrl": "https://cdn.freesound.org/previews/81/81144_704648-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "uzerx",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 2.589
+    },
+    {
+      "id": "strudel:dirt-samples/subroc3d/1",
+      "provider": "strudel",
+      "title": "Dirt-Samples · subroc3d · 1",
+      "category": "bass.sub",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/subroc3d/001_02.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/subroc3d/001_02.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "openverse:ce7296ac-2ade-4fa2-a3e5-7b02af7059c8",
+      "provider": "openverse",
+      "title": "SUB OCEANO A.wav",
+      "category": "bass.sub",
+      "url": "https://freesound.org/people/uzerx/sounds/81145",
+      "previewUrl": "https://cdn.freesound.org/previews/81/81145_704648-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "uzerx",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 2.745
+    },
+    {
+      "id": "strudel:dirt-samples/subroc3d/2",
+      "provider": "strudel",
+      "title": "Dirt-Samples · subroc3d · 2",
+      "category": "bass.sub",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/subroc3d/002_03.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/subroc3d/002_03.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "openverse:8a856be2-2adc-4145-81b7-605569b9dabe",
+      "provider": "openverse",
+      "title": "SUB OCEANO B.wav",
+      "category": "bass.sub",
+      "url": "https://freesound.org/people/uzerx/sounds/81146",
+      "previewUrl": "https://cdn.freesound.org/previews/81/81146_704648-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "uzerx",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 2.446
+    },
+    {
+      "id": "strudel:dirt-samples/subroc3d/3",
+      "provider": "strudel",
+      "title": "Dirt-Samples · subroc3d · 3",
+      "category": "bass.sub",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/subroc3d/003_04.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/subroc3d/003_04.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "openverse:7d760c83-de23-4e35-9fd2-99579eab3f03",
+      "provider": "openverse",
+      "title": "sub bass 5 secondsssss.wav",
+      "category": "bass.sub",
+      "url": "https://freesound.org/people/uzerx/sounds/59541",
+      "previewUrl": "https://cdn.freesound.org/previews/59/59541_704648-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "uzerx",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.91
+    },
+    {
+      "id": "openverse:900e47e1-7aa3-4443-8403-bce89474c0aa",
+      "provider": "openverse",
+      "title": "SUB OCEANO G sharp.wav",
+      "category": "bass.sub",
+      "url": "https://freesound.org/people/uzerx/sounds/81149",
+      "previewUrl": "https://cdn.freesound.org/previews/81/81149_704648-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "uzerx",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 2.906
+    },
+    {
+      "id": "strudel:dirt-samples/subroc3d/4",
+      "provider": "strudel",
+      "title": "Dirt-Samples · subroc3d · 4",
+      "category": "bass.sub",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/subroc3d/004_05.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/subroc3d/004_05.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "openverse:dda9a7bc-54be-4216-9940-7e02127ffd79",
+      "provider": "openverse",
+      "title": "Cinema Sub Bass",
+      "category": "bass.sub",
+      "url": "https://freesound.org/people/TheNikonProductions/sounds/171312",
+      "previewUrl": "https://cdn.freesound.org/previews/171/171312_3019462-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "TheNikonProductions",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 2
+    },
+    {
+      "id": "strudel:dirt-samples/subroc3d/5",
+      "provider": "strudel",
+      "title": "Dirt-Samples · subroc3d · 5",
+      "category": "bass.sub",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/subroc3d/005_06.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/subroc3d/005_06.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:dirt-samples/subroc3d/6",
+      "provider": "strudel",
+      "title": "Dirt-Samples · subroc3d · 6",
+      "category": "bass.sub",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/subroc3d/006_07.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/subroc3d/006_07.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "openverse:d382a74c-8e65-4e6b-9781-08f61db24be4",
+      "provider": "openverse",
+      "title": "sub bass 3 secondsssss.wav",
+      "category": "bass.sub",
+      "url": "https://freesound.org/people/uzerx/sounds/59539",
+      "previewUrl": "https://cdn.freesound.org/previews/59/59539_704648-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "uzerx",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.331
+    },
+    {
+      "id": "strudel:dirt-samples/subroc3d/7",
+      "provider": "strudel",
+      "title": "Dirt-Samples · subroc3d · 7",
+      "category": "bass.sub",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/subroc3d/007_08.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/subroc3d/007_08.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:dirt-samples/subroc3d/8",
+      "provider": "strudel",
+      "title": "Dirt-Samples · subroc3d · 8",
+      "category": "bass.sub",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/subroc3d/008_09.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/subroc3d/008_09.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "openverse:bb56a4e6-1985-4ce1-b27e-e6d4316ad468",
+      "provider": "openverse",
+      "title": "rotating-menu-sub-hit-at-end.wav",
+      "category": "bass.sub",
+      "url": "https://freesound.org/people/newagesoup/sounds/339344",
+      "previewUrl": "https://cdn.freesound.org/previews/339/339344_4067257-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "newagesoup",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 6.6
+    },
+    {
+      "id": "strudel:dirt-samples/subroc3d/9",
+      "provider": "strudel",
+      "title": "Dirt-Samples · subroc3d · 9",
+      "category": "bass.sub",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/subroc3d/009_11.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/subroc3d/009_11.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:dirt-samples/subroc3d/10",
+      "provider": "strudel",
+      "title": "Dirt-Samples · subroc3d · 10",
+      "category": "bass.sub",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/subroc3d/010_12.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/subroc3d/010_12.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "openverse:1c46b279-3f91-4841-a82c-861efb9889d8",
+      "provider": "openverse",
+      "title": "sub __",
+      "category": "bass.sub",
+      "url": "https://freesound.org/people/waveplaySFX/sounds/201526",
+      "previewUrl": "https://cdn.freesound.org/previews/201/201526_1676145-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "waveplaySFX",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1
+    },
+    {
+      "id": "strudel:dough-fox/fsub/0",
+      "provider": "strudel",
+      "title": "Dough-Fox (FoxDot samples) · fsub · 0",
+      "category": "bass.sub",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Fox/blob/main/fsub/1_low_bass.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Fox/main/fsub/1_low_bass.wav",
+      "downloadable": true,
+      "author": "FoxDot (Ryan Kirkbride)",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "openverse:e73809d0-7f9e-49b8-b375-058d3c9f8f93",
+      "provider": "openverse",
+      "title": "Low Floortom with sub",
+      "category": "bass.sub",
+      "url": "https://freesound.org/people/_micro/sounds/178250",
+      "previewUrl": "https://cdn.freesound.org/previews/178/178250_1726621-hq.mp3",
+      "downloadable": true,
+      "author": "_micro",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 4.525
+    },
+    {
+      "id": "strudel:dough-fox/fsub/1",
+      "provider": "strudel",
+      "title": "Dough-Fox (FoxDot samples) · fsub · 1",
+      "category": "bass.sub",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Fox/blob/main/fsub/0_low_bass.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Fox/main/fsub/0_low_bass.wav",
+      "downloadable": true,
+      "author": "FoxDot (Ryan Kirkbride)",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    }
+  ]
+}

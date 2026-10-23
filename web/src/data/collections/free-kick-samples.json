@@ -9,7 +9,7 @@
       "one-shot"
     ]
   },
-  "updatedAt": "2026-10-23T04:44:42.520Z",
+  "updatedAt": "2026-10-23T09:40:31.775Z",
   "samples": [
     {
       "id": "openverse:58196449-5a6e-4918-a8b2-3d192f81fdc4",
@@ -567,6 +567,252 @@
         "wav"
       ],
       "durationSec": 0.441
+    },
+    {
+      "id": "wikimediacommons:Phonk_Kick_(1)_Sample.wav",
+      "provider": "wikimediacommons",
+      "title": "Phonk Kick (1) Sample",
+      "category": "drums.kick",
+      "url": "https://commons.wikimedia.org/wiki/File:Phonk_Kick_(1)_Sample.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3b/Phonk_Kick_%281%29_Sample.wav/Phonk_Kick_%281%29_Sample.wav.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "UnKnownrNone",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 1.119
+    },
+    {
+      "id": "strudel:dough-samples/kick/0",
+      "provider": "strudel",
+      "title": "Dough Samples · kick · 0",
+      "category": "drums.kick",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Samples/blob/main/kick/kickkk8.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Samples/main/kick/kickkk8.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-GPL-3-0-repository-licence",
+        "name": "GPL-3.0 (repository licence)",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Bauchamp_-_128_kick_pump.ogg",
+      "provider": "wikimediacommons",
+      "title": "Bauchamp - 128 kick pump",
+      "category": "drums.kick",
+      "url": "https://commons.wikimedia.org/wiki/File:Bauchamp_-_128_kick_pump.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/95/Bauchamp_-_128_kick_pump.ogg/Bauchamp_-_128_kick_pump.ogg.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Bauchamp",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 3.814
+    },
+    {
+      "id": "strudel:dough-samples/kick/1",
+      "provider": "strudel",
+      "title": "Dough Samples · kick · 1",
+      "category": "drums.kick",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Samples/blob/main/kick/kick%203-1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Samples/main/kick/kick%203-1.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-GPL-3-0-repository-licence",
+        "name": "GPL-3.0 (repository licence)",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Kick_2_(Gravity_Sound).wav",
+      "provider": "wikimediacommons",
+      "title": "Kick 2 (Gravity Sound)",
+      "category": "drums.kick",
+      "url": "https://commons.wikimedia.org/wiki/File:Kick_2_(Gravity_Sound).wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e3/Kick_2_%28Gravity_Sound%29.wav/Kick_2_%28Gravity_Sound%29.wav.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Gravity Sound",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 0.667
+    },
+    {
+      "id": "strudel:dough-samples/kick/2",
+      "provider": "strudel",
+      "title": "Dough Samples · kick · 2",
+      "category": "drums.kick",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Samples/blob/main/kick/kick3-1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Samples/main/kick/kick3-1.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-GPL-3-0-repository-licence",
+        "name": "GPL-3.0 (repository licence)",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Kick_(Gravity_Sound).wav",
+      "provider": "wikimediacommons",
+      "title": "Kick (Gravity Sound)",
+      "category": "drums.kick",
+      "url": "https://commons.wikimedia.org/wiki/File:Kick_(Gravity_Sound).wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/72/Kick_%28Gravity_Sound%29.wav/Kick_%28Gravity_Sound%29.wav.mp3",
+      "downloadable": true,
+      "author": "Gravity Sound",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 14.328
+    },
+    {
+      "id": "strudel:dough-samples/kick/3",
+      "provider": "strudel",
+      "title": "Dough Samples · kick · 3",
+      "category": "drums.kick",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Samples/blob/main/kick/kickkk3-1.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Samples/main/kick/kickkk3-1.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-GPL-3-0-repository-licence",
+        "name": "GPL-3.0 (repository licence)",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Kick_9_(Gravity_Sound).wav",
+      "provider": "wikimediacommons",
+      "title": "Kick 9 (Gravity Sound)",
+      "category": "drums.kick",
+      "url": "https://commons.wikimedia.org/wiki/File:Kick_9_(Gravity_Sound).wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d6/Kick_9_%28Gravity_Sound%29.wav/Kick_9_%28Gravity_Sound%29.wav.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Gravity Sound",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 0.472
+    },
+    {
+      "id": "strudel:dough-samples/kick/4",
+      "provider": "strudel",
+      "title": "Dough Samples · kick · 4",
+      "category": "drums.kick",
+      "url": "https://github.com/Bubobubobubobubo/Dough-Samples/blob/main/kick/kick%205.wav",
+      "previewUrl": "https://raw.githubusercontent.com/Bubobubobubobubo/Dough-Samples/main/kick/kick%205.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-GPL-3-0-repository-licence",
+        "name": "GPL-3.0 (repository licence)",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.html",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Kick_it_(Antti_Luode).mp3",
+      "provider": "wikimediacommons",
+      "title": "Kick it (Antti Luode)",
+      "category": "drums.kick",
+      "url": "https://commons.wikimedia.org/wiki/File:Kick_it_(Antti_Luode).mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Kick_it_%28Antti_Luode%29.mp3",
+      "downloadable": true,
+      "author": "Antti Luode",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 145.58
     }
   ]
 }

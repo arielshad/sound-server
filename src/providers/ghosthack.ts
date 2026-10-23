@@ -18,6 +18,7 @@
  * GET. `getSample` reads the product page (Open Graph + product meta tags, demo players, specs).
  */
 import * as cheerio from "cheerio";
+import { gunzipSync } from "node:zlib";
 import { HttpError } from "../core/http.js";
 import { royaltyFree } from "../core/licence.js";
 import type { Price, Provider, ProviderContext, Sample, SampleDetails, SampleFile, SampleForm, SampleQuery } from "../core/types.js";
@@ -172,6 +173,30 @@ export const ghosthack: Provider = {
     if (q.forms?.length) samples = samples.filter((s) => !s.form || q.forms!.includes(s.form));
     const start = offset % PAGE_SIZE;
     return { samples: samples.slice(start, start + q.limit), searchUrl };
+  },
+
+  /**
+   * No page shows a total and category paging is disallowed, so count the
+   * top-level product URLs in the shop's sitemap (robots.txt lists it). It
+   * also holds a few plugins and bundles, so the number is approximate.
+   */
+  async census(ctx) {
+    const index = await ctx.fetch.text(`${SITE}/sitemap.xml`, { signal: ctx.signal, cacheTtlMs: 0 });
+    const parts = [...index.matchAll(/<loc>([^<]+\.xml(?:\.gz)?)<\/loc>/g)].map((m) => m[1]!).filter((u) => /sitemap-www-/.test(u));
+    if (!parts.length) throw new Error("no www sitemap in the Ghosthack sitemap index");
+    const urls = new Set<string>();
+    for (const part of parts) {
+      const res = await ctx.fetch.raw(part, { signal: ctx.signal });
+      const bytes = new Uint8Array(await res.arrayBuffer());
+      const xml = part.endsWith(".gz") ? gunzipSync(bytes).toString("utf8") : new TextDecoder().decode(bytes);
+      for (const m of xml.matchAll(/<loc>https:\/\/www\.ghosthack\.de\/([^/<?#]+)<\/loc>/g)) urls.add(m[1]!);
+    }
+    return {
+      total: urls.size,
+      byCategory: {},
+      unit: "packs",
+      method: "Top-level product pages in ghosthack.de's sitemap (includes a few plugins and bundles)",
+    };
   },
 
   async getSample(nativeId: string, ctx: ProviderContext): Promise<SampleDetails | null> {

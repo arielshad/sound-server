@@ -1,0 +1,90 @@
+[
+ {
+  "id": 145647,
+  "name": "DX100 Factory Set",
+  "slug": "dx100-factory-set",
+  "permalink": "https://reverbmachine.com/sounds/dx100-factory-set/",
+  "short_description": "<p class=\"p1\">Factory presets from the Yamaha DX100, converted for use in Arturia DX7 V and Analog Lab. Brings the DX100\u2019s classic FM tones into the plugin world.</p>",
+  "prices": {
+   "price": "0",
+   "regular_price": "0",
+   "currency_code": "USD",
+   "currency_minor_unit": 2
+  },
+  "images": [
+   {
+    "src": "https://media.reverbmachine.com/2025/02/arturia-dx100-factory-set.jpeg",
+    "thumbnail": "https://media.reverbmachine.com/2025/02/arturia-dx100-factory-set-300x150.jpeg"
+   }
+  ],
+  "categories": [
+   {
+    "id": 190,
+    "name": "Arturia",
+    "slug": "arturia"
+   },
+   {
+    "id": 213,
+    "name": "Free",
+    "slug": "free"
+   },
+   {
+    "id": 209,
+    "name": "Vintage",
+    "slug": "vintage"
+   }
+  ]
+ },
+ {
+  "id": 136012,
+  "name": "Roland Cloud Shortcuts",
+  "slug": "roland-cloud-vst-preset-shortcuts",
+  "permalink": "https://reverbmachine.com/sounds/roland-cloud-vst-preset-shortcuts/",
+  "short_description": "<p>Factory preset shortcuts for Roland Cloud D-50 and JV-1080, letting you browse classic sounds directly from Ableton Live, Push, Bitwig and Studio One.</p>",
+  "prices": {
+   "price": "0",
+   "regular_price": "0",
+   "currency_code": "USD",
+   "currency_minor_unit": 2
+  },
+  "images": [
+   {
+    "src": "https://media.reverbmachine.com/2019/03/ableton-jv1080-presets.png",
+    "thumbnail": "https://media.reverbmachine.com/2019/03/ableton-jv1080-presets-300x150.png"
+   }
+  ],
+  "categories": [
+   {
+    "id": 213,
+    "name": "Free",
+    "slug": "free"
+   }
+  ]
+ },
+ {
+  "id": 101059,
+  "name": "Synth Sounds Collection",
+  "slug": "synth-sounds-collection",
+  "permalink": "https://reverbmachine.com/sounds/synth-sounds-collection/",
+  "short_description": "<p>The <strong>Synth Sounds Collection</strong> compiles every free synth preset from my Synth Sounds series of articles into a single download.</p>",
+  "prices": {
+   "price": "0",
+   "regular_price": "0",
+   "currency_code": "USD",
+   "currency_minor_unit": 2
+  },
+  "images": [
+   {
+    "src": "https://media.reverbmachine.com/2021/01/synth-sounds-free-collection.png",
+    "thumbnail": "https://media.reverbmachine.com/2021/01/synth-sounds-free-collection-300x150.png"
+   }
+  ],
+  "categories": [
+   {
+    "id": 213,
+    "name": "Free",
+    "slug": "free"
+   }
+  ]
+ }
+]

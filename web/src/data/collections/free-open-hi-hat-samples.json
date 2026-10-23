@@ -1,0 +1,629 @@
+{
+  "slug": "free-open-hi-hat-samples",
+  "search": {
+    "q": "open hat",
+    "categories": [
+      "drums.hat.open"
+    ]
+  },
+  "updatedAt": "2026-10-23T09:41:31.146Z",
+  "samples": [
+    {
+      "id": "wikimediacommons:Phonk_Open_Hat_(10).wav",
+      "provider": "wikimediacommons",
+      "title": "Phonk Open Hat (10)",
+      "category": "drums.hat.open",
+      "url": "https://commons.wikimedia.org/wiki/File:Phonk_Open_Hat_(10).wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c2/Phonk_Open_Hat_%2810%29.wav/Phonk_Open_Hat_%2810%29.wav.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "UnKnownrNone",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 0.442
+    },
+    {
+      "id": "wikimediacommons:Phonk_Open_Hat_(9).wav",
+      "provider": "wikimediacommons",
+      "title": "Phonk Open Hat (9)",
+      "category": "drums.hat.open",
+      "url": "https://commons.wikimedia.org/wiki/File:Phonk_Open_Hat_(9).wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c9/Phonk_Open_Hat_%289%29.wav/Phonk_Open_Hat_%289%29.wav.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "UnKnownrNone",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 0.942
+    },
+    {
+      "id": "wikimediacommons:Phonk_Open_Hat_(5).wav",
+      "provider": "wikimediacommons",
+      "title": "Phonk Open Hat (5)",
+      "category": "drums.hat.open",
+      "url": "https://commons.wikimedia.org/wiki/File:Phonk_Open_Hat_(5).wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/72/Phonk_Open_Hat_%285%29.wav/Phonk_Open_Hat_%285%29.wav.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "UnKnownrNone",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 0.326
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AkaiLinn_oh/0",
+      "provider": "strudel",
+      "title": "Akai Linn · oh · 0",
+      "category": "drums.hat.open",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AkaiLinn/akailinn-oh/Open%20Hat.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AkaiLinn/akailinn-oh/Open%20Hat.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Phonk_Open_Hat_(8).wav",
+      "provider": "wikimediacommons",
+      "title": "Phonk Open Hat (8)",
+      "category": "drums.hat.open",
+      "url": "https://commons.wikimedia.org/wiki/File:Phonk_Open_Hat_(8).wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/52/Phonk_Open_Hat_%288%29.wav/Phonk_Open_Hat_%288%29.wav.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "UnKnownrNone",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 0.221
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AkaiMPC60_oh/0",
+      "provider": "strudel",
+      "title": "Akai MPC60 · oh · 0",
+      "category": "drums.hat.open",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AkaiMPC60/akaimpc60-oh/Open%20Hat.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AkaiMPC60/akaimpc60-oh/Open%20Hat.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Phonk_Open_Hat_(6).wav",
+      "provider": "wikimediacommons",
+      "title": "Phonk Open Hat (6)",
+      "category": "drums.hat.open",
+      "url": "https://commons.wikimedia.org/wiki/File:Phonk_Open_Hat_(6).wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/24/Phonk_Open_Hat_%286%29.wav/Phonk_Open_Hat_%286%29.wav.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "UnKnownrNone",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 0.425
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AkaiXR10_oh/0",
+      "provider": "strudel",
+      "title": "Akai XR10 · oh · 0",
+      "category": "drums.hat.open",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AkaiXR10/akaixr10-oh/Hat%20Open.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AkaiXR10/akaixr10-oh/Hat%20Open.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Phonk_Open_Hat_(7).wav",
+      "provider": "wikimediacommons",
+      "title": "Phonk Open Hat (7)",
+      "category": "drums.hat.open",
+      "url": "https://commons.wikimedia.org/wiki/File:Phonk_Open_Hat_(7).wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ce/Phonk_Open_Hat_%287%29.wav/Phonk_Open_Hat_%287%29.wav.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "UnKnownrNone",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 0.25
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AlesisHR16_oh/0",
+      "provider": "strudel",
+      "title": "Alesis HR-16 · oh · 0",
+      "category": "drums.hat.open",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AlesisHR16/alesishr16-oh/Open%20Hat.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AlesisHR16/alesishr16-oh/Open%20Hat.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Phonk_Open_Hat_(2).wav",
+      "provider": "wikimediacommons",
+      "title": "Phonk Open Hat (2)",
+      "category": "drums.hat.open",
+      "url": "https://commons.wikimedia.org/wiki/File:Phonk_Open_Hat_(2).wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9b/Phonk_Open_Hat_%282%29.wav/Phonk_Open_Hat_%282%29.wav.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "UnKnownrNone",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 0.457
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AlesisSR16_oh/0",
+      "provider": "strudel",
+      "title": "Alesis SR-16 · oh · 0",
+      "category": "drums.hat.open",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AlesisSR16/alesissr16-oh/Hat%20Open-01.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AlesisSR16/alesissr16-oh/Hat%20Open-01.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Phonk_Open_Hat_(12).wav",
+      "provider": "wikimediacommons",
+      "title": "Phonk Open Hat (12)",
+      "category": "drums.hat.open",
+      "url": "https://commons.wikimedia.org/wiki/File:Phonk_Open_Hat_(12).wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/75/Phonk_Open_Hat_%2812%29.wav/Phonk_Open_Hat_%2812%29.wav.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "UnKnownrNone",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 1.175
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AlesisSR16_oh/1",
+      "provider": "strudel",
+      "title": "Alesis SR-16 · oh · 1",
+      "category": "drums.hat.open",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AlesisSR16/alesissr16-oh/Hat%20Open-02.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AlesisSR16/alesissr16-oh/Hat%20Open-02.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Phonk_Open_Hat_(13).wav",
+      "provider": "wikimediacommons",
+      "title": "Phonk Open Hat (13)",
+      "category": "drums.hat.open",
+      "url": "https://commons.wikimedia.org/wiki/File:Phonk_Open_Hat_(13).wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/95/Phonk_Open_Hat_%2813%29.wav/Phonk_Open_Hat_%2813%29.wav.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "UnKnownrNone",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 0.944
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AlesisSR16_oh/2",
+      "provider": "strudel",
+      "title": "Alesis SR-16 · oh · 2",
+      "category": "drums.hat.open",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AlesisSR16/alesissr16-oh/Hat%20Open-03.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AlesisSR16/alesissr16-oh/Hat%20Open-03.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Phonk_Open_Hat_(4).wav",
+      "provider": "wikimediacommons",
+      "title": "Phonk Open Hat (4)",
+      "category": "drums.hat.open",
+      "url": "https://commons.wikimedia.org/wiki/File:Phonk_Open_Hat_(4).wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2f/Phonk_Open_Hat_%284%29.wav/Phonk_Open_Hat_%284%29.wav.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "UnKnownrNone",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 0.86
+    },
+    {
+      "id": "wikimediacommons:Phonk_Open_Hat_(3).wav",
+      "provider": "wikimediacommons",
+      "title": "Phonk Open Hat (3)",
+      "category": "drums.hat.open",
+      "url": "https://commons.wikimedia.org/wiki/File:Phonk_Open_Hat_(3).wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a2/Phonk_Open_Hat_%283%29.wav/Phonk_Open_Hat_%283%29.wav.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "UnKnownrNone",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 1.208
+    },
+    {
+      "id": "strudel:tidal-drum-machines/AlesisSR16_oh/3",
+      "provider": "strudel",
+      "title": "Alesis SR-16 · oh · 3",
+      "category": "drums.hat.open",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/AlesisSR16/alesissr16-oh/Hat%20Reverse.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/AlesisSR16/alesissr16-oh/Hat%20Reverse.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Phonk_Open_Hat_(1).wav",
+      "provider": "wikimediacommons",
+      "title": "Phonk Open Hat (1)",
+      "category": "drums.hat.open",
+      "url": "https://commons.wikimedia.org/wiki/File:Phonk_Open_Hat_(1).wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a8/Phonk_Open_Hat_%281%29.wav/Phonk_Open_Hat_%281%29.wav.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "UnKnownrNone",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 0.994
+    },
+    {
+      "id": "strudel:tidal-drum-machines/BossDR110_oh/0",
+      "provider": "strudel",
+      "title": "Boss DR-110 · oh · 0",
+      "category": "drums.hat.open",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/BossDR110/bossdr110-oh/Hat%20Open.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/BossDR110/bossdr110-oh/Hat%20Open.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Phonk_Open_Hat_(11).wav",
+      "provider": "wikimediacommons",
+      "title": "Phonk Open Hat (11)",
+      "category": "drums.hat.open",
+      "url": "https://commons.wikimedia.org/wiki/File:Phonk_Open_Hat_(11).wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1a/Phonk_Open_Hat_%2811%29.wav/Phonk_Open_Hat_%2811%29.wav.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "UnKnownrNone",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 1.846
+    },
+    {
+      "id": "strudel:tidal-drum-machines/BossDR220_oh/0",
+      "provider": "strudel",
+      "title": "Boss DR-220 · oh · 0",
+      "category": "drums.hat.open",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/BossDR220/bossdr220-oh/Hat%20Open.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/BossDR220/bossdr220-oh/Hat%20Open.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:tidal-drum-machines/BossDR550_oh/0",
+      "provider": "strudel",
+      "title": "Boss DR-550 · oh · 0",
+      "category": "drums.hat.open",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/BossDR550/bossdr550-oh/Hat%20Open-01.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/BossDR550/bossdr550-oh/Hat%20Open-01.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Four-on-the-floor_with_offbeat_open_hi-hat_140_BPM.opus",
+      "provider": "wikimediacommons",
+      "title": "Four-on-the-floor with offbeat open hi-hat 140 BPM",
+      "category": "drums.hat.open",
+      "url": "https://commons.wikimedia.org/wiki/File:Four-on-the-floor_with_offbeat_open_hi-hat_140_BPM.opus",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/37/Four-on-the-floor_with_offbeat_open_hi-hat_140_BPM.opus/Four-on-the-floor_with_offbeat_open_hi-hat_140_BPM.opus.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Tomer T",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "opus",
+        "mp3",
+        "ogg"
+      ],
+      "bpm": 140,
+      "durationSec": 7.457
+    },
+    {
+      "id": "strudel:tidal-drum-machines/BossDR550_oh/1",
+      "provider": "strudel",
+      "title": "Boss DR-550 · oh · 1",
+      "category": "drums.hat.open",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/BossDR550/bossdr550-oh/Hat%20Open-02.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/BossDR550/bossdr550-oh/Hat%20Open-02.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:tidal-drum-machines/CasioSK1_oh/0",
+      "provider": "strudel",
+      "title": "Casio SK-1 · oh · 0",
+      "category": "drums.hat.open",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/CasioSK1/casiosk1-oh/Hat%20Open.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/CasioSK1/casiosk1-oh/Hat%20Open.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:tidal-drum-machines/DoepferMS404_oh/0",
+      "provider": "strudel",
+      "title": "Doepfer MS-404 · oh · 0",
+      "category": "drums.hat.open",
+      "url": "https://github.com/ritchse/tidal-drum-machines/blob/main/machines/DoepferMS404/doepferms404-oh/Hat%20Open.wav",
+      "previewUrl": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/DoepferMS404/doepferms404-oh/Hat%20Open.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    }
+  ]
+}

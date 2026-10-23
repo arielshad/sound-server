@@ -1,0 +1,303 @@
+{
+  "slug": "free-spoken-word-samples",
+  "search": {
+    "q": "speech",
+    "categories": [
+      "vocals.spoken"
+    ]
+  },
+  "updatedAt": "2026-10-23T09:43:51.909Z",
+  "samples": [
+    {
+      "id": "wikimediacommons:South–North_Meeting_(1948)_–_Speech_of_Kim_Ku.opus",
+      "provider": "wikimediacommons",
+      "title": "South–North Meeting (1948) – Speech of Kim Ku",
+      "category": "vocals.spoken",
+      "url": "https://commons.wikimedia.org/wiki/File:South%E2%80%93North_Meeting_(1948)_%E2%80%93_Speech_of_Kim_Ku.opus",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fd/South%E2%80%93North_Meeting_%281948%29_%E2%80%93_Speech_of_Kim_Ku.opus/South%E2%80%93North_Meeting_%281948%29_%E2%80%93_Speech_of_Kim_Ku.opus.mp3",
+      "downloadable": true,
+      "author": "국립영화촬영소(북한)",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "opus",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 61.721
+    },
+    {
+      "id": "strudel:dirt-samples/speech/0",
+      "provider": "strudel",
+      "title": "Dirt-Samples · speech · 0",
+      "category": "vocals.spoken",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/speech/000_Sound10.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/speech/000_Sound10.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "opengameart:goblin-speech-mp3-files-for-gaming",
+      "provider": "opengameart",
+      "title": "Goblin speech MP3 files for gaming",
+      "category": "vocals.spoken",
+      "url": "https://opengameart.org/content/goblin-speech-mp3-files-for-gaming",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/goblin_speech_preview.ogg.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/goblin_speech_preview.ogg.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "wikimediacommons:Emperor_Haile_Selassie_I's_1968_Speech_to_the_United_Nations.ogg",
+      "provider": "wikimediacommons",
+      "title": "Emperor Haile Selassie I's 1968 Speech to the United Nations",
+      "category": "vocals.spoken",
+      "url": "https://commons.wikimedia.org/wiki/File:Emperor_Haile_Selassie_I%27s_1968_Speech_to_the_United_Nations.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/af/Emperor_Haile_Selassie_I%27s_1968_Speech_to_the_United_Nations.ogg/Emperor_Haile_Selassie_I%27s_1968_Speech_to_the_United_Nations.ogg.mp3",
+      "downloadable": true,
+      "author": "Ethiopian Empire Government/UN",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 678.742
+    },
+    {
+      "id": "soundbible:385-Winston-Churchill-Nazi-Speech",
+      "provider": "soundbible",
+      "title": "Winston Churchill Nazi Speech",
+      "category": "vocals.spoken",
+      "url": "https://soundbible.com/385-Winston-Churchill-Nazi-Speech.html",
+      "previewUrl": "https://soundbible.com/mp3/Winston%20Churchill%20Nazi%20Speech-SoundBible.com-877765747.mp3",
+      "downloadable": true,
+      "author": "Winston Churchill",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "strudel:dirt-samples/speech/1",
+      "provider": "strudel",
+      "title": "Dirt-Samples · speech · 1",
+      "category": "vocals.spoken",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/speech/001_Sound4.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/speech/001_Sound4.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "opengameart:droid-speech-37-phrases-fire-madness",
+      "provider": "opengameart",
+      "title": "Droid speech - 37 phrases [Fire Madness]",
+      "category": "vocals.spoken",
+      "url": "https://opengameart.org/content/droid-speech-37-phrases-fire-madness",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/phrase1-12_0.ogg.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/phrase1-12_0.ogg.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "soundbible:986-Obama-Speech-Liar",
+      "provider": "soundbible",
+      "title": "Obama Speech Liar",
+      "category": "vocals.spoken",
+      "url": "https://soundbible.com/986-Obama-Speech-Liar.html",
+      "previewUrl": "https://soundbible.com/mp3/Obama%20Speech%20Liar-SoundBible.com-1503879186.mp3",
+      "downloadable": true,
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "strudel:dirt-samples/speech/2",
+      "provider": "strudel",
+      "title": "Dirt-Samples · speech · 2",
+      "category": "vocals.spoken",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/speech/002_Sound5.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/speech/002_Sound5.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "wikimediacommons:Preecha_Ruangjan's_speech_in_2023.oga",
+      "provider": "wikimediacommons",
+      "title": "Preecha Ruangjan's speech in 2023",
+      "category": "vocals.spoken",
+      "url": "https://commons.wikimedia.org/wiki/File:Preecha_Ruangjan%27s_speech_in_2023.oga",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7c/Preecha_Ruangjan%27s_speech_in_2023.oga/Preecha_Ruangjan%27s_speech_in_2023.oga.mp3",
+      "downloadable": true,
+      "author": "บุญพฤทธิ์ ทวนทัย",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 91.556
+    },
+    {
+      "id": "opengameart:win-lose-voice-speech",
+      "provider": "opengameart",
+      "title": "WIn / Lose Voice Speech",
+      "category": "vocals.spoken",
+      "url": "https://opengameart.org/content/win-lose-voice-speech",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/letstryagain.wav.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/letstryagain.wav.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "strudel:dirt-samples/speech/3",
+      "provider": "strudel",
+      "title": "Dirt-Samples · speech · 3",
+      "category": "vocals.spoken",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/speech/003_Sound6.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/speech/003_Sound6.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:dirt-samples/speech/4",
+      "provider": "strudel",
+      "title": "Dirt-Samples · speech · 4",
+      "category": "vocals.spoken",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/speech/004_Sound7.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/speech/004_Sound7.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:dirt-samples/speech/5",
+      "provider": "strudel",
+      "title": "Dirt-Samples · speech · 5",
+      "category": "vocals.spoken",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/speech/005_Sound8.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/speech/005_Sound8.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:dirt-samples/speech/6",
+      "provider": "strudel",
+      "title": "Dirt-Samples · speech · 6",
+      "category": "vocals.spoken",
+      "url": "https://github.com/tidalcycles/Dirt-Samples/blob/master/speech/006_Sound9.wav",
+      "previewUrl": "https://raw.githubusercontent.com/tidalcycles/Dirt-Samples/master/speech/006_Sound9.wav",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Unknown",
+        "name": "No licence stated",
+        "verdict": "check-terms"
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    }
+  ]
+}

@@ -179,8 +179,13 @@ export interface ZeroShot {
 
 const related = (a: string, b: string) => a === b || a.startsWith(`${b}.`) || b.startsWith(`${a}.`);
 
-/** Rank categories for an audio vector against prompt vectors (softmax over scaled cosines). */
-export function zeroShotRank(vector: Float32Array, prompts: { category: Category; vector: Float32Array }[], temperature = 100): ZeroShot | undefined {
+/**
+ * Rank categories for an audio vector against prompt vectors (softmax over
+ * cosines × `temperature`). 10 is calibrated on 400 Strudel drum-machine
+ * hits: with confidence ≥ 0.5 and margin ≥ 0.3 the label agreed with the
+ * bank's own category 90% of the time (higher temperatures saturate at 1.0).
+ */
+export function zeroShotRank(vector: Float32Array, prompts: { category: Category; vector: Float32Array }[], temperature = 10): ZeroShot | undefined {
   if (!prompts.length) return undefined;
   const v = l2normalize(vector);
   const logits = prompts.map((p) => temperature * dot(v, p.vector));
@@ -217,7 +222,7 @@ export interface EmbeddingIndexOptions {
   retryFailedMs?: number;
   /** Zero-shot: only relabel samples whose category confidence is below this (default 0.4). */
   zeroShotBelow?: number;
-  /** Zero-shot: minimum winner probability and margin (defaults 0.5 and 0.25). */
+  /** Zero-shot: minimum winner probability and margin (defaults 0.5 and 0.3). */
   zeroShotMinConfidence?: number;
   zeroShotMinMargin?: number;
   /** Weight of the text→audio term in search ranking (default 0.15). */
@@ -282,7 +287,7 @@ export class EmbeddingIndex {
     this.retryFailedMs = opts.retryFailedMs ?? 24 * 3600_000;
     this.zeroShotBelow = opts.zeroShotBelow ?? 0.4;
     this.zeroShotMinConfidence = opts.zeroShotMinConfidence ?? 0.5;
-    this.zeroShotMinMargin = opts.zeroShotMinMargin ?? 0.25;
+    this.zeroShotMinMargin = opts.zeroShotMinMargin ?? 0.3;
     this.rerankWeight = opts.rerankWeight ?? 0.15;
     this.now = opts.now ?? Date.now;
     this.tokens = Math.min(this.perMinute, 5);
@@ -642,7 +647,7 @@ export class EmbeddingIndex {
     if (!this.vectors.has(s.id)) return s;
     const z = this.zeroShot(s.id);
     if (!z || z.confidence < this.zeroShotMinConfidence || z.margin < this.zeroShotMinMargin) return s;
-    const confidence = Math.round(Math.min(0.9, z.confidence) * 100) / 100;
+    const confidence = Math.round(Math.min(0.85, z.confidence) * 100) / 100;
     return { ...s, category: z.category, categoryEvidence: { by: "model", confidence } };
   }
 }
