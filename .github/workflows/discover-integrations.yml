@@ -1,8 +1,10 @@
 name: Discover new sources
 
-# Once a day, a Claude Code agent looks for a new 3D asset website, integrates
-# it as a provider with offline and live tests (prompts/discover-integrations.md),
-# and records every site it evaluated in integrations/registry.json. Then:
+# Once a day, a Claude Code agent looks for a new music-sample or sound-effects
+# website, integrates it as a provider with offline and live tests
+# (prompts/discover-integrations.md; a site whose terms or robots.txt forbid
+# automated access may only become a link-only source), and records every site
+# it evaluated in integrations/registry.json. Then:
 #
 #   discover  The agent works in a read-only checkout (contents: read, no push
 #             credentials) and hands its changes over as a patch artifact.
@@ -11,7 +13,7 @@ name: Discover new sources
 #             deletions, no edits to existing tests, at most one new source).
 #             Then build, typecheck, the full test suite and the new source's
 #             live test (retried, since sites behind Cloudflare sometimes
-#             answer 403 to a runner IP). If everything passes, it commits to
+#             answer 403 to a runner IP; link-only sources have none). If everything passes, it commits to
 #             main and starts the CI workflow, whose image and deploy jobs roll
 #             it out to sound.shep.bot (pushes made with GITHUB_TOKEN don't trigger
 #             workflows by themselves, so CI is dispatched explicitly). If a
@@ -179,6 +181,10 @@ jobs:
         run: |
           set -uo pipefail
           for id in ${ADDED//,/ }; do
+            if [[ ! -f "test/live/${id}.live.test.ts" ]]; then
+              echo "${id}: link-only source, no live test"
+              continue
+            fi
             for attempt in 1 2 3; do
               if npx vitest run "test/live/${id}.live.test.ts" --reporter=default \
                    --reporter=json --outputFile.json="$RUNNER_TEMP/live-${id}.json"; then

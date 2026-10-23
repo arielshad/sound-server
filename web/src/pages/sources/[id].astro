@@ -1,14 +1,15 @@
 ---
-// /sources/<id>: one asset site as Sound Server sees it: what it holds
-// (from the daily census), how it is searched, its licence, and its assets in
+// /sources/<id>: one sample site as Sound Server sees it: what it holds
+// (from the daily census), how it is searched, its licence, and its samples in
 // the curated collections.
 import BaseLayout from "@/layouts/BaseLayout.astro";
-import AssetCard from "@/components/collections/AssetCard.astro";
+import SampleCard from "@/components/collections/SampleCard.astro";
 import Breadcrumbs from "@/components/collections/Breadcrumbs.astro";
 import { countLabel, sourcePages, sourcePath, type SourcePage } from "@/lib/collections";
-import { COUNTED_ON, TYPE_NAMES, fmt } from "@/lib/catalog";
+import { COUNTED_ON, categoryName, fmt } from "@/lib/catalog";
 import { breadcrumbs, collectionPage } from "@/lib/schema";
 import { SOURCE_COUNT } from "@/lib/site";
+import { VERDICT_LABELS, categoryLabel, type Verdict } from "@/lib/vocab";
 
 export async function getStaticPaths() {
   return (await sourcePages()).map((page) => ({ params: { id: page.provider.id }, props: { page } }));
@@ -21,15 +22,15 @@ const { page: s } = Astro.props;
 const p = s.provider;
 const t = s.census;
 const path = sourcePath(p.id);
-const access = { api: "Official or public API", scrape: "The site's public pages, read politely and cached", link: "Not searched directly: the site blocks automated access, so results link to the same search on the site" } as const;
+const access = { api: "Official or public API", static: "A published catalogue of the collection, fetched once and cached", scrape: "The site's public pages, read politely and cached", link: "Not searched directly: the site does not allow automated search, so results link to the same search on the site" } as const;
 const pricing = { free: "Free", freemium: "Free and paid", paid: "Paid" } as const;
 const clip = (x: string, n: number) => (x.length > n ? `${x.slice(0, n - 1).trimEnd()}…` : x);
-const title = `${p.name}: assets, licence and downloads`;
-const description = clip(`${p.name} (${p.description.replace(/\.$/, "")}): ${p.license ?? "licence per asset"}, ${p.supportsDownload ? "direct downloads" : "links to each asset page"}. Searched with ${SOURCE_COUNT - 1} other 3D asset sites.`, 160);
+const title = `${p.name}: samples, licence and downloads`;
+const description = clip(`${p.name} (${p.description.replace(/\.$/, "")}): ${p.license ?? "licence per sample"}, ${p.supportsDownload ? "direct downloads" : "links to each sample page"}. Searched with ${SOURCE_COUNT - 1} other sample sites.`, 160);
 const trail = [{ name: "Home", path: "/" }, { name: "Sources", path: "/docs/sources" }, { name: p.name, path }];
-const types = t ? Object.entries(t.byType).sort((a, b) => b[1] - a[1]) : [];
+const byCategory = t ? Object.entries(t.byCategory).sort((a, b) => b[1] - a[1]) : [];
 const categories = t?.categories ? Object.keys(t.categories).slice(0, 10) : [];
-const searchLink = `/search?providers=${p.id}${p.assetTypes[0] ? `&type=${p.assetTypes[0]}` : ""}`;
+const searchLink = `/search?providers=${p.id}${p.categories[0] ? `&category=${p.categories[0]}` : ""}`;
 ---
 
 <BaseLayout
@@ -38,7 +39,7 @@ const searchLink = `/search?providers=${p.id}${p.assetTypes[0] ? `&type=${p.asse
   markdown={`${path}.md`}
   noindex={!s.indexable}
   schema={[
-    collectionPage({ title, description, path, about: [p.name], assets: s.assets }),
+    collectionPage({ title, description, path, about: [p.name], samples: s.samples }),
     breadcrumbs(trail),
   ]}
 >
@@ -55,16 +56,16 @@ const searchLink = `/search?providers=${p.id}${p.assetTypes[0] ? `&type=${p.asse
     </header>
 
     <dl class="mt-10 grid gap-px overflow-hidden rounded-xl border bg-border text-sm sm:grid-cols-2 lg:grid-cols-3">
-      <div class="bg-background p-4"><dt class="text-muted-foreground">Licence</dt><dd class="mt-1 font-medium">{p.license ?? "Set per asset"}</dd></div>
+      <div class="bg-background p-4"><dt class="text-muted-foreground">Licence</dt><dd class="mt-1 font-medium">{p.license ?? "Set per sample"}{p.licenseVerdict && <span class="block text-xs font-normal text-muted-foreground">{VERDICT_LABELS[p.licenseVerdict as Verdict] ?? p.licenseVerdict}</span>}</dd></div>
       <div class="bg-background p-4"><dt class="text-muted-foreground">Pricing</dt><dd class="mt-1 font-medium">{pricing[p.pricing as keyof typeof pricing]}</dd></div>
-      <div class="bg-background p-4"><dt class="text-muted-foreground">Direct download here</dt><dd class="mt-1 font-medium">{p.supportsDownload ? "Yes" : "No, results link to the asset page"}</dd></div>
-      <div class="bg-background p-4"><dt class="text-muted-foreground">Asset types</dt><dd class="mt-1 font-medium">{p.assetTypes.map((x) => TYPE_NAMES[x] ?? x).join(", ")}</dd></div>
+      <div class="bg-background p-4"><dt class="text-muted-foreground">Direct download here</dt><dd class="mt-1 font-medium">{p.supportsDownload ? "Yes" : "No, results link to the sample page"}</dd></div>
+      <div class="bg-background p-4"><dt class="text-muted-foreground">Sounds</dt><dd class="mt-1 font-medium">{p.categories.map(categoryLabel).join(", ") || "Various"}</dd></div>
       <div class="bg-background p-4 sm:col-span-2"><dt class="text-muted-foreground">How it is searched</dt><dd class="mt-1 font-medium">{access[p.access as keyof typeof access]}</dd></div>
       {t && (
         <div class="bg-background p-4"><dt class="text-muted-foreground">Listings (counted {COUNTED_ON})</dt><dd class="mt-1 font-medium">{fmt(t.total, t.atLeast)}{t.unit === "packs" ? " packs" : ""}{t.free !== undefined && t.pricing !== "free" ? `, ${fmt(t.free)} free` : ""}</dd></div>
       )}
-      {t && types.length > 0 && (
-        <div class="bg-background p-4"><dt class="text-muted-foreground">By type</dt><dd class="mt-1 font-medium">{types.slice(0, 4).map(([k, n]) => `${TYPE_NAMES[k] ?? k} ${fmt(n)}`).join(", ")}</dd></div>
+      {t && byCategory.length > 0 && (
+        <div class="bg-background p-4"><dt class="text-muted-foreground">By category</dt><dd class="mt-1 font-medium">{byCategory.slice(0, 4).map(([k, n]) => `${categoryName(k)} ${fmt(n)}`).join(", ")}</dd></div>
       )}
       {t?.addedLast30Days !== undefined && (
         <div class="bg-background p-4"><dt class="text-muted-foreground">New in the last 30 days</dt><dd class="mt-1 font-medium">{fmt(t.addedLast30Days)}</dd></div>
@@ -74,24 +75,24 @@ const searchLink = `/search?providers=${p.id}${p.assetTypes[0] ? `&type=${p.asse
       <p class="mt-4 text-sm text-muted-foreground">Biggest categories: {categories.join(", ")}.</p>
     )}
 
-    {s.assets.length > 0 && (
+    {s.samples.length > 0 && (
       <section class="mt-14" aria-labelledby="examples">
         <h2 id="examples" class="text-2xl font-semibold tracking-tight">{p.name} in the collections</h2>
-        <p class="mt-2 text-sm text-muted-foreground">A sample of {p.name} assets picked for the curated collections below.</p>
-        <ul class="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
-          {s.assets.map((a, i) => <AssetCard asset={a} eager={i < 4} />)}
+        <p class="mt-2 text-sm text-muted-foreground">Some of the {p.name} sounds picked for the curated collections below. Press play to hear them.</p>
+        <ul class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          {s.samples.map((a) => <SampleCard sample={a} />)}
         </ul>
       </section>
     )}
 
     {s.collections.length > 0 && (
       <section class="mt-14 max-w-3xl" aria-labelledby="collections">
-        <h2 id="collections" class="text-xl font-semibold tracking-tight">Collections with {p.name} assets</h2>
+        <h2 id="collections" class="text-xl font-semibold tracking-tight">Collections with {p.name} sounds</h2>
         <ul class="mt-4 divide-y rounded-xl border text-sm">
           {s.collections.map(({ collection: c, count }) => (
             <li class="flex items-center justify-between gap-3 px-4 py-3">
               <a href={c.path} class="font-medium hover:text-primary hover:underline">{c.topic.data.title}</a>
-              <span class="text-muted-foreground">{count} of {countLabel(c.assets)}</span>
+              <span class="text-muted-foreground">{count} of {countLabel(c.samples)}</span>
             </li>
           ))}
         </ul>
@@ -108,7 +109,10 @@ const searchLink = `/search?providers=${p.id}${p.assetTypes[0] ? `&type=${p.asse
     ) : null}
 
     <p class="mt-16 text-sm text-muted-foreground">
-      See <a href={`/docs/sources#${p.id}`} class="text-primary hover:underline">all {SOURCE_COUNT} sources and their licences</a>, the <a href="/stats" class="text-primary hover:underline">daily catalog census</a>, or <a href="/assets" class="text-primary hover:underline">browse the collections</a>.
+      See <a href={`/docs/sources#${p.id}`} class="text-primary hover:underline">all {SOURCE_COUNT} sources and their licences</a>, the <a href="/stats" class="text-primary hover:underline">daily catalog census</a>, or <a href="/samples" class="text-primary hover:underline">browse the collections</a>.
     </p>
   </div>
 </BaseLayout>
+<script>
+  import "@/scripts/preview-player";
+</script>

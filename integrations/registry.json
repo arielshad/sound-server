@@ -1,4 +1,221 @@
 {
-  "integrated": [],
+  "integrated": [
+    {
+      "id": "freesound",
+      "name": "Freesound",
+      "homepage": "https://freesound.org",
+      "access": "api",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "freewavesamples",
+      "name": "Free Wave Samples",
+      "homepage": "https://freewavesamples.com",
+      "access": "scrape",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "opengameart",
+      "name": "OpenGameArt",
+      "homepage": "https://opengameart.org",
+      "access": "scrape",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "soundbible",
+      "name": "SoundBible",
+      "homepage": "https://soundbible.com",
+      "access": "scrape",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "orangefreesounds",
+      "name": "Orange Free Sounds",
+      "homepage": "https://orangefreesounds.com",
+      "access": "scrape",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "openverse",
+      "name": "Openverse",
+      "homepage": "https://openverse.org",
+      "access": "api",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "primeloops",
+      "name": "Prime Loops",
+      "homepage": "https://primeloops.com",
+      "access": "link",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "cymatics",
+      "name": "Cymatics",
+      "homepage": "https://cymatics.fm",
+      "access": "link",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "mixkit",
+      "name": "Mixkit",
+      "homepage": "https://mixkit.co",
+      "access": "link",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "splice",
+      "name": "Splice",
+      "homepage": "https://splice.com/sounds",
+      "access": "link",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "loopmasters",
+      "name": "Loopmasters",
+      "homepage": "https://www.loopmasters.com",
+      "access": "link",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "loopcloud",
+      "name": "Loopcloud",
+      "homepage": "https://www.loopcloud.com",
+      "access": "link",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "producerloops",
+      "name": "Producer Loops",
+      "homepage": "https://www.producerloops.com",
+      "access": "link",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "adsr",
+      "name": "ADSR Sounds",
+      "homepage": "https://www.adsrsounds.com",
+      "access": "link",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "pluginboutique",
+      "name": "Plugin Boutique",
+      "homepage": "https://www.pluginboutique.com",
+      "access": "link",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "landr",
+      "name": "LANDR Samples",
+      "homepage": "https://samples.landr.com",
+      "access": "link",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "tracklib",
+      "name": "Tracklib",
+      "homepage": "https://www.tracklib.com",
+      "access": "link",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "looperman",
+      "name": "Looperman",
+      "homepage": "https://www.looperman.com",
+      "access": "link",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "samplefocus",
+      "name": "SampleFocus",
+      "homepage": "https://samplefocus.com",
+      "access": "link",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "zapsplat",
+      "name": "Zapsplat",
+      "homepage": "https://www.zapsplat.com",
+      "access": "link",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "pixabay",
+      "name": "Pixabay Sound Effects",
+      "homepage": "https://pixabay.com/sound-effects/",
+      "access": "link",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "sonniss",
+      "name": "Sonniss",
+      "homepage": "https://sonniss.com",
+      "access": "link",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "uppbeat",
+      "name": "Uppbeat SFX",
+      "homepage": "https://uppbeat.io/sfx",
+      "access": "link",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "bandcamp",
+      "name": "Bandcamp",
+      "homepage": "https://bandcamp.com",
+      "access": "link",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "soundsnap",
+      "name": "Soundsnap",
+      "homepage": "https://www.soundsnap.com",
+      "access": "link",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "epidemicsound",
+      "name": "Epidemic Sound",
+      "homepage": "https://www.epidemicsound.com/sound-effects/",
+      "access": "link",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "artlist",
+      "name": "Artlist SFX",
+      "homepage": "https://artlist.io/sfx",
+      "access": "link",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    }
+  ],
   "rejected": []
 }

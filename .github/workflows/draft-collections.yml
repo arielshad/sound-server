@@ -1,12 +1,12 @@
 name: Draft collection pages
 
 # Once a week, a Claude Code agent drafts up to 3 new collection pages
-# (/assets/<slug>) from what people search for on the site, and they go
-# through a reviewed pull request (prompts/draft-collections.md):
+# (/samples/<slug>, e.g. "Free 808 samples") from what people search for on the
+# site, and they go through a reviewed pull request (prompts/draft-collections.md):
 #
 #   draft    Reads last week's frequent searches from Loki through Grafana
 #            (scripts/collection-ideas.mjs: only queries made at least 3 times,
-#            not covered by a collection or an open pull request) and writes topic
+#            not covered by a collection, a hub or an open pull request) and writes topic
 #            files. Read-only checkout, no push credentials; the search terms
 #            stay out of the public log and artifacts. Hands over a patch.
 #   verify   No Claude credentials. Applies the patch, gates it
@@ -24,8 +24,15 @@ name: Draft collection pages
 # Secrets:
 #   CLAUDE_CODE_OAUTH_TOKEN or ANTHROPIC_API_KEY   as for discover-integrations.yml
 #   GRAFANA_TOKEN (optional)   a Grafana service-account token with the Viewer
-#                              role on grafana.shep.bot. Without it the agent
-#                              picks topics from its own research.
+#                              role. Without it the agent picks topics from its
+#                              own research.
+#   FREESOUND_API_KEY (optional)   lets the verify job's searches include Freesound
+#                              (as in the daily census). Never given to the agents,
+#                              so their own trial searches may find a little less.
+# Repository variables (optional, Settings > Secrets and variables > Variables):
+#   GRAFANA_URL      default https://grafana.shep.bot
+#   LOKI_UID         the Loki datasource uid in that Grafana
+#   LOKI_NAMESPACE   the namespace whose pod logs hold the search events, default sound-server
 # Repository setting: Settings > Actions > General > "Allow GitHub Actions to
 # create and approve pull requests" must be on for the verify job to open the PR.
 #
@@ -77,6 +84,9 @@ jobs:
       - name: Candidate topics from last week's searches
         env:
           GRAFANA_TOKEN: ${{ secrets.GRAFANA_TOKEN }}
+          GRAFANA_URL: ${{ vars.GRAFANA_URL }}
+          LOKI_UID: ${{ vars.LOKI_UID }}
+          LOKI_NAMESPACE: ${{ vars.LOKI_NAMESPACE }}
         # Prints only counts; the file itself (search terms) is read by the agent and never uploaded.
         run: node scripts/collection-ideas.mjs --pending "$RUNNER_TEMP/pending.json" > collection-ideas.json
 
@@ -164,16 +174,18 @@ jobs:
       - name: Apply the agent's patch
         run: git apply --index --binary "$RUNNER_TEMP/collections.patch"
 
+      # The gate reads the vocabulary (categories, forms) from the compiled server.
+      - name: Build the server
+        run: npm run build:server
+
       - name: Gate the patch
         id: gate
         run: node scripts/collection-gate.mjs HEAD
 
-      - name: Build the server
-        run: npm run build:server
-
       - name: Run each new search
         env:
           ADDED: ${{ steps.gate.outputs.added }}
+          FREESOUND_API_KEY: ${{ secrets.FREESOUND_API_KEY }}
         run: node scripts/snapshot-collections.mjs ${ADDED//,/ }
 
       - name: Withdraw topics with too few results
@@ -237,13 +249,15 @@ jobs:
             const kept = process.env.KEPT.split(",");
             const rows = readTopics().filter((t) => kept.includes(t.slug)).map((t) => {
               const s = readSnapshot(t.slug);
-              const sources = new Set(s.assets.map((a) => a.provider)).size;
-              return `| [${t.data.title}](https://sound.shep.bot/assets/${t.slug}) | \`${t.data.search.q}\` | ${t.data.hub} | ${s.assets.length} from ${sources} sources |`;
+              const sources = new Set(s.samples.map((a) => a.provider)).size;
+              const cleared = s.samples.filter((a) => ["yes", "yes-with-credit"].includes(a.license?.verdict)).length;
+              const filters = [...(t.data.search.categories ?? []), ...(t.data.search.forms ?? []), t.data.search.commercial ? "commercial" : ""].filter(Boolean).join(", ");
+              return `| [${t.data.title}](https://sound.shep.bot/samples/${t.slug}) | \`${t.data.search.q}\`${filters ? ` (${filters})` : ""} | ${t.data.hub} | ${s.samples.length} from ${sources} sources, ${cleared} cleared for commercial use |`;
             });
             console.log([
               "New collection pages drafted by the weekly workflow (`.github/workflows/draft-collections.yml`).",
               "",
-              "| Page (live after merge) | Search | Hub | Assets |",
+              "| Page (live after merge) | Search | Hub | Samples |",
               "| --- | --- | --- | --- |",
               ...rows,
               "",

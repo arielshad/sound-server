@@ -1,24 +1,29 @@
 ---
-// A collection in a hub or index grid: four thumbnails, title, description, count.
+// A collection in a hub or index grid: a play button for its first sample, a
+// waveform strip, title, description and count.
+import PlayButton from "./PlayButton.astro";
+import Wave from "./Wave.astro";
 import { countLabel, type Collection } from "@/lib/collections";
 
 interface Props {
   collection: Collection;
 }
 const { collection: c } = Astro.props;
-const thumbs = c.assets.slice(0, 4);
+const first = c.samples[0];
 ---
-<li class="group overflow-hidden rounded-xl border bg-card/50 transition hover:-translate-y-0.5 hover:border-primary/40 hover:shadow-xl hover:shadow-primary/5">
-  <a href={c.path} class="flex h-full flex-col focus-visible:outline-2 focus-visible:outline-ring">
-    <div class="grid aspect-[2/1] grid-cols-4 gap-px overflow-hidden bg-muted" aria-hidden="true">
-      {thumbs.map((a) => <img src={a.thumbnailUrl} alt="" width="160" height="160" loading="lazy" decoding="async" referrerpolicy="no-referrer" class="size-full object-cover" />)}
-    </div>
-    <div class="flex flex-1 flex-col gap-1.5 p-4">
-      <h3 class="font-medium leading-snug group-hover:text-primary">{c.topic.data.title}</h3>
-      <p class="line-clamp-2 text-sm text-muted-foreground">{c.topic.data.description}</p>
-      <p class="mt-auto pt-2 text-xs text-muted-foreground">
-        {countLabel(c.assets)} from {c.sources.length} {c.sources.length === 1 ? "source" : "sources"}
-      </p>
-    </div>
-  </a>
+<li class="group relative flex flex-col overflow-hidden rounded-xl border bg-card/50 transition hover:border-primary/40 hover:shadow-xl hover:shadow-primary/5">
+  <div class="flex items-center gap-3 border-b bg-muted/30 px-4 py-3">
+    {first ? <PlayButton id={first.id} src={first.previewUrl} title={first.title} class="relative z-10" /> : <span class="size-10 shrink-0 rounded-full border" aria-hidden="true"></span>}
+    <Wave seed={c.slug} bars={56} class="h-10 w-full min-w-0 text-primary/40" />
+  </div>
+  <div class="flex flex-1 flex-col gap-1.5 p-4">
+    <h3 class="font-medium leading-snug group-hover:text-primary">
+      <a href={c.path} class="after:absolute after:inset-0 focus-visible:outline-2 focus-visible:outline-ring">{c.topic.data.title}</a>
+    </h3>
+    <p class="line-clamp-2 text-sm text-muted-foreground">{c.topic.data.description}</p>
+    <p class="mt-auto pt-2 text-xs text-muted-foreground">
+      {c.samples.length ? <>{countLabel(c.samples)} from {c.sources.length} {c.sources.length === 1 ? "source" : "sources"}</> : "Being collected"}
+      {first && <> · plays “{first.title}”</>}
+    </p>
+  </div>
 </li>

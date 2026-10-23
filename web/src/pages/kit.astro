@@ -1,0 +1,39 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import KitBuilder from "@/components/kit/KitBuilder";
+import { breadcrumbs } from "@/lib/schema";
+import { MCP_URL, SITE } from "@/lib/site";
+
+const title = "Drum kit builder";
+const description = "Build a matching drum kit in one click: kick, snare, clap, hats and 808 for your style, tempo and key, with licence verdicts and a Strudel snippet.";
+---
+
+<BaseLayout title={title} description={description} schema={[breadcrumbs([{ name: "Home", path: "/" }, { name: title, path: "/kit" }])]}>
+  <div class="mx-auto max-w-7xl px-4 py-10 sm:px-6">
+    <header class="max-w-3xl">
+      <p class="text-sm font-medium text-primary">Kit builder</p>
+      <h1 class="mt-2 text-balance text-3xl font-semibold tracking-tight sm:text-4xl">Build a drum kit that fits your track</h1>
+      <p class="mt-3 text-pretty text-muted-foreground">
+        Name a style, a tempo and a key. Sound Server searches every source once per slot and picks a kick, snare, clap, hats and an 808 that suit it, each with alternatives and a licence verdict. Audition them here, swap what you don't like, and play the result in Strudel.
+      </p>
+    </header>
+    <div class="mt-8">
+      <KitBuilder client:load />
+    </div>
+    <noscript>
+      <p class="mt-6 text-sm text-muted-foreground">
+        The kit builder needs JavaScript. Without it, call the API: <code>curl -X POST {SITE.url}/v1/kits -H "content-type: application/json" -d '&#123;"style":"dark trap","bpm":140,"key":"F minor"&#125;'</code>
+      </p>
+    </noscript>
+    <section class="mt-16 max-w-3xl" aria-labelledby="api">
+      <h2 id="api" class="text-xl font-semibold tracking-tight">From code or an agent</h2>
+      <p class="mt-2 text-sm text-muted-foreground">The same kit over the REST API:</p>
+      <pre class="mt-2 overflow-x-auto rounded-lg border bg-[#0d0d12] p-3 text-xs text-zinc-200"><code>{`curl -X POST ${SITE.url}/v1/kits \\
+  -H "content-type: application/json" \\
+  -d '{"style":"dark trap","bpm":140,"key":"F minor","slots":["kick","snare","clap","hat.closed","hat.open","808"]}'`}</code></pre>
+      <p class="mt-3 text-sm text-muted-foreground">
+        Or connect <code class="text-xs">{MCP_URL}</code> to your coding agent and ask: “build me a dark trap kit at 140 BPM in F minor, commercial-safe”. Run locally, the <code class="text-xs">build_kit</code> tool also downloads the picks with a Strudel map, an SFZ file and the credits. <a href="/docs/mcp" class="text-primary hover:underline">Agent setup</a>
+      </p>
+    </section>
+  </div>
+</BaseLayout>

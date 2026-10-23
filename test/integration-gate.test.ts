@@ -74,6 +74,31 @@ describe("integration gate", () => {
     );
   });
 
+  it("accepts a link-only source added to linked.ts, without a live test", () => {
+    const link = { ...neu, id: "walled", access: "link", homepage: "https://walled.example" };
+    const files = [
+      { status: "M", path: "src/providers/linked.ts" },
+      { status: "A", path: "test/providers/walled.test.ts" },
+      { status: "M", path: "integrations/registry.json" },
+      { status: "M", path: "web/src/data/providers.json" },
+    ];
+    expect(check({ files, before, after: { ...before, integrated: [poly, link] } })).toEqual({ errors: [], added: ["walled"], rejected: 0 });
+    // It still needs its offline test.
+    expect(check({ files: files.filter((f) => !f.path.startsWith("test/")), before, after: { ...before, integrated: [poly, link] } }).errors).toContainEqual(
+      expect.stringContaining("test/providers/walled.test.ts: required"),
+    );
+    // A searchable source can't hide in linked.ts.
+    const api = { ...link, access: "api" };
+    expect(check({ files, before, after: { ...before, integrated: [poly, api] } }).errors).toContainEqual(expect.stringContaining("src/providers/walled.ts: required"));
+  });
+
+  it("lets a new source add its own manifest data, but not change another's", () => {
+    const files = [...newSourceFiles, { status: "A", path: "src/providers/data/newsite.json" }];
+    expect(check({ files, before, after: withNew }).errors).toEqual([]);
+    const edited = [...newSourceFiles, { status: "M", path: "src/providers/data/curated-packs.json" }];
+    expect(check({ files: edited, before, after: withNew }).errors).toContainEqual(expect.stringContaining("existing provider data must not change"));
+  });
+
   it("allows one new source per run and protects existing registry entries", () => {
     const two = { ...withNew, integrated: [poly, neu, { ...neu, id: "other", homepage: "https://other.example" }] };
     expect(check({ files: newSourceFiles, before, after: two }).errors).toContainEqual(expect.stringContaining("2 sources added"));

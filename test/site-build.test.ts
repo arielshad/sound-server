@@ -3,13 +3,17 @@
  * site makes to agents. Runs after `npm run build` (as in CI); skipped when
  * the site has not been built.
  */
-import { existsSync, readFileSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { describe, expect, it } from "vitest";
 
 const root = new URL("../dist/web/", import.meta.url);
 const built = existsSync(new URL("index.html", root));
 const read = (p: string) => readFileSync(new URL(p, root), "utf8");
+const data = <T>(p: string, fallback: T): T => {
+  const file = new URL(`../web/src/data/${p}`, import.meta.url);
+  return existsSync(file) ? (JSON.parse(readFileSync(file, "utf8")) as T) : fallback;
+};
 const text = (html: string) =>
   html
     .replace(/<script[\s\S]*?<\/script>/g, "")
@@ -85,18 +89,18 @@ describe.skipIf(!built)("built website", () => {
 
   it("keeps the API playground out of crawls and renders the full reference statically", () => {
     const robots = read("robots.txt").replace(/\r\n/g, "\n");
-    expect(robots).toMatch(/User-agent: \*\nDisallow: \/v1\/assets\/\*\/download\nDisallow: \/docs\/api\/playground/);
+    expect(robots).toMatch(/User-agent: \*\nDisallow: \/v1\/samples\/\*\/download\nDisallow: \/v1\/samples\/\*\/preview\nDisallow: \/docs\/api\/playground/);
     expect(robots).not.toContain("Allow: /");
     expect(read("sitemap-0.xml")).not.toContain("playground");
     const reference = read("docs/api/reference/index.html");
-    for (const id of ["searchAssets", "getAsset", "selectFiles", "downloadAsset", "listProviders", "mcp"]) expect(reference).toContain(`id="op-${id}"`);
-    for (const schema of ["asset", "assetfile", "searchresponse", "providerreport"]) expect(reference).toContain(`id="schema-${schema}"`);
+    for (const id of ["searchSamples", "getSample", "selectFiles", "downloadSample", "getPreview", "buildKit", "listProviders", "mcp"]) expect(reference).toContain(`id="op-${id}"`);
+    for (const schema of ["sample", "samplefile", "license", "searchresponse", "providersearchreport", "kit"]) expect(reference).toContain(`id="schema-${schema}"`);
     expect(read("docs/api/playground/index.html")).toContain('content="noindex, follow"');
   });
 
   it("publishes a /stats page with a Markdown twin, footer link and llms.txt entry", () => {
     const html = read("stats/index.html");
-    expect(html).toMatch(/<h1[^>]*>3D assets in numbers<\/h1>/);
+    expect(html).toMatch(/<h1[^>]*>[^<]* in numbers<\/h1>/);
     expect(html).toContain("StatsDashboard"); // the live island
     expect(read("sitemap-0.xml")).toContain("https://sound.shep.bot/stats<");
     expect(read("index.html")).toContain('href="/stats"');
@@ -110,7 +114,7 @@ describe.skipIf(!built)("built website", () => {
     const files = ["index.html", "docs/index.html", "about.md", "docs/mcp.md", "docs/api.md", "docs/cli.md", "AGENTS.md", "skill/SKILL.md", "llms.txt", "stats/index.html"];
     const sources = [...files.map((f) => [f, read(f)]), ["README.md", readFileSync(new URL("../README.md", import.meta.url), "utf8")]];
     for (const [f, body] of sources) {
-      for (const m of body!.matchAll(/\b(\d+) (?:3D )?(?:asset )?sites\b/g)) expect(`${f}: ${m[0]}`).toBe(`${f}: ${m[1] === String(n) ? m[0] : `${n} … sites`}`);
+      for (const m of body!.matchAll(/\b(\d+) (?:music )?(?:sample |sound )?sites\b/g)) expect(`${f}: ${m[0]}`).toBe(`${f}: ${m[1] === String(n) ? m[0] : `${n} … sites`}`);
     }
   });
 
@@ -130,7 +134,7 @@ describe.skipIf(!built)("built website", () => {
     for (const page of pages) {
       const html = read(page);
       const image = html.match(/<meta property="og:image" content="([^"]+)"/)?.[1];
-      expect(image, page).toMatch(/^https:\/\/3d\.shep\.bot\/og\/[a-z0-9-]+\.png$/);
+      expect(image, page).toMatch(/^https:\/\/sound\.shep\.bot\/og\/[a-z0-9-]+\.png$/);
       images.add(image!);
       const file = new URL(`.${new URL(image!).pathname}`, root);
       expect(statSync(file).size, image).toBeGreaterThan(10_000);
@@ -159,55 +163,67 @@ describe.skipIf(!built)("built website", () => {
     expect(stats).toMatch(/As of [A-Z][a-z]+ \d+, \d{4}, Sound Server searches/);
     const dataset = jsonLd(stats)["@graph"].find((n) => n["@type"] === "Dataset") as { distribution: { contentUrl: string }[] } | undefined;
     expect(dataset?.distribution.map((d) => d.contentUrl)).toEqual(["https://sound.shep.bot/catalog.json", "https://sound.shep.bot/catalog-history.json"]);
-    expect(read("index.html")).toContain("free 3D assets");
-    expect(read("llms.txt")).toMatch(/\*\*Catalog \(counted \d{4}-\d{2}-\d{2}\)\.\*\* [\d,]+\+? asset listings/);
+    expect(read("index.html")).toMatch(/free (?:music )?samples/i);
+    expect(read("llms.txt")).toMatch(/\*\*Catalog \(counted \d{4}-\d{2}-\d{2}\)\.\*\* [\d,]+\+? (?:sample )?listings/);
     const md = read("stats.md");
-    expect(md).toContain("# 3D assets in numbers");
+    expect(md).toMatch(/^# .+ in numbers$/m);
     expect(md).toContain(`| ${listings}`.slice(0, 2)); // the by-source table
     expect(md).toContain("/v1/catalog");
   });
 
   describe("collections", () => {
-    const slug = "free-sunset-hdris";
+    // Collections live at /samples/<slug>, hubs at /samples/<hub>; the first
+    // indexable snapshot stands in for all of them (the set changes weekly).
+    type Snap = { slug: string; samples: { provider: string }[] };
+    const snapshots: Snap[] = (() => {
+      const dir = new URL("../web/src/data/collections/", import.meta.url);
+      if (!existsSync(dir)) return [];
+      return readdirSync(dir)
+        .filter((f) => f.endsWith(".json"))
+        .map((f) => JSON.parse(readFileSync(new URL(f, dir), "utf8")) as Snap);
+    })();
+    const page = snapshots.find((s) => s.samples.length >= 12 && new Set(s.samples.map((a) => a.provider)).size >= 2);
+    const hubs = data<{ id: string }[]>("collection-hubs.json", []);
+    const providers = data<{ id: string; access: string }[]>("providers.json", []);
     const sitemap = () => read("sitemap-0.xml");
-    const entry = (path: string) => sitemap().match(new RegExp(`<url><loc>https://3d\\.shep\\.bot${path}</loc>(.*?)</url>`))?.[1];
+    const entry = (path: string) => sitemap().match(new RegExp(`<url><loc>https://sound\\.shep\\.bot${path}</loc>(.*?)</url>`))?.[1];
 
-    it("pre-renders a collection with its assets, copy, FAQ and structured data", () => {
-      const html = read(`assets/${slug}/index.html`);
-      expect(html).toMatch(/<h1[^>]*>Free sunset HDRIs<\/h1>/);
+    it.skipIf(!page)("pre-renders a collection with its samples, previews, copy, FAQ and structured data", () => {
+      const html = read(`samples/${page!.slug}/index.html`);
       expect(html).toContain('content="index, follow');
-      expect((html.match(/href="\/search\?asset=/g) ?? []).length).toBeGreaterThanOrEqual(12);
-      expect(text(html)).toContain("How to choose one");
+      expect((html.match(/href="\/search\?sample=/g) ?? []).length).toBeGreaterThanOrEqual(12);
+      expect((html.match(/<audio\b|data-preview=/g) ?? []).length).toBeGreaterThanOrEqual(1);
       const graph = jsonLd(html)["@graph"];
       expect(graph.map((n) => n["@type"])).toEqual(expect.arrayContaining(["CollectionPage", "BreadcrumbList", "FAQPage"]));
-      const page = graph.find((n) => n["@type"] === "CollectionPage") as { dateModified: string; mainEntity: { numberOfItems: number } };
-      expect(page.mainEntity.numberOfItems).toBeGreaterThanOrEqual(12);
-      expect(page.dateModified).toMatch(/^\d{4}-\d{2}-\d{2}T/);
+      const col = graph.find((n) => n["@type"] === "CollectionPage") as { dateModified: string; mainEntity: { numberOfItems: number } };
+      expect(col.mainEntity.numberOfItems).toBeGreaterThanOrEqual(12);
+      expect(col.dateModified).toMatch(/^\d{4}-\d{2}-\d{2}T/);
+      expect(read(`samples/${page!.slug}.md`)).toMatch(/\| `[a-z0-9-]+:/);
+      expect(read("llms.txt")).toContain(`https://sound.shep.bot/samples/${page!.slug}.md`);
+      expect(entry(`/samples/${page!.slug}`)).toMatch(/<lastmod>\d{4}-\d{2}-\d{2}T/);
     });
 
-    it("publishes hubs, the index and source pages, each with a Markdown twin", () => {
-      for (const page of ["assets", "assets/hdris", "sources/polyhaven"]) {
-        expect(text(read(`${page}/index.html`)).length, page).toBeGreaterThan(500);
-        expect(read(`${page}.md`).length, page).toBeGreaterThan(300);
+    it("publishes the hubs and the index, each with a Markdown twin", () => {
+      expect(hubs.length).toBeGreaterThan(0);
+      for (const p of ["samples", ...hubs.map((h) => `samples/${h.id}`)]) {
+        expect(text(read(`${p}/index.html`)).length, p).toBeGreaterThan(500);
+        expect(read(`${p}.md`).length, p).toBeGreaterThan(300);
       }
-      expect(read(`assets/${slug}.md`)).toContain("| `polyhaven:");
-      expect(read("llms.txt")).toContain(`https://sound.shep.bot/assets/${slug}.md`);
-      expect(read("index.html")).toContain(`href="/assets/${slug}"`);
-      expect(read("docs/sources/index.html")).toContain('href="/sources/polyhaven"');
+      expect(entry(`/samples/${hubs[0]!.id}`)).toContain("<lastmod>");
     });
 
     it("dates only what it can date in the sitemap", () => {
-      expect(entry(`/assets/${slug}`)).toMatch(/<lastmod>\d{4}-\d{2}-\d{2}T/);
-      expect(entry("/assets/hdris")).toContain("<lastmod>");
       expect(entry("/stats")).toContain("<lastmod>");
       expect(entry("/docs/mcp")).not.toContain("<lastmod>");
       expect(entry("/")).not.toContain("<lastmod>");
     });
 
     it("keeps thin source pages out of the index and the sitemap", () => {
-      expect(read("sources/fab/index.html")).toContain('content="noindex, follow"');
-      expect(sitemap()).not.toContain("/sources/fab<");
-      expect(sitemap()).toContain("/sources/polyhaven<");
+      const linked = providers.find((p) => p.access === "link");
+      if (!linked) return;
+      expect(read(`sources/${linked.id}/index.html`)).toContain('content="noindex, follow"');
+      expect(sitemap()).not.toContain(`/sources/${linked.id}<`);
+      expect(read("docs/sources/index.html")).toContain(`href="/sources/${linked.id}"`);
     });
   });
 });

@@ -27,7 +27,7 @@ export const CATEGORY_DEFS = [
   { id: "drums.cymbal.crash", label: "Crash", aliases: ["crash", "crash cymbal", "splash"] },
   { id: "drums.cymbal.ride", label: "Ride", aliases: ["ride", "ride cymbal", "ride bell"] },
   { id: "drums.tom", label: "Tom", aliases: ["tom", "toms", "floor tom", "tom tom"] },
-  { id: "drums.perc", label: "Percussion", aliases: ["perc", "percs", "shaker", "tambourine", "conga", "bongo", "cowbell", "woodblock", "rim", "clave", "cabasa", "guiro", "timbale", "djembe", "tabla", "cajon", "triangle", "agogo"] },
+  { id: "drums.perc", label: "Percussion", aliases: ["perc", "percs", "shaker", "tambourine", "conga", "bongo", "cowbell", "woodblock", "rim", "clave", "cabasa", "guiro", "timbale", "djembe", "tabla", "cajon", "triangle", "agogo", "timpani", "mridangam", "darbuka", "taiko", "percussion hit"] },
   { id: "drums.fill", label: "Drum fill", aliases: ["fill", "fills", "drum fill"] },
   { id: "drums.break", label: "Breakbeat", aliases: ["break", "breaks", "breakbeat", "breakbeats", "amen"] },
   { id: "bass", label: "Bass", aliases: ["bass", "bassline", "basses"] },
@@ -44,7 +44,7 @@ export const CATEGORY_DEFS = [
   { id: "fx.downlifter", label: "Downlifter", aliases: ["downlifter", "downlifters", "downer", "fall"] },
   { id: "fx.impact", label: "Impact", aliases: ["impact", "impacts", "orchestral hit", "cinematic hit", "boom", "slam", "thud", "braam", "sub drop", "explosion", "explosions", "explode", "blast", "gunshot", "gun shot", "punch"] },
   { id: "fx.sweep", label: "Sweep", aliases: ["sweep", "sweeps", "whoosh", "whooshes", "swoosh", "swish", "woosh"] },
-  { id: "fx.zap", label: "Zap", aliases: ["zap", "zaps", "laser", "lasers", "pew", "blaster", "zapper"] },
+  { id: "fx.zap", label: "Zap", aliases: ["zap", "zaps", "laser", "lasers", "pew", "blaster", "zapper", "siren", "alarm"] },
   { id: "fx.noise", label: "Noise", aliases: ["noise", "white noise", "static", "hiss", "vinyl", "crackle", "vinyl crackle"] },
   { id: "fx.glitch", label: "Glitch", aliases: ["glitch", "glitches", "stutter", "bitcrush"] },
   { id: "fx.transition", label: "Transition", aliases: ["transition", "transitions", "reverse", "reversed", "tape stop"] },
@@ -59,7 +59,7 @@ export const CATEGORY_DEFS = [
   { id: "synth.stab", label: "Stab", aliases: ["stab", "stabs", "chord stab"] },
   { id: "strings", label: "Strings", aliases: ["strings", "violin", "viola", "cello", "contrabass", "double bass", "pizzicato", "harp", "orchestral"] },
   { id: "brass", label: "Brass", aliases: ["brass", "trumpet", "trombone", "horn", "french horn", "tuba", "sax", "saxophone"] },
-  { id: "woodwind", label: "Woodwind", aliases: ["woodwind", "flute", "clarinet", "oboe", "bassoon", "recorder", "pan flute", "whistle"] },
+  { id: "woodwind", label: "Woodwind", aliases: ["woodwind", "flute", "clarinet", "oboe", "bassoon", "recorder", "pan flute", "whistle", "harmonica"] },
   { id: "mallets", label: "Mallets", aliases: ["mallet", "mallets", "marimba", "xylophone", "vibraphone", "glockenspiel", "kalimba", "bells", "bell", "chime", "chimes", "music box"] },
   { id: "other", label: "Other", aliases: [] },
 ] as const satisfies readonly CategoryDef[];
@@ -117,5 +117,5 @@ export type PitchClass = (typeof PITCH_CLASSES)[number];
 
 /** Audio formats, best quality first: the order downloads prefer. */
 export const AUDIO_FORMATS = ["wav", "aiff", "aif", "flac", "ogg", "opus", "mp3", "m4a"] as const;
-export const ARCHIVE_FORMATS = ["zip", "rar", "7z"] as const;
+export const ARCHIVE_FORMATS = ["zip", "rar", "7z", "tar", "tar.gz", "tgz", "tar.xz"] as const;
 export const OTHER_FORMATS = ["mid", "midi", "sfz", "dspreset", "sf2", "nki", "fxp", "vital", "json"] as const;

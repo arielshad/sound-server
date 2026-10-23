@@ -114,8 +114,8 @@ function scoreCategories(fields: Partial<Record<Field, string[]>>): Map<string, 
       if (FIELD_WEIGHTS[field] >= 1) strongHits.add(h);
     }
   }
-  // "808 snare", "808 kick": the 808 names the drum machine, not the bass.
-  if (scores.has("bass.808") && [...strongHits].some((h) => h.startsWith("drums.") && h !== "drums")) {
+  // "808 snare", "808 kick", "808 drums": the 808 names the drum machine, not the bass.
+  if (scores.has("bass.808") && [...strongHits].some((h) => h === "drums" || h.startsWith("drums."))) {
     scores.set("bass.808", scores.get("bass.808")! * 0.3);
   }
   // A child that scored lends its weight to its parent, so "kick" also means "drums".
@@ -184,7 +184,7 @@ export function inferForm(input: ClassifyInput, category?: string): SampleForm |
 /** All categories the words point at (for query hints), most specific first. */
 export function categoriesIn(text: string): Category[] {
   const hits = [...matchAliases(soundTokens(text))];
-  if (hits.includes("bass.808") && hits.some((h) => h.startsWith("drums."))) hits.splice(hits.indexOf("bass.808"), 1);
+  if (hits.includes("bass.808") && hits.some((h) => h === "drums" || h.startsWith("drums."))) hits.splice(hits.indexOf("bass.808"), 1);
   return hits.sort((a, b) => depth(b) - depth(a)) as Category[];
 }
 

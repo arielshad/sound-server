@@ -2,39 +2,39 @@
 // The catalog census: what every source holds, counted daily (scripts/census.mjs).
 // Static HTML, so the numbers are indexable and quotable.
 import CopyButton from "@/components/stats/CopyQuote";
-import { CATALOG, CATALOG_SENTENCE, COUNTED_ON, FREE_LIBRARIES, HISTORY, TYPE_NAMES, TYPES_BY_SIZE, fmt, fmtShort } from "@/lib/catalog";
+import { CATALOG, CATALOG_SENTENCE, CATEGORIES_BY_SIZE, COUNTED_ON, FREE_LIBRARIES, HISTORY, categoryName, fmt, fmtShort } from "@/lib/catalog";
 
 const t = CATALOG.totals;
 const tiles = [
-  { label: "Asset listings", value: fmtShort(t.listings.count, t.listings.atLeast), exact: fmt(t.listings.count, t.listings.atLeast), hint: `on ${t.sourcesCounted} sources` },
+  { label: "Sample listings", value: fmtShort(t.listings.count, t.listings.atLeast), exact: fmt(t.listings.count, t.listings.atLeast), hint: `on ${t.sourcesCounted} sources` },
   { label: "Free", value: fmtShort(t.free.count, t.free.atLeast), exact: fmt(t.free.count, t.free.atLeast), hint: "free to download" },
-  { label: "CC0 / public domain", value: fmtShort(t.cc0.count, t.cc0.atLeast), exact: fmt(t.cc0.count, t.cc0.atLeast), hint: "no credit needed, commercial use OK" },
+  { label: "CC0 / public domain", value: fmtShort(t.cc0.count, t.cc0.atLeast), exact: fmt(t.cc0.count, t.cc0.atLeast), hint: "no credit needed, release them freely" },
   { label: "Direct downloads", value: fmtShort(t.directDownload.count, t.directDownload.atLeast), exact: fmt(t.directDownload.count, t.directDownload.atLeast), hint: "free files this server fetches for you" },
 ];
 
 // Counts span 1 to millions, so bar lengths use a log scale (values are printed).
 const logPct = (n: number, max: number) => (n <= 0 ? 0 : Math.max(2, (Math.log10(n + 1) / Math.log10(max + 1)) * 100));
-const typeMax = Math.max(...TYPES_BY_SIZE.map((x) => x.count));
-const sourceMax = Math.max(...CATALOG.sources.map((s) => s.total));
-const mainTypes = (byType: Record<string, number>) =>
-  Object.entries(byType)
+const categoryMax = Math.max(1, ...CATEGORIES_BY_SIZE.map((x) => x.count));
+const sourceMax = Math.max(1, ...CATALOG.sources.map((s) => s.total));
+const mainCategories = (byCategory: Record<string, number>) =>
+  Object.entries(byCategory ?? {})
     .filter(([, n]) => n > 0)
     .sort((a, b) => b[1] - a[1])
     .slice(0, 3)
-    .map(([k, n]) => `${TYPE_NAMES[k] ?? k} ${fmtShort(n)}`)
+    .map(([k, n]) => `${categoryName(k)} ${fmtShort(n)}`)
     .join(" · ");
 
 const highlights = CATALOG.sources.flatMap((s) => (s.highlights ?? []).map((h) => ({ ...h, source: s.name })));
 const downloads = CATALOG.sources.filter((s) => s.downloads);
 const dated = CATALOG.sources.filter((s) => s.addedLast30Days !== undefined);
 
-// Growth: free listings per day (CGTrader's paid catalogue would flatten everything else).
+// Growth: free listings per day (paid store catalogues would flatten everything else).
 const points = HISTORY.map((h) => ({ date: h.date, value: h.free }));
 const W = 640;
 const H = 160;
 const pad = { l: 8, r: 8, t: 12, b: 22 };
-const vMin = Math.min(...points.map((p) => p.value));
-const vMax = Math.max(...points.map((p) => p.value));
+const vMin = points.length ? Math.min(...points.map((p) => p.value)) : 0;
+const vMax = points.length ? Math.max(...points.map((p) => p.value)) : 0;
 const x = (i: number) => pad.l + (points.length > 1 ? (i / (points.length - 1)) * (W - pad.l - pad.r) : 0);
 const y = (v: number) => pad.t + (vMax === vMin ? 0.5 : 1 - (v - vMin) / (vMax - vMin)) * (H - pad.t - pad.b);
 const path = points.map((p, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(p.value).toFixed(1)}`).join(" ");
@@ -60,23 +60,23 @@ const path = points.map((p, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(p.valu
     <blockquote class="max-w-3xl text-pretty text-base">{CATALOG_SENTENCE}</blockquote>
     <CopyButton client:visible text={`${CATALOG_SENTENCE} Source: https://sound.shep.bot/stats`} />
     <figcaption class="w-full text-xs text-muted-foreground">
-      Quote it freely. A "listing" is one asset, or one pack on Kenney, Quaternius and itch.io. Numbers with + are lower bounds (BlenderKit caps its counts at 10,000 per type).
+      Quote it freely. A "listing" is one sound, or one pack on sources that sell or share whole packs. Numbers with + are lower bounds (some sources cap the counts they report).
     </figcaption>
   </figure>
 
   <div class="mt-10 grid gap-8 lg:grid-cols-2">
     <div>
-      <h3 class="font-medium">By asset type</h3>
-      <p class="mt-1 text-xs text-muted-foreground">Bar length on a log scale; each listing counts once.</p>
+      <h3 class="font-medium">By category</h3>
+      <p class="mt-1 text-xs text-muted-foreground">Bar length on a log scale; each listing counts once, under its top-level category.</p>
       <ul class="mt-4 space-y-3">
-        {TYPES_BY_SIZE.map((row) => (
+        {CATEGORIES_BY_SIZE.map((row) => (
           <li title={`${row.name}: ${fmt(row.count, row.atLeast)}`}>
             <div class="flex items-baseline justify-between gap-3 text-sm">
               <span>{row.name}</span>
               <span class="tabular-nums text-muted-foreground">{fmt(row.count, row.atLeast)}</span>
             </div>
             <div class="mt-1.5 h-2.5 rounded-r-[4px] bg-muted" aria-hidden="true">
-              <div class="h-full rounded-r-[4px] bg-primary/80" style={`width:${logPct(row.count, typeMax).toFixed(1)}%`}></div>
+              <div class="h-full rounded-r-[4px] bg-primary/80" style={`width:${logPct(row.count, categoryMax).toFixed(1)}%`}></div>
             </div>
           </li>
         ))}
@@ -89,9 +89,9 @@ const path = points.map((p, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(p.valu
       <ul class="mt-4 divide-y rounded-xl border">
         {FREE_LIBRARIES.map((s) => (
           <li class="flex items-center justify-between gap-3 px-4 py-2.5 text-sm">
-            <a href={`/docs/sources#${s.id}`} class="font-medium hover:underline">{s.name}</a>
+            <a href={`/sources/${s.id}`} class="font-medium hover:underline">{s.name}</a>
             <span class="text-right text-muted-foreground">
-              <span class="tabular-nums text-foreground">{fmt(s.total, s.atLeast)}</span> {s.unit === "packs" ? "packs" : "assets"}
+              <span class="tabular-nums text-foreground">{fmt(s.total, s.atLeast)}</span> {s.unit === "packs" ? "packs" : "sounds"}
               {s.license && <span class="ml-1 text-xs">· {s.license}</span>}
             </span>
           </li>
@@ -118,7 +118,7 @@ const path = points.map((p, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(p.valu
         {CATALOG.sources.map((s) => (
           <tr class="align-top">
             <th scope="row" class="px-4 py-3 text-left font-medium">
-              <a href={`/docs/sources#${s.id}`} class="hover:underline">{s.name}</a>
+              <a href={`/sources/${s.id}`} class="hover:underline">{s.name}</a>
               {s.stale && <div class="text-xs font-normal text-muted-foreground">last counted {s.stale.since.slice(0, 10)}</div>}
             </th>
             <td class="min-w-48 px-4 py-3" title={s.method}>
@@ -128,7 +128,7 @@ const path = points.map((p, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(p.valu
               </div>
             </td>
             <td class="px-4 py-3 text-right tabular-nums">{s.free !== undefined ? fmt(s.free, s.atLeast && s.free >= 10_000) : s.pricing === "free" ? fmt(s.total) : "–"}</td>
-            <td class="px-4 py-3 text-muted-foreground">{mainTypes(s.byType)}</td>
+            <td class="px-4 py-3 text-muted-foreground">{mainCategories(s.byCategory)}</td>
             <td class="px-4 py-3 text-right tabular-nums">{s.addedLast30Days ?? "–"}</td>
           </tr>
         ))}
@@ -137,7 +137,7 @@ const path = points.map((p, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(p.valu
   </div>
   {CATALOG.linked.length > 0 && (
     <p class="mt-2 text-xs text-muted-foreground">
-      Not counted: {CATALOG.linked.map((l) => l.name).join(", ")} (linked searches only; they block automated access).
+      Not counted: {CATALOG.linked.map((l) => l.name).join(", ")} (linked searches only; they don't allow automated access).
     </p>
   )}
 
@@ -154,7 +154,7 @@ const path = points.map((p, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(p.valu
         ))}
         {downloads.map((s) => (
           <li class="rounded-xl border bg-card/40 p-5">
-            <p class="text-xs text-muted-foreground">All {s.name} assets</p>
+            <p class="text-xs text-muted-foreground">All {s.name} sounds</p>
             <p class="mt-1 font-medium">Downloaded in total</p>
             <p class="mt-2 text-2xl font-semibold tabular-nums tracking-tight">{fmtShort(s.downloads!)} <span class="text-sm font-normal text-muted-foreground">({fmt(s.downloads!)})</span></p>
           </li>
@@ -183,7 +183,7 @@ const path = points.map((p, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(p.valu
   )}
 
   <p class="mt-6 text-xs text-muted-foreground">
-    How it's counted: each source reports its own size once a day (its API's total, its catalogue, its WordPress counters or its sitemap; hover a row for the method). {dated.length} of {CATALOG.sources.length} sources publish release dates, so "New" covers those. Data: <a class="text-primary hover:underline" href="/catalog.json">/catalog.json</a> ·{" "}
+    How it's counted: each source reports its own size once a day (its API's total, its catalogue or manifest, its WordPress counters or its sitemap; hover a row for the method). {dated.length} of {CATALOG.sources.length} sources publish release dates, so "New" covers those. Data: <a class="text-primary hover:underline" href="/catalog.json">/catalog.json</a> ·{" "}
     <a class="text-primary hover:underline" href="/catalog-history.json">history</a> · <a class="text-primary hover:underline" href="/docs/api/reference#op-getCatalog">API</a>
   </p>
 </section>

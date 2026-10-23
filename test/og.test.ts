@@ -3,14 +3,14 @@ import { fileURLToPath } from "node:url";
 import sharp from "sharp";
 import { createApp } from "../src/api/app.js";
 import { OgImages } from "../src/api/og.js";
-import { assetMeta, searchMeta, searchShare, shareableAssetId } from "../src/api/search-meta.js";
+import { categoryNoun, sampleFacts, sampleMeta, searchMeta, searchShare, shareableSampleId } from "../src/api/search-meta.js";
 import { rewriteHead } from "../src/api/site.js";
-import { AssetService } from "../src/core/service.js";
-import { OG_HEIGHT, OG_WIDTH, clip, fetchImage, pageCard, renderPng } from "../src/og/render.js";
-import { CRATE, brokenProvider, bytesHttp, fakeProvider } from "./fakes.js";
+import { SampleService } from "../src/core/service.js";
+import { OG_HEIGHT, OG_WIDTH, clip, fetchImage, pageCard, renderPng, sampleCard } from "../src/og/render.js";
+import { KICK, VOCAL, brokenProvider, bytesHttp, fakeProvider } from "./fakes.js";
 
 const SITE = fileURLToPath(new URL("./fixtures/site", import.meta.url));
-const service = () => new AssetService({ providers: [fakeProvider, brokenProvider], http: bytesHttp(), defaultTimeoutMs: 200 });
+const service = () => new SampleService({ providers: [fakeProvider, brokenProvider], http: bytesHttp(), defaultTimeoutMs: 200 });
 const isPng = (b: Uint8Array) => b[0] === 0x89 && b[1] === 0x50 && b[2] === 0x4e && b[3] === 0x47;
 const meta = (html: string, key: string) => html.match(new RegExp(`<meta (?:property|name)="${key}" content="([^"]*)"`))?.[1];
 
@@ -21,12 +21,25 @@ describe("OG renderer", () => {
     expect(await sharp(png).metadata()).toMatchObject({ width: OG_WIDTH, height: OG_HEIGHT, format: "png" });
   });
 
+  it("renders sample cards with a waveform, or with pack artwork", async () => {
+    const card = { title: "Deep Kick 01", source: "Freesound", type: "Kick", license: "CC0 1.0", verdict: "Commercial use OK", free: true, facts: ["one-shot", "0.4 s"], author: "drumkid", site: "sound.shep.bot" };
+    const wave = await renderPng(sampleCard(card));
+    expect(await sharp(wave).metadata()).toMatchObject({ width: OG_WIDTH, height: OG_HEIGHT, format: "png" });
+    const art = await sharp({ create: { width: 64, height: 64, channels: 3, background: "#3c6" } }).png().toBuffer();
+    const withArt = await renderPng(sampleCard({ ...card, image: `data:image/png;base64,${art.toString("base64")}` }));
+    expect(isPng(withArt)).toBe(true);
+    expect(Buffer.compare(wave, withArt)).not.toBe(0);
+    // The waveform is drawn from the title: stable for one sample, different for another.
+    expect(Buffer.compare(wave, await renderPng(sampleCard(card)))).toBe(0);
+    expect(Buffer.compare(wave, await renderPng(sampleCard({ ...card, title: "Dusty Snare 02" })))).not.toBe(0);
+  });
+
   it("clips long text on a word boundary", () => {
     expect(clip("The quick brown fox jumps over the lazy dog", 20)).toBe("The quick brown…");
     expect(clip("short", 12)).toBe("short");
   });
 
-  it("fetches thumbnails as JPEG data URIs (any image format) and refuses internal hosts", async () => {
+  it("fetches artwork as JPEG data URIs (any image format) and refuses internal hosts", async () => {
     const webp = await sharp({ create: { width: 64, height: 48, channels: 3, background: "#c33" } }).webp().toBuffer();
     const fetchWebp = (async () => new Response(new Uint8Array(webp), { headers: { "content-type": "image/webp" } })) as typeof fetch;
     const uri = await fetchImage("https://cdn.example/t.webp", { fetch: fetchWebp });
@@ -51,27 +64,38 @@ describe("OG renderer", () => {
 
 describe("share metadata", () => {
   it("normalises search share links", () => {
-    const s = searchShare(new URLSearchParams("q=  brick   wall &type=material,spaceship&free=true&offset=40&providers=polyhaven,nope"))!;
-    expect(s.key).toBe("q=brick+wall&type=material&free=true&providers=polyhaven");
-    expect(s).toMatchObject({ kicker: "Search · PBR materials", title: "“brick wall”" });
-    expect(s.chips).toEqual(["Free only", "Poly Haven"]);
+    const s = searchShare(new URLSearchParams("q=  punchy   kick &category=drums.kick,spaceship&free=true&commercial=true&bpm=140&offset=40&providers=freesound,nope"))!;
+    expect(s.key).toBe("q=punchy+kick&category=drums.kick&bpm=140&free=true&commercial=true&providers=freesound");
+    expect(s).toMatchObject({ kicker: "Search · kick samples", title: "“punchy kick”" });
+    expect(s.chips).toEqual(["140 BPM", "Commercial use OK", "Free only", "Freesound"]);
     expect(searchShare(new URLSearchParams("offset=10"))).toBeUndefined();
-    expect(searchMeta(new URLSearchParams("q=crate"))).toMatchObject({ image: "/og/query.png?q=crate", robots: "noindex, follow" });
+    expect(searchShare(new URLSearchParams("bpm=fast&q=riser"))?.key).toBe("q=riser"); // malformed BPM is dropped
+    expect(searchMeta(new URLSearchParams("q=kick"))).toMatchObject({ image: "/og/query.png?q=kick", robots: "noindex, follow" });
   });
 
-  it("validates asset ids against the running providers", () => {
-    expect(shareableAssetId("fake:crate", ["fake"])).toBe("fake:crate");
-    expect(shareableAssetId("nope:crate", ["fake"])).toBeUndefined();
-    expect(shareableAssetId("fake:", ["fake"])).toBeUndefined();
-    expect(shareableAssetId("crate", ["fake"])).toBeUndefined();
-    expect(shareableAssetId(`fake:${"x".repeat(400)}`, ["fake"])).toBeUndefined();
+  it("names categories with their own nouns", () => {
+    expect(categoryNoun("drums.kick")).toBe("kick samples");
+    expect(categoryNoun("fx")).toBe("sound effects");
+    expect(categoryNoun("vocals.chop", false)).toBe("vocal chop sample");
+    expect(categoryNoun(undefined)).toBe("samples");
   });
 
-  it("describes an asset for its share link", () => {
-    const m = assetMeta(CRATE);
-    expect(m.title).toBe("Wooden Crate: 3D model on fake · Sound Server");
-    expect(m.description).toContain("3D model “Wooden Crate” on fake (CC0 licence, free)");
-    expect(m.image).toBe("/og/asset.png?id=fake%3Acrate");
+  it("validates sample ids against the running providers", () => {
+    expect(shareableSampleId("fake:kick", ["fake"])).toBe("fake:kick");
+    expect(shareableSampleId("nope:kick", ["fake"])).toBeUndefined();
+    expect(shareableSampleId("fake:", ["fake"])).toBeUndefined();
+    expect(shareableSampleId("kick", ["fake"])).toBeUndefined();
+    expect(shareableSampleId(`fake:${"x".repeat(400)}`, ["fake"])).toBeUndefined();
+    expect(shareableSampleId(undefined, ["fake"])).toBeUndefined();
+  });
+
+  it("describes a sample for its share link, with its musical facts and licence verdict", () => {
+    const m = sampleMeta(KICK);
+    expect(m.title).toBe("Deep Kick 01: kick sample on fake · Sound Server");
+    expect(m.description).toContain("Kick sample “Deep Kick 01” on fake (one-shot, 0.4 s, CC0 1.0: commercial use ok, free)");
+    expect(m.image).toBe("/og/sample.png?id=fake%3Akick");
+    expect(sampleFacts(VOCAL)).toEqual(["Vocal chop", "loop", "6.9 s", "F minor", "140 BPM"]);
+    expect(sampleMeta(VOCAL).description).toContain("CC BY-NC 4.0: non-commercial only");
   });
 
   it("rewrites image, alt and url tags with escaping", () => {
@@ -88,66 +112,80 @@ describe("OG endpoints and share links", () => {
   const app = createApp(service(), { siteRoot: SITE, publicBaseUrl: "https://sound.shep.bot" });
 
   it("serves search cards, cacheable for a day", async () => {
-    const res = await app.request("/og/query.png?q=crate&type=model");
+    const res = await app.request("/og/query.png?q=kick&category=drums.kick");
     expect(res.status).toBe(200);
     expect(res.headers.get("content-type")).toBe("image/png");
     expect(res.headers.get("cache-control")).toBe("public, max-age=86400");
     expect(isPng(new Uint8Array(await res.arrayBuffer()))).toBe(true);
     expect((await app.request("/og/query.png")).status).toBe(404);
-    const head = await app.request("/og/query.png?q=crate", { method: "HEAD" });
+    const head = await app.request("/og/query.png?q=kick", { method: "HEAD" });
     expect(head.status).toBe(200);
   });
 
-  it("serves asset cards and 404s unknown or malformed ids", async () => {
-    const res = await app.request(`/og/asset.png?id=${encodeURIComponent("fake:crate")}`);
+  it("serves sample cards and 404s unknown or malformed ids", async () => {
+    const res = await app.request(`/og/sample.png?id=${encodeURIComponent("fake:kick")}`);
     expect(res.status).toBe(200);
     expect(isPng(new Uint8Array(await res.arrayBuffer()))).toBe(true);
-    expect((await app.request("/og/asset.png?id=fake:missing")).status).toBe(404);
-    expect((await app.request("/og/asset.png?id=broken:x")).status).toBe(404);
-    expect((await app.request("/og/asset.png?id=../../etc")).status).toBe(404);
+    expect((await app.request("/og/sample.png?id=fake:missing")).status).toBe(404);
+    expect((await app.request("/og/sample.png?id=broken:x")).status).toBe(404);
+    expect((await app.request("/og/sample.png?id=../../etc")).status).toBe(404);
+    expect((await app.request("/og/sample.png")).status).toBe(404);
   });
 
-  it("gives /search?asset= links the asset's title, card and url", async () => {
-    const html = await (await app.request("/search?asset=fake%3Acrate", { headers: { accept: "text/html" } })).text();
-    expect(html).toContain("<title>Wooden Crate: 3D model on fake · Sound Server</title>");
-    expect(meta(html, "og:image")).toBe("https://sound.shep.bot/og/asset.png?id=fake%3Acrate");
-    expect(meta(html, "twitter:image")).toBe("https://sound.shep.bot/og/asset.png?id=fake%3Acrate");
-    expect(meta(html, "og:url")).toBe("https://sound.shep.bot/search?asset=fake%3Acrate");
+  it("gives /search?sample= links the sample's title, card and url", async () => {
+    const html = await (await app.request("/search?sample=fake%3Akick", { headers: { accept: "text/html" } })).text();
+    expect(html).toContain("<title>Deep Kick 01: kick sample on fake · Sound Server</title>");
+    expect(meta(html, "og:image")).toBe("https://sound.shep.bot/og/sample.png?id=fake%3Akick");
+    expect(meta(html, "twitter:image")).toBe("https://sound.shep.bot/og/sample.png?id=fake%3Akick");
+    expect(meta(html, "og:url")).toBe("https://sound.shep.bot/search?sample=fake%3Akick");
     expect(meta(html, "robots")).toBe("noindex, follow");
-    // Unknown asset: the plain search page.
-    const plain = await (await app.request("/search?asset=fake%3Amissing", { headers: { accept: "text/html" } })).text();
+    // Unknown sample: the plain search page.
+    const plain = await (await app.request("/search?sample=fake%3Amissing", { headers: { accept: "text/html" } })).text();
     expect(meta(plain, "og:image")).toBe("https://sound.shep.bot/og/search.png");
   });
 
   it("gives search links a query card and their own og:url", async () => {
-    const html = await (await app.request("/search?q=crate&offset=20", { headers: { accept: "text/html" } })).text();
-    expect(meta(html, "og:image")).toBe("https://sound.shep.bot/og/query.png?q=crate");
-    expect(meta(html, "og:url")).toBe("https://sound.shep.bot/search?q=crate");
-    expect(meta(html, "og:image:alt")).toContain("“crate”");
+    const html = await (await app.request("/search?q=kick&offset=20", { headers: { accept: "text/html" } })).text();
+    expect(meta(html, "og:image")).toBe("https://sound.shep.bot/og/query.png?q=kick");
+    expect(meta(html, "og:url")).toBe("https://sound.shep.bot/search?q=kick");
+    expect(meta(html, "og:image:alt")).toContain("“kick”");
   });
 
   it("caches cards and renders at most two at once", async () => {
     let active = 0;
     let peak = 0;
+    let lookups = 0;
     const slow = {
       ...fakeProvider,
-      async getAsset(id: string) {
+      async getSample(id: string) {
+        lookups++;
         active++;
         peak = Math.max(peak, active);
         await new Promise((r) => setTimeout(r, 30));
         active--;
-        return { ...CRATE, nativeId: id, id: `fake:${id}`, thumbnailUrl: undefined };
+        return { ...KICK, nativeId: id, id: `fake:${id}`, title: `Kick ${id}`, thumbnailUrl: undefined };
       },
     };
-    const og = new OgImages(new AssetService({ providers: [slow], http: bytesHttp() }), { site: "sound.shep.bot" });
-    const first = og.asset("fake:a");
-    expect(og.asset("fake:a")).toBe(first);
-    await Promise.all([first, og.asset("fake:b"), og.asset("fake:c"), og.asset("fake:d")]);
+    const og = new OgImages(new SampleService({ providers: [slow], http: bytesHttp() }), { site: "sound.shep.bot" });
+    const first = og.sample("fake:a");
+    expect(og.sample("fake:a")).toBe(first);
+    const cards = await Promise.all([first, og.sample("fake:b"), og.sample("fake:c"), og.sample("fake:d")]);
+    expect(cards.every((c) => c && isPng(c))).toBe(true);
     expect(peak).toBeLessThanOrEqual(2);
+    expect(lookups).toBe(4);
   });
 
-  it("returns a shareUrl with asset details (REST)", async () => {
-    const body = (await (await app.request(`/v1/assets/${encodeURIComponent("fake:crate")}`)).json()) as { shareUrl: string };
-    expect(body.shareUrl).toBe("https://sound.shep.bot/search?asset=fake%3Acrate");
+  it("does not keep misses, so a sample that appears later gets its card", async () => {
+    let exists = false;
+    const flaky = { ...fakeProvider, getSample: async () => (exists ? KICK : null) };
+    const og = new OgImages(new SampleService({ providers: [flaky], http: bytesHttp() }), { site: "sound.shep.bot" });
+    expect(await og.sample("fake:kick")).toBeNull();
+    exists = true;
+    expect(await og.sample("fake:kick")).not.toBeNull();
+  });
+
+  it("returns a shareUrl with sample details (REST)", async () => {
+    const body = (await (await app.request(`/v1/samples/${encodeURIComponent("fake:kick")}`)).json()) as { shareUrl: string };
+    expect(body.shareUrl).toBe("https://sound.shep.bot/search?sample=fake%3Akick");
   });
 });

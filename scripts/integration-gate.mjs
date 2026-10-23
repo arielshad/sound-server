@@ -27,6 +27,7 @@ import { pathToFileURL } from "node:url";
 
 const ALLOWED = [
   /^src\/providers\/[a-z0-9-]+\.ts$/,
+  /^src\/providers\/data\/[a-z0-9-]+\.json$/,
   /^test\/providers\/[a-z0-9-]+\.test\.ts$/,
   /^test\/live\/[a-z0-9-]+\.live\.test\.ts$/,
   /^test\/fixtures\/(?!site\/)[a-z0-9-]+\/[^/]+$/,
@@ -53,6 +54,7 @@ export function checkChanges({ files, before, after }) {
     }
     if (!ALLOWED.some((re) => re.test(f.path))) errors.push(`${f.path}: outside the files a new source may touch`);
     if (f.path.startsWith("test/") && f.status !== "A") errors.push(`${f.path}: existing tests and fixtures must not change`);
+    if (f.path.startsWith("src/providers/data/") && f.status !== "A") errors.push(`${f.path}: existing provider data must not change`);
     if (f.path.startsWith("test/fixtures/") && (f.size ?? 0) > MAX_FIXTURE_BYTES) errors.push(`${f.path}: fixture over ${MAX_FIXTURE_BYTES / 1024} KB`);
   }
 
@@ -68,10 +70,13 @@ export function checkChanges({ files, before, after }) {
   const status = new Map(files.map((f) => [f.path, f.status]));
   for (const e of added) {
     if (e.addedBy !== "agent") errors.push(`registry: new source "${e.id}" must have addedBy "agent"`);
-    for (const p of [`src/providers/${e.id}.ts`, `test/providers/${e.id}.test.ts`, `test/live/${e.id}.live.test.ts`]) {
-      if (status.get(p) !== "A") errors.push(`${p}: required for new source "${e.id}"`);
-    }
-    if (status.get("src/providers/index.ts") !== "M") errors.push(`src/providers/index.ts: "${e.id}" is not registered`);
+    const ownFile = status.get(`src/providers/${e.id}.ts`) === "A";
+    const linkedOnly = e.access === "link" && !ownFile && status.get("src/providers/linked.ts") === "M";
+    const required = linkedOnly
+      ? [`test/providers/${e.id}.test.ts`]
+      : [`src/providers/${e.id}.ts`, `test/providers/${e.id}.test.ts`, ...(e.access === "link" ? [] : [`test/live/${e.id}.live.test.ts`])];
+    for (const p of required) if (status.get(p) !== "A") errors.push(`${p}: required for new source "${e.id}"`);
+    if (!linkedOnly && status.get("src/providers/index.ts") !== "M") errors.push(`src/providers/index.ts: "${e.id}" is not registered`);
   }
   const host = (u) => new URL(u).hostname.replace(/^www\./, "");
   const knownRejected = new Set(before.rejected.map((r) => host(r.homepage)));

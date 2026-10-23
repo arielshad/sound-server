@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { cn } from "cn";
 import { Skeleton } from "@/components/ui/skeleton";
+import { CATEGORY_DEFS } from "@/lib/vocab";
 
 /** Shape of GET /v1/stats (see the Stats schema in /openapi.json). */
 interface UsageWindow {
@@ -33,7 +34,9 @@ interface Stats {
   breakdownLabel: string;
   clients: Ranked[];
   tools: Ranked[];
-  assetTypes: Ranked[];
+  /** Searches by category filter (older servers call it assetTypes). */
+  categories?: Ranked[];
+  assetTypes?: Ranked[];
   providers: ProviderHealth[];
 }
 
@@ -61,19 +64,11 @@ const CLIENTS: Record<string, string> = {
   other: "Other",
   unknown: "Unknown",
 };
-const TYPES: Record<string, string> = {
-  any: "All types",
-  multi: "Several types",
-  model: "3D models",
-  texture: "Textures",
-  material: "PBR materials",
-  hdri: "HDRIs",
-  sprite: "Sprites",
-  ui: "UI kits",
-  audio: "Audio",
-  font: "Fonts",
-  pack: "Asset packs",
-  other: "Other",
+/** Labels for the category breakdown: the vocabulary's labels plus the two aggregate buckets. */
+const CATEGORIES: Record<string, string> = {
+  any: "All categories",
+  multi: "Several categories",
+  ...Object.fromEntries(CATEGORY_DEFS.map((c) => [c.id, c.label])),
 };
 const SURFACES = [
   { key: "web", label: "Website", className: "bg-primary" },
@@ -281,8 +276,8 @@ export default function StatsDashboard({ names }: { names: Record<string, string
 
       <dl className="mt-4 grid grid-cols-2 gap-4 lg:grid-cols-4">
         <Kpi label="Searches" value={fmt.format(w.searches)} hint={`${pct(w.searchesWithResults, w.searches)} found results`} />
-        <Kpi label="Downloads" value={fmt.format(w.downloads)} hint={`${fmt.format(w.sampleViews)} asset detail views`} />
-        <Kpi label="MCP tool calls" value={fmt.format(w.toolCalls)} hint="from AI coding agents" />
+        <Kpi label="Downloads" value={fmt.format(w.downloads)} hint={`${fmt.format(w.sampleViews)} sample detail views`} />
+        <Kpi label="MCP tool calls" value={fmt.format(w.toolCalls)} hint="from AI agents" />
         <Kpi label="Page views" value={fmt.format(w.pageViews)} hint="website pages served" />
       </dl>
 
@@ -294,7 +289,7 @@ export default function StatsDashboard({ names }: { names: Record<string, string
       <p className="mt-1 text-sm text-muted-foreground">{stats.breakdownLabel}.</p>
       <div className="mt-4 grid gap-4 lg:grid-cols-3">
         <Bars title="Clients" items={stats.clients} labels={CLIENTS} empty="No searches yet." />
-        <Bars title="Asset types" items={stats.assetTypes} labels={TYPES} empty="No searches yet." />
+        <Bars title="Categories" items={stats.categories ?? stats.assetTypes ?? []} labels={CATEGORIES} empty="No searches yet." />
         <Bars title="MCP tools" items={stats.tools} labels={{}} empty="No MCP tool calls yet." />
       </div>
 

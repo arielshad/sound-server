@@ -95,6 +95,8 @@ const KNOWN_FORMATS = new Set<string>([...AUDIO_FORMATS, ...ARCHIVE_FORMATS, ...
 
 export function formatFromFilename(name: string): string {
   const clean = name.split(/[?#]/)[0] ?? name;
+  const tar = /\.(tar\.(gz|xz|bz2))$/i.exec(clean);
+  if (tar) return tar[1]!.toLowerCase();
   const ext = clean.includes(".") ? clean.slice(clean.lastIndexOf(".") + 1).toLowerCase() : "";
   return ext === "jpeg" ? "jpg" : ext;
 }

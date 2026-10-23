@@ -2,15 +2,25 @@ import { describe, expect, it } from "vitest";
 import { fileURLToPath } from "node:url";
 import { createApp } from "../src/api/app.js";
 import { openApiSpec } from "../src/api/openapi.js";
-import { AssetService } from "../src/core/service.js";
+import { SampleService } from "../src/core/service.js";
 import { LocalStats, PrometheusStats, cachedStats, type UsageStats } from "../src/core/stats.js";
-import { fab } from "../src/providers/linked.js";
+import { linkProvider } from "../src/providers/link.js";
 import { brokenProvider, bytesHttp, fakeProvider, slowProvider } from "./fakes.js";
+
+const linked = linkProvider({
+  id: "linked",
+  name: "Linked",
+  homepage: "https://linked.example",
+  description: "Link-only test source",
+  categories: ["drums"],
+  pricing: "paid",
+  buildSearchUrl: (q) => `https://linked.example/search?q=${encodeURIComponent(q.query)}`,
+});
 
 const SITE = fileURLToPath(new URL("./fixtures/site", import.meta.url));
 
 function service() {
-  return new AssetService({ providers: [fakeProvider, brokenProvider, slowProvider, fab], http: bytesHttp(), defaultTimeoutMs: 200 });
+  return new SampleService({ providers: [fakeProvider, brokenProvider, slowProvider, linked], http: bytesHttp(), defaultTimeoutMs: 200 });
 }
 
 type StatsBody = UsageStats & { catalog: { sources: number; directDownload: number; byAccess: Record<string, number> } };
@@ -31,10 +41,11 @@ function fakePrometheus(rules: [RegExp, { metric?: Record<string, string>; v: nu
 }
 
 describe("LocalStats", () => {
-  it("tallies searches, surfaces, clients, types, tools and per-source health", async () => {
+  it("tallies searches, surfaces, clients, categories, tools and per-source health", async () => {
     const s = new LocalStats(() => new Date("2026-10-05T00:00:00Z"));
     const response = {
-      query: "crate",
+      query: "kick",
+      filters: {},
       results: [{} as never],
       providers: [
         { provider: "a", name: "A", status: "ok" as const, count: 1, tookMs: 100 },
@@ -42,9 +53,10 @@ describe("LocalStats", () => {
         { provider: "c", name: "C", status: "link" as const, count: 0, tookMs: 0 },
       ],
     };
-    s.search({ surface: "web", client: "browser", query: "crate", response, tookMs: 120 });
-    s.search({ surface: "mcp", client: "claude-code", query: "tree", types: ["model"], response: { ...response, results: [] }, tookMs: 90 });
-    s.toolCall({ tool: "search_assets", client: "claude-code", outcome: "ok", tookMs: 90 });
+    s.search({ surface: "web", client: "browser", query: "kick", response, tookMs: 120 });
+    s.search({ surface: "mcp", client: "claude-code", query: "riser", categories: ["fx"], response: { ...response, results: [] }, tookMs: 90 });
+    s.toolCall({ tool: "search_samples", client: "claude-code", outcome: "ok", tookMs: 90 });
+    s.sampleView({ surface: "api", client: "curl", provider: "a", found: true });
     s.download({ surface: "api", client: "curl", provider: "a", kind: "zip" });
     s.pageView({ page: "/" });
 
@@ -52,15 +64,15 @@ describe("LocalStats", () => {
     expect(snap.source).toBe("process");
     expect(snap.since).toBe("2026-10-05T00:00:00.000Z");
     expect(snap.windows).toHaveLength(1);
-    expect(snap.windows[0]).toMatchObject({ searches: 2, searchesWithResults: 1, bySurface: { web: 1, api: 0, mcp: 1 }, downloads: 1, toolCalls: 1, pageViews: 1 });
+    expect(snap.windows[0]).toMatchObject({ searches: 2, searchesWithResults: 1, bySurface: { web: 1, api: 0, mcp: 1 }, sampleViews: 1, downloads: 1, toolCalls: 1, pageViews: 1 });
     expect(snap.clients).toEqual([
       { name: "browser", count: 1 },
       { name: "claude-code", count: 1 },
     ]);
-    expect(snap.tools).toEqual([{ name: "search_assets", count: 1 }]);
+    expect(snap.tools).toEqual([{ name: "search_samples", count: 1 }]);
     expect(snap.assetTypes).toEqual([
       { name: "any", count: 1 },
-      { name: "model", count: 1 },
+      { name: "fx", count: 1 },
     ]);
     // Link-only sources never reach the network, so they have no health row.
     expect(snap.providers.map((p) => p.provider)).toEqual(["a", "b"]);
@@ -70,7 +82,7 @@ describe("LocalStats", () => {
 
   it("never exposes query text", async () => {
     const s = new LocalStats();
-    s.search({ surface: "api", client: "curl", query: "secret project name", response: { query: "", results: [], providers: [] }, tookMs: 1 });
+    s.search({ surface: "api", client: "curl", query: "secret project name", response: { query: "", filters: {}, results: [], providers: [] }, tookMs: 1 });
     expect(JSON.stringify(await s.snapshot())).not.toContain("secret");
   });
 });
@@ -84,14 +96,13 @@ describe("PrometheusStats", () => {
       [/has_results="true".*\[7d\]/, [{ v: "90" }]],
       [/downloads_total\[24h\]/, [{ v: "2" }]],
       [/sum by \(client\)/, [{ metric: { client: "claude-code" }, v: "40" }, { metric: { client: "browser" }, v: "60" }, { metric: { client: "curl" }, v: "0" }]],
-      [/sum by \(tool\)/, [{ metric: { tool: "search_assets" }, v: "25" }]],
-      [/sum by \(type\)/, [{ metric: { type: "model" }, v: "30" }]],
+      [/sum by \(tool\)/, [{ metric: { tool: "search_samples" }, v: "25" }]],
       [/provider_requests_total/, [
-        { metric: { provider: "polyhaven", status: "ok" }, v: "19" },
-        { metric: { provider: "polyhaven", status: "timeout" }, v: "1" },
+        { metric: { provider: "freesound", status: "ok" }, v: "19" },
+        { metric: { provider: "freesound", status: "timeout" }, v: "1" },
       ]],
-      [/histogram_quantile\(0\.5,/, [{ metric: { provider: "polyhaven" }, v: "0.3" }]],
-      [/histogram_quantile\(0\.95,/, [{ metric: { provider: "polyhaven" }, v: "NaN" }]],
+      [/histogram_quantile\(0\.5,/, [{ metric: { provider: "freesound" }, v: "0.3" }]],
+      [/histogram_quantile\(0\.95,/, [{ metric: { provider: "freesound" }, v: "NaN" }]],
     ]);
     const stats = new PrometheusStats({ url: "http://prom:9090/", fallback: new LocalStats(), fetch: prom.fetchImpl });
     const snap = await stats.snapshot();
@@ -106,8 +117,9 @@ describe("PrometheusStats", () => {
       { name: "browser", count: 60 },
       { name: "claude-code", count: 40 },
     ]);
+    expect(snap.tools).toEqual([{ name: "search_samples", count: 25 }]);
     expect(snap.providers).toEqual([
-      { provider: "polyhaven", requests: 20, ok: 19, errors: 0, timeouts: 1, okRate: 0.95, p50Ms: 300, p95Ms: null },
+      { provider: "freesound", requests: 20, ok: 19, errors: 0, timeouts: 1, okRate: 0.95, p50Ms: 300, p95Ms: null },
     ]);
     expect(prom.queries.every((q) => q.includes("sound_server_"))).toBe(true);
   });
@@ -142,7 +154,7 @@ describe("PrometheusStats", () => {
 describe("GET /v1/stats", () => {
   it("reports in-process usage and the catalog, cached for a minute", async () => {
     const app = createApp(service(), { siteRoot: SITE });
-    await app.request("/v1/search?q=crate", { headers: { "x-sound-client": "web", "user-agent": "Mozilla/5.0" } });
+    await app.request("/v1/search?q=kick", { headers: { "x-sound-client": "web", "user-agent": "Mozilla/5.0" } });
     const res = await app.request("/v1/stats");
     expect(res.status).toBe(200);
     expect(res.headers.get("cache-control")).toBe("public, max-age=60");
@@ -165,9 +177,17 @@ describe("GET /v1/stats", () => {
   });
 
   it("is documented in OpenAPI and linked from the JSON index", async () => {
-    const spec = openApiSpec("https://sound.shep.bot") as { paths: Record<string, Record<string, { operationId: string; responses: Record<string, unknown> }>> };
+    const spec = openApiSpec("https://sound.shep.bot") as unknown as {
+      paths: Record<string, Record<string, { operationId: string; responses: Record<string, unknown> }>>;
+      components: { schemas: Record<string, { required?: string[]; properties?: Record<string, unknown> }> };
+    };
     expect(spec.paths["/v1/stats"]?.get?.operationId).toBe("getStats");
     expect(spec.paths["/v1/stats"]?.get?.responses).toHaveProperty("429");
+    // The schema names exactly the fields the endpoint returns.
+    const body = (await (await createApp(service(), { siteRoot: SITE }).request("/v1/stats")).json()) as Record<string, unknown>;
+    const documented = Object.keys(spec.components.schemas.Stats!.properties!);
+    for (const k of Object.keys(body)) expect(documented, k).toContain(k);
+    for (const k of spec.components.schemas.Stats!.required!) expect(body, k).toHaveProperty(k);
     const app = createApp(service(), { siteRoot: SITE });
     const index = (await (await app.request("/", { headers: { accept: "application/json" } })).json()) as { endpoints: Record<string, string> };
     expect(index.endpoints.stats).toBe("/v1/stats");

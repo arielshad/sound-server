@@ -1,15 +1,15 @@
 ---
 layout: ../../layouts/DocsLayout.astro
-title: MCP server for coding agents
+title: MCP server for AI agents
 crumb: Coding agents & MCP
-description: Connect Claude Code, Cursor, VS Code, Windsurf, Codex or Gemini CLI to the Sound Server MCP server so your agent finds and downloads 3D assets.
+description: Connect Claude Code, Cursor, VS Code, Windsurf, Codex or Gemini CLI to the Sound Server MCP server so your agent finds, vets and downloads music samples.
 ---
 
-# Sound Server MCP server for coding agents
+# Sound Server MCP server for AI agents
 
-Sound Server is a [Model Context Protocol](https://modelcontextprotocol.io) server. Connect it once and your coding agent can search 25 asset sites, check licences and pull models, textures and HDRIs into your project while it writes the code that uses them.
+Sound Server is a [Model Context Protocol](https://modelcontextprotocol.io) server. Connect it once and your agent can search every sample source, build drum kits, check licences and pull sounds into your project while it works on your track, game or app.
 
-**MCP endpoint:** `https://sound.shep.bot/mcp` (Streamable HTTP, no authentication).
+**MCP endpoint:** `https://sound.shep.bot/mcp` (Streamable HTTP, no authentication). Register it under the name **`sounds`**.
 
 ## Claude Code
 
@@ -21,7 +21,7 @@ Add `--scope user` to make it available in every project, or `--scope project` t
 
 ## Cursor
 
-[Add to Cursor](cursor://anysphere.cursor-deeplink/mcp/install?name=sounds&config=eyJ1cmwiOiJodHRwczovLzNkLnNoZXAuYm90L21jcCJ9) (opens Cursor), or add this to `.cursor/mcp.json` in your project, or to `~/.cursor/mcp.json` for every project:
+Add this to `.cursor/mcp.json` in your project, or to `~/.cursor/mcp.json` for every project (the [home page](/#agents) has a one-click "Add to Cursor" button):
 
 ```json
 {
@@ -92,55 +92,73 @@ Clients that only support stdio servers can bridge to the HTTP endpoint with [`m
 
 | Tool | What it does |
 | --- | --- |
-| `search_assets` | Search every source. Arguments: `query`, `types` (model, material, texture, hdri, sprite, ui, audio, font, pack), `free_only`, `downloadable_only`, `providers`, `limit`, `offset`. |
-| `get_asset` | Details for one `id` from a search: licence, formats, resolutions, and the exact files for a `format` and `resolution`, plus a `bundleUrl` that downloads them as one file or zip. |
-| `list_providers` | Every source with what it is best for, pricing, licence and whether it supports direct downloads. |
+| `search_samples` | Search every source. Arguments: `query` (music words work: "808 in F minor", "vocal chop 140 bpm"), `categories` (e.g. `drums.kick`, `bass.808`, `fx.riser`), `forms` (`one-shot`, `loop`, `phrase`…), `bpm` or `bpm_min`/`bpm_max`, `key`, `max_duration`, `commercial_only` (default **true**), `free_only`, `downloadable_only`, `strict`, `providers`, `limit`, `offset`. |
+| `get_sample` | Details for one `id`: licence, verdict and credit line, files, preview, and with `analyze=true` the measured duration, BPM, key, root note and loudness. Returns `selection.downloadUrl` for the best file. |
+| `download_sample` | Local servers only: writes the file into `./samples/<category>/` and keeps `ATTRIBUTION.md` and `credits.json` up to date. |
+| `build_kit` | Picks one sound per slot (default kick, snare, clap, closed hat, open hat, 808) for a `style`, `bpm` and `key`, with alternatives, a licence summary, a Strudel snippet and a General MIDI / SFZ map. Locally, `download=true` saves the kit. |
+| `find_similar` | Sounds that sound like a Freesound sample (Freesound's audio similarity). |
+| `list_sources` | Every source with what it is best for, categories, pricing, licence and capabilities. |
 
-The remote server never writes to its own disk, so agents download through the `bundleUrl` that `get_asset` returns:
+The remote server never writes to its own disk, so agents with a shell download through the links it returns:
 
 ```bash
-curl -L -o assets/armchair.zip "https://sound.shep.bot/v1/assets/polyhaven%3AArmChair_01/download?format=gltf&resolution=2k"
-unzip -o assets/armchair.zip -d assets/
+mkdir -p samples/drums
+curl -L -o samples/drums/kick.zip "https://sound.shep.bot/v1/samples/freesound%3A2086/download?bundle=true"
+unzip -o samples/drums/kick.zip -d samples/drums/
 ```
 
-Coding agents with a shell do this on their own.
+## Licence rules the agent follows
+
+Music licences have more traps than most, so the server tells every agent the same rules, and you can expect them to be followed:
+
+- Searches are **commercial-safe by default** (`commercial_only=true`). The agent turns that off only when you say the project is personal or non-commercial.
+- It **reports the verdict** of every sound it suggests, and never presents a `no` (non-commercial) or `check-terms` (unclear) sound as cleared.
+- When a sound needs credit (`yes-with-credit`), it gives you the exact `attribution` line, and local downloads collect them in `ATTRIBUTION.md`.
+- Uploader-asserted licences (for example on the Internet Archive) are flagged as unverified.
+
+Details: [Sample licences explained](/docs/licences).
 
 ## Prompts that work well
 
 ```text
-Find a CC0 sunset HDRI (4k EXR) and add it to ./public/env. Wire it into the Three.js scene as the environment map.
+Build me a dark trap kit at 140 BPM in F minor: kick, snare, hats, clap and an 808. Commercial-safe only. Show me the picks with their licences first.
 ```
 
 ```text
-I need a low-poly tree pack for a browser game. Search free models, show me 5 options with licences, then download the one I pick as glTF into ./assets/trees.
+Find a riser and an impact for a drop at 128 BPM. Only CC0 or royalty free. Download them into ./samples/fx.
 ```
 
 ```text
-Get a 2k mossy rock PBR material with color, normal, roughness and AO maps and make a MeshStandardMaterial from it.
+I need a vocal chop in A minor for a house track. Give me five options with preview links and tell me which ones need a credit.
 ```
 
 Tips for agents and the people prompting them:
 
-- Use short, concrete queries: "wooden crate", "brick wall", "night city hdri".
-- Filter by type. `material` and `texture` match each other.
-- Prefer CC0 sources for commercial projects, and always report the licence and any attribution requirement.
-- Results with `downloadable: false` must be fetched from their `url` on the source site.
+- Write queries the way a producer talks: "punchy kick", "dusty snare", "open hat", "rain ambience".
+- Filter by category when the word is ambiguous: "crash" is a cymbal, not a sound effect.
+- Results with `downloadable: false` must be fetched from their `url` on the source site; `requiresAccount: true` means the original needs a (usually free) account there.
 
 ## Local mode: downloads straight to disk
 
-For a `download_asset` tool that writes files (glTF with `.bin` and textures, extracted zips) directly into your project, run the server locally over stdio with Docker:
+For `download_sample` and kit downloads into your project, run the server locally over stdio:
+
+```bash
+claude mcp add sounds-local -- npx -y sound-server mcp
+```
+
+Or with Docker, mounting your samples folder:
 
 ```bash
 claude mcp add sounds-local -- docker run -i --rm \
-  --user "$(id -u):$(id -g)" -v "$PWD/assets:/app/assets" \
+  --user "$(id -u):$(id -g)" -v "$PWD/samples:/app/samples" \
   ghcr.io/arielshad/sound-server node dist/cli.js mcp
 ```
 
-Files land in `./assets/<provider>-<id>/`. Add `-e BLENDERKIT_API_KEY=...` to unlock BlenderKit plan assets.
+Files land in `./samples/<category>/` (packs in `./samples/packs/<name>/`). Add `-e FREESOUND_API_KEY=...` for Freesound search, and `-e FREESOUND_OAUTH_TOKEN=...` to fetch Freesound originals with your own account.
 
 ## Agents without MCP
 
-Any agent that can fetch URLs can use the REST API directly. Point it at [/AGENTS.md](/AGENTS.md); it has the whole workflow in a few lines. In Claude Code you can also install the ready-made skill:
+Any agent that can fetch URLs can use the REST API directly. Point it at [/AGENTS.md](/AGENTS.md); it has the whole workflow and the licence rules in a few lines. In Claude Code you can also install the ready-made skill:
 
 ```bash
 mkdir -p ~/.claude/skills/sounds

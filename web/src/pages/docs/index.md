@@ -2,25 +2,26 @@
 layout: ../../layouts/DocsLayout.astro
 title: Quick start
 crumb: Docs
-description: Get started with Sound Server in two minutes. Search 25 asset sites in the browser, connect Claude Code or Cursor over MCP, or call the REST API.
+description: Get started with Sound Server in two minutes. Search sample sites in the browser, connect Claude Code or Cursor over MCP, or call the REST API.
 ---
 
 # Sound Server quick start
 
-**Sound Server** searches 25 3D asset sites at once and downloads what you pick, ready to drop into a game or a website. Results cover 3D models, PBR materials, textures, HDRIs and game asset packs, and every result shows its licence.
+**Sound Server** searches many free and paid sample sites at once and tells you, for every sound, whether you can use it in a track you release. Results cover drums (kicks, snares, claps, hats, percussion, breaks), 808s and bass, vocals and a cappellas, FX (risers, impacts, sweeps, zaps), foley, ambience and instrument one-shots, with BPM, key and length where known and a preview you can play.
 
-The public server at **https://sound.shep.bot** is free and needs no account or API key.
+The public server at **https://sound.shep.bot** is a free, non-commercial service and needs no account or API key. It never re-hosts sounds: previews and downloads come from the source sites.
 
 ## Pick how you want to use it
 
 | You want to… | Use | Start here |
 | --- | --- | --- |
-| Browse and download assets yourself | The web search | [/search](/search) |
-| Let Claude Code, Cursor, Copilot or another agent fetch assets | The MCP server at `https://sound.shep.bot/mcp` | [Coding agents & MCP](/docs/mcp) |
-| Call it from a script, build tool or backend | The REST API | [REST API guide](/docs/api) |
+| Browse, audition and download samples yourself | The web search | [/search](/search) |
+| Get a matching drum kit for a style, tempo and key | The kit builder | [/kit](/kit) |
+| Let Claude Code, Cursor, Copilot or another agent find sounds | The MCP server at `https://sound.shep.bot/mcp` | [Coding agents & MCP](/docs/mcp) |
+| Call it from a script, a DAW extension or a backend | The REST API | [REST API guide](/docs/api) |
 | Explore every endpoint and try requests | The interactive reference | [API reference](/docs/api/reference) |
 
-## Connect your coding agent (30 seconds)
+## Connect your agent (30 seconds)
 
 For **Claude Code**, run this once:
 
@@ -31,8 +32,8 @@ claude mcp add --transport http sounds https://sound.shep.bot/mcp
 Then ask for what you need:
 
 ```text
-Find a CC0 sunset HDRI and a mossy rock PBR material (2k) and put them in ./assets.
-Tell me the licence of each.
+Find three punchy kicks and a dark 808 in F minor that I can use in a released track.
+Put them in ./samples and tell me any credit lines I need.
 ```
 
 Cursor, VS Code, Windsurf, Codex CLI, Gemini CLI and the Claude apps take the same URL. See [Coding agents & MCP](/docs/mcp) for each one.
@@ -40,33 +41,39 @@ Cursor, VS Code, Windsurf, Codex CLI, Gemini CLI and the Claude apps take the sa
 ## Or call the API
 
 ```bash
-# Search every source for free low-poly tree models
-curl "https://sound.shep.bot/v1/search?q=low+poly+tree&type=model&free=true&limit=5"
+# Kicks cleared for a commercial release
+curl "https://sound.shep.bot/v1/search?q=punchy+kick&category=drums.kick&form=one-shot&commercial=true&limit=5"
 
-# Details and files for one result
-curl "https://sound.shep.bot/v1/assets/polyhaven:ArmChair_01"
+# Details, files and the credit line for one result
+curl "https://sound.shep.bot/v1/samples/freesound:2086"
 
-# Download it as glTF (multi-file assets arrive as one zip)
-curl -L -o armchair.zip "https://sound.shep.bot/v1/assets/polyhaven:ArmChair_01/download?format=gltf&resolution=2k"
+# Download it as a zip with the audio, ATTRIBUTION.md and credits.json
+# (without bundle=true a single file redirects straight to the source)
+curl -L -o kick.zip "https://sound.shep.bot/v1/samples/freesound:2086/download?bundle=true"
 ```
 
 ## What a search returns
 
 Every search returns two lists:
 
-- **`results`**: assets merged from all sources, ranked by text match, the source's own ranking, whether they're free and whether files can be downloaded directly. Each one has an `id` like `polyhaven:ArmChair_01`, a `license`, a `price`, known `formats` and `resolutions`, and `downloadable`.
-- **`providers`**: one status line per source (`ok`, `error`, `timeout`, `skipped` or `link`). Sites that block bots (Fab, Poliigon, TurboSquid) come back as `link` with a `searchUrl` that runs the same search on their site.
+- **`results`**: samples merged from all sources and ranked by how well they match. Each has an `id` like `freesound:2086`, a `category` (`drums.kick`, `fx.riser`…), a `form` (`one-shot`, `loop`…), `bpm`, `key` and `durationSec` when known, a `previewUrl`, a `license` with a `verdict`, an `attribution` line when credit is required, and `downloadable`.
+- **`providers`**: one status line per source (`ok`, `error`, `timeout`, `skipped` or `link`). Sites that don't allow automated search (Splice, Looperman and others) come back as `link` with a `searchUrl` that runs the same search on their site.
 
-A slow or broken source never fails the search.
+A slow or broken source never fails the search. Queries understand music words: "808 in F minor" filters by key, "vocal chop 140 bpm" by tempo, "loop" or "one shot" by form.
 
-## Licences
+## Licences, in one line each
 
-Assets keep the licence of the site they come from. Poly Haven, ambientCG, Kenney, TextureCan and 3DTextures.me publish under **CC0** (public domain: commercial use, no credit needed). Others are royalty-free, need attribution, or are paid. Check `license.attributionRequired` before you ship. See [Sources & licences](/docs/sources).
+- **Commercial use OK** (`yes`): release it, no credit needed.
+- **Commercial use OK with credit** (`yes-with-credit`): release it and credit the author with the `attribution` line.
+- **Restricted**, **Needs paid clearance**, **Unclear** (`restricted`, `clearance-required`, `check-terms`): read the terms first.
+- **Non-commercial only** (`no`): practice and personal projects, not releases.
+
+`commercial=true` keeps only the first two. The full explanation is in [Sample licences explained](/docs/licences).
 
 ## For AI agents reading this
 
 Machine-readable entry points:
 
-- [/AGENTS.md](/AGENTS.md): how to use this service as an agent
+- [/AGENTS.md](/AGENTS.md): how to use this service as an agent, including the licence rules
 - [/llms.txt](/llms.txt) and [/llms-full.txt](/llms-full.txt): site index and full docs as plain text
 - [/openapi.json](/openapi.json): OpenAPI 3.1 description of the REST API

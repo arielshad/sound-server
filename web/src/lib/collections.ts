@@ -48,7 +48,10 @@ export interface Hub {
   title: string;
   description: string;
   intro: string;
+  /** What the hub covers (from collection-hubs.json). */
   categories?: string[];
+  forms?: string[];
+  aliases?: string[];
 }
 
 export type Topic = CollectionEntry<"collections">;

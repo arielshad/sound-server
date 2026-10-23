@@ -240,11 +240,14 @@ export const sampleradar: Provider = {
     const parsed = parseArticle(html, nativeId);
     if (!parsed) return null;
     const files: SampleFile[] = await Promise.all(
-      parsed.zips.map(async (url) => ({ url, filename: filenameFromUrl(url), format: "zip", role: "pack" as const, sizeBytes: await sizeOf(url, ctx) })),
+      parsed.zips.map(async (url): Promise<SampleFile> => {
+        const sizeBytes = await sizeOf(url, ctx);
+        return { url, filename: filenameFromUrl(url), format: "zip", role: "pack", ...(sizeBytes ? { sizeBytes } : {}) };
+      }),
     );
     if (parsed.sample.previewUrl) {
       files.push({ url: parsed.sample.previewUrl, filename: filenameFromUrl(parsed.sample.previewUrl), format: "mp3", role: "preview" });
     }
-    return { ...parsed.sample, files: files.map((f) => (f.sizeBytes === undefined ? (({ sizeBytes: _, ...rest }) => rest)(f) : f)) };
+    return { ...parsed.sample, files };
   },
 };

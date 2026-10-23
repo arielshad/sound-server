@@ -1,14 +1,19 @@
 name: Catalog census
 
 # Once a day, count what every source holds (scripts/census.mjs: each
-# provider's census(), a few requests per source) and save it to
-# web/src/data/catalog.json plus one point per day in catalog-history.json.
-# Then refresh the saved results behind every collection page
-# (scripts/snapshot-collections.mjs: one search per topic in
+# provider's census(), a few requests per source, by top-level category and
+# licence) and save it to web/src/data/catalog.json plus one point per day in
+# catalog-history.json. Then refresh the saved results behind every collection
+# page (scripts/snapshot-collections.mjs: one search per topic in
 # web/src/content/collections/, merged into web/src/data/collections/ so the
-# lists stay stable). If anything changed, commit it to main and run CI, which
-# builds the image and pins it in deploy/ so ArgoCD rolls out the new /stats
-# page, /catalog.json, /v1/catalog and /assets pages. No secrets needed.
+# lists stay stable; every preview on a page is checked so no player is dead).
+# If anything changed, commit it to main and run CI, which builds the image and
+# pins it in deploy/ so ArgoCD rolls out the new /stats page, /catalog.json,
+# /v1/catalog and /samples pages.
+#
+# Optional secret: FREESOUND_API_KEY (a free key from freesound.org/apiv2/apply).
+# Without it Freesound is not searched or counted (it keeps its last count,
+# marked stale); every other source needs no key.
 
 on:
   schedule:
@@ -43,9 +48,13 @@ jobs:
         run: npm run build:server
 
       - name: Count every source
+        env:
+          FREESOUND_API_KEY: ${{ secrets.FREESOUND_API_KEY }}
         run: node scripts/census.mjs
 
       - name: Refresh the collection pages
+        env:
+          FREESOUND_API_KEY: ${{ secrets.FREESOUND_API_KEY }}
         run: node scripts/snapshot-collections.mjs
 
       - name: Commit, push and deploy

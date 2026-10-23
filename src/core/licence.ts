@@ -61,6 +61,15 @@ export const LICENSES = {
     verdict: "no",
     note: "Personal, educational or research use only. Commercial licences are sold through Pro Sound Effects.",
   },
+  Unlicense: {
+    id: "Unlicense",
+    name: "The Unlicense",
+    url: "https://unlicense.org/",
+    commercialUse: true,
+    attributionRequired: false,
+    redistribution: true,
+    verdict: "yes",
+  },
   "LicenseRef-OGA-BY-3.0": {
     id: "LicenseRef-OGA-BY-3.0",
     name: "OGA-BY 3.0",
@@ -89,9 +98,9 @@ export const LICENSES = {
 
 export type KnownLicenseId = keyof typeof LICENSES;
 
-/** Attach who asserted it. */
-export function license(id: KnownLicenseId, assertedBy: License["assertedBy"] = "source"): License {
-  return applyAssertion({ ...LICENSES[id], assertedBy });
+/** Attach who asserted it, optionally with a source-specific note. */
+export function license(id: KnownLicenseId, assertedBy: License["assertedBy"] = "source", note?: string): License {
+  return applyAssertion({ ...LICENSES[id], assertedBy, ...(note ? { note } : {}) });
 }
 
 /**
@@ -198,6 +207,7 @@ export function parseLicense(input: string | undefined | null, assertedBy: Licen
 
   if (/nc-?sampling\s*(\+|plus)|non-?commercial sampling/.test(s)) return license("LicenseRef-NC-Sampling-Plus-1.0", assertedBy);
   if (/sampling\s*\+|sampling[\s-]*plus/.test(s)) return license("LicenseRef-Sampling-Plus-1.0", assertedBy);
+  if (/\bunlicen[cs]e\b/.test(s)) return license("Unlicense", assertedBy);
   if (/\boga-?by\b/.test(s)) return license("LicenseRef-OGA-BY-3.0", assertedBy);
   if (/personal (use )?only|private use only|for personal use/.test(s)) return license("LicenseRef-Personal-Use-Only", assertedBy);
   if (/publicdomain\/zero|\bcc0\b|cc-?zero|creative commons 0/.test(s)) return license("CC0-1.0", assertedBy);

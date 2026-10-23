@@ -1,0 +1,43 @@
+---
+// One saved search result on a collection or source page: a play button and a
+// waveform instead of a thumbnail, the musical facts and the licence verdict.
+// The title opens the sample in the search app (waveform, files, credit line);
+// the footer links to its page on the source site.
+import PlayButton from "./PlayButton.astro";
+import Wave from "./Wave.astro";
+import { providerName, type SnapshotSample } from "@/lib/collections";
+import { VERDICT_LABELS, categoryLabel, durationText, formLabel, verdictTone, type Verdict } from "@/lib/vocab";
+
+interface Props {
+  sample: SnapshotSample;
+}
+const { sample: a } = Astro.props;
+const source = providerName(a.provider);
+const facts = [categoryLabel(a.category), formLabel(a.form), a.bpm ? `${Math.round(a.bpm)} BPM` : "", a.key ?? "", durationText(a.durationSec)].filter(Boolean);
+const verdict = (a.license?.verdict ?? "check-terms") as Verdict;
+const tone = verdictTone(verdict);
+const toneClass = { green: "border-success/40 text-success", amber: "border-warning/40 text-warning", red: "border-destructive/40 text-destructive" }[tone];
+---
+<li class="group flex flex-col overflow-hidden rounded-xl border bg-card/50 transition hover:border-primary/40 hover:shadow-xl hover:shadow-primary/5">
+  <div class="flex items-center gap-3 p-3 pb-0">
+    <PlayButton id={a.id} src={a.previewUrl} title={a.title} />
+    <Wave seed={a.id} class="h-10 w-full min-w-0 text-muted-foreground/40 transition group-hover:text-primary/50" />
+  </div>
+  <a href={`/search?sample=${encodeURIComponent(a.id)}`} class="flex flex-1 flex-col gap-2 p-3 focus-visible:outline-2 focus-visible:outline-ring">
+    <h3 class="line-clamp-2 text-sm font-medium leading-snug group-hover:text-primary">{a.title}</h3>
+    <p class="text-xs text-muted-foreground">
+      {source}{a.author && <> · {a.author}</>}
+    </p>
+    <p class="flex flex-wrap gap-1">
+      {facts.map((f) => <span class="rounded-md bg-muted px-1.5 py-px text-[11px] text-muted-foreground">{f}</span>)}
+    </p>
+    <div class="mt-auto flex flex-wrap gap-1 pt-1">
+      <span class:list={["inline-flex items-center rounded-full border px-2 py-0.5 text-[10px] font-medium", toneClass]} title={a.license ? `${a.license.name}: ${VERDICT_LABELS[verdict]}` : "No licence stated"}>{VERDICT_LABELS[verdict]}</span>
+      {a.license && <span class="inline-flex items-center rounded-full border px-2 py-0.5 text-[10px] font-medium">{a.license.name}</span>}
+      {a.downloadable && <span class="inline-flex items-center rounded-full border px-2 py-0.5 text-[10px] font-medium text-muted-foreground">Direct download</span>}
+    </div>
+  </a>
+  <a href={a.url} rel="noopener" class="border-t px-3 py-2 text-xs text-muted-foreground transition hover:text-foreground">
+    View on {source} <span aria-hidden="true">↗</span>
+  </a>
+</li>

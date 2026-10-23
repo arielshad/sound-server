@@ -1,0 +1,202 @@
+{
+  "slug": "free-808-samples",
+  "search": {
+    "q": "808",
+    "categories": [
+      "bass.808"
+    ]
+  },
+  "updatedAt": "2026-10-23T04:43:47.497Z",
+  "samples": [
+    {
+      "id": "openverse:2ab36d14-6be7-4777-b47c-03f398f3fcf8",
+      "provider": "openverse",
+      "title": "Distorted 808.wav",
+      "category": "bass.808",
+      "url": "https://freesound.org/people/dantheman5491/sounds/47928",
+      "previewUrl": "https://cdn.freesound.org/previews/47/47928_380729-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "dantheman5491",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 2.063
+    },
+    {
+      "id": "openverse:f0d47d06-777f-4ed1-9d78-f018cc88502b",
+      "provider": "openverse",
+      "title": "Rock 808 beat.aiff",
+      "category": "bass.808",
+      "url": "https://freesound.org/people/T_roy_920/sounds/324406",
+      "previewUrl": "https://cdn.freesound.org/previews/324/324406_4929134-hq.mp3",
+      "downloadable": true,
+      "author": "T_roy_920",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "aiff"
+      ],
+      "durationSec": 8.962
+    },
+    {
+      "id": "openverse:1972a98c-e27a-40e3-bae3-5ea60b29d5da",
+      "provider": "openverse",
+      "title": "FX 808 Beat 120 BPM.wav",
+      "category": "bass.808",
+      "url": "https://freesound.org/people/day_tripper13/sounds/117646",
+      "previewUrl": "https://cdn.freesound.org/previews/117/117646_2045208-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "day_tripper13",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "bpm": 120,
+      "durationSec": 16
+    },
+    {
+      "id": "openverse:c905b3ea-1f81-46d4-857d-b9b30b5bdb51",
+      "provider": "openverse",
+      "title": "808 Emu.wav",
+      "category": "bass.808",
+      "url": "https://freesound.org/people/breo2012/sounds/269100",
+      "previewUrl": "https://cdn.freesound.org/previews/269/269100_5021819-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "breo2012",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.391
+    },
+    {
+      "id": "openverse:4a5ed928-afeb-452c-8eba-b39a02cdc408",
+      "provider": "openverse",
+      "title": "808 distorted.wav",
+      "category": "bass.808",
+      "url": "https://freesound.org/people/emceeciscokid/sounds/403342",
+      "previewUrl": "https://cdn.freesound.org/previews/403/403342_6260939-hq.mp3",
+      "downloadable": true,
+      "author": "emceeciscokid",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 3.614
+    },
+    {
+      "id": "openverse:1f0b6cfc-3333-4d2a-9cc1-13ae2e690659",
+      "provider": "openverse",
+      "title": "Heavy bass - 808 loops.mp3",
+      "category": "bass.808",
+      "url": "https://freesound.org/people/J3rryz808/sounds/474826",
+      "previewUrl": "https://cdn.freesound.org/previews/474/474826_10098945-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "J3rryz808",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 6.455
+    },
+    {
+      "id": "openverse:7792b31d-b8d2-4552-903c-b1ad674e0da9",
+      "provider": "openverse",
+      "title": "808 Hospital sounds.wav",
+      "category": "bass.808",
+      "url": "https://freesound.org/people/ERH/sounds/62602",
+      "previewUrl": "https://cdn.freesound.org/previews/62/62602_215874-hq.mp3",
+      "downloadable": true,
+      "author": "ERH",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 266.207
+    },
+    {
+      "id": "openverse:fa98f34e-5eee-4679-8c95-59b2db73e666",
+      "provider": "openverse",
+      "title": "[Drumbeats (Melodic)] 100 bpm generic synth '808' vibe",
+      "category": "bass.808",
+      "url": "https://freesound.org/people/waveplaySFX/sounds/250575",
+      "previewUrl": "https://cdn.freesound.org/previews/250/250575_1676145-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "waveplaySFX",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "bpm": 100,
+      "durationSec": 9.6
+    }
+  ]
+}
