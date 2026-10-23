@@ -1,6 +1,6 @@
 ---
 title: "Free vinyl crackle samples"
-description: "Free vinyl crackle, record noise and tape hiss samples for lo-fi beats and warm textures, as loops and long takes, each with a preview and licence verdict."
+description: "Free vinyl crackle, record noise and tape hiss samples for lo-fi beats and warm, worn mixes, as loops and long takes, each with a preview and licence verdict."
 hub: fx
 search:
   q: "vinyl crackle"
@@ -16,7 +16,7 @@ addedAt: 2026-10-23
 addedBy: human
 ---
 
-## Texture for lo-fi and beyond
+## Atmosphere for lo-fi and beyond
 
 Vinyl crackle is the quiet bed of pops and hiss that makes a beat sound like it was lifted from an old record. It glues samples from different sources together and fills the silence between notes. Lo-fi hip hop, chillhop and ambient lean on it, and a touch of it can soften a bright modern production too.
 

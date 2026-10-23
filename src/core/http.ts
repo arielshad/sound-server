@@ -8,12 +8,15 @@ export const USER_AGENT =
 const DEFAULT_TIMEOUT_MS = Number(process.env.SOUND_SERVER_HTTP_TIMEOUT_MS ?? 15_000);
 const DEFAULT_CACHE_TTL_MS = Number(process.env.SOUND_SERVER_CACHE_TTL_MS ?? 10 * 60_000);
 const RETRY_429_MS = 1_500;
+const MAX_RETRY_WAIT_MS = 3_000;
 
 export class HttpError extends Error {
   constructor(
     readonly status: number,
     readonly url: string,
     message?: string,
+    /** Seconds from a Retry-After header, when the server sent one. */
+    readonly retryAfterSec?: number,
   ) {
     super(message ?? `HTTP ${status} for ${url}`);
     this.name = "HttpError";
@@ -70,7 +73,8 @@ export function createHttpClient(opts: CreateHttpClientOptions = {}): HttpClient
     if (!res.ok && !(init.redirect === "manual" && res.status >= 300 && res.status < 400)) {
       // Drain the body so the socket can be reused.
       await res.body?.cancel().catch(() => undefined);
-      throw new HttpError(res.status, url);
+      const ra = Number(res.headers.get("retry-after"));
+      throw new HttpError(res.status, url, undefined, Number.isFinite(ra) && ra >= 0 ? ra : undefined);
     }
     if (idle && res.body) return withIdleTimeout(res, idle, init.idleTimeoutMs!);
     return res;
@@ -80,10 +84,14 @@ export function createHttpClient(opts: CreateHttpClientOptions = {}): HttpClient
     try {
       return await attempt(url, init);
     } catch (e) {
-      // One polite retry on a short 429 (Wikimedia and Openverse rate-limit bursts).
+      // One polite retry on a short 429 (Wikimedia and Openverse rate-limit bursts), honouring
+      // Retry-After when it is short; a long wait fails fast so the search isn't held up.
       if (e instanceof HttpError && e.status === 429 && !init.signal?.aborted) {
-        await new Promise((r) => setTimeout(r, RETRY_429_MS));
-        return attempt(url, init);
+        const wait = e.retryAfterSec !== undefined ? e.retryAfterSec * 1000 : RETRY_429_MS;
+        if (wait <= MAX_RETRY_WAIT_MS) {
+          await new Promise((r) => setTimeout(r, wait));
+          return attempt(url, init);
+        }
       }
       throw e;
     }

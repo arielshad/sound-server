@@ -19,7 +19,7 @@ It exists because finding a usable sample usually means opening a dozen tabs, au
 
 ## Who runs it
 
-Sound Server is open source under the Apache-2.0 licence and developed in the open at [github.com/arielshad/sound-server](https://github.com/arielshad/sound-server). The public instance runs on Shep's infrastructure ([shep.bot](https://shep.bot)) as a free, non-commercial service: no accounts, no ads, no paid tier. It is a sibling of [3d.shep.bot](https://3d.shep.bot), which does the same for game and web assets. Anyone can [self-host](/docs/self-hosting) their own copy.
+Sound Server is open source under the Apache-2.0 licence and developed in the open at [github.com/arielshad/sound-server](https://github.com/arielshad/sound-server). The public instance runs on Shep's infrastructure ([shep.bot](https://shep.bot)) as a free, non-commercial service: no accounts, no ads, no paid tier. Anyone can [self-host](/docs/self-hosting) their own copy.
 
 ## How it treats sources and licences
 

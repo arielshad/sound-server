@@ -4,8 +4,8 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
-    "check": "astro check",
+    "build": "node scripts/export-vocab.mjs && astro build",
+    "check": "node scripts/export-vocab.mjs && astro check",
     "preview": "astro preview"
   },
   "dependencies": {

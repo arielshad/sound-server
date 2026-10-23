@@ -67,7 +67,7 @@ function catalogLine(c) {
   return `**Catalog (counted ${c.countedAt.slice(0, 10)}).** ${num(t.listings.count, t.listings.atLeast)} sample listings from ${t.sourcesCounted} counted sources, ${num(t.free.count, t.free.atLeast)} free and ${num(t.cc0.count, t.cc0.atLeast)} CC0${cats.length ? `: ${cats.join(", ")}` : ""}.`;
 }
 
-function statsMarkdown(providers, integrations, catalog, site) {
+function statsMarkdown(integrations, catalog, site) {
   const recent = integrations.slice(0, 6).map((i) => `- [${i.name}](${i.homepage}) (\`${i.id}\`), added ${i.addedAt}`);
   const head = [
     "# Samples in numbers",
@@ -164,7 +164,7 @@ export default function agentFiles() {
         } else logger.warn("no src/data/catalog.json yet: /stats and llms.txt leave out the census");
 
         const integrations = readJson("src/data/integrations.json")?.integrations ?? [];
-        const stats = statsMarkdown(providers, integrations, catalog, site);
+        const stats = statsMarkdown(integrations, catalog, site);
         write("stats.md", `${stats}\n---\nSource: ${site}/stats\n`);
         docs.push({ route: "/stats", title: "Samples in numbers", description: "How many drum hits, loops, vocals, FX and instrument samples every source holds (counted daily), plus live usage.", md: stats });
 

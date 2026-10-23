@@ -18,7 +18,7 @@ addedBy: human
 
 ## Building tension
 
-Risers tell the listener that something is about to happen. The classic is filtered white noise opening up over a few bars, often doubled with a synth note gliding upwards. Layer two risers with different textures for a fuller build, and automate a high-pass filter on the rest of the mix so the drop hits harder.
+Risers tell the listener that something is about to happen. The classic is filtered white noise opening up over a few bars, often doubled with a synth note gliding upwards. Layer two risers with different characters for a fuller build, and automate a high-pass filter on the rest of the mix so the drop hits harder.
 
 End the riser just before the drop rather than on it: a beat of silence or a reverse cymbal makes the impact feel bigger. Pair it with an impact from the related collection for the moment the drop lands.
 

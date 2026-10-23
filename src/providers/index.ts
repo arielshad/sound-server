@@ -1,13 +1,21 @@
 import type { Provider } from "../core/types.js";
+import { bbc } from "./bbc.js";
+import { ccmixter } from "./ccmixter.js";
+import { curated } from "./curated.js";
 import { freesound } from "./freesound.js";
 import { freewavesamples } from "./freewavesamples.js";
+import { internetarchive } from "./internetarchive.js";
+import { kenney } from "./kenney.js";
 import { linkedProviders } from "./linked.js";
 import { mixkit } from "./mixkit.js";
 import { opengameart } from "./opengameart.js";
 import { openverse } from "./openverse.js";
 import { orangefreesounds } from "./orangefreesounds.js";
 import { packStoreProviders } from "./packstores.js";
+import { sampleradar } from "./sampleradar.js";
 import { soundbible } from "./soundbible.js";
+import { strudel } from "./strudel.js";
+import { wikimediacommons } from "./wikimediacommons.js";
 
 /**
  * Every built-in provider, in the order results are reported. Originals come
@@ -16,6 +24,14 @@ import { soundbible } from "./soundbible.js";
  */
 export const allProviders: Provider[] = [
   freesound,
+  wikimediacommons,
+  ccmixter,
+  internetarchive,
+  bbc,
+  strudel,
+  sampleradar,
+  curated,
+  kenney,
   freewavesamples,
   opengameart,
   soundbible,

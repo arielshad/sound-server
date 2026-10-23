@@ -69,7 +69,11 @@ interface KitResponse {
 function toSample(i: KitItem): Sample {
   const license: License | undefined =
     typeof i.license === "object" ? i.license : { id: "", name: (i.license ?? "").split(":")[0] || "Licence not stated", verdict: i.verdict ?? "check-terms" };
-  const key = typeof i.key === "string" ? (() => { const [tonic, mode] = i.key.split(" "); return tonic && (mode === "major" || mode === "minor") ? { tonic, mode } : undefined; })() : (i.key as Sample["key"]);
+  let key: Sample["key"];
+  if (typeof i.key === "string") {
+    const [tonic, mode] = i.key.split(" ");
+    if (tonic && (mode === "major" || mode === "minor")) key = { tonic, mode };
+  } else key = i.key as Sample["key"];
   return {
     id: i.id,
     provider: i.provider ?? i.source ?? i.id.split(":")[0] ?? "",

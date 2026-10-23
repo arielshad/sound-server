@@ -28,7 +28,7 @@ export default defineConfig({
       serialize(item) {
         const path = pathOf(item.url);
         const lastmod = pages.lastmod.get(path);
-        return { ...item, lastmod, changefreq: path.startsWith("/assets") || path === "/stats" ? ChangeFreqEnum.DAILY : ChangeFreqEnum.WEEKLY };
+        return { ...item, lastmod, changefreq: path.startsWith("/samples") || path === "/stats" ? ChangeFreqEnum.DAILY : ChangeFreqEnum.WEEKLY };
       },
     }),
   ],

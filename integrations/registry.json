@@ -215,6 +215,70 @@
       "access": "link",
       "addedAt": "2026-10-23",
       "addedBy": "launch"
+    },
+    {
+      "id": "wikimediacommons",
+      "name": "Wikimedia Commons",
+      "homepage": "https://commons.wikimedia.org",
+      "access": "api",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "internetarchive",
+      "name": "Internet Archive",
+      "homepage": "https://archive.org",
+      "access": "api",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "ccmixter",
+      "name": "ccMixter",
+      "homepage": "https://ccmixter.org",
+      "access": "api",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "bbc",
+      "name": "BBC Sound Effects",
+      "homepage": "https://sound-effects.bbcrewind.co.uk",
+      "access": "api",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "strudel",
+      "name": "Strudel sample banks",
+      "homepage": "https://strudel.cc/learn/samples/",
+      "access": "static",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "sampleradar",
+      "name": "MusicRadar SampleRadar",
+      "homepage": "https://www.musicradar.com/news/tech/free-music-samples-royalty-free-loops-hits-and-multis-to-download-sampleradar",
+      "access": "static",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "curated",
+      "name": "Curated free libraries",
+      "homepage": "https://github.com/arielshad/sound-server/blob/main/src/providers/data/curated-packs.json",
+      "access": "static",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "kenney",
+      "name": "Kenney",
+      "homepage": "https://kenney.nl/assets/category:Audio",
+      "access": "scrape",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
     }
   ],
   "rejected": []
