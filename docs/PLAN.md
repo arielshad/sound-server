@@ -7,9 +7,8 @@
 >
 > Left for M6, outside this repo:
 > 1. Merge to `main`, so CI builds and pins the image.
-> 2. Register the ArgoCD app in shep-ai/shep-infra (`deploy/argocd/`).
-> 3. Add the `sound-server-env` Secret with `FREESOUND_API_KEY`.
-> 4. Optionally, register sound.shep.bot in Umami.
+> 2. Register the ArgoCD app, the Umami website and the Grafana dashboard in shep-ai/shep-infra.
+> 3. Add `FREESOUND_API_KEY` in Infisical under `/sound-server` (synced by `deploy/externalsecret.yaml`).
 >
 > Changes from the plan:
 > - Mixkit, Cymatics and Prime Loops are link-only, because their terms forbid automated access.

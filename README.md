@@ -194,11 +194,13 @@ The production setup mirrors 3d-asset-server:
 
 1. CI (`.github/workflows/ci.yml`) tests, builds `ghcr.io/arielshad/sound-server:{latest,sha-…}` on every
    push to `main`, and commits the new tag to `deploy/kustomization.yaml`.
-2. ArgoCD syncs `deploy/` (kustomize) into the `sound-server` namespace. Register the app once in
-   shep-ai/shep-infra; a ready file is in [`deploy/argocd/`](deploy/argocd/).
+2. ArgoCD syncs `deploy/` (kustomize) into the `sound-server` namespace. The app is registered in
+   shep-ai/shep-infra (`bootstrap/apps/94-sound-server.yaml`).
 3. `deploy/ingress.yaml` serves `sound.shep.bot` behind the edge Caddy (on-demand TLS).
-4. Optional `sound-server-env` Secret: `FREESOUND_API_KEY`, `OPENVERSE_CLIENT_ID/SECRET`,
-   `SOUND_SERVER_SESSION_SECRET`. Never put a personal `FREESOUND_OAUTH_TOKEN` on a public server.
+4. Secrets come from Infisical (vault.shep.bot, project `shep-infra`, env `prod`, folder
+   `/sound-server`) through External Secrets (`deploy/externalsecret.yaml`). Add `FREESOUND_API_KEY`
+   there; the mounted Secret updates in the running pod, no restart needed. Never put a personal
+   `FREESOUND_OAUTH_TOKEN` on a public server.
 
 Releases to npm (`npx sound-server`) run from version tags (`.github/workflows/release.yml`).
 

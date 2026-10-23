@@ -1,5 +1,6 @@
 import { HttpError } from "../core/http.js";
 import { license, parseLicense } from "../core/licence.js";
+import { secret as readSecret } from "../core/secrets.js";
 import type { License, Provider, ProviderContext, Sample, SampleDetails, SampleFile, SampleQuery, SourceCensus } from "../core/types.js";
 import { cleanText, filenameFromUrl, formatFromFilename, makeSample, qs } from "../core/util.js";
 
@@ -94,8 +95,8 @@ export function resetOpenverseToken(): void {
 }
 
 function clientCredentials(): { id: string; secret: string } | undefined {
-  const id = process.env[ID_ENV]?.trim();
-  const secret = process.env[SECRET_ENV]?.trim();
+  const id = readSecret(ID_ENV);
+  const secret = readSecret(SECRET_ENV);
   return id && secret ? { id, secret } : undefined;
 }
 

@@ -8,7 +8,10 @@
 # MCP stay disabled (SOUND_SERVER_HTTP_DOWNLOADS unset): the HTTP download
 # endpoint streams zips straight to the client and never touches disk.
 #
-# Optional `sound-server-env` Secret; the pod starts fine without it:
+# Optional `sound-server-env` Secret, synced from Infisical by
+# externalsecret.yaml; the pod starts fine without it. It is read both as env
+# vars (at start) and as files under /var/run/secrets/sound-server (re-read
+# every minute), so a key added later works without a restart:
 #   FREESOUND_API_KEY            enables Freesound (free key from
 #                                https://freesound.org/apiv2/apply; without it
 #                                Freesound shows as "disabled" and Openverse
@@ -80,13 +83,15 @@ spec:
             # which scrapes the port above via servicemonitor.yaml.
             - name: PROMETHEUS_URL
               value: http://kube-prometheus-stack-prometheus.monitoring.svc:9090
-            # Cookieless visit counts in the cluster's self-hosted Umami: register
-            # sound.shep.bot there (shep-infra, like website-3d-shep-bot-job.yaml)
-            # and uncomment with its website id.
-            # - name: UMAMI_WEBSITE_ID
-            #   value: <sound.shep.bot website id>
-            # - name: UMAMI_HOST
-            #   value: https://stats.shep.bot
+            # Cookieless visit counts in the cluster's self-hosted Umami. The website
+            # is registered with this fixed id by shep-infra
+            # (apps/umami/manifests/website-sound-shep-bot-job.yaml).
+            - name: UMAMI_WEBSITE_ID
+              value: 4270cef8-15d9-412e-83ea-0c20983a90cd
+            - name: UMAMI_HOST
+              value: https://stats.shep.bot
+            - name: SOUND_SERVER_SECRETS_DIR
+              value: /var/run/secrets/sound-server
             # Install telemetry is opt-in and off here; this instance is
             # measured by the metrics above.
             - name: SOUND_SERVER_TELEMETRY
@@ -126,6 +131,9 @@ spec:
           volumeMounts:
             - name: tmp
               mountPath: /tmp
+            - name: secrets
+              mountPath: /var/run/secrets/sound-server
+              readOnly: true
           resources:
             requests:
               cpu: 50m
@@ -137,3 +145,7 @@ spec:
         - name: tmp
           emptyDir:
             sizeLimit: 1Gi
+        - name: secrets
+          secret:
+            secretName: sound-server-env
+            optional: true

@@ -1,6 +1,7 @@
 import { HttpError } from "../core/http.js";
 import { license, parseLicense } from "../core/licence.js";
 import { normalizePitch } from "../core/query.js";
+import { secret } from "../core/secrets.js";
 import type {
   Category,
   License,
@@ -116,7 +117,8 @@ export interface FsList {
 }
 
 function apiKey(): string | undefined {
-  return process.env[KEY_ENV]?.trim() || undefined;
+  // Env var, or a file in SOUND_SERVER_SECRETS_DIR (a mounted Secret that may arrive later).
+  return secret(KEY_ENV);
 }
 
 function authHeaders(): Record<string, string> {
