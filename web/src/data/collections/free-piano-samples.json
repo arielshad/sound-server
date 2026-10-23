@@ -1,0 +1,662 @@
+{
+  "slug": "free-piano-samples",
+  "search": {
+    "q": "piano",
+    "categories": [
+      "keys"
+    ]
+  },
+  "updatedAt": "2026-10-23T04:44:58.070Z",
+  "samples": [
+    {
+      "id": "openverse:2c51e4eb-dbe7-468c-ba6c-d1c85a1b71ae",
+      "provider": "openverse",
+      "title": "Piano Melody",
+      "category": "keys",
+      "url": "https://freesound.org/people/benpm/sounds/186942",
+      "previewUrl": "https://cdn.freesound.org/previews/186/186942_2594536-hq.mp3",
+      "downloadable": true,
+      "author": "benpm",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 10.193
+    },
+    {
+      "id": "orangefreesounds:58807",
+      "provider": "orangefreesounds",
+      "title": "Warm And Reflective Holiday Piano Melody",
+      "category": "keys",
+      "url": "https://orangefreesounds.com/warm-and-reflective-holiday-piano-melody/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/10/Warm-and-reflective-holiday-piano-melody.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 25
+    },
+    {
+      "id": "openverse:af2267a7-9f25-46b4-b5a2-4faf5a1c7c49",
+      "provider": "openverse",
+      "title": "Piano G.wav",
+      "category": "keys",
+      "url": "https://freesound.org/people/pinkyfinger/sounds/68448",
+      "previewUrl": "https://cdn.freesound.org/previews/68/68448_871124-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "pinkyfinger",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.555
+    },
+    {
+      "id": "orangefreesounds:58600",
+      "provider": "orangefreesounds",
+      "title": "Dramatic Piano Music For Suspenseful Scenes",
+      "category": "keys",
+      "url": "https://orangefreesounds.com/dramatic-piano-music-for-suspenseful-scenes/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/09/Dramatic-piano-music-for-suspenseful-scenes.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 17
+    },
+    {
+      "id": "openverse:0eb636a7-2bc4-483e-8ae6-52a97374cfc1",
+      "provider": "openverse",
+      "title": "Piano C.wav",
+      "category": "keys",
+      "url": "https://freesound.org/people/pinkyfinger/sounds/68441",
+      "previewUrl": "https://cdn.freesound.org/previews/68/68441_871124-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "pinkyfinger",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.54
+    },
+    {
+      "id": "orangefreesounds:58381",
+      "provider": "orangefreesounds",
+      "title": "Nostalgic Acoustic Piano – Gentle Relaxing Music",
+      "category": "keys",
+      "url": "https://orangefreesounds.com/nostalgic-acoustic-piano-gentle-relaxing-music/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/09/Nostalgic-acoustic-piano-gentle-relaxing-music.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "Alexander Blu",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 130
+    },
+    {
+      "id": "openverse:573ac1e0-45bd-47fb-9c8e-fd22cbf526ef",
+      "provider": "openverse",
+      "title": "ghost piano 4bar.wav",
+      "category": "keys",
+      "url": "https://freesound.org/people/amliebsch/sounds/39046",
+      "previewUrl": "https://cdn.freesound.org/previews/39/39046_330353-hq.mp3",
+      "downloadable": true,
+      "author": "amliebsch",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 12.953
+    },
+    {
+      "id": "openverse:0046330f-daa1-4d39-8e0d-11172d151be8",
+      "provider": "openverse",
+      "title": "Sad heaven piano #3",
+      "category": "keys",
+      "url": "https://freesound.org/people/PSOVOD/sounds/415186",
+      "previewUrl": "https://cdn.freesound.org/previews/415/415186_1658799-hq.mp3",
+      "downloadable": true,
+      "author": "PSOVOD",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 75.061
+    },
+    {
+      "id": "orangefreesounds:54772",
+      "provider": "orangefreesounds",
+      "title": "We Wish You A Merry Christmas – Simple Piano Melody",
+      "category": "keys",
+      "url": "https://orangefreesounds.com/we-wish-you-a-merry-christmas-simple-piano-melody/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2025/12/We-wish-you-a-merry-christmas-simple-piano-melody.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "Alexander Blu",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "bpm": 116,
+      "durationSec": 52
+    },
+    {
+      "id": "orangefreesounds:54647",
+      "provider": "orangefreesounds",
+      "title": "Free O Christmas Tree – Relaxing Solo Piano",
+      "category": "keys",
+      "url": "https://orangefreesounds.com/free-o-christmas-tree-relaxing-solo-piano/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2025/12/Free-o-christmas-tree-relaxing-solo-piano.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "Alexander Blu",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 85
+    },
+    {
+      "id": "openverse:3e162ca1-5e4f-4ff8-bbeb-87c73ace1bfa",
+      "provider": "openverse",
+      "title": "Piano, String Glissando, Low, A.wav",
+      "category": "keys",
+      "url": "https://freesound.org/people/InspectorJ/sounds/339671",
+      "previewUrl": "https://cdn.freesound.org/previews/339/339671_5121236-hq.mp3",
+      "downloadable": true,
+      "author": "InspectorJ",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 41.073
+    },
+    {
+      "id": "openverse:c332456f-956d-498b-a606-1a6decc9bd0b",
+      "provider": "openverse",
+      "title": "Dramatic piano 2.wav",
+      "category": "keys",
+      "url": "https://freesound.org/people/jobro/sounds/46415",
+      "previewUrl": "https://cdn.freesound.org/previews/46/46415_35187-hq.mp3",
+      "downloadable": true,
+      "author": "jobro",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 6.861
+    },
+    {
+      "id": "orangefreesounds:58085",
+      "provider": "orangefreesounds",
+      "title": "Emotional Cinematic Piano Background Music",
+      "category": "keys",
+      "url": "https://orangefreesounds.com/emotional-cinematic-piano-background-music/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/08/Emotional-cinematic-piano-background-music.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "Alexander Blu",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 120
+    },
+    {
+      "id": "orangefreesounds:58244",
+      "provider": "orangefreesounds",
+      "title": "Dreamy Ambient Piano Music – Relaxing Cinematic Music",
+      "category": "keys",
+      "url": "https://orangefreesounds.com/dreamy-ambient-piano-music-relaxing-cinematic-music/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/09/Dreamy-ambient-piano-music-relaxing-cinematic-music.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "Alexander Blu",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 180
+    },
+    {
+      "id": "openverse:884ed76a-b605-487e-a384-02307aca9c03",
+      "provider": "openverse",
+      "title": "Piano D.wav",
+      "category": "keys",
+      "url": "https://freesound.org/people/pinkyfinger/sounds/68442",
+      "previewUrl": "https://cdn.freesound.org/previews/68/68442_871124-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "pinkyfinger",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.54
+    },
+    {
+      "id": "openverse:0b2b8bcb-35f4-4a8e-852b-92a50f7c91e8",
+      "provider": "openverse",
+      "title": "Piano Remix.mp3",
+      "category": "keys",
+      "url": "https://freesound.org/people/cheesepuff/sounds/112071",
+      "previewUrl": "https://cdn.freesound.org/previews/112/112071_682033-hq.mp3",
+      "downloadable": true,
+      "author": "cheesepuff",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 110.773
+    },
+    {
+      "id": "orangefreesounds:57641",
+      "provider": "orangefreesounds",
+      "title": "Cinematic Suspense Piano Background Music",
+      "category": "keys",
+      "url": "https://orangefreesounds.com/cinematic-suspense-piano-background-music/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/07/Cinematic-suspense-piano-background-music.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 39
+    },
+    {
+      "id": "orangefreesounds:58166",
+      "provider": "orangefreesounds",
+      "title": "Relaxing Ambient Piano Blues – Peaceful Background Music",
+      "category": "keys",
+      "url": "https://orangefreesounds.com/relaxing-ambient-piano-blues-peaceful-background-music/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/09/Relaxing-ambient-piano-blues-peaceful-background-music.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "Alexander Blu",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "bpm": 63,
+      "durationSec": 197
+    },
+    {
+      "id": "openverse:3e5e98d5-7e75-45a0-89aa-b30d3019c7a9",
+      "provider": "openverse",
+      "title": "Piano F#.wav",
+      "category": "keys",
+      "url": "https://freesound.org/people/pinkyfinger/sounds/68445",
+      "previewUrl": "https://cdn.freesound.org/previews/68/68445_871124-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "pinkyfinger",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.54
+    },
+    {
+      "id": "orangefreesounds:57612",
+      "provider": "orangefreesounds",
+      "title": "Eerie Dark Piano Melody",
+      "category": "keys",
+      "url": "https://orangefreesounds.com/eerie-dark-piano-melody/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/07/Eerie-dark-piano-melody.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 7
+    },
+    {
+      "id": "openverse:e1cdc5d3-d8cf-40a2-beef-fcd90276ce35",
+      "provider": "openverse",
+      "title": "Piano C#.wav",
+      "category": "keys",
+      "url": "https://freesound.org/people/pinkyfinger/sounds/68440",
+      "previewUrl": "https://cdn.freesound.org/previews/68/68440_871124-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "pinkyfinger",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.54
+    },
+    {
+      "id": "orangefreesounds:56388",
+      "provider": "orangefreesounds",
+      "title": "Calm Solo Piano – Slow & Emotional Background Music",
+      "category": "keys",
+      "url": "https://orangefreesounds.com/calm-solo-piano-slow-emotional-background-music/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/04/Calm-solo-piano-slow-emotional-background-music.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "Alexander Blu",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "bpm": 88,
+      "durationSec": 132
+    },
+    {
+      "id": "openverse:96891078-1326-4813-89f9-206a2a635593",
+      "provider": "openverse",
+      "title": "Piano Playing Classical Music",
+      "category": "keys",
+      "url": "https://freesound.org/people/IESP/sounds/340062",
+      "previewUrl": "https://cdn.freesound.org/previews/340/340062_5984982-hq.mp3",
+      "downloadable": true,
+      "author": "IESP",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 401
+    },
+    {
+      "id": "orangefreesounds:56131",
+      "provider": "orangefreesounds",
+      "title": "Cinematic Mystery Thriller Piano Build",
+      "category": "keys",
+      "url": "https://orangefreesounds.com/cinematic-mystery-thriller-piano-build/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/04/Cinematic-mystery-thriller-piano-build.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 41
+    },
+    {
+      "id": "openverse:0d69314a-ddd2-48f7-84d3-d6f8fcac1ef0",
+      "provider": "openverse",
+      "title": "Emotional Piano",
+      "category": "keys",
+      "url": "https://freesound.org/people/triangelx/sounds/189175",
+      "previewUrl": "https://cdn.freesound.org/previews/189/189175_3296371-hq.mp3",
+      "downloadable": true,
+      "author": "triangelx",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 16
+    },
+    {
+      "id": "orangefreesounds:57513",
+      "provider": "orangefreesounds",
+      "title": "Dramatic Tension Piano Melody – Cinematic Suspense Background Music",
+      "category": "keys",
+      "url": "https://orangefreesounds.com/dramatic-tension-piano-melody-cinematic-suspense-background-music/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/07/Dramatic-tension-piano-melody-cinematic-suspense-background-music.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 17
+    },
+    {
+      "id": "openverse:0a11d8ab-3a3e-48d9-a40d-7645e14633c7",
+      "provider": "openverse",
+      "title": "Piano, Bach Fantasia, A (H1).wav",
+      "category": "keys",
+      "url": "https://freesound.org/people/InspectorJ/sounds/411162",
+      "previewUrl": "https://cdn.freesound.org/previews/411/411162_5121236-hq.mp3",
+      "downloadable": true,
+      "author": "InspectorJ",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 19.505
+    },
+    {
+      "id": "orangefreesounds:58123",
+      "provider": "orangefreesounds",
+      "title": "Cinematic Ambient Emotional Piano Music",
+      "category": "keys",
+      "url": "https://orangefreesounds.com/cinematic-ambient-emotional-piano-music/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/08/Cinematic-ambient-emotional-piano-music.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "Alexander Blu",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 108
+    }
+  ]
+}

@@ -1,0 +1,322 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import AgentSetup from "@/components/home/AgentSetup";
+import { AnimatedGridPattern } from "@/components/ui/animated-grid-pattern";
+import { AnimatedShinyText } from "@/components/ui/animated-shiny-text";
+import { Marquee } from "@/components/ui/marquee";
+import { EXAMPLE_PROMPTS } from "@/lib/agents";
+import { FAQ } from "@/lib/faq";
+import { faqPage, softwareApplication, webApi } from "@/lib/schema";
+import { CATALOG, HAS_CATALOG, fmt, fmtShort } from "@/lib/catalog";
+import { LINKED, MCP_NAME, MCP_URL, PROVIDERS, SEARCHED, SITE, SOURCE_COUNT } from "@/lib/site";
+import { allCollections, allHubs, hubPath } from "@/lib/collections";
+import { VERDICTS_BY_TONE, VERDICT_LABELS, VERDICT_MEANING, categoryLabel } from "@/lib/vocab";
+
+const suggestions = ["punchy kick", "808 in F minor", "vocal chop 140 bpm", "riser", "open hat", "vinyl crackle"];
+const totals = CATALOG.totals;
+const stats = [
+  { value: String(SOURCE_COUNT), label: "sample sites in one search" },
+  ...(HAS_CATALOG && totals.free.count
+    ? [
+        { value: fmtShort(totals.free.count, totals.free.atLeast), exact: fmt(totals.free.count, totals.free.atLeast), label: "free samples and packs" },
+        { value: fmtShort(totals.cc0.count, totals.cc0.atLeast), exact: fmt(totals.cc0.count, totals.cc0.atLeast), label: "CC0 / public-domain sounds" },
+      ]
+    : [
+        { value: "6", label: "licence verdicts, one per sound" },
+        { value: "BPM · key", label: "filters for loops and 808s" },
+      ]),
+  { value: "0", label: "accounts or API keys needed" },
+];
+const surfaces = [
+  {
+    title: "Web search",
+    body: "Type what you hear in your head, filter by drum part, BPM and key, audition with the arrow keys, and download. Every row shows its licence verdict.",
+    href: "/search",
+    cta: "Open search",
+    code: `${SITE.url.replace("https://", "")}/search?q=punchy+kick&commercial=true`,
+  },
+  {
+    title: "REST API",
+    body: "JSON with an OpenAPI 3.1 spec. Search, read licences and credit lines, proxy previews with CORS and stream zips with ATTRIBUTION.md.",
+    href: "/docs/api",
+    cta: "API guide",
+    code: `curl "${SITE.url}/v1/search?q=808&key=F+minor&commercial=true"`,
+  },
+  {
+    title: "MCP for AI agents",
+    body: "Give Claude, Cursor or Copilot tools to find, vet and fetch sounds, and to build whole drum kits, while they work on your track or game.",
+    href: "/docs/mcp",
+    cta: "Connect an agent",
+    code: `claude mcp add --transport http ${MCP_NAME} ${MCP_URL}`,
+  },
+];
+const tones = [
+  { tone: "green", title: "Green: release it", ring: "border-success/40", dot: "bg-success", text: "text-success", body: "CC0, public domain and royalty-free sounds, plus CC BY when you credit the author. Turn on Commercial-safe to see only these." },
+  { tone: "amber", title: "Amber: read first", ring: "border-warning/40", dot: "bg-warning", text: "text-warning", body: "Share-alike, the retired Sampling+ licence, unverified uploader claims, subscription terms and recordings that need paid clearance." },
+  { tone: "red", title: "Red: not for release", ring: "border-destructive/40", dot: "bg-destructive", text: "text-destructive", body: "Non-commercial licences such as CC BY-NC or the BBC's RemArc terms. Fine for practice and study, not for music you earn from." },
+] as const;
+const collections = (await allCollections()).filter((c) => c.indexable);
+const hubs = await allHubs();
+const featured = SEARCHED.slice(0, 12);
+---
+
+<BaseLayout title={SITE.name} description={SITE.description} schema={[softwareApplication(), webApi(), faqPage(FAQ)]}>
+  <!-- Hero -->
+  <section class="relative isolate overflow-hidden border-b border-border/60">
+    <AnimatedGridPattern
+      client:only="react"
+      numSquares={36}
+      maxOpacity={0.12}
+      duration={3}
+      className="absolute inset-0 -z-10 h-full w-full [mask-image:radial-gradient(640px_circle_at_50%_30%,white,transparent)] skew-y-6 fill-primary/20 stroke-primary/15"
+    />
+    <div class="pointer-events-none absolute left-1/2 top-[-12rem] -z-10 h-[32rem] w-[64rem] -translate-x-1/2 rounded-full bg-[radial-gradient(closest-side,color-mix(in_oklch,var(--color-primary)_28%,transparent),transparent)] blur-2xl"></div>
+    <div class="mx-auto max-w-5xl px-4 pb-20 pt-20 text-center sm:px-6 sm:pt-28">
+      <a href="/kit" class="group mx-auto inline-flex items-center rounded-full border border-border bg-card/60 px-1 py-1 pr-3 text-sm backdrop-blur transition hover:border-primary/40">
+        <span class="mr-2 rounded-full bg-primary/15 px-2 py-0.5 text-xs font-medium text-primary">New</span>
+        <AnimatedShinyText className="mx-0 max-w-none">Kit builder: a whole drum kit in one click</AnimatedShinyText>
+        <span class="ml-1 text-muted-foreground transition group-hover:translate-x-0.5">→</span>
+      </a>
+      <h1 class="mx-auto mt-7 max-w-4xl text-balance text-4xl font-semibold tracking-tight sm:text-6xl">
+        <span class="mb-3 block text-base font-medium tracking-normal text-muted-foreground sm:text-lg">Sound Server</span>
+        Every free sample,{" "}
+        <span class="bg-gradient-to-r from-primary via-[color-mix(in_oklch,var(--color-primary)_50%,var(--color-brand-2))] to-brand-2 bg-clip-text text-transparent">one search</span>
+      </h1>
+      <p class="mx-auto mt-6 max-w-2xl text-pretty text-lg text-muted-foreground">
+        Kicks, snares, hats, 808s, loops, vocals and FX from {SOURCE_COUNT} sample sites at once, each with a preview and a clear answer to the question that matters: can I put this in a track I release? In your browser, over an API, or from your AI agent.
+      </p>
+
+      <form action="/search" method="get" role="search" class="relative mx-auto mt-10 max-w-2xl">
+        <label for="hero-q" class="sr-only">Search samples</label>
+        <div class="flex items-center gap-2 rounded-2xl border bg-card/80 p-2 shadow-2xl shadow-primary/10 ring-1 ring-primary/10 backdrop-blur focus-within:ring-2 focus-within:ring-primary/40">
+          <svg class="ml-2 size-5 shrink-0 text-muted-foreground" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" /></svg>
+          <input id="hero-q" name="q" type="search" required autocomplete="off" placeholder="punchy kick, 808 in F minor, riser…" class="h-11 min-w-0 flex-1 bg-transparent text-base outline-none placeholder:text-muted-foreground/70" />
+          <button type="submit" class="h-11 rounded-xl bg-primary px-5 text-sm font-medium text-primary-foreground transition hover:opacity-90">Search</button>
+        </div>
+      </form>
+      <div class="mx-auto mt-4 flex max-w-2xl flex-wrap justify-center gap-2 text-sm">
+        <span class="text-muted-foreground">Try:</span>
+        {suggestions.map((s) => (
+          <a href={`/search?q=${encodeURIComponent(s)}`} class="rounded-full border border-border/70 px-3 py-0.5 text-muted-foreground transition hover:border-primary/40 hover:text-foreground">{s}</a>
+        ))}
+      </div>
+
+      <dl class="mx-auto mt-14 grid max-w-3xl grid-cols-2 gap-6 sm:grid-cols-4">
+        {stats.map((s) => (
+          <div>
+            <dt class="sr-only">{s.label}</dt>
+            <dd class="text-3xl font-semibold tabular-nums tracking-tight" title={"exact" in s ? s.exact : undefined}>{s.value}</dd>
+            <dd class="mt-1 text-xs text-muted-foreground">{s.label}</dd>
+          </div>
+        ))}
+      </dl>
+      <p class="mt-6 text-sm"><a href="/stats" class="text-muted-foreground transition hover:text-foreground">Counted daily across every source · see the numbers →</a></p>
+    </div>
+
+    <div class="relative border-t border-border/60 py-6">
+      <p class="sr-only">Sources searched:</p>
+      <Marquee pauseOnHover className="[--duration:45s] [--gap:2.5rem]">
+        {PROVIDERS.map((p) => (
+          <a href={`/sources/${p.id}`} class="whitespace-nowrap text-sm font-medium text-muted-foreground transition hover:text-foreground">{p.name}</a>
+        ))}
+      </Marquee>
+      <div class="pointer-events-none absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-background"></div>
+      <div class="pointer-events-none absolute inset-y-0 right-0 w-24 bg-gradient-to-l from-background"></div>
+    </div>
+  </section>
+
+  <!-- Product preview -->
+  <section class="mx-auto max-w-6xl px-4 pt-20 sm:px-6" aria-labelledby="preview">
+    <div class="mx-auto max-w-2xl text-center">
+      <p class="text-sm font-medium text-primary">See it in action</p>
+      <h2 id="preview" class="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">Audition fast, with the licence on every row</h2>
+      <p class="mt-4 text-muted-foreground">Arrow keys move through the results and play each sound, like a sample browser. Space pauses, Enter opens the details and the credit line.</p>
+    </div>
+    <figure class="mt-10">
+      <div class="overflow-hidden rounded-2xl border bg-card/50 shadow-2xl shadow-primary/10 ring-1 ring-primary/10">
+        <picture>
+          <source type="image/avif" srcset="/img/search-preview.avif" />
+          <source type="image/webp" srcset="/img/search-preview.webp" />
+          <img
+            src="/img/search-preview.png"
+            width="1280"
+            height="800"
+            loading="lazy"
+            decoding="async"
+            alt="Sound Server search results for “kick”: rows of kick drum samples, each with a play button, a waveform, its category, length and source, and a green, amber or red licence badge, under category chips and BPM, key and Commercial-safe filters."
+            class="block h-auto w-full"
+          />
+        </picture>
+      </div>
+      <figcaption class="mt-3 text-center text-sm text-muted-foreground">
+        A search for “kick”. <a href="/search?q=kick&category=drums.kick" class="text-primary underline decoration-primary/40 underline-offset-2">Try it yourself</a>.
+      </figcaption>
+    </figure>
+  </section>
+
+  <!-- Licence verdicts -->
+  <section class="mx-auto max-w-7xl px-4 pt-24 sm:px-6" aria-labelledby="verdicts">
+    <div class="mx-auto max-w-2xl text-center">
+      <p class="text-sm font-medium text-primary">Licence first</p>
+      <h2 id="verdicts" class="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">Green, amber or red, before you fall in love with a sound</h2>
+      <p class="mt-4 text-muted-foreground">
+        Sample licences hide traps: “royalty free” that forbids sharing the sample, share-alike that relicenses your whole track, non-commercial clauses, and uploads nobody checked. Every result carries one verdict, decided the same way for every source.
+      </p>
+    </div>
+    <div class="mt-12 grid gap-4 md:grid-cols-3">
+      {tones.map((t) => (
+        <div class:list={["rounded-2xl border bg-card/50 p-6", t.ring]}>
+          <h3 class="flex items-center gap-2 font-semibold"><span class:list={["size-2.5 rounded-full", t.dot]} aria-hidden="true"></span>{t.title}</h3>
+          <p class="mt-2 text-sm text-muted-foreground">{t.body}</p>
+          <ul class="mt-4 space-y-3">
+            {VERDICTS_BY_TONE[t.tone].map((v) => (
+              <li class="text-sm">
+                <span class:list={["font-medium", t.text]}>{VERDICT_LABELS[v]}</span>
+                <span class="mt-0.5 block text-xs leading-relaxed text-muted-foreground">{VERDICT_MEANING[v]}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
+    <p class="mt-6 text-center text-sm"><a href="/docs/licences" class="text-primary hover:underline">Sample licences explained: CC0, CC BY, share-alike, Sampling+, royalty free, Content ID →</a></p>
+  </section>
+
+  <!-- What it searches -->
+  <section class="mx-auto max-w-7xl px-4 py-24 sm:px-6" aria-labelledby="sources">
+    <div class="mx-auto max-w-2xl text-center">
+      <p class="text-sm font-medium text-primary">What it searches</p>
+      <h2 id="sources" class="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">{SOURCE_COUNT} sample sites, one result list</h2>
+      <p class="mt-4 text-muted-foreground">
+        Creative Commons archives, royalty-free sample packs, orchestral libraries and drum machine collections are searched directly. Stores and sites that don't allow automated search get a link that runs the same search there.
+      </p>
+    </div>
+    <ul class="mt-12 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+      {featured.map((p) => (
+        <li>
+          <a href={`/sources/${p.id}`} class="group flex h-full flex-col rounded-xl border bg-card/40 p-4 transition hover:border-primary/40 hover:bg-card">
+            <span class="flex items-baseline justify-between gap-2">
+              <span class="font-medium group-hover:text-primary">{p.name}</span>
+              <span class="text-xs text-muted-foreground">{p.license ?? "licence per sound"}</span>
+            </span>
+            <span class="mt-1 line-clamp-2 text-sm text-muted-foreground">{p.description}</span>
+            {p.categories.length > 0 && <span class="mt-2 text-xs text-muted-foreground">{p.categories.slice(0, 5).map(categoryLabel).join(" · ")}</span>}
+          </a>
+        </li>
+      ))}
+    </ul>
+    <p class="mt-6 text-center text-sm text-muted-foreground">
+      {SEARCHED.length > featured.length && <>And {SEARCHED.length - featured.length} more searched directly. </>}
+      {LINKED.length > 0 && <>Linked searches: {LINKED.map((p) => p.name).join(", ")}. </>}
+      <a href="/docs/sources" class="text-primary hover:underline">All sources and their licences →</a>
+    </p>
+  </section>
+
+  <!-- Three ways -->
+  <section class="border-t border-border/60" aria-labelledby="ways">
+    <div class="mx-auto max-w-7xl px-4 py-24 sm:px-6">
+      <div class="mx-auto max-w-2xl text-center">
+        <p class="text-sm font-medium text-primary">Three ways in</p>
+        <h2 id="ways" class="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">Use it however you make music</h2>
+        <p class="mt-4 text-muted-foreground">The same search, licence rules and downloads behind a website, a REST API and an MCP server.</p>
+      </div>
+      <div class="mt-14 grid gap-4 md:grid-cols-3">
+        {surfaces.map((s) => (
+          <a href={s.href} class="group relative flex flex-col overflow-hidden rounded-2xl border bg-card/50 p-6 transition hover:border-primary/40 hover:bg-card">
+            <h3 class="text-lg font-semibold">{s.title}</h3>
+            <p class="mt-2 flex-1 text-sm text-muted-foreground">{s.body}</p>
+            <code class="mt-6 block truncate rounded-lg border bg-[#0d0d12] px-3 py-2 font-mono text-xs text-zinc-300">{s.code}</code>
+            <span class="mt-5 text-sm font-medium text-primary">{s.cta} <span class="inline-block transition group-hover:translate-x-0.5">→</span></span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Agents -->
+  <section class="border-y border-border/60 bg-card/30" aria-labelledby="agents">
+    <div class="mx-auto grid max-w-7xl items-start gap-12 px-4 py-24 sm:px-6 lg:grid-cols-[1fr_1.15fr]">
+      <div>
+        <p class="text-sm font-medium text-primary">For AI agents</p>
+        <h2 id="agents" class="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">Let your agent dig for sounds</h2>
+        <p class="mt-4 text-muted-foreground">
+          Connect the MCP server once, under the name <code class="rounded bg-muted px-1.5 py-0.5 font-mono text-sm">{MCP_NAME}</code>. Your agent can then search every source, build drum kits, check each licence and pull the files into your project. It searches commercial-safe by default and is told never to pass off a non-commercial sound as cleared.
+        </p>
+        <ul class="mt-8 space-y-3">
+          {EXAMPLE_PROMPTS.map((p) => (
+            <li class="flex gap-3 rounded-xl border bg-background/60 px-4 py-3 text-sm">
+              <span class="font-mono text-primary">›</span><span>{p}</span>
+            </li>
+          ))}
+        </ul>
+        <p class="mt-6 text-sm text-muted-foreground">
+          Agents that only browse the web can read <a class="text-primary underline decoration-primary/40 underline-offset-2" href="/AGENTS.md">/AGENTS.md</a> or <a class="text-primary underline decoration-primary/40 underline-offset-2" href="/llms.txt">/llms.txt</a> and call the REST API directly. <a class="text-primary underline decoration-primary/40 underline-offset-2" href="/docs/mcp">Full setup guide →</a>
+        </p>
+      </div>
+      <AgentSetup client:visible />
+    </div>
+  </section>
+
+  <!-- Collections -->
+  {(hubs.length > 0 || collections.length > 0) && (
+    <section class="mx-auto max-w-7xl px-4 py-24 sm:px-6" aria-labelledby="browse">
+      <div class="mx-auto max-w-2xl text-center">
+        <p class="text-sm font-medium text-primary">Browse</p>
+        <h2 id="browse" class="mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">Free sample collections</h2>
+        <p class="mt-4 text-muted-foreground">Saved searches for the sounds producers ask for most, refreshed daily, with a licence verdict on every sample.</p>
+      </div>
+      <div class="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {hubs.map((h) => (
+          <a href={hubPath(h)} class="group rounded-2xl border p-5 transition hover:border-primary/40 hover:bg-card">
+            <h3 class="font-semibold">{h.title}</h3>
+            <p class="mt-1 line-clamp-2 text-sm text-muted-foreground">{h.description}</p>
+            <span class="mt-3 inline-block text-sm text-primary">Browse <span class="inline-block transition group-hover:translate-x-0.5">→</span></span>
+          </a>
+        ))}
+      </div>
+      {collections.length > 0 && (
+        <div class="mt-8 text-center">
+          <h3 class="text-sm font-medium text-muted-foreground">Popular collections</h3>
+          <ul class="mx-auto mt-3 flex max-w-4xl flex-wrap justify-center gap-2 text-sm">
+            {collections.map((c) => (
+              <li><a href={c.path} class="inline-flex rounded-full border px-3 py-1 text-muted-foreground transition hover:border-primary/40 hover:text-foreground">{c.topic.data.title}</a></li>
+            ))}
+          </ul>
+        </div>
+      )}
+      <p class="mt-6 text-center text-sm"><a href="/samples" class="text-primary hover:underline">All sample collections →</a></p>
+    </section>
+  )}
+
+  <!-- FAQ -->
+  <section class="border-t border-border/60" aria-labelledby="faq">
+    <div class="mx-auto max-w-3xl px-4 py-24 sm:px-6">
+      <h2 id="faq" class="text-center text-3xl font-semibold tracking-tight sm:text-4xl">Questions</h2>
+      <div class="mt-10 divide-y divide-border rounded-2xl border bg-card/40">
+        {FAQ.map((f, i) => (
+          <details class="group px-5 py-4" open={i === 0}>
+            <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-medium [&::-webkit-details-marker]:hidden">
+              <h3 class="text-base">{f.q}</h3>
+              <span class="text-muted-foreground transition group-open:rotate-45" aria-hidden="true">+</span>
+            </summary>
+            <p class="mt-3 text-sm leading-relaxed text-muted-foreground">{f.a}</p>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="relative overflow-hidden border-t border-border/60">
+    <div class="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(60%_80%_at_50%_100%,color-mix(in_oklch,var(--color-primary)_18%,transparent),transparent)]"></div>
+    <div class="mx-auto max-w-3xl px-4 py-24 text-center sm:px-6">
+      <h2 class="text-3xl font-semibold tracking-tight sm:text-4xl">Stop digging through twenty tabs</h2>
+      <p class="mt-4 text-muted-foreground">Search once, audition with the arrow keys, and know which sounds you can release before they end up in your mix.</p>
+      <div class="mt-8 flex flex-wrap justify-center gap-3">
+        <a href="/search" class="rounded-xl bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground transition hover:opacity-90">Start searching</a>
+        <a href="/kit" class="rounded-xl border px-5 py-2.5 text-sm font-medium transition hover:bg-accent">Build a kit</a>
+        <a href="/docs" class="rounded-xl border px-5 py-2.5 text-sm font-medium transition hover:bg-accent">Read the docs</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

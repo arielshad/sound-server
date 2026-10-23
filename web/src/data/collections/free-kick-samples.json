@@ -1,0 +1,572 @@
+{
+  "slug": "free-kick-samples",
+  "search": {
+    "q": "kick",
+    "categories": [
+      "drums.kick"
+    ],
+    "forms": [
+      "one-shot"
+    ]
+  },
+  "updatedAt": "2026-10-23T04:44:42.520Z",
+  "samples": [
+    {
+      "id": "openverse:58196449-5a6e-4918-a8b2-3d192f81fdc4",
+      "provider": "openverse",
+      "title": "soccer kick 02.wav",
+      "category": "drums.kick",
+      "url": "https://freesound.org/people/volivieri/sounds/37157",
+      "previewUrl": "https://cdn.freesound.org/previews/37/37157_374422-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "volivieri",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.148
+    },
+    {
+      "id": "soundbible:998-Sweep-Kick",
+      "provider": "soundbible",
+      "title": "Sweep Kick",
+      "category": "drums.kick",
+      "url": "https://soundbible.com/998-Sweep-Kick.html",
+      "previewUrl": "https://soundbible.com/mp3/Sweep%20Kick-SoundBible.com-808409893.mp3",
+      "downloadable": true,
+      "author": "Mike Koenig",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "openverse:e229fbff-a97c-422e-850f-b2ace7cdafb8",
+      "provider": "openverse",
+      "title": "good kick in the head sound.aif",
+      "category": "drums.kick",
+      "url": "https://freesound.org/people/mwl500/sounds/54807",
+      "previewUrl": "https://cdn.freesound.org/previews/54/54807_251523-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "mwl500",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "aiff"
+      ],
+      "durationSec": 1.21
+    },
+    {
+      "id": "opengameart:punch-slap-n-kick",
+      "provider": "opengameart",
+      "title": "Punch, slap, n' kick",
+      "category": "drums.kick",
+      "url": "https://opengameart.org/content/punch-slap-n-kick",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/preview_3.ogg.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/preview_3.ogg.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "openverse:755251e1-6e09-47b3-9bcd-c49f1484a98a",
+      "provider": "openverse",
+      "title": "Kick J.Zealous Hard Club.aif",
+      "category": "drums.kick",
+      "url": "https://freesound.org/people/J_Zealous/sounds/331589",
+      "previewUrl": "https://cdn.freesound.org/previews/331/331589_5820980-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "J_Zealous",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "aiff"
+      ],
+      "durationSec": 2.243
+    },
+    {
+      "id": "soundbible:996-Kick",
+      "provider": "soundbible",
+      "title": "Kick",
+      "category": "drums.kick",
+      "url": "https://soundbible.com/996-Kick.html",
+      "previewUrl": "https://soundbible.com/mp3/Kick-SoundBible.com-1331196005.mp3",
+      "downloadable": true,
+      "author": "Mike Koenig",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "opengameart:kick-their-ass",
+      "provider": "opengameart",
+      "title": "Kick their ass",
+      "category": "drums.kick",
+      "url": "https://opengameart.org/content/kick-their-ass",
+      "previewUrl": "https://opengameart.org/sites/default/files/Kick%20their%20ass.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/Kick%20their%20ass.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "soundbible:1000-Roundhouse-Kick",
+      "provider": "soundbible",
+      "title": "Roundhouse Kick",
+      "category": "drums.kick",
+      "url": "https://soundbible.com/1000-Roundhouse-Kick.html",
+      "previewUrl": "https://soundbible.com/mp3/Roundhouse%20Kick-SoundBible.com-1663225804.mp3",
+      "downloadable": true,
+      "author": "Mike Koenig",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "opengameart:timelessness-the-version-without-the-kick",
+      "provider": "opengameart",
+      "title": "Timelessness (the version without the kick)",
+      "category": "drums.kick",
+      "url": "https://opengameart.org/content/timelessness-the-version-without-the-kick",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/Without%20kick.ogg.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/Without%20kick.ogg.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "soundbible:997-Spin-Kick",
+      "provider": "soundbible",
+      "title": "Spin Kick",
+      "category": "drums.kick",
+      "url": "https://soundbible.com/997-Spin-Kick.html",
+      "previewUrl": "https://soundbible.com/mp3/Spin%20Kick-SoundBible.com-1263586030.mp3",
+      "downloadable": true,
+      "author": "Mike Koenig",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "openverse:97982e5c-c519-4151-98ef-c717b15e7b75",
+      "provider": "openverse",
+      "title": "Minimal/Deep house kick",
+      "category": "drums.kick",
+      "url": "https://freesound.org/people/DWSD/sounds/147994",
+      "previewUrl": "https://cdn.freesound.org/previews/147/147994_2394245-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "DWSD",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.26
+    },
+    {
+      "id": "opengameart:kick-their-ass-and-curse-of-the-moon-zhelanov-vs-vitalezzz",
+      "provider": "opengameart",
+      "title": "Kick their ass and Curse of the Moon (Zhelanov vs Vitalezzz)",
+      "category": "drums.kick",
+      "url": "https://opengameart.org/content/kick-their-ass-and-curse-of-the-moon-zhelanov-vs-vitalezzz",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/kicktheirass150bpm.ogg.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/kicktheirass150bpm.ogg.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "openverse:6d032dac-1141-41da-b908-da3968fc72ac",
+      "provider": "openverse",
+      "title": "Deep Kick Cinematic.wav",
+      "category": "drums.kick",
+      "url": "https://freesound.org/people/Benboncan/sounds/90672",
+      "previewUrl": "https://cdn.freesound.org/previews/90/90672_634166-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Benboncan",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.432
+    },
+    {
+      "id": "openverse:f5dd8dad-6142-46d8-9aea-9969f07edae1",
+      "provider": "openverse",
+      "title": "Kick 4.wav",
+      "category": "drums.kick",
+      "url": "https://freesound.org/people/VEXST/sounds/26888",
+      "previewUrl": "https://cdn.freesound.org/previews/26/26888_113878-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "VEXST",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.439
+    },
+    {
+      "id": "soundbible:1201-Automatic-Machine-Gun-3x",
+      "provider": "soundbible",
+      "title": "Automatic Machine Gun 3x",
+      "category": "drums.kick",
+      "url": "https://soundbible.com/1201-Automatic-Machine-Gun-3x.html",
+      "previewUrl": "https://soundbible.com/mp3/Automatic%20Machine%20Gun%203x-SoundBible.com-555886359.mp3",
+      "downloadable": true,
+      "author": "Mike Koenig",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "openverse:a11a0369-726a-440c-8fb7-4d52f8da85a9",
+      "provider": "openverse",
+      "title": "mhak Kick 61 E",
+      "category": "drums.kick",
+      "url": "https://freesound.org/people/triangelx/sounds/189174",
+      "previewUrl": "https://cdn.freesound.org/previews/189/189174_3296371-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "triangelx",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.41
+    },
+    {
+      "id": "soundbible:1898-Spin-Jump",
+      "provider": "soundbible",
+      "title": "Spin Jump",
+      "category": "drums.kick",
+      "url": "https://soundbible.com/1898-Spin-Jump.html",
+      "previewUrl": "https://soundbible.com/mp3/spin_jump-Brandino480-2020916281.mp3",
+      "downloadable": true,
+      "author": "Brandino480",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "openverse:049590ee-3e5e-46bf-a8d1-6d23dd9495af",
+      "provider": "openverse",
+      "title": "Mein Kick 1.wav",
+      "category": "drums.kick",
+      "url": "https://freesound.org/people/Pder/sounds/106290",
+      "previewUrl": "https://cdn.freesound.org/previews/106/106290_1773889-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Pder",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.476
+    },
+    {
+      "id": "soundbible:1162-Automatic-Machine-Gun",
+      "provider": "soundbible",
+      "title": "Automatic Machine Gun",
+      "category": "drums.kick",
+      "url": "https://soundbible.com/1162-Automatic-Machine-Gun.html",
+      "previewUrl": "https://soundbible.com/mp3/Automatic%20Machine%20Gun-SoundBible.com-253461580.mp3",
+      "downloadable": true,
+      "author": "Mike Koenig",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "openverse:4eeac541-898f-43cc-bb0a-8478683a82bb",
+      "provider": "openverse",
+      "title": "[Kick] Punchy Trance Kick 4",
+      "category": "drums.kick",
+      "url": "https://freesound.org/people/waveplaySFX/sounds/344757",
+      "previewUrl": "https://cdn.freesound.org/previews/344/344757_1676145-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "waveplaySFX",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.36
+    },
+    {
+      "id": "openverse:4e532d2c-d5ea-448b-a47c-f990db0444c1",
+      "provider": "openverse",
+      "title": "kick HipHop 1.wav",
+      "category": "drums.kick",
+      "url": "https://freesound.org/people/kaonaya/sounds/131336",
+      "previewUrl": "https://cdn.freesound.org/previews/131/131336_1513948-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "kaonaya",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.301
+    },
+    {
+      "id": "openverse:01e07e5b-2fc7-4130-8273-be85b3e98a6f",
+      "provider": "openverse",
+      "title": "Deep Kick + Tension",
+      "category": "drums.kick",
+      "url": "https://freesound.org/people/bryanbulmer/sounds/255885",
+      "previewUrl": "https://cdn.freesound.org/previews/255/255885_3504191-hq.mp3",
+      "downloadable": true,
+      "author": "bryanbulmer",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 16
+    },
+    {
+      "id": "openverse:bccee1b3-0621-4715-8a63-a7c859b001c8",
+      "provider": "openverse",
+      "title": "Kick 23 - Minimal.wav",
+      "category": "drums.kick",
+      "url": "https://freesound.org/people/ZeSoundResearchInc./sounds/117491",
+      "previewUrl": "https://cdn.freesound.org/previews/117/117491_2101444-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "ZeSoundResearchInc.",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.312
+    },
+    {
+      "id": "openverse:171b48d3-01a8-4aed-938c-ca9dbd8940eb",
+      "provider": "openverse",
+      "title": "kick-bass-drum.wav",
+      "category": "drums.kick",
+      "url": "https://freesound.org/people/almela/sounds/250547",
+      "previewUrl": "https://cdn.freesound.org/previews/250/250547_3400358-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "almela",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.161
+    },
+    {
+      "id": "openverse:8872a7ea-b117-44b5-b9aa-df6b3fababaa",
+      "provider": "openverse",
+      "title": "Simple Kick Drum",
+      "category": "drums.kick",
+      "url": "https://freesound.org/people/IanStarGem/sounds/274775",
+      "previewUrl": "https://cdn.freesound.org/previews/274/274775_4965320-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "IanStarGem",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.441
+    }
+  ]
+}

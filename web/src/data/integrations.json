@@ -1,0 +1,250 @@
+{
+  "integrations": [
+    {
+      "id": "adsr",
+      "name": "ADSR Sounds",
+      "homepage": "https://www.adsrsounds.com",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "artlist",
+      "name": "Artlist SFX",
+      "homepage": "https://artlist.io/sfx",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "bandcamp",
+      "name": "Bandcamp",
+      "homepage": "https://bandcamp.com",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "bbc",
+      "name": "BBC Sound Effects",
+      "homepage": "https://sound-effects.bbcrewind.co.uk",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "ccmixter",
+      "name": "ccMixter",
+      "homepage": "https://ccmixter.org",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "curated",
+      "name": "Curated free libraries",
+      "homepage": "https://github.com/arielshad/sound-server/blob/main/src/providers/data/curated-packs.json",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "cymatics",
+      "name": "Cymatics",
+      "homepage": "https://cymatics.fm",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "epidemicsound",
+      "name": "Epidemic Sound",
+      "homepage": "https://www.epidemicsound.com/sound-effects/",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "freewavesamples",
+      "name": "Free Wave Samples",
+      "homepage": "https://freewavesamples.com",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "freesound",
+      "name": "Freesound",
+      "homepage": "https://freesound.org",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "internetarchive",
+      "name": "Internet Archive",
+      "homepage": "https://archive.org",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "kenney",
+      "name": "Kenney",
+      "homepage": "https://kenney.nl/assets/category:Audio",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "landr",
+      "name": "LANDR Samples",
+      "homepage": "https://samples.landr.com",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "loopcloud",
+      "name": "Loopcloud",
+      "homepage": "https://www.loopcloud.com",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "looperman",
+      "name": "Looperman",
+      "homepage": "https://www.looperman.com",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "loopmasters",
+      "name": "Loopmasters",
+      "homepage": "https://www.loopmasters.com",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "mixkit",
+      "name": "Mixkit",
+      "homepage": "https://mixkit.co",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "sampleradar",
+      "name": "MusicRadar SampleRadar",
+      "homepage": "https://www.musicradar.com/news/tech/free-music-samples-royalty-free-loops-hits-and-multis-to-download-sampleradar",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "opengameart",
+      "name": "OpenGameArt",
+      "homepage": "https://opengameart.org",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "openverse",
+      "name": "Openverse",
+      "homepage": "https://openverse.org",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "orangefreesounds",
+      "name": "Orange Free Sounds",
+      "homepage": "https://orangefreesounds.com",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "pixabay",
+      "name": "Pixabay Sound Effects",
+      "homepage": "https://pixabay.com/sound-effects/",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "pluginboutique",
+      "name": "Plugin Boutique",
+      "homepage": "https://www.pluginboutique.com",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "primeloops",
+      "name": "Prime Loops",
+      "homepage": "https://primeloops.com",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "producerloops",
+      "name": "Producer Loops",
+      "homepage": "https://www.producerloops.com",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "samplefocus",
+      "name": "SampleFocus",
+      "homepage": "https://samplefocus.com",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "sonniss",
+      "name": "Sonniss",
+      "homepage": "https://sonniss.com",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "soundbible",
+      "name": "SoundBible",
+      "homepage": "https://soundbible.com",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "soundsnap",
+      "name": "Soundsnap",
+      "homepage": "https://www.soundsnap.com",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "splice",
+      "name": "Splice",
+      "homepage": "https://splice.com/sounds",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "strudel",
+      "name": "Strudel sample banks",
+      "homepage": "https://strudel.cc/learn/samples/",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "tracklib",
+      "name": "Tracklib",
+      "homepage": "https://www.tracklib.com",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "uppbeat",
+      "name": "Uppbeat SFX",
+      "homepage": "https://uppbeat.io/sfx",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "wikimediacommons",
+      "name": "Wikimedia Commons",
+      "homepage": "https://commons.wikimedia.org",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    },
+    {
+      "id": "zapsplat",
+      "name": "Zapsplat",
+      "homepage": "https://www.zapsplat.com",
+      "addedAt": "2026-10-23",
+      "addedBy": "launch"
+    }
+  ],
+  "rejected": 0
+}

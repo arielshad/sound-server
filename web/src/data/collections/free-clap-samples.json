@@ -1,0 +1,407 @@
+{
+  "slug": "free-clap-samples",
+  "search": {
+    "q": "clap",
+    "categories": [
+      "drums.clap"
+    ],
+    "forms": [
+      "one-shot"
+    ]
+  },
+  "updatedAt": "2026-10-23T04:44:16.524Z",
+  "samples": [
+    {
+      "id": "openverse:c0bdec6f-8d5f-43b0-9fc4-2c3f9738cf1d",
+      "provider": "openverse",
+      "title": "clap mix.wav",
+      "category": "drums.clap",
+      "url": "https://freesound.org/people/young_daddy/sounds/24786",
+      "previewUrl": "https://cdn.freesound.org/previews/24/24786_165785-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "young_daddy",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.172
+    },
+    {
+      "id": "openverse:607f7103-3487-4765-9d30-1f63f6a1dfe2",
+      "provider": "openverse",
+      "title": "A Clap",
+      "category": "drums.clap",
+      "url": "https://freesound.org/people/maycuddlepie/sounds/330296",
+      "previewUrl": "https://cdn.freesound.org/previews/330/330296_5767029-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "maycuddlepie",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 2.809
+    },
+    {
+      "id": "soundbible:302-Thunder-Clap",
+      "provider": "soundbible",
+      "title": "Thunder Clap",
+      "category": "drums.clap",
+      "url": "https://soundbible.com/302-Thunder-Clap.html",
+      "previewUrl": "https://soundbible.com/mp3/Thunder%20Clap-SoundBible.com-1913038465.mp3",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-Personal-Use-Only",
+        "name": "Personal Use Only",
+        "verdict": "no"
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "openverse:8e555bc1-5287-4d67-8b74-d85b53c71168",
+      "provider": "openverse",
+      "title": "Solo Clap",
+      "category": "drums.clap",
+      "url": "https://freesound.org/people/OwlStorm/sounds/151219",
+      "previewUrl": "https://cdn.freesound.org/previews/151/151219_140737-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "OwlStorm",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 3.423
+    },
+    {
+      "id": "openverse:34bff6ca-bee8-43ac-8df6-3a5262523da2",
+      "provider": "openverse",
+      "title": "Film Slate Clap FX",
+      "category": "drums.clap",
+      "url": "https://freesound.org/people/chewyy56/sounds/194719",
+      "previewUrl": "https://cdn.freesound.org/previews/194/194719_3098789-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "chewyy56",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 0.217
+    },
+    {
+      "id": "soundbible:1907-Thunder",
+      "provider": "soundbible",
+      "title": "Thunder",
+      "category": "drums.clap",
+      "url": "https://soundbible.com/1907-Thunder.html",
+      "previewUrl": "https://soundbible.com/mp3/Thunder-Mike_Koenig-315681025.mp3",
+      "downloadable": true,
+      "author": "Mike Koenig",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "openverse:c3bb6987-7250-4ca4-aa96-cdb6b3004d67",
+      "provider": "openverse",
+      "title": "clap for fred.wav",
+      "category": "drums.clap",
+      "url": "https://freesound.org/people/kendallbear/sounds/123805",
+      "previewUrl": "https://cdn.freesound.org/previews/123/123805_2173181-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "kendallbear",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.428
+    },
+    {
+      "id": "openverse:abcc1364-e229-4d1a-84e0-39dd9c62a00d",
+      "provider": "openverse",
+      "title": "Clap, Single, 11.wav",
+      "category": "drums.clap",
+      "url": "https://freesound.org/people/InspectorJ/sounds/404540",
+      "previewUrl": "https://cdn.freesound.org/previews/404/404540_5121236-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "InspectorJ",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.39
+    },
+    {
+      "id": "soundbible:2005-Elaborate-Thunder",
+      "provider": "soundbible",
+      "title": "Elaborate Thunder",
+      "category": "drums.clap",
+      "url": "https://soundbible.com/2005-Elaborate-Thunder.html",
+      "previewUrl": "https://soundbible.com/mp3/elaborate_thunder-Mike_Koenig-1877244752.mp3",
+      "downloadable": true,
+      "author": "Mike Koenig",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "openverse:67620333-819e-4a0e-bb2b-2e3168a9cb65",
+      "provider": "openverse",
+      "title": "Clap-Clean Reverb",
+      "category": "drums.clap",
+      "url": "https://freesound.org/people/young_daddy/sounds/244568",
+      "previewUrl": "https://cdn.freesound.org/previews/244/244568_165785-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "young_daddy",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.718
+    },
+    {
+      "id": "openverse:3120d1a8-1cd6-44ba-a099-b0f7b23da1a5",
+      "provider": "openverse",
+      "title": "Disco Clap",
+      "category": "drums.clap",
+      "url": "https://freesound.org/people/NenadSimic/sounds/169085",
+      "previewUrl": "https://cdn.freesound.org/previews/169/169085_2514850-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "NenadSimic",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.433
+    },
+    {
+      "id": "openverse:9926e06e-f56f-45c4-bc70-b1454d7db015",
+      "provider": "openverse",
+      "title": "Clap, Single, 15.wav",
+      "category": "drums.clap",
+      "url": "https://freesound.org/people/InspectorJ/sounds/404544",
+      "previewUrl": "https://cdn.freesound.org/previews/404/404544_5121236-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "InspectorJ",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.624
+    },
+    {
+      "id": "openverse:67d11fc8-88ed-4bb3-b177-dbdf9f5e23cc",
+      "provider": "openverse",
+      "title": "clap-clap.flac",
+      "category": "drums.clap",
+      "url": "https://freesound.org/people/ComputerHotline/sounds/414923",
+      "previewUrl": "https://cdn.freesound.org/previews/414/414923_3359668-hq.mp3",
+      "downloadable": true,
+      "author": "ComputerHotline",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "flac"
+      ],
+      "durationSec": 6.833
+    },
+    {
+      "id": "openverse:4c26a6ac-8fad-418b-bd61-7b16f4242582",
+      "provider": "openverse",
+      "title": "Crowd Claps and whistles.wav",
+      "category": "drums.clap",
+      "url": "https://freesound.org/people/chimerical/sounds/105223",
+      "previewUrl": "https://cdn.freesound.org/previews/105/105223_420640-hq.mp3",
+      "downloadable": true,
+      "author": "chimerical",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 9.803
+    },
+    {
+      "id": "openverse:7d0cb30b-6ed2-465c-9784-b393b8363056",
+      "provider": "openverse",
+      "title": "cheering and clapping crowd 1",
+      "category": "drums.clap",
+      "url": "https://freesound.org/people/AlaskaRobotics/sounds/221568",
+      "previewUrl": "https://cdn.freesound.org/previews/221/221568_1282865-hq.mp3",
+      "downloadable": true,
+      "author": "AlaskaRobotics",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 14.204
+    },
+    {
+      "id": "openverse:fae18331-c761-439d-9772-ab30d53dfb4a",
+      "provider": "openverse",
+      "title": "Small crowd cheering and clapping at party 2.wav",
+      "category": "drums.clap",
+      "url": "https://freesound.org/people/xtrsounder/sounds/202498",
+      "previewUrl": "https://cdn.freesound.org/previews/202/202498_3768724-hq.mp3",
+      "downloadable": true,
+      "author": "xtrsounder",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 8.858
+    },
+    {
+      "id": "openverse:f99b96a6-ee2a-40f2-b28c-14a2fbc8c1a8",
+      "provider": "openverse",
+      "title": "Clapping and Yelling",
+      "category": "drums.clap",
+      "url": "https://freesound.org/people/donut-kiss/sounds/130326",
+      "previewUrl": "https://cdn.freesound.org/previews/130/130326_2368837-hq.mp3",
+      "downloadable": true,
+      "author": "donut-kiss",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 6.975
+    }
+  ]
+}

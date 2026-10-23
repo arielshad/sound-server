@@ -1,0 +1,1720 @@
+{
+  "$comment": "Hand-maintained catalogue of free sample packs and instruments for the 'curated' provider. Every file URL was checked with a plain GET (no cookies) on the 'verified' date; entries without a direct file have downloadable=false and link to their page. Descriptions are our own words. Licence keys point into 'licenses'.",
+  "licenses": {
+    "cc0": {
+      "kind": "spdx",
+      "id": "CC0-1.0"
+    },
+    "cc-by-3.0": {
+      "kind": "cc",
+      "version": "3.0"
+    },
+    "cc-by-4.0": {
+      "kind": "cc",
+      "version": "4.0"
+    },
+    "sampling-plus": {
+      "kind": "spdx",
+      "id": "LicenseRef-Sampling-Plus-1.0"
+    },
+    "drumgizmo": {
+      "kind": "cc",
+      "version": "4.0",
+      "note": "CC BY 4.0. When a kit is used in a release, credit it wherever performers are credited (album credits or similar)."
+    },
+    "philharmonia": {
+      "kind": "royalty-free",
+      "name": "Philharmonia sound samples licence",
+      "url": "https://philharmonia.co.uk/resources/sound-samples/",
+      "note": "Free to use in any music, including commercial releases. The samples must not be sold or shared 'as is' (as samples or as a sampler instrument)."
+    },
+    "iowa-mis": {
+      "kind": "royalty-free",
+      "name": "University of Iowa MIS terms",
+      "url": "https://theremin.music.uiowa.edu/MIS.html",
+      "note": "The studio states the recordings 'may be downloaded and used for any projects, without restrictions'."
+    },
+    "avl": {
+      "kind": "custom",
+      "name": "AVL Drumkits licence (CC BY-SA 3.0, music exempt)",
+      "url": "http://www.bandshed.net/avldrumkits/",
+      "verdict": "yes",
+      "commercialUse": true,
+      "attributionRequired": false,
+      "note": "The kits are CC BY-SA 3.0, but the author states that music made with them can be sold or distributed without credit; share-alike only applies if you modify or redistribute the kits themselves."
+    },
+    "adobe": {
+      "kind": "custom",
+      "name": "Adobe Audition sound effects (Adobe EULA)",
+      "url": "https://www.adobe.com/products/audition/offers/AdobeAuditionDLCSFX.html",
+      "verdict": "check-terms",
+      "commercialUse": true,
+      "note": "Royalty-free content files under the Adobe Audition EULA: usable in your own productions but not redistributable on their own. Adobe does not clearly say whether you need an Adobe licence to use them."
+    },
+    "reverb-machine": {
+      "kind": "royalty-free",
+      "name": "Reverb Machine licence",
+      "url": "https://reverbmachine.com/terms-and-conditions/",
+      "note": "Use in your own compositions, commercial releases included, without credit. No redistribution, no new sample packs or instruments, and no AI or machine-learning training."
+    },
+    "99sounds": {
+      "kind": "royalty-free",
+      "name": "99Sounds licence",
+      "url": "https://99sounds.org/license/",
+      "note": "Royalty-free for personal and commercial projects, credit optional. No resale or redistribution of the files, and no noise or sleep-sound apps."
+    },
+    "goldbaby": {
+      "kind": "royalty-free",
+      "name": "Goldbaby licence",
+      "url": "https://www.goldbaby.co.nz/support/faq.html",
+      "note": "Royalty-free for use in your recordings, commercial releases included. The sounds may not be redistributed in any form."
+    },
+    "sonniss": {
+      "kind": "royalty-free",
+      "name": "Sonniss GDC bundle licence",
+      "url": "https://gdc.sonniss.com/",
+      "note": "Sonniss states the GDC bundles are royalty-free for commercial use with no attribution. Read the licence shipped with the bundle year you download; recent ones may exclude AI training."
+    },
+    "legowelt": {
+      "kind": "royalty-free",
+      "name": "Legowelt sample terms",
+      "url": "https://www.legowelt.org/samples/",
+      "note": "Legowelt says the samples are free to download and use in your productions (donations welcome)."
+    },
+    "bpb": {
+      "kind": "royalty-free",
+      "name": "Bedroom Producers Blog sample terms",
+      "url": "https://bedroomproducersblog.com/2020/08/05/bpb-analog-kicks/",
+      "note": "BPB states the samples are royalty-free for your music and sound design. Don't share the pack itself."
+    }
+  },
+  "packs": [
+    {
+      "id": "philharmonia-strings",
+      "title": "Philharmonia Orchestra samples: Strings",
+      "author": "Philharmonia Orchestra",
+      "url": "https://philharmonia.co.uk/resources/sound-samples/",
+      "category": "strings",
+      "form": "pack",
+      "unit": "pack",
+      "formats": [
+        "zip",
+        "mp3"
+      ],
+      "tags": [
+        "philharmonia",
+        "orchestra",
+        "mp3",
+        "violin",
+        "viola",
+        "cello",
+        "double bass",
+        "pizzicato",
+        "orchestral"
+      ],
+      "description": "Single notes from the orchestra's string section (violin, viola, cello, double bass) across the range, dynamics and playing styles such as arco and pizzicato. MP3 files, one note per file.",
+      "license": "philharmonia",
+      "files": [
+        {
+          "url": "https://philharmonia-assets.s3-eu-west-1.amazonaws.com/uploads/2020/02/12112005/Strings.zip",
+          "filename": "Strings.zip",
+          "format": "zip",
+          "role": "pack",
+          "sizeBytes": 171467548
+        }
+      ],
+      "downloadable": true,
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "philharmonia-brass",
+      "title": "Philharmonia Orchestra samples: Brass",
+      "author": "Philharmonia Orchestra",
+      "url": "https://philharmonia.co.uk/resources/sound-samples/",
+      "category": "brass",
+      "form": "pack",
+      "unit": "pack",
+      "formats": [
+        "zip",
+        "mp3"
+      ],
+      "tags": [
+        "philharmonia",
+        "orchestra",
+        "mp3",
+        "trumpet",
+        "trombone",
+        "french horn",
+        "tuba",
+        "orchestral"
+      ],
+      "description": "Single notes from the brass section (trumpet, trombone, bass trombone, French horn, tuba) at several dynamics and note lengths. MP3 files, one note per file.",
+      "license": "philharmonia",
+      "files": [
+        {
+          "url": "https://philharmonia-assets.s3-eu-west-1.amazonaws.com/uploads/2020/02/12112005/Brass.zip",
+          "filename": "Brass.zip",
+          "format": "zip",
+          "role": "pack",
+          "sizeBytes": 103553521
+        }
+      ],
+      "downloadable": true,
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "philharmonia-woodwind",
+      "title": "Philharmonia Orchestra samples: Woodwind",
+      "author": "Philharmonia Orchestra",
+      "url": "https://philharmonia.co.uk/resources/sound-samples/",
+      "category": "woodwind",
+      "form": "pack",
+      "unit": "pack",
+      "formats": [
+        "zip",
+        "mp3"
+      ],
+      "tags": [
+        "philharmonia",
+        "orchestra",
+        "mp3",
+        "flute",
+        "oboe",
+        "clarinet",
+        "bassoon",
+        "saxophone",
+        "orchestral"
+      ],
+      "description": "Single notes from flutes, oboes, clarinets, bassoons, saxophones and their relatives, recorded by Philharmonia players. MP3 files, one note per file.",
+      "license": "philharmonia",
+      "files": [
+        {
+          "url": "https://philharmonia-assets.s3-eu-west-1.amazonaws.com/uploads/2020/02/12112005/Woodwind.zip",
+          "filename": "Woodwind.zip",
+          "format": "zip",
+          "role": "pack",
+          "sizeBytes": 273360818
+        }
+      ],
+      "downloadable": true,
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "philharmonia-percussion",
+      "title": "Philharmonia Orchestra samples: Percussion",
+      "author": "Philharmonia Orchestra",
+      "url": "https://philharmonia.co.uk/resources/sound-samples/",
+      "category": "drums.perc",
+      "form": "pack",
+      "unit": "pack",
+      "formats": [
+        "zip",
+        "mp3"
+      ],
+      "tags": [
+        "philharmonia",
+        "orchestra",
+        "mp3",
+        "orchestral percussion",
+        "timpani",
+        "snare",
+        "cymbal",
+        "tambourine"
+      ],
+      "description": "Hits from the orchestral percussion section: bass drum, snare, cymbals, tambourine, triangle, woodblocks and more. MP3 files, one note per file.",
+      "license": "philharmonia",
+      "files": [
+        {
+          "url": "https://philharmonia-assets.s3-eu-west-1.amazonaws.com/uploads/2020/02/12112005/Percussion.zip",
+          "filename": "Percussion.zip",
+          "format": "zip",
+          "role": "pack",
+          "sizeBytes": 7150856
+        }
+      ],
+      "downloadable": true,
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "iowa-mis-violin",
+      "title": "University of Iowa MIS: Violin (2012)",
+      "author": "University of Iowa Electronic Music Studios (Lawrence Fritts)",
+      "url": "https://theremin.music.uiowa.edu/MISviolin2012.html",
+      "category": "strings",
+      "form": "pack",
+      "unit": "pack",
+      "formats": [
+        "zip",
+        "aiff"
+      ],
+      "tags": [
+        "iowa",
+        "mis",
+        "anechoic",
+        "aiff",
+        "single notes",
+        "violin",
+        "arco",
+        "pizzicato"
+      ],
+      "description": "Chromatic violin notes, bowed (arco) and plucked (pizzicato) on each string, three dynamics, stereo 16-bit/44.1 kHz AIFF recorded in an anechoic chamber.",
+      "license": "iowa-mis",
+      "files": [
+        {
+          "url": "https://theremin.music.uiowa.edu/sound%20files/MIS/Strings/violin2012/Violin.arco.stereo.1644.1.zip",
+          "filename": "Violin.arco.stereo.1644.1.zip",
+          "format": "zip",
+          "role": "pack",
+          "sizeBytes": 150810595
+        },
+        {
+          "url": "https://theremin.music.uiowa.edu/sound%20files/MIS/Strings/violin2012/Violin.pizz.stereo.1644.1.zip",
+          "filename": "Violin.pizz.stereo.1644.1.zip",
+          "format": "zip",
+          "role": "pack",
+          "sizeBytes": 52638975
+        }
+      ],
+      "downloadable": true,
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "iowa-mis-guitar",
+      "title": "University of Iowa MIS: Classical guitar",
+      "author": "University of Iowa Electronic Music Studios (Lawrence Fritts)",
+      "url": "https://theremin.music.uiowa.edu/MISguitar.html",
+      "category": "guitar",
+      "form": "pack",
+      "unit": "pack",
+      "formats": [
+        "zip",
+        "aiff"
+      ],
+      "tags": [
+        "iowa",
+        "mis",
+        "anechoic",
+        "aiff",
+        "single notes",
+        "acoustic guitar",
+        "nylon",
+        "classical guitar"
+      ],
+      "description": "Chromatic nylon-string guitar notes on every string at three dynamics, stereo 16-bit/44.1 kHz AIFF.",
+      "license": "iowa-mis",
+      "files": [
+        {
+          "url": "https://theremin.music.uiowa.edu/sound%20files/MIS/Piano_Other/guitar/Guitar.stereo.1644.1.zip",
+          "filename": "Guitar.stereo.1644.1.zip",
+          "format": "zip",
+          "role": "pack",
+          "sizeBytes": 243236324
+        }
+      ],
+      "downloadable": true,
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "iowa-mis-flute",
+      "title": "University of Iowa MIS: Flute",
+      "author": "University of Iowa Electronic Music Studios (Lawrence Fritts)",
+      "url": "https://theremin.music.uiowa.edu/MISflute.html",
+      "category": "woodwind",
+      "form": "pack",
+      "unit": "pack",
+      "formats": [
+        "zip",
+        "aiff"
+      ],
+      "tags": [
+        "iowa",
+        "mis",
+        "anechoic",
+        "aiff",
+        "single notes",
+        "flute",
+        "vibrato"
+      ],
+      "description": "Chromatic flute notes played with vibrato at pp, mf and ff, mono AIFF from an anechoic chamber.",
+      "license": "iowa-mis",
+      "files": [
+        {
+          "url": "https://theremin.music.uiowa.edu/sound%20files/MIS/Woodwinds/flute/flute.vib.zip",
+          "filename": "flute.vib.zip",
+          "format": "zip",
+          "role": "pack",
+          "sizeBytes": 21401870
+        }
+      ],
+      "downloadable": true,
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "iowa-mis-trumpet",
+      "title": "University of Iowa MIS: B-flat trumpet",
+      "author": "University of Iowa Electronic Music Studios (Lawrence Fritts)",
+      "url": "https://theremin.music.uiowa.edu/MISBbtrumpet.html",
+      "category": "brass",
+      "form": "pack",
+      "unit": "pack",
+      "formats": [
+        "zip",
+        "aiff"
+      ],
+      "tags": [
+        "iowa",
+        "mis",
+        "anechoic",
+        "aiff",
+        "single notes",
+        "trumpet",
+        "vibrato"
+      ],
+      "description": "Chromatic B-flat trumpet notes with vibrato at three dynamics, mono AIFF.",
+      "license": "iowa-mis",
+      "files": [
+        {
+          "url": "https://theremin.music.uiowa.edu/sound%20files/MIS/Brass/Bbtrumpet/Trumpet.vib.zip",
+          "filename": "Trumpet.vib.zip",
+          "format": "zip",
+          "role": "pack",
+          "sizeBytes": 42738671
+        }
+      ],
+      "downloadable": true,
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "iowa-mis-marimba",
+      "title": "University of Iowa MIS: Marimba",
+      "author": "University of Iowa Electronic Music Studios (Lawrence Fritts)",
+      "url": "https://theremin.music.uiowa.edu/Mismarimba.html",
+      "category": "mallets",
+      "form": "pack",
+      "unit": "pack",
+      "formats": [
+        "zip",
+        "aiff"
+      ],
+      "tags": [
+        "iowa",
+        "mis",
+        "anechoic",
+        "aiff",
+        "single notes",
+        "marimba",
+        "mallets"
+      ],
+      "description": "Marimba notes across the range struck with cord, yarn and rubber mallets (one zip per mallet and dynamic).",
+      "license": "iowa-mis",
+      "files": [
+        {
+          "url": "https://theremin.music.uiowa.edu/sound%20files/MIS/Percussion/Marimba/Marimba.cord.ff.zip",
+          "filename": "Marimba.cord.ff.zip",
+          "format": "zip",
+          "role": "pack",
+          "sizeBytes": 46073069
+        },
+        {
+          "url": "https://theremin.music.uiowa.edu/sound%20files/MIS/Percussion/Marimba/Marimba.yarn.mf.zip",
+          "filename": "Marimba.yarn.mf.zip",
+          "format": "zip",
+          "role": "pack",
+          "sizeBytes": 48988473
+        },
+        {
+          "url": "https://theremin.music.uiowa.edu/sound%20files/MIS/Percussion/Marimba/Marimba.rubber.ff.zip",
+          "filename": "Marimba.rubber.ff.zip",
+          "format": "zip",
+          "role": "pack",
+          "sizeBytes": 42769794
+        }
+      ],
+      "downloadable": true,
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "iowa-mis-cymbals",
+      "title": "University of Iowa MIS: Cymbals and hi-hat",
+      "author": "University of Iowa Electronic Music Studios (Lawrence Fritts)",
+      "url": "https://theremin.music.uiowa.edu/MIScymbals.html",
+      "category": "drums.cymbal",
+      "form": "pack",
+      "unit": "pack",
+      "formats": [
+        "zip",
+        "aiff"
+      ],
+      "tags": [
+        "iowa",
+        "mis",
+        "anechoic",
+        "aiff",
+        "single notes",
+        "hihat",
+        "crash",
+        "ride",
+        "splash",
+        "cymbal"
+      ],
+      "description": "Hi-hat, 18-inch crash, 21-inch ride and splash cymbal hits with sticks at several dynamics and positions.",
+      "license": "iowa-mis",
+      "files": [
+        {
+          "url": "https://theremin.music.uiowa.edu/sound%20files/MIS/Percussion/cymbals/hihat/hihat.normal.zip",
+          "filename": "hihat.normal.zip",
+          "format": "zip",
+          "role": "pack",
+          "sizeBytes": 822089
+        },
+        {
+          "url": "https://theremin.music.uiowa.edu/sound%20files/MIS/Percussion/cymbals/suspended%20cymbals/stick/18crash.zip",
+          "filename": "18crash.zip",
+          "format": "zip",
+          "role": "pack",
+          "sizeBytes": 21326496
+        },
+        {
+          "url": "https://theremin.music.uiowa.edu/sound%20files/MIS/Percussion/cymbals/suspended%20cymbals/stick/21ride.zip",
+          "filename": "21ride.zip",
+          "format": "zip",
+          "role": "pack",
+          "sizeBytes": 29175393
+        },
+        {
+          "url": "https://theremin.music.uiowa.edu/sound%20files/MIS/Percussion/cymbals/suspended%20cymbals/stick/splash.stick.zip",
+          "filename": "splash.stick.zip",
+          "format": "zip",
+          "role": "pack",
+          "sizeBytes": 8042035
+        }
+      ],
+      "downloadable": true,
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "iowa-mis-hand-percussion",
+      "title": "University of Iowa MIS: Hand percussion",
+      "author": "University of Iowa Electronic Music Studios (Lawrence Fritts)",
+      "url": "https://theremin.music.uiowa.edu/MIShandpercussion.html",
+      "category": "drums.perc",
+      "form": "pack",
+      "unit": "pack",
+      "formats": [
+        "zip",
+        "aiff"
+      ],
+      "tags": [
+        "iowa",
+        "mis",
+        "anechoic",
+        "aiff",
+        "single notes",
+        "castanets",
+        "clave",
+        "guiro",
+        "triangle",
+        "woodblock"
+      ],
+      "description": "Castanets, claves, guiro, triangles and woodblocks recorded dry, several dynamics each.",
+      "license": "iowa-mis",
+      "files": [
+        {
+          "url": "https://theremin.music.uiowa.edu/sound%20files/MIS/Percussion/hand%20percussion/castanets/castanet.zip",
+          "filename": "castanet.zip",
+          "format": "zip",
+          "role": "pack",
+          "sizeBytes": 986351
+        },
+        {
+          "url": "https://theremin.music.uiowa.edu/sound%20files/MIS/Percussion/hand%20percussion/claves/clave.zip",
+          "filename": "clave.zip",
+          "format": "zip",
+          "role": "pack",
+          "sizeBytes": 2579922
+        },
+        {
+          "url": "https://theremin.music.uiowa.edu/sound%20files/MIS/Percussion/hand%20percussion/guiro/guiro.zip",
+          "filename": "guiro.zip",
+          "format": "zip",
+          "role": "pack",
+          "sizeBytes": 1084851
+        },
+        {
+          "url": "https://theremin.music.uiowa.edu/sound%20files/MIS/Percussion/hand%20percussion/triangles/triangle.zip",
+          "filename": "triangle.zip",
+          "format": "zip",
+          "role": "pack",
+          "sizeBytes": 46800481
+        },
+        {
+          "url": "https://theremin.music.uiowa.edu/sound%20files/MIS/Percussion/hand%20percussion/woodblocks/wb.zip",
+          "filename": "wb.zip",
+          "format": "zip",
+          "role": "pack",
+          "sizeBytes": 2680108
+        }
+      ],
+      "downloadable": true,
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "vsco2-ce-sample-packs",
+      "title": "VSCO 2 Community Edition: 256 and 50 orchestral samples",
+      "author": "Versilian Studios",
+      "url": "https://versilian-studios.com/vsco-community/",
+      "category": "strings",
+      "form": "pack",
+      "unit": "pack",
+      "formats": [
+        "rar",
+        "wav"
+      ],
+      "tags": [
+        "vsco",
+        "versilian",
+        "orchestral",
+        "brass",
+        "woodwind",
+        "percussion",
+        "cc0"
+      ],
+      "description": "Two hand-picked subsets of the VSCO 2 CE chamber orchestra as plain WAV files (256 and 50 samples): strings, winds, brass and percussion for quick sketching.",
+      "license": "cc0",
+      "files": [
+        {
+          "url": "https://s3.amazonaws.com/VersilianStudios/256OrchestralSamples.rar",
+          "filename": "256OrchestralSamples.rar",
+          "format": "rar",
+          "role": "pack",
+          "sizeBytes": 135361048
+        },
+        {
+          "url": "https://s3.amazonaws.com/VersilianStudios/50OrchestralSamples.rar",
+          "filename": "50OrchestralSamples.rar",
+          "format": "rar",
+          "role": "pack",
+          "sizeBytes": 35328535
+        }
+      ],
+      "downloadable": true,
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "vsco2-ce",
+      "title": "VSCO 2 Community Edition (full SFZ library)",
+      "author": "Versilian Studios",
+      "url": "https://github.com/sgossner/VSCO-2-CE",
+      "category": "strings",
+      "form": "multisample",
+      "unit": "instrument",
+      "formats": [
+        "sfz",
+        "wav"
+      ],
+      "tags": [
+        "vsco",
+        "versilian",
+        "orchestral",
+        "chamber orchestra",
+        "sfz",
+        "cc0"
+      ],
+      "description": "A free chamber orchestra library of about 3,000 samples (strings, woodwinds, brass, percussion, keys) mapped as SFZ instruments.",
+      "license": "cc0",
+      "files": [],
+      "downloadable": false,
+      "note": "Released as GitHub release assets, which the build sandbox could not reach to verify; the page links them.",
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "vcsl",
+      "title": "Versilian Community Sample Library (VCSL)",
+      "author": "Versilian Studios",
+      "url": "https://versilian-studios.com/vcsl/",
+      "category": "drums.perc",
+      "form": "pack",
+      "unit": "pack",
+      "formats": [
+        "zip",
+        "wav",
+        "sfz"
+      ],
+      "tags": [
+        "vcsl",
+        "versilian",
+        "percussion",
+        "world",
+        "idiophones",
+        "membranophones",
+        "cc0"
+      ],
+      "description": "A large CC0 collection of acoustic instruments, mostly percussion and world instruments, plus odd aerophones and keyboards, as WAV with SFZ mappings (about 4 GB).",
+      "license": "cc0",
+      "files": [
+        {
+          "url": "https://www.dropbox.com/s/t9i75ur4i0x0n1j/VCSL-1.2.2-RC.zip?dl=1",
+          "filename": "VCSL-1.2.2-RC.zip",
+          "format": "zip",
+          "role": "pack",
+          "sizeBytes": 4047406738
+        }
+      ],
+      "downloadable": true,
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "sonatina-symphonic-orchestra",
+      "title": "Sonatina Symphonic Orchestra",
+      "author": "Mattias Westlund (maintained by Peter Eastman)",
+      "url": "https://github.com/peastman/sso",
+      "category": "strings",
+      "form": "multisample",
+      "unit": "instrument",
+      "formats": [
+        "sfz",
+        "wav"
+      ],
+      "tags": [
+        "sonatina",
+        "sso",
+        "orchestral",
+        "symphonic",
+        "sfz"
+      ],
+      "description": "A full symphonic orchestra (strings, woodwinds, brass, percussion, keyboards) as SFZ instruments, still maintained on GitHub.",
+      "license": "sampling-plus",
+      "files": [],
+      "downloadable": false,
+      "note": "Downloads are GitHub release assets, which the build sandbox could not reach to verify.",
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "freepats-upright-piano-kw",
+      "title": "FreePats: Upright Piano KW",
+      "author": "FreePats project",
+      "url": "https://freepats.zenvoid.org/Piano/acoustic-grand-piano.html",
+      "category": "keys",
+      "form": "multisample",
+      "unit": "instrument",
+      "formats": [
+        "7z",
+        "sfz",
+        "flac"
+      ],
+      "tags": [
+        "freepats",
+        "multisample",
+        "instrument",
+        "piano",
+        "upright piano",
+        "sfz",
+        "flac"
+      ],
+      "description": "A sampled upright piano with two velocity layers, as an SFZ instrument with FLAC samples.",
+      "license": "cc0",
+      "files": [
+        {
+          "url": "https://freepats.zenvoid.org/Piano/UprightPianoKW/UprightPianoKW-SFZ+FLAC-20220221.7z",
+          "filename": "UprightPianoKW-SFZ+FLAC-20220221.7z",
+          "format": "7z",
+          "role": "pack",
+          "sizeBytes": 33294287
+        }
+      ],
+      "downloadable": true,
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "freepats-salamander-grand-piano",
+      "title": "FreePats: Salamander Grand Piano V3",
+      "author": "Alexander Holm",
+      "url": "https://freepats.zenvoid.org/Piano/acoustic-grand-piano.html",
+      "category": "keys",
+      "form": "multisample",
+      "unit": "instrument",
+      "formats": [
+        "tar.gz",
+        "sfz",
+        "flac"
+      ],
+      "tags": [
+        "freepats",
+        "multisample",
+        "instrument",
+        "piano",
+        "grand piano",
+        "yamaha c5",
+        "sfz",
+        "flac"
+      ],
+      "description": "A Yamaha C5 grand recorded in 16 velocity layers with release and resonance samples, 48 kHz/24-bit FLAC with SFZ mapping.",
+      "license": "cc-by-3.0",
+      "files": [
+        {
+          "url": "https://freepats.zenvoid.org/Piano/SalamanderGrandPiano/SalamanderGrandPiano-SFZ+FLAC-V3+20200602.tar.gz",
+          "filename": "SalamanderGrandPiano-SFZ+FLAC-V3+20200602.tar.gz",
+          "format": "tar.gz",
+          "role": "pack",
+          "sizeBytes": 741757374
+        }
+      ],
+      "downloadable": true,
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "freepats-spanish-classical-guitar",
+      "title": "FreePats: Spanish Classical Guitar",
+      "author": "FreePats project",
+      "url": "https://freepats.zenvoid.org/Guitar/acoustic-guitar.html",
+      "category": "guitar",
+      "form": "multisample",
+      "unit": "instrument",
+      "formats": [
+        "7z",
+        "sfz",
+        "flac"
+      ],
+      "tags": [
+        "freepats",
+        "multisample",
+        "instrument",
+        "guitar",
+        "nylon",
+        "classical guitar",
+        "sfz"
+      ],
+      "description": "A nylon-string Spanish guitar as an SFZ instrument with FLAC samples.",
+      "license": "cc0",
+      "files": [
+        {
+          "url": "https://freepats.zenvoid.org/Guitar/SpanishClassicalGuitar/SpanishClassicalGuitar-SFZ+FLAC-20190618.7z",
+          "filename": "SpanishClassicalGuitar-SFZ+FLAC-20190618.7z",
+          "format": "7z",
+          "role": "pack",
+          "sizeBytes": 4713892
+        }
+      ],
+      "downloadable": true,
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "freepats-kalimba",
+      "title": "FreePats: Kalimba",
+      "author": "FreePats project",
+      "url": "https://freepats.zenvoid.org/Ethnic/kalimba.html",
+      "category": "mallets",
+      "form": "multisample",
+      "unit": "instrument",
+      "formats": [
+        "tar.xz",
+        "sfz",
+        "wav"
+      ],
+      "tags": [
+        "freepats",
+        "multisample",
+        "instrument",
+        "kalimba",
+        "thumb piano",
+        "sfz",
+        "round robin"
+      ],
+      "description": "A kalimba recorded with two portable recorders, with round-robin layers, as SFZ with WAV samples.",
+      "license": "cc0",
+      "files": [
+        {
+          "url": "https://freepats.zenvoid.org/Ethnic/Kalimba/Kalimba-SFZ-20190723.tar.xz",
+          "filename": "Kalimba-SFZ-20190723.tar.xz",
+          "format": "tar.xz",
+          "role": "pack",
+          "sizeBytes": 10772472
+        }
+      ],
+      "downloadable": true,
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "freepats-tenor-saxophone",
+      "title": "FreePats: Tenor Saxophone",
+      "author": "FreePats project",
+      "url": "https://freepats.zenvoid.org/Reed/saxophone.html",
+      "category": "brass",
+      "form": "multisample",
+      "unit": "instrument",
+      "formats": [
+        "tar.gz",
+        "sfz",
+        "flac"
+      ],
+      "tags": [
+        "freepats",
+        "multisample",
+        "instrument",
+        "saxophone",
+        "tenor sax",
+        "sfz"
+      ],
+      "description": "A tenor saxophone sampled across its range, as an SFZ instrument with FLAC samples.",
+      "license": "cc0",
+      "files": [
+        {
+          "url": "https://freepats.zenvoid.org/Reed/TenorSaxophone/TenorSaxophone-SFZ+FLAC-20200717.tar.gz",
+          "filename": "TenorSaxophone-SFZ+FLAC-20200717.tar.gz",
+          "format": "tar.gz",
+          "role": "pack",
+          "sizeBytes": 32204648
+        }
+      ],
+      "downloadable": true,
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "freepats-xylophone",
+      "title": "FreePats: Xylophone (medium mallets)",
+      "author": "FreePats project",
+      "url": "https://freepats.zenvoid.org/ChromaticPercussion/xylophone.html",
+      "category": "mallets",
+      "form": "multisample",
+      "unit": "instrument",
+      "formats": [
+        "tar.gz",
+        "sfz",
+        "flac"
+      ],
+      "tags": [
+        "freepats",
+        "multisample",
+        "instrument",
+        "xylophone",
+        "mallets",
+        "sfz"
+      ],
+      "description": "A xylophone played with medium mallets, as an SFZ instrument with FLAC samples.",
+      "license": "cc0",
+      "files": [
+        {
+          "url": "https://freepats.zenvoid.org/ChromaticPercussion/Xylophone1/Xylophone-MediumMallets-SFZ+FLAC-20200706.tar.gz",
+          "filename": "Xylophone-MediumMallets-SFZ+FLAC-20200706.tar.gz",
+          "format": "tar.gz",
+          "role": "pack",
+          "sizeBytes": 2450859
+        }
+      ],
+      "downloadable": true,
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "freepats-concert-harp",
+      "title": "FreePats: Concert Harp",
+      "author": "FreePats project",
+      "url": "https://freepats.zenvoid.org/OrchestralStrings/harp.html",
+      "category": "strings",
+      "form": "multisample",
+      "unit": "instrument",
+      "formats": [
+        "tar.gz",
+        "sfz",
+        "flac"
+      ],
+      "tags": [
+        "freepats",
+        "multisample",
+        "instrument",
+        "harp",
+        "concert harp",
+        "sfz"
+      ],
+      "description": "A concert harp sampled across its range, as an SFZ instrument with FLAC samples.",
+      "license": "cc0",
+      "files": [
+        {
+          "url": "https://freepats.zenvoid.org/OrchestralStrings/ConcertHarp/ConcertHarp-SFZ+FLAC-20200702.tar.gz",
+          "filename": "ConcertHarp-SFZ+FLAC-20200702.tar.gz",
+          "format": "tar.gz",
+          "role": "pack",
+          "sizeBytes": 5039283
+        }
+      ],
+      "downloadable": true,
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "drumgizmo-drskit",
+      "title": "DrumGizmo DRSKit 2.1",
+      "author": "DrumGizmo",
+      "url": "https://drumgizmo.org/wiki/doku.php?id=kits:drskit",
+      "category": "drums",
+      "form": "multisample",
+      "unit": "instrument",
+      "formats": [
+        "zip",
+        "wav"
+      ],
+      "tags": [
+        "drumgizmo",
+        "drum kit",
+        "multi-mic",
+        "multisample",
+        "jazz",
+        "rock",
+        "acoustic drums"
+      ],
+      "description": "A Pearl and Paiste acoustic kit recorded with multiple microphones for the DrumGizmo plugin, with many velocity layers; suited to jazz through rock. Multichannel WAV with DrumGizmo XML.",
+      "license": "drumgizmo",
+      "files": [
+        {
+          "url": "https://drumgizmo.org/kits/DRSKit/DRSKit2_1.zip",
+          "filename": "DRSKit2_1.zip",
+          "format": "zip",
+          "role": "pack",
+          "sizeBytes": 2803397710
+        }
+      ],
+      "downloadable": true,
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "drumgizmo-crocellkit",
+      "title": "DrumGizmo CrocellKit 1.1",
+      "author": "DrumGizmo",
+      "url": "https://drumgizmo.org/wiki/doku.php?id=kits:crocellkit",
+      "category": "drums",
+      "form": "multisample",
+      "unit": "instrument",
+      "formats": [
+        "zip",
+        "wav"
+      ],
+      "tags": [
+        "drumgizmo",
+        "drum kit",
+        "multi-mic",
+        "multisample",
+        "metal",
+        "rock",
+        "acoustic drums"
+      ],
+      "description": "A large metal and rock kit (five toms, several crashes, chinas and splashes) recorded multi-mic for DrumGizmo. Multichannel WAV with DrumGizmo XML.",
+      "license": "drumgizmo",
+      "files": [
+        {
+          "url": "https://drumgizmo.org/kits/CrocellKit/CrocellKit1_1.zip",
+          "filename": "CrocellKit1_1.zip",
+          "format": "zip",
+          "role": "pack",
+          "sizeBytes": 5646502341
+        }
+      ],
+      "downloadable": true,
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "drumgizmo-muldjordkit",
+      "title": "DrumGizmo MuldjordKit 3",
+      "author": "DrumGizmo",
+      "url": "https://drumgizmo.org/wiki/doku.php?id=kits:muldjordkit",
+      "category": "drums",
+      "form": "multisample",
+      "unit": "instrument",
+      "formats": [
+        "zip",
+        "wav"
+      ],
+      "tags": [
+        "drumgizmo",
+        "drum kit",
+        "multi-mic",
+        "multisample",
+        "metal",
+        "rock",
+        "tama",
+        "acoustic drums"
+      ],
+      "description": "A Tama Superstar rock and metal kit recorded multi-mic for DrumGizmo, the project's original kit. Multichannel WAV with DrumGizmo XML.",
+      "license": "drumgizmo",
+      "files": [
+        {
+          "url": "https://drumgizmo.org/kits/MuldjordKit/MuldjordKit3.zip",
+          "filename": "MuldjordKit3.zip",
+          "format": "zip",
+          "role": "pack",
+          "sizeBytes": 2536576789
+        }
+      ],
+      "downloadable": true,
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "avl-drumkits-black-pearl",
+      "title": "AVL Drumkits: Black Pearl",
+      "author": "Glen MacArthur (AV Linux)",
+      "url": "http://www.bandshed.net/avldrumkits/",
+      "category": "drums",
+      "form": "multisample",
+      "unit": "instrument",
+      "formats": [
+        "zip",
+        "sfz",
+        "wav"
+      ],
+      "tags": [
+        "avl",
+        "drum kit",
+        "acoustic drums",
+        "sfz"
+      ],
+      "description": "An acoustic rock kit as an SFZ instrument with all individual WAV samples.",
+      "license": "avl",
+      "files": [
+        {
+          "url": "https://www.bandshed.net/sounds/AVLDrumkits_SFZ/BLACK_PEARL_2023_repack.zip",
+          "filename": "BLACK_PEARL_2023_repack.zip",
+          "format": "zip",
+          "role": "pack",
+          "sizeBytes": 14176289
+        }
+      ],
+      "downloadable": true,
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "avl-drumkits-blonde-bop",
+      "title": "AVL Drumkits: Blonde Bop",
+      "author": "Glen MacArthur (AV Linux)",
+      "url": "http://www.bandshed.net/avldrumkits/",
+      "category": "drums",
+      "form": "multisample",
+      "unit": "instrument",
+      "formats": [
+        "zip",
+        "sfz",
+        "wav"
+      ],
+      "tags": [
+        "avl",
+        "drum kit",
+        "acoustic drums",
+        "sfz"
+      ],
+      "description": "A jazz kit as an SFZ instrument with all individual WAV samples.",
+      "license": "avl",
+      "files": [
+        {
+          "url": "https://www.bandshed.net/sounds/AVLDrumkits_SFZ/BLONDE_BOP_SFZ.zip",
+          "filename": "BLONDE_BOP_SFZ.zip",
+          "format": "zip",
+          "role": "pack",
+          "sizeBytes": 18894879
+        }
+      ],
+      "downloadable": true,
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "avl-drumkits-red-zeppelin",
+      "title": "AVL Drumkits: Red Zeppelin",
+      "author": "Glen MacArthur (AV Linux)",
+      "url": "http://www.bandshed.net/avldrumkits/",
+      "category": "drums",
+      "form": "multisample",
+      "unit": "instrument",
+      "formats": [
+        "zip",
+        "sfz",
+        "wav"
+      ],
+      "tags": [
+        "avl",
+        "drum kit",
+        "acoustic drums",
+        "sfz"
+      ],
+      "description": "A big classic-rock kit as an SFZ instrument with all individual WAV samples.",
+      "license": "avl",
+      "files": [
+        {
+          "url": "https://www.bandshed.net/sounds/AVLDrumkits_SFZ/RED_ZEPPELIN_2023_repack.zip",
+          "filename": "RED_ZEPPELIN_2023_repack.zip",
+          "format": "zip",
+          "role": "pack",
+          "sizeBytes": 17853157
+        }
+      ],
+      "downloadable": true,
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "adobe-audition-foley",
+      "title": "Adobe Audition sound effects: Foley",
+      "author": "Adobe",
+      "url": "https://www.adobe.com/products/audition/offers/AdobeAuditionDLCSFX.html",
+      "category": "foley",
+      "form": "pack",
+      "unit": "pack",
+      "formats": [
+        "zip",
+        "wav"
+      ],
+      "tags": [
+        "adobe",
+        "audition",
+        "sound effects",
+        "sfx",
+        "wav",
+        "household",
+        "cloth",
+        "door",
+        "foley"
+      ],
+      "description": "Everyday foley: doors, cloth, paper, household objects and handling noises. Uncompressed WAV.",
+      "license": "adobe",
+      "files": [
+        {
+          "url": "https://download.adobe.com/pub/adobe/audition/offers/adobeauditiondlcsfx/foley.zip",
+          "filename": "foley.zip",
+          "format": "zip",
+          "role": "pack",
+          "sizeBytes": 124420018
+        }
+      ],
+      "downloadable": true,
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "adobe-audition-footsteps",
+      "title": "Adobe Audition sound effects: Foley footsteps",
+      "author": "Adobe",
+      "url": "https://www.adobe.com/products/audition/offers/AdobeAuditionDLCSFX.html",
+      "category": "foley",
+      "form": "pack",
+      "unit": "pack",
+      "formats": [
+        "zip",
+        "wav"
+      ],
+      "tags": [
+        "adobe",
+        "audition",
+        "sound effects",
+        "sfx",
+        "wav",
+        "footsteps",
+        "walking",
+        "running"
+      ],
+      "description": "Footsteps on many surfaces and shoe types, walking and running. Uncompressed WAV.",
+      "license": "adobe",
+      "files": [
+        {
+          "url": "https://download.adobe.com/pub/adobe/audition/offers/adobeauditiondlcsfx/foley_footsteps.zip",
+          "filename": "foley_footsteps.zip",
+          "format": "zip",
+          "role": "pack",
+          "sizeBytes": 131639058
+        }
+      ],
+      "downloadable": true,
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "adobe-audition-impacts",
+      "title": "Adobe Audition sound effects: Impacts",
+      "author": "Adobe",
+      "url": "https://www.adobe.com/products/audition/offers/AdobeAuditionDLCSFX.html",
+      "category": "fx.impact",
+      "form": "pack",
+      "unit": "pack",
+      "formats": [
+        "zip",
+        "wav"
+      ],
+      "tags": [
+        "adobe",
+        "audition",
+        "sound effects",
+        "sfx",
+        "wav",
+        "hit",
+        "boom",
+        "impact",
+        "trailer"
+      ],
+      "description": "Hits, slams and booms for trailers, games and transitions. Uncompressed WAV.",
+      "license": "adobe",
+      "files": [
+        {
+          "url": "https://download.adobe.com/pub/adobe/audition/offers/adobeauditiondlcsfx/impacts.zip",
+          "filename": "impacts.zip",
+          "format": "zip",
+          "role": "pack",
+          "sizeBytes": 95805232
+        }
+      ],
+      "downloadable": true,
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "adobe-audition-science-fiction",
+      "title": "Adobe Audition sound effects: Science fiction",
+      "author": "Adobe",
+      "url": "https://www.adobe.com/products/audition/offers/AdobeAuditionDLCSFX.html",
+      "category": "fx",
+      "form": "pack",
+      "unit": "pack",
+      "formats": [
+        "zip",
+        "wav"
+      ],
+      "tags": [
+        "adobe",
+        "audition",
+        "sound effects",
+        "sfx",
+        "wav",
+        "sci-fi",
+        "laser",
+        "spaceship",
+        "futuristic"
+      ],
+      "description": "Sci-fi effects: lasers, spaceship hums, computer bleeps and futuristic textures. Uncompressed WAV.",
+      "license": "adobe",
+      "files": [
+        {
+          "url": "https://download.adobe.com/pub/adobe/audition/offers/adobeauditiondlcsfx/science_fiction.zip",
+          "filename": "science_fiction.zip",
+          "format": "zip",
+          "role": "pack",
+          "sizeBytes": 75145988
+        }
+      ],
+      "downloadable": true,
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "adobe-audition-cartoon",
+      "title": "Adobe Audition sound effects: Cartoon",
+      "author": "Adobe",
+      "url": "https://www.adobe.com/products/audition/offers/AdobeAuditionDLCSFX.html",
+      "category": "fx",
+      "form": "pack",
+      "unit": "pack",
+      "formats": [
+        "zip",
+        "wav"
+      ],
+      "tags": [
+        "adobe",
+        "audition",
+        "sound effects",
+        "sfx",
+        "wav",
+        "cartoon",
+        "comedy",
+        "boing",
+        "whistle"
+      ],
+      "description": "Comedy and cartoon effects: boings, slides, pops and whistles. Uncompressed WAV.",
+      "license": "adobe",
+      "files": [
+        {
+          "url": "https://download.adobe.com/pub/adobe/audition/offers/adobeauditiondlcsfx/cartoon.zip",
+          "filename": "cartoon.zip",
+          "format": "zip",
+          "role": "pack",
+          "sizeBytes": 84912597
+        }
+      ],
+      "downloadable": true,
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "adobe-audition-human-elements",
+      "title": "Adobe Audition sound effects: Human elements",
+      "author": "Adobe",
+      "url": "https://www.adobe.com/products/audition/offers/AdobeAuditionDLCSFX.html",
+      "category": "vocals",
+      "form": "pack",
+      "unit": "pack",
+      "formats": [
+        "zip",
+        "wav"
+      ],
+      "tags": [
+        "adobe",
+        "audition",
+        "sound effects",
+        "sfx",
+        "wav",
+        "breath",
+        "crowd",
+        "laugh",
+        "scream",
+        "voice"
+      ],
+      "description": "Human sounds: breaths, laughs, screams, crowds and other non-verbal voices. Uncompressed WAV.",
+      "license": "adobe",
+      "files": [
+        {
+          "url": "https://download.adobe.com/pub/adobe/audition/offers/adobeauditiondlcsfx/human_elements.zip",
+          "filename": "human_elements.zip",
+          "format": "zip",
+          "role": "pack",
+          "sizeBytes": 207920640
+        }
+      ],
+      "downloadable": true,
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "adobe-audition-drones",
+      "title": "Adobe Audition sound effects: Drones",
+      "author": "Adobe",
+      "url": "https://www.adobe.com/products/audition/offers/AdobeAuditionDLCSFX.html",
+      "category": "ambience",
+      "form": "pack",
+      "unit": "pack",
+      "formats": [
+        "zip",
+        "wav"
+      ],
+      "tags": [
+        "adobe",
+        "audition",
+        "sound effects",
+        "sfx",
+        "wav",
+        "drone",
+        "atmosphere",
+        "texture",
+        "cinematic"
+      ],
+      "description": "Long evolving drones and atmospheric beds for underscore and sound design. Uncompressed WAV.",
+      "license": "adobe",
+      "files": [
+        {
+          "url": "https://download.adobe.com/pub/adobe/audition/offers/adobeauditiondlcsfx/drones.zip",
+          "filename": "drones.zip",
+          "format": "zip",
+          "role": "pack",
+          "sizeBytes": 1337092039
+        }
+      ],
+      "downloadable": true,
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "tinysol",
+      "title": "TinySOL: isolated orchestral notes",
+      "author": "Carmine-Emanuele Cella, Daniele Ghisi, Vincent Lostanlen, Fabien Lévy, Joshua Fineberg, Yan Maresz",
+      "url": "https://zenodo.org/records/3685367",
+      "category": "strings",
+      "form": "pack",
+      "unit": "pack",
+      "packSize": 2913,
+      "formats": [
+        "tar.gz",
+        "wav"
+      ],
+      "tags": [
+        "tinysol",
+        "ircam",
+        "orchestral",
+        "single notes",
+        "brass",
+        "woodwind",
+        "dataset"
+      ],
+      "description": "2,913 single notes from 14 orchestral instruments (strings, woodwinds, brass) in ordinary playing technique, from the IRCAM Studio On Line library, with a CSV of pitch and dynamics.",
+      "license": "cc-by-4.0",
+      "files": [
+        {
+          "url": "https://zenodo.org/records/3685367/files/TinySOL.tar.gz?download=1",
+          "filename": "TinySOL.tar.gz",
+          "format": "tar.gz",
+          "role": "pack",
+          "sizeBytes": 1026917185
+        }
+      ],
+      "downloadable": true,
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "vocalset",
+      "title": "VocalSet: singing voice dataset",
+      "author": "Julia Wilkins, Prem Seetharaman, Alison Wahl, Bryan Pardo",
+      "url": "https://zenodo.org/records/1442513",
+      "category": "vocals",
+      "form": "pack",
+      "unit": "pack",
+      "formats": [
+        "zip",
+        "wav"
+      ],
+      "tags": [
+        "singing",
+        "vocal techniques",
+        "vowels",
+        "vibrato",
+        "belt",
+        "breathy",
+        "dataset"
+      ],
+      "description": "About 10 hours of 20 professional singers performing scales, arpeggios and long tones on five vowels with techniques such as vibrato, belt, breathy and vocal fry.",
+      "license": "cc-by-4.0",
+      "files": [
+        {
+          "url": "https://zenodo.org/records/1442513/files/VocalSet11.zip?download=1",
+          "filename": "VocalSet11.zip",
+          "format": "zip",
+          "role": "pack",
+          "sizeBytes": 2077243579
+        }
+      ],
+      "downloadable": true,
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "dagstuhl-choirset",
+      "title": "Dagstuhl ChoirSet",
+      "author": "Sebastian Rosenzweig, Helena Cuesta, Christof Weiß, Frank Scherbaum, Emilia Gómez, Meinard Müller",
+      "url": "https://zenodo.org/records/3897182",
+      "category": "vocals.choir",
+      "form": "pack",
+      "unit": "pack",
+      "formats": [
+        "zip",
+        "wav"
+      ],
+      "tags": [
+        "choir",
+        "a cappella",
+        "multitrack",
+        "dataset"
+      ],
+      "description": "Multitrack recordings of an amateur choir singing two pieces in full choir and quartet settings, with close microphones on each singer.",
+      "license": "cc-by-4.0",
+      "files": [
+        {
+          "url": "https://zenodo.org/records/3897182/files/DagstuhlChoirSet.zip?download=1",
+          "filename": "DagstuhlChoirSet.zip",
+          "format": "zip",
+          "role": "pack",
+          "sizeBytes": 5130262665
+        }
+      ],
+      "downloadable": true,
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "reverb-machine-synth-sounds-collection",
+      "title": "Reverb Machine: Synth Sounds Collection",
+      "author": "Reverb Machine",
+      "url": "https://reverbmachine.com/sounds/synth-sounds-collection/",
+      "category": "synth",
+      "form": "preset",
+      "unit": "pack",
+      "formats": [
+        "zip"
+      ],
+      "tags": [
+        "presets",
+        "synth presets",
+        "recreations"
+      ],
+      "description": "Free synth presets collected from Reverb Machine's sound-recreation articles, for several soft synths.",
+      "license": "reverb-machine",
+      "files": [
+        {
+          "url": "https://media.reverbmachine.com/2025/09/RM-Synth-Sounds-Collection.zip",
+          "filename": "RM-Synth-Sounds-Collection.zip",
+          "format": "zip",
+          "role": "pack",
+          "sizeBytes": 3228020
+        }
+      ],
+      "downloadable": true,
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "goldbaby-free-packs",
+      "title": "Goldbaby free packs",
+      "author": "Goldbaby",
+      "url": "https://www.goldbaby.co.nz/freestuff.html",
+      "category": "drums",
+      "form": "pack",
+      "unit": "pack",
+      "formats": [
+        "zip",
+        "wav"
+      ],
+      "tags": [
+        "goldbaby",
+        "drum machine",
+        "analog",
+        "tape",
+        "vintage",
+        "sp1200",
+        "mpc60",
+        "808"
+      ],
+      "description": "Dozens of free packs from Goldbaby: drum machines (SP-1200, MPC60, 606, 808) run through tape and valves, plus a few synth and percussion sets.",
+      "license": "goldbaby",
+      "files": [],
+      "downloadable": false,
+      "note": "Each pack is a MediaFire page (interstitial), not a direct file.",
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "sonniss-gdc-bundles",
+      "title": "Sonniss GDC Game Audio Bundles",
+      "author": "Sonniss",
+      "url": "https://gdc.sonniss.com/",
+      "category": "fx",
+      "form": "pack",
+      "unit": "pack",
+      "formats": [
+        "wav"
+      ],
+      "tags": [
+        "sonniss",
+        "gdc",
+        "game audio",
+        "sound effects",
+        "sfx",
+        "bundle"
+      ],
+      "description": "Yearly multi-gigabyte bundles of professional game sound effects donated by many vendors for GDC, 24-bit WAV.",
+      "license": "sonniss",
+      "files": [],
+      "downloadable": false,
+      "note": "The site blocks automated clients (Cloudflare), so downloads are left to the browser.",
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "99sounds-99-sound-effects",
+      "title": "99Sounds: 99 Sound Effects",
+      "author": "99Sounds",
+      "url": "https://99sounds.org/free-sound-effects/",
+      "category": "fx",
+      "form": "pack",
+      "unit": "pack",
+      "packSize": 99,
+      "formats": [
+        "wav"
+      ],
+      "tags": [
+        "99sounds",
+        "sound effects",
+        "sfx",
+        "cinematic"
+      ],
+      "description": "A general-purpose set of 99 sound effects for video, games and music.",
+      "license": "99sounds",
+      "files": [],
+      "downloadable": false,
+      "note": "Delivered through a $0 Gumroad checkout.",
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "99sounds-drum-samples",
+      "title": "99Sounds: Drum Samples",
+      "author": "99Sounds",
+      "url": "https://99sounds.org/drum-samples/",
+      "category": "drums",
+      "form": "pack",
+      "unit": "pack",
+      "formats": [
+        "wav"
+      ],
+      "tags": [
+        "99sounds",
+        "drum samples",
+        "one-shots",
+        "kicks",
+        "snares"
+      ],
+      "description": "Free drum one-shots from 99Sounds: kicks, snares, hats and percussion.",
+      "license": "99sounds",
+      "files": [],
+      "downloadable": false,
+      "note": "Delivered through a $0 Gumroad checkout.",
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "99sounds-foley-sounds",
+      "title": "99Sounds: Foley Sounds",
+      "author": "99Sounds",
+      "url": "https://99sounds.org/garage-foley/",
+      "category": "foley",
+      "form": "pack",
+      "unit": "pack",
+      "formats": [
+        "wav"
+      ],
+      "tags": [
+        "99sounds",
+        "foley",
+        "garage",
+        "tools"
+      ],
+      "description": "Foley recorded in a garage: tools, metal, wood and handling sounds.",
+      "license": "99sounds",
+      "files": [],
+      "downloadable": false,
+      "note": "Delivered through a $0 Gumroad checkout.",
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "legowelt-sample-packs",
+      "title": "Legowelt sample packs",
+      "author": "Legowelt",
+      "url": "https://www.legowelt.org/samples/",
+      "category": "synth",
+      "form": "pack",
+      "unit": "pack",
+      "formats": [
+        "wav"
+      ],
+      "tags": [
+        "legowelt",
+        "drum machine",
+        "synth",
+        "prophet 600",
+        "jupiter 8",
+        "electro"
+      ],
+      "description": "Around 25 free sample packs from Dutch producer Legowelt: his synths (Jupiter-8, Prophet-600, Matrix-1000) and drum machines, 16-bit WAV.",
+      "license": "legowelt",
+      "files": [],
+      "downloadable": false,
+      "note": "Downloads are WeTransfer links that expire and get replaced.",
+      "verified": "2026-10-23"
+    },
+    {
+      "id": "bpb-analog-kicks",
+      "title": "BPB Analog Kicks",
+      "author": "Bedroom Producers Blog",
+      "url": "https://bedroomproducersblog.com/2020/08/05/bpb-analog-kicks/",
+      "category": "drums.kick",
+      "form": "pack",
+      "unit": "pack",
+      "packSize": 200,
+      "formats": [
+        "wav"
+      ],
+      "tags": [
+        "bpb",
+        "kick",
+        "analog",
+        "drum machine"
+      ],
+      "description": "200 kick drums sampled from six analog drum machines and synths, with a Kontakt instrument.",
+      "license": "bpb",
+      "files": [],
+      "downloadable": false,
+      "note": "Delivered through a pay-what-you-want checkout (Payhip).",
+      "verified": "2026-10-23"
+    }
+  ]
+}

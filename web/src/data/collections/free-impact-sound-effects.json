@@ -1,0 +1,776 @@
+{
+  "slug": "free-impact-sound-effects",
+  "search": {
+    "q": "impact",
+    "categories": [
+      "fx.impact"
+    ]
+  },
+  "updatedAt": "2026-10-23T04:44:36.495Z",
+  "samples": [
+    {
+      "id": "openverse:210a2965-2408-40d4-a1fc-97caed05f251",
+      "provider": "openverse",
+      "title": "Impact",
+      "category": "fx.impact",
+      "url": "https://freesound.org/people/chriskalos/sounds/172779",
+      "previewUrl": "https://cdn.freesound.org/previews/172/172779_2430808-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "chriskalos",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 2.623
+    },
+    {
+      "id": "opengameart:impact",
+      "provider": "opengameart",
+      "title": "Impact",
+      "category": "fx.impact",
+      "url": "https://opengameart.org/content/impact",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/montage-sfx-20130922%40034143.ogg.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/montage-sfx-20130922%40034143.ogg.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:58921",
+      "provider": "orangefreesounds",
+      "title": "Dramatic Piano Hit Sound Effect – Unexpected Cinematic Impact",
+      "category": "fx.impact",
+      "url": "https://orangefreesounds.com/dramatic-piano-hit-sound-effect-unexpected-cinematic-impact/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/10/Dramatic-piano-hit-sound-effect-unexpected-cinematic-impact.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 6
+    },
+    {
+      "id": "openverse:f29163f7-cbc2-45e2-a266-ede2fd6f4ad0",
+      "provider": "openverse",
+      "title": "Shield Bash Impact",
+      "category": "fx.impact",
+      "url": "https://freesound.org/people/Hybrid_V/sounds/319590",
+      "previewUrl": "https://cdn.freesound.org/previews/319/319590_5436764-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Hybrid_V",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.006
+    },
+    {
+      "id": "opengameart:wall-impact",
+      "provider": "opengameart",
+      "title": "Wall Impact",
+      "category": "fx.impact",
+      "url": "https://opengameart.org/content/wall-impact",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/Hitting%20Wall.wav.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/Hitting%20Wall.wav.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "openverse:117fb482-12a0-4cdc-ae0a-30725a77ce5f",
+      "provider": "openverse",
+      "title": "Impact-LeatherBelt-001.wav",
+      "category": "fx.impact",
+      "url": "https://freesound.org/people/DWOBoyle/sounds/144266",
+      "previewUrl": "https://cdn.freesound.org/previews/144/144266_2289019-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "DWOBoyle",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.476
+    },
+    {
+      "id": "orangefreesounds:58780",
+      "provider": "orangefreesounds",
+      "title": "Cinematic Tension Build-Up And Final Impact Sound Effect",
+      "category": "fx.impact",
+      "url": "https://orangefreesounds.com/cinematic-tension-build-up-and-final-impact-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/10/Cinematic-tension-build-up-and-final-impact-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 20
+    },
+    {
+      "id": "soundbible:1418-Sharp-Punch",
+      "provider": "soundbible",
+      "title": "Sharp Punch",
+      "category": "fx.impact",
+      "url": "https://soundbible.com/1418-Sharp-Punch.html",
+      "previewUrl": "https://soundbible.com/mp3/Sharp%20Punch-SoundBible.com-1947392621.mp3",
+      "downloadable": true,
+      "author": "CGEffex",
+      "license": {
+        "id": "LicenseRef-Sampling-Plus-1.0",
+        "name": "CC Sampling+ 1.0",
+        "url": "https://creativecommons.org/licenses/sampling+/1.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "opengameart:metal-and-wood-impact-sound-effects",
+      "provider": "opengameart",
+      "title": "Metal and Wood Impact Sound Effects",
+      "category": "fx.impact",
+      "url": "https://opengameart.org/content/metal-and-wood-impact-sound-effects",
+      "previewUrl": "https://opengameart.org/sites/default/files/pre-woo.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/pre-woo.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "openverse:08259507-3041-4540-a44e-1aaa4d661d7e",
+      "provider": "openverse",
+      "title": "Impact Explosion.wav",
+      "category": "fx.impact",
+      "url": "https://freesound.org/people/CGEffex/sounds/100773",
+      "previewUrl": "https://cdn.freesound.org/previews/100/100773_1386366-hq.mp3",
+      "downloadable": true,
+      "author": "CGEffex",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 24.004
+    },
+    {
+      "id": "orangefreesounds:58771",
+      "provider": "orangefreesounds",
+      "title": "Cinematic Tension Riser And Deep Impact Sound Effect",
+      "category": "fx.impact",
+      "url": "https://orangefreesounds.com/cinematic-tension-riser-and-deep-impact-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/10/Cinematic-tension-riser-and-deep-impact-sound-effect.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 7
+    },
+    {
+      "id": "soundbible:1773-Strong-Punch",
+      "provider": "soundbible",
+      "title": "Strong Punch",
+      "category": "fx.impact",
+      "url": "https://soundbible.com/1773-Strong-Punch.html",
+      "previewUrl": "https://soundbible.com/mp3/Strong_Punch-Mike_Koenig-574430706.mp3",
+      "downloadable": true,
+      "author": "Mike Koenig",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "opengameart:metal-impact-sounds",
+      "provider": "opengameart",
+      "title": "Metal Impact Sounds",
+      "category": "fx.impact",
+      "url": "https://opengameart.org/content/metal-impact-sounds",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/bing1.wav.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/bing1.wav.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "openverse:4c99d7d3-4987-46f3-9637-bfd9b4cc66b9",
+      "provider": "openverse",
+      "title": "BOOM IMPACT 2",
+      "category": "fx.impact",
+      "url": "https://freesound.org/people/XHALE303/sounds/535592",
+      "previewUrl": "https://cdn.freesound.org/previews/535/535592_9015615-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "XHALE303",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 1.998
+    },
+    {
+      "id": "orangefreesounds:57568",
+      "provider": "orangefreesounds",
+      "title": "Deep Cinematic Timpani Impact Sound Effect",
+      "category": "fx.impact",
+      "url": "https://orangefreesounds.com/deep-cinematic-timpani-impact-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/07/Deep-cinematic-timpani-impact-sound-effect.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 7
+    },
+    {
+      "id": "soundbible:1033-Zombie-In-Pain",
+      "provider": "soundbible",
+      "title": "Zombie In Pain",
+      "category": "fx.impact",
+      "url": "https://soundbible.com/1033-Zombie-In-Pain.html",
+      "previewUrl": "https://soundbible.com/mp3/Zombie%20In%20Pain-SoundBible.com-134322253.mp3",
+      "downloadable": true,
+      "author": "Mike Koenig",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "openverse:5db4716d-e17f-4558-8cbd-3f7bb8e78ad6",
+      "provider": "openverse",
+      "title": "Cinema Boom impact #3",
+      "category": "fx.impact",
+      "url": "https://freesound.org/people/beman87/sounds/162848",
+      "previewUrl": "https://cdn.freesound.org/previews/162/162848_532963-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "beman87",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 7.722
+    },
+    {
+      "id": "opengameart:saw-or-wood-impact",
+      "provider": "opengameart",
+      "title": "Saw or Wood Impact",
+      "category": "fx.impact",
+      "url": "https://opengameart.org/content/saw-or-wood-impact",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/saw_-_starninjas.ogg.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/saw_-_starninjas.ogg.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:58575",
+      "provider": "orangefreesounds",
+      "title": "Cinematic Deep Impact With High Piano Sound Effect",
+      "category": "fx.impact",
+      "url": "https://orangefreesounds.com/cinematic-deep-impact-with-high-piano-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/09/Cinematic-deep-impact-with-high-piano-sound-effect.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 7
+    },
+    {
+      "id": "openverse:4eefa3d1-d85b-422a-91dc-3ae12ee26d03",
+      "provider": "openverse",
+      "title": "Deep Cinematic Impact",
+      "category": "fx.impact",
+      "url": "https://freesound.org/people/MeijstroAudio/sounds/377303",
+      "previewUrl": "https://cdn.freesound.org/previews/377/377303_3513022-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "MeijstroAudio",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 2
+    },
+    {
+      "id": "opengameart:10-impactshield-blocks",
+      "provider": "opengameart",
+      "title": "10 Impact/Shield Blocks",
+      "category": "fx.impact",
+      "url": "https://opengameart.org/content/10-impactshield-blocks",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/impact_preview.ogg.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/impact_preview.ogg.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:56873",
+      "provider": "orangefreesounds",
+      "title": "Loud Thud Impact Sound Effect",
+      "category": "fx.impact",
+      "url": "https://orangefreesounds.com/loud-thud-impact-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/05/Loud-thud-impact-sound-effect.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 1
+    },
+    {
+      "id": "soundbible:1604-Depth-Charge-2",
+      "provider": "soundbible",
+      "title": "Depth Charge 2",
+      "category": "fx.impact",
+      "url": "https://soundbible.com/1604-Depth-Charge-2.html",
+      "previewUrl": "https://soundbible.com/mp3/Depth%20Charge%202-SoundBible.com-338644910.mp3",
+      "downloadable": true,
+      "author": "Mike Koenig",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "openverse:39918cd2-10ee-45a1-affd-eac4b2ec571f",
+      "provider": "openverse",
+      "title": "Metal Impact",
+      "category": "fx.impact",
+      "url": "https://freesound.org/people/Rickplayer/sounds/530486",
+      "previewUrl": "https://cdn.freesound.org/previews/530/530486_2532248-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Rickplayer",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 1.79
+    },
+    {
+      "id": "opengameart:bone-fall-ledge-climbing-impact-yo-frankie",
+      "provider": "opengameart",
+      "title": "Bone, Fall, Ledge Climbing, Impact (Yo Frankie!)",
+      "category": "fx.impact",
+      "url": "https://opengameart.org/content/bone-fall-ledge-climbing-impact-yo-frankie",
+      "previewUrl": "https://opengameart.org/sites/default/files/imp.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/imp.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:56436",
+      "provider": "orangefreesounds",
+      "title": "Cinematic Horror Impact Sound Effect",
+      "category": "fx.impact",
+      "url": "https://orangefreesounds.com/cinematic-horror-impact-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/04/Cinematic-horror-impact-sound-effect.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 10
+    },
+    {
+      "id": "soundbible:1781-Metal-Clang",
+      "provider": "soundbible",
+      "title": "Metal Clang",
+      "category": "fx.impact",
+      "url": "https://soundbible.com/1781-Metal-Clang.html",
+      "previewUrl": "https://soundbible.com/mp3/Metal%20Clang-SoundBible.com-19572601.mp3",
+      "downloadable": true,
+      "author": "battlestar10",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "opengameart:short-impact",
+      "provider": "opengameart",
+      "title": "Short impact.",
+      "category": "fx.impact",
+      "url": "https://opengameart.org/content/short-impact",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/424911-impactshort78.wav.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/424911-impactshort78.wav.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "openverse:3bb6fd08-7432-4cc3-b0e4-48409e8d1844",
+      "provider": "openverse",
+      "title": "Gravel Impacts and Falls.wav",
+      "category": "fx.impact",
+      "url": "https://freesound.org/people/lolamadeus/sounds/179341",
+      "previewUrl": "https://cdn.freesound.org/previews/179/179341_544580-hq.mp3",
+      "downloadable": true,
+      "author": "lolamadeus",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 12.754
+    },
+    {
+      "id": "orangefreesounds:57318",
+      "provider": "orangefreesounds",
+      "title": "Large Ocean Wave Crashing Against Shore – Powerful Coastal Impact Sound Effect",
+      "category": "fx.impact",
+      "url": "https://orangefreesounds.com/large-ocean-wave-crashing-against-shore-powerful-coastal-impact-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/07/Large-ocean-wave-crashing-against-shore-powerful-coastal-impact-sound-effect.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 9
+    },
+    {
+      "id": "soundbible:1414-Batman-Punch",
+      "provider": "soundbible",
+      "title": "Batman Punch",
+      "category": "fx.impact",
+      "url": "https://soundbible.com/1414-Batman-Punch.html",
+      "previewUrl": "https://soundbible.com/mp3/Batman%20Punch-SoundBible.com-456755860.mp3",
+      "downloadable": true,
+      "author": "CGeffex",
+      "license": {
+        "id": "LicenseRef-Sampling-Plus-1.0",
+        "name": "CC Sampling+ 1.0",
+        "url": "https://creativecommons.org/licenses/sampling+/1.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "opengameart:long-deep-impact",
+      "provider": "opengameart",
+      "title": "LONG DEEP IMPACT",
+      "category": "fx.impact",
+      "url": "https://opengameart.org/content/long-deep-impact",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/001_0.wav.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/001_0.wav.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "openverse:819a1136-5bc0-4c97-9057-0b9df17f0309",
+      "provider": "openverse",
+      "title": "skin impact SFX 44100 1.wav",
+      "category": "fx.impact",
+      "url": "https://freesound.org/people/apocbot/sounds/235335",
+      "previewUrl": "https://cdn.freesound.org/previews/235/235335_3374079-hq.mp3",
+      "downloadable": true,
+      "author": "apocbot",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 48.026
+    },
+    {
+      "id": "orangefreesounds:56430",
+      "provider": "orangefreesounds",
+      "title": "Cinematic Sci-Fi Braam Impact Sound Effect",
+      "category": "fx.impact",
+      "url": "https://orangefreesounds.com/cinematic-sci-fi-braam-impact-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/04/Cinematic-sci-fi-braam-impact-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 14
+    },
+    {
+      "id": "soundbible:995-Jab",
+      "provider": "soundbible",
+      "title": "Jab",
+      "category": "fx.impact",
+      "url": "https://soundbible.com/995-Jab.html",
+      "previewUrl": "https://soundbible.com/mp3/Jab-SoundBible.com-1806727891.mp3",
+      "downloadable": true,
+      "author": "Mike Koenig",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "opengameart:impact-flash",
+      "provider": "opengameart",
+      "title": "Impact Flash",
+      "category": "fx.impact",
+      "url": "https://opengameart.org/content/impact-flash",
+      "previewUrl": "https://opengameart.org/sites/default/files/15_impact_flesh_02.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/15_impact_flesh_02.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    }
+  ]
+}

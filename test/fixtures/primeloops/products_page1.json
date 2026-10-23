@@ -1,0 +1,140 @@
+{
+ "products": [
+  {
+   "id": 11391029739862,
+   "title": "Obsessed: Late Night RnB",
+   "handle": "obsessed",
+   "body_html": "<div data-content-type=\"html\" data-appearance=\"default\" data-element=\"main\">\n<p>'Obsessed' by Project Blvck is a modern R&amp;B sample pack built to deliver emotional, late-night vibes with a polished industry-ready sound. Inside, you'll find 6 fully crafted construction kits packed with stunning gu",
+   "published_at": "2026-10-22T12:18:21+01:00",
+   "created_at": "2026-10-22T12:08:22+01:00",
+   "updated_at": "2026-10-23T05:14:45+01:00",
+   "vendor": "Project Blvck",
+   "product_type": "Products",
+   "tags": [
+    "100% Royalty-Free",
+    "Deals",
+    "Fresh New Sounds",
+    "Genres",
+    "Labels",
+    "Latest Releases",
+    "License Type",
+    "MIDI Melodies",
+    "Products",
+    "Project Blvck",
+    "RNB"
+   ],
+   "variants": [
+    {
+     "id": 55956364427606,
+     "available": true,
+     "price": "17.95"
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0998/3452/8086/files/Obsessed-Cover.jpg?v=1792667463"
+    }
+   ]
+  },
+  {
+   "id": 11348114342230,
+   "title": "CHOPPA: Dramatic Hip Hop Strings",
+   "handle": "choppa",
+   "body_html": "<p>In search of the finest Hip Hop strings; the team at Prime Loops has gone for something a little different and very special!! We tasked our string expert 'CHOPPA the Doberman' to bring us his pedigree selection of Dramatic String ensembles; sections that would work with both Hip Hop and Trap beat",
+   "published_at": "2026-10-22T10:46:34+01:00",
+   "created_at": "2026-10-07T15:56:46+01:00",
+   "updated_at": "2026-10-23T05:14:45+01:00",
+   "vendor": "Prime Loops",
+   "product_type": "All Products",
+   "tags": [
+    "100% Royalty-Free",
+    "All Products",
+    "Big Winter Sale",
+    "DAW",
+    "Fresh New Sounds",
+    "Genres",
+    "Hip Hop Samples  Presets",
+    "Labels",
+    "Latest Releases",
+    "License Type",
+    "Melodies",
+    "Now Trending",
+    "Prime Loops",
+    "Prime Loops Sale",
+    "Products",
+    "Trap Sample Packs  Presets",
+    "Type"
+   ],
+   "variants": [
+    {
+     "id": 55635516260694,
+     "available": true,
+     "price": "21.95"
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0998/3452/8086/files/primeloops_choppa_artwork.jpg?v=1785946512"
+    }
+   ]
+  },
+  {
+   "id": 11391003918678,
+   "title": "Monogram: Hip Hop, Trap + Drill Compositions [Free Taster Pack]",
+   "handle": "monogram-free-taster-pack",
+   "body_html": "<p>Buy the full pack here: <a href=\"https://primeloops.com/products/monogram\">Monogram: Hip Hop, Trap + Drill Compositions</a></p>\n<p>'MONOGRAM' is a refined collection of 30 high-quality melodic loops crafted for modern Trap, Drill, and Hip-Hop production. Built around expressive musical ideas and ",
+   "published_at": "2026-10-22T11:55:45+01:00",
+   "created_at": "2026-10-22T11:49:53+01:00",
+   "updated_at": "2026-10-23T05:14:45+01:00",
+   "vendor": "Freebies",
+   "product_type": "Products",
+   "tags": [
+    "Freebies  Taster Packs"
+   ],
+   "variants": [
+    {
+     "id": 55955270926678,
+     "available": true,
+     "price": "0.00"
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0998/3452/8086/files/FlameAudio-Monogram-SamplePack-Cover_d34671c3-7df9-4c7e-8066-7bebcd5a70ed.jpg?v=1792666343"
+    }
+   ]
+  },
+  {
+   "id": 11389009658198,
+   "title": "Nova: Afropop Songstarters [Free Taster Pack]",
+   "handle": "nova-free-taster-pack",
+   "body_html": "<p>Buy the full pack here: <a href=\"https://primeloops.com/products/nova\">Nova: Afropop Songstarters</a></p>\n<p>'NOVA' is a collection of modern Afropop and Reggaeton Songstarters designed to spark instant inspiration in your productions. Inside you'll find 10 carefully crafted compositions built ar",
+   "published_at": "2026-10-21T11:01:04+01:00",
+   "created_at": "2026-10-21T10:56:19+01:00",
+   "updated_at": "2026-10-23T05:14:45+01:00",
+   "vendor": "Freebies",
+   "product_type": "Products",
+   "tags": [
+    "100% Royalty-Free",
+    "African",
+    "Afrobeats",
+    "Freebies  Taster Packs",
+    "Genres",
+    "License Type",
+    "Products"
+   ],
+   "variants": [
+    {
+     "id": 55931059831126,
+     "available": true,
+     "price": "0.00"
+    }
+   ],
+   "images": [
+    {
+     "src": "https://cdn.shopify.com/s/files/1/0998/3452/8086/files/FlameAudio-Nova-SongstarterPack-Cover_f65c64bd-4174-4259-8f50-3c38b1c8b229.jpg?v=1792576900"
+    }
+   ]
+  }
+ ]
+}

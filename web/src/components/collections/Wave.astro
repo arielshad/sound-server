@@ -1,0 +1,15 @@
+---
+// Decorative waveform (deterministic from a seed): stands in for artwork on static pages.
+interface Props { seed: string; bars?: number; class?: string }
+const { seed, bars = 40, class: className = "" } = Astro.props;
+let h = 2166136261;
+for (const ch of seed) h = Math.imul(h ^ ch.charCodeAt(0), 16777619);
+const heights = Array.from({ length: bars }, (_, i) => {
+  h = Math.imul(h ^ (h >>> 13), 1274126177);
+  const env = Math.exp(-i / (bars / 2.5));
+  return 0.12 + 0.8 * env * (0.4 + ((h >>> 0) % 1000) / 1700);
+});
+---
+<svg viewBox={`0 0 ${bars * 3} 40`} preserveAspectRatio="none" class={className} aria-hidden="true">
+  {heights.map((v, i) => <rect x={i * 3} y={(20 - v * 18).toFixed(2)} width="2" height={(v * 36).toFixed(2)} rx="1" fill="currentColor" />)}
+</svg>

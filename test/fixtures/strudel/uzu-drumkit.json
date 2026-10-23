@@ -1,0 +1,9 @@
+{
+ "_base": "https://raw.githubusercontent.com/tidalcycles/uzu-drumkit/main/",
+ "bd": [
+  "bd/10_bd_switchangel.wav"
+ ],
+ "brk": [
+  "brk/10_break_amen_pprocessed.wav"
+ ]
+}

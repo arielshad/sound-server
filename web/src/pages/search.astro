@@ -1,0 +1,30 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import SearchApp from "@/components/search/SearchApp";
+import { breadcrumbs } from "@/lib/schema";
+import { PROVIDERS, SOURCE_COUNT } from "@/lib/site";
+import { allCollections } from "@/lib/collections";
+
+const collections = (await allCollections()).filter((c) => c.indexable);
+---
+
+<BaseLayout
+  title="Search free samples: drums, 808s, vocals & FX"
+  description={`Search ${SOURCE_COUNT} sample sites at once for free kicks, snares, hats, 808s, loops, vocal chops and FX. Preview every sound and see if it is cleared for a commercial release.`}
+  schema={[breadcrumbs([{ name: "Home", path: "/" }, { name: "Search", path: "/search" }])]}
+  markdown="/AGENTS.md"
+>
+  <h1 class="sr-only">Search music samples across {SOURCE_COUNT} sources</h1>
+  <SearchApp client:load />
+  <noscript>
+    <div class="mx-auto max-w-3xl px-4 py-10 text-sm text-muted-foreground">
+      Live search needs JavaScript. You can also use the JSON API directly:
+      <code>/v1/search?q=punchy+kick&amp;category=drums.kick&amp;commercial=true</code>. Sources searched:
+      {PROVIDERS.map((p) => p.name).join(", ")}.
+      {collections.length > 0 && <p class="mt-4">Or browse the curated collections, which work without JavaScript:</p>}
+      <ul class="mt-2 list-disc pl-5">
+        {collections.map((c) => <li><a href={c.path} class="text-primary hover:underline">{c.topic.data.title}</a></li>)}
+      </ul>
+    </div>
+  </noscript>
+</BaseLayout>

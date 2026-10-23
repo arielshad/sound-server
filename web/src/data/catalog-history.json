@@ -1,0 +1,38 @@
+[
+  {
+    "date": "2026-10-23",
+    "listings": 306366,
+    "free": 306366,
+    "byCategory": {
+      "ambience": 25382,
+      "foley": 3903,
+      "fx": 13701,
+      "vocals": 6122,
+      "other": 12798,
+      "drums": 5254,
+      "synth": 1355,
+      "bass": 428,
+      "keys": 331,
+      "mallets": 266,
+      "brass": 114,
+      "woodwind": 267,
+      "strings": 412,
+      "guitar": 138
+    },
+    "sources": {
+      "openverse": 4575414,
+      "wikimediacommons": 218112,
+      "bbc": 33066,
+      "ccmixter": 21942,
+      "opengameart": 11895,
+      "orangefreesounds": 8210,
+      "strudel": 7244,
+      "internetarchive": 2483,
+      "freewavesamples": 2353,
+      "soundbible": 718,
+      "sampleradar": 287,
+      "curated": 46,
+      "kenney": 10
+    }
+  }
+]

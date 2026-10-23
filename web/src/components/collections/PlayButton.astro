@@ -1,0 +1,20 @@
+---
+// Plays a sample's preview on static pages (see src/scripts/preview-player.ts,
+// which the pages that use it load). One plays at a time.
+interface Props { id: string; src: string; title: string; class?: string }
+const { id, src, title, class: className = "" } = Astro.props;
+---
+<button
+  type="button"
+  data-preview={src}
+  data-sample-id={id}
+  aria-label={`Play ${title}`}
+  aria-pressed="false"
+  class:list={[
+    "group/play flex size-10 shrink-0 items-center justify-center rounded-full border bg-card text-foreground transition hover:border-primary/60 hover:text-primary aria-pressed:border-primary aria-pressed:bg-primary aria-pressed:text-primary-foreground",
+    className,
+  ]}
+>
+  <svg class="ml-0.5 size-4 group-aria-pressed/play:hidden" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12-7.5a1 1 0 0 0 0-1.72l-12-7.5A1 1 0 0 0 7 4.5Z" /></svg>
+  <svg class="hidden size-4 group-aria-pressed/play:block" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="6" y="4.5" width="4" height="15" rx="1" /><rect x="14" y="4.5" width="4" height="15" rx="1" /></svg>
+</button>

@@ -1,0 +1,345 @@
+{
+  "slug": "free-hi-hat-samples",
+  "search": {
+    "q": "hi hat",
+    "categories": [
+      "drums.hat"
+    ],
+    "forms": [
+      "one-shot"
+    ]
+  },
+  "updatedAt": "2026-10-23T04:44:24.127Z",
+  "samples": [
+    {
+      "id": "openverse:5480d684-a8b3-49f7-80b7-c497af7bf83a",
+      "provider": "openverse",
+      "title": "Closed Hi Hat 2.wav",
+      "category": "drums.hat.closed",
+      "url": "https://freesound.org/people/VEXST/sounds/26880",
+      "previewUrl": "https://cdn.freesound.org/previews/26/26880_113878-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "VEXST",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.296
+    },
+    {
+      "id": "openverse:8d861b6c-3fa5-4ea9-91c7-71398ada20be",
+      "provider": "openverse",
+      "title": "Hi hat closed",
+      "category": "drums.hat",
+      "url": "https://commons.wikimedia.org/w/index.php?curid=93542",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Hi_hat_closed.ogg",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "No machine-readable author provided. Clngre~commonswiki assumed (based on copyright claims).",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg"
+      ],
+      "durationSec": 3.982
+    },
+    {
+      "id": "openverse:5d4f37fc-4787-4254-802c-2883fe523cfd",
+      "provider": "openverse",
+      "title": "Hi Hat Open.wav",
+      "category": "drums.hat",
+      "url": "https://freesound.org/people/thealmightysound/sounds/87726",
+      "previewUrl": "https://cdn.freesound.org/previews/87/87726_932703-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "thealmightysound",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.857
+    },
+    {
+      "id": "openverse:6a5aafbe-6ebf-4ce7-93c0-db2ed9e71fc2",
+      "provider": "openverse",
+      "title": "Echoed Hi-Hats",
+      "category": "drums.hat",
+      "url": "https://freesound.org/people/ani_music/sounds/165321",
+      "previewUrl": "https://cdn.freesound.org/previews/165/165321_3008343-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "ani_music",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.87
+    },
+    {
+      "id": "openverse:75463750-6f1b-452b-84e6-b098f2908511",
+      "provider": "openverse",
+      "title": "Hi hat foot pedal",
+      "category": "drums.hat",
+      "url": "https://commons.wikimedia.org/w/index.php?curid=93545",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Hi_hat_foot_pedal.ogg",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "No machine-readable author provided. Clngre~commonswiki assumed (based on copyright claims).",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg"
+      ],
+      "durationSec": 3.522
+    },
+    {
+      "id": "openverse:c4121c51-f651-4b6a-bd44-0435d2a8f08c",
+      "provider": "openverse",
+      "title": "Reverse Cl Hi Hat 2.wav",
+      "category": "drums.hat",
+      "url": "https://freesound.org/people/VEXST/sounds/26890",
+      "previewUrl": "https://cdn.freesound.org/previews/26/26890_113878-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "VEXST",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.283
+    },
+    {
+      "id": "openverse:e2f22ffe-30a6-448c-9f2a-57b7877a33a8",
+      "provider": "openverse",
+      "title": "Hi Hat Closed.wav",
+      "category": "drums.hat",
+      "url": "https://freesound.org/people/thealmightysound/sounds/87725",
+      "previewUrl": "https://cdn.freesound.org/previews/87/87725_932703-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "thealmightysound",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.847
+    },
+    {
+      "id": "openverse:559aefe4-5568-4477-a206-295f644118ce",
+      "provider": "openverse",
+      "title": "rake - hi hat closed and open",
+      "category": "drums.hat",
+      "url": "https://freesound.org/people/Selector/sounds/185273",
+      "previewUrl": "https://cdn.freesound.org/previews/185/185273_270868-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Selector",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 3
+    },
+    {
+      "id": "openverse:423f2dd6-f97f-45af-a2c3-5dcdc22b135c",
+      "provider": "openverse",
+      "title": "Closed Hi Hat 1.wav",
+      "category": "drums.hat.closed",
+      "url": "https://freesound.org/people/VEXST/sounds/26879",
+      "previewUrl": "https://cdn.freesound.org/previews/26/26879_113878-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "VEXST",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.323
+    },
+    {
+      "id": "openverse:e47e0cde-6c03-42dc-875e-13a6bddf745e",
+      "provider": "openverse",
+      "title": "Closed Hi Hat 4.wav",
+      "category": "drums.hat.closed",
+      "url": "https://freesound.org/people/VEXST/sounds/26882",
+      "previewUrl": "https://cdn.freesound.org/previews/26/26882_113878-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "VEXST",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.212
+    },
+    {
+      "id": "openverse:273e56dd-a9ed-4874-8ae3-3f3b7946b693",
+      "provider": "openverse",
+      "title": "Hi-Hat Hit",
+      "category": "drums.hat",
+      "url": "https://freesound.org/people/Sajmund/sounds/132415",
+      "previewUrl": "https://cdn.freesound.org/previews/132/132415_2412414-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Sajmund",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "aiff"
+      ],
+      "durationSec": 0.979
+    },
+    {
+      "id": "openverse:fa11c1e2-ccc8-40be-97d0-0ae8699816b3",
+      "provider": "openverse",
+      "title": "Closed Hi Hat 3.wav",
+      "category": "drums.hat.closed",
+      "url": "https://freesound.org/people/VEXST/sounds/26881",
+      "previewUrl": "https://cdn.freesound.org/previews/26/26881_113878-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "VEXST",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.198
+    },
+    {
+      "id": "openverse:738166e5-d021-4230-ac9c-d3c34d04c50e",
+      "provider": "openverse",
+      "title": "Rock beat hi hat",
+      "category": "drums.hat",
+      "url": "https://commons.wikimedia.org/w/index.php?curid=93555",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Rock_beat_hi_hat.ogg",
+      "downloadable": true,
+      "author": "No machine-readable author provided. Clngre~commonswiki assumed (based on copyright claims).",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg"
+      ],
+      "durationSec": 9.167
+    },
+    {
+      "id": "openverse:87c6329a-e497-41cc-9ce2-9ce6def6da7d",
+      "provider": "openverse",
+      "title": "Hi hat open",
+      "category": "drums.hat",
+      "url": "https://commons.wikimedia.org/w/index.php?curid=93543",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Hi_hat_open.ogg",
+      "downloadable": true,
+      "author": "No machine-readable author provided. Clngre~commonswiki assumed (based on copyright claims).",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg"
+      ],
+      "durationSec": 4.377
+    }
+  ]
+}

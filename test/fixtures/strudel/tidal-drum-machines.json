@@ -1,0 +1,46 @@
+{
+ "_base": "https://raw.githubusercontent.com/ritchse/tidal-drum-machines/main/machines/",
+ "RolandTR808_bd": [
+  "RolandTR808/rolandtr808-bd/BD0000.WAV",
+  "RolandTR808/rolandtr808-bd/BD0010.WAV",
+  "RolandTR808/rolandtr808-bd/BD0025.WAV"
+ ],
+ "RolandTR808_sd": [
+  "RolandTR808/rolandtr808-sd/SD0000.WAV",
+  "RolandTR808/rolandtr808-sd/SD0010.WAV"
+ ],
+ "RolandTR808_hh": [
+  "RolandTR808/rolandtr808-hh/CH.WAV"
+ ],
+ "RolandTR808_oh": [
+  "RolandTR808/rolandtr808-oh/OH00.WAV"
+ ],
+ "RolandTR808_cp": [
+  "RolandTR808/rolandtr808-cp/cp0.wav"
+ ],
+ "RolandTR808_rim": [
+  "RolandTR808/rolandtr808-rim/RS.WAV"
+ ],
+ "RolandTR808_lt": [
+  "RolandTR808/rolandtr808-lt/LT00.WAV"
+ ],
+ "RolandTR808_cr": [
+  "RolandTR808/rolandtr808-cr/CY0000.WAV"
+ ],
+ "RolandTR808_cb": [
+  "RolandTR808/rolandtr808-cb/CB.WAV"
+ ],
+ "RolandTR909_rd": [
+  "RolandTR909/rolandtr909-rd/Ride.wav"
+ ],
+ "LinnDrum_sh": [
+  "LinnDrum/linndrum-sh/Cabasa.wav"
+ ],
+ "AkaiMPC60_misc": [
+  "AkaiMPC60/akaimpc60-misc/Bass.wav",
+  "AkaiMPC60/akaimpc60-misc/Electric Piano.wav"
+ ],
+ "OberheimDMX_": [
+  "OberheimDMX/oberheimdmx--perc/Timbale H.wav"
+ ]
+}

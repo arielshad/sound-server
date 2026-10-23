@@ -1,0 +1,3272 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Sound Server API",
+    "version": "0.1.0",
+    "summary": "One search API for free music samples: drums, 808s, loops, vocals, FX, foley and instruments, with licence verdicts.",
+    "description": "Search 35 sample sites at once (Freesound, Wikimedia Commons, Openverse, Internet Archive, ccMixter, BBC Sound Effects,\nKenney, Mixkit and more), get each sample's licence with a plain verdict on commercial use, preview it, and download the\noriginal WAV/AIFF/FLAC with its credits. A free, non-commercial service: files always come from the source sites, never\nfrom copies hosted here.\n\n**Typical flow:** `GET /v1/search` → `GET /v1/samples/{id}` → `GET /v1/samples/{id}/download`. To assemble a drum kit\nin one call, `POST /v1/kits`.\n\n**Licence verdicts:** every sample's `license.verdict` answers \"can this go into a commercially released track?\": `yes` (commercial use ok), `yes-with-credit` (commercial use ok with credit), `restricted` (restricted: read the conditions), `clearance-required` (needs paid clearance per release), `check-terms` (unclear: check the terms), `no` (non-commercial only).\n`commercial=true` keeps only `yes` and `yes-with-credit`. Verdicts are a summary, not legal advice: read the licence before releasing.\n\n**Authentication:** the public server at sound.shep.bot is open. Self-hosted servers can require a key\n(`SOUND_SERVER_API_KEY`); send it as `Authorization: Bearer <key>` or `x-api-key: <key>`. Keys are accepted in headers\nonly, never in the URL, so they stay out of logs, browser history and Referer headers. Freesound originals need your own\nFreesound token in `x-freesound-token`.\n\n**For AI agents:** the same capabilities are exposed as MCP tools at `/mcp` (Streamable HTTP).\nSee [Use with coding agents](/docs/mcp).\n\n**Rate limits:** 120 requests per minute per client on `/v1/*` and `/mcp`. Every response carries\n`RateLimit-Policy` and `RateLimit` (IETF RateLimit header fields) plus `RateLimit-Limit`,\n`RateLimit-Remaining` and `RateLimit-Reset`; a `429` adds `Retry-After` (seconds).\n\n**Versioning:** the major version is in the path (`/v1`). Breaking changes only ship in a new major\nversion; deprecated endpoints announce themselves with `Deprecation` and `Sunset` headers at least\n90 days ahead. See [Versioning & deprecation](/docs/api/versioning).",
+    "contact": {
+      "name": "Sound Server",
+      "url": "https://github.com/arielshad/sound-server"
+    },
+    "license": {
+      "name": "Apache-2.0",
+      "identifier": "Apache-2.0"
+    }
+  },
+  "externalDocs": {
+    "description": "Guides: quick start, MCP setup, API usage",
+    "url": "https://sound.shep.bot/docs"
+  },
+  "x-api-lifecycle": {
+    "versioning": "path (/v1)",
+    "deprecationPolicy": "https://sound.shep.bot/docs/api/versioning",
+    "minimumSunsetNoticeDays": 90
+  },
+  "servers": [
+    {
+      "url": "https://sound.shep.bot",
+      "description": "This server"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Search",
+      "description": "Find samples across every source in one call."
+    },
+    {
+      "name": "Samples",
+      "description": "Details, previews, file selection and downloads for one sample."
+    },
+    {
+      "name": "Kits",
+      "description": "Assemble a matching drum kit in one call."
+    },
+    {
+      "name": "Sources",
+      "description": "The sample sites this server searches, what they hold, and how the server is used."
+    },
+    {
+      "name": "MCP",
+      "description": "Model Context Protocol endpoint for AI agents."
+    },
+    {
+      "name": "System",
+      "description": "Health and machine-readable descriptions."
+    }
+  ],
+  "security": [
+    {},
+    {
+      "bearer": []
+    },
+    {
+      "apiKey": []
+    }
+  ],
+  "components": {
+    "securitySchemes": {
+      "bearer": {
+        "type": "http",
+        "scheme": "bearer",
+        "description": "Only when the server sets SOUND_SERVER_API_KEY."
+      },
+      "apiKey": {
+        "type": "apiKey",
+        "in": "header",
+        "name": "x-api-key",
+        "description": "Same key, as a header. Query parameters are not accepted."
+      }
+    },
+    "headers": {
+      "RateLimit": {
+        "description": "Current quota, e.g. `\"default\";r=117;t=42` (r = requests remaining, t = seconds until reset).",
+        "schema": {
+          "type": "string"
+        }
+      },
+      "RateLimit-Policy": {
+        "description": "Quota policy, e.g. `\"default\";q=120;w=60` (q = requests per window, w = window seconds).",
+        "schema": {
+          "type": "string"
+        }
+      },
+      "RateLimit-Limit": {
+        "description": "Requests allowed per window.",
+        "schema": {
+          "type": "integer"
+        }
+      },
+      "RateLimit-Remaining": {
+        "description": "Requests left in the current window.",
+        "schema": {
+          "type": "integer"
+        }
+      },
+      "RateLimit-Reset": {
+        "description": "Seconds until the window resets.",
+        "schema": {
+          "type": "integer"
+        }
+      },
+      "Retry-After": {
+        "description": "Seconds to wait before retrying (on 429).",
+        "schema": {
+          "type": "integer"
+        }
+      },
+      "X-License": {
+        "description": "The sample's licence id and verdict, e.g. `CC-BY-4.0; verdict=yes-with-credit`.",
+        "schema": {
+          "type": "string"
+        }
+      },
+      "X-Attribution": {
+        "description": "The credit line to publish with your track (ASCII), when the licence asks for one.",
+        "schema": {
+          "type": "string"
+        }
+      }
+    },
+    "responses": {
+      "TooManyRequests": {
+        "description": "Rate limit exceeded. Wait `Retry-After` seconds.",
+        "headers": {
+          "Retry-After": {
+            "$ref": "#/components/headers/Retry-After"
+          },
+          "RateLimit": {
+            "$ref": "#/components/headers/RateLimit"
+          },
+          "RateLimit-Policy": {
+            "$ref": "#/components/headers/RateLimit-Policy"
+          }
+        },
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/Error"
+            },
+            "example": {
+              "error": "Rate limit exceeded: 120 requests per 60s. Retry after 12s.",
+              "retryAfter": 12
+            }
+          }
+        }
+      }
+    },
+    "schemas": {
+      "Category": {
+        "type": "string",
+        "enum": [
+          "drums",
+          "drums.kick",
+          "drums.snare",
+          "drums.clap",
+          "drums.hat",
+          "drums.hat.closed",
+          "drums.hat.open",
+          "drums.cymbal",
+          "drums.cymbal.crash",
+          "drums.cymbal.ride",
+          "drums.tom",
+          "drums.perc",
+          "drums.fill",
+          "drums.break",
+          "bass",
+          "bass.808",
+          "bass.sub",
+          "vocals",
+          "vocals.acapella",
+          "vocals.chop",
+          "vocals.shout",
+          "vocals.spoken",
+          "vocals.choir",
+          "fx",
+          "fx.riser",
+          "fx.downlifter",
+          "fx.impact",
+          "fx.sweep",
+          "fx.zap",
+          "fx.noise",
+          "fx.glitch",
+          "fx.transition",
+          "foley",
+          "ambience",
+          "keys",
+          "guitar",
+          "synth",
+          "synth.pad",
+          "synth.lead",
+          "synth.pluck",
+          "synth.stab",
+          "strings",
+          "brass",
+          "woodwind",
+          "mallets",
+          "other"
+        ],
+        "description": "Dot-path category. A parent matches its children in filters (`drums` includes `drums.kick`). Top level: drums, bass, vocals, fx, foley, ambience, keys, guitar, synth, strings, brass, woodwind, mallets, other."
+      },
+      "SampleForm": {
+        "type": "string",
+        "enum": [
+          "one-shot",
+          "loop",
+          "phrase",
+          "multisample",
+          "pack",
+          "midi",
+          "preset"
+        ],
+        "description": "`one-shot` a single hit or note; `loop` loops seamlessly at a tempo; `phrase` a longer non-looping performance; `multisample` a playable instrument; `pack` a zip of many samples; `midi` a MIDI file; `preset` a synth preset."
+      },
+      "CommercialVerdict": {
+        "type": "string",
+        "enum": [
+          "yes",
+          "yes-with-credit",
+          "restricted",
+          "clearance-required",
+          "check-terms",
+          "no"
+        ],
+        "description": "Can this go into a commercially released track? `yes` (commercial use ok), `yes-with-credit` (commercial use ok with credit), `restricted` (restricted: read the conditions), `clearance-required` (needs paid clearance per release), `check-terms` (unclear: check the terms), `no` (non-commercial only)."
+      },
+      "NativeFilter": {
+        "type": "string",
+        "enum": [
+          "categories",
+          "forms",
+          "bpm",
+          "key",
+          "duration",
+          "commercialOnly",
+          "freeOnly"
+        ]
+      },
+      "MusicalKey": {
+        "type": "object",
+        "required": [
+          "tonic",
+          "mode"
+        ],
+        "properties": {
+          "tonic": {
+            "type": "string",
+            "enum": [
+              "C",
+              "C#",
+              "D",
+              "D#",
+              "E",
+              "F",
+              "F#",
+              "G",
+              "G#",
+              "A",
+              "A#",
+              "B"
+            ]
+          },
+          "mode": {
+            "type": "string",
+            "enum": [
+              "major",
+              "minor"
+            ]
+          }
+        },
+        "example": {
+          "tonic": "F",
+          "mode": "minor"
+        }
+      },
+      "License": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "assertedBy",
+          "verdict"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "SPDX id where one exists (CC0-1.0, CC-BY-4.0, CC-BY-NC-4.0…), else `LicenseRef-*`.",
+            "examples": [
+              "CC0-1.0",
+              "CC-BY-4.0",
+              "LicenseRef-BBC-RemArc"
+            ]
+          },
+          "name": {
+            "type": "string",
+            "examples": [
+              "CC0 1.0",
+              "CC BY 4.0",
+              "Royalty free (Mixkit licence)"
+            ]
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "commercialUse": {
+            "type": "boolean"
+          },
+          "attributionRequired": {
+            "type": "boolean"
+          },
+          "shareAlike": {
+            "type": "boolean"
+          },
+          "redistribution": {
+            "type": "boolean",
+            "description": "May the sample itself be passed on (in a pack, repo or dataset)? Almost always false."
+          },
+          "assertedBy": {
+            "type": "string",
+            "enum": [
+              "source",
+              "site",
+              "uploader"
+            ],
+            "description": "`source`: recorded per item by the site; `site`: one licence for the whole site; `uploader`: claimed by an anonymous uploader and not verified (capped at `check-terms`)."
+          },
+          "verdict": {
+            "$ref": "#/components/schemas/CommercialVerdict"
+          },
+          "note": {
+            "type": "string",
+            "description": "One line on why the verdict is what it is."
+          }
+        },
+        "example": {
+          "id": "CC0-1.0",
+          "name": "CC0 1.0",
+          "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "commercialUse": true,
+          "attributionRequired": false,
+          "redistribution": true,
+          "assertedBy": "source",
+          "verdict": "yes"
+        }
+      },
+      "Price": {
+        "type": "object",
+        "required": [
+          "free"
+        ],
+        "properties": {
+          "free": {
+            "type": "boolean"
+          },
+          "amount": {
+            "type": "number"
+          },
+          "currency": {
+            "type": "string"
+          }
+        }
+      },
+      "Sample": {
+        "type": "object",
+        "required": [
+          "id",
+          "provider",
+          "nativeId",
+          "title",
+          "url",
+          "tags",
+          "category",
+          "unit",
+          "downloadable"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Globally unique `<provider>:<nativeId>`."
+          },
+          "provider": {
+            "type": "string"
+          },
+          "nativeId": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "description": "The sample's page on the source site."
+          },
+          "author": {
+            "type": "string"
+          },
+          "authorUrl": {
+            "type": "string",
+            "format": "uri"
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "genres": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "category": {
+            "$ref": "#/components/schemas/Category"
+          },
+          "categoryEvidence": {
+            "type": "object",
+            "required": [
+              "by",
+              "confidence"
+            ],
+            "description": "How the category was decided: by the `source`, the `file` name, word `rules` or a `model`, and how sure (0..1).",
+            "properties": {
+              "by": {
+                "type": "string",
+                "enum": [
+                  "source",
+                  "file",
+                  "rules",
+                  "model"
+                ]
+              },
+              "confidence": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              }
+            }
+          },
+          "form": {
+            "$ref": "#/components/schemas/SampleForm"
+          },
+          "unit": {
+            "type": "string",
+            "enum": [
+              "sample",
+              "pack",
+              "instrument"
+            ],
+            "description": "One sound, a pack of many, or a playable instrument."
+          },
+          "packSize": {
+            "type": "integer",
+            "description": "Number of sounds when `unit` is pack or instrument."
+          },
+          "bpm": {
+            "type": "number"
+          },
+          "key": {
+            "$ref": "#/components/schemas/MusicalKey"
+          },
+          "rootNote": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 127,
+            "description": "MIDI note of a pitched one-shot (60 = C4)."
+          },
+          "durationSec": {
+            "type": "number"
+          },
+          "sampleRate": {
+            "type": "integer"
+          },
+          "bitDepth": {
+            "type": "integer"
+          },
+          "channels": {
+            "type": "integer"
+          },
+          "loudnessLufs": {
+            "type": "number"
+          },
+          "previewUrl": {
+            "type": "string",
+            "format": "uri",
+            "description": "Always-playable lower quality file (MP3/OGG) for auditioning."
+          },
+          "previewNeedsReferer": {
+            "type": "boolean",
+            "description": "Play it through `/v1/samples/{id}/preview` instead of `previewUrl`."
+          },
+          "thumbnailUrl": {
+            "type": "string",
+            "format": "uri",
+            "description": "Pack artwork or a waveform image."
+          },
+          "formats": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Known file formats: wav, aiff, flac, ogg, mp3, mid, zip…"
+          },
+          "license": {
+            "$ref": "#/components/schemas/License"
+          },
+          "attribution": {
+            "type": "string",
+            "description": "Ready-to-paste credit line, when the licence asks for one."
+          },
+          "price": {
+            "$ref": "#/components/schemas/Price"
+          },
+          "requiresAccount": {
+            "type": "boolean",
+            "description": "The full-quality file needs an account on the source site (e.g. Freesound originals)."
+          },
+          "downloadable": {
+            "type": "boolean",
+            "description": "True when this server can fetch the files directly."
+          },
+          "createdAt": {
+            "type": "string"
+          },
+          "popularity": {
+            "type": "integer",
+            "description": "Downloads or plays on the source, when published."
+          },
+          "sameAs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Ids of the same sound on other sources."
+          },
+          "score": {
+            "type": "number",
+            "description": "Relevance 0..1 assigned by the ranker."
+          }
+        },
+        "example": {
+          "id": "freesound:2086",
+          "provider": "freesound",
+          "nativeId": "2086",
+          "title": "Punchy Kick 01",
+          "url": "https://freesound.org/people/drumkid/sounds/2086/",
+          "author": "drumkid",
+          "authorUrl": "https://freesound.org/people/drumkid/",
+          "tags": [
+            "kick",
+            "drum",
+            "one-shot",
+            "punchy",
+            "electronic"
+          ],
+          "category": "drums.kick",
+          "categoryEvidence": {
+            "by": "source",
+            "confidence": 1
+          },
+          "form": "one-shot",
+          "unit": "sample",
+          "durationSec": 0.42,
+          "sampleRate": 44100,
+          "bitDepth": 24,
+          "channels": 1,
+          "previewUrl": "https://cdn.freesound.org/previews/2/2086_4021-hq.mp3",
+          "formats": [
+            "wav",
+            "mp3",
+            "ogg"
+          ],
+          "license": {
+            "id": "CC0-1.0",
+            "name": "CC0 1.0",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "commercialUse": true,
+            "attributionRequired": false,
+            "redistribution": true,
+            "assertedBy": "source",
+            "verdict": "yes"
+          },
+          "price": {
+            "free": true
+          },
+          "requiresAccount": true,
+          "downloadable": true,
+          "popularity": 18342,
+          "score": 0.91
+        }
+      },
+      "SampleFile": {
+        "type": "object",
+        "required": [
+          "url",
+          "filename",
+          "format",
+          "role"
+        ],
+        "properties": {
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "filename": {
+            "type": "string"
+          },
+          "format": {
+            "type": "string",
+            "description": "Lowercase extension: wav, aiff, flac, ogg, mp3, zip, mid…"
+          },
+          "role": {
+            "type": "string",
+            "enum": [
+              "original",
+              "preview",
+              "pack",
+              "stem",
+              "midi"
+            ]
+          },
+          "sampleRate": {
+            "type": "integer"
+          },
+          "bitDepth": {
+            "type": "integer"
+          },
+          "channels": {
+            "type": "integer"
+          },
+          "sizeBytes": {
+            "type": "integer"
+          },
+          "requiresAuth": {
+            "type": "boolean",
+            "description": "Needs a login, a purchase or your own token on the source site."
+          }
+        }
+      },
+      "SampleDetails": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/Sample"
+          },
+          {
+            "type": "object",
+            "required": [
+              "files"
+            ],
+            "properties": {
+              "files": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/SampleFile"
+                }
+              },
+              "shareUrl": {
+                "type": "string",
+                "format": "uri",
+                "description": "Web page for people: opens this sample in the search app and unfurls in chat apps with a preview card.",
+                "example": "https://sound.shep.bot/search?sample=freesound%3A2086"
+              }
+            }
+          }
+        ],
+        "example": {
+          "id": "freesound:2086",
+          "provider": "freesound",
+          "nativeId": "2086",
+          "title": "Punchy Kick 01",
+          "url": "https://freesound.org/people/drumkid/sounds/2086/",
+          "author": "drumkid",
+          "authorUrl": "https://freesound.org/people/drumkid/",
+          "tags": [
+            "kick",
+            "drum",
+            "one-shot",
+            "punchy",
+            "electronic"
+          ],
+          "category": "drums.kick",
+          "categoryEvidence": {
+            "by": "source",
+            "confidence": 1
+          },
+          "form": "one-shot",
+          "unit": "sample",
+          "durationSec": 0.42,
+          "sampleRate": 44100,
+          "bitDepth": 24,
+          "channels": 1,
+          "previewUrl": "https://cdn.freesound.org/previews/2/2086_4021-hq.mp3",
+          "formats": [
+            "wav",
+            "mp3",
+            "ogg"
+          ],
+          "license": {
+            "id": "CC0-1.0",
+            "name": "CC0 1.0",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "commercialUse": true,
+            "attributionRequired": false,
+            "redistribution": true,
+            "assertedBy": "source",
+            "verdict": "yes"
+          },
+          "price": {
+            "free": true
+          },
+          "requiresAccount": true,
+          "downloadable": true,
+          "popularity": 18342,
+          "score": 0.91,
+          "files": [
+            {
+              "url": "https://cdn.freesound.org/previews/2/2086_4021-hq.mp3",
+              "filename": "2086_punchy-kick-01.mp3",
+              "format": "mp3",
+              "role": "preview",
+              "sizeBytes": 16840
+            },
+            {
+              "url": "https://freesound.org/apiv2/sounds/2086/download/",
+              "filename": "punchy-kick-01.wav",
+              "format": "wav",
+              "role": "original",
+              "sampleRate": 44100,
+              "bitDepth": 24,
+              "channels": 1,
+              "sizeBytes": 55620,
+              "requiresAuth": true
+            }
+          ],
+          "shareUrl": "https://sound.shep.bot/search?sample=freesound%3A2086"
+        }
+      },
+      "SampleFilters": {
+        "type": "object",
+        "description": "The filters in force after parsing the query (explicit parameters win over words in `q`).",
+        "properties": {
+          "categories": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Category"
+            }
+          },
+          "forms": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SampleForm"
+            }
+          },
+          "bpm": {
+            "type": "object",
+            "properties": {
+              "min": {
+                "type": "number"
+              },
+              "max": {
+                "type": "number"
+              }
+            }
+          },
+          "key": {
+            "type": "object",
+            "required": [
+              "tonic"
+            ],
+            "properties": {
+              "tonic": {
+                "type": "string",
+                "enum": [
+                  "C",
+                  "C#",
+                  "D",
+                  "D#",
+                  "E",
+                  "F",
+                  "F#",
+                  "G",
+                  "G#",
+                  "A",
+                  "A#",
+                  "B"
+                ]
+              },
+              "mode": {
+                "type": "string",
+                "enum": [
+                  "major",
+                  "minor"
+                ]
+              }
+            }
+          },
+          "maxDurationSec": {
+            "type": "number"
+          },
+          "minDurationSec": {
+            "type": "number"
+          },
+          "commercialOnly": {
+            "type": "boolean"
+          },
+          "freeOnly": {
+            "type": "boolean"
+          }
+        },
+        "example": {
+          "categories": [
+            "vocals"
+          ],
+          "forms": [
+            "loop"
+          ],
+          "bpm": {
+            "min": 140,
+            "max": 140
+          },
+          "key": {
+            "tonic": "F",
+            "mode": "minor"
+          }
+        }
+      },
+      "ProviderSearchReport": {
+        "type": "object",
+        "required": [
+          "provider",
+          "name",
+          "status",
+          "count",
+          "tookMs"
+        ],
+        "properties": {
+          "provider": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "ok",
+              "error",
+              "timeout",
+              "skipped",
+              "link"
+            ],
+            "description": "`link` = the site forbids or blocks automated access; use `searchUrl` to run the same search there. `skipped` says why in `error`."
+          },
+          "count": {
+            "type": "integer"
+          },
+          "total": {
+            "type": "integer",
+            "description": "Total hits the source reported."
+          },
+          "searchUrl": {
+            "type": "string",
+            "format": "uri",
+            "description": "The same search on the source website."
+          },
+          "error": {
+            "type": "string"
+          },
+          "filteredLocally": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/NativeFilter"
+            },
+            "description": "Filters this source could not apply itself; the server applied them to the page it returned, so it may hold fewer results than `limit`."
+          },
+          "tookMs": {
+            "type": "integer"
+          }
+        }
+      },
+      "SearchResponse": {
+        "type": "object",
+        "required": [
+          "query",
+          "filters",
+          "results",
+          "providers"
+        ],
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "The free text left after BPM, key and form words were parsed out."
+          },
+          "filters": {
+            "$ref": "#/components/schemas/SampleFilters"
+          },
+          "results": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Sample"
+            },
+            "description": "Merged and ranked; a sound mirrored by several sources appears once."
+          },
+          "providers": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ProviderSearchReport"
+            },
+            "description": "One status line per source."
+          }
+        },
+        "example": {
+          "query": "vocal chop",
+          "filters": {
+            "categories": [
+              "vocals"
+            ],
+            "bpm": {
+              "min": 140,
+              "max": 140
+            },
+            "key": {
+              "tonic": "F",
+              "mode": "minor"
+            }
+          },
+          "results": [
+            {
+              "id": "ccmixter:61234",
+              "provider": "ccmixter",
+              "nativeId": "61234",
+              "title": "Vocal Chop Loop 140 BPM F minor",
+              "url": "https://ccmixter.org/files/singer_k/61234",
+              "author": "singer_k",
+              "tags": [
+                "vocal",
+                "chop",
+                "female",
+                "loop"
+              ],
+              "category": "vocals.chop",
+              "categoryEvidence": {
+                "by": "rules",
+                "confidence": 0.85
+              },
+              "form": "loop",
+              "unit": "sample",
+              "bpm": 140,
+              "key": {
+                "tonic": "F",
+                "mode": "minor"
+              },
+              "durationSec": 6.86,
+              "previewUrl": "https://ccmixter.org/content/singer_k/singer_k_-_Vocal_Chop_Loop.mp3",
+              "formats": [
+                "mp3",
+                "wav"
+              ],
+              "license": {
+                "id": "CC-BY-NC-3.0",
+                "name": "CC BY-NC 3.0",
+                "url": "https://creativecommons.org/licenses/by-nc/3.0/",
+                "commercialUse": false,
+                "attributionRequired": true,
+                "redistribution": true,
+                "assertedBy": "source",
+                "verdict": "no",
+                "note": "Non-commercial only."
+              },
+              "price": {
+                "free": true
+              },
+              "downloadable": true,
+              "score": 0.64
+            }
+          ],
+          "providers": [
+            {
+              "provider": "freesound",
+              "name": "Freesound",
+              "status": "ok",
+              "count": 18,
+              "total": 412,
+              "searchUrl": "https://freesound.org/search/?q=vocal+chop",
+              "tookMs": 640
+            },
+            {
+              "provider": "ccmixter",
+              "name": "ccMixter",
+              "status": "ok",
+              "count": 6,
+              "filteredLocally": [
+                "key"
+              ],
+              "tookMs": 910
+            },
+            {
+              "provider": "splice",
+              "name": "Splice",
+              "status": "link",
+              "count": 0,
+              "searchUrl": "https://splice.com/sounds/search?q=vocal+chop",
+              "tookMs": 0
+            }
+          ]
+        }
+      },
+      "Provider": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "homepage",
+          "description",
+          "categories",
+          "access",
+          "pricing",
+          "supportsDownload"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "homepage": {
+            "type": "string",
+            "format": "uri"
+          },
+          "description": {
+            "type": "string"
+          },
+          "categories": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Category"
+            },
+            "description": "Top-level categories the source carries."
+          },
+          "forms": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SampleForm"
+            },
+            "description": "Forms it carries; absent = any."
+          },
+          "access": {
+            "type": "string",
+            "enum": [
+              "api",
+              "static",
+              "scrape",
+              "link"
+            ],
+            "description": "`api` official API; `static` a curated manifest filtered locally; `scrape` public pages; `link` deep links only (the site forbids or blocks automated access)."
+          },
+          "pricing": {
+            "type": "string",
+            "enum": [
+              "free",
+              "freemium",
+              "paid"
+            ]
+          },
+          "license": {
+            "$ref": "#/components/schemas/License"
+          },
+          "apiKeyEnv": {
+            "type": "string",
+            "description": "Environment variable holding the source's API key on a self-hosted server."
+          },
+          "supportsDownload": {
+            "type": "boolean"
+          },
+          "nativeFilters": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/NativeFilter"
+            },
+            "description": "Filters the source applies itself; the rest are applied locally."
+          },
+          "enabled": {
+            "type": "boolean"
+          }
+        }
+      },
+      "FileSelection": {
+        "type": "object",
+        "required": [
+          "id",
+          "files"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "license": {
+            "$ref": "#/components/schemas/License"
+          },
+          "attribution": {
+            "type": "string"
+          },
+          "totalBytes": {
+            "type": "integer"
+          },
+          "files": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SampleFile"
+            }
+          }
+        },
+        "example": {
+          "id": "freesound:2086",
+          "license": {
+            "id": "CC0-1.0",
+            "name": "CC0 1.0",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "commercialUse": true,
+            "attributionRequired": false,
+            "redistribution": true,
+            "assertedBy": "source",
+            "verdict": "yes"
+          },
+          "totalBytes": 55620,
+          "files": [
+            {
+              "url": "https://freesound.org/apiv2/sounds/2086/download/",
+              "filename": "punchy-kick-01.wav",
+              "format": "wav",
+              "role": "original",
+              "sampleRate": 44100,
+              "bitDepth": 24,
+              "channels": 1,
+              "sizeBytes": 55620,
+              "requiresAuth": true
+            }
+          ]
+        }
+      },
+      "KitRequest": {
+        "type": "object",
+        "properties": {
+          "style": {
+            "type": "string",
+            "maxLength": 80,
+            "description": "Genre or character words added to every slot's search.",
+            "examples": [
+              "dark trap",
+              "lofi",
+              "techno",
+              "90s boom bap"
+            ]
+          },
+          "slots": {
+            "type": "array",
+            "maxItems": 16,
+            "items": {
+              "type": "string",
+              "maxLength": 40
+            },
+            "description": "Slot names: category ids (`drums.kick`), short ids (`hat.closed`) or words (`crash`, `perc`, `riser`, `vocal chop`). Default: kick, snare, clap, hat.closed, hat.open, 808."
+          },
+          "bpm": {
+            "type": "number",
+            "minimum": 40,
+            "maximum": 300
+          },
+          "key": {
+            "type": "string",
+            "maxLength": 20,
+            "description": "Key for pitched slots (808, bass, synth), e.g. \"F minor\" or \"F#m\"."
+          },
+          "commercialOnly": {
+            "type": "boolean",
+            "default": true,
+            "description": "Only picks whose verdict is `yes` or `yes-with-credit`."
+          },
+          "providers": {
+            "type": "array",
+            "maxItems": 40,
+            "items": {
+              "type": "string"
+            }
+          },
+          "perSlot": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 5,
+            "default": 3,
+            "description": "Alternatives per slot."
+          }
+        },
+        "example": {
+          "style": "dark trap",
+          "slots": [
+            "kick",
+            "snare",
+            "hat.closed",
+            "808"
+          ],
+          "bpm": 140,
+          "key": "F minor"
+        }
+      },
+      "KitSample": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "category",
+          "source",
+          "url",
+          "license",
+          "verdict"
+        ],
+        "description": "A short summary of a sample picked for a kit; `GET /v1/samples/{id}` has the rest.",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "category": {
+            "$ref": "#/components/schemas/Category"
+          },
+          "form": {
+            "$ref": "#/components/schemas/SampleForm"
+          },
+          "duration": {
+            "type": "number",
+            "description": "Seconds."
+          },
+          "key": {
+            "type": "string",
+            "examples": [
+              "F minor"
+            ]
+          },
+          "source": {
+            "type": "string",
+            "description": "Provider id."
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "preview": {
+            "type": "string",
+            "format": "uri",
+            "description": "Playable URL (through this server's CORS-enabled preview proxy)."
+          },
+          "license": {
+            "type": "string",
+            "description": "Licence name and verdict label."
+          },
+          "verdict": {
+            "$ref": "#/components/schemas/CommercialVerdict"
+          },
+          "attribution": {
+            "type": "string"
+          }
+        }
+      },
+      "KitSlot": {
+        "type": "object",
+        "required": [
+          "slot",
+          "category",
+          "alternatives",
+          "reason"
+        ],
+        "properties": {
+          "slot": {
+            "type": "string"
+          },
+          "category": {
+            "$ref": "#/components/schemas/Category"
+          },
+          "pick": {
+            "$ref": "#/components/schemas/KitSample"
+          },
+          "alternatives": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/KitSample"
+            }
+          },
+          "reason": {
+            "type": "string",
+            "description": "Why this pick won, or why the slot is empty."
+          }
+        }
+      },
+      "Kit": {
+        "type": "object",
+        "required": [
+          "name",
+          "slots",
+          "licences",
+          "creditsNeeded"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Short kit id (from the style); also the Strudel bank name."
+          },
+          "style": {
+            "type": "string"
+          },
+          "bpm": {
+            "type": "number"
+          },
+          "key": {
+            "type": "string"
+          },
+          "slots": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/KitSlot"
+            }
+          },
+          "warnings": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "licences": {
+            "type": "object",
+            "description": "Number of picks per licence verdict.",
+            "properties": {
+              "yes": {
+                "type": "integer"
+              },
+              "yes-with-credit": {
+                "type": "integer"
+              },
+              "restricted": {
+                "type": "integer"
+              },
+              "clearance-required": {
+                "type": "integer"
+              },
+              "check-terms": {
+                "type": "integer"
+              },
+              "no": {
+                "type": "integer"
+              }
+            }
+          },
+          "creditsNeeded": {
+            "type": "boolean",
+            "description": "True when any pick must be credited."
+          },
+          "credits": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "The credit lines to publish with your track."
+          },
+          "strudel": {
+            "type": "object",
+            "required": [
+              "map",
+              "snippet"
+            ],
+            "properties": {
+              "map": {
+                "type": "object",
+                "additionalProperties": {
+                  "oneOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  ]
+                },
+                "description": "strudel.json sample map (`<kit>_bd`, `<kit>_sd`…)."
+              },
+              "snippet": {
+                "type": "string",
+                "description": "Ready-to-paste Strudel code."
+              },
+              "note": {
+                "type": "string"
+              }
+            }
+          },
+          "gm": {
+            "type": "object",
+            "required": [
+              "bySlot",
+              "sfz"
+            ],
+            "description": "General MIDI drum mapping (kick 36, snare 38, clap 39, closed hat 42, open hat 46, 808 on 35) and an SFZ file for any SFZ sampler.",
+            "properties": {
+              "bySlot": {
+                "type": "object",
+                "additionalProperties": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 127
+                }
+              },
+              "sfz": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "example": {
+          "name": "dark-trap",
+          "style": "dark trap",
+          "bpm": 140,
+          "key": "F minor",
+          "slots": [
+            {
+              "slot": "kick",
+              "category": "drums.kick",
+              "pick": {
+                "id": "freesound:2086",
+                "title": "Punchy Kick 01",
+                "category": "drums.kick",
+                "form": "one-shot",
+                "duration": 0.42,
+                "source": "freesound",
+                "url": "https://freesound.org/people/drumkid/sounds/2086/",
+                "preview": "https://sound.shep.bot/v1/samples/freesound%3A2086/preview?proxy=1",
+                "license": "CC0 1.0: Commercial use OK",
+                "verdict": "yes"
+              },
+              "alternatives": [],
+              "reason": "one-shot, short, CC0"
+            },
+            {
+              "slot": "808",
+              "category": "bass.808",
+              "pick": {
+                "id": "freesound:448213",
+                "title": "808 Long F",
+                "category": "bass.808",
+                "form": "one-shot",
+                "duration": 2.6,
+                "source": "freesound",
+                "url": "https://freesound.org/people/lowend_lab/sounds/448213/",
+                "preview": "https://sound.shep.bot/v1/samples/freesound%3A448213/preview?proxy=1",
+                "license": "CC BY 4.0: Commercial use OK with credit",
+                "verdict": "yes-with-credit",
+                "key": "F minor",
+                "attribution": "“808 Long F” by lowend_lab (Freesound), https://freesound.org/people/lowend_lab/sounds/448213/, licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+              },
+              "alternatives": [],
+              "reason": "in key (F minor), one-shot"
+            }
+          ],
+          "licences": {
+            "yes": 1,
+            "yes-with-credit": 1,
+            "restricted": 0,
+            "clearance-required": 0,
+            "check-terms": 0,
+            "no": 0
+          },
+          "creditsNeeded": true,
+          "credits": [
+            "“808 Long F” by lowend_lab (Freesound), https://freesound.org/people/lowend_lab/sounds/448213/, licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+          ],
+          "strudel": {
+            "map": {
+              "dark_trap_bd": [
+                "https://sound.shep.bot/v1/samples/freesound%3A2086/preview?proxy=1"
+              ],
+              "dark_trap_808": [
+                "https://sound.shep.bot/v1/samples/freesound%3A448213/preview?proxy=1"
+              ]
+            },
+            "snippet": "samples({...})\ns(\"bd ~ ~ bd, ~ 808\").bank(\"dark_trap\")"
+          },
+          "gm": {
+            "bySlot": {
+              "808": 35,
+              "kick": 36
+            },
+            "sfz": "<group>\n<region> sample=… key=36\n"
+          }
+        }
+      },
+      "CountWithBound": {
+        "type": "object",
+        "required": [
+          "count"
+        ],
+        "properties": {
+          "count": {
+            "type": "integer"
+          },
+          "atLeast": {
+            "type": "boolean",
+            "description": "The count is a lower bound."
+          }
+        }
+      },
+      "SourceCensus": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "homepage",
+          "total",
+          "byCategory",
+          "method",
+          "countedAt"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "example": "freesound"
+          },
+          "name": {
+            "type": "string",
+            "example": "Freesound"
+          },
+          "homepage": {
+            "type": "string",
+            "format": "uri"
+          },
+          "license": {
+            "type": "string",
+            "description": "The source's single licence id, when uniform."
+          },
+          "pricing": {
+            "type": "string",
+            "enum": [
+              "free",
+              "freemium",
+              "paid"
+            ]
+          },
+          "supportsDownload": {
+            "type": "boolean"
+          },
+          "total": {
+            "type": "integer",
+            "description": "Listings on the source (free and paid)."
+          },
+          "atLeast": {
+            "type": "boolean"
+          },
+          "free": {
+            "type": "integer"
+          },
+          "byCategory": {
+            "type": "object",
+            "description": "Listings per top-level category; each listing counts once.",
+            "additionalProperties": {
+              "type": "integer"
+            },
+            "example": {
+              "drums": 182000,
+              "fx": 240000,
+              "ambience": 96000,
+              "vocals": 41000
+            }
+          },
+          "byLicense": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "integer"
+            }
+          },
+          "categories": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "integer"
+            },
+            "description": "The source's own categories or tags (may overlap)."
+          },
+          "unit": {
+            "type": "string",
+            "enum": [
+              "samples",
+              "packs"
+            ]
+          },
+          "addedLast30Days": {
+            "type": "integer"
+          },
+          "downloads": {
+            "type": "integer",
+            "description": "Total downloads, when the source publishes them."
+          },
+          "highlights": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "label",
+                "title",
+                "url"
+              ],
+              "properties": {
+                "label": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "value": {
+                  "type": "integer"
+                }
+              }
+            }
+          },
+          "method": {
+            "type": "string",
+            "description": "How the source was counted."
+          },
+          "countedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "stale": {
+            "type": "object",
+            "properties": {
+              "since": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "error": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "Catalog": {
+        "type": "object",
+        "required": [
+          "countedAt",
+          "totals",
+          "byCategory",
+          "byLicense",
+          "sources"
+        ],
+        "properties": {
+          "countedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "totals": {
+            "type": "object",
+            "properties": {
+              "listings": {
+                "$ref": "#/components/schemas/CountWithBound"
+              },
+              "free": {
+                "$ref": "#/components/schemas/CountWithBound"
+              },
+              "cc0": {
+                "$ref": "#/components/schemas/CountWithBound"
+              },
+              "directDownload": {
+                "$ref": "#/components/schemas/CountWithBound"
+              },
+              "addedLast30Days": {
+                "type": "integer"
+              },
+              "sourcesCounted": {
+                "type": "integer"
+              },
+              "sourcesLinked": {
+                "type": "integer"
+              }
+            }
+          },
+          "byCategory": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/CountWithBound"
+            },
+            "description": "Listings per top-level category across sources."
+          },
+          "byLicense": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "integer"
+            }
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SourceCensus"
+            }
+          },
+          "linked": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "homepage": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "UsageWindow": {
+        "type": "object",
+        "required": [
+          "key",
+          "label",
+          "searches",
+          "searchesWithResults",
+          "bySurface",
+          "sampleViews",
+          "downloads",
+          "toolCalls",
+          "pageViews"
+        ],
+        "properties": {
+          "key": {
+            "type": "string",
+            "description": "`24h`, `7d`, or `process` (since the last restart).",
+            "example": "24h"
+          },
+          "label": {
+            "type": "string",
+            "example": "Last 24 hours"
+          },
+          "searches": {
+            "type": "integer"
+          },
+          "searchesWithResults": {
+            "type": "integer"
+          },
+          "bySurface": {
+            "type": "object",
+            "required": [
+              "web",
+              "api",
+              "mcp"
+            ],
+            "properties": {
+              "web": {
+                "type": "integer"
+              },
+              "api": {
+                "type": "integer"
+              },
+              "mcp": {
+                "type": "integer"
+              }
+            }
+          },
+          "sampleViews": {
+            "type": "integer"
+          },
+          "downloads": {
+            "type": "integer"
+          },
+          "toolCalls": {
+            "type": "integer",
+            "description": "MCP tool calls."
+          },
+          "pageViews": {
+            "type": "integer",
+            "description": "Website pages served."
+          }
+        }
+      },
+      "Ranked": {
+        "type": "object",
+        "required": [
+          "name",
+          "count"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "count": {
+            "type": "integer"
+          }
+        }
+      },
+      "ProviderHealth": {
+        "type": "object",
+        "required": [
+          "provider",
+          "requests",
+          "ok",
+          "errors",
+          "timeouts",
+          "okRate",
+          "p50Ms",
+          "p95Ms"
+        ],
+        "properties": {
+          "provider": {
+            "type": "string",
+            "example": "freesound"
+          },
+          "requests": {
+            "type": "integer",
+            "description": "Searches that reached the source."
+          },
+          "ok": {
+            "type": "integer"
+          },
+          "errors": {
+            "type": "integer"
+          },
+          "timeouts": {
+            "type": "integer"
+          },
+          "okRate": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 1
+          },
+          "p50Ms": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "p95Ms": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          }
+        }
+      },
+      "Stats": {
+        "type": "object",
+        "required": [
+          "generatedAt",
+          "source",
+          "windows",
+          "breakdownLabel",
+          "clients",
+          "tools",
+          "assetTypes",
+          "providers",
+          "catalog"
+        ],
+        "properties": {
+          "generatedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "source": {
+            "type": "string",
+            "enum": [
+              "prometheus",
+              "process"
+            ]
+          },
+          "since": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Start of counting for `source: process`."
+          },
+          "windows": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/UsageWindow"
+            }
+          },
+          "breakdownLabel": {
+            "type": "string",
+            "description": "Period covered by `clients`, `tools` and `assetTypes`.",
+            "example": "Last 7 days"
+          },
+          "clients": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Ranked"
+            },
+            "description": "Searches by client family (claude-code, cursor, browser, curl…)."
+          },
+          "tools": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Ranked"
+            },
+            "description": "MCP tool calls by tool."
+          },
+          "assetTypes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Ranked"
+            },
+            "description": "Searches by category filter (`any` = no filter)."
+          },
+          "providers": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ProviderHealth"
+            },
+            "description": "Per-source health over the last 24 hours."
+          },
+          "catalog": {
+            "type": "object",
+            "required": [
+              "sources",
+              "directDownload",
+              "byAccess",
+              "byPricing"
+            ],
+            "properties": {
+              "sources": {
+                "type": "integer"
+              },
+              "directDownload": {
+                "type": "integer"
+              },
+              "byAccess": {
+                "type": "object",
+                "additionalProperties": {
+                  "type": "integer"
+                }
+              },
+              "byPricing": {
+                "type": "object",
+                "additionalProperties": {
+                  "type": "integer"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Error": {
+        "type": "object",
+        "required": [
+          "error"
+        ],
+        "properties": {
+          "error": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "description": "The sample's page on the source, when the file must be fetched there."
+          },
+          "requiresAccount": {
+            "type": "boolean"
+          },
+          "retryAfter": {
+            "type": "integer"
+          }
+        }
+      }
+    }
+  },
+  "paths": {
+    "/v1/search": {
+      "get": {
+        "operationId": "searchSamples",
+        "tags": [
+          "Search"
+        ],
+        "summary": "Search every source",
+        "description": "Fans out to every enabled source in parallel (each with its own timeout), then merges and ranks. Words like `140 bpm`, `F minor` or `one shot` in `q` become filters (see `filters` in the response); explicit parameters win. Unknown BPM, key, form or duration stay in the list, ranked below known matches, unless `strict=true`. A slow or failing source never fails the search: it shows up in `providers` with its status.",
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "description": "Short query, written like a producer would.",
+            "schema": {
+              "type": "string",
+              "maxLength": 300
+            },
+            "examples": {
+              "kick": {
+                "value": "punchy kick"
+              },
+              "vocal": {
+                "value": "vocal chop 140 bpm F minor"
+              },
+              "fx": {
+                "value": "riser"
+              }
+            }
+          },
+          {
+            "name": "category",
+            "in": "query",
+            "description": "Comma-separated categories; a parent includes its children. Top level: drums, bass, vocals, fx, foley, ambience, keys, guitar, synth, strings, brass, woodwind, mallets, other; children like `drums.kick`, `bass.808`, `vocals.chop`, `fx.riser`.",
+            "schema": {
+              "type": "string"
+            },
+            "example": "drums.kick"
+          },
+          {
+            "name": "form",
+            "in": "query",
+            "description": "Comma-separated forms: one-shot, loop, phrase, multisample, pack, midi, preset.",
+            "schema": {
+              "type": "string"
+            },
+            "example": "one-shot"
+          },
+          {
+            "name": "bpm",
+            "in": "query",
+            "description": "Tempo or range: \"140\" or \"120-128\".",
+            "schema": {
+              "type": "string"
+            },
+            "example": "140"
+          },
+          {
+            "name": "key",
+            "in": "query",
+            "description": "Musical key: \"F minor\", \"F#m\", \"Eb\", \"A major\".",
+            "schema": {
+              "type": "string"
+            },
+            "example": "F minor"
+          },
+          {
+            "name": "min_duration",
+            "in": "query",
+            "description": "Minimum length in seconds.",
+            "schema": {
+              "type": "number",
+              "minimum": 0
+            }
+          },
+          {
+            "name": "max_duration",
+            "in": "query",
+            "description": "Maximum length in seconds (e.g. 2 for one-shots).",
+            "schema": {
+              "type": "number",
+              "minimum": 0
+            }
+          },
+          {
+            "name": "commercial",
+            "in": "query",
+            "description": "Only samples whose licence verdict is `yes` or `yes-with-credit`.",
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "name": "free",
+            "in": "query",
+            "description": "Only free samples.",
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "name": "downloadable",
+            "in": "query",
+            "description": "Only samples this server can download directly.",
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "name": "strict",
+            "in": "query",
+            "description": "Drop samples whose BPM, key, form or duration is unknown when that filter is set.",
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "name": "providers",
+            "in": "query",
+            "description": "Comma-separated source ids (see /v1/providers).",
+            "schema": {
+              "type": "string"
+            },
+            "example": "freesound,wikimedia"
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "Max results (default 24).",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100
+            }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "description": "Per-source offset for paging (e.g. 24 for page 2).",
+            "schema": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 1000
+            }
+          },
+          {
+            "name": "x-freesound-token",
+            "in": "header",
+            "required": false,
+            "description": "Optional: your own Freesound OAuth2 access token. Freesound serves its original WAV/AIFF/FLAC files only to a logged-in user, so without it Freesound samples download as their high-quality MP3/OGG preview. The token is passed to Freesound for this request only and is never logged or stored.",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Ranked results, the filters in force and a per-source report.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SearchResponse"
+                }
+              }
+            },
+            "headers": {
+              "RateLimit": {
+                "$ref": "#/components/headers/RateLimit"
+              },
+              "RateLimit-Policy": {
+                "$ref": "#/components/headers/RateLimit-Policy"
+              },
+              "RateLimit-Limit": {
+                "$ref": "#/components/headers/RateLimit-Limit"
+              },
+              "RateLimit-Remaining": {
+                "$ref": "#/components/headers/RateLimit-Remaining"
+              },
+              "RateLimit-Reset": {
+                "$ref": "#/components/headers/RateLimit-Reset"
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid parameters or unknown source id.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                },
+                "example": {
+                  "error": "✖ bpm must look like \"140\" or \"120-128\", got \"fast\""
+                }
+              }
+            },
+            "headers": {
+              "RateLimit": {
+                "$ref": "#/components/headers/RateLimit"
+              },
+              "RateLimit-Policy": {
+                "$ref": "#/components/headers/RateLimit-Policy"
+              },
+              "RateLimit-Limit": {
+                "$ref": "#/components/headers/RateLimit-Limit"
+              },
+              "RateLimit-Remaining": {
+                "$ref": "#/components/headers/RateLimit-Remaining"
+              },
+              "RateLimit-Reset": {
+                "$ref": "#/components/headers/RateLimit-Reset"
+              }
+            }
+          },
+          "401": {
+            "description": "API key required (self-hosted servers only).",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            },
+            "headers": {
+              "RateLimit": {
+                "$ref": "#/components/headers/RateLimit"
+              },
+              "RateLimit-Policy": {
+                "$ref": "#/components/headers/RateLimit-Policy"
+              },
+              "RateLimit-Limit": {
+                "$ref": "#/components/headers/RateLimit-Limit"
+              },
+              "RateLimit-Remaining": {
+                "$ref": "#/components/headers/RateLimit-Remaining"
+              },
+              "RateLimit-Reset": {
+                "$ref": "#/components/headers/RateLimit-Reset"
+              }
+            }
+          },
+          "429": {
+            "$ref": "#/components/responses/TooManyRequests"
+          }
+        }
+      }
+    },
+    "/v1/samples/{id}": {
+      "get": {
+        "operationId": "getSample",
+        "tags": [
+          "Samples"
+        ],
+        "summary": "Sample details with files",
+        "description": "Full metadata, the licence with its verdict and credit line, the preview and every file for one sample.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "Sample id `<provider>:<nativeId>`, URL-encoded (`:` may stay as is). Take it from a search result.",
+            "schema": {
+              "type": "string"
+            },
+            "example": "freesound:2086"
+          },
+          {
+            "name": "x-freesound-token",
+            "in": "header",
+            "required": false,
+            "description": "Optional: your own Freesound OAuth2 access token. Freesound serves its original WAV/AIFF/FLAC files only to a logged-in user, so without it Freesound samples download as their high-quality MP3/OGG preview. The token is passed to Freesound for this request only and is never logged or stored.",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The sample and its files.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SampleDetails"
+                }
+              }
+            },
+            "headers": {
+              "RateLimit": {
+                "$ref": "#/components/headers/RateLimit"
+              },
+              "RateLimit-Policy": {
+                "$ref": "#/components/headers/RateLimit-Policy"
+              },
+              "RateLimit-Limit": {
+                "$ref": "#/components/headers/RateLimit-Limit"
+              },
+              "RateLimit-Remaining": {
+                "$ref": "#/components/headers/RateLimit-Remaining"
+              },
+              "RateLimit-Reset": {
+                "$ref": "#/components/headers/RateLimit-Reset"
+              }
+            }
+          },
+          "400": {
+            "description": "Malformed id or unknown source.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            },
+            "headers": {
+              "RateLimit": {
+                "$ref": "#/components/headers/RateLimit"
+              },
+              "RateLimit-Policy": {
+                "$ref": "#/components/headers/RateLimit-Policy"
+              },
+              "RateLimit-Limit": {
+                "$ref": "#/components/headers/RateLimit-Limit"
+              },
+              "RateLimit-Remaining": {
+                "$ref": "#/components/headers/RateLimit-Remaining"
+              },
+              "RateLimit-Reset": {
+                "$ref": "#/components/headers/RateLimit-Reset"
+              }
+            }
+          },
+          "404": {
+            "description": "Unknown sample.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            },
+            "headers": {
+              "RateLimit": {
+                "$ref": "#/components/headers/RateLimit"
+              },
+              "RateLimit-Policy": {
+                "$ref": "#/components/headers/RateLimit-Policy"
+              },
+              "RateLimit-Limit": {
+                "$ref": "#/components/headers/RateLimit-Limit"
+              },
+              "RateLimit-Remaining": {
+                "$ref": "#/components/headers/RateLimit-Remaining"
+              },
+              "RateLimit-Reset": {
+                "$ref": "#/components/headers/RateLimit-Reset"
+              }
+            }
+          },
+          "429": {
+            "$ref": "#/components/responses/TooManyRequests"
+          },
+          "501": {
+            "description": "The source has no detail pages here; open `url` on the source site.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            },
+            "headers": {
+              "RateLimit": {
+                "$ref": "#/components/headers/RateLimit"
+              },
+              "RateLimit-Policy": {
+                "$ref": "#/components/headers/RateLimit-Policy"
+              },
+              "RateLimit-Limit": {
+                "$ref": "#/components/headers/RateLimit-Limit"
+              },
+              "RateLimit-Remaining": {
+                "$ref": "#/components/headers/RateLimit-Remaining"
+              },
+              "RateLimit-Reset": {
+                "$ref": "#/components/headers/RateLimit-Reset"
+              }
+            }
+          },
+          "502": {
+            "description": "The source site failed.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            },
+            "headers": {
+              "RateLimit": {
+                "$ref": "#/components/headers/RateLimit"
+              },
+              "RateLimit-Policy": {
+                "$ref": "#/components/headers/RateLimit-Policy"
+              },
+              "RateLimit-Limit": {
+                "$ref": "#/components/headers/RateLimit-Limit"
+              },
+              "RateLimit-Remaining": {
+                "$ref": "#/components/headers/RateLimit-Remaining"
+              },
+              "RateLimit-Reset": {
+                "$ref": "#/components/headers/RateLimit-Reset"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/samples/{id}/files": {
+      "get": {
+        "operationId": "selectFiles",
+        "tags": [
+          "Samples"
+        ],
+        "summary": "Pick the right files",
+        "description": "The best file for a format and role (the original WAV by default), or every file with `all=true`, with sizes and the licence.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "Sample id `<provider>:<nativeId>`, URL-encoded (`:` may stay as is). Take it from a search result.",
+            "schema": {
+              "type": "string"
+            },
+            "example": "freesound:2086"
+          },
+          {
+            "name": "format",
+            "in": "query",
+            "description": "Preferred file format. The closest match wins; omitted = the best quality available (WAV, then AIFF, FLAC, OGG, MP3).",
+            "schema": {
+              "type": "string",
+              "examples": [
+                "wav",
+                "aiff",
+                "flac",
+                "ogg",
+                "mp3",
+                "mid",
+                "zip"
+              ]
+            }
+          },
+          {
+            "name": "role",
+            "in": "query",
+            "description": "Which kind of file: the `original` upload, the `preview`, a `pack` archive, a `stem` or `midi` part of a construction kit.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "original",
+                "preview",
+                "pack",
+                "stem",
+                "midi"
+              ]
+            }
+          },
+          {
+            "name": "all",
+            "in": "query",
+            "description": "Every file instead of the best single one.",
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "name": "x-freesound-token",
+            "in": "header",
+            "required": false,
+            "description": "Optional: your own Freesound OAuth2 access token. Freesound serves its original WAV/AIFF/FLAC files only to a logged-in user, so without it Freesound samples download as their high-quality MP3/OGG preview. The token is passed to Freesound for this request only and is never logged or stored.",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Selected files and total size.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/FileSelection"
+                }
+              }
+            },
+            "headers": {
+              "RateLimit": {
+                "$ref": "#/components/headers/RateLimit"
+              },
+              "RateLimit-Policy": {
+                "$ref": "#/components/headers/RateLimit-Policy"
+              },
+              "RateLimit-Limit": {
+                "$ref": "#/components/headers/RateLimit-Limit"
+              },
+              "RateLimit-Remaining": {
+                "$ref": "#/components/headers/RateLimit-Remaining"
+              },
+              "RateLimit-Reset": {
+                "$ref": "#/components/headers/RateLimit-Reset"
+              }
+            }
+          },
+          "404": {
+            "description": "Unknown sample.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            },
+            "headers": {
+              "RateLimit": {
+                "$ref": "#/components/headers/RateLimit"
+              },
+              "RateLimit-Policy": {
+                "$ref": "#/components/headers/RateLimit-Policy"
+              },
+              "RateLimit-Limit": {
+                "$ref": "#/components/headers/RateLimit-Limit"
+              },
+              "RateLimit-Remaining": {
+                "$ref": "#/components/headers/RateLimit-Remaining"
+              },
+              "RateLimit-Reset": {
+                "$ref": "#/components/headers/RateLimit-Reset"
+              }
+            }
+          },
+          "429": {
+            "$ref": "#/components/responses/TooManyRequests"
+          }
+        }
+      }
+    },
+    "/v1/samples/{id}/download": {
+      "get": {
+        "operationId": "downloadSample",
+        "tags": [
+          "Samples"
+        ],
+        "summary": "Download",
+        "description": "One plain file redirects (302) to the source, so the bytes never pass through this server. Several files, files the source only serves with extra request headers, or `bundle=true` stream as one zip with `ATTRIBUTION.md` and `credits.json` next to the audio. `X-License` and `X-Attribution` carry the licence on both. Samples that are only available on the source site (an account, a purchase, a login wall) answer 409 with the page `url`.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "Sample id `<provider>:<nativeId>`, URL-encoded (`:` may stay as is). Take it from a search result.",
+            "schema": {
+              "type": "string"
+            },
+            "example": "freesound:2086"
+          },
+          {
+            "name": "format",
+            "in": "query",
+            "description": "Preferred file format. The closest match wins; omitted = the best quality available (WAV, then AIFF, FLAC, OGG, MP3).",
+            "schema": {
+              "type": "string",
+              "examples": [
+                "wav",
+                "aiff",
+                "flac",
+                "ogg",
+                "mp3",
+                "mid",
+                "zip"
+              ]
+            }
+          },
+          {
+            "name": "role",
+            "in": "query",
+            "description": "Which kind of file: the `original` upload, the `preview`, a `pack` archive, a `stem` or `midi` part of a construction kit.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "original",
+                "preview",
+                "pack",
+                "stem",
+                "midi"
+              ]
+            }
+          },
+          {
+            "name": "all",
+            "in": "query",
+            "description": "Every file instead of the best single one.",
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "name": "bundle",
+            "in": "query",
+            "description": "Always answer with a zip that includes ATTRIBUTION.md and credits.json.",
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "name": "x-freesound-token",
+            "in": "header",
+            "required": false,
+            "description": "Optional: your own Freesound OAuth2 access token. Freesound serves its original WAV/AIFF/FLAC files only to a logged-in user, so without it Freesound samples download as their high-quality MP3/OGG preview. The token is passed to Freesound for this request only and is never logged or stored.",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Zip bundle with the files, ATTRIBUTION.md and credits.json.",
+            "headers": {
+              "X-License": {
+                "$ref": "#/components/headers/X-License"
+              },
+              "X-Attribution": {
+                "$ref": "#/components/headers/X-Attribution"
+              },
+              "RateLimit": {
+                "$ref": "#/components/headers/RateLimit"
+              },
+              "RateLimit-Policy": {
+                "$ref": "#/components/headers/RateLimit-Policy"
+              },
+              "RateLimit-Limit": {
+                "$ref": "#/components/headers/RateLimit-Limit"
+              },
+              "RateLimit-Remaining": {
+                "$ref": "#/components/headers/RateLimit-Remaining"
+              },
+              "RateLimit-Reset": {
+                "$ref": "#/components/headers/RateLimit-Reset"
+              }
+            },
+            "content": {
+              "application/zip": {
+                "schema": {
+                  "type": "string",
+                  "format": "binary"
+                }
+              }
+            }
+          },
+          "302": {
+            "description": "Redirect to the single file on the source.",
+            "headers": {
+              "X-License": {
+                "$ref": "#/components/headers/X-License"
+              },
+              "X-Attribution": {
+                "$ref": "#/components/headers/X-Attribution"
+              },
+              "RateLimit": {
+                "$ref": "#/components/headers/RateLimit"
+              },
+              "RateLimit-Policy": {
+                "$ref": "#/components/headers/RateLimit-Policy"
+              },
+              "RateLimit-Limit": {
+                "$ref": "#/components/headers/RateLimit-Limit"
+              },
+              "RateLimit-Remaining": {
+                "$ref": "#/components/headers/RateLimit-Remaining"
+              },
+              "RateLimit-Reset": {
+                "$ref": "#/components/headers/RateLimit-Reset"
+              }
+            }
+          },
+          "404": {
+            "description": "Unknown sample or no file matches the format/role.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            },
+            "headers": {
+              "RateLimit": {
+                "$ref": "#/components/headers/RateLimit"
+              },
+              "RateLimit-Policy": {
+                "$ref": "#/components/headers/RateLimit-Policy"
+              },
+              "RateLimit-Limit": {
+                "$ref": "#/components/headers/RateLimit-Limit"
+              },
+              "RateLimit-Remaining": {
+                "$ref": "#/components/headers/RateLimit-Remaining"
+              },
+              "RateLimit-Reset": {
+                "$ref": "#/components/headers/RateLimit-Reset"
+              }
+            }
+          },
+          "409": {
+            "description": "No direct download here; get the file from the source page (`url`).",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                },
+                "example": {
+                  "error": "This sample has no direct download here; get it from the source page.",
+                  "url": "https://example-pack-store.com/packs/dark-trap-kit",
+                  "requiresAccount": true
+                }
+              }
+            },
+            "headers": {
+              "RateLimit": {
+                "$ref": "#/components/headers/RateLimit"
+              },
+              "RateLimit-Policy": {
+                "$ref": "#/components/headers/RateLimit-Policy"
+              },
+              "RateLimit-Limit": {
+                "$ref": "#/components/headers/RateLimit-Limit"
+              },
+              "RateLimit-Remaining": {
+                "$ref": "#/components/headers/RateLimit-Remaining"
+              },
+              "RateLimit-Reset": {
+                "$ref": "#/components/headers/RateLimit-Reset"
+              }
+            }
+          },
+          "429": {
+            "$ref": "#/components/responses/TooManyRequests"
+          }
+        }
+      }
+    },
+    "/v1/samples/{id}/preview": {
+      "get": {
+        "operationId": "getPreview",
+        "tags": [
+          "Samples"
+        ],
+        "summary": "Play the preview",
+        "description": "Redirects (302) to the sample's preview. Previews the source only serves with a Referer, and any preview with `proxy=1`, are streamed through this server with `Access-Control-Allow-Origin: *`, so browser players, Strudel and web DAWs can load them. Previews only, at most 25 MB: this is not a general proxy.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "Sample id `<provider>:<nativeId>`, URL-encoded (`:` may stay as is). Take it from a search result.",
+            "schema": {
+              "type": "string"
+            },
+            "example": "freesound:2086"
+          },
+          {
+            "name": "proxy",
+            "in": "query",
+            "description": "Stream the preview through this server (CORS enabled) instead of redirecting.",
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "name": "x-freesound-token",
+            "in": "header",
+            "required": false,
+            "description": "Optional: your own Freesound OAuth2 access token. Freesound serves its original WAV/AIFF/FLAC files only to a logged-in user, so without it Freesound samples download as their high-quality MP3/OGG preview. The token is passed to Freesound for this request only and is never logged or stored.",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The preview audio.",
+            "content": {
+              "audio/*": {
+                "schema": {
+                  "type": "string",
+                  "format": "binary"
+                }
+              }
+            },
+            "headers": {
+              "RateLimit": {
+                "$ref": "#/components/headers/RateLimit"
+              },
+              "RateLimit-Policy": {
+                "$ref": "#/components/headers/RateLimit-Policy"
+              },
+              "RateLimit-Limit": {
+                "$ref": "#/components/headers/RateLimit-Limit"
+              },
+              "RateLimit-Remaining": {
+                "$ref": "#/components/headers/RateLimit-Remaining"
+              },
+              "RateLimit-Reset": {
+                "$ref": "#/components/headers/RateLimit-Reset"
+              }
+            }
+          },
+          "302": {
+            "description": "Redirect to the preview on the source.",
+            "headers": {
+              "RateLimit": {
+                "$ref": "#/components/headers/RateLimit"
+              },
+              "RateLimit-Policy": {
+                "$ref": "#/components/headers/RateLimit-Policy"
+              },
+              "RateLimit-Limit": {
+                "$ref": "#/components/headers/RateLimit-Limit"
+              },
+              "RateLimit-Remaining": {
+                "$ref": "#/components/headers/RateLimit-Remaining"
+              },
+              "RateLimit-Reset": {
+                "$ref": "#/components/headers/RateLimit-Reset"
+              }
+            }
+          },
+          "404": {
+            "description": "Unknown sample, or it has no preview.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            },
+            "headers": {
+              "RateLimit": {
+                "$ref": "#/components/headers/RateLimit"
+              },
+              "RateLimit-Policy": {
+                "$ref": "#/components/headers/RateLimit-Policy"
+              },
+              "RateLimit-Limit": {
+                "$ref": "#/components/headers/RateLimit-Limit"
+              },
+              "RateLimit-Remaining": {
+                "$ref": "#/components/headers/RateLimit-Remaining"
+              },
+              "RateLimit-Reset": {
+                "$ref": "#/components/headers/RateLimit-Reset"
+              }
+            }
+          },
+          "413": {
+            "description": "Preview too large to proxy.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            },
+            "headers": {
+              "RateLimit": {
+                "$ref": "#/components/headers/RateLimit"
+              },
+              "RateLimit-Policy": {
+                "$ref": "#/components/headers/RateLimit-Policy"
+              },
+              "RateLimit-Limit": {
+                "$ref": "#/components/headers/RateLimit-Limit"
+              },
+              "RateLimit-Remaining": {
+                "$ref": "#/components/headers/RateLimit-Remaining"
+              },
+              "RateLimit-Reset": {
+                "$ref": "#/components/headers/RateLimit-Reset"
+              }
+            }
+          },
+          "429": {
+            "$ref": "#/components/responses/TooManyRequests"
+          }
+        }
+      }
+    },
+    "/v1/kits": {
+      "post": {
+        "operationId": "buildKit",
+        "tags": [
+          "Kits"
+        ],
+        "summary": "Build a drum kit",
+        "description": "One search per slot (default kick, snare, clap, closed hat, open hat, 808), steered by `style`, `bpm` and `key`, returning the best pick per slot with alternatives and the reason it won. Commercial-safe picks only unless `commercialOnly: false`. The response includes a Strudel sample map and snippet that play the picks through this server's preview proxy, a General MIDI / SFZ drum map, how many picks fall under each licence verdict, and the credit lines.",
+        "parameters": [
+          {
+            "name": "x-freesound-token",
+            "in": "header",
+            "required": false,
+            "description": "Optional: your own Freesound OAuth2 access token. Freesound serves its original WAV/AIFF/FLAC files only to a logged-in user, so without it Freesound samples download as their high-quality MP3/OGG preview. The token is passed to Freesound for this request only and is never logged or stored.",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": false,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/KitRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "The kit plan.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Kit"
+                }
+              }
+            },
+            "headers": {
+              "RateLimit": {
+                "$ref": "#/components/headers/RateLimit"
+              },
+              "RateLimit-Policy": {
+                "$ref": "#/components/headers/RateLimit-Policy"
+              },
+              "RateLimit-Limit": {
+                "$ref": "#/components/headers/RateLimit-Limit"
+              },
+              "RateLimit-Remaining": {
+                "$ref": "#/components/headers/RateLimit-Remaining"
+              },
+              "RateLimit-Reset": {
+                "$ref": "#/components/headers/RateLimit-Reset"
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid body (e.g. an unreadable key).",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            },
+            "headers": {
+              "RateLimit": {
+                "$ref": "#/components/headers/RateLimit"
+              },
+              "RateLimit-Policy": {
+                "$ref": "#/components/headers/RateLimit-Policy"
+              },
+              "RateLimit-Limit": {
+                "$ref": "#/components/headers/RateLimit-Limit"
+              },
+              "RateLimit-Remaining": {
+                "$ref": "#/components/headers/RateLimit-Remaining"
+              },
+              "RateLimit-Reset": {
+                "$ref": "#/components/headers/RateLimit-Reset"
+              }
+            }
+          },
+          "429": {
+            "$ref": "#/components/responses/TooManyRequests"
+          }
+        }
+      }
+    },
+    "/v1/providers": {
+      "get": {
+        "operationId": "listProviders",
+        "tags": [
+          "Sources"
+        ],
+        "summary": "List sources",
+        "description": "Every sample site with the categories it carries, pricing, licence, the filters it applies itself and whether files can be downloaded directly.",
+        "responses": {
+          "200": {
+            "description": "Sources.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "providers"
+                  ],
+                  "properties": {
+                    "providers": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/Provider"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "headers": {
+              "RateLimit": {
+                "$ref": "#/components/headers/RateLimit"
+              },
+              "RateLimit-Policy": {
+                "$ref": "#/components/headers/RateLimit-Policy"
+              },
+              "RateLimit-Limit": {
+                "$ref": "#/components/headers/RateLimit-Limit"
+              },
+              "RateLimit-Remaining": {
+                "$ref": "#/components/headers/RateLimit-Remaining"
+              },
+              "RateLimit-Reset": {
+                "$ref": "#/components/headers/RateLimit-Reset"
+              }
+            }
+          },
+          "429": {
+            "$ref": "#/components/responses/TooManyRequests"
+          }
+        }
+      }
+    },
+    "/v1/catalog": {
+      "get": {
+        "operationId": "getCatalog",
+        "tags": [
+          "Sources"
+        ],
+        "summary": "Catalog census",
+        "description": "How many samples every source holds, counted once a day: listings per source, by top-level category, licence and the source's own categories, free counts, listings added in the last 30 days, and highlights such as the most downloaded sample. `atLeast: true` marks lower bounds (sources that cap their counts). Sources whose count failed today keep their last good numbers with `stale`. The same file is at `/catalog.json`; one point per day is in `/catalog-history.json`.",
+        "responses": {
+          "200": {
+            "description": "Catalog census.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Catalog"
+                }
+              }
+            },
+            "headers": {
+              "RateLimit": {
+                "$ref": "#/components/headers/RateLimit"
+              },
+              "RateLimit-Policy": {
+                "$ref": "#/components/headers/RateLimit-Policy"
+              },
+              "RateLimit-Limit": {
+                "$ref": "#/components/headers/RateLimit-Limit"
+              },
+              "RateLimit-Remaining": {
+                "$ref": "#/components/headers/RateLimit-Remaining"
+              },
+              "RateLimit-Reset": {
+                "$ref": "#/components/headers/RateLimit-Reset"
+              }
+            }
+          },
+          "404": {
+            "description": "The census has not been built on this server.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            },
+            "headers": {
+              "RateLimit": {
+                "$ref": "#/components/headers/RateLimit"
+              },
+              "RateLimit-Policy": {
+                "$ref": "#/components/headers/RateLimit-Policy"
+              },
+              "RateLimit-Limit": {
+                "$ref": "#/components/headers/RateLimit-Limit"
+              },
+              "RateLimit-Remaining": {
+                "$ref": "#/components/headers/RateLimit-Remaining"
+              },
+              "RateLimit-Reset": {
+                "$ref": "#/components/headers/RateLimit-Reset"
+              }
+            }
+          },
+          "429": {
+            "$ref": "#/components/responses/TooManyRequests"
+          }
+        }
+      }
+    },
+    "/v1/stats": {
+      "get": {
+        "operationId": "getStats",
+        "tags": [
+          "Sources"
+        ],
+        "summary": "Usage statistics",
+        "description": "Aggregate usage of this server: searches by surface (web, API, MCP), downloads, MCP tool calls, the client families and categories searched most, and per-source health (success rate, p50/p95 latency). Counts come from Prometheus (`source: prometheus`, last 24 hours and 7 days) or, when it is unavailable, from this process since it started (`source: process`). No queries, IPs or user agents are exposed. Cached for 60 seconds.",
+        "responses": {
+          "200": {
+            "description": "Usage statistics.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Stats"
+                }
+              }
+            },
+            "headers": {
+              "RateLimit": {
+                "$ref": "#/components/headers/RateLimit"
+              },
+              "RateLimit-Policy": {
+                "$ref": "#/components/headers/RateLimit-Policy"
+              },
+              "RateLimit-Limit": {
+                "$ref": "#/components/headers/RateLimit-Limit"
+              },
+              "RateLimit-Remaining": {
+                "$ref": "#/components/headers/RateLimit-Remaining"
+              },
+              "RateLimit-Reset": {
+                "$ref": "#/components/headers/RateLimit-Reset"
+              }
+            }
+          },
+          "429": {
+            "$ref": "#/components/responses/TooManyRequests"
+          }
+        }
+      }
+    },
+    "/mcp": {
+      "post": {
+        "operationId": "mcp",
+        "tags": [
+          "MCP"
+        ],
+        "summary": "MCP endpoint (Streamable HTTP)",
+        "description": "Stateless Model Context Protocol endpoint for AI agents. Tools: `search_samples`, `get_sample`, `build_kit`, `find_similar`, `list_sources` (and `download_sample` on local installs, which saves files with their credits). Point any MCP client at this URL; see /docs/mcp for per-client setup.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "description": "JSON-RPC 2.0 request"
+              },
+              "example": {
+                "jsonrpc": "2.0",
+                "id": 1,
+                "method": "tools/call",
+                "params": {
+                  "name": "search_samples",
+                  "arguments": {
+                    "query": "punchy kick",
+                    "categories": [
+                      "drums.kick"
+                    ],
+                    "commercial_only": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "JSON-RPC 2.0 response.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            },
+            "headers": {
+              "RateLimit": {
+                "$ref": "#/components/headers/RateLimit"
+              },
+              "RateLimit-Policy": {
+                "$ref": "#/components/headers/RateLimit-Policy"
+              },
+              "RateLimit-Limit": {
+                "$ref": "#/components/headers/RateLimit-Limit"
+              },
+              "RateLimit-Remaining": {
+                "$ref": "#/components/headers/RateLimit-Remaining"
+              },
+              "RateLimit-Reset": {
+                "$ref": "#/components/headers/RateLimit-Reset"
+              }
+            }
+          },
+          "429": {
+            "$ref": "#/components/responses/TooManyRequests"
+          }
+        }
+      }
+    },
+    "/health": {
+      "get": {
+        "operationId": "health",
+        "tags": [
+          "System"
+        ],
+        "summary": "Health check",
+        "security": [
+          {}
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "ok": {
+                      "type": "boolean"
+                    }
+                  }
+                },
+                "example": {
+                  "ok": true
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/openapi.json": {
+      "get": {
+        "operationId": "openapi",
+        "tags": [
+          "System"
+        ],
+        "summary": "This OpenAPI document",
+        "security": [
+          {}
+        ],
+        "responses": {
+          "200": {
+            "description": "OpenAPI 3.1",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

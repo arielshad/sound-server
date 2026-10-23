@@ -1,0 +1,591 @@
+{
+ "result_count": 240,
+ "page_count": 12,
+ "page_size": 20,
+ "page": 1,
+ "results": [
+  {
+   "id": "58196449-5a6e-4918-a8b2-3d192f81fdc4",
+   "title": "soccer kick 02.wav",
+   "indexed_on": "2024-05-21T15:00:07.873258Z",
+   "foreign_landing_url": "https://freesound.org/people/volivieri/sounds/37157",
+   "url": "https://cdn.freesound.org/previews/37/37157_374422-hq.mp3",
+   "creator": "volivieri",
+   "creator_url": "https://freesound.org/people/volivieri",
+   "license": "by",
+   "license_version": "4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "provider": "freesound",
+   "source": "freesound",
+   "category": null,
+   "genres": null,
+   "filesize": 21753,
+   "filetype": "mp3",
+   "tags": [
+    {
+     "name": "ball",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    },
+    {
+     "name": "football",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    },
+    {
+     "name": "kick",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    },
+    {
+     "name": "soccer",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    }
+   ],
+   "alt_files": [
+    {
+     "url": "https://freesound.org/apiv2/sounds/37157/download/",
+     "bit_rate": 0,
+     "filesize": 206692,
+     "filetype": "wav",
+     "sample_rate": 44100
+    }
+   ],
+   "attribution": "\"soccer kick 02.wav\" by volivieri is licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/.",
+   "fields_matched": [
+    "description",
+    "title",
+    "tags.name"
+   ],
+   "mature": false,
+   "audio_set": {
+    "title": "soccer football ball sounds",
+    "foreign_landing_url": "https://freesound.org/apiv2/packs/2368/",
+    "creator": "volivieri",
+    "creator_url": "https://freesound.org/people/volivieri/",
+    "url": null,
+    "filesize": null,
+    "filetype": null
+   },
+   "duration": 1148,
+   "bit_rate": 128000,
+   "sample_rate": null,
+   "thumbnail": null,
+   "detail_url": "https://api.openverse.org/v1/audio/58196449-5a6e-4918-a8b2-3d192f81fdc4/",
+   "related_url": "https://api.openverse.org/v1/audio/58196449-5a6e-4918-a8b2-3d192f81fdc4/related/",
+   "waveform": "https://api.openverse.org/v1/audio/58196449-5a6e-4918-a8b2-3d192f81fdc4/waveform/",
+   "unstable__sensitivity": []
+  },
+  {
+   "id": "e229fbff-a97c-422e-850f-b2ace7cdafb8",
+   "title": "good kick in the head sound.aif",
+   "indexed_on": "2024-05-21T15:00:07.873258Z",
+   "foreign_landing_url": "https://freesound.org/people/mwl500/sounds/54807",
+   "url": "https://cdn.freesound.org/previews/54/54807_251523-hq.mp3",
+   "creator": "mwl500",
+   "creator_url": "https://freesound.org/people/mwl500",
+   "license": "by",
+   "license_version": "3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0/",
+   "provider": "freesound",
+   "source": "freesound",
+   "category": null,
+   "genres": null,
+   "filesize": 29376,
+   "filetype": "mp3",
+   "tags": [
+    {
+     "name": "body",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    },
+    {
+     "name": "head",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    },
+    {
+     "name": "hit",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    },
+    {
+     "name": "kick",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    },
+    {
+     "name": "pillow",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    },
+    {
+     "name": "punch",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    },
+    {
+     "name": "thwak",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    }
+   ],
+   "alt_files": [
+    {
+     "url": "https://freesound.org/apiv2/sounds/54807/download/",
+     "bit_rate": 0,
+     "filesize": 174399,
+     "filetype": "aiff",
+     "sample_rate": 48000
+    }
+   ],
+   "attribution": "\"good kick in the head sound.aif\" by mwl500 is licensed under CC BY 3.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/3.0/.",
+   "fields_matched": [
+    "description",
+    "title",
+    "tags.name"
+   ],
+   "mature": false,
+   "audio_set": null,
+   "duration": 1210,
+   "bit_rate": 128000,
+   "sample_rate": null,
+   "thumbnail": null,
+   "detail_url": "https://api.openverse.org/v1/audio/e229fbff-a97c-422e-850f-b2ace7cdafb8/",
+   "related_url": "https://api.openverse.org/v1/audio/e229fbff-a97c-422e-850f-b2ace7cdafb8/related/",
+   "waveform": "https://api.openverse.org/v1/audio/e229fbff-a97c-422e-850f-b2ace7cdafb8/waveform/",
+   "unstable__sensitivity": []
+  },
+  {
+   "id": "755251e1-6e09-47b3-9bcd-c49f1484a98a",
+   "title": "Kick J.Zealous Hard Club.aif",
+   "indexed_on": "2024-05-21T15:00:07.873258Z",
+   "foreign_landing_url": "https://freesound.org/people/J_Zealous/sounds/331589",
+   "url": "https://cdn.freesound.org/previews/331/331589_5820980-hq.mp3",
+   "creator": "J_Zealous",
+   "creator_url": "https://freesound.org/people/J_Zealous",
+   "license": "cc0",
+   "license_version": "1.0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "provider": "freesound",
+   "source": "freesound",
+   "category": null,
+   "genres": null,
+   "filesize": 17351,
+   "filetype": "mp3",
+   "tags": [
+    {
+     "name": "Drum",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    },
+    {
+     "name": "drum",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    },
+    {
+     "name": "drum-synthesis",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    },
+    {
+     "name": "free",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    },
+    {
+     "name": "kick",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    },
+    {
+     "name": "kick-drum",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    },
+    {
+     "name": "kickdrum",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    }
+   ],
+   "alt_files": [
+    {
+     "url": "https://freesound.org/apiv2/sounds/331589/download/",
+     "bit_rate": 0,
+     "filesize": 595066,
+     "filetype": "aiff",
+     "sample_rate": 44100
+    }
+   ],
+   "attribution": "\"Kick J.Zealous Hard Club.aif\" by J_Zealous is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+   "fields_matched": [
+    "description",
+    "title",
+    "tags.name"
+   ],
+   "mature": false,
+   "audio_set": {
+    "title": "Free J.Zealous Kicks",
+    "foreign_landing_url": "https://freesound.org/apiv2/packs/18656/",
+    "creator": "J_Zealous",
+    "creator_url": "https://freesound.org/people/J_Zealous/",
+    "url": null,
+    "filesize": null,
+    "filetype": null
+   },
+   "duration": 2243,
+   "bit_rate": 128000,
+   "sample_rate": null,
+   "thumbnail": null,
+   "detail_url": "https://api.openverse.org/v1/audio/755251e1-6e09-47b3-9bcd-c49f1484a98a/",
+   "related_url": "https://api.openverse.org/v1/audio/755251e1-6e09-47b3-9bcd-c49f1484a98a/related/",
+   "waveform": "https://api.openverse.org/v1/audio/755251e1-6e09-47b3-9bcd-c49f1484a98a/waveform/",
+   "unstable__sensitivity": []
+  },
+  {
+   "id": "c8074306-b1b5-4872-b5fa-357cd8920784",
+   "title": "DNB KICK 008.wav",
+   "indexed_on": "2024-05-21T15:00:07.873258Z",
+   "foreign_landing_url": "https://freesound.org/people/sandyrb/sounds/41155",
+   "url": "http://cdn.freesound.org/previews/41/41155_14771-hq.mp3",
+   "creator": "sandyrb",
+   "creator_url": "https://freesound.org/people/sandyrb",
+   "license": "by",
+   "license_version": "4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "provider": "freesound",
+   "source": "freesound",
+   "category": null,
+   "genres": null,
+   "filesize": 13252,
+   "filetype": "mp3",
+   "tags": [
+    {
+     "name": "bass",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    },
+    {
+     "name": "drum",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    },
+    {
+     "name": "garage",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    },
+    {
+     "name": "jungle",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    },
+    {
+     "name": "kick",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    },
+    {
+     "name": "percussion",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    },
+    {
+     "name": "rhythm",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    },
+    {
+     "name": "set",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    }
+   ],
+   "alt_files": [
+    {
+     "url": "https://freesound.org/apiv2/sounds/41155/download/",
+     "bit_rate": 0,
+     "filesize": 55882,
+     "filetype": "wav",
+     "sample_rate": 44100
+    }
+   ],
+   "attribution": "\"DNB KICK 008.wav\" by sandyrb is licensed under CC BY 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/.",
+   "fields_matched": [
+    "title",
+    "tags.name"
+   ],
+   "mature": false,
+   "audio_set": {
+    "title": "Sandyrb Drum 'N' Bass set 001",
+    "foreign_landing_url": "https://freesound.org/apiv2/packs/2614/",
+    "creator": "sandyrb",
+    "creator_url": "https://freesound.org/people/sandyrb/",
+    "url": null,
+    "filesize": null,
+    "filetype": null
+   },
+   "duration": 629,
+   "bit_rate": 128000,
+   "sample_rate": null,
+   "thumbnail": null,
+   "detail_url": "https://api.openverse.org/v1/audio/c8074306-b1b5-4872-b5fa-357cd8920784/",
+   "related_url": "https://api.openverse.org/v1/audio/c8074306-b1b5-4872-b5fa-357cd8920784/related/",
+   "waveform": "https://api.openverse.org/v1/audio/c8074306-b1b5-4872-b5fa-357cd8920784/waveform/",
+   "unstable__sensitivity": []
+  },
+  {
+   "id": "01e07e5b-2fc7-4130-8273-be85b3e98a6f",
+   "title": "Deep Kick + Tension",
+   "indexed_on": "2024-05-21T15:00:07.873258Z",
+   "foreign_landing_url": "https://freesound.org/people/bryanbulmer/sounds/255885",
+   "url": "https://cdn.freesound.org/previews/255/255885_3504191-hq.mp3",
+   "creator": "bryanbulmer",
+   "creator_url": "https://freesound.org/people/bryanbulmer",
+   "license": "cc0",
+   "license_version": "1.0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "provider": "freesound",
+   "source": "freesound",
+   "category": null,
+   "genres": null,
+   "filesize": 338057,
+   "filetype": "mp3",
+   "tags": [
+    {
+     "name": "creepy",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    },
+    {
+     "name": "dark",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    },
+    {
+     "name": "horror",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    },
+    {
+     "name": "kick",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    },
+    {
+     "name": "scare",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    },
+    {
+     "name": "scary",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    },
+    {
+     "name": "so",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    },
+    {
+     "name": "suspense",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    }
+   ],
+   "alt_files": [
+    {
+     "url": "https://freesound.org/apiv2/sounds/255885/download/",
+     "bit_rate": 0,
+     "filesize": 2822444,
+     "filetype": "wav",
+     "sample_rate": 44100
+    }
+   ],
+   "attribution": "\"Deep Kick + Tension\" by bryanbulmer is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+   "fields_matched": [
+    "description",
+    "title",
+    "tags.name"
+   ],
+   "mature": false,
+   "audio_set": null,
+   "duration": 16000,
+   "bit_rate": 128000,
+   "sample_rate": null,
+   "thumbnail": null,
+   "detail_url": "https://api.openverse.org/v1/audio/01e07e5b-2fc7-4130-8273-be85b3e98a6f/",
+   "related_url": "https://api.openverse.org/v1/audio/01e07e5b-2fc7-4130-8273-be85b3e98a6f/related/",
+   "waveform": "https://api.openverse.org/v1/audio/01e07e5b-2fc7-4130-8273-be85b3e98a6f/waveform/",
+   "unstable__sensitivity": []
+  },
+  {
+   "id": "97982e5c-c519-4151-98ef-c717b15e7b75",
+   "title": "Minimal/Deep house kick",
+   "indexed_on": "2024-05-21T15:00:07.873258Z",
+   "foreign_landing_url": "https://freesound.org/people/DWSD/sounds/147994",
+   "url": "https://cdn.freesound.org/previews/147/147994_2394245-hq.mp3",
+   "creator": "DWSD",
+   "creator_url": "https://freesound.org/people/DWSD",
+   "license": "by",
+   "license_version": "3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0/",
+   "provider": "freesound",
+   "source": "freesound",
+   "category": null,
+   "genres": null,
+   "filesize": 4170,
+   "filetype": "mp3",
+   "tags": [
+    {
+     "name": "DWSD",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    },
+    {
+     "name": "bass",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    },
+    {
+     "name": "bassdrum",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    },
+    {
+     "name": "deep",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    },
+    {
+     "name": "drum",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    },
+    {
+     "name": "free",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    },
+    {
+     "name": "from",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    },
+    {
+     "name": "house",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    }
+   ],
+   "alt_files": [
+    {
+     "url": "https://freesound.org/apiv2/sounds/147994/download/",
+     "bit_rate": 0,
+     "filesize": 43544,
+     "filetype": "wav",
+     "sample_rate": 44100
+    }
+   ],
+   "attribution": "\"Minimal/Deep house kick\" by DWSD is licensed under CC BY 3.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/3.0/.",
+   "fields_matched": [
+    "description",
+    "title",
+    "tags.name"
+   ],
+   "mature": false,
+   "audio_set": {
+    "title": "DWSD(the unreleased)",
+    "foreign_landing_url": "https://freesound.org/apiv2/packs/9115/",
+    "creator": "DWSD",
+    "creator_url": "https://freesound.org/people/DWSD/",
+    "url": null,
+    "filesize": null,
+    "filetype": null
+   },
+   "duration": 260,
+   "bit_rate": 128000,
+   "sample_rate": null,
+   "thumbnail": null,
+   "detail_url": "https://api.openverse.org/v1/audio/97982e5c-c519-4151-98ef-c717b15e7b75/",
+   "related_url": "https://api.openverse.org/v1/audio/97982e5c-c519-4151-98ef-c717b15e7b75/related/",
+   "waveform": "https://api.openverse.org/v1/audio/97982e5c-c519-4151-98ef-c717b15e7b75/waveform/",
+   "unstable__sensitivity": []
+  },
+  {
+   "id": "201a319c-574e-4761-bdcd-c2da3abd605b",
+   "title": "kick wump.wav",
+   "indexed_on": "2023-03-10T13:20:18.216530Z",
+   "foreign_landing_url": "https://freesound.org/people/vitriolix/sounds/772",
+   "url": "http://cdn.freesound.org/previews/0/772_207-hq.mp3",
+   "creator": "vitriolix",
+   "creator_url": "https://freesound.org/people/vitriolix",
+   "license": "by-nc",
+   "license_version": "4.0",
+   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+   "provider": "freesound",
+   "source": "freesound",
+   "category": null,
+   "genres": null,
+   "filesize": 36588,
+   "filetype": "mp3",
+   "tags": [
+    {
+     "name": "drum",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    },
+    {
+     "name": "granula",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    },
+    {
+     "name": "noise",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    },
+    {
+     "name": "subbass",
+     "accuracy": null,
+     "unstable__provider": "freesound"
+    }
+   ],
+   "alt_files": [
+    {
+     "url": "https://freesound.org/apiv2/sounds/772/download/",
+     "bit_rate": 0,
+     "filesize": 220188,
+     "filetype": "wav",
+     "sample_rate": 44100
+    }
+   ],
+   "attribution": "\"kick wump.wav\" by vitriolix is licensed under CC BY-NC 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/4.0/.",
+   "fields_matched": [
+    "description",
+    "title"
+   ],
+   "mature": false,
+   "audio_set": {
+    "title": "xiphoid process exquisite corpse 4",
+    "foreign_landing_url": "https://freesound.org/apiv2/packs/39/",
+    "creator": "vitriolix",
+    "creator_url": "https://freesound.org/people/vitriolix/",
+    "url": null,
+    "filesize": null,
+    "filetype": null
+   },
+   "duration": 1247,
+   "bit_rate": 128000,
+   "sample_rate": null,
+   "thumbnail": null,
+   "detail_url": "https://api.openverse.org/v1/audio/201a319c-574e-4761-bdcd-c2da3abd605b/",
+   "related_url": "https://api.openverse.org/v1/audio/201a319c-574e-4761-bdcd-c2da3abd605b/related/",
+   "waveform": "https://api.openverse.org/v1/audio/201a319c-574e-4761-bdcd-c2da3abd605b/waveform/",
+   "unstable__sensitivity": []
+  }
+ ]
+}

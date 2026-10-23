@@ -1,0 +1,17 @@
+{
+ "_base": "https://raw.githubusercontent.com/sgossner/VCSL/master/",
+ "snare_modern": [
+  "Membranophones/Struck%20Membranophones/Snare%20Drum%2C%20Modern%201/Snare2_HitNS_v2_rr1_Mid.wav",
+  "Membranophones/Struck%20Membranophones/Snare%20Drum%2C%20Modern%201/Snare2_HitNS_v2_rr2_Mid.wav"
+ ],
+ "kawai": {
+  "A#2": "Chordophones/Zithers/Grand%20Piano%2C%20Kawai/Sustains/GPiano_sus_A%232_v4_rr1_Player.wav",
+  "A#3": "Chordophones/Zithers/Grand%20Piano%2C%20Kawai/Sustains/GPiano_sus_A%233_v4_rr1_Player.wav"
+ },
+ "recorder_alto_stacc": {
+  "A#3": "Aerophones/Edge-blown%20Aerophones/Baroque%20Alto%20Recorder/Staccato/AltRecorder_Stac_A%233_rr1_Main.wav"
+ },
+ "timpani": [
+  "Membranophones/Struck%20Membranophones/Timpani%201/Hit/Timpani1_Hit_v2_rr1_Sum.wav"
+ ]
+}

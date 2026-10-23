@@ -1,0 +1,355 @@
+{
+  "slug": "free-snare-samples",
+  "search": {
+    "q": "snare",
+    "categories": [
+      "drums.snare"
+    ],
+    "forms": [
+      "one-shot"
+    ]
+  },
+  "updatedAt": "2026-10-23T04:45:30.676Z",
+  "samples": [
+    {
+      "id": "openverse:03fa3080-bcb3-423f-a781-47dc20bedd59",
+      "provider": "openverse",
+      "title": "Snare 4.wav",
+      "category": "drums.snare",
+      "url": "https://freesound.org/people/VEXST/sounds/26903",
+      "previewUrl": "https://cdn.freesound.org/previews/26/26903_113878-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "VEXST",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.377
+    },
+    {
+      "id": "openverse:e43d1972-6c6c-44be-a6f7-1eea6cda842f",
+      "provider": "openverse",
+      "title": "Snare Drum, Single Hit, A (H1).wav",
+      "category": "drums.snare",
+      "url": "https://freesound.org/people/InspectorJ/sounds/410514",
+      "previewUrl": "https://cdn.freesound.org/previews/410/410514_5121236-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "InspectorJ",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.631
+    },
+    {
+      "id": "opengameart:8-bitlo-fi-snare-drum-sound",
+      "provider": "opengameart",
+      "title": "8-bit/Lo-Fi Snare Drum Sound",
+      "category": "drums.snare",
+      "url": "https://opengameart.org/content/8-bitlo-fi-snare-drum-sound",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/snare.ogg.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/snare.ogg.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "openverse:e28d4cff-95c2-4cb1-9205-d454752d9afa",
+      "provider": "openverse",
+      "title": "SNARE HIT.wav",
+      "category": "drums.snare",
+      "url": "https://freesound.org/people/djfroyd/sounds/381982",
+      "previewUrl": "https://cdn.freesound.org/previews/381/381982_4766646-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "djfroyd",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 2
+    },
+    {
+      "id": "opengameart:an-interesting-snare-drum-sound",
+      "provider": "opengameart",
+      "title": "An Interesting Snare Drum Sound",
+      "category": "drums.snare",
+      "url": "https://opengameart.org/content/an-interesting-snare-drum-sound",
+      "previewUrl": "https://opengameart.org/sites/default/files/best_snare_0.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/best_snare_0.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "openverse:03a091fa-4014-4331-a3fc-9e19a5fbf7ac",
+      "provider": "openverse",
+      "title": "Reverse Snare 3.wav",
+      "category": "drums.snare",
+      "url": "https://freesound.org/people/VEXST/sounds/26893",
+      "previewUrl": "https://cdn.freesound.org/previews/26/26893_113878-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "VEXST",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.361
+    },
+    {
+      "id": "soundbible:1512-Civil-War-Drummer-",
+      "provider": "soundbible",
+      "title": "Civil War Drummer",
+      "category": "drums.snare",
+      "url": "https://soundbible.com/1512-Civil-War-Drummer-.html",
+      "previewUrl": "https://soundbible.com/mp3/Civil%20War%20Drummer%20-SoundBible.com-700036269.mp3",
+      "downloadable": true,
+      "author": "DrumM8",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "openverse:0fdbbb0a-c710-4271-9c5e-d15d0aeb706a",
+      "provider": "openverse",
+      "title": "PLT SNARE 01.wav",
+      "category": "drums.snare",
+      "url": "https://freesound.org/people/sandyrb/sounds/38927",
+      "previewUrl": "https://cdn.freesound.org/previews/38/38927_14771-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "sandyrb",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.396
+    },
+    {
+      "id": "openverse:4f57446c-0ed2-4c95-9149-43caf813afb2",
+      "provider": "openverse",
+      "title": "Snare Drum, Multi Hits, A (H1).wav",
+      "category": "drums.snare",
+      "url": "https://freesound.org/people/InspectorJ/sounds/410516",
+      "previewUrl": "https://cdn.freesound.org/previews/410/410516_5121236-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "InspectorJ",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 2.718
+    },
+    {
+      "id": "openverse:56f44219-4cc3-4ab5-abca-d8dae98f0b08",
+      "provider": "openverse",
+      "title": "Snare DnB 1.aif",
+      "category": "drums.snare",
+      "url": "https://freesound.org/people/kaonaya/sounds/131363",
+      "previewUrl": "https://cdn.freesound.org/previews/131/131363_1513948-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "kaonaya",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "aiff"
+      ],
+      "durationSec": 1.411
+    },
+    {
+      "id": "openverse:891d1ec7-d815-4055-aa23-333043ea2f2e",
+      "provider": "openverse",
+      "title": "snare",
+      "category": "drums.snare",
+      "url": "https://freesound.org/people/ojirio/sounds/181321",
+      "previewUrl": "https://cdn.freesound.org/previews/181/181321_1407525-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "ojirio",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.301
+    },
+    {
+      "id": "openverse:9e34fbe3-ec02-4710-992c-9d5ff6933010",
+      "provider": "openverse",
+      "title": "Snare Drum.wav",
+      "category": "drums.snare",
+      "url": "https://freesound.org/people/KEVOY/sounds/82238",
+      "previewUrl": "https://cdn.freesound.org/previews/82/82238_1299633-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "KEVOY",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.394
+    },
+    {
+      "id": "openverse:fda626f4-8cc2-4f58-98cc-6dbaf7678221",
+      "provider": "openverse",
+      "title": "Snare 3.wav",
+      "category": "drums.snare",
+      "url": "https://freesound.org/people/VEXST/sounds/26902",
+      "previewUrl": "https://cdn.freesound.org/previews/26/26902_113878-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "VEXST",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.371
+    },
+    {
+      "id": "openverse:ae0c74bc-716d-46cb-8ae2-3edb23090690",
+      "provider": "openverse",
+      "title": "Snare drum muffled",
+      "category": "drums.snare",
+      "url": "https://commons.wikimedia.org/w/index.php?curid=93537",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Snare_drum_muffled.ogg",
+      "downloadable": true,
+      "author": "No machine-readable author provided. Clngre~commonswiki assumed (based on copyright claims).",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg"
+      ],
+      "durationSec": 4.165
+    },
+    {
+      "id": "openverse:a4e4db83-46ce-44ef-8c9f-79d3ca3c6a45",
+      "provider": "openverse",
+      "title": "Snare drum unmuffled",
+      "category": "drums.snare",
+      "url": "https://commons.wikimedia.org/w/index.php?curid=93535",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Snare_drum_unmuffled.ogg",
+      "downloadable": true,
+      "author": "No machine-readable author provided. Clngre~commonswiki assumed (based on copyright claims).",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg"
+      ],
+      "durationSec": 4.816
+    }
+  ]
+}

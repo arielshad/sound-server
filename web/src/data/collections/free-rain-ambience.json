@@ -1,0 +1,775 @@
+{
+  "slug": "free-rain-ambience",
+  "search": {
+    "q": "rain",
+    "categories": [
+      "ambience"
+    ]
+  },
+  "updatedAt": "2026-10-23T04:45:08.769Z",
+  "samples": [
+    {
+      "id": "openverse:6b072076-066b-45b6-9695-367a6260c96d",
+      "provider": "openverse",
+      "title": "Rain, Moderate, C.wav",
+      "category": "ambience",
+      "url": "https://freesound.org/people/InspectorJ/sounds/401275",
+      "previewUrl": "https://cdn.freesound.org/previews/401/401275_5121236-hq.mp3",
+      "downloadable": true,
+      "author": "InspectorJ",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 60.116
+    },
+    {
+      "id": "soundbible:2065-Rain-Inside-House",
+      "provider": "soundbible",
+      "title": "Rain Inside House",
+      "category": "ambience",
+      "url": "https://soundbible.com/2065-Rain-Inside-House.html",
+      "previewUrl": "https://soundbible.com/mp3/Rain_Inside_House-Mark_DiAngelo-323934112.mp3",
+      "downloadable": true,
+      "author": "Mark DiAngelo",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "opengameart:thunder-rain-and-wind",
+      "provider": "opengameart",
+      "title": "Thunder, rain and wind",
+      "category": "ambience",
+      "url": "https://opengameart.org/content/thunder-rain-and-wind",
+      "previewUrl": "https://opengameart.org/sites/default/files/montageAudio-20120408%40143621.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/montageAudio-20120408%40143621.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "openverse:7cb858c1-1a53-45cf-805d-8099347e260c",
+      "provider": "openverse",
+      "title": "Rain, Moderate, A.wav",
+      "category": "ambience",
+      "url": "https://freesound.org/people/InspectorJ/sounds/401277",
+      "previewUrl": "https://cdn.freesound.org/previews/401/401277_5121236-hq.mp3",
+      "downloadable": true,
+      "author": "InspectorJ",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 60.101
+    },
+    {
+      "id": "orangefreesounds:58693",
+      "provider": "orangefreesounds",
+      "title": "Stormy Rain Falling Sound Effect",
+      "category": "ambience",
+      "url": "https://orangefreesounds.com/stormy-rain-falling-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/10/Stormy-rain-falling-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 72
+    },
+    {
+      "id": "soundbible:901-Rain-And-Thunder-Strikes",
+      "provider": "soundbible",
+      "title": "Rain And Thunder Strikes",
+      "category": "ambience",
+      "url": "https://soundbible.com/901-Rain-And-Thunder-Strikes.html",
+      "previewUrl": "https://soundbible.com/mp3/Rain%20And%20Thunder%20Strikes-SoundBible.com-2084356876.mp3",
+      "downloadable": true,
+      "author": "Mike Koenig",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "opengameart:rain-loopable",
+      "provider": "opengameart",
+      "title": "Rain (loopable)",
+      "category": "ambience",
+      "url": "https://opengameart.org/content/rain-loopable",
+      "previewUrl": "https://opengameart.org/sites/default/files/1_7.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/1_7.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:58479",
+      "provider": "orangefreesounds",
+      "title": "Rain Hitting Car Windshield While Driving On Highway Sound Effect",
+      "category": "ambience",
+      "url": "https://orangefreesounds.com/rain-hitting-car-windshield-while-driving-on-highway-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/09/Rain-hitting-car-windshield-while-driving-on-highway-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 92
+    },
+    {
+      "id": "openverse:511f8f14-0209-4946-8a17-bce714284c56",
+      "provider": "openverse",
+      "title": "The rain falls against the parasol",
+      "category": "ambience",
+      "url": "https://freesound.org/people/straget/sounds/531947",
+      "previewUrl": "https://cdn.freesound.org/previews/531/531947_7707368-hq.mp3",
+      "downloadable": true,
+      "author": "straget",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 60.151
+    },
+    {
+      "id": "soundbible:2217-Heavy-Rain-Wind",
+      "provider": "soundbible",
+      "title": "Heavy Rain Wind",
+      "category": "ambience",
+      "url": "https://soundbible.com/2217-Heavy-Rain-Wind.html",
+      "previewUrl": "https://soundbible.com/mp3/heavy-rain-daniel_simon.mp3",
+      "downloadable": true,
+      "author": "Daniel Simion",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "opengameart:rain-and-thunder-loop",
+      "provider": "opengameart",
+      "title": "Rain and Thunder Loop",
+      "category": "ambience",
+      "url": "https://opengameart.org/content/rain-and-thunder-loop",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/rain_thunder_loop.wav.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/rain_thunder_loop.wav.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "openverse:e8ab5983-b6b8-4636-8771-0457cf86a6c2",
+      "provider": "openverse",
+      "title": "Heavy Rain",
+      "category": "ambience",
+      "url": "https://freesound.org/people/lebaston100/sounds/243628",
+      "previewUrl": "https://cdn.freesound.org/previews/243/243628_3509815-hq.mp3",
+      "downloadable": true,
+      "author": "lebaston100",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 157.338
+    },
+    {
+      "id": "orangefreesounds:58300",
+      "provider": "orangefreesounds",
+      "title": "Night Rain And Nocturnal Insects Ambient Sound",
+      "category": "ambience",
+      "url": "https://orangefreesounds.com/night-rain-and-nocturnal-insects-ambient-sound/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/09/Night-rain-and-nocturnal-insects-ambient-sound.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 70
+    },
+    {
+      "id": "soundbible:2006-Bird-In-Rain",
+      "provider": "soundbible",
+      "title": "Bird In Rain",
+      "category": "ambience",
+      "url": "https://soundbible.com/2006-Bird-In-Rain.html",
+      "previewUrl": "https://soundbible.com/mp3/Bird_in_Rain-Mike_Koenig-441535833.mp3",
+      "downloadable": true,
+      "author": "Mike Koenig",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "opengameart:thunder-very-close-rain-01",
+      "provider": "opengameart",
+      "title": "Thunder, Very Close, Rain, 01",
+      "category": "ambience",
+      "url": "https://opengameart.org/content/thunder-very-close-rain-01",
+      "previewUrl": "https://opengameart.org/sites/default/files/Thunder%2C%20Very%20Close%2C%20Rain%2C%2001.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/Thunder%2C%20Very%20Close%2C%20Rain%2C%2001.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:58357",
+      "provider": "orangefreesounds",
+      "title": "Steady Rain Ambience Sound Effect",
+      "category": "ambience",
+      "url": "https://orangefreesounds.com/steady-rain-ambience-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/09/Steady-rain-ambience-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 24
+    },
+    {
+      "id": "soundbible:2011-Rain-Background",
+      "provider": "soundbible",
+      "title": "Rain Background",
+      "category": "ambience",
+      "url": "https://soundbible.com/2011-Rain-Background.html",
+      "previewUrl": "https://soundbible.com/mp3/Rain_Background-Mike_Koenig-1681389445.mp3",
+      "downloadable": true,
+      "author": "Mike Koenig",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ]
+    },
+    {
+      "id": "opengameart:rain-gutter-loop",
+      "provider": "opengameart",
+      "title": "Rain in the Gutter Loop",
+      "category": "ambience",
+      "url": "https://opengameart.org/content/rain-gutter-loop",
+      "previewUrl": "https://opengameart.org/sites/default/files/rain-gutter-loop_0.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/rain-gutter-loop_0.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "openverse:ee3879dc-3906-4358-a105-3e65cbf11743",
+      "provider": "openverse",
+      "title": "Rain, Moderate, B.wav",
+      "category": "ambience",
+      "url": "https://freesound.org/people/InspectorJ/sounds/401276",
+      "previewUrl": "https://cdn.freesound.org/previews/401/401276_5121236-hq.mp3",
+      "downloadable": true,
+      "author": "InspectorJ",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 40.147
+    },
+    {
+      "id": "orangefreesounds:56757",
+      "provider": "orangefreesounds",
+      "title": "Free Stormy Rain Sound Effect Loop",
+      "category": "ambience",
+      "url": "https://orangefreesounds.com/free-stormy-rain-sound-effect-loop/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/05/Free-stormy-rain-sound-effect-loop.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "zip",
+        "mp3"
+      ],
+      "durationSec": 31
+    },
+    {
+      "id": "openverse:65181920-1ada-41ce-8c63-e5fb4cc3f703",
+      "provider": "openverse",
+      "title": "rbh rain 01.wav",
+      "category": "ambience",
+      "url": "https://freesound.org/people/RHumphries/sounds/2519",
+      "previewUrl": "https://cdn.freesound.org/previews/2/2519_1112-hq.mp3",
+      "downloadable": true,
+      "author": "RHumphries",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 37.394
+    },
+    {
+      "id": "opengameart:rain-ambient-not-loopable-2-versions-available",
+      "provider": "opengameart",
+      "title": "Rain (Ambient, Not Loopable) 2 Versions Available.",
+      "category": "ambience",
+      "url": "https://opengameart.org/content/rain-ambient-not-loopable-2-versions-available",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/Ove%20Melaa%20-%20Rainy%20%28NOT%20loopable%29_0.ogg.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/Ove%20Melaa%20-%20Rainy%20%28NOT%20loopable%29_0.ogg.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:57833",
+      "provider": "orangefreesounds",
+      "title": "Stormy Rain In City Sound Effect",
+      "category": "ambience",
+      "url": "https://orangefreesounds.com/stormy-rain-in-city-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/07/Rain-noise-loop-realistic-rainfall-sound-effect.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 93
+    },
+    {
+      "id": "openverse:9df463a7-c243-4e7d-9251-20ca3b8f8cce",
+      "provider": "openverse",
+      "title": "Rain Sound and Rainforest.mp3",
+      "category": "ambience",
+      "url": "https://freesound.org/people/INNORECORDS/sounds/457447",
+      "previewUrl": "https://cdn.freesound.org/previews/457/457447_9518146-hq.mp3",
+      "downloadable": true,
+      "author": "INNORECORDS",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 240.079
+    },
+    {
+      "id": "opengameart:moderate-rain-tin-roof-loop",
+      "provider": "opengameart",
+      "title": "moderate rain on a tin roof loop",
+      "category": "ambience",
+      "url": "https://opengameart.org/content/moderate-rain-tin-roof-loop",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/rain%20loop.wav.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/rain%20loop.wav.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:56907",
+      "provider": "orangefreesounds",
+      "title": "Summer Rain With Crickets Chirping – Calm Night Ambient Sound",
+      "category": "ambience",
+      "url": "https://orangefreesounds.com/summer-rain-with-crickets-chirping-calm-night-ambient-sound/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/06/Summer-rain-with-crickets-chirping-calm-night-ambient-sound.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 124
+    },
+    {
+      "id": "openverse:c48df7a7-3761-4c48-9a86-024496893316",
+      "provider": "openverse",
+      "title": "THUNDER / Rain low frequencies 4-CHANNEL-48kHz.wav",
+      "category": "ambience",
+      "url": "https://freesound.org/people/BlueDelta/sounds/367222",
+      "previewUrl": "https://cdn.freesound.org/previews/367/367222_1790434-hq.mp3",
+      "downloadable": true,
+      "author": "BlueDelta",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 122
+    },
+    {
+      "id": "opengameart:rain-long-thunder",
+      "provider": "opengameart",
+      "title": "Rain + Long Thunder",
+      "category": "ambience",
+      "url": "https://opengameart.org/content/rain-long-thunder",
+      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/rain-thunder_0.ogg.mp3",
+      "downloadable": true,
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/rain-thunder_0.ogg.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:57442",
+      "provider": "orangefreesounds",
+      "title": "Rain Hitting Plastic Awning Sound Effect",
+      "category": "ambience",
+      "url": "https://orangefreesounds.com/rain-hitting-plastic-awning-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/07/Rain-hitting-plastic-awning-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 61
+    },
+    {
+      "id": "openverse:dd171931-e90d-49de-8e52-104e6ec16cf1",
+      "provider": "openverse",
+      "title": "rbh rain 04.wav",
+      "category": "ambience",
+      "url": "https://freesound.org/people/RHumphries/sounds/2522",
+      "previewUrl": "https://cdn.freesound.org/previews/2/2522_1112-hq.mp3",
+      "downloadable": true,
+      "author": "RHumphries",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 85.215
+    },
+    {
+      "id": "opengameart:amb-rain-loop-1",
+      "provider": "opengameart",
+      "title": "AMB Rain Loop 1",
+      "category": "ambience",
+      "url": "https://opengameart.org/content/amb-rain-loop-1",
+      "previewUrl": "https://opengameart.org/sites/default/files/amb_rain_loop_1.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/amb_rain_loop_1.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:57220",
+      "provider": "orangefreesounds",
+      "title": "Approaching Storm Wind In Trees – Rain And Hail Ambience Sound Effect",
+      "category": "ambience",
+      "url": "https://orangefreesounds.com/approaching-storm-wind-in-trees-rain-and-hail-ambience-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/06/Approaching-storm-wind-in-trees-rain-and-hail-ambience-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 31
+    },
+    {
+      "id": "openverse:fb6ef108-844d-458f-b194-8f368aa21228",
+      "provider": "openverse",
+      "title": "gentle soft rain night.WAV",
+      "category": "ambience",
+      "url": "https://freesound.org/people/mshahen/sounds/242894",
+      "previewUrl": "https://cdn.freesound.org/previews/242/242894_2679905-hq.mp3",
+      "downloadable": true,
+      "author": "mshahen",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 95
+    },
+    {
+      "id": "opengameart:amb-rain-loop-2",
+      "provider": "opengameart",
+      "title": "AMB Rain Loop 2",
+      "category": "ambience",
+      "url": "https://opengameart.org/content/amb-rain-loop-2",
+      "previewUrl": "https://opengameart.org/sites/default/files/amb_rain2.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/amb_rain2.mp3.png",
+      "license": {
+        "id": "LicenseRef-OpenGameArt-per-item-licence",
+        "name": "OpenGameArt per-item licence",
+        "url": "https://opengameart.org/content/faq",
+        "verdict": "check-terms"
+      },
+      "free": true
+    },
+    {
+      "id": "orangefreesounds:57121",
+      "provider": "orangefreesounds",
+      "title": "Rain Falling And Hitting Concrete And Plastic Roof Sound Effect",
+      "category": "ambience",
+      "url": "https://orangefreesounds.com/rain-falling-and-hitting-concrete-and-plastic-roof-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/06/Rain-falling-and-hitting-concrete-and-plastic-roof-sound-effect.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 79
+    },
+    {
+      "id": "openverse:a50659f6-52f5-410a-b652-8426a6e46a6b",
+      "provider": "openverse",
+      "title": "Rain Birds 4.wav",
+      "category": "ambience",
+      "url": "https://freesound.org/people/Suso_Ramallo/sounds/120742",
+      "previewUrl": "https://cdn.freesound.org/previews/120/120742_2085904-hq.mp3",
+      "downloadable": true,
+      "author": "Suso_Ramallo",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 358.577
+    }
+  ]
+}

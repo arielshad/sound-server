@@ -1,0 +1,75 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import StatsDashboard from "@/components/stats/StatsDashboard";
+import CatalogStats from "@/components/stats/CatalogStats.astro";
+import { CATALOG, HAS_CATALOG, fmt, fmtWords } from "@/lib/catalog";
+import { aboutPage, breadcrumbs, catalogDataset } from "@/lib/schema";
+import { INTEGRATIONS, PROVIDERS, SOURCE_COUNT } from "@/lib/site";
+
+const t = CATALOG.totals;
+const title = "Sample statistics";
+const description = HAS_CATALOG
+  ? `${fmtWords(t.listings.count, t.listings.atLeast)} sample listings from ${t.sourcesCounted} sources, ${fmtWords(t.free.count, t.free.atLeast)} free and ${fmt(t.cc0.count)} CC0, counted daily by category and source, plus live usage.`
+  : `How many samples the ${SOURCE_COUNT} searched sites hold, counted daily by category and source, and how people and AI agents use Sound Server.`;
+const names = Object.fromEntries(PROVIDERS.map((p) => [p.id, p.name]));
+const recent = INTEGRATIONS.slice(0, 6);
+const dateFmt = new Intl.DateTimeFormat("en", { year: "numeric", month: "short", day: "numeric", timeZone: "UTC" });
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  markdown="/stats.md"
+  schema={[aboutPage({ title, description, path: "/stats", type: "WebPage" }), catalogDataset(), breadcrumbs([{ name: "Home", path: "/" }, { name: title, path: "/stats" }])]}
+>
+  <div class="mx-auto max-w-6xl px-4 py-14 sm:px-6">
+    <header class="max-w-3xl">
+      <p class="text-sm font-medium text-primary">Sound Server</p>
+      <h1 class="mt-2 text-balance text-3xl font-semibold tracking-tight sm:text-4xl">Samples in numbers</h1>
+      <p class="mt-4 text-pretty text-muted-foreground">
+        How many drum hits, loops, vocals, FX, field recordings and instrument samples the {SOURCE_COUNT} searched sites hold, counted every day, and how people and AI agents use Sound Server. Usage counts are anonymous totals: no search terms, IP addresses or accounts.
+      </p>
+    </header>
+
+    {HAS_CATALOG ? <CatalogStats /> : <p class="mt-10 rounded-xl border p-6 text-sm text-muted-foreground">The first catalog count has not run yet. It appears here after the daily census.</p>}
+
+    <section class="mt-16" aria-labelledby="usage">
+      <h2 id="usage" class="text-2xl font-semibold tracking-tight">Live usage</h2>
+      <div class="mt-4">
+        <StatsDashboard client:load names={names} />
+      </div>
+    </section>
+
+    {recent.length > 0 && (
+    <section class="mt-16" aria-labelledby="recent">
+      <div class="flex flex-wrap items-baseline justify-between gap-2">
+        <h2 id="recent" class="text-xl font-semibold tracking-tight">Recently added sources</h2>
+        <a href="/docs/sources" class="text-sm text-primary hover:underline">All sources &amp; licences →</a>
+      </div>
+      <p class="mt-1 text-sm text-muted-foreground">
+        New sample sites are checked for every day. A site is added only when its terms allow automated search and its integration passes the test suite against the live site.
+      </p>
+      <ul class="mt-4 divide-y rounded-xl border">
+        {recent.map((i) => (
+          <li class="flex flex-wrap items-center justify-between gap-2 px-4 py-3 text-sm">
+            <a href={`/sources/${i.id}`} class="font-medium hover:underline">{i.name}</a>
+            <span class="text-muted-foreground">
+              Added <time datetime={i.addedAt}>{dateFmt.format(new Date(`${i.addedAt}T00:00:00Z`))}</time>
+            </span>
+          </li>
+        ))}
+      </ul>
+    </section>
+    )}
+
+    <section class="mt-16 max-w-3xl" aria-labelledby="method">
+      <h2 id="method" class="text-xl font-semibold tracking-tight">How usage is counted</h2>
+      <ul class="mt-4 list-disc space-y-2 pl-5 text-sm text-muted-foreground">
+        <li>Every search, sample view, download and MCP tool call increments a counter on the server. The counters are labelled only by surface (website, REST API, MCP), client family (for example "Claude Code" or "curl"), category and source.</li>
+        <li>Totals for the last 24 hours and 7 days come from the server's Prometheus metrics, so they are approximate to within a few events.</li>
+        <li>Source health counts how often each site answered a search, failed or timed out, and how long it took.</li>
+        <li>The same data is available as JSON at <a class="text-primary hover:underline" href="/v1/stats">/v1/stats</a> (<a class="text-primary hover:underline" href="/docs/api/reference#op-getStats">reference</a>). See the <a class="text-primary hover:underline" href="/privacy">privacy policy</a> for what is logged.</li>
+      </ul>
+    </section>
+  </div>
+</BaseLayout>
