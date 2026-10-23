@@ -1,7 +1,7 @@
 ---
 title: "What is the CC Sampling+ licence?"
 seoTitle: "What is CC Sampling+? Licence explained"
-description: "Sampling+ lets you transform a sound in new work, commercially too, but never in advertising and never resell it. What it allows, and why it was retired."
+description: "Sampling+ lets you transform a sound in new work, commercially too, but never in advertising or resold raw. What it allows and where you still meet it."
 answer: "Creative Commons Sampling+ 1.0 is a retired licence written for sampling. It lets you sample and transform a sound into a new work, including a commercial one, as long as you credit the author and don't use it to advertise anything; copying the whole, unchanged sound is allowed only non-commercially. Its NonCommercial variant forbids commercial use altogether. You will mostly find it on older uploads to Freesound and ccMixter."
 section: Licensing
 faq:

@@ -20,7 +20,7 @@ searches:
 collections: [free-kick-samples, free-rain-ambience, free-footstep-sounds]
 related: [cc0-vs-cc-by-vs-royalty-free, credit-cc-by-samples, what-counts-as-commercial-use, cc-sampling-plus]
 cites:
-  - { name: "Freesound: licences (help)", url: "https://freesound.org/help/faq/#licenses" }
+  - { name: "Freesound: licences (help)", url: "https://freesound.org/help/faq/" }
   - { name: "CC0 1.0 Universal", url: "https://creativecommons.org/publicdomain/zero/1.0/" }
   - { name: "CC BY 4.0", url: "https://creativecommons.org/licenses/by/4.0/" }
   - { name: "CC BY-NC 4.0", url: "https://creativecommons.org/licenses/by-nc/4.0/" }

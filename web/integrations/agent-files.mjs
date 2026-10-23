@@ -2,8 +2,9 @@
 //   /AGENTS.md              agent guide (also served for `/` when Accept: text/markdown)
 //   /skill/SKILL.md         Claude Code skill
 //   /docs.md, /docs/*.md    markdown twins of every docs page
-//   /llms.txt               llmstxt.org index
-//   /llms-full.txt          every guide in one file
+//   /llms.txt               llmstxt.org index (docs, guides, glossary, collections)
+//   /llms-full.txt          the agent guide, docs, guides, glossary, FAQ and
+//                           collection pages (without sample tables) in one file
 //   /scalar/standalone.js   self-hosted Scalar API reference bundle
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { dirname, join, relative } from "node:path";

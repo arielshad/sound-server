@@ -1,6 +1,6 @@
 # Sound Server
 
-**sound-server** searches 30+ sample sites at once and downloads what you pick: kicks, snares,
+**sound-server** searches 35+ sample sites at once and downloads what you pick: kicks, snares,
 hi-hats, claps, 808s, loops, vocals and a cappellas, risers, impacts, zaps, foley, ambience and
 instrument one-shots. Use it from a browser, from `curl`, from the command line, or let your AI
 assistant drive it over MCP to build a track.
@@ -123,7 +123,9 @@ claude mcp add sounds -e SOUND_DOWNLOAD_DIR="$PWD/samples" -e FREESOUND_API_KEY=
 | `get_sample` | Licence, credit line, files; `analyze=true` fills in duration, BPM, key, root note, loudness |
 | `download_sample` | Local only: files the sound by category and updates ATTRIBUTION.md / credits.json |
 | `build_kit` | One pick per slot (kick, snare, clap, hats, 808…) with alternatives, a Strudel snippet and an SFZ/GM map |
-| `find_similar` | Freesound's audio similarity |
+| `find_similar` | Sounds like a given sample: audio embeddings (CLAP) when enabled, else Freesound's similarity |
+| `extract_midi` | A melodic loop (bass, lead, vocal line) as a MIDI file, one note at a time |
+| `export_instrument` | Local only: a multisample pack as a playable SFZ + Decent Sampler instrument |
 | `list_sources` | Every source and what it is good for |
 
 ## HTTP API
@@ -156,6 +158,15 @@ sound-server serve
 sound-server mcp
 ```
 
+## Search quality (optional)
+
+With `SOUND_SERVER_DATA_DIR` set, analysis results are kept in SQLite (`node:sqlite`) across restarts.
+With `SOUND_SERVER_EMBEDDINGS=1` as well, the server embeds previews with CLAP (transformers.js), so
+`find_similar` works for every source, text queries re-rank indexed results by how they sound, and
+uncertain categories get a model-based second opinion. It needs the `ml` image
+(`ghcr.io/arielshad/sound-server:sha-<commit>-ml`, built by CI) and about 1.5 GiB of memory;
+`sound-server index --providers strudel` pre-indexes a catalogue.
+
 ## Downloads and kits
 
 - The file picker prefers the lossless original (wav > aiff > flac > ogg > mp3) and never picks a file that
@@ -184,6 +195,8 @@ sound-server mcp
 | `SOUND_SERVER_MAX_DOWNLOAD_BYTES` | 2 GiB | Cap per download / bundle / extracted pack |
 | `FFMPEG_PATH`, `FFPROBE_PATH` | from `PATH` | Audio analysis |
 | `METRICS_PORT`, `PROMETHEUS_URL` | off | Prometheus metrics and `/stats` |
+| `SOUND_SERVER_DATA_DIR` | none | Persistent analysis cache and embedding index (SQLite) |
+| `SOUND_SERVER_EMBEDDINGS` | off | `1` turns on CLAP audio embeddings (needs the `ml` image) |
 | `SOUND_SERVER_TELEMETRY` | off | Opt-in anonymous install telemetry (needs `SOUND_SERVER_TELEMETRY_WEBSITE_ID`) |
 
 `node dist/cli.js help` lists everything.

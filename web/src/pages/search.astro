@@ -12,7 +12,7 @@ const collections = (await allCollections()).filter((c) => c.indexable);
   title="Search free samples: drums, 808s, vocals & FX"
   description={`Search ${SOURCE_COUNT} sample sites at once for kicks, snares, hats, 808s, loops, vocal chops and FX. Preview every sound and see if it's cleared for a commercial release.`}
   schema={[breadcrumbs([{ name: "Home", path: "/" }, { name: "Search", path: "/search" }])]}
-  markdown="/AGENTS.md"
+  markdown="/search.md"
 >
   <h1 class="sr-only">Search music samples across {SOURCE_COUNT} sources</h1>
   <SearchApp client:load />

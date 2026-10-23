@@ -90,7 +90,7 @@ const indexableInHub = hubCollections.filter((x) => x.indexable).length;
       </header>
       {hubCollections.length ? (
         <section class="mt-10" aria-labelledby="hub-collections">
-          <h2 id="hub-collections" class="text-xl font-semibold tracking-tight">{hubCollections.length} {hub.name.toLowerCase()} collections</h2>
+          <h2 id="hub-collections" class="text-xl font-semibold tracking-tight">{hubCollections.length} collections</h2>
           <ul class="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {hubCollections.map((x) => <CollectionCard collection={x} />)}
           </ul>

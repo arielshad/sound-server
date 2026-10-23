@@ -1,17 +1,21 @@
 # sound-server: plan to production
 
-> **Status (2026-10-23):** M0–M5 built, with M6 deploy files ready.
-> - 31 sources: 16 searchable, 15 link-only.
-> - REST API, MCP tools, CLI, audio analysis, kit building and website done.
-> - 513 offline tests pass; the production image runs end to end with ffmpeg.
+> **Status (2026-10-23):** M0–M6 live at sound.shep.bot; M7, v1.1 and most of v2 built.
+> - 37 sources (22 searched or indexed, 15 link-only), including the v1.1 set: Ghosthack, Black Octopus,
+>   BigSoundBank, Zenodo datasets, free-pack news; Function Loops is link-only.
+> - v2: persistent store, CLAP embeddings (optional, `ml` image), find-similar for every source,
+>   re-ranking, zero-shot category fallback, SFZ / Decent Sampler instrument export, monophonic MIDI.
+> - SEO/GEO pass (docs/SEO-GEO-AUDIT.md): 138 pages, 55 collections, 13 guides, glossary, FAQ.
+> - 724 offline tests pass.
 >
-> Left for M6, outside this repo:
-> 1. Merge to `main`, so CI builds and pins the image.
-> 2. Register the ArgoCD app, the Umami website and the Grafana dashboard in shep-ai/shep-infra.
-> 3. Add `FREESOUND_API_KEY` in Infisical under `/sound-server` (synced by `deploy/externalsecret.yaml`).
+> Not done:
+> - M7 runs need repo secrets (`FREESOUND_API_KEY`, `CLAUDE_CODE_OAUTH_TOKEN` or `ANTHROPIC_API_KEY`).
+> - Embeddings in production (switch to the ml image, 1.5 GiB memory).
+> - The 2-D sound map, cosine de-duplication across sources, polyphonic MIDI.
+> - The shared core package (§9).
 >
 > Changes from the plan:
-> - Mixkit, Cymatics and Prime Loops are link-only, because their terms forbid automated access.
+> - Mixkit, Cymatics, Prime Loops and Function Loops are link-only, because their terms or robots.txt forbid automated access.
 > - Telemetry is opt-in.
 
 **Goal:** search many sample sites at once and download what you pick, for music production and AI
