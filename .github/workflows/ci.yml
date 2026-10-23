@@ -11,6 +11,7 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -21,8 +22,19 @@ jobs:
             package-lock.json
             web/package-lock.json
       # Audio analysis tests decode audio with ffmpeg/ffprobe.
+      # A hung package mirror once stalled this step for half an hour: cap each
+      # attempt and retry, rather than waiting out the 6-hour job limit.
       - name: ffmpeg
-        run: command -v ffprobe || (sudo apt-get update && sudo apt-get install -y --no-install-recommends ffmpeg)
+        timeout-minutes: 12
+        run: |
+          command -v ffprobe && exit 0
+          for i in 1 2 3; do
+            sudo timeout 180 apt-get -o Acquire::Retries=3 -o Acquire::http::Timeout=30 update &&
+              sudo timeout 180 apt-get -o Acquire::Retries=3 -o Acquire::http::Timeout=30 install -y --no-install-recommends ffmpeg &&
+              exit 0
+            echo "apt attempt $i failed; retrying" && sleep 10
+          done
+          exit 1
       - run: npm ci
       - run: npm --prefix web ci
       - run: npm run build
@@ -109,10 +121,17 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
+          fetch-depth: 50
       - name: Pin image tag
         run: |
           set -euo pipefail
           tag="sha-${GITHUB_SHA}"
+          # A run that finished late must not roll back a newer deploy: if main
+          # has commits after this one (other than pins), their run deploys.
+          if git merge-base --is-ancestor "${GITHUB_SHA}" HEAD 2>/dev/null; then
+            newer=$(git log --format=%s "${GITHUB_SHA}..HEAD" | grep -vc '^chore(deploy): pin image' || true)
+            if [ "${newer}" -gt 0 ]; then echo "main has ${newer} newer commit(s); not pinning ${tag}"; exit 0; fi
+          fi
           sed -i -E "s#^(\s*newTag:).*#\1 ${tag}#" deploy/kustomization.yaml
           if git diff --quiet; then echo "already pinned to ${tag}"; exit 0; fi
           git config user.name "github-actions[bot]"

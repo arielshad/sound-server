@@ -35,8 +35,19 @@ jobs:
         with:
           node-version: 24
           registry-url: https://registry.npmjs.org
+      # A hung package mirror once stalled this step for half an hour: cap each
+      # attempt and retry, rather than waiting out the 6-hour job limit.
       - name: ffmpeg
-        run: command -v ffprobe || (sudo apt-get update && sudo apt-get install -y --no-install-recommends ffmpeg)
+        timeout-minutes: 12
+        run: |
+          command -v ffprobe && exit 0
+          for i in 1 2 3; do
+            sudo timeout 180 apt-get -o Acquire::Retries=3 -o Acquire::http::Timeout=30 update &&
+              sudo timeout 180 apt-get -o Acquire::Retries=3 -o Acquire::http::Timeout=30 install -y --no-install-recommends ffmpeg &&
+              exit 0
+            echo "apt attempt $i failed; retrying" && sleep 10
+          done
+          exit 1
       - run: npm ci
       - run: npm --prefix web ci
       - run: npm run build
