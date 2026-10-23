@@ -9,6 +9,7 @@ import { planKit, type KitPlan } from "../core/kit.js";
 import { VERDICT_LABELS } from "../core/licence.js";
 import { formatKey, keyFromText } from "../core/query.js";
 import { SampleService, errorMessage } from "../core/service.js";
+import { findSimilar } from "../core/similar.js";
 import type { Sample, SampleDetails, SampleFile } from "../core/types.js";
 import { compact } from "../core/util.js";
 import { CATEGORIES, SAMPLE_FORMS, type Category } from "../core/vocab.js";
@@ -395,22 +396,32 @@ export function createMcpServer(service: SampleService, opts: McpOptions): McpSe
     "find_similar",
     {
       title: "Find similar sounds",
-      description: "Sounds that sound like a given sample (Freesound's audio similarity). Works for freesound:* ids.",
+      description:
+        "Sounds that sound like a given sample, from any source (e.g. 'strudel:…', 'freesound:2086'). " +
+        (service.embeddings
+          ? "Compares CLAP audio embeddings of previews against every sound this server has indexed so far (the index grows as samples are searched and opened); " +
+            "Freesound ids fall back to Freesound's own similarity when the index has nothing. "
+          : "Uses Freesound's audio similarity, so it works for freesound:* ids (audio embeddings for other sources are off on this server). ") +
+        "Results carry the same fields as search_samples, with score = similarity (0..1). " +
+        LICENCE_RULES,
       inputSchema: {
-        id: z.string().describe("A Freesound sample id, e.g. 'freesound:2086'."),
+        id: z.string().describe("A sample id from search_samples, e.g. 'freesound:2086'."),
         limit: z.number().int().min(1).max(30).optional(),
       },
       annotations: { readOnlyHint: true, openWorldHint: true },
     },
     timed("find_similar", async (args) => {
       try {
-        const [provider, nativeId] = [args.id.slice(0, args.id.indexOf(":")), args.id.slice(args.id.indexOf(":") + 1)];
-        const p = service.getProvider(provider);
-        if (provider !== "freesound" || !p) return fail("find_similar works for Freesound samples (ids starting with 'freesound:').");
-        if (p.isEnabled && !p.isEnabled()) return fail("Freesound is not configured on this server (FREESOUND_API_KEY).");
-        const { freesoundSimilar } = await import("../providers/freesound.js");
-        const similar = await freesoundSimilar(nativeId, { fetch: service.http, signal: AbortSignal.timeout(20_000) }, args.limit ?? 12);
-        return json({ id: args.id, results: similar.map((s) => summarize(s, links(s)?.preview)) });
+        const res = await findSimilar(service, args.id, { limit: args.limit ?? 12 });
+        return json(
+          compact({
+            id: res.id,
+            method: res.method,
+            results: res.results.map((s) => summarize(s, links(s)?.preview)),
+            indexed: res.indexed,
+            note: res.note,
+          }),
+        );
       } catch (e) {
         return fail(e);
       }

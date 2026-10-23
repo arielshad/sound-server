@@ -12,6 +12,7 @@ import type {
   SampleFilters,
   SampleQuery,
 } from "./types.js";
+import type { EmbeddingIndex } from "./similar.js";
 import { matchScore, parseSampleId } from "./util.js";
 import { categoryMatches, type Category } from "./vocab.js";
 
@@ -65,6 +66,12 @@ export interface SampleServiceOptions {
   providers: Provider[];
   http?: HttpClient;
   defaultTimeoutMs?: number;
+  /**
+   * CLAP embedding features (src/core/similar.ts), when on: background
+   * indexing of previews seen here, text→audio re-ranking of results that
+   * already have a vector, and the zero-shot category fallback.
+   */
+  embeddings?: EmbeddingIndex;
 }
 
 const DEFAULT_LIMIT = 24;
@@ -77,9 +84,11 @@ export class SampleService {
   readonly http: HttpClient;
   private readonly providers = new Map<string, Provider>();
   private readonly defaultTimeoutMs: number;
+  readonly embeddings?: EmbeddingIndex;
 
   constructor(opts: SampleServiceOptions) {
     this.http = opts.http ?? createHttpClient();
+    this.embeddings = opts.embeddings;
     this.defaultTimeoutMs = opts.defaultTimeoutMs ?? Number(process.env.SOUND_SERVER_PROVIDER_TIMEOUT_MS ?? 12_000);
     for (const p of opts.providers) this.providers.set(p.id, p);
   }
@@ -156,7 +165,8 @@ export class SampleService {
         try {
           const res = await withTimeout(p.search(q, ctx), timeoutMs, signal);
           const local = localFilters(filters, p.nativeFilters);
-          let samples = res.samples.filter((s) => passes(s, filters, req));
+          const index = this.embeddings;
+          let samples = (index ? res.samples.map((s) => index.refine(s)) : res.samples).filter((s) => passes(s, filters, req));
           if (req.downloadableOnly) samples = samples.filter((s) => s.downloadable);
           samples.forEach((sample, rank) => ranked.push({ sample, rank, provider: p }));
           reports.push({
@@ -182,8 +192,12 @@ export class SampleService {
     );
 
     const order = [...this.providers.keys()];
-    const results = rankResults(dedupe(ranked, order), q).slice(0, limit);
+    const unique = dedupe(ranked, order);
+    // Text→audio similarity for results that already have a stored vector. Never fetches audio.
+    const semantic = this.embeddings && q.query.trim() ? await this.embeddings.semanticScores(q.query, unique.map((u) => u.sample.id)).catch(() => undefined) : undefined;
+    const results = rankResults(unique, q, semantic ? { semantic, weight: this.embeddings!.rerankWeight } : undefined).slice(0, limit);
     reports.sort((a, b) => order.indexOf(a.provider) - order.indexOf(b.provider));
+    this.embeddings?.observe(results);
     return { query: q.query, filters, results, providers: reports };
   }
 
@@ -194,7 +208,10 @@ export class SampleService {
     if (!p) throw new UnknownProviderError([parsed.provider]);
     if (!p.getSample) throw new UnsupportedError(`${p.name} does not support sample details; open the source site instead.`);
     const signal = AbortSignal.timeout(this.defaultTimeoutMs * 2);
-    return p.getSample(parsed.nativeId, { fetch: this.http, signal, credentials });
+    const sample = await p.getSample(parsed.nativeId, { fetch: this.http, signal, credentials });
+    if (!sample || !this.embeddings) return sample;
+    this.embeddings.observeDetails(sample);
+    return this.embeddings.refine(sample);
   }
 }
 
@@ -279,7 +296,9 @@ function normUrl(u: string): string {
 export function rankResults(
   items: { sample: Sample; rank: number; provider: Pick<Provider, "id" | "access"> }[],
   q: Pick<SampleQuery, "query" | "hints" | "bpm" | "key" | "forms" | "categories">,
+  opts?: RankOptions,
 ): Sample[] {
+  const semantic = semanticTerm(opts);
   const scored = items.map(({ sample, rank, provider }) => {
     const relevance = matchScore({ ...sample, tags: [...sample.tags, sample.category.replace(/\./g, " ")] }, q.query);
     const sourceRank = 1 / (1 + rank * 0.15);
@@ -290,7 +309,8 @@ export function rankResults(
       0.15 * musicalFit(sample, q) +
       0.04 * (sample.license && COMMERCIAL_SAFE.has(sample.license.verdict) ? 1 : 0) +
       0.03 * (sample.price?.free !== false ? 1 : 0) +
-      0.03 * (sample.downloadable ? 1 : 0);
+      0.03 * (sample.downloadable ? 1 : 0) +
+      semantic(sample.id);
     return { sample, provider: provider.id, score };
   });
   scored.sort((a, b) => b.score - a.score);
@@ -303,6 +323,32 @@ export function rankResults(
   });
   diversified.sort((a, b) => b.score - a.score);
   return diversified.map((s) => ({ ...s.sample, score: round(s.score) }));
+}
+
+export interface RankOptions {
+  /** Raw text→audio cosine per sample id (only samples with a stored vector). */
+  semantic?: Map<string, number>;
+  /** Weight of the semantic term (default 0.15). */
+  weight?: number;
+}
+
+/**
+ * The semantic term: cosines min-max scaled across this result set, centred
+ * so a sample without a vector scores 0 (unchanged) and ones with vectors move
+ * by at most ±weight/2. Fewer than two vectors: no term at all.
+ */
+function semanticTerm(opts?: RankOptions): (id: string) => number {
+  const sem = opts?.semantic;
+  if (!sem || sem.size < 2) return () => 0;
+  const w = opts?.weight ?? 0.15;
+  const values = [...sem.values()];
+  const min = Math.min(...values);
+  const span = Math.max(...values) - min;
+  if (span < 1e-6) return () => 0;
+  return (id) => {
+    const v = sem.get(id);
+    return v === undefined ? 0 : w * ((v - min) / span - 0.5);
+  };
 }
 
 /** 0..1: how well the known musical facts fit what was asked. Unknowns score half. */

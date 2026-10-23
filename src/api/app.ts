@@ -20,6 +20,7 @@ import {
   UnsupportedError,
   errorMessage,
 } from "../core/service.js";
+import { SampleNotFoundError, SimilarUnavailableError, findSimilar } from "../core/similar.js";
 import { LocalStats, PrometheusStats, cachedStats, teeAnalytics, type StatsSource } from "../core/stats.js";
 import type { BpmRange, SampleDetails, SampleFile } from "../core/types.js";
 import { CATEGORIES, SAMPLE_FORMS, type Category, type SampleForm } from "../core/vocab.js";
@@ -87,7 +88,7 @@ function routeLabel(path: string): string {
     return path;
   }
   if (path.startsWith("/v1/samples/")) {
-    for (const tail of ["download", "files", "preview", "peaks"]) if (path.endsWith(`/${tail}`)) return `/v1/samples/:id/${tail}`;
+    for (const tail of ["download", "files", "preview", "peaks", "similar"]) if (path.endsWith(`/${tail}`)) return `/v1/samples/:id/${tail}`;
     return "/v1/samples/:id";
   }
   if (path === "/v1/kits") return path;
@@ -316,7 +317,8 @@ export function createApp(service: SampleService, opts: AppOptions = {}): Hono {
     if (err instanceof UnknownProviderError || err instanceof InvalidSampleIdError || err instanceof z.ZodError) {
       return c.json({ error: err instanceof z.ZodError ? z.prettifyError(err) : err.message }, 400);
     }
-    if (err instanceof UnsupportedError) return c.json({ error: err.message }, 501);
+    if (err instanceof UnsupportedError || err instanceof SimilarUnavailableError) return c.json({ error: err.message }, 501);
+    if (err instanceof SampleNotFoundError) return c.json({ error: "not found" }, 404);
     if (err instanceof HttpError) return c.json({ error: `Upstream error: ${err.message}` }, err.status === 404 ? 404 : 502);
     console.error(err);
     return c.json({ error: errorMessage(err) }, 500);
@@ -529,6 +531,20 @@ export function createApp(service: SampleService, opts: AppOptions = {}): Hono {
     c.header("cache-control", "public, max-age=86400");
     return c.json(peaks);
   });
+
+  /**
+   * Sounds like this one: nearest CLAP audio embeddings among the samples this
+   * server has indexed (when embeddings are on), or Freesound's similarity for
+   * freesound ids. `method` says which answered.
+   */
+  app.get("/v1/samples/:id/similar", async (c) => {
+    const limit = Math.min(Math.max(Number(c.req.query("limit") ?? 12) || 12, 1), 50);
+    const res = await findSimilar(service, c.req.param("id"), { limit, credentials: callerCredentials(c) });
+    return c.json(res);
+  });
+
+  /** Status of the optional embedding index and persistent store (for operators). */
+  app.get("/v1/embeddings", (c) => c.json(service.embeddings ? service.embeddings.status() : { enabled: false }));
 
   /** Plan a drum kit: one pick per slot with alternatives, plus Strudel and General MIDI/SFZ maps. */
   app.post("/v1/kits", async (c) => {

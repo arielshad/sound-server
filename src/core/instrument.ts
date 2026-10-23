@@ -18,11 +18,13 @@
  * groups (seqMode="round_robin", seqLength) and has attack/release knobs.
  *
  * `mapInstrument`, `toSfz`, `toDecentSampler` and `parseSampleName` are pure;
- * `buildInstrument` adds a small fs walker and header/pitch reads. No network.
+ * `buildInstrument` adds a small fs walker, header reads and pitch detection
+ * (ffmpeg decode + pitchy). No network.
  */
 import { mkdir, open, readdir, writeFile } from "node:fs/promises";
 import { basename, dirname, extname, isAbsolute, join, relative, resolve, sep } from "node:path";
-import { analyzeAudio } from "./analyze.js";
+import { detectPitch } from "./analyze.js";
+import { decodeMono } from "./midi.js";
 import { hzToMidi, noteName, parseNoteName } from "./notes.js";
 import { parseWavChunks } from "./wavchunks.js";
 
@@ -345,7 +347,7 @@ function cmpNumbers(a: number[], b: number[]): number {
   return 0;
 }
 
-const variantLabel = (v: string) => v || "(all files)";
+const variantLabel = (v: string) => v || "(main)";
 
 /**
  * Key and velocity mapping for resolved samples. Splits the files into
@@ -363,7 +365,8 @@ export function mapInstrument(samples: InstrumentSample[], opts: MapOptions = {}
   const common = new Set(samples[0]!.words);
   for (const s of samples) for (const w of [...common]) if (!s.words.includes(w)) common.delete(w);
   const sigOf = (s: InstrumentSample) => {
-    const ws = [...new Set(s.words.filter((w) => !common.has(w)))].sort();
+    const dirWords = new Set(s.dir.toLowerCase().split(/[\s/._-]+/));
+    const ws = [...new Set(s.words.filter((w) => !common.has(w) && !dirWords.has(w)))].sort();
     return [s.dir, ...ws].filter(Boolean).join(" ");
   };
   const groups = new Map<string, InstrumentSample[]>();
@@ -496,7 +499,7 @@ export function mapInstrument(samples: InstrumentSample[], opts: MapOptions = {}
     });
   });
 
-  const name = opts.name?.trim() || defaultName(primary, common);
+  const name = opts.name?.trim() || defaultName(primary);
   return {
     name,
     variant: variantLabel(primaryKey),
@@ -514,8 +517,8 @@ export function mapInstrument(samples: InstrumentSample[], opts: MapOptions = {}
   };
 }
 
-function defaultName(primary: InstrumentSample[], common: Set<string>): string {
-  const word = primary[0]!.words.find((w) => common.has(w) && /[a-z]/.test(w));
+function defaultName(primary: InstrumentSample[]): string {
+  const word = primary[0]!.words.find((w) => /[a-z]{2}/.test(w) && primary.every((s) => s.words.includes(w)));
   const dir = primary[0]!.dir.split("/").filter(Boolean).pop();
   const raw = word ?? dir ?? "Instrument";
   return raw.charAt(0).toUpperCase() + raw.slice(1);
@@ -575,7 +578,7 @@ function knob(x: number, label: string, parameter: string, value: number, max: n
 export function toDecentSampler(map: InstrumentMap): string {
   const out = [
     '<?xml version="1.0" encoding="UTF-8"?>',
-    `<!-- ${xml(map.name)}: multisample instrument built by sound-server. Credits and licences: see ATTRIBUTION.md next to this file. -->`,
+    `<!-- ${xml(map.name).replace(/-{2,}/g, "-")}: multisample instrument built by sound-server. Credits and licences: see ATTRIBUTION.md next to this file. -->`,
     '<DecentSampler minVersion="1.0.0">',
     '  <ui width="812" height="375" layoutMode="relative" bgMode="top_left">',
     '    <tab name="main">',
@@ -730,12 +733,22 @@ async function readHeader(path: string): Promise<HeaderFacts> {
   return out;
 }
 
+/** Decode up to 6 s, trim silence, detect the pitch (pitchy, as analyze.ts). Ignores headers. */
 async function detectRoot(path: string): Promise<{ note: number; confidence: number; cents?: number } | undefined> {
   try {
-    const a = await analyzeAudio({ path }, { deep: true, maxSeconds: 6 });
-    if (a.rootNote === undefined || a.source.rootNote !== "analysis") return undefined;
-    const cents = a.rootNoteHz ? Math.round((hzToMidi(a.rootNoteHz) - a.rootNote) * 100) : undefined;
-    return { note: a.rootNote, confidence: a.rootNoteConfidence ?? 0, ...(cents ? { cents } : {}) };
+    const { pcm, sampleRate } = await decodeMono({ path }, { maxSeconds: 6, timeoutMs: 30_000 });
+    let peak = 0;
+    for (let i = 0; i < pcm.length; i++) peak = Math.max(peak, Math.abs(pcm[i]!));
+    if (peak === 0) return undefined;
+    const thr = Math.max(10 ** (-60 / 20), peak * 10 ** (-48 / 20));
+    let first = 0;
+    while (first < pcm.length && Math.abs(pcm[first]!) < thr) first++;
+    let last = pcm.length - 1;
+    while (last > first && Math.abs(pcm[last]!) < thr) last--;
+    const p = detectPitch(pcm.subarray(first, last + 1), sampleRate);
+    if (!p) return undefined;
+    const cents = Math.round((hzToMidi(p.hz) - p.note) * 100);
+    return { note: p.note, confidence: p.confidence, ...(cents ? { cents } : {}) };
   } catch {
     return undefined;
   }
@@ -854,6 +867,7 @@ export async function resolveSamples(input: string | InstrumentFileInput[], opts
   // Every header saying the same note is a default left by the editor, not a real root.
   const fromSmpl = samples.filter((s) => s.noteSource === "smpl" || s.noteSource === "acid" || s.noteSource === "aiff");
   if (detect && fromSmpl.length >= 3 && new Set(fromSmpl.map((s) => s.note)).size === 1) {
+    const headerNote = fromSmpl[0]!.note;
     const checks = await pool(fromSmpl, 8, (s) => detectRoot(s.path));
     let changed = 0;
     checks.forEach((p, i) => {
@@ -864,7 +878,7 @@ export async function resolveSamples(input: string | InstrumentFileInput[], opts
         changed++;
       }
     });
-    if (changed) warnings.push(`all ${fromSmpl.length} header root notes were ${noteName(fromSmpl[0]!.note)} (an editor default?); ${changed} replaced by detected pitch`);
+    if (changed) warnings.push(`all ${fromSmpl.length} header root notes were ${noteName(headerNote)} (an editor default?); ${changed} replaced by detected pitch`);
   }
 
   // Whole-octave naming offsets (C3 = 60 packs).
@@ -878,7 +892,7 @@ export async function resolveSamples(input: string | InstrumentFileInput[], opts
       warnings.push(`file names are ${Math.abs(d / 12)} octave(s) ${d > 0 ? "low" : "high"} against detected pitch; shifted all name-derived notes by ${d > 0 ? "+" : ""}${d}`);
     }
   }
-  return { samples, skipped, warnings, found: files.length };
+  return { samples, skipped, warnings, found: filtered.length };
 }
 
 /**
