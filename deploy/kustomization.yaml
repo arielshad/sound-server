@@ -18,4 +18,4 @@ resources:
 images:
   - name: ghcr.io/arielshad/sound-server
     # Replaced by CI with the first image built from main.
-    newTag: sha-682b7c6d22e65f6217a55e8f9cb0cfb0c6d8d5db
+    newTag: sha-ee0ea0104b7ccc882f4c303a55a15bd0a612a0c6
