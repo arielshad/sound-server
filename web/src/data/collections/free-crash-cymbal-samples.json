@@ -6,7 +6,7 @@
       "drums.cymbal.crash"
     ]
   },
-  "updatedAt": "2026-10-23T09:38:06.289Z",
+  "updatedAt": "2026-10-24T09:08:49.563Z",
   "samples": [
     {
       "id": "wikimediacommons:Kobe_Bryant_helicopter_crash_ATC_audio.flac",
@@ -710,6 +710,76 @@
       "formats": [
         "wav"
       ]
+    },
+    {
+      "id": "openverse:ab4ce8ba-891b-4d49-8a1a-fbcfc9a02d89",
+      "provider": "openverse",
+      "title": "Reverse Cymbal Crash Sweep",
+      "category": "drums.cymbal.crash",
+      "url": "https://freesound.org/people/stair/sounds/134941",
+      "previewUrl": "https://cdn.freesound.org/previews/134/134941_236950-hq.mp3",
+      "downloadable": true,
+      "author": "stair",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 32
+    },
+    {
+      "id": "openverse:2f945336-2b6c-4817-9875-3fcf3c0d9957",
+      "provider": "openverse",
+      "title": "[Drums] Crash cymbol",
+      "category": "drums.cymbal.crash",
+      "url": "https://freesound.org/people/waveplaySFX/sounds/187535",
+      "previewUrl": "https://cdn.freesound.org/previews/187/187535_1676145-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "waveplaySFX",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 10.988
+    },
+    {
+      "id": "openverse:3df803a8-9e02-460b-9bb2-4fc1ddde5571",
+      "provider": "openverse",
+      "title": "large crash with cat.aiff",
+      "category": "drums.cymbal.crash",
+      "url": "https://freesound.org/people/bevibeldesign/sounds/315928",
+      "previewUrl": "https://cdn.freesound.org/previews/315/315928_4557960-hq.mp3",
+      "downloadable": true,
+      "author": "bevibeldesign",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "aiff"
+      ],
+      "durationSec": 8.898
     }
   ]
 }

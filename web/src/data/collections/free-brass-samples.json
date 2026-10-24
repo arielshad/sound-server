@@ -6,7 +6,7 @@
       "brass"
     ]
   },
-  "updatedAt": "2026-10-23T09:37:22.542Z",
+  "updatedAt": "2026-10-24T09:08:24.424Z",
   "samples": [
     {
       "id": "wikimediacommons:America_the_Beautiful_-_Brass_Quintet_-_United_States_Navy_Band.opus",
@@ -602,6 +602,190 @@
       "formats": [
         "wav"
       ]
+    },
+    {
+      "id": "openverse:2b9c73ce-ee19-4760-b02f-4e217c05b65c",
+      "provider": "openverse",
+      "title": "brass horn",
+      "category": "brass",
+      "url": "https://freesound.org/people/mmleys/sounds/186645",
+      "previewUrl": "https://cdn.freesound.org/previews/186/186645_3457072-hq.mp3",
+      "downloadable": true,
+      "author": "mmleys",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 4.117
+    },
+    {
+      "id": "openverse:418b700c-540f-49c8-a680-a9b2be5cdfc3",
+      "provider": "openverse",
+      "title": "National anthem of the Khmer Republic (brass instrumental)",
+      "category": "brass",
+      "url": "https://commons.wikimedia.org/w/index.php?curid=176333662",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/National_anthem_of_the_Khmer_Republic_%28brass_instrumental%29.ogg",
+      "downloadable": true,
+      "author": "MakeLife2013Again",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg"
+      ],
+      "durationSec": 39.999
+    },
+    {
+      "id": "openverse:5d44dcfe-3c83-4401-97fc-d1846a58621e",
+      "provider": "openverse",
+      "title": "00704 brass fanfare 6.wav",
+      "category": "brass",
+      "url": "https://freesound.org/people/Robinhood76/sounds/64425",
+      "previewUrl": "https://cdn.freesound.org/previews/64/64425_321967-hq.mp3",
+      "downloadable": true,
+      "author": "Robinhood76",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 4.763
+    },
+    {
+      "id": "openverse:37c0a797-37dc-47da-97b6-7a9ffe3f4144",
+      "provider": "openverse",
+      "title": "Election Time, Funky Brass Instrumentals for Podcasts and Quiz Games",
+      "category": "brass",
+      "url": "https://freesound.org/people/kjartan_abel/sounds/542939",
+      "previewUrl": "https://cdn.freesound.org/previews/542/542939_6738752-hq.mp3",
+      "downloadable": true,
+      "author": "kjartan_abel",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 87.058
+    },
+    {
+      "id": "openverse:660c1fd8-94a8-4f59-8779-ecc6260524a4",
+      "provider": "openverse",
+      "title": "BRASS END IN A 001.wav",
+      "category": "brass",
+      "url": "https://freesound.org/people/sandyrb/sounds/85892",
+      "previewUrl": "https://cdn.freesound.org/previews/85/85892_14771-hq.mp3",
+      "downloadable": true,
+      "author": "sandyrb",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 4.906
+    },
+    {
+      "id": "openverse:94f2ae2b-2e1e-4315-a5f8-631e400335db",
+      "provider": "openverse",
+      "title": "Short Brass Fanfare 2.wav",
+      "category": "brass",
+      "url": "https://freesound.org/people/_MC5_/sounds/524848",
+      "previewUrl": "https://cdn.freesound.org/previews/524/524848_332618-hq.mp3",
+      "downloadable": true,
+      "author": "_MC5_",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 6.566
+    },
+    {
+      "id": "openverse:4df64df3-4054-49e7-b984-76d3fccded69",
+      "provider": "openverse",
+      "title": "Orchestral Brass Hits, note C, 140BPM",
+      "category": "brass",
+      "url": "https://freesound.org/people/copyc4t/sounds/248257",
+      "previewUrl": "https://cdn.freesound.org/previews/248/248257_1904290-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "copyc4t",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "bpm": 140,
+      "durationSec": 10.281
+    },
+    {
+      "id": "openverse:024a4c10-3f3e-4493-8d2c-38d71e01a0fb",
+      "provider": "openverse",
+      "title": "Antiquity Rome 1- Announcement music - Brass",
+      "category": "brass",
+      "url": "https://freesound.org/people/FK_Prod/sounds/190029",
+      "previewUrl": "https://cdn.freesound.org/previews/190/190029_3517340-hq.mp3",
+      "downloadable": true,
+      "author": "FK_Prod",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 40.791
     }
   ]
 }

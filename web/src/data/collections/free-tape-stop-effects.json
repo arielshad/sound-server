@@ -6,7 +6,7 @@
       "fx"
     ]
   },
-  "updatedAt": "2026-10-23T09:44:58.998Z",
+  "updatedAt": "2026-10-24T09:12:07.848Z",
   "samples": [
     {
       "id": "openverse:300ad502-04fa-4a9c-af56-7eb754bef820",
@@ -123,6 +123,29 @@
         "wav"
       ],
       "durationSec": 8.124
+    },
+    {
+      "id": "bbc:07004186",
+      "provider": "bbc",
+      "title": "RGD tape machine operating with start and stop.",
+      "category": "fx",
+      "url": "https://sound-effects.bbcrewind.co.uk/search?q=07004186",
+      "previewUrl": "https://sound-effects-media.bbcrewind.co.uk/mp3/07004186.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "license": {
+        "id": "LicenseRef-BBC-RemArc",
+        "name": "BBC RemArc licence",
+        "url": "https://sound-effects.bbcrewind.co.uk/licensing",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ],
+      "durationSec": 72.028
     }
   ]
 }

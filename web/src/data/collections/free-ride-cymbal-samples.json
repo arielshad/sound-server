@@ -6,7 +6,7 @@
       "drums.cymbal.ride"
     ]
   },
-  "updatedAt": "2026-10-23T09:42:45.994Z",
+  "updatedAt": "2026-10-24T09:11:00.249Z",
   "samples": [
     {
       "id": "wikimediacommons:Jazz_ride_pattern.ogg",
@@ -665,6 +665,98 @@
       "formats": [
         "wav"
       ]
+    },
+    {
+      "id": "openverse:8b31e895-33b8-47d9-b83c-b43c67bc3fe4",
+      "provider": "openverse",
+      "title": "bicycle ride clean.wav",
+      "category": "drums.cymbal.ride",
+      "url": "https://freesound.org/people/klankbeeld/sounds/191427",
+      "previewUrl": "https://cdn.freesound.org/previews/191/191427_1648170-hq.mp3",
+      "downloadable": true,
+      "author": "klankbeeld",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 33.169
+    },
+    {
+      "id": "openverse:eb7027f5-1b9a-4b1a-869b-53aa061d009a",
+      "provider": "openverse",
+      "title": "Motorcycle ride",
+      "category": "drums.cymbal.ride",
+      "url": "https://freesound.org/people/roman_cgr/sounds/415037",
+      "previewUrl": "https://cdn.freesound.org/previews/415/415037_639300-hq.mp3",
+      "downloadable": true,
+      "author": "roman_cgr",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 105.903
+    },
+    {
+      "id": "openverse:01c780f7-5522-4252-928c-34dcb9c73622",
+      "provider": "openverse",
+      "title": "bicycle ride with a breaking.wav",
+      "category": "drums.cymbal.ride",
+      "url": "https://freesound.org/people/13gkopeckak/sounds/378900",
+      "previewUrl": "https://cdn.freesound.org/previews/378/378900_7026513-hq.mp3",
+      "downloadable": true,
+      "author": "13gkopeckak",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 50.76
+    },
+    {
+      "id": "openverse:c21f57c4-b1b9-44dd-acc9-4835a4303851",
+      "provider": "openverse",
+      "title": "Bicycle ride and coast",
+      "category": "drums.cymbal.ride",
+      "url": "https://freesound.org/people/AngryAdam/sounds/130367",
+      "previewUrl": "https://cdn.freesound.org/previews/130/130367_233053-hq.mp3",
+      "downloadable": true,
+      "author": "AngryAdam",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 93.029
     }
   ]
 }

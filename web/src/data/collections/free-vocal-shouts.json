@@ -6,7 +6,7 @@
       "vocals.shout"
     ]
   },
-  "updatedAt": "2026-10-23T09:46:10.123Z",
+  "updatedAt": "2026-10-24T09:12:45.605Z",
   "samples": [
     {
       "id": "wikimediacommons:\"A_Down_Home_Shout\"_(1907),_by_Herman_Carle.mp3",
@@ -395,6 +395,338 @@
         "ogg"
       ],
       "durationSec": 2033.737
+    },
+    {
+      "id": "openverse:74b82534-8245-4a10-a2ca-c00b8bf866a3",
+      "provider": "openverse",
+      "title": "00842 karate shout 1.wav",
+      "category": "vocals.shout",
+      "url": "https://freesound.org/people/Robinhood76/sounds/66595",
+      "previewUrl": "https://cdn.freesound.org/previews/66/66595_321967-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Robinhood76",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.762
+    },
+    {
+      "id": "openverse:5ef048d9-603c-4696-a52c-f353c3155a5f",
+      "provider": "openverse",
+      "title": "crit - Shout - scream",
+      "category": "vocals.shout",
+      "url": "https://freesound.org/people/albertgrinyo/sounds/420015",
+      "previewUrl": "https://cdn.freesound.org/previews/420/420015_8257386-hq.mp3",
+      "downloadable": true,
+      "author": "albertgrinyo",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 2.874
+    },
+    {
+      "id": "openverse:e1797d1b-c30e-4075-8c90-d339e346ea4f",
+      "provider": "openverse",
+      "title": "'To War!' Assault Drill Sergeant Shout",
+      "category": "vocals.shout",
+      "url": "https://freesound.org/people/qubodup/sounds/161967",
+      "previewUrl": "https://cdn.freesound.org/previews/161/161967_71257-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "qubodup",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "flac"
+      ],
+      "durationSec": 2.19
+    },
+    {
+      "id": "openverse:3693ec62-e639-40a9-aca2-5818d3b0681f",
+      "provider": "openverse",
+      "title": "00535 fight shout man hai 1.wav",
+      "category": "vocals.shout",
+      "url": "https://freesound.org/people/Robinhood76/sounds/62684",
+      "previewUrl": "https://cdn.freesound.org/previews/62/62684_321967-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Robinhood76",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.5
+    },
+    {
+      "id": "openverse:4559d483-779d-466c-8d6f-f80c3ab6eef6",
+      "provider": "openverse",
+      "title": "01283 fire shout 1.wav",
+      "category": "vocals.shout",
+      "url": "https://freesound.org/people/Robinhood76/sounds/81181",
+      "previewUrl": "https://cdn.freesound.org/previews/81/81181_321967-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Robinhood76",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 2.452
+    },
+    {
+      "id": "openverse:870ba911-838c-47f4-b506-28d25c5c2b22",
+      "provider": "openverse",
+      "title": "00537 fight shout man hit 1.wav",
+      "category": "vocals.shout",
+      "url": "https://freesound.org/people/Robinhood76/sounds/62685",
+      "previewUrl": "https://cdn.freesound.org/previews/62/62685_321967-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Robinhood76",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.313
+    },
+    {
+      "id": "openverse:f6d095ec-fb63-4361-b75a-842be3ecbc1e",
+      "provider": "openverse",
+      "title": "En-us-shout",
+      "category": "vocals.shout",
+      "url": "https://commons.wikimedia.org/w/index.php?curid=1780373",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/En-us-shout.ogg",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Dvortygirl",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg"
+      ],
+      "durationSec": 1.05
+    },
+    {
+      "id": "openverse:f12a441e-5b49-4356-b23b-e2dd38846fb4",
+      "provider": "openverse",
+      "title": "01126 happy baby shout 4.wav",
+      "category": "vocals.shout",
+      "url": "https://freesound.org/people/Robinhood76/sounds/75697",
+      "previewUrl": "https://cdn.freesound.org/previews/75/75697_321967-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Robinhood76",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.211
+    },
+    {
+      "id": "openverse:bacd2ac3-d611-47a2-90c5-462d78b0575f",
+      "provider": "openverse",
+      "title": "Shouting Yeah.wav",
+      "category": "vocals.shout",
+      "url": "https://freesound.org/people/tonsil5/sounds/416843",
+      "previewUrl": "https://cdn.freesound.org/previews/416/416843_8247784-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "tonsil5",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.038
+    },
+    {
+      "id": "openverse:11e17786-c1ae-418c-ae36-1b3a7de8883a",
+      "provider": "openverse",
+      "title": "Vanhan ajan sota, taistelu, miekkailu / Ancient, old time battle, combat, horses snorting and galloping, men shouting and barking, fencing, swords clanging, mix",
+      "category": "vocals.shout",
+      "url": "https://freesound.org/people/YleArkisto/sounds/258207",
+      "previewUrl": "https://cdn.freesound.org/previews/258/258207_4415905-hq.mp3",
+      "downloadable": true,
+      "author": "YleArkisto",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 127.335
+    },
+    {
+      "id": "openverse:bd63b1f1-a578-4321-81ab-d86a6ff6291a",
+      "provider": "openverse",
+      "title": "kids playing soccer in the park, shouting and arguing.aif",
+      "category": "vocals.shout",
+      "url": "https://freesound.org/people/Tomlija/sounds/101382",
+      "previewUrl": "https://cdn.freesound.org/previews/101/101382_1163166-hq.mp3",
+      "downloadable": true,
+      "author": "Tomlija",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "aiff"
+      ],
+      "durationSec": 97.918
+    },
+    {
+      "id": "openverse:2fc3388b-d21b-4658-af20-e0476e171416",
+      "provider": "openverse",
+      "title": "Ey - shouting",
+      "category": "vocals.shout",
+      "url": "https://freesound.org/people/vikuserro/sounds/246304",
+      "previewUrl": "https://cdn.freesound.org/previews/246/246304_2833408-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "vikuserro",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.94
+    },
+    {
+      "id": "openverse:c2f1c38d-1aae-405e-bf2e-f81b3a47a563",
+      "provider": "openverse",
+      "title": "Hey - Men Shouting together - Jewish Wedding",
+      "category": "vocals.shout",
+      "url": "https://freesound.org/people/khenshom/sounds/527740",
+      "previewUrl": "https://cdn.freesound.org/previews/527/527740_6652872-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "khenshom",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.64
+    },
+    {
+      "id": "openverse:07047f18-4c6e-400e-8527-0adeb952934e",
+      "provider": "openverse",
+      "title": "Male shouting yelling hey !!!",
+      "category": "vocals.shout",
+      "url": "https://freesound.org/people/Jagadamba/sounds/254334",
+      "previewUrl": "https://cdn.freesound.org/previews/254/254334_4062622-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Jagadamba",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.659
     }
   ]
 }

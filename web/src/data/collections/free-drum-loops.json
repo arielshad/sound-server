@@ -9,7 +9,7 @@
       "loop"
     ]
   },
-  "updatedAt": "2026-10-23T09:38:43.144Z",
+  "updatedAt": "2026-10-24T09:09:03.687Z",
   "samples": [
     {
       "id": "orangefreesounds:58632",
@@ -650,6 +650,199 @@
       ],
       "bpm": 140,
       "durationSec": 3
+    },
+    {
+      "id": "openverse:26728e9d-d955-4a7e-b20f-9a13cf88f91a",
+      "provider": "openverse",
+      "title": "Tribe Drum Loop",
+      "category": "drums",
+      "url": "https://freesound.org/people/PearceWilsonKing/sounds/342465",
+      "previewUrl": "https://cdn.freesound.org/previews/342/342465_3906011-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "PearceWilsonKing",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 8.275
+    },
+    {
+      "id": "openverse:530f5be1-5ca1-4ee2-8def-b24fe0616376",
+      "provider": "openverse",
+      "title": "Slow Drum Loop",
+      "category": "drums",
+      "url": "https://freesound.org/people/Leifgreen/sounds/232335",
+      "previewUrl": "https://cdn.freesound.org/previews/232/232335_4194262-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Leifgreen",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 8.001
+    },
+    {
+      "id": "openverse:42f26d0f-4c6d-4127-8c1b-fc834f3c6ded",
+      "provider": "openverse",
+      "title": "NATIVE DRUM LOOP A 16BARS 100BPM.wav",
+      "category": "drums",
+      "url": "https://freesound.org/people/sandyrb/sounds/86652",
+      "previewUrl": "https://cdn.freesound.org/previews/86/86652_14771-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "sandyrb",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "bpm": 100,
+      "durationSec": 38.4
+    },
+    {
+      "id": "openverse:b56f3259-df16-4bb1-9ffe-f84150b1f285",
+      "provider": "openverse",
+      "title": "Drum loop",
+      "category": "drums",
+      "url": "https://freesound.org/people/jmayoff/sounds/256954",
+      "previewUrl": "https://cdn.freesound.org/previews/256/256954_233371-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "jmayoff",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 3.261
+    },
+    {
+      "id": "openverse:92f2f04b-854d-47f2-9cd3-e7a14e481040",
+      "provider": "openverse",
+      "title": "NATIVE DRUM LOOP B 16BARS 100BPM.wav",
+      "category": "drums",
+      "url": "https://freesound.org/people/sandyrb/sounds/86653",
+      "previewUrl": "https://cdn.freesound.org/previews/86/86653_14771-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "sandyrb",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "bpm": 100,
+      "durationSec": 38.4
+    },
+    {
+      "id": "openverse:c3b702f6-e82d-41d3-919e-20dd56866ff5",
+      "provider": "openverse",
+      "title": "CAT RATS DRUM LOOP",
+      "category": "drums",
+      "url": "https://freesound.org/people/supermatt1896/sounds/152355",
+      "previewUrl": "https://cdn.freesound.org/previews/152/152355_1962993-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "supermatt1896",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 4.8
+    },
+    {
+      "id": "openverse:3b593119-dc0f-4048-9dc0-656b43635e8f",
+      "provider": "openverse",
+      "title": "funky drum loops.84 bpm.mp3",
+      "category": "drums",
+      "url": "https://freesound.org/people/ajubamusic/sounds/320803",
+      "previewUrl": "https://cdn.freesound.org/previews/320/320803_2626519-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "ajubamusic",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 140.057
+    },
+    {
+      "id": "openverse:be1a88f7-8496-48a5-91cc-0c6595a126f2",
+      "provider": "openverse",
+      "title": "Energetic Bigbeat Drum Loop",
+      "category": "drums",
+      "url": "https://freesound.org/people/AlexProst/sounds/382251",
+      "previewUrl": "https://cdn.freesound.org/previews/382/382251_7113697-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "AlexProst",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 7.5
     }
   ]
 }

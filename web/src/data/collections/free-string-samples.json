@@ -6,7 +6,7 @@
       "strings"
     ]
   },
-  "updatedAt": "2026-10-23T09:44:07.773Z",
+  "updatedAt": "2026-10-24T09:11:43.782Z",
   "samples": [
     {
       "id": "wikimediacommons:Inleiding_Festival_Strings_Lucerne_(audio).mp3",
@@ -637,6 +637,190 @@
       "formats": [
         "wav"
       ]
+    },
+    {
+      "id": "openverse:c584755a-3f14-4118-afcb-cdfa6b4235a6",
+      "provider": "openverse",
+      "title": "Orchestral Strings, Warm, A.wav",
+      "category": "strings",
+      "url": "https://freesound.org/people/InspectorJ/sounds/402656",
+      "previewUrl": "https://cdn.freesound.org/previews/402/402656_5121236-hq.mp3",
+      "downloadable": true,
+      "author": "InspectorJ",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 53.953
+    },
+    {
+      "id": "openverse:5363992d-41b5-4637-996a-fdf36c44a66e",
+      "provider": "openverse",
+      "title": "Epic Strings",
+      "category": "strings",
+      "url": "https://freesound.org/people/AlexProst/sounds/382250",
+      "previewUrl": "https://cdn.freesound.org/previews/382/382250_7113697-hq.mp3",
+      "downloadable": true,
+      "author": "AlexProst",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 18.204
+    },
+    {
+      "id": "openverse:4f720604-ceed-4148-8a7e-a3437ef2fe7f",
+      "provider": "openverse",
+      "title": "Cello open string bowed.wav",
+      "category": "strings",
+      "url": "https://freesound.org/people/juskiddink/sounds/68373",
+      "previewUrl": "https://cdn.freesound.org/previews/68/68373_649468-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "juskiddink",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 20.085
+    },
+    {
+      "id": "openverse:be5d0cc4-341c-4edb-920f-d1afdc33aa82",
+      "provider": "openverse",
+      "title": "04099 magic string spell.wav",
+      "category": "strings",
+      "url": "https://freesound.org/people/Robinhood76/sounds/178318",
+      "previewUrl": "https://cdn.freesound.org/previews/178/178318_321967-hq.mp3",
+      "downloadable": true,
+      "author": "Robinhood76",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 6.04
+    },
+    {
+      "id": "openverse:afb4fc90-044b-4615-b0b4-f6df8c8bbda3",
+      "provider": "openverse",
+      "title": "Beautiful String Music.mp3",
+      "category": "strings",
+      "url": "https://freesound.org/people/Cunningar0807/sounds/353964",
+      "previewUrl": "https://cdn.freesound.org/previews/353/353964_5442183-hq.mp3",
+      "downloadable": true,
+      "author": "Cunningar0807",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 103.028
+    },
+    {
+      "id": "openverse:229d0f1a-35bf-4bff-a29b-e1ec0a89c661",
+      "provider": "openverse",
+      "title": "Horror Strings",
+      "category": "strings",
+      "url": "https://freesound.org/people/Sirkoto51/sounds/367308",
+      "previewUrl": "https://cdn.freesound.org/previews/367/367308_5225777-hq.mp3",
+      "downloadable": true,
+      "author": "Sirkoto51",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 14.201
+    },
+    {
+      "id": "openverse:6de166bd-96bf-4c8a-9fcc-48fbaa518970",
+      "provider": "openverse",
+      "title": "Epic Orchestral Strings",
+      "category": "strings",
+      "url": "https://freesound.org/people/TheoJT/sounds/511196",
+      "previewUrl": "https://cdn.freesound.org/previews/511/511196_6627602-hq.mp3",
+      "downloadable": true,
+      "author": "TheoJT",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 58.483
+    },
+    {
+      "id": "openverse:352649d7-f191-4ec2-b9ff-1d528c04bf83",
+      "provider": "openverse",
+      "title": "Hip-hop Strings",
+      "category": "strings",
+      "url": "https://freesound.org/people/deleted_user_2968900/sounds/209808",
+      "previewUrl": "https://cdn.freesound.org/previews/209/209808_2968900-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "deleted_user_2968900",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 13.241
     }
   ]
 }

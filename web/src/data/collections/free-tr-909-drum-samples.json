@@ -6,7 +6,7 @@
       "drums"
     ]
   },
-  "updatedAt": "2026-10-23T09:45:33.658Z",
+  "updatedAt": "2026-10-24T09:12:19.046Z",
   "samples": [
     {
       "id": "wikimediacommons:909_Beat_(Antti_Luode).mp3",
@@ -412,6 +412,150 @@
       "formats": [
         "wav"
       ]
+    },
+    {
+      "id": "openverse:f3707301-77b5-4e4b-ba47-782d8fb5a23f",
+      "provider": "openverse",
+      "title": "909 kick.wav",
+      "category": "drums.kick",
+      "url": "https://freesound.org/people/NoiseCollector/sounds/3724",
+      "previewUrl": "https://cdn.freesound.org/previews/3/3724_4948-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "NoiseCollector",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.267
+    },
+    {
+      "id": "openverse:1de66702-bfbd-43bc-9b51-21460e293412",
+      "provider": "openverse",
+      "title": "909 kick3.wav",
+      "category": "drums.kick",
+      "url": "https://freesound.org/people/NoiseCollector/sounds/3726",
+      "previewUrl": "https://cdn.freesound.org/previews/3/3726_4948-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "NoiseCollector",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.509
+    },
+    {
+      "id": "openverse:bec4c774-623e-4962-9a53-864c88e583af",
+      "provider": "openverse",
+      "title": "First 909 drum loop.wav",
+      "category": "drums",
+      "url": "https://freesound.org/people/andylist/sounds/103120",
+      "previewUrl": "https://cdn.freesound.org/previews/103/103120_1575771-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "andylist",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 12
+    },
+    {
+      "id": "openverse:3718d443-c029-4478-b72f-e494d52d006a",
+      "provider": "openverse",
+      "title": "909 Snare + Clap",
+      "category": "drums.clap",
+      "url": "https://freesound.org/people/ani_music/sounds/165326",
+      "previewUrl": "https://cdn.freesound.org/previews/165/165326_3008343-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "ani_music",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.164
+    },
+    {
+      "id": "openverse:14a69c10-40d5-4e99-ae53-4c4034971ca1",
+      "provider": "openverse",
+      "title": "[Kick] 909 kick drum",
+      "category": "drums.kick",
+      "url": "https://freesound.org/people/waveplaySFX/sounds/218279",
+      "previewUrl": "https://cdn.freesound.org/previews/218/218279_1676145-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "waveplaySFX",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 1.918
+    },
+    {
+      "id": "openverse:713fae53-3bec-4aff-8453-1bd741df3859",
+      "provider": "openverse",
+      "title": "909 Sn 02a dry.wav",
+      "category": "drums.snare",
+      "url": "https://freesound.org/people/sakebeats/sounds/176352",
+      "previewUrl": "https://cdn.freesound.org/previews/176/176352_522346-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "sakebeats",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.348
     }
   ]
 }

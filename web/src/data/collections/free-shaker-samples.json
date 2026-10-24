@@ -6,7 +6,7 @@
       "drums.perc"
     ]
   },
-  "updatedAt": "2026-10-23T09:43:33.960Z",
+  "updatedAt": "2026-10-24T09:11:24.682Z",
   "samples": [
     {
       "id": "strudel:vcsl/shaker_large/0",
@@ -338,6 +338,337 @@
       "formats": [
         "wav"
       ]
+    },
+    {
+      "id": "openverse:5fbb1c04-2425-4c03-aeaa-c246776e5eef",
+      "provider": "openverse",
+      "title": "Shaker, Woda, Conga, Bongo, Templeblock.wav",
+      "category": "drums.perc",
+      "url": "https://freesound.org/people/kwazi/sounds/34115",
+      "previewUrl": "https://cdn.freesound.org/previews/34/34115_60249-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "kwazi",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 34.439
+    },
+    {
+      "id": "openverse:8abbc368-bb8d-4f63-86c6-f832726313ca",
+      "provider": "openverse",
+      "title": "Egg Shaker Rhythm.wav",
+      "category": "drums.perc",
+      "url": "https://freesound.org/people/Ainigmat/sounds/404841",
+      "previewUrl": "https://cdn.freesound.org/previews/404/404841_2033613-hq.mp3",
+      "downloadable": true,
+      "author": "Ainigmat",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 11.319
+    },
+    {
+      "id": "openverse:b1ca8cc4-20b6-44a7-8553-0fb843927046",
+      "provider": "openverse",
+      "title": "Egg Shaker - 1 Throw",
+      "category": "drums.perc",
+      "url": "https://freesound.org/people/Connersaw64/sounds/199823",
+      "previewUrl": "https://cdn.freesound.org/previews/199/199823_3485902-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Connersaw64",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "aiff"
+      ],
+      "durationSec": 0.44
+    },
+    {
+      "id": "openverse:0a4cb03d-9aa3-4139-a8e5-ec64903c03fd",
+      "provider": "openverse",
+      "title": "NATIVE SHAKER 03.wav",
+      "category": "drums.perc",
+      "url": "https://freesound.org/people/sandyrb/sounds/86659",
+      "previewUrl": "https://cdn.freesound.org/previews/86/86659_14771-hq.mp3",
+      "downloadable": true,
+      "author": "sandyrb",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 5.474
+    },
+    {
+      "id": "openverse:18220f33-8012-4171-ab08-9bcf58c8326f",
+      "provider": "openverse",
+      "title": "Congas bongos shaker",
+      "category": "drums.perc",
+      "url": "https://freesound.org/people/bigjoedrummer/sounds/133479",
+      "previewUrl": "https://cdn.freesound.org/previews/133/133479_1105584-hq.mp3",
+      "downloadable": true,
+      "author": "bigjoedrummer",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 37.787
+    },
+    {
+      "id": "openverse:a34b166a-24b4-4c4c-abde-18dce131232c",
+      "provider": "openverse",
+      "title": "Shaker Rhythm",
+      "category": "drums.perc",
+      "url": "https://freesound.org/people/acrobatricks/sounds/260947",
+      "previewUrl": "https://cdn.freesound.org/previews/260/260947_664029-hq.mp3",
+      "downloadable": true,
+      "author": "acrobatricks",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 12.283
+    },
+    {
+      "id": "openverse:d535a4ce-da30-4263-8106-332b053af3a4",
+      "provider": "openverse",
+      "title": "Egg Shaker 1",
+      "category": "drums.perc",
+      "url": "https://freesound.org/people/kramsttop/sounds/170905",
+      "previewUrl": "https://cdn.freesound.org/previews/170/170905_1779544-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "kramsttop",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.187
+    },
+    {
+      "id": "openverse:a8102e6f-9d72-45b0-84f4-a6d8d632fda8",
+      "provider": "openverse",
+      "title": "Salt shaker",
+      "category": "drums.perc",
+      "url": "https://freesound.org/people/DineoMichelle/sounds/366550",
+      "previewUrl": "https://cdn.freesound.org/previews/366/366550_6039363-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "DineoMichelle",
+      "license": {
+        "id": "CC-BY-NC-3.0",
+        "name": "CC BY-NC 3.0",
+        "url": "https://creativecommons.org/licenses/by-nc/3.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 2.336
+    },
+    {
+      "id": "openverse:f9acf293-e0f4-49a0-ac89-69478af0b397",
+      "provider": "openverse",
+      "title": "NATIVE SHAKER 01.wav",
+      "category": "drums.perc",
+      "url": "https://freesound.org/people/sandyrb/sounds/86657",
+      "previewUrl": "https://cdn.freesound.org/previews/86/86657_14771-hq.mp3",
+      "downloadable": true,
+      "author": "sandyrb",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 4.728
+    },
+    {
+      "id": "openverse:c070fac7-b12c-46a8-bd2f-f886b30ccedb",
+      "provider": "openverse",
+      "title": "Guiro and egg shaker 120bpm.wav",
+      "category": "drums.perc",
+      "url": "https://freesound.org/people/juskiddink/sounds/113622",
+      "previewUrl": "https://cdn.freesound.org/previews/113/113622_649468-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "juskiddink",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "bpm": 120,
+      "durationSec": 1
+    },
+    {
+      "id": "openverse:4e99114e-9a73-4659-9352-f39299d396cb",
+      "provider": "openverse",
+      "title": "Egg shaker 1.wav",
+      "category": "drums.perc",
+      "url": "https://freesound.org/people/marvman/sounds/58867",
+      "previewUrl": "https://cdn.freesound.org/previews/58/58867_111012-hq.mp3",
+      "downloadable": true,
+      "author": "marvman",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 8.675
+    },
+    {
+      "id": "openverse:873bde0a-9165-42a9-98f1-488248ef6ae2",
+      "provider": "openverse",
+      "title": "SHAKER LOOP 6BARS 100BPM.wav",
+      "category": "drums.perc",
+      "url": "https://freesound.org/people/sandyrb/sounds/86662",
+      "previewUrl": "https://cdn.freesound.org/previews/86/86662_14771-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "sandyrb",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "bpm": 100,
+      "durationSec": 14.4
+    },
+    {
+      "id": "openverse:4d8442c7-c863-4211-bf94-99bc88032af9",
+      "provider": "openverse",
+      "title": "delphis ICE DICES SHAKER LOOP #110.wav",
+      "category": "drums.perc",
+      "url": "https://freesound.org/people/delphidebrain/sounds/47227",
+      "previewUrl": "https://cdn.freesound.org/previews/47/47227_180659-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "delphidebrain",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 2.181
+    },
+    {
+      "id": "openverse:001f8b26-1577-46af-b96f-39db4aee738f",
+      "provider": "openverse",
+      "title": "Egg SHaker 2",
+      "category": "drums.perc",
+      "url": "https://freesound.org/people/kramsttop/sounds/170911",
+      "previewUrl": "https://cdn.freesound.org/previews/170/170911_1779544-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "kramsttop",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.187
     }
   ]
 }

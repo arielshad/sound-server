@@ -6,7 +6,7 @@
       "drums.perc"
     ]
   },
-  "updatedAt": "2026-10-23T09:41:52.382Z",
+  "updatedAt": "2026-10-24T09:10:35.676Z",
   "samples": [
     {
       "id": "wikimediacommons:LatinTriangle.ogg",
@@ -460,6 +460,55 @@
       "formats": [
         "wav"
       ]
+    },
+    {
+      "id": "openverse:d7a0b48a-fdf3-46ab-bd76-16e393855446",
+      "provider": "openverse",
+      "title": "Percussion hit",
+      "category": "drums.perc",
+      "url": "https://freesound.org/people/Stumber/sounds/207863",
+      "previewUrl": "https://cdn.freesound.org/previews/207/207863_1332991-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Stumber",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.488
+    },
+    {
+      "id": "openverse:42e493ee-20b3-449c-b899-b25e78f3bf1a",
+      "provider": "openverse",
+      "title": "Rim Percussion (120 BPM).wav",
+      "category": "drums.perc",
+      "url": "https://freesound.org/people/Xinematix/sounds/262445",
+      "previewUrl": "https://cdn.freesound.org/previews/262/262445_4882128-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Xinematix",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "bpm": 120,
+      "durationSec": 8
     }
   ]
 }

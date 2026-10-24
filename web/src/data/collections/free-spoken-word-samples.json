@@ -6,7 +6,7 @@
       "vocals.spoken"
     ]
   },
-  "updatedAt": "2026-10-23T09:43:51.909Z",
+  "updatedAt": "2026-10-24T09:11:38.742Z",
   "samples": [
     {
       "id": "wikimediacommons:South–North_Meeting_(1948)_–_Speech_of_Kim_Ku.opus",
@@ -298,6 +298,319 @@
       "formats": [
         "wav"
       ]
+    },
+    {
+      "id": "openverse:12a1e6e8-6078-49d5-addf-b936abd836ab",
+      "provider": "openverse",
+      "title": "JFK Space Race Speech",
+      "category": "vocals.spoken",
+      "url": "https://freesound.org/people/cityrocker/sounds/322026",
+      "previewUrl": "https://cdn.freesound.org/previews/322/322026_689000-hq.mp3",
+      "downloadable": true,
+      "author": "cityrocker",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 836.671
+    },
+    {
+      "id": "openverse:58b16ea1-2ef0-42c5-907f-e5cb18bee032",
+      "provider": "openverse",
+      "title": "Mahfuzul Haque’s Speech",
+      "category": "vocals.spoken",
+      "url": "https://commons.wikimedia.org/w/index.php?curid=96016412",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Mahfuzul_Haque%E2%80%99s_Speech.ogg",
+      "downloadable": true,
+      "author": "Owais Al Qarni",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg"
+      ],
+      "durationSec": 234.591
+    },
+    {
+      "id": "openverse:18968687-2b34-4836-867d-b796f88427e6",
+      "provider": "openverse",
+      "title": "Child's speech",
+      "category": "vocals.spoken",
+      "url": "https://freesound.org/people/wordswar/sounds/189202",
+      "previewUrl": "https://cdn.freesound.org/previews/189/189202_3521132-hq.mp3",
+      "downloadable": true,
+      "author": "wordswar",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 24.1
+    },
+    {
+      "id": "openverse:6847e1ee-77aa-4bbe-9529-9dd7c64f3630",
+      "provider": "openverse",
+      "title": "En-us-speech",
+      "category": "vocals.spoken",
+      "url": "https://commons.wikimedia.org/w/index.php?curid=1239795",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/En-us-speech.ogg",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Dvortygirl",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg"
+      ],
+      "durationSec": 0.777
+    },
+    {
+      "id": "openverse:cec54d94-1451-4dec-81bd-053d958d9f09",
+      "provider": "openverse",
+      "title": "Fumio Kishida's Resignation Speech - 14 August 2024",
+      "category": "vocals.spoken",
+      "url": "https://commons.wikimedia.org/w/index.php?curid=177528231",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/77/Fumio_Kishida%27s_Resignation_Speech_-_14_August_2024.wav/Fumio_Kishida%27s_Resignation_Speech_-_14_August_2024.wav.mp3",
+      "downloadable": true,
+      "author": "首相官邸",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ],
+      "durationSec": 680.649
+    },
+    {
+      "id": "openverse:8a33632a-1647-4688-98d6-1f558e2bfdbb",
+      "provider": "openverse",
+      "title": "Garbled Speech",
+      "category": "vocals.spoken",
+      "url": "https://freesound.org/people/plasterbrain/sounds/242862",
+      "previewUrl": "https://cdn.freesound.org/previews/242/242862_4284968-hq.mp3",
+      "downloadable": true,
+      "author": "plasterbrain",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 29.178
+    },
+    {
+      "id": "openverse:b3f9172b-2dc5-4583-af00-983d8303df8d",
+      "provider": "openverse",
+      "title": "Rishi Sunak's first speech as prime minister",
+      "category": "vocals.spoken",
+      "url": "https://commons.wikimedia.org/w/index.php?curid=130381739",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Rishi_Sunak%27s_first_speech_as_prime_minister.ogg",
+      "downloadable": true,
+      "author": "Rishi Sunak",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg"
+      ],
+      "durationSec": 354.618
+    },
+    {
+      "id": "openverse:c19e31be-0924-4cca-89d2-67ded7ff9545",
+      "provider": "openverse",
+      "title": "Sultan Ahmad Nanupuri’s speech",
+      "category": "vocals.spoken",
+      "url": "https://commons.wikimedia.org/w/index.php?curid=96103656",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/Sultan_Ahmad_Nanupuri%E2%80%99s_speech.ogg",
+      "downloadable": true,
+      "author": "Owais Al Qarni",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg"
+      ],
+      "durationSec": 152.294
+    },
+    {
+      "id": "openverse:e6ac82d0-5445-4729-95b8-71508dd89951",
+      "provider": "openverse",
+      "title": "Amiga speech synthesis",
+      "category": "vocals.spoken",
+      "url": "https://commons.wikimedia.org/w/index.php?curid=77776549",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f6/Amiga_speech_synthesis.flac/Amiga_speech_synthesis.flac.mp3",
+      "downloadable": true,
+      "author": "Morn",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "flac"
+      ],
+      "durationSec": 11.073
+    },
+    {
+      "id": "openverse:1ab41e61-7cb2-41c3-a2d8-5f07a40184a1",
+      "provider": "openverse",
+      "title": "Music Speech 2 - PLF.aif",
+      "category": "vocals.spoken",
+      "url": "https://freesound.org/people/Patrick6410/sounds/83511",
+      "previewUrl": "https://cdn.freesound.org/previews/83/83511_944482-hq.mp3",
+      "downloadable": true,
+      "author": "Patrick6410",
+      "license": {
+        "id": "LicenseRef-Sampling-Plus-1.0",
+        "name": "CC Sampling+ 1.0",
+        "url": "https://creativecommons.org/licenses/sampling+/1.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "aiff"
+      ],
+      "durationSec": 61.798
+    },
+    {
+      "id": "openverse:615d556f-6aca-4e66-8017-3861b04dc57d",
+      "provider": "openverse",
+      "title": "Texas Instruments TI-99 4A speech demo",
+      "category": "vocals.spoken",
+      "url": "https://commons.wikimedia.org/w/index.php?curid=77783802",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/44/Texas_Instruments_TI-99_4A_speech_demo.flac/Texas_Instruments_TI-99_4A_speech_demo.flac.mp3",
+      "downloadable": true,
+      "author": "Morn",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "flac"
+      ],
+      "durationSec": 3.454
+    },
+    {
+      "id": "openverse:a5b08ae0-fff9-4a0f-8fbc-3873b64d6fd8",
+      "provider": "openverse",
+      "title": "LL-Q1860 (eng)-Vininn126-part of speech",
+      "category": "vocals.spoken",
+      "url": "https://commons.wikimedia.org/w/index.php?curid=114623217",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3f/LL-Q1860_%28eng%29-Vininn126-part_of_speech.wav/LL-Q1860_%28eng%29-Vininn126-part_of_speech.wav.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Speaker: Vininn126 Recorder: Vininn126",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ],
+      "durationSec": 1.309
+    },
+    {
+      "id": "openverse:691af51d-6bf4-4011-8d8a-13b4360839a8",
+      "provider": "openverse",
+      "title": "Festival Speech Synthesis System",
+      "category": "vocals.spoken",
+      "url": "https://commons.wikimedia.org/w/index.php?curid=6491739",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Festival_Speech_Synthesis_System.ogg",
+      "downloadable": true,
+      "author": "Jojo, en:Jojo_1, pl:Jojo",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg"
+      ],
+      "durationSec": 167.743
+    },
+    {
+      "id": "openverse:0e1823ca-6267-481f-965c-c49c56ab0e87",
+      "provider": "openverse",
+      "title": "Amstrad CPC speech synthesizer demo",
+      "category": "vocals.spoken",
+      "url": "https://commons.wikimedia.org/w/index.php?curid=77778451",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b6/Amstrad_CPC_speech_synthesizer_demo.flac/Amstrad_CPC_speech_synthesizer_demo.flac.mp3",
+      "downloadable": true,
+      "author": "Morn",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "flac"
+      ],
+      "durationSec": 14.642
     }
   ]
 }

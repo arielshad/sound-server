@@ -6,7 +6,7 @@
       "ambience"
     ]
   },
-  "updatedAt": "2026-10-23T09:39:29.981Z",
+  "updatedAt": "2026-10-24T09:09:21.236Z",
   "samples": [
     {
       "id": "wikimediacommons:Emmelie_de_Forest_ESC2013_presentation.ogg",
@@ -644,6 +644,165 @@
         "mp3"
       ],
       "durationSec": 111
+    },
+    {
+      "id": "openverse:90f42d98-da32-4953-a583-cd9eb0f064cf",
+      "provider": "openverse",
+      "title": "Going on a forest road gravel and grass.wav",
+      "category": "ambience",
+      "url": "https://freesound.org/people/straget/sounds/411206",
+      "previewUrl": "https://cdn.freesound.org/previews/411/411206_7707368-hq.mp3",
+      "downloadable": true,
+      "author": "straget",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 31.286
+    },
+    {
+      "id": "bbc:07076027",
+      "provider": "bbc",
+      "title": "Tropical Forest, West Africa at dawn.",
+      "category": "ambience",
+      "url": "https://sound-effects.bbcrewind.co.uk/search?q=07076027",
+      "previewUrl": "https://sound-effects-media.bbcrewind.co.uk/mp3/07076027.mp3",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-BBC-RemArc",
+        "name": "BBC RemArc licence",
+        "url": "https://sound-effects.bbcrewind.co.uk/licensing",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ],
+      "durationSec": 507.28
+    },
+    {
+      "id": "openverse:2cb4f128-e158-42bf-a1c3-4dce05b750db",
+      "provider": "openverse",
+      "title": "Ambient Forest Birds.wav",
+      "category": "ambience",
+      "url": "https://freesound.org/people/Motion_S/sounds/221758",
+      "previewUrl": "https://cdn.freesound.org/previews/221/221758_3299593-hq.mp3",
+      "downloadable": true,
+      "author": "Motion_S",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 10.004
+    },
+    {
+      "id": "bbc:07076028",
+      "provider": "bbc",
+      "title": "Tropical forest, West Africa at night.",
+      "category": "ambience",
+      "url": "https://sound-effects.bbcrewind.co.uk/search?q=07076028",
+      "previewUrl": "https://sound-effects-media.bbcrewind.co.uk/mp3/07076028.mp3",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-BBC-RemArc",
+        "name": "BBC RemArc licence",
+        "url": "https://sound-effects.bbcrewind.co.uk/licensing",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ],
+      "durationSec": 501.263
+    },
+    {
+      "id": "openverse:eea714e6-ad70-405f-9a8a-046fb8ba1e24",
+      "provider": "openverse",
+      "title": "MEN RUNNING, FOREST, BREATHING (1).wav",
+      "category": "ambience",
+      "url": "https://freesound.org/people/deleted_user_133379/sounds/22862",
+      "previewUrl": "https://cdn.freesound.org/previews/22/22862_133379-hq.mp3",
+      "downloadable": true,
+      "author": "deleted_user_133379",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 26.763
+    },
+    {
+      "id": "bbc:NHU9710792",
+      "provider": "bbc",
+      "title": "agouti in forest",
+      "category": "ambience",
+      "url": "https://sound-effects.bbcrewind.co.uk/search?q=NHU9710792",
+      "previewUrl": "https://sound-effects-media.bbcrewind.co.uk/mp3/NHU9710792.mp3",
+      "downloadable": true,
+      "author": "Tom Clarke",
+      "license": {
+        "id": "LicenseRef-BBC-RemArc",
+        "name": "BBC RemArc licence",
+        "url": "https://sound-effects.bbcrewind.co.uk/licensing",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ],
+      "durationSec": 48.533
+    },
+    {
+      "id": "openverse:951e6c56-5952-40ee-b652-bdc74e83374f",
+      "provider": "openverse",
+      "title": "Forest at night, crickets, cicadas and insects in the Sian Ka'an Biosphere Reserve",
+      "category": "ambience",
+      "url": "https://freesound.org/people/felix.blume/sounds/328293",
+      "previewUrl": "https://cdn.freesound.org/previews/328/328293_1661766-hq.mp3",
+      "downloadable": true,
+      "author": "felix.blume",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 300.629
     }
   ]
 }

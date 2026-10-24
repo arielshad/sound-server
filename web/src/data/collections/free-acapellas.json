@@ -6,7 +6,7 @@
       "vocals.acapella"
     ]
   },
-  "updatedAt": "2026-10-23T09:37:06.693Z",
+  "updatedAt": "2026-10-24T09:08:20.678Z",
   "samples": [
     {
       "id": "wikimediacommons:Acapella_Himne_F.C._Barcelona.ogg",
@@ -127,30 +127,6 @@
         "wav"
       ],
       "durationSec": 38.233
-    },
-    {
-      "id": "wikimediacommons:IMSLP206671-WIMA_8582-BWV1(II)Sco.ogg",
-      "provider": "wikimediacommons",
-      "title": "IMSLP206671-WIMA 8582-BWV1(II)Sco",
-      "category": "vocals.acapella",
-      "url": "https://commons.wikimedia.org/wiki/File:IMSLP206671-WIMA_8582-BWV1(II)Sco.ogg",
-      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bc/IMSLP206671-WIMA_8582-BWV1%28II%29Sco.ogg/IMSLP206671-WIMA_8582-BWV1%28II%29Sco.ogg.mp3",
-      "downloadable": true,
-      "form": "phrase",
-      "author": "Michel Rondeau - part of the Werner Icking Music Collection.",
-      "license": {
-        "id": "CC-BY-3.0",
-        "name": "CC BY 3.0",
-        "url": "https://creativecommons.org/licenses/by/3.0/",
-        "verdict": "yes-with-credit",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "ogg",
-        "mp3"
-      ],
-      "durationSec": 43.592
     },
     {
       "id": "wikimediacommons:Eternal_Father_-_U.S._Navy_Band.ogg",

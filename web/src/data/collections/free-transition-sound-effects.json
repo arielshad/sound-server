@@ -6,7 +6,7 @@
       "fx.transition"
     ]
   },
-  "updatedAt": "2026-10-23T09:45:49.201Z",
+  "updatedAt": "2026-10-24T09:12:24.216Z",
   "samples": [
     {
       "id": "wikimediacommons:Sheffield_Indymedia_-_2011-07-09_Transition_Network_Conference_2011_-ttcon2011_-_5_Transition_and_Activism.vorb.oga",
@@ -686,6 +686,148 @@
         "mp3"
       ],
       "durationSec": 6
+    },
+    {
+      "id": "openverse:6a568562-42d6-43eb-93f2-9c662dbc9e52",
+      "provider": "openverse",
+      "title": "Transition M_Acc.wav",
+      "category": "fx.transition",
+      "url": "https://freesound.org/people/cosmician/sounds/159574",
+      "previewUrl": "https://cdn.freesound.org/previews/159/159574_2863054-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "cosmician",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 7.205
+    },
+    {
+      "id": "openverse:f2d1a941-b6e7-4c77-a840-973c8744f262",
+      "provider": "openverse",
+      "title": "Flashback/transition",
+      "category": "fx.transition",
+      "url": "https://freesound.org/people/Minecast_/sounds/167683",
+      "previewUrl": "https://cdn.freesound.org/previews/167/167683_2975203-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Minecast_",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 2.077
+    },
+    {
+      "id": "openverse:27ef6152-ece3-4154-9efc-1792f14f94b5",
+      "provider": "openverse",
+      "title": "Creepy Transition",
+      "category": "fx.transition",
+      "url": "https://freesound.org/people/Poligonstudio/sounds/392898",
+      "previewUrl": "https://cdn.freesound.org/previews/392/392898_7383104-hq.mp3",
+      "downloadable": true,
+      "author": "Poligonstudio",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 14.266
+    },
+    {
+      "id": "openverse:e1df63d4-2264-482c-b047-ca58ea4a1688",
+      "provider": "openverse",
+      "title": "transition",
+      "category": "fx.transition",
+      "url": "https://freesound.org/people/juanto9889/sounds/414870",
+      "previewUrl": "https://cdn.freesound.org/previews/414/414870_6933822-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "juanto9889",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 5.12
+    },
+    {
+      "id": "openverse:6c330539-3b12-49e2-bea6-d358469aa150",
+      "provider": "openverse",
+      "title": "Suspense Whoosh/Transition 01",
+      "category": "fx.transition",
+      "url": "https://freesound.org/people/tyops/sounds/275145",
+      "previewUrl": "https://cdn.freesound.org/previews/275/275145_3914271-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "tyops",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 8.666
+    },
+    {
+      "id": "openverse:c73b5b97-a75c-4925-bf6d-6d067cd5fe5e",
+      "provider": "openverse",
+      "title": "Wet Transition",
+      "category": "fx.transition",
+      "url": "https://freesound.org/people/Electroviolence/sounds/234533",
+      "previewUrl": "https://cdn.freesound.org/previews/234/234533_4238641-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Electroviolence",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 3.32
     }
   ]
 }

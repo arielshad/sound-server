@@ -6,7 +6,7 @@
       "drums.hat.open"
     ]
   },
-  "updatedAt": "2026-10-23T09:41:31.146Z",
+  "updatedAt": "2026-10-24T09:10:26.018Z",
   "samples": [
     {
       "id": "wikimediacommons:Phonk_Open_Hat_(10).wav",
@@ -624,6 +624,199 @@
       "formats": [
         "wav"
       ]
+    },
+    {
+      "id": "openverse:d132eb16-d529-47c4-a89f-21545f663508",
+      "provider": "openverse",
+      "title": "Mini 909ish Open Hat",
+      "category": "drums.hat.open",
+      "url": "https://freesound.org/people/Rodrigo%20The%20Mad/sounds/165028",
+      "previewUrl": "https://cdn.freesound.org/previews/165/165028_2287151-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Rodrigo The Mad",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.102
+    },
+    {
+      "id": "openverse:ad6119cd-8523-49e9-8711-6ac6b02e0b0f",
+      "provider": "openverse",
+      "title": "open hat snake.aif",
+      "category": "drums.hat.open",
+      "url": "https://freesound.org/people/exotonestudio/sounds/416249",
+      "previewUrl": "https://cdn.freesound.org/previews/416/416249_8218607-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "exotonestudio",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "aiff"
+      ],
+      "durationSec": 2.187
+    },
+    {
+      "id": "openverse:4a25d9da-7d87-4dd4-9b93-087ca8c8ab43",
+      "provider": "openverse",
+      "title": "Metallic Chaos Open Hat (120bpm).wav",
+      "category": "drums.hat.open",
+      "url": "https://freesound.org/people/stair/sounds/183414",
+      "previewUrl": "https://cdn.freesound.org/previews/183/183414_236950-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "stair",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "bpm": 120,
+      "durationSec": 16
+    },
+    {
+      "id": "openverse:8fa0baaa-8d4d-47e2-bbc9-2eddfe0ef0e8",
+      "provider": "openverse",
+      "title": "Skinnyboy Open Hat",
+      "category": "drums.hat.open",
+      "url": "https://freesound.org/people/1LOVE/sounds/635271",
+      "previewUrl": "https://cdn.freesound.org/previews/635/635271_11990934-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "1LOVE",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.375
+    },
+    {
+      "id": "openverse:84a8a135-83f9-4441-a871-33cb80f1aa08",
+      "provider": "openverse",
+      "title": "milk open hat",
+      "category": "drums.hat.open",
+      "url": "https://freesound.org/people/kyrogon/sounds/733881",
+      "previewUrl": "https://cdn.freesound.org/previews/733/733881_13850640-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "kyrogon",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.586
+    },
+    {
+      "id": "openverse:c7b4591e-0b99-4767-8e51-9be504fa5e6f",
+      "provider": "openverse",
+      "title": "Passin Open Hat",
+      "category": "drums.hat.open",
+      "url": "https://freesound.org/people/1LOVE/sounds/635268",
+      "previewUrl": "https://cdn.freesound.org/previews/635/635268_11990934-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "1LOVE",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.214
+    },
+    {
+      "id": "openverse:b6b53b0d-c54c-4b8a-b434-69dcd42191b9",
+      "provider": "openverse",
+      "title": "Dance Open Hat",
+      "category": "drums.hat.open",
+      "url": "https://freesound.org/people/Teyloh/sounds/731551",
+      "previewUrl": "https://cdn.freesound.org/previews/731/731551_15556998-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Teyloh",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.788
+    },
+    {
+      "id": "openverse:eaddfe34-81b4-4068-9b81-83c854a5d9be",
+      "provider": "openverse",
+      "title": "22 Feet Open Hat",
+      "category": "drums.hat.open",
+      "url": "https://freesound.org/people/1LOVE/sounds/635266",
+      "previewUrl": "https://cdn.freesound.org/previews/635/635266_11990934-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "1LOVE",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.196
     }
   ]
 }

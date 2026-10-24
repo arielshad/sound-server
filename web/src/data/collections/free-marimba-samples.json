@@ -6,7 +6,7 @@
       "mallets"
     ]
   },
-  "updatedAt": "2026-10-23T09:41:15.672Z",
+  "updatedAt": "2026-10-24T09:10:21.740Z",
   "samples": [
     {
       "id": "wikimediacommons:Attraction_Marimba.ogg",
@@ -556,6 +556,285 @@
       ],
       "key": "D minor",
       "durationSec": 3
+    },
+    {
+      "id": "openverse:f5e9258f-ce6f-47d6-a8a7-f14c7df4cc7c",
+      "provider": "openverse",
+      "title": "Incoming call - Marimba ringtone sound",
+      "category": "mallets",
+      "url": "https://freesound.org/people/pogmothoin/sounds/351284",
+      "previewUrl": "https://cdn.freesound.org/previews/351/351284_1241440-hq.mp3",
+      "downloadable": true,
+      "author": "pogmothoin",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 2.676
+    },
+    {
+      "id": "openverse:c41fd37d-ff30-4c3a-9384-6914d311793a",
+      "provider": "openverse",
+      "title": "marimba do re mi fa so.WAV",
+      "category": "mallets",
+      "url": "https://freesound.org/people/pogmothoin/sounds/401722",
+      "previewUrl": "https://cdn.freesound.org/previews/401/401722_1241440-hq.mp3",
+      "downloadable": true,
+      "author": "pogmothoin",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 4.304
+    },
+    {
+      "id": "openverse:c5f95974-214a-41e9-8a0b-f6258ffbed49",
+      "provider": "openverse",
+      "title": "Thinking Marimba | by Marlys.aif",
+      "category": "mallets",
+      "url": "https://freesound.org/people/ohforheavensake/sounds/335520",
+      "previewUrl": "https://cdn.freesound.org/previews/335/335520_1798177-hq.mp3",
+      "downloadable": true,
+      "author": "ohforheavensake",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "aiff"
+      ],
+      "durationSec": 5.538
+    },
+    {
+      "id": "openverse:20a3aa5e-79cd-4436-b818-daea442283d4",
+      "provider": "openverse",
+      "title": "96 marimba loop 2.wav",
+      "category": "mallets",
+      "url": "https://freesound.org/people/Thirsk/sounds/121094",
+      "previewUrl": "https://cdn.freesound.org/previews/121/121094_2193266-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Thirsk",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 10
+    },
+    {
+      "id": "openverse:201700ec-7dcf-437b-85d5-f86318fcd128",
+      "provider": "openverse",
+      "title": "marimba descending.WAV",
+      "category": "mallets",
+      "url": "https://freesound.org/people/pogmothoin/sounds/401721",
+      "previewUrl": "https://cdn.freesound.org/previews/401/401721_1241440-hq.mp3",
+      "downloadable": true,
+      "author": "pogmothoin",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 24.466
+    },
+    {
+      "id": "openverse:53bb0c51-e847-44a2-833f-a6549cb33a9f",
+      "provider": "openverse",
+      "title": "100 marimba loop.wav",
+      "category": "mallets",
+      "url": "https://freesound.org/people/Thirsk/sounds/120968",
+      "previewUrl": "https://cdn.freesound.org/previews/120/120968_2193266-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Thirsk",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 4.8
+    },
+    {
+      "id": "openverse:e9892d17-6115-446b-a904-b9ff25665c73",
+      "provider": "openverse",
+      "title": "Bach Marimba",
+      "category": "mallets",
+      "url": "https://freesound.org/people/derekxkwan/sounds/255814",
+      "previewUrl": "https://cdn.freesound.org/previews/255/255814_1766490-hq.mp3",
+      "downloadable": true,
+      "author": "derekxkwan",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 4.226
+    },
+    {
+      "id": "openverse:e5d7e646-18e7-440e-a7e9-d0a1ecbf17ee",
+      "provider": "openverse",
+      "title": "Marimba note struck",
+      "category": "mallets",
+      "url": "https://freesound.org/people/LloydEvans09/sounds/185833",
+      "previewUrl": "https://cdn.freesound.org/previews/185/185833_2567799-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "LloydEvans09",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.836
+    },
+    {
+      "id": "openverse:518a4388-1538-41b5-9df1-64b865c003a2",
+      "provider": "openverse",
+      "title": "Marimba G3",
+      "category": "mallets",
+      "url": "https://freesound.org/people/sgossner/sounds/255692",
+      "previewUrl": "https://cdn.freesound.org/previews/255/255692_2475994-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "sgossner",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 5.718
+    },
+    {
+      "id": "openverse:10437ed7-9c99-4817-85e6-65be846f0530",
+      "provider": "openverse",
+      "title": "Happy Train Abstract Indrustrial Ethno World Jazz Drum Flute Marimba Cinematic Music Surround.wav",
+      "category": "mallets",
+      "url": "https://freesound.org/people/szegvari/sounds/608802",
+      "previewUrl": "https://cdn.freesound.org/previews/608/608802_2282212-hq.mp3",
+      "downloadable": true,
+      "author": "szegvari",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 53.797
+    },
+    {
+      "id": "openverse:c8b0c655-42f2-47c6-964b-ae30a7885e6b",
+      "provider": "openverse",
+      "title": "LL-Q1860 (eng)-Vealhurl-marimba",
+      "category": "mallets",
+      "url": "https://commons.wikimedia.org/w/index.php?curid=124743835",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/22/LL-Q1860_%28eng%29-Vealhurl-marimba.wav/LL-Q1860_%28eng%29-Vealhurl-marimba.wav.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Speaker: Vealhurl Recorder: Vealhurl",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ],
+      "durationSec": 1.053
+    },
+    {
+      "id": "openverse:5a208753-2eb4-4afb-b412-13724f567a1f",
+      "provider": "openverse",
+      "title": "04599 tuba and marimba climbing rolls.wav",
+      "category": "mallets",
+      "url": "https://freesound.org/people/Robinhood76/sounds/197257",
+      "previewUrl": "https://cdn.freesound.org/previews/197/197257_321967-hq.mp3",
+      "downloadable": true,
+      "author": "Robinhood76",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 3.957
     }
   ]
 }

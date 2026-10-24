@@ -6,7 +6,7 @@
       "foley"
     ]
   },
-  "updatedAt": "2026-10-23T09:39:14.263Z",
+  "updatedAt": "2026-10-24T09:09:15.134Z",
   "samples": [
     {
       "id": "wikimediacommons:Footstep_on_Gravel_(Gravity_Sound).mp3",
@@ -580,6 +580,187 @@
         "mp3"
       ],
       "durationSec": 8
+    },
+    {
+      "id": "openverse:a8783d20-f1af-4c4b-b9ec-a8c212f67fee",
+      "provider": "openverse",
+      "title": "Footsteps, Stones, A.wav",
+      "category": "foley",
+      "url": "https://freesound.org/people/InspectorJ/sounds/345560",
+      "previewUrl": "https://cdn.freesound.org/previews/345/345560_5121236-hq.mp3",
+      "downloadable": true,
+      "author": "InspectorJ",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 18.944
+    },
+    {
+      "id": "bbc:00008022",
+      "provider": "bbc",
+      "title": "Chatter & footsteps",
+      "category": "foley",
+      "url": "https://sound-effects.bbcrewind.co.uk/search?q=00008022",
+      "previewUrl": "https://sound-effects-media.bbcrewind.co.uk/mp3/00008022.mp3",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-BBC-RemArc",
+        "name": "BBC RemArc licence",
+        "url": "https://sound-effects.bbcrewind.co.uk/licensing",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ],
+      "durationSec": 29.008
+    },
+    {
+      "id": "openverse:a049cdee-e8d0-4b88-990e-4735d3c9b1d8",
+      "provider": "openverse",
+      "title": "Footsteps, Concrete, A.wav",
+      "category": "foley",
+      "url": "https://freesound.org/people/InspectorJ/sounds/336598",
+      "previewUrl": "https://cdn.freesound.org/previews/336/336598_5121236-hq.mp3",
+      "downloadable": true,
+      "author": "InspectorJ",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 39.802
+    },
+    {
+      "id": "bbc:07039255",
+      "provider": "bbc",
+      "title": "Squelching footsteps.",
+      "category": "foley",
+      "url": "https://sound-effects.bbcrewind.co.uk/search?q=07039255",
+      "previewUrl": "https://sound-effects-media.bbcrewind.co.uk/mp3/07039255.mp3",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-BBC-RemArc",
+        "name": "BBC RemArc licence",
+        "url": "https://sound-effects.bbcrewind.co.uk/licensing",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ],
+      "durationSec": 248.905
+    },
+    {
+      "id": "openverse:761c4f5f-a805-4e52-b4a3-64b3eb5c1044",
+      "provider": "openverse",
+      "title": "footstep on wood foley.wav",
+      "category": "foley",
+      "url": "https://freesound.org/people/martian/sounds/19292",
+      "previewUrl": "https://cdn.freesound.org/previews/19/19292_84709-hq.mp3",
+      "downloadable": true,
+      "author": "martian",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 17
+    },
+    {
+      "id": "openverse:25ad5880-931b-4f71-8947-87a319c9feca",
+      "provider": "openverse",
+      "title": "Footsteps on Tiles.wav",
+      "category": "foley",
+      "url": "https://freesound.org/people/RutgerMuller/sounds/50725",
+      "previewUrl": "https://cdn.freesound.org/previews/50/50725_179538-hq.mp3",
+      "downloadable": true,
+      "author": "RutgerMuller",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 24.188
+    },
+    {
+      "id": "bbc:07043090",
+      "provider": "bbc",
+      "title": "Footsteps in snow.",
+      "category": "foley",
+      "url": "https://sound-effects.bbcrewind.co.uk/search?q=07043090",
+      "previewUrl": "https://sound-effects-media.bbcrewind.co.uk/mp3/07043090.mp3",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-BBC-RemArc",
+        "name": "BBC RemArc licence",
+        "url": "https://sound-effects.bbcrewind.co.uk/licensing",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ],
+      "durationSec": 61.493
+    },
+    {
+      "id": "openverse:34f44ef1-1dd7-4be8-a229-49da97be42e7",
+      "provider": "openverse",
+      "title": "Footsteps, Dry Leaves, G.wav",
+      "category": "foley",
+      "url": "https://freesound.org/people/InspectorJ/sounds/347850",
+      "previewUrl": "https://cdn.freesound.org/previews/347/347850_5121236-hq.mp3",
+      "downloadable": true,
+      "author": "InspectorJ",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 28.76
     }
   ]
 }

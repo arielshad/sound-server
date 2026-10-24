@@ -6,7 +6,7 @@
       "vocals.choir"
     ]
   },
-  "updatedAt": "2026-10-23T09:37:32.090Z",
+  "updatedAt": "2026-10-24T09:08:35.213Z",
   "samples": [
     {
       "id": "openverse:f985da86-d8bb-4a4f-8ddc-248abd7a1dfd",
@@ -627,28 +627,6 @@
       "durationSec": 9.897
     },
     {
-      "id": "wikimediacommons:Simple_Gifts_-_Pendyrus_Choir-cory_Band.ogg",
-      "provider": "wikimediacommons",
-      "title": "Simple Gifts - Pendyrus Choir/cory Band",
-      "category": "vocals.choir",
-      "url": "https://commons.wikimedia.org/wiki/File:Simple_Gifts_-_Pendyrus_Choir-cory_Band.ogg",
-      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/16/Simple_Gifts_-_Pendyrus_Choir-cory_Band.ogg/Simple_Gifts_-_Pendyrus_Choir-cory_Band.ogg.mp3",
-      "downloadable": true,
-      "license": {
-        "id": "CC-BY-SA-3.0",
-        "name": "CC BY-SA 3.0",
-        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "verdict": "restricted",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "ogg",
-        "mp3"
-      ],
-      "durationSec": 30
-    },
-    {
       "id": "openverse:cebfc930-fd33-4e53-8c8e-b81171852fdf",
       "provider": "openverse",
       "title": "Church choir",
@@ -739,6 +717,28 @@
         "wav"
       ],
       "durationSec": 31.584
+    },
+    {
+      "id": "wikimediacommons:Calon_Lan_-_The_Phoenix_(Male_Choir).ogg",
+      "provider": "wikimediacommons",
+      "title": "Calon Lan - The Phoenix (Male Choir)",
+      "category": "vocals.choir",
+      "url": "https://commons.wikimedia.org/wiki/File:Calon_Lan_-_The_Phoenix_(Male_Choir).ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e0/Calon_Lan_-_The_Phoenix_%28Male_Choir%29.ogg/Calon_Lan_-_The_Phoenix_%28Male_Choir%29.ogg.mp3",
+      "downloadable": true,
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 30
     }
   ]
 }

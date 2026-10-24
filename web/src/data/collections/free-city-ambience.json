@@ -6,7 +6,7 @@
       "ambience"
     ]
   },
-  "updatedAt": "2026-10-23T09:37:48.067Z",
+  "updatedAt": "2026-10-24T09:08:41.236Z",
   "samples": [
     {
       "id": "soundbible:1266-City-Ambiance",
@@ -739,6 +739,74 @@
         "mp3"
       ],
       "durationSec": 119
+    },
+    {
+      "id": "openverse:691a28e9-6571-47f7-b052-aad7c7281f01",
+      "provider": "openverse",
+      "title": "Big City - 001.wav",
+      "category": "ambience",
+      "url": "https://freesound.org/people/tosha73/sounds/495302",
+      "previewUrl": "https://cdn.freesound.org/previews/495/495302_10725617-hq.mp3",
+      "downloadable": true,
+      "author": "tosha73",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 180.598
+    },
+    {
+      "id": "openverse:1197aa4b-508c-4962-8eb6-343fd96f4c5a",
+      "provider": "openverse",
+      "title": "Night city atmosphere",
+      "category": "ambience",
+      "url": "https://freesound.org/people/Soundkrampf/sounds/237329",
+      "previewUrl": "https://cdn.freesound.org/previews/237/237329_3435865-hq.mp3",
+      "downloadable": true,
+      "author": "Soundkrampf",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 67.716
+    },
+    {
+      "id": "bbc:07044009",
+      "provider": "bbc",
+      "title": "City Skyline.",
+      "category": "ambience",
+      "url": "https://sound-effects.bbcrewind.co.uk/search?q=07044009",
+      "previewUrl": "https://sound-effects-media.bbcrewind.co.uk/mp3/07044009.mp3",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-BBC-RemArc",
+        "name": "BBC RemArc licence",
+        "url": "https://sound-effects.bbcrewind.co.uk/licensing",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ],
+      "durationSec": 360.767
     }
   ]
 }

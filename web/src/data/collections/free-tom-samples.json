@@ -6,7 +6,7 @@
       "drums.tom"
     ]
   },
-  "updatedAt": "2026-10-23T09:45:15.005Z",
+  "updatedAt": "2026-10-24T09:12:11.711Z",
   "samples": [
     {
       "id": "wikimediacommons:Tom_Kenny_The_SpongeBob_Musical_interview.ogg",
@@ -688,6 +688,125 @@
       "formats": [
         "wav"
       ]
+    },
+    {
+      "id": "openverse:83a6eca5-e659-4193-aced-0190c9a57fdd",
+      "provider": "openverse",
+      "title": "Yamaha Oak Custom Tom Mid.wav",
+      "category": "drums.tom",
+      "url": "https://freesound.org/people/pjcohen/sounds/46554",
+      "previewUrl": "https://cdn.freesound.org/previews/46/46554_394391-hq.mp3",
+      "downloadable": true,
+      "form": "midi",
+      "author": "pjcohen",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.816
+    },
+    {
+      "id": "openverse:9036d037-3f72-43fa-bcfa-67a2a0418501",
+      "provider": "openverse",
+      "title": "Floor tom",
+      "category": "drums.tom",
+      "url": "https://commons.wikimedia.org/w/index.php?curid=93552",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Floor_tom.ogg",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "No machine-readable author provided. Clngre~commonswiki assumed (based on copyright claims).",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg"
+      ],
+      "durationSec": 3.78
+    },
+    {
+      "id": "openverse:017bddd3-d9c7-4ff0-9d31-42bd4a7ca0e2",
+      "provider": "openverse",
+      "title": "Savannah Floor Tom .wav",
+      "category": "drums.tom",
+      "url": "https://freesound.org/people/xIceCoffeex/sounds/171485",
+      "previewUrl": "https://cdn.freesound.org/previews/171/171485_2565043-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "xIceCoffeex",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 1.5
+    },
+    {
+      "id": "openverse:91dc638b-69e9-48b4-ac6d-dc5610e1945d",
+      "provider": "openverse",
+      "title": "Tom Low.wav",
+      "category": "drums.tom",
+      "url": "https://freesound.org/people/YellowTree/sounds/173837",
+      "previewUrl": "https://cdn.freesound.org/previews/173/173837_1954411-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "YellowTree",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 6.958
+    },
+    {
+      "id": "openverse:64bbc76f-d2e7-4ac8-b676-75836a63b3ae",
+      "provider": "openverse",
+      "title": "Yamaha Oak Custom Tom Low.wav",
+      "category": "drums.tom",
+      "url": "https://freesound.org/people/pjcohen/sounds/46553",
+      "previewUrl": "https://cdn.freesound.org/previews/46/46553_394391-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "pjcohen",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 2.319
     }
   ]
 }
