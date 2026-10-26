@@ -6,7 +6,7 @@
       "woodwind"
     ]
   },
-  "updatedAt": "2026-10-23T09:47:26.381Z",
+  "updatedAt": "2026-10-26T10:33:26.964Z",
   "samples": [
     {
       "id": "wikimediacommons:Man_drunk_and_playing_flute_near_Santa_Justa_Lift,_Lisbon,_Portugal.wav",
@@ -594,29 +594,6 @@
       ],
       "key": "E minor",
       "durationSec": 43.028
-    },
-    {
-      "id": "openverse:3fb2e0bf-68a8-4a8e-9045-f51e668aa127",
-      "provider": "openverse",
-      "title": "Handel - Sonata for flute in E minor HWV 359b - 4. Allegro",
-      "category": "woodwind",
-      "url": "https://commons.wikimedia.org/w/index.php?curid=1076401",
-      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Handel_-_Sonata_for_flute_in_E_minor_HWV_359b_-_4._Allegro.oga",
-      "downloadable": true,
-      "author": "Al Goldstein, flute and Martha Goldstein, harpsichord",
-      "license": {
-        "id": "CC-BY-SA-2.0",
-        "name": "CC BY-SA 2.0",
-        "url": "https://creativecommons.org/licenses/by-sa/2.0/",
-        "verdict": "restricted",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "ogg"
-      ],
-      "key": "E minor",
-      "durationSec": 134.968
     }
   ]
 }
