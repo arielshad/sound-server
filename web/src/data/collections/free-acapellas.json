@@ -6,7 +6,7 @@
       "vocals.acapella"
     ]
   },
-  "updatedAt": "2026-10-24T09:08:20.678Z",
+  "updatedAt": "2026-10-28T10:50:44.897Z",
   "samples": [
     {
       "id": "wikimediacommons:Acapella_Himne_F.C._Barcelona.ogg",
@@ -556,6 +556,121 @@
         "mp3"
       ],
       "durationSec": 74.822
+    },
+    {
+      "id": "ghosthack:urban-flow-rap-acapellas",
+      "provider": "ghosthack",
+      "title": "Urban Flow - Rap Acapellas",
+      "category": "vocals.acapella",
+      "url": "https://www.ghosthack.de/urban-flow-rap-acapellas",
+      "previewUrl": "https://www.ghosthack.de/media/de/9a/78/1712314397/urban-flow-rap-acapellas_demo-Demitri.mp3",
+      "downloadable": false,
+      "form": "pack",
+      "thumbnailUrl": "https://www.ghosthack.de/media/50/9c/24/1710404174/urban-flow-rap-acapellas.webp",
+      "author": "Ghosthack",
+      "license": {
+        "id": "LicenseRef-Ghosthack-licence",
+        "name": "Ghosthack licence",
+        "url": "https://www.ghosthack.de/Information/General-Terms-Conditions/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": false,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "ghosthack:insomnia-edm-acapellas",
+      "provider": "ghosthack",
+      "title": "Insomnia: EDM Acapellas",
+      "category": "vocals.acapella",
+      "url": "https://www.ghosthack.de/insomnia-edm-acapellas",
+      "previewUrl": "https://www.ghosthack.de/media/80/9e/a4/1697036415/insomnia-edm-acapellas_sale-demo.mp3",
+      "downloadable": false,
+      "form": "pack",
+      "thumbnailUrl": "https://www.ghosthack.de/media/71/8c/2c/1696931493/insomnia-edm-acapellas.webp",
+      "author": "Ghosthack",
+      "license": {
+        "id": "LicenseRef-Ghosthack-licence",
+        "name": "Ghosthack licence",
+        "url": "https://www.ghosthack.de/Information/General-Terms-Conditions/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": false,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "ghosthack:alleys-acapella-collection",
+      "provider": "ghosthack",
+      "title": "Alleys Acapella Collection",
+      "category": "vocals.acapella",
+      "url": "https://www.ghosthack.de/alleys-acapella-collection",
+      "previewUrl": "https://www.ghosthack.de/media/cf/94/ff/1700657043/alleys-acapella-collection-joy.mp3",
+      "downloadable": false,
+      "form": "pack",
+      "thumbnailUrl": "https://www.ghosthack.de/media/11/8d/1f/1700651168/alleys-acapella-collection.webp",
+      "author": "Ghosthack",
+      "license": {
+        "id": "LicenseRef-Ghosthack-licence",
+        "name": "Ghosthack licence",
+        "url": "https://www.ghosthack.de/Information/General-Terms-Conditions/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": false,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "ghosthack:ultimate-acapella-collection",
+      "provider": "ghosthack",
+      "title": "Ultimate Acapella Collection",
+      "category": "vocals.acapella",
+      "url": "https://www.ghosthack.de/ultimate-acapella-collection",
+      "previewUrl": "https://www.ghosthack.de/media/7a/95/ff/1666953455/ultimate-acapella-collection_demo4.mp3",
+      "downloadable": false,
+      "form": "pack",
+      "thumbnailUrl": "https://www.ghosthack.de/media/82/df/03/1666958674/Ultimate_Acapella_Collection_trans.webp",
+      "author": "Ghosthack",
+      "license": {
+        "id": "LicenseRef-Ghosthack-licence",
+        "name": "Ghosthack licence",
+        "url": "https://www.ghosthack.de/Information/General-Terms-Conditions/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": false,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "ghosthack:emotions-acapella-collection",
+      "provider": "ghosthack",
+      "title": "Emotions - Acapella Collection",
+      "category": "vocals.acapella",
+      "url": "https://www.ghosthack.de/emotions-acapella-collection",
+      "previewUrl": "https://www.ghosthack.de/media/e9/b2/47/1666953307/emotions-acapella-collection_demo0.mp3",
+      "downloadable": false,
+      "form": "pack",
+      "thumbnailUrl": "https://www.ghosthack.de/media/bf/ed/33/1666958676/Emotions_-_Product_trans.webp",
+      "author": "Ghosthack",
+      "license": {
+        "id": "LicenseRef-Ghosthack-licence",
+        "name": "Ghosthack licence",
+        "url": "https://www.ghosthack.de/Information/General-Terms-Conditions/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": false,
+      "formats": [
+        "wav"
+      ]
     }
   ]
 }

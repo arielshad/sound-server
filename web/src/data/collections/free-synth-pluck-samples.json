@@ -6,7 +6,7 @@
       "synth.pluck"
     ]
   },
-  "updatedAt": "2026-10-23T09:44:51.548Z",
+  "updatedAt": "2026-10-28T10:53:31.515Z",
   "samples": [
     {
       "id": "strudel:dirt-samples/pluck/0",
@@ -531,6 +531,29 @@
         "verdict": "check-terms"
       },
       "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "ghosthack:producer-essentials-pluck-loops",
+      "provider": "ghosthack",
+      "title": "Producer Essentials - Pluck Loops",
+      "category": "synth.pluck",
+      "url": "https://www.ghosthack.de/producer-essentials-pluck-loops",
+      "previewUrl": "https://www.ghosthack.de/media/88/85/e1/1716292864/producer-essentials-pluck-loops_demo0.mp3",
+      "downloadable": false,
+      "form": "pack",
+      "thumbnailUrl": "https://www.ghosthack.de/media/7c/a8/32/1715868352/producer-essentials-pluck-loops.webp",
+      "author": "Ghosthack",
+      "license": {
+        "id": "LicenseRef-Ghosthack-licence",
+        "name": "Ghosthack licence",
+        "url": "https://www.ghosthack.de/Information/General-Terms-Conditions/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": false,
       "formats": [
         "wav"
       ]

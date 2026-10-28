@@ -6,7 +6,7 @@
       "bass.sub"
     ]
   },
-  "updatedAt": "2026-10-23T09:44:21.333Z",
+  "updatedAt": "2026-10-28T10:53:20.720Z",
   "samples": [
     {
       "id": "openverse:244b0713-eed9-4dc1-8b05-cc3df10da93c",
@@ -597,6 +597,98 @@
         "attributionRequired": true
       },
       "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "ghosthack:cinematic-essentials-sub-booms",
+      "provider": "ghosthack",
+      "title": "Cinematic Essentials - Sub Booms",
+      "category": "bass.sub",
+      "url": "https://www.ghosthack.de/cinematic-essentials-sub-booms",
+      "previewUrl": "https://www.ghosthack.de/media/ba/be/b8/1709808381/cinematic-essentials-sub-booms_demo0.mp3",
+      "downloadable": false,
+      "form": "pack",
+      "thumbnailUrl": "https://www.ghosthack.de/media/3a/45/d0/1709733516/cinematic-essentials-sub-booms.webp",
+      "author": "Ghosthack",
+      "license": {
+        "id": "LicenseRef-Ghosthack-licence",
+        "name": "Ghosthack licence",
+        "url": "https://www.ghosthack.de/Information/General-Terms-Conditions/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": false,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "ghosthack:cinematic-essentials-sub-booms-volume-2",
+      "provider": "ghosthack",
+      "title": "Cinematic Essentials - Sub Booms Volume 2",
+      "category": "bass.sub",
+      "url": "https://www.ghosthack.de/cinematic-essentials-sub-booms-volume-2",
+      "previewUrl": "https://www.ghosthack.de/media/c8/c4/e3/1751976965/cinematic-essentials-sub-booms-volume-2_demo.mp3",
+      "downloadable": false,
+      "form": "pack",
+      "thumbnailUrl": "https://www.ghosthack.de/media/c9/6c/08/1751284538/cinematic-essentials-sub-booms-volume-2.webp",
+      "author": "Ghosthack",
+      "license": {
+        "id": "LicenseRef-Ghosthack-licence",
+        "name": "Ghosthack licence",
+        "url": "https://www.ghosthack.de/Information/General-Terms-Conditions/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": false,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "ghosthack:cinematic-essentials-sub-rumbles-volume-2",
+      "provider": "ghosthack",
+      "title": "Cinematic Essentials - Sub Rumbles Volume 2",
+      "category": "bass.sub",
+      "url": "https://www.ghosthack.de/cinematic-essentials-sub-rumbles-volume-2",
+      "previewUrl": "https://www.ghosthack.de/media/2a/6d/be/1753362172/Cinematic-Essentials-Sub-Rumbles-Vol-2_demo.mp3",
+      "downloadable": false,
+      "form": "pack",
+      "thumbnailUrl": "https://www.ghosthack.de/media/c1/fa/30/1753360391/cinematic-essentials-sub-rumbles-volume-2.webp",
+      "author": "Ghosthack",
+      "license": {
+        "id": "LicenseRef-Ghosthack-licence",
+        "name": "Ghosthack licence",
+        "url": "https://www.ghosthack.de/Information/General-Terms-Conditions/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": false,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "ghosthack:cinematic-essentials-sub-rumbles",
+      "provider": "ghosthack",
+      "title": "Cinematic Essentials - Sub Rumbles",
+      "category": "bass.sub",
+      "url": "https://www.ghosthack.de/cinematic-essentials-sub-rumbles",
+      "previewUrl": "https://www.ghosthack.de/media/5c/86/fd/1712133040/cinematic-essentials-sub-rumbles_demo0.mp3",
+      "downloadable": false,
+      "form": "pack",
+      "thumbnailUrl": "https://www.ghosthack.de/media/97/84/d1/1710250035/cinematic-essentials-sub-rumbles.webp",
+      "author": "Ghosthack",
+      "license": {
+        "id": "LicenseRef-Ghosthack-licence",
+        "name": "Ghosthack licence",
+        "url": "https://www.ghosthack.de/Information/General-Terms-Conditions/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": false,
       "formats": [
         "wav"
       ]

@@ -6,7 +6,7 @@
       "fx.riser"
     ]
   },
-  "updatedAt": "2026-10-23T09:43:03.507Z",
+  "updatedAt": "2026-10-28T10:53:01.043Z",
   "samples": [
     {
       "id": "orangefreesounds:58887",
@@ -759,6 +759,52 @@
       ],
       "bpm": 126,
       "durationSec": 24.766
+    },
+    {
+      "id": "ghosthack:cinematic-essentials-risers-volume-2",
+      "provider": "ghosthack",
+      "title": "Cinematic Essentials - Risers Volume 2",
+      "category": "fx.riser",
+      "url": "https://www.ghosthack.de/cinematic-essentials-risers-volume-2",
+      "previewUrl": "https://www.ghosthack.de/media/50/2f/77/1725364857/Ghosthack_Cinematic_Essentials_-_Risers_Vol_2.mp3",
+      "downloadable": false,
+      "form": "pack",
+      "thumbnailUrl": "https://www.ghosthack.de/media/7d/7c/f9/1725281624/cinematic-essentials-risers-volume-2.webp",
+      "author": "Ghosthack",
+      "license": {
+        "id": "LicenseRef-Ghosthack-licence",
+        "name": "Ghosthack licence",
+        "url": "https://www.ghosthack.de/Information/General-Terms-Conditions/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": false,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "ghosthack:cinematic-essentials-risers",
+      "provider": "ghosthack",
+      "title": "Cinematic Essentials - Risers",
+      "category": "fx.riser",
+      "url": "https://www.ghosthack.de/cinematic-essentials-risers",
+      "previewUrl": "https://www.ghosthack.de/media/80/c8/9e/1666953154/cinematic-essentials-riser_demo0.mp3",
+      "downloadable": false,
+      "form": "pack",
+      "thumbnailUrl": "https://www.ghosthack.de/media/76/ec/f2/1666958680/cinematic_essentials_-_risers_Product_trans.webp",
+      "author": "Ghosthack",
+      "license": {
+        "id": "LicenseRef-Ghosthack-licence",
+        "name": "Ghosthack licence",
+        "url": "https://www.ghosthack.de/Information/General-Terms-Conditions/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": false,
+      "formats": [
+        "wav"
+      ]
     }
   ]
 }
