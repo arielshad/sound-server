@@ -1,22 +1,22 @@
 {
-  "countedAt": "2026-10-28T10:50:25.924Z",
+  "countedAt": "2026-10-29T11:06:49.547Z",
   "totals": {
     "listings": {
-      "count": 312742,
+      "count": 312762,
       "atLeast": true
     },
     "free": {
-      "count": 310677,
+      "count": 310696,
       "atLeast": true
     },
     "cc0": {
       "count": 5511
     },
     "directDownload": {
-      "count": 307037,
+      "count": 307055,
       "atLeast": true
     },
-    "addedLast30Days": 1,
+    "addedLast30Days": 2,
     "sourcesCounted": 18,
     "sourcesLinked": 22
   },
@@ -31,13 +31,13 @@
       "count": 13745
     },
     "vocals": {
-      "count": 6125
+      "count": 6126
     },
     "other": {
-      "count": 12826
+      "count": 12830
     },
     "drums": {
-      "count": 5269
+      "count": 5270
     },
     "synth": {
       "count": 1360
@@ -67,11 +67,11 @@
   "byLicense": {
     "LicenseRef-BBC-RemArc": 33066,
     "CC0-1.0": 5511,
-    "Other (a cappellas)": 4471,
+    "Other (a cappellas)": 4472,
     "LicenseRef-Unknown": 4341,
     "LicenseRef-Free-Wave-Samples-licence": 2353,
     "CC BY / BY-SA / CC0 (a cappellas)": 1515,
-    "LicenseRef-Black-Octopus-Sound-licence": 1464,
+    "LicenseRef-Black-Octopus-Sound-licence": 1465,
     "LicenseRef-Ghosthack-licence": 605,
     "LicenseRef-GPL-3-0-repository-licence": 481,
     "CC-BY-SA-4.0": 445,
@@ -104,7 +104,7 @@
       "mirror": true,
       "unit": "samples",
       "method": "Openverse /v1/audio/stats/: media counts of the sources we search (Freesound + Wikimedia Commons audio; Jamendo songs listed but not searched)",
-      "countedAt": "2026-10-28T10:50:25.924Z"
+      "countedAt": "2026-10-29T11:06:49.547Z"
     },
     {
       "id": "wikimediacommons",
@@ -112,12 +112,12 @@
       "homepage": "https://commons.wikimedia.org",
       "pricing": "free",
       "supportsDownload": true,
-      "total": 218681,
-      "free": 218681,
+      "total": 218690,
+      "free": 218690,
       "byCategory": {},
       "unit": "samples",
       "method": "MediaWiki search API: total hits in the File namespace for audio files, excluding MIDI, pronunciations and Lingua Libre recordings (still includes music and speech)",
-      "countedAt": "2026-10-28T10:50:25.924Z"
+      "countedAt": "2026-10-29T11:06:49.547Z"
     },
     {
       "id": "bbc",
@@ -163,7 +163,7 @@
       },
       "unit": "samples",
       "method": "BBC RemArc search API: total of an empty search; categories from /api/sfx/cached/categoryaggregations (mapped to ours)",
-      "countedAt": "2026-10-28T10:50:25.924Z"
+      "countedAt": "2026-10-29T11:06:49.547Z"
     },
     {
       "id": "ccmixter",
@@ -171,22 +171,22 @@
       "homepage": "https://ccmixter.org",
       "pricing": "free",
       "supportsDownload": true,
-      "total": 21951,
-      "free": 21951,
+      "total": 21955,
+      "free": 21955,
       "byCategory": {
-        "vocals": 5986
+        "vocals": 5987
       },
       "byLicense": {
         "CC BY / BY-SA / CC0 (a cappellas)": 1515,
-        "Other (a cappellas)": 4471
+        "Other (a cappellas)": 4472
       },
       "categories": {
-        "acappella": 5986,
-        "sample": 15965
+        "acappella": 5987,
+        "sample": 15968
       },
       "unit": "samples",
       "method": "ccMixter Query API f=count for tags=acappella and tags=sample (may overlap), and acappella with lic=open",
-      "countedAt": "2026-10-28T10:50:25.924Z"
+      "countedAt": "2026-10-29T11:06:49.547Z"
     },
     {
       "id": "opengameart",
@@ -194,18 +194,18 @@
       "homepage": "https://opengameart.org",
       "pricing": "free",
       "supportsDownload": true,
-      "total": 11915,
-      "free": 11915,
+      "total": 11918,
+      "free": 11918,
       "byCategory": {
-        "fx": 1737,
-        "other": 10178
+        "fx": 1736,
+        "other": 10182
       },
       "categories": {
-        "Sound Effect": 1737,
-        "Music": 10178
+        "Sound Effect": 1736,
+        "Music": 10182
       },
       "method": "Result counts of the Sound Effect and Music listings (\"Displaying 1 - 24 of N\"), 10 s apart",
-      "countedAt": "2026-10-28T10:50:25.924Z"
+      "countedAt": "2026-10-29T11:06:49.547Z"
     },
     {
       "id": "orangefreesounds",
@@ -213,12 +213,12 @@
       "homepage": "https://orangefreesounds.com",
       "pricing": "free",
       "supportsDownload": true,
-      "total": 8225,
-      "free": 8225,
+      "total": 8226,
+      "free": 8226,
       "byCategory": {
         "drums": 268,
         "synth": 292,
-        "fx": 6389,
+        "fx": 6390,
         "other": 1213
       },
       "categories": {
@@ -227,11 +227,11 @@
         "Loops": 561,
         "Music": 1213,
         "News": 1,
-        "Sound Effects": 6389
+        "Sound Effects": 6390
       },
       "unit": "samples",
       "method": "X-WP-Total of the posts (minus paid packs and collections); categories from the WordPress category counts",
-      "countedAt": "2026-10-28T10:50:25.924Z"
+      "countedAt": "2026-10-29T11:06:49.547Z"
     },
     {
       "id": "strudel",
@@ -281,7 +281,7 @@
       },
       "unit": "samples",
       "method": "Every file in 8 allow-listed Strudel manifests",
-      "countedAt": "2026-10-28T10:50:25.924Z"
+      "countedAt": "2026-10-29T11:06:49.547Z"
     },
     {
       "id": "bigsoundbank",
@@ -295,7 +295,7 @@
       "byCategory": {},
       "unit": "samples",
       "method": "Result count of the site's search with an empty query (every sound)",
-      "countedAt": "2026-10-28T10:50:25.924Z"
+      "countedAt": "2026-10-29T11:06:49.547Z"
     },
     {
       "id": "internetarchive",
@@ -303,12 +303,12 @@
       "homepage": "https://archive.org",
       "pricing": "free",
       "supportsDownload": true,
-      "total": 2524,
-      "free": 2524,
+      "total": 2525,
+      "free": 2525,
       "byCategory": {},
       "unit": "packs",
       "method": "advancedsearch.php numFound for audio items tagged as samples/SFX/loops with a CC0, PD, CC BY or CC BY-SA licenseurl, commercial publishers excluded",
-      "countedAt": "2026-10-28T10:50:25.924Z"
+      "countedAt": "2026-10-29T11:06:49.547Z"
     },
     {
       "id": "freewavesamples",
@@ -343,7 +343,7 @@
       },
       "unit": "samples",
       "method": "Sum of \"N samples of this type\" on the ten top-level /sample-type/ pages",
-      "countedAt": "2026-10-28T10:50:25.924Z"
+      "countedAt": "2026-10-29T11:06:49.547Z"
     },
     {
       "id": "blackoctopus",
@@ -352,12 +352,12 @@
       "license": "LicenseRef-Black-Octopus-Sound-licence",
       "pricing": "freemium",
       "supportsDownload": false,
-      "total": 1464,
+      "total": 1465,
       "free": 4,
       "byCategory": {},
       "unit": "packs",
       "method": "X-WP-Total of the WooCommerce Store API products, minus the Software and Hardware categories; free = the Free category",
-      "countedAt": "2026-10-28T10:50:25.924Z"
+      "countedAt": "2026-10-29T11:06:49.547Z"
     },
     {
       "id": "soundbible",
@@ -371,7 +371,7 @@
       "byCategory": {},
       "unit": "samples",
       "method": "Sound pages in soundbible.com/sitemap.xml (not kept current, so a lower bound)",
-      "countedAt": "2026-10-28T10:50:25.924Z"
+      "countedAt": "2026-10-29T11:06:49.547Z"
     },
     {
       "id": "ghosthack",
@@ -384,7 +384,7 @@
       "byCategory": {},
       "unit": "packs",
       "method": "Top-level product pages in ghosthack.de's sitemap (includes a few plugins and bundles)",
-      "countedAt": "2026-10-28T10:50:25.924Z"
+      "countedAt": "2026-10-29T11:06:49.547Z"
     },
     {
       "id": "sampleradar",
@@ -423,7 +423,7 @@
       },
       "unit": "packs",
       "method": "Every listing in the source's catalogue",
-      "countedAt": "2026-10-28T10:50:25.924Z"
+      "countedAt": "2026-10-29T11:06:49.547Z"
     },
     {
       "id": "freepacks",
@@ -431,20 +431,20 @@
       "homepage": "https://99sounds.org/sounds/",
       "pricing": "free",
       "supportsDownload": false,
-      "total": 52,
-      "free": 52,
+      "total": 53,
+      "free": 53,
       "byCategory": {
         "fx": 27,
         "other": 10,
         "foley": 3,
         "ambience": 2,
-        "drums": 4,
+        "drums": 5,
         "synth": 5,
         "strings": 1
       },
       "byLicense": {
         "LicenseRef-99Sounds-licence": 48,
-        "LicenseRef-Free-pack-see-the-article": 1,
+        "LicenseRef-Free-pack-see-the-article": 2,
         "LicenseRef-Reverb-Machine-licence": 3
       },
       "categories": {
@@ -456,15 +456,15 @@
         "synth": 3,
         "ambience": 2,
         "drums": 2,
+        "drums.break": 1,
         "drums.clap": 1,
         "drums.kick": 1,
-        "fx.impact": 1,
-        "fx.transition": 1
+        "fx.impact": 1
       },
       "unit": "packs",
-      "addedLast30Days": 1,
+      "addedLast30Days": 2,
       "method": "Items in the free-pack feeds (99Sounds free sounds, BPB's latest free soundware posts, Reverb Machine's free products)",
-      "countedAt": "2026-10-28T10:50:25.924Z"
+      "countedAt": "2026-10-29T11:06:49.547Z"
     },
     {
       "id": "curated",
@@ -520,7 +520,7 @@
       },
       "unit": "packs",
       "method": "Every listing in the source's catalogue",
-      "countedAt": "2026-10-28T10:50:25.924Z"
+      "countedAt": "2026-10-29T11:06:49.547Z"
     },
     {
       "id": "zenodo",
@@ -554,7 +554,7 @@
       "unit": "packs",
       "addedLast30Days": 0,
       "method": "Every listing in the source's catalogue",
-      "countedAt": "2026-10-28T10:50:25.924Z"
+      "countedAt": "2026-10-29T11:06:49.547Z"
     },
     {
       "id": "kenney",
@@ -580,7 +580,7 @@
       },
       "unit": "packs",
       "method": "Every listing in the source's catalogue",
-      "countedAt": "2026-10-28T10:50:25.924Z"
+      "countedAt": "2026-10-29T11:06:49.547Z"
     }
   ],
   "linked": [

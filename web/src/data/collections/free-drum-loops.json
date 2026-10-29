@@ -9,7 +9,7 @@
       "loop"
     ]
   },
-  "updatedAt": "2026-10-24T09:09:03.687Z",
+  "updatedAt": "2026-10-29T11:09:51.761Z",
   "samples": [
     {
       "id": "orangefreesounds:58632",
@@ -36,31 +36,6 @@
       ],
       "bpm": 160,
       "durationSec": 6
-    },
-    {
-      "id": "wikimediacommons:Drum_loop_(Carrai_Pass).wav",
-      "provider": "wikimediacommons",
-      "title": "Drum loop (Carrai Pass)",
-      "category": "drums",
-      "url": "https://commons.wikimedia.org/wiki/File:Drum_loop_(Carrai_Pass).wav",
-      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/80/Drum_loop_%28Carrai_Pass%29.wav/Drum_loop_%28Carrai_Pass%29.wav.mp3",
-      "downloadable": true,
-      "form": "loop",
-      "author": "Pannage",
-      "license": {
-        "id": "CC-BY-SA-3.0",
-        "name": "CC BY-SA 3.0",
-        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "verdict": "restricted",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "wav",
-        "mp3",
-        "ogg"
-      ],
-      "durationSec": 12.399
     },
     {
       "id": "opengameart:prehistoric-drum-loop",
@@ -171,30 +146,6 @@
       "durationSec": 4
     },
     {
-      "id": "wikimediacommons:Sacred_Battle_Loop_by_MusicLFiles.ogg",
-      "provider": "wikimediacommons",
-      "title": "Sacred Battle Loop by MusicLFiles",
-      "category": "drums",
-      "url": "https://commons.wikimedia.org/wiki/File:Sacred_Battle_Loop_by_MusicLFiles.ogg",
-      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e0/Sacred_Battle_Loop_by_MusicLFiles.ogg/Sacred_Battle_Loop_by_MusicLFiles.ogg.mp3",
-      "downloadable": true,
-      "form": "loop",
-      "author": "MusicLFiles",
-      "license": {
-        "id": "CC-BY-4.0",
-        "name": "CC BY 4.0",
-        "url": "https://creativecommons.org/licenses/by/4.0/",
-        "verdict": "yes-with-credit",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "ogg",
-        "mp3"
-      ],
-      "durationSec": 30
-    },
-    {
       "id": "strudel:dough-samples/loop/8",
       "provider": "strudel",
       "title": "Dough Samples · loop · 8",
@@ -257,30 +208,6 @@
       ],
       "bpm": 100,
       "durationSec": 2
-    },
-    {
-      "id": "wikimediacommons:Funk_carioca_8_bar_loop.ogg",
-      "provider": "wikimediacommons",
-      "title": "Funk carioca 8 bar loop",
-      "category": "drums",
-      "url": "https://commons.wikimedia.org/wiki/File:Funk_carioca_8_bar_loop.ogg",
-      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b8/Funk_carioca_8_bar_loop.ogg/Funk_carioca_8_bar_loop.ogg.mp3",
-      "downloadable": true,
-      "form": "loop",
-      "author": "Zanahary",
-      "license": {
-        "id": "CC0-1.0",
-        "name": "CC0 1.0",
-        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "verdict": "yes",
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "ogg",
-        "mp3"
-      ],
-      "durationSec": 3.697
     },
     {
       "id": "opengameart:2-tribal-drum-loops",
@@ -843,6 +770,78 @@
         "wav"
       ],
       "durationSec": 7.5
+    },
+    {
+      "id": "openverse:b0666a5c-90a8-42b0-93fd-af7715b12c8b",
+      "provider": "openverse",
+      "title": "East Coast Drum Loop Tempo 90 - Nova Sound",
+      "category": "drums",
+      "url": "https://freesound.org/people/NovaSoundTechnology/sounds/118750",
+      "previewUrl": "https://cdn.freesound.org/previews/118/118750_369949-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "NovaSoundTechnology",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 45.336
+    },
+    {
+      "id": "openverse:47e69341-1747-4269-987b-f880ba02299f",
+      "provider": "openverse",
+      "title": "Brake Real Drum Loop 1.wav",
+      "category": "drums",
+      "url": "https://freesound.org/people/Sorrow-Fox/sounds/123889",
+      "previewUrl": "https://cdn.freesound.org/previews/123/123889_1963611-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Sorrow-Fox",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 4.795
+    },
+    {
+      "id": "openverse:0dafd9fb-e769-4db4-a4ab-e2202c0dd7e2",
+      "provider": "openverse",
+      "title": "Old School Rave Drum loop (135bpm).wav",
+      "category": "drums",
+      "url": "https://freesound.org/people/stair/sounds/183441",
+      "previewUrl": "https://cdn.freesound.org/previews/183/183441_236950-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "stair",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "bpm": 135,
+      "durationSec": 14.222
     }
   ]
 }
