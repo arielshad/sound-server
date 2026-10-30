@@ -6,7 +6,7 @@
       "fx.transition"
     ]
   },
-  "updatedAt": "2026-10-24T09:12:24.216Z",
+  "updatedAt": "2026-10-30T11:16:01.494Z",
   "samples": [
     {
       "id": "wikimediacommons:Sheffield_Indymedia_-_2011-07-09_Transition_Network_Conference_2011_-ttcon2011_-_5_Transition_and_Activism.vorb.oga",
@@ -665,29 +665,6 @@
       "durationSec": 8
     },
     {
-      "id": "orangefreesounds:56633",
-      "provider": "orangefreesounds",
-      "title": "Shimmering Celestial Reverse Swell Sound Effect",
-      "category": "fx.transition",
-      "url": "https://orangefreesounds.com/shimmering-celestial-reverse-swell-sound-effect/",
-      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/05/Shimmering-celestial-reverse-swell-sound-effect.mp3",
-      "downloadable": true,
-      "form": "one-shot",
-      "author": "Alexander",
-      "license": {
-        "id": "CC-BY-NC-4.0",
-        "name": "CC BY-NC 4.0",
-        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
-        "verdict": "no",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "mp3"
-      ],
-      "durationSec": 6
-    },
-    {
       "id": "openverse:6a568562-42d6-43eb-93f2-9c662dbc9e52",
       "provider": "openverse",
       "title": "Transition M_Acc.wav",
@@ -828,6 +805,29 @@
         "wav"
       ],
       "durationSec": 3.32
+    },
+    {
+      "id": "orangefreesounds:59077",
+      "provider": "orangefreesounds",
+      "title": "Shimmering Magical Sparkle Transition Sound Effect",
+      "category": "fx.transition",
+      "url": "https://orangefreesounds.com/shimmering-magical-sparkle-transition-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/10/Shimmering-magical-sparkle-transition-sound-effect.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 8
     }
   ]
 }

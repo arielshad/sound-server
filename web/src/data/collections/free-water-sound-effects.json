@@ -7,7 +7,7 @@
       "ambience"
     ]
   },
-  "updatedAt": "2026-10-23T09:46:25.994Z",
+  "updatedAt": "2026-10-30T11:17:06.959Z",
   "samples": [
     {
       "id": "soundbible:1790-Water-Churning",
@@ -743,26 +743,27 @@
       "durationSec": 30.407
     },
     {
-      "id": "orangefreesounds:56295",
-      "provider": "orangefreesounds",
-      "title": "Swamp Night Ambience Sound Effect – Frogs Chorus With Distant Water Bird Calls",
+      "id": "bbc:NHU05066071",
+      "provider": "bbc",
+      "title": "CU water draining back through crevice, sea in distance.",
       "category": "foley",
-      "url": "https://orangefreesounds.com/swamp-night-ambience-sound-effect-frogs-chorus-with-distant-water-bird-calls/",
-      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/04/Swamp-night-ambience-sound-effect-frogs-chorus-with-distant-water-bird-calls.mp3",
+      "url": "https://sound-effects.bbcrewind.co.uk/search?q=NHU05066071",
+      "previewUrl": "https://sound-effects-media.bbcrewind.co.uk/mp3/NHU05066071.mp3",
       "downloadable": true,
-      "author": "Alexander",
+      "author": "Bruce Reitherman",
       "license": {
-        "id": "CC-BY-NC-4.0",
-        "name": "CC BY-NC 4.0",
-        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "id": "LicenseRef-BBC-RemArc",
+        "name": "BBC RemArc licence",
+        "url": "https://sound-effects.bbcrewind.co.uk/licensing",
         "verdict": "no",
         "attributionRequired": true
       },
       "free": true,
       "formats": [
+        "wav",
         "mp3"
       ],
-      "durationSec": 17
+      "durationSec": 20.28
     }
   ]
 }
