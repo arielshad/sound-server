@@ -1,15 +1,21 @@
-# Sound Server
+<p align="center">
+  <img src="docs/images/banner.svg" width="100%" alt="Sound Server: a sample browser for the whole free web. 40+ sites, one search, a licence verdict on every sound. HTTP API, MCP server, web UI and CLI.">
+</p>
 
-**sound-server** searches 35+ sample sites at once and downloads what you pick: kicks, snares,
-hi-hats, claps, 808s, loops, vocals and a cappellas, risers, impacts, zaps, foley, ambience and
-instrument one-shots. Use it from a browser, from `curl`, from the command line, or let your AI
-assistant drive it over MCP to build a track.
+**A sample browser for the whole free web.** sound-server searches 40+ sample sites at once
+(Freesound, BBC Sound Effects, Wikimedia Commons, Strudel's drum machines, SampleRadar and more) and
+downloads what you pick: kicks, snares, hats, 808s, loops, vocals and a cappellas, risers, foley,
+ambience and instrument one-shots. Every sound tells you whether you can put it in a commercial
+release. Use it from a browser, from `curl`, from the command line, or let your AI assistant build
+the kit over MCP.
 
 > *"Build me a dark trap kit in F minor at 140 BPM."*
 >
 > Your assistant calls `build_kit`, gets a kick, snare, clap, hats and an 808 with their licences,
 > and writes the files, a Strudel sample map, an SFZ / General MIDI drum map and the credits into
 > your project.
+
+![An example dark trap kit: six slots, each with its source, licence and verdict. In your project, samples/kits/dark-trap holds the six sounds, strudel.json, kit.sfz, gm-map.json, ATTRIBUTION.md and credits.json.](docs/images/kit-output.svg)
 
 - **One query, many sources.** Results are merged, de-duplicated and ranked, with a status line for every site.
 - **Musical search.** "140 bpm vocal chop in F minor" becomes BPM and key filters; every result has
@@ -29,6 +35,7 @@ Live at **<https://sound.shep.bot>** (free, non-commercial). Planning notes and 
 
 ## Contents
 
+- [How it works](#how-it-works)
 - [Sources](#sources)
 - [Licence verdicts](#licence-verdicts)
 - [Quick start](#quick-start)
@@ -44,9 +51,20 @@ Live at **<https://sound.shep.bot>** (free, non-commercial). Planning notes and 
 
 ---
 
+## How it works
+
+![The query "140 bpm dark trap 808 in F minor" becomes filters: BPM 140, the text "dark trap 808", the category bass.808 and the key F minor. Every result comes back labelled with category, form, BPM, key, duration and a licence verdict.](docs/images/musical-search.svg)
+
+Every site is searched in parallel with its own timeout. A slow or blocked site never fails the
+search: it shows up in the per-site report, with a link to the same search on that site.
+
+---
+
 ## Sources
 
-**Searched (16)**
+![Searched (19): results, previews and downloads here. Linked (22): your query opens on their own search.](docs/images/sources.svg)
+
+**Searched (19)**
 
 | Source | Best for | Access | Downloads | Licence |
 |---|---|---|---|---|
@@ -64,15 +82,22 @@ Live at **<https://sound.shep.bot>** (free, non-commercial). Planning notes and 
 | [SoundBible](https://soundbible.com) | Classic SFX | scrape | wav/mp3 | per sound |
 | [Orange Free Sounds](https://orangefreesounds.com) | SFX, loops | WordPress API | yes | per post |
 | [Openverse](https://openverse.org) | Keyless fallback over Freesound + Wikimedia | API | where direct | per sound |
+| [BigSoundBank](https://bigsoundbank.com) | ~3,600 sound effects and ambiences | scrape | link to the sound's page | CC0 |
+| [Zenodo datasets](https://zenodo.org) | Orchestral notes, singing, guitar, drum loops (TinySOL, VocalSet, GuitarSet…) | hand-checked list | yes | per dataset |
+| Free pack news | New free packs from 99Sounds, Bedroom Producers Blog, Reverb Machine | feeds | link to the announcement | per pack |
+| [Ghosthack](https://www.ghosthack.de) | Vocal, cinematic and EDM packs | scrape | store page (paid) | Ghosthack licence |
+| [Black Octopus Sound](https://blackoctopus-sound.com) | Royalty-free packs from several labels | store API | store page (a few free) | royalty free |
 
-**Linked (deep link to the site's own search):** Splice, Loopmasters, Loopcloud, Looperman, SampleFocus,
+**Linked (22, deep link to the site's own search):** Splice, Loopmasters, Loopcloud, Looperman, SampleFocus,
 Producer Loops, ADSR, Plugin Boutique, LANDR Samples, Tracklib, Zapsplat, Pixabay, Mixkit, Sonniss,
-Uppbeat, Bandcamp, Soundsnap, Epidemic Sound, Artlist, Cymatics, Prime Loops. These block bots, or
+Uppbeat, Bandcamp, Soundsnap, Epidemic Sound, Artlist, Cymatics, Prime Loops, Function Loops. These block bots, or
 their robots.txt or terms forbid automated access.
 
 `GET /v1/providers` (or `list_sources` over MCP) lists every source with its access method and licence.
 
 ## Licence verdicts
+
+![Six verdicts from "ship it" to "keep it out of a release": yes, yes-with-credit, restricted, clearance-required, check-terms, no.](docs/images/licence-verdicts.svg)
 
 | Verdict | Means | Examples |
 |---|---|---|
@@ -108,6 +133,8 @@ docker run -p 8787:8787 -e FREESOUND_API_KEY=... ghcr.io/arielshad/sound-server
 ```
 
 ## MCP: use it from an AI assistant
+
+![You ask for a dark trap kit; the assistant calls build_kit, checks the 808 with get_sample, then build_kit with download=true, and replies that all six sounds are cleared for release.](docs/images/kit-flow.svg)
 
 ```bash
 # Hosted

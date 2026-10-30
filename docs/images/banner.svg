@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 260" width="960" height="260" role="img" aria-labelledby="t d">
+  <title id="t">Sound Server</title>
+  <desc id="d">A sample browser for the whole free web: one search across 40+ sample sites, with a licence verdict on every sound. HTTP API, MCP server, web UI and CLI.</desc>
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b6cf6"/>
+      <stop offset="1" stop-color="#4cc9e6"/>
+    </linearGradient>
+    <linearGradient id="brandText" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b6a4ff"/>
+      <stop offset="1" stop-color="#7fdcf0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.18" cy="0.5" r="0.55">
+      <stop offset="0" stop-color="#8b6cf6" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#8b6cf6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity="0.04"/>
+    </pattern>
+  </defs>
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .chip { fill: #1f1c2e; stroke: #3a3552; }
+    .chipText { fill: #d9d6e8; font-size: 15px; font-weight: 600; }
+  </style>
+  <rect width="960" height="260" rx="18" fill="#13111c"/>
+  <rect width="960" height="260" rx="18" fill="url(#grid)"/>
+  <rect width="960" height="260" rx="18" fill="url(#glow)"/>
+  <rect x="0.5" y="0.5" width="959" height="259" rx="17.5" fill="none" stroke="#2a2638"/>
+
+  <!-- logo: the favicon waveform, scaled -->
+  <g transform="translate(56 50) scale(5)">
+    <rect width="32" height="32" rx="7" fill="#1b1828"/>
+    <g fill="url(#brand)">
+      <rect x="3.35" y="13" width="2.8" height="6" rx="1.4"/>
+      <rect x="7.85" y="9" width="2.8" height="14" rx="1.4"/>
+      <rect x="12.35" y="5" width="2.8" height="22" rx="1.4"/>
+      <rect x="16.85" y="10" width="2.8" height="12" rx="1.4"/>
+      <rect x="21.35" y="7.5" width="2.8" height="17" rx="1.4"/>
+      <rect x="25.85" y="12" width="2.8" height="8" rx="1.4"/>
+    </g>
+  </g>
+
+  <g class="sans">
+    <text x="252" y="104" font-size="52" font-weight="800" fill="url(#brandText)" letter-spacing="-1">Sound Server</text>
+    <text x="254" y="140" font-size="19" fill="#b3afc6">A sample browser for the whole free web.</text>
+    <text x="254" y="166" font-size="19" fill="#b3afc6">40+ sites, one search, a licence verdict on every sound.</text>
+
+    <g transform="translate(254 190)">
+      <rect class="chip" width="96" height="34" rx="17"/>
+      <text class="chipText" x="48" y="22" text-anchor="middle">HTTP API</text>
+      <rect class="chip" x="108" width="118" height="34" rx="17"/>
+      <text class="chipText" x="167" y="22" text-anchor="middle">MCP server</text>
+      <rect class="chip" x="238" width="88" height="34" rx="17"/>
+      <text class="chipText" x="282" y="22" text-anchor="middle">Web UI</text>
+      <rect class="chip" x="338" width="64" height="34" rx="17"/>
+      <text class="chipText" x="370" y="22" text-anchor="middle">CLI</text>
+    </g>
+  </g>
+
+  <!-- sound types, right side -->
+  <g class="sans" font-size="14" font-weight="600" text-anchor="middle">
+    <g transform="translate(800 42)"><rect width="112" height="30" rx="8" fill="#8b6cf6" fill-opacity="0.14" stroke="#8b6cf6" stroke-opacity="0.45"/><text x="56" y="20" fill="#c4b5fd">kick</text></g>
+    <g transform="translate(830 84)"><rect width="112" height="30" rx="8" fill="#4cc9e6" fill-opacity="0.12" stroke="#4cc9e6" stroke-opacity="0.45"/><text x="56" y="20" fill="#9be6f5">808</text></g>
+    <g transform="translate(786 126)"><rect width="112" height="30" rx="8" fill="#f5b85b" fill-opacity="0.12" stroke="#f5b85b" stroke-opacity="0.45"/><text x="56" y="20" fill="#fcd9a0">vocal chop</text></g>
+    <g transform="translate(822 168)"><rect width="112" height="30" rx="8" fill="#34d399" fill-opacity="0.12" stroke="#34d399" stroke-opacity="0.45"/><text x="56" y="20" fill="#a7f3d0">riser</text></g>
+    <g transform="translate(794 210)"><rect width="112" height="30" rx="8" fill="#f472b6" fill-opacity="0.12" stroke="#f472b6" stroke-opacity="0.45"/><text x="56" y="20" fill="#fbcfe8">foley</text></g>
+  </g>
+</svg>
