@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 330" width="960" height="330" role="img" aria-labelledby="t d">
+  <title id="t">Musical search</title>
+  <desc id="d">The query "140 bpm dark trap 808 in F minor" becomes filters: BPM 140 (half and double time also match), the text "dark trap 808" sent to every site, the category bass.808, and the key F minor for pitched sounds. Every result comes back labelled with category, form, BPM, key, duration and a licence verdict.</desc>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10z" fill="#8a85a3"/>
+    </marker>
+  </defs>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .h { fill: #f0eef7; font-size: 16px; font-weight: 700; }
+    .sub { fill: #a29eb6; font-size: 13px; }
+    .lbl { font-size: 15px; font-weight: 700; }
+    .tag { fill: #d9d6e8; font-size: 13px; }
+  </style>
+  <rect width="960" height="330" rx="18" fill="#13111c"/>
+  <rect x="0.5" y="0.5" width="959" height="329" rx="17.5" fill="none" stroke="#2a2638"/>
+
+  <text class="h" x="30" y="40">Type it the way a producer would say it</text>
+
+  <!-- search box -->
+  <rect x="30" y="56" width="900" height="54" rx="14" fill="#1d1a2b" stroke="#8b6cf6" stroke-opacity="0.7"/>
+  <circle cx="60" cy="81" r="8" stroke="#a29eb6" stroke-width="2.2" fill="none"/>
+  <path d="M66 87l6 6" stroke="#a29eb6" stroke-width="2.2" stroke-linecap="round"/>
+  <text class="mono" x="88" y="90" font-size="20" font-weight="600" xml:space="preserve"><tspan fill="#c4b5fd">140 bpm</tspan> <tspan fill="#7fdcf0">dark trap</tspan> <tspan fill="#fcd9a0">808</tspan> <tspan fill="#6b6782">in</tspan> <tspan fill="#6ee7b7">F minor</tspan></text>
+
+  <path d="M480 116v20" stroke="#8a85a3" stroke-width="1.8" marker-end="url(#arr)"/>
+
+  <!-- filters -->
+  <g>
+    <rect x="30" y="144" width="210" height="88" rx="12" fill="#8b6cf6" fill-opacity="0.08" stroke="#8b6cf6" stroke-opacity="0.5"/>
+    <text class="lbl mono" x="48" y="173" fill="#c4b5fd">bpm 140</text>
+    <text class="sub" x="48" y="197">half and double time</text>
+    <text class="sub" x="48" y="215">count as a match</text>
+
+    <rect x="260" y="144" width="210" height="88" rx="12" fill="#4cc9e6" fill-opacity="0.07" stroke="#4cc9e6" stroke-opacity="0.5"/>
+    <text class="lbl mono" x="278" y="173" fill="#7fdcf0">"dark trap 808"</text>
+    <text class="sub" x="278" y="197">sent to every site</text>
+    <text class="sub" x="278" y="215">at once</text>
+
+    <rect x="490" y="144" width="210" height="88" rx="12" fill="#f5b85b" fill-opacity="0.07" stroke="#f5b85b" stroke-opacity="0.5"/>
+    <text class="lbl mono" x="508" y="173" fill="#fcd9a0">bass.808</text>
+    <text class="sub" x="508" y="197">the category the word</text>
+    <text class="sub" x="508" y="215">"808" points to</text>
+
+    <rect x="720" y="144" width="210" height="88" rx="12" fill="#34d399" fill-opacity="0.07" stroke="#34d399" stroke-opacity="0.5"/>
+    <text class="lbl mono" x="738" y="173" fill="#6ee7b7">key F minor</text>
+    <text class="sub" x="738" y="197">for pitched sounds:</text>
+    <text class="sub" x="738" y="215">808s, bass, synths</text>
+  </g>
+
+  <!-- labelled result -->
+  <text class="sub" x="30" y="270">Every result comes back labelled</text>
+  <g transform="translate(250 252)">
+    <rect width="98" height="28" rx="14" fill="#1f1c2e" stroke="#3a3552"/><text class="tag mono" x="49" y="19" text-anchor="middle">bass.808</text>
+    <rect x="108" width="88" height="28" rx="14" fill="#1f1c2e" stroke="#3a3552"/><text class="tag" x="152" y="19" text-anchor="middle">one-shot</text>
+    <rect x="206" width="84" height="28" rx="14" fill="#1f1c2e" stroke="#3a3552"/><text class="tag" x="248" y="19" text-anchor="middle">140 BPM</text>
+    <rect x="300" width="84" height="28" rx="14" fill="#1f1c2e" stroke="#3a3552"/><text class="tag" x="342" y="19" text-anchor="middle">F minor</text>
+    <rect x="394" width="66" height="28" rx="14" fill="#1f1c2e" stroke="#3a3552"/><text class="tag" x="427" y="19" text-anchor="middle">1.8 s</text>
+    <rect x="470" width="150" height="28" rx="14" fill="#4cc9e6" fill-opacity="0.14" stroke="#4cc9e6" stroke-opacity="0.6"/><text class="tag mono" x="545" y="19" text-anchor="middle" fill="#9be6f5">yes-with-credit</text>
+  </g>
+  <text class="sub" x="250" y="306">plus a ready-to-paste credit line, and the source it came from</text>
+</svg>
