@@ -6,7 +6,7 @@
       "fx.transition"
     ]
   },
-  "updatedAt": "2026-10-30T11:16:01.494Z",
+  "updatedAt": "2026-11-01T11:35:42.887Z",
   "samples": [
     {
       "id": "wikimediacommons:Sheffield_Indymedia_-_2011-07-09_Transition_Network_Conference_2011_-ttcon2011_-_5_Transition_and_Activism.vorb.oga",
@@ -642,29 +642,6 @@
       "durationSec": 2817.358
     },
     {
-      "id": "orangefreesounds:56892",
-      "provider": "orangefreesounds",
-      "title": "Build Up Transition Sound Effect",
-      "category": "fx.transition",
-      "url": "https://orangefreesounds.com/build-up-transition-sound-effect/",
-      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/06/Build-up-transition-sound-effect.mp3",
-      "downloadable": true,
-      "form": "one-shot",
-      "author": "Alexander",
-      "license": {
-        "id": "CC-BY-NC-4.0",
-        "name": "CC BY-NC 4.0",
-        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
-        "verdict": "no",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "mp3"
-      ],
-      "durationSec": 8
-    },
-    {
       "id": "openverse:6a568562-42d6-43eb-93f2-9c662dbc9e52",
       "provider": "openverse",
       "title": "Transition M_Acc.wav",
@@ -828,6 +805,29 @@
         "mp3"
       ],
       "durationSec": 8
+    },
+    {
+      "id": "ghosthack:cinematic-essentials-transitions-volume-2",
+      "provider": "ghosthack",
+      "title": "Cinematic Essentials - Transitions Volume 2",
+      "category": "fx.transition",
+      "url": "https://www.ghosthack.de/cinematic-essentials-transitions-volume-2",
+      "previewUrl": "https://www.ghosthack.de/media/cd/4e/77/1716818476/cinematic-essentials-transitions-vol-2_demo0.mp3",
+      "downloadable": false,
+      "form": "pack",
+      "thumbnailUrl": "https://www.ghosthack.de/media/0c/ea/71/1716817024/cinematic-essentials-transitions-vol-2.webp",
+      "author": "Ghosthack",
+      "license": {
+        "id": "LicenseRef-Ghosthack-licence",
+        "name": "Ghosthack licence",
+        "url": "https://www.ghosthack.de/Information/General-Terms-Conditions/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": false,
+      "formats": [
+        "wav"
+      ]
     }
   ]
 }
