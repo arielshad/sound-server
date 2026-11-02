@@ -6,7 +6,7 @@
       "fx.noise"
     ]
   },
-  "updatedAt": "2026-10-23T09:46:41.795Z",
+  "updatedAt": "2026-11-02T13:07:56.661Z",
   "samples": [
     {
       "id": "wikimediacommons:20220623_Noise_pollution._Tomaszów_Mazowiecki_(60,000_population_town),_residential_area.oga",
@@ -542,28 +542,6 @@
       "free": true
     },
     {
-      "id": "orangefreesounds:55030",
-      "provider": "orangefreesounds",
-      "title": "Urban Traffic Noise With Passing Tram – Sound Effect",
-      "category": "fx.noise",
-      "url": "https://orangefreesounds.com/urban-traffic-noise-with-passing-tram-sound-effect/",
-      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/01/Urban-traffic-noise-with-passing-tram-sound-effect.mp3",
-      "downloadable": true,
-      "author": "Alexander",
-      "license": {
-        "id": "CC-BY-NC-4.0",
-        "name": "CC BY-NC 4.0",
-        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
-        "verdict": "no",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "mp3"
-      ],
-      "durationSec": 14
-    },
-    {
       "id": "wikimediacommons:Metal_riff_without_and_with_noise_gate_(hard_gating).wav",
       "provider": "wikimediacommons",
       "title": "Metal riff without and with noise gate (hard gating)",
@@ -741,6 +719,28 @@
       "formats": [
         "wav"
       ]
+    },
+    {
+      "id": "bbc:07069063",
+      "provider": "bbc",
+      "title": "Amplifier noise.",
+      "category": "fx.noise",
+      "url": "https://sound-effects.bbcrewind.co.uk/search?q=07069063",
+      "previewUrl": "https://sound-effects-media.bbcrewind.co.uk/mp3/07069063.mp3",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-BBC-RemArc",
+        "name": "BBC RemArc licence",
+        "url": "https://sound-effects.bbcrewind.co.uk/licensing",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ],
+      "durationSec": 82.427
     }
   ]
 }
