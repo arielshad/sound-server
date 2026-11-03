@@ -9,7 +9,7 @@
       "one-shot"
     ]
   },
-  "updatedAt": "2026-10-23T09:43:36.446Z",
+  "updatedAt": "2026-11-03T12:26:05.518Z",
   "samples": [
     {
       "id": "openverse:03fa3080-bcb3-423f-a781-47dc20bedd59",
@@ -330,31 +330,6 @@
       ]
     },
     {
-      "id": "wikimediacommons:Snare_(1)_Sample.wav",
-      "provider": "wikimediacommons",
-      "title": "Snare (1) Sample",
-      "category": "drums.snare",
-      "url": "https://commons.wikimedia.org/wiki/File:Snare_(1)_Sample.wav",
-      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bc/Snare_%281%29_Sample.wav/Snare_%281%29_Sample.wav.mp3",
-      "downloadable": true,
-      "form": "one-shot",
-      "author": "UnKnownrNone",
-      "license": {
-        "id": "CC0-1.0",
-        "name": "CC0 1.0",
-        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "verdict": "yes",
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "wav",
-        "mp3",
-        "ogg"
-      ],
-      "durationSec": 0.291
-    },
-    {
       "id": "strudel:vcsl/snare_modern/1",
       "provider": "strudel",
       "title": "VCSL · snare_modern · 1",
@@ -375,29 +350,6 @@
       "formats": [
         "wav"
       ]
-    },
-    {
-      "id": "wikimediacommons:Snare_spill.ogg",
-      "provider": "wikimediacommons",
-      "title": "Snare spill",
-      "category": "drums.snare",
-      "url": "https://commons.wikimedia.org/wiki/File:Snare_spill.ogg",
-      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d1/Snare_spill.ogg/Snare_spill.ogg.mp3",
-      "downloadable": true,
-      "author": "Mattgirling",
-      "license": {
-        "id": "CC-BY-SA-3.0",
-        "name": "CC BY-SA 3.0",
-        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "verdict": "restricted",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "ogg",
-        "mp3"
-      ],
-      "durationSec": 8.781
     },
     {
       "id": "strudel:vcsl/snare_modern/2",
@@ -422,31 +374,6 @@
       ]
     },
     {
-      "id": "wikimediacommons:Kick_snare_(Gravity_Sound).wav",
-      "provider": "wikimediacommons",
-      "title": "Kick snare (Gravity Sound)",
-      "category": "drums.snare",
-      "url": "https://commons.wikimedia.org/wiki/File:Kick_snare_(Gravity_Sound).wav",
-      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bc/Kick_snare_%28Gravity_Sound%29.wav/Kick_snare_%28Gravity_Sound%29.wav.mp3",
-      "downloadable": true,
-      "form": "one-shot",
-      "author": "Gravity Sound",
-      "license": {
-        "id": "CC-BY-4.0",
-        "name": "CC BY 4.0",
-        "url": "https://creativecommons.org/licenses/by/4.0/",
-        "verdict": "yes-with-credit",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "wav",
-        "mp3",
-        "ogg"
-      ],
-      "durationSec": 0.5
-    },
-    {
       "id": "strudel:vcsl/snare_modern/3",
       "provider": "strudel",
       "title": "VCSL · snare_modern · 3",
@@ -467,30 +394,6 @@
       "formats": [
         "wav"
       ]
-    },
-    {
-      "id": "wikimediacommons:Snare_com_reverb.ogg",
-      "provider": "wikimediacommons",
-      "title": "Snare com reverb",
-      "category": "drums.snare",
-      "url": "https://commons.wikimedia.org/wiki/File:Snare_com_reverb.ogg",
-      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3e/Snare_com_reverb.ogg/Snare_com_reverb.ogg.mp3",
-      "downloadable": true,
-      "form": "one-shot",
-      "author": "Vitorzx96",
-      "license": {
-        "id": "CC-BY-SA-4.0",
-        "name": "CC BY-SA 4.0",
-        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "verdict": "restricted",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "ogg",
-        "mp3"
-      ],
-      "durationSec": 3.697
     },
     {
       "id": "strudel:vcsl/snare_modern/4",
@@ -515,29 +418,6 @@
       ]
     },
     {
-      "id": "wikimediacommons:Snare_spill_gated.ogg",
-      "provider": "wikimediacommons",
-      "title": "Snare spill gated",
-      "category": "drums.snare",
-      "url": "https://commons.wikimedia.org/wiki/File:Snare_spill_gated.ogg",
-      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b8/Snare_spill_gated.ogg/Snare_spill_gated.ogg.mp3",
-      "downloadable": true,
-      "author": "Mattgirling",
-      "license": {
-        "id": "CC-BY-SA-3.0",
-        "name": "CC BY-SA 3.0",
-        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "verdict": "restricted",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "ogg",
-        "mp3"
-      ],
-      "durationSec": 8.781
-    },
-    {
       "id": "strudel:vcsl/snare_modern/5",
       "provider": "strudel",
       "title": "VCSL · snare_modern · 5",
@@ -558,29 +438,6 @@
       "formats": [
         "wav"
       ]
-    },
-    {
-      "id": "wikimediacommons:Snare_drum_muffled.ogg",
-      "provider": "wikimediacommons",
-      "title": "Snare drum muffled",
-      "category": "drums.snare",
-      "url": "https://commons.wikimedia.org/wiki/File:Snare_drum_muffled.ogg",
-      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a3/Snare_drum_muffled.ogg/Snare_drum_muffled.ogg.mp3",
-      "downloadable": true,
-      "author": "Clngre",
-      "license": {
-        "id": "CC-BY-SA-3.0",
-        "name": "CC BY-SA 3.0",
-        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "verdict": "restricted",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "ogg",
-        "mp3"
-      ],
-      "durationSec": 4.165
     },
     {
       "id": "strudel:vcsl/snare_modern/6",
@@ -605,30 +462,6 @@
       ]
     },
     {
-      "id": "wikimediacommons:Snare_sem_reverb.ogg",
-      "provider": "wikimediacommons",
-      "title": "Snare sem reverb",
-      "category": "drums.snare",
-      "url": "https://commons.wikimedia.org/wiki/File:Snare_sem_reverb.ogg",
-      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9e/Snare_sem_reverb.ogg/Snare_sem_reverb.ogg.mp3",
-      "downloadable": true,
-      "form": "one-shot",
-      "author": "Vitorzx96",
-      "license": {
-        "id": "CC-BY-SA-4.0",
-        "name": "CC BY-SA 4.0",
-        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "verdict": "restricted",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "ogg",
-        "mp3"
-      ],
-      "durationSec": 0.928
-    },
-    {
       "id": "strudel:vcsl/snare_modern/7",
       "provider": "strudel",
       "title": "VCSL · snare_modern · 7",
@@ -649,30 +482,6 @@
       "formats": [
         "wav"
       ]
-    },
-    {
-      "id": "wikimediacommons:Snare_com_eco.ogg",
-      "provider": "wikimediacommons",
-      "title": "Snare com eco",
-      "category": "drums.snare",
-      "url": "https://commons.wikimedia.org/wiki/File:Snare_com_eco.ogg",
-      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/36/Snare_com_eco.ogg/Snare_com_eco.ogg.mp3",
-      "downloadable": true,
-      "form": "one-shot",
-      "author": "Vitorzx96",
-      "license": {
-        "id": "CC-BY-SA-4.0",
-        "name": "CC BY-SA 4.0",
-        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "verdict": "restricted",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "ogg",
-        "mp3"
-      ],
-      "durationSec": 3.697
     },
     {
       "id": "strudel:vcsl/snare_modern/8",
@@ -697,30 +506,6 @@
       ]
     },
     {
-      "id": "wikimediacommons:Snare_(Gravity_Sound).wav",
-      "provider": "wikimediacommons",
-      "title": "Snare (Gravity Sound)",
-      "category": "drums.snare",
-      "url": "https://commons.wikimedia.org/wiki/File:Snare_(Gravity_Sound).wav",
-      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cf/Snare_%28Gravity_Sound%29.wav/Snare_%28Gravity_Sound%29.wav.mp3",
-      "downloadable": true,
-      "author": "Gravity Sound",
-      "license": {
-        "id": "CC-BY-4.0",
-        "name": "CC BY 4.0",
-        "url": "https://creativecommons.org/licenses/by/4.0/",
-        "verdict": "yes-with-credit",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "wav",
-        "mp3",
-        "ogg"
-      ],
-      "durationSec": 14.328
-    },
-    {
       "id": "strudel:vcsl/snare_modern/9",
       "provider": "strudel",
       "title": "VCSL · snare_modern · 9",
@@ -741,29 +526,6 @@
       "formats": [
         "wav"
       ]
-    },
-    {
-      "id": "wikimediacommons:Snare_drum_unmuffled.ogg",
-      "provider": "wikimediacommons",
-      "title": "Snare drum unmuffled",
-      "category": "drums.snare",
-      "url": "https://commons.wikimedia.org/wiki/File:Snare_drum_unmuffled.ogg",
-      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b2/Snare_drum_unmuffled.ogg/Snare_drum_unmuffled.ogg.mp3",
-      "downloadable": true,
-      "author": "Clngre",
-      "license": {
-        "id": "CC-BY-SA-3.0",
-        "name": "CC BY-SA 3.0",
-        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "verdict": "restricted",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "ogg",
-        "mp3"
-      ],
-      "durationSec": 4.817
     },
     {
       "id": "strudel:vcsl/snare_modern/10",
@@ -788,29 +550,6 @@
       ]
     },
     {
-      "id": "wikimediacommons:Snare_drum_rim.ogg",
-      "provider": "wikimediacommons",
-      "title": "Snare drum rim",
-      "category": "drums.snare",
-      "url": "https://commons.wikimedia.org/wiki/File:Snare_drum_rim.ogg",
-      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/51/Snare_drum_rim.ogg/Snare_drum_rim.ogg.mp3",
-      "downloadable": true,
-      "author": "Clngre",
-      "license": {
-        "id": "CC-BY-SA-3.0",
-        "name": "CC BY-SA 3.0",
-        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "verdict": "restricted",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "ogg",
-        "mp3"
-      ],
-      "durationSec": 5.046
-    },
-    {
       "id": "strudel:vcsl/snare_modern/11",
       "provider": "strudel",
       "title": "VCSL · snare_modern · 11",
@@ -831,6 +570,94 @@
       "formats": [
         "wav"
       ]
+    },
+    {
+      "id": "strudel:vcsl/snare_modern/12",
+      "provider": "strudel",
+      "title": "VCSL · snare_modern · 12",
+      "category": "drums.snare",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Membranophones/Struck%20Membranophones/Snare%20Drum%2C%20Modern%201/Snare2_HitSN_v6_rr1_Mid.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Membranophones/Struck%20Membranophones/Snare%20Drum%2C%20Modern%201/Snare2_HitSN_v6_rr1_Mid.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "strudel:vcsl/snare_modern/13",
+      "provider": "strudel",
+      "title": "VCSL · snare_modern · 13",
+      "category": "drums.snare",
+      "url": "https://github.com/sgossner/VCSL/blob/master/Membranophones/Struck%20Membranophones/Snare%20Drum%2C%20Modern%201/Snare2_HitSN_v6_rr2_Mid.wav",
+      "previewUrl": "https://raw.githubusercontent.com/sgossner/VCSL/master/Membranophones/Struck%20Membranophones/Snare%20Drum%2C%20Modern%201/Snare2_HitSN_v6_rr2_Mid.wav",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Versilian Studios",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "wav"
+      ]
+    },
+    {
+      "id": "openverse:ae0c74bc-716d-46cb-8ae2-3edb23090690",
+      "provider": "openverse",
+      "title": "Snare drum muffled",
+      "category": "drums.snare",
+      "url": "https://commons.wikimedia.org/w/index.php?curid=93537",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Snare_drum_muffled.ogg",
+      "downloadable": true,
+      "author": "No machine-readable author provided. Clngre~commonswiki assumed (based on copyright claims).",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg"
+      ],
+      "durationSec": 4.165
+    },
+    {
+      "id": "openverse:a4e4db83-46ce-44ef-8c9f-79d3ca3c6a45",
+      "provider": "openverse",
+      "title": "Snare drum unmuffled",
+      "category": "drums.snare",
+      "url": "https://commons.wikimedia.org/w/index.php?curid=93535",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Snare_drum_unmuffled.ogg",
+      "downloadable": true,
+      "author": "No machine-readable author provided. Clngre~commonswiki assumed (based on copyright claims).",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg"
+      ],
+      "durationSec": 4.816
     }
   ]
 }
