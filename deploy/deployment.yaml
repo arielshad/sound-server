@@ -162,9 +162,15 @@ spec:
               mountPath: /var/run/secrets/sound-server
               readOnly: true
           resources:
+            # shep-worker-1's memory is almost fully reserved by other tenants.
+            # With a 160Mi request, the new pod from the daily Recreate rollout
+            # stopped fitting and sound.shep.bot served 503 (2026-11-05;
+            # image-asset-server stayed Pending with "Insufficient memory" on
+            # 2026-11-04). Idle the server uses about 70Mi; the request matches
+            # that and the limit covers bursts.
             requests:
-              cpu: 50m
-              memory: 160Mi
+              cpu: 25m
+              memory: 64Mi
             limits:
               cpu: "1"
               memory: 768Mi
