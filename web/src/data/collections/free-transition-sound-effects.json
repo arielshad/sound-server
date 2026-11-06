@@ -6,7 +6,7 @@
       "fx.transition"
     ]
   },
-  "updatedAt": "2026-11-03T12:26:51.964Z",
+  "updatedAt": "2026-11-06T12:34:12.024Z",
   "samples": [
     {
       "id": "wikimediacommons:Sheffield_Indymedia_-_2011-07-09_Transition_Network_Conference_2011_-ttcon2011_-_5_Transition_and_Activism.vorb.oga",
@@ -596,29 +596,6 @@
       "durationSec": 3237.721
     },
     {
-      "id": "orangefreesounds:57014",
-      "provider": "orangefreesounds",
-      "title": "Eerie Haunted Space Whoosh Transition Sound Effect",
-      "category": "fx.transition",
-      "url": "https://orangefreesounds.com/eerie-haunted-space-whoosh-transition-sound-effect/",
-      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/06/Eerie-haunted-space-whoosh-transition-sound-effect.mp3",
-      "downloadable": true,
-      "form": "one-shot",
-      "author": "Alexander",
-      "license": {
-        "id": "CC-BY-NC-4.0",
-        "name": "CC BY-NC 4.0",
-        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
-        "verdict": "no",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "mp3"
-      ],
-      "durationSec": 6
-    },
-    {
       "id": "wikimediacommons:Sheffield_Indymedia_-_2009-11-06_Transition_North_Conference_-_2_Transition_North_closing_plenary_session.vorb.oga",
       "provider": "wikimediacommons",
       "title": "Sheffield Indymedia - 2009-11-06 Transition North Conference - 2 Transition North closing plenary session.vorb",
@@ -828,6 +805,29 @@
       "formats": [
         "wav"
       ]
+    },
+    {
+      "id": "orangefreesounds:60230",
+      "provider": "orangefreesounds",
+      "title": "Free Magical Chime Swoosh Transition Sound Effect",
+      "category": "fx.transition",
+      "url": "https://orangefreesounds.com/free-magical-chime-swoosh-transition-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/11/Free-magical-chime-swoosh-transition-sound-effect.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 4
     }
   ]
 }
