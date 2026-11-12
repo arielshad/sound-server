@@ -6,7 +6,7 @@
       "drums.break"
     ]
   },
-  "updatedAt": "2026-10-23T09:37:27.775Z",
+  "updatedAt": "2026-11-12T13:17:15.462Z",
   "samples": [
     {
       "id": "openverse:270cb14d-d300-4420-8a11-62583c81b5db",
@@ -809,29 +809,6 @@
       "durationSec": 7
     },
     {
-      "id": "wikimediacommons:Ellennerv_-_61_-_Twist_it_till_it_Breaks.ogg",
-      "provider": "wikimediacommons",
-      "title": "Ellennerv - 61 - Twist it till it Breaks",
-      "category": "drums.break",
-      "url": "https://commons.wikimedia.org/wiki/File:Ellennerv_-_61_-_Twist_it_till_it_Breaks.ogg",
-      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fa/Ellennerv_-_61_-_Twist_it_till_it_Breaks.ogg/Ellennerv_-_61_-_Twist_it_till_it_Breaks.ogg.mp3",
-      "downloadable": true,
-      "author": "Ellennerv",
-      "license": {
-        "id": "CC0-1.0",
-        "name": "CC0 1.0",
-        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "verdict": "yes",
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "ogg",
-        "mp3"
-      ],
-      "durationSec": 12.007
-    },
-    {
       "id": "openverse:5408569b-6fb7-45fe-8e57-0f55981a5b8d",
       "provider": "openverse",
       "title": "Breaking bones.wav",
@@ -853,6 +830,28 @@
         "wav"
       ],
       "durationSec": 5.398
+    },
+    {
+      "id": "wikimediacommons:Handel_-_messiah_-_43_thou_shalt_break_them.ogg",
+      "provider": "wikimediacommons",
+      "title": "Handel - messiah - 43 thou shalt break them",
+      "category": "drums.break",
+      "url": "https://commons.wikimedia.org/wiki/File:Handel_-_messiah_-_43_thou_shalt_break_them.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0e/Handel_-_messiah_-_43_thou_shalt_break_them.ogg/Handel_-_messiah_-_43_thou_shalt_break_them.ogg.mp3",
+      "downloadable": true,
+      "license": {
+        "id": "CC-BY-SA-2.0",
+        "name": "CC BY-SA 2.0",
+        "url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 128.967
     }
   ]
 }
