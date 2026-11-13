@@ -6,7 +6,7 @@
       "fx.noise"
     ]
   },
-  "updatedAt": "2026-11-02T13:07:56.661Z",
+  "updatedAt": "2026-11-13T12:46:02.627Z",
   "samples": [
     {
       "id": "wikimediacommons:20220623_Noise_pollution._Tomaszów_Mazowiecki_(60,000_population_town),_residential_area.oga",
@@ -681,28 +681,6 @@
       "free": true
     },
     {
-      "id": "orangefreesounds:55262",
-      "provider": "orangefreesounds",
-      "title": "Waterfall And Birdsong Ambience – Nature White Noise Sound Effect",
-      "category": "fx.noise",
-      "url": "https://orangefreesounds.com/waterfall-and-birdsong-ambience-nature-white-noise-sound-effect/",
-      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/01/Waterfall-and-birdsong-ambience-nature-white-noise-sound-effect.mp3",
-      "downloadable": true,
-      "author": "Alexander",
-      "license": {
-        "id": "CC-BY-NC-4.0",
-        "name": "CC BY-NC 4.0",
-        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
-        "verdict": "no",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "mp3"
-      ],
-      "durationSec": 56
-    },
-    {
       "id": "strudel:dirt-samples/noise2/3",
       "provider": "strudel",
       "title": "Dirt-Samples · noise2 · 3",
@@ -741,6 +719,28 @@
         "mp3"
       ],
       "durationSec": 82.427
+    },
+    {
+      "id": "openverse:5f87b8cb-ff50-40f1-8460-1f597577d0f2",
+      "provider": "openverse",
+      "title": "Noise",
+      "category": "fx.noise",
+      "url": "https://freesound.org/people/jhepkema/sounds/149445",
+      "previewUrl": "https://cdn.freesound.org/previews/149/149445_1830770-hq.mp3",
+      "downloadable": true,
+      "author": "jhepkema",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 50
     }
   ]
 }
