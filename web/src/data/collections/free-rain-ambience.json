@@ -6,7 +6,7 @@
       "ambience"
     ]
   },
-  "updatedAt": "2026-10-23T04:45:08.769Z",
+  "updatedAt": "2026-11-16T13:12:24.395Z",
   "samples": [
     {
       "id": "openverse:6b072076-066b-45b6-9695-367a6260c96d",
@@ -239,29 +239,6 @@
         "verdict": "check-terms"
       },
       "free": true
-    },
-    {
-      "id": "openverse:e8ab5983-b6b8-4636-8771-0457cf86a6c2",
-      "provider": "openverse",
-      "title": "Heavy Rain",
-      "category": "ambience",
-      "url": "https://freesound.org/people/lebaston100/sounds/243628",
-      "previewUrl": "https://cdn.freesound.org/previews/243/243628_3509815-hq.mp3",
-      "downloadable": true,
-      "author": "lebaston100",
-      "license": {
-        "id": "CC-BY-4.0",
-        "name": "CC BY 4.0",
-        "url": "https://creativecommons.org/licenses/by/4.0/",
-        "verdict": "yes-with-credit",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "mp3",
-        "wav"
-      ],
-      "durationSec": 157.338
     },
     {
       "id": "orangefreesounds:58300",
@@ -770,6 +747,30 @@
         "wav"
       ],
       "durationSec": 358.577
+    },
+    {
+      "id": "orangefreesounds:60553",
+      "provider": "orangefreesounds",
+      "title": "Crickets Chirping And Gentle Rain Sound Effect | Free WAV",
+      "category": "ambience",
+      "url": "https://orangefreesounds.com/crickets-chirping-and-gentle-rain-sound-effect-free-wav/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/11/Crickets-chirping-and-gentle-rain-sound-effect-free-wav.mp3",
+      "downloadable": true,
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "zip",
+        "mp3"
+      ],
+      "durationSec": 30
     }
   ]
 }
