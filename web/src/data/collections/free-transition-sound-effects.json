@@ -6,7 +6,7 @@
       "fx.transition"
     ]
   },
-  "updatedAt": "2026-11-06T12:34:12.024Z",
+  "updatedAt": "2026-11-17T13:54:39.347Z",
   "samples": [
     {
       "id": "wikimediacommons:Sheffield_Indymedia_-_2011-07-09_Transition_Network_Conference_2011_-ttcon2011_-_5_Transition_and_Activism.vorb.oga",
@@ -458,29 +458,6 @@
       "durationSec": 5641.665
     },
     {
-      "id": "orangefreesounds:57155",
-      "provider": "orangefreesounds",
-      "title": "Magic Notification – Short Fantasy UI Transition Sound Effect",
-      "category": "fx.transition",
-      "url": "https://orangefreesounds.com/magic-notification-short-fantasy-ui-transition-sound-effect/",
-      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/06/Magic-notification-short-fantasy-ui-transition-sound-effect.mp3",
-      "downloadable": true,
-      "form": "one-shot",
-      "author": "Alexander",
-      "license": {
-        "id": "CC-BY-NC-4.0",
-        "name": "CC BY-NC 4.0",
-        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
-        "verdict": "no",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "mp3"
-      ],
-      "durationSec": 3
-    },
-    {
       "id": "wikimediacommons:Sheffield_Indymedia_-_2011-07-09_Transition_Network_Conference_2011_-ttcon2011_-_9_A_conversation_about_the_-Spanish_Revolution.vorb.oga",
       "provider": "wikimediacommons",
       "title": "Sheffield Indymedia - 2011-07-09 Transition Network Conference 2011 -ttcon2011 - 9 A conversation about the -Spanish Revolution.vorb",
@@ -828,6 +805,29 @@
         "mp3"
       ],
       "durationSec": 4
+    },
+    {
+      "id": "orangefreesounds:60775",
+      "provider": "orangefreesounds",
+      "title": "Free Chimes Transition Sound Effect",
+      "category": "fx.transition",
+      "url": "https://orangefreesounds.com/free-chimes-transition-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/11/Free-chimes-transition-sound-effect.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 6
     }
   ]
 }

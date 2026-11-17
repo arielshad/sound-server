@@ -6,7 +6,7 @@
       "fx.noise"
     ]
   },
-  "updatedAt": "2026-11-13T12:46:02.627Z",
+  "updatedAt": "2026-11-17T13:54:58.228Z",
   "samples": [
     {
       "id": "wikimediacommons:20220623_Noise_pollution._Tomaszów_Mazowiecki_(60,000_population_town),_residential_area.oga",
@@ -381,28 +381,6 @@
       "durationSec": 20.016
     },
     {
-      "id": "orangefreesounds:55699",
-      "provider": "orangefreesounds",
-      "title": "Loud Street Cleaning Machine Noise Sound Effect",
-      "category": "fx.noise",
-      "url": "https://orangefreesounds.com/loud-street-cleaning-machine-noise-sound-effect/",
-      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/02/Loud-street-cleaning-machine-noise-sound-effect.mp3",
-      "downloadable": true,
-      "author": "Alexander",
-      "license": {
-        "id": "CC-BY-NC-4.0",
-        "name": "CC BY-NC 4.0",
-        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
-        "verdict": "no",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "mp3"
-      ],
-      "durationSec": 62
-    },
-    {
       "id": "strudel:dirt-samples/noise2/0",
       "provider": "strudel",
       "title": "Dirt-Samples · noise2 · 0",
@@ -741,6 +719,31 @@
         "mp3"
       ],
       "durationSec": 50
+    },
+    {
+      "id": "orangefreesounds:60713",
+      "provider": "orangefreesounds",
+      "title": "Large Industrial Fan Running – Industrial Noise Sound Effect Loop (Free WAV)",
+      "category": "fx.noise",
+      "url": "https://orangefreesounds.com/large-industrial-fan-running-industrial-noise-sound-effect-loop-free-wav/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/11/Large-industrial-fan-running-industrial-noise-sound-effect-loop-free-wav.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "zip",
+        "mp3"
+      ],
+      "durationSec": 34
     }
   ]
 }
