@@ -6,7 +6,7 @@
       "ambience"
     ]
   },
-  "updatedAt": "2026-10-24T09:08:41.236Z",
+  "updatedAt": "2026-11-18T13:28:36.726Z",
   "samples": [
     {
       "id": "soundbible:1266-City-Ambiance",
@@ -674,29 +674,6 @@
       "durationSec": 6
     },
     {
-      "id": "wikimediacommons:Awit_ng_Lungsod_Quezon_-_Hymn_of_Quezon_City.mp3",
-      "provider": "wikimediacommons",
-      "title": "Awit ng Lungsod Quezon - Hymn of Quezon City",
-      "category": "ambience",
-      "url": "https://commons.wikimedia.org/wiki/File:Awit_ng_Lungsod_Quezon_-_Hymn_of_Quezon_City.mp3",
-      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Awit_ng_Lungsod_Quezon_-_Hymn_of_Quezon_City.mp3",
-      "downloadable": true,
-      "author": "Composed by Dr. Eliseo Pajaro and Lyrics by Ligaya Perez",
-      "license": {
-        "id": "CC-PDM-1.0",
-        "name": "Public domain",
-        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "verdict": "yes",
-        "attributionRequired": false
-      },
-      "free": true,
-      "formats": [
-        "mp3",
-        "ogg"
-      ],
-      "durationSec": 99.336
-    },
-    {
       "id": "orangefreesounds:55689",
       "provider": "orangefreesounds",
       "title": "Realistic Large Motorbike Passing Busy City Street Sound Effect",
@@ -807,6 +784,28 @@
         "mp3"
       ],
       "durationSec": 360.767
+    },
+    {
+      "id": "bbc:00008030",
+      "provider": "bbc",
+      "title": "City skyline",
+      "category": "ambience",
+      "url": "https://sound-effects.bbcrewind.co.uk/search?q=00008030",
+      "previewUrl": "https://sound-effects-media.bbcrewind.co.uk/mp3/00008030.mp3",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-BBC-RemArc",
+        "name": "BBC RemArc licence",
+        "url": "https://sound-effects.bbcrewind.co.uk/licensing",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ],
+      "durationSec": 29.008
     }
   ]
 }
