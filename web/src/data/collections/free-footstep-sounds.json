@@ -6,7 +6,7 @@
       "foley"
     ]
   },
-  "updatedAt": "2026-10-24T09:09:15.134Z",
+  "updatedAt": "2026-11-20T13:39:41.653Z",
   "samples": [
     {
       "id": "wikimediacommons:Footstep_on_Gravel_(Gravity_Sound).mp3",
@@ -477,23 +477,6 @@
       "durationSec": 26
     },
     {
-      "id": "opengameart:cozy-sfx-sampler-%E2%80%94-60-cute-sound-effects-ui-farm-rpg-retro-spooky-footsteps",
-      "provider": "opengameart",
-      "title": "Cozy SFX Sampler — 60 cute sound effects (UI, farm, RPG, retro, spooky, footsteps)",
-      "category": "foley",
-      "url": "https://opengameart.org/content/cozy-sfx-sampler-%E2%80%94-60-cute-sound-effects-ui-farm-rpg-retro-spooky-footsteps",
-      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/cozy-sfx-sampler-preview.ogg.mp3",
-      "downloadable": true,
-      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/cozy-sfx-sampler-preview.ogg.png",
-      "license": {
-        "id": "LicenseRef-OpenGameArt-per-item-licence",
-        "name": "OpenGameArt per-item licence",
-        "url": "https://opengameart.org/content/faq",
-        "verdict": "check-terms"
-      },
-      "free": true
-    },
-    {
       "id": "orangefreesounds:55487",
       "provider": "orangefreesounds",
       "title": "Footsteps In Snow – Dry Crunchy Walking Sound Effect For Games & Videos",
@@ -761,6 +744,28 @@
         "wav"
       ],
       "durationSec": 28.76
+    },
+    {
+      "id": "bbc:07004063",
+      "provider": "bbc",
+      "title": "Footsteps in snow, 4 men. (With approach and stop)",
+      "category": "foley",
+      "url": "https://sound-effects.bbcrewind.co.uk/search?q=07004063",
+      "previewUrl": "https://sound-effects-media.bbcrewind.co.uk/mp3/07004063.mp3",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-BBC-RemArc",
+        "name": "BBC RemArc licence",
+        "url": "https://sound-effects.bbcrewind.co.uk/licensing",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ],
+      "durationSec": 35.267
     }
   ]
 }

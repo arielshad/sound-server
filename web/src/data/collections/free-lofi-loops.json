@@ -6,7 +6,7 @@
       "loop"
     ]
   },
-  "updatedAt": "2026-10-23T09:41:00.078Z",
+  "updatedAt": "2026-11-20T13:41:15.588Z",
   "samples": [
     {
       "id": "openverse:2f5d351d-a1de-41d9-ba70-c73ba285c875",
@@ -439,24 +439,6 @@
       "durationSec": 14156.321
     },
     {
-      "id": "opengameart:cozy-music-sampler-%E2%80%94-7-seamless-loops-lofi-farm-fantasy-tavern-halloween-winter-caf%C3%A9-space",
-      "provider": "opengameart",
-      "title": "Cozy Music Sampler — 7 Seamless Loops (Lofi, Farm, Fantasy Tavern, Halloween, Winter, Café, Space)",
-      "category": "other",
-      "url": "https://opengameart.org/content/cozy-music-sampler-%E2%80%94-7-seamless-loops-lofi-farm-fantasy-tavern-halloween-winter-caf%C3%A9-space",
-      "previewUrl": "https://opengameart.org/sites/default/files/audio_preview/cozy-music-sampler-preview.ogg.mp3",
-      "downloadable": true,
-      "form": "loop",
-      "thumbnailUrl": "https://opengameart.org/sites/default/files/styles/thumbnail/public/audio_preview/cozy-music-sampler-preview.ogg.png",
-      "license": {
-        "id": "LicenseRef-OpenGameArt-per-item-licence",
-        "name": "OpenGameArt per-item licence",
-        "url": "https://opengameart.org/content/faq",
-        "verdict": "check-terms"
-      },
-      "free": true
-    },
-    {
       "id": "openverse:c5975ab3-9574-4fe2-8974-d692321e9e43",
       "provider": "openverse",
       "title": "Dusty Lofi Drum Loop 95 BPM.wav",
@@ -798,6 +780,30 @@
         "verdict": "check-terms"
       },
       "free": true
+    },
+    {
+      "id": "openverse:51eb7ef4-afff-4031-8ed6-d09cd499419a",
+      "provider": "openverse",
+      "title": "lofi piano loop.wav",
+      "category": "keys",
+      "url": "https://freesound.org/people/betabeats./sounds/653690",
+      "previewUrl": "https://cdn.freesound.org/previews/653/653690_14265722-hq.mp3",
+      "downloadable": true,
+      "form": "loop",
+      "author": "betabeats.",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 61.44
     }
   ]
 }
