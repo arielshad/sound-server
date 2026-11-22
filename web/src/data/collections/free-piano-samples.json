@@ -6,7 +6,7 @@
       "keys"
     ]
   },
-  "updatedAt": "2026-10-23T09:41:58.745Z",
+  "updatedAt": "2026-11-22T12:56:25.548Z",
   "samples": [
     {
       "id": "openverse:2c51e4eb-dbe7-468c-ba6c-d1c85a1b71ae",
@@ -636,29 +636,6 @@
       "durationSec": 19.505
     },
     {
-      "id": "orangefreesounds:58123",
-      "provider": "orangefreesounds",
-      "title": "Cinematic Ambient Emotional Piano Music",
-      "category": "keys",
-      "url": "https://orangefreesounds.com/cinematic-ambient-emotional-piano-music/",
-      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/08/Cinematic-ambient-emotional-piano-music.mp3",
-      "downloadable": true,
-      "form": "phrase",
-      "author": "Alexander Blu",
-      "license": {
-        "id": "CC-BY-NC-4.0",
-        "name": "CC BY-NC 4.0",
-        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
-        "verdict": "no",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "mp3"
-      ],
-      "durationSec": 108
-    },
-    {
       "id": "strudel:piano/piano/0",
       "provider": "strudel",
       "title": "Salamander Grand Piano · piano A0 · 0",
@@ -839,6 +816,30 @@
         "mp3"
       ],
       "durationSec": 438.679
+    },
+    {
+      "id": "orangefreesounds:60966",
+      "provider": "orangefreesounds",
+      "title": "Festive Christmas Piano – Magical Holiday Instrumental Music",
+      "category": "keys",
+      "url": "https://orangefreesounds.com/festive-christmas-piano-magical-holiday-instrumental-music/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/11/Festive-christmas-piano-magical-holiday-instrumental-music.mp3",
+      "downloadable": true,
+      "form": "phrase",
+      "author": "Alexander Blu",
+      "license": {
+        "id": "CC-BY-4.0",
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "bpm": 102,
+      "durationSec": 78
     }
   ]
 }
