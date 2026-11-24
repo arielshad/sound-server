@@ -6,7 +6,7 @@
       "drums"
     ]
   },
-  "updatedAt": "2026-11-23T15:31:09.377Z",
+  "updatedAt": "2026-11-24T15:23:10.368Z",
   "samples": [
     {
       "id": "strudel:tidal-drum-machines/RolandTR909_bd/0",
@@ -417,6 +417,145 @@
         "wav"
       ],
       "durationSec": 0.348
+    },
+    {
+      "id": "wikimediacommons:909_Beat_(Antti_Luode).mp3",
+      "provider": "wikimediacommons",
+      "title": "909 Beat (Antti Luode)",
+      "category": "drums",
+      "url": "https://commons.wikimedia.org/wiki/File:909_Beat_(Antti_Luode).mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/909_Beat_%28Antti_Luode%29.mp3",
+      "downloadable": true,
+      "author": "Antti Luode",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 256.444
+    },
+    {
+      "id": "wikimediacommons:909_house_pattern.ogg",
+      "provider": "wikimediacommons",
+      "title": "909 house pattern",
+      "category": "drums",
+      "url": "https://commons.wikimedia.org/wiki/File:909_house_pattern.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4f/909_house_pattern.ogg/909_house_pattern.ogg.mp3",
+      "downloadable": true,
+      "author": "Christian Carville",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 8.094
+    },
+    {
+      "id": "wikimediacommons:909_Beat_2_(Antti_Luode).mp3",
+      "provider": "wikimediacommons",
+      "title": "909 Beat 2 (Antti Luode)",
+      "category": "drums",
+      "url": "https://commons.wikimedia.org/wiki/File:909_Beat_2_(Antti_Luode).mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/909_Beat_2_%28Antti_Luode%29.mp3",
+      "downloadable": true,
+      "author": "Antti Luode",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 125.466
+    },
+    {
+      "id": "wikimediacommons:TR-909_sound_example.ogg",
+      "provider": "wikimediacommons",
+      "title": "TR-909 sound example",
+      "category": "drums",
+      "url": "https://commons.wikimedia.org/wiki/File:TR-909_sound_example.ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2a/TR-909_sound_example.ogg/TR-909_sound_example.ogg.mp3",
+      "downloadable": true,
+      "author": "TBergman",
+      "license": {
+        "id": "CC-BY-SA-3.0",
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 16.125
+    },
+    {
+      "id": "wikimediacommons:Break_Beat_Meets_909_(Antti_Luode).mp3",
+      "provider": "wikimediacommons",
+      "title": "Break Beat Meets 909 (Antti Luode)",
+      "category": "drums.break",
+      "url": "https://commons.wikimedia.org/wiki/File:Break_Beat_Meets_909_(Antti_Luode).mp3",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Break_Beat_Meets_909_%28Antti_Luode%29.mp3",
+      "downloadable": true,
+      "author": "Antti Luode",
+      "license": {
+        "id": "CC-BY-3.0",
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 230.766
+    },
+    {
+      "id": "wikimediacommons:TR-909_House_Beat.wav",
+      "provider": "wikimediacommons",
+      "title": "TR-909 House Beat",
+      "category": "drums",
+      "url": "https://commons.wikimedia.org/wiki/File:TR-909_House_Beat.wav",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cb/TR-909_House_Beat.wav/TR-909_House_Beat.wav.mp3",
+      "downloadable": true,
+      "author": "Thejames428",
+      "license": {
+        "id": "CC-BY-SA-4.0",
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "verdict": "restricted",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3",
+        "ogg"
+      ],
+      "durationSec": 8.016
     }
   ]
 }
