@@ -1383,5 +1383,46 @@
       "zenodo": 16,
       "kenney": 10
     }
+  },
+  {
+    "date": "2026-11-26",
+    "listings": 314570,
+    "free": 312495,
+    "byCategory": {
+      "ambience": 25384,
+      "foley": 3906,
+      "fx": 13794,
+      "vocals": 6146,
+      "other": 12889,
+      "drums": 5271,
+      "synth": 1358,
+      "bass": 428,
+      "keys": 332,
+      "mallets": 266,
+      "brass": 114,
+      "woodwind": 268,
+      "strings": 413,
+      "guitar": 139
+    },
+    "sources": {
+      "openverse": 4596277,
+      "wikimediacommons": 220316,
+      "bbc": 33066,
+      "ccmixter": 22009,
+      "opengameart": 11961,
+      "orangefreesounds": 8293,
+      "strudel": 7244,
+      "bigsoundbank": 3584,
+      "internetarchive": 2535,
+      "freewavesamples": 2353,
+      "blackoctopus": 1468,
+      "soundbible": 718,
+      "ghosthack": 614,
+      "sampleradar": 287,
+      "freepacks": 49,
+      "curated": 47,
+      "zenodo": 16,
+      "kenney": 10
+    }
   }
 ]
