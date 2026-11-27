@@ -7,7 +7,7 @@
       "ambience"
     ]
   },
-  "updatedAt": "2026-10-30T11:17:06.959Z",
+  "updatedAt": "2026-11-27T14:24:25.495Z",
   "samples": [
     {
       "id": "soundbible:1790-Water-Churning",
@@ -680,29 +680,6 @@
       "durationSec": 175.228
     },
     {
-      "id": "orangefreesounds:50100",
-      "provider": "orangefreesounds",
-      "title": "Water Drip Sound Effect",
-      "category": "foley",
-      "url": "https://orangefreesounds.com/water-drip-sound-effect/",
-      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2025/03/Water-drip-sound-effect.mp3",
-      "downloadable": true,
-      "form": "one-shot",
-      "author": "Alexander",
-      "license": {
-        "id": "CC-BY-NC-4.0",
-        "name": "CC BY-NC 4.0",
-        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
-        "verdict": "no",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "mp3"
-      ],
-      "durationSec": 1
-    },
-    {
       "id": "opengameart:water-sounds",
       "provider": "opengameart",
       "title": "Water sounds",
@@ -764,6 +741,30 @@
         "mp3"
       ],
       "durationSec": 20.28
+    },
+    {
+      "id": "openverse:3b3af210-56e8-45be-882c-3005e07557bb",
+      "provider": "openverse",
+      "title": "Single Water Drop",
+      "category": "foley",
+      "url": "https://freesound.org/people/paespedro/sounds/174718",
+      "previewUrl": "https://cdn.freesound.org/previews/174/174718_1850811-hq.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "paespedro",
+      "license": {
+        "id": "CC0-1.0",
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "mp3",
+        "wav"
+      ],
+      "durationSec": 0.471
     }
   ]
 }

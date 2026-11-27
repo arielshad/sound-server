@@ -6,7 +6,7 @@
       "ambience"
     ]
   },
-  "updatedAt": "2026-11-16T13:12:24.395Z",
+  "updatedAt": "2026-11-27T14:23:22.878Z",
   "samples": [
     {
       "id": "openverse:6b072076-066b-45b6-9695-367a6260c96d",
@@ -704,28 +704,6 @@
       "free": true
     },
     {
-      "id": "orangefreesounds:57121",
-      "provider": "orangefreesounds",
-      "title": "Rain Falling And Hitting Concrete And Plastic Roof Sound Effect",
-      "category": "ambience",
-      "url": "https://orangefreesounds.com/rain-falling-and-hitting-concrete-and-plastic-roof-sound-effect/",
-      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/06/Rain-falling-and-hitting-concrete-and-plastic-roof-sound-effect.mp3",
-      "downloadable": true,
-      "author": "Alexander",
-      "license": {
-        "id": "CC-BY-NC-4.0",
-        "name": "CC BY-NC 4.0",
-        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
-        "verdict": "no",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "mp3"
-      ],
-      "durationSec": 79
-    },
-    {
       "id": "openverse:a50659f6-52f5-410a-b652-8426a6e46a6b",
       "provider": "openverse",
       "title": "Rain Birds 4.wav",
@@ -771,6 +749,29 @@
         "mp3"
       ],
       "durationSec": 30
+    },
+    {
+      "id": "wikimediacommons:Rain_(1).ogg",
+      "provider": "wikimediacommons",
+      "title": "Rain (1)",
+      "category": "ambience",
+      "url": "https://commons.wikimedia.org/wiki/File:Rain_(1).ogg",
+      "previewUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0e/Rain_%281%29.ogg/Rain_%281%29.ogg.mp3",
+      "downloadable": true,
+      "author": "ezwa",
+      "license": {
+        "id": "CC-PDM-1.0",
+        "name": "Public domain",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "verdict": "yes",
+        "attributionRequired": false
+      },
+      "free": true,
+      "formats": [
+        "ogg",
+        "mp3"
+      ],
+      "durationSec": 44.957
     }
   ]
 }

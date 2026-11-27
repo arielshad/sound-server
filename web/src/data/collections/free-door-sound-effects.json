@@ -6,7 +6,7 @@
       "foley"
     ]
   },
-  "updatedAt": "2026-10-23T09:38:12.272Z",
+  "updatedAt": "2026-11-27T14:22:35.312Z",
   "samples": [
     {
       "id": "wikimediacommons:Metal_cabinet_door_jarring.ogg",
@@ -678,28 +678,6 @@
       "free": true
     },
     {
-      "id": "orangefreesounds:56863",
-      "provider": "orangefreesounds",
-      "title": "Heavy Door Knock Sound Effect",
-      "category": "foley",
-      "url": "https://orangefreesounds.com/heavy-door-knock-sound-effect/",
-      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/05/Heavy-door-knock-sound-effect.mp3",
-      "downloadable": true,
-      "author": "Alexander",
-      "license": {
-        "id": "CC-BY-NC-4.0",
-        "name": "CC BY-NC 4.0",
-        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
-        "verdict": "no",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "mp3"
-      ],
-      "durationSec": 3
-    },
-    {
       "id": "soundbible:297-Cellar-Door-Slam-Shut",
       "provider": "soundbible",
       "title": "Cellar Door Slam Shut",
@@ -780,6 +758,28 @@
         "wav"
       ],
       "durationSec": 3.448
+    },
+    {
+      "id": "bbc:07027114",
+      "provider": "bbc",
+      "title": "Car Door: In Open, opened and shut.",
+      "category": "foley",
+      "url": "https://sound-effects.bbcrewind.co.uk/search?q=07027114",
+      "previewUrl": "https://sound-effects-media.bbcrewind.co.uk/mp3/07027114.mp3",
+      "downloadable": true,
+      "license": {
+        "id": "LicenseRef-BBC-RemArc",
+        "name": "BBC RemArc licence",
+        "url": "https://sound-effects.bbcrewind.co.uk/licensing",
+        "verdict": "no",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "wav",
+        "mp3"
+      ],
+      "durationSec": 4.711
     }
   ]
 }
