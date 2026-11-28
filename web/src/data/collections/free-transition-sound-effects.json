@@ -6,7 +6,7 @@
       "fx.transition"
     ]
   },
-  "updatedAt": "2026-11-17T13:54:39.347Z",
+  "updatedAt": "2026-11-28T13:40:31.303Z",
   "samples": [
     {
       "id": "wikimediacommons:Sheffield_Indymedia_-_2011-07-09_Transition_Network_Conference_2011_-ttcon2011_-_5_Transition_and_Activism.vorb.oga",
@@ -527,29 +527,6 @@
       "durationSec": 362.218
     },
     {
-      "id": "orangefreesounds:57374",
-      "provider": "orangefreesounds",
-      "title": "Dynamic Build-Up Transition Sound Effect",
-      "category": "fx.transition",
-      "url": "https://orangefreesounds.com/dynamic-build-up-transition-sound-effect/",
-      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/07/Dynamic-build-up-transition-sound-effect.mp3",
-      "downloadable": true,
-      "form": "one-shot",
-      "author": "Alexander",
-      "license": {
-        "id": "CC-BY-NC-4.0",
-        "name": "CC BY-NC 4.0",
-        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
-        "verdict": "no",
-        "attributionRequired": true
-      },
-      "free": true,
-      "formats": [
-        "mp3"
-      ],
-      "durationSec": 7
-    },
-    {
       "id": "wikimediacommons:Sheffield_Indymedia_-_2011-07-09_Transition_Network_Conference_2011_-ttcon2011_-_2_Introducing_the_Ingredients_of_Transition_and_Transition_as_Cookery.vorb.oga",
       "provider": "wikimediacommons",
       "title": "Sheffield Indymedia - 2011-07-09 Transition Network Conference 2011 -ttcon2011 - 2 Introducing the Ingredients of Transition and Transition as Cookery.vorb",
@@ -821,6 +798,29 @@
         "name": "CC BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/",
         "verdict": "yes-with-credit",
+        "attributionRequired": true
+      },
+      "free": true,
+      "formats": [
+        "mp3"
+      ],
+      "durationSec": 6
+    },
+    {
+      "id": "orangefreesounds:61018",
+      "provider": "orangefreesounds",
+      "title": "Psychedelic Space Ambience Transition Sound Effect",
+      "category": "fx.transition",
+      "url": "https://orangefreesounds.com/psychedelic-space-ambience-transition-sound-effect/",
+      "previewUrl": "https://orangefreesounds.com/wp-content/uploads/2026/11/Psychedelic-space-ambience-transition-sound-effect.mp3",
+      "downloadable": true,
+      "form": "one-shot",
+      "author": "Alexander",
+      "license": {
+        "id": "CC-BY-NC-4.0",
+        "name": "CC BY-NC 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "verdict": "no",
         "attributionRequired": true
       },
       "free": true,
